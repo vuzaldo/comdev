@@ -1,0 +1,3798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<map_upgrade>
+		<id>1</id>
+		<name>The Ranger</name>
+		<portrait>ranger</portrait>
+		<rarity>3</rarity>
+		<desc>Recruit the Ranger to give all of your creatures Pierce.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Pierce 2.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures Pierce 2.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Pierce 4.</desc>
+			<desc_upgrade>All of your creatures gain Pierce ^c0F0F4^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Pierce 6.</desc>
+			<desc_upgrade>All of your creatures gain Pierce ^c0F0F6^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Pierce 8.</desc>
+			<desc_upgrade>All of your creatures gain Pierce ^c0F0F8^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Pierce 10.</desc>
+			<desc_upgrade>All of your creatures gain Pierce ^c0F0F10^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='10' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>2</id>
+		<name>The Guardian</name>
+		<portrait>lanternguardian</portrait>
+		<rarity>3</rarity>
+		<desc>Recruit the Guardian and they will protect your creatures with Barrier each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are protected by Barrier 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='3' all='3' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>3</id>
+		<name>The Healer</name>
+		<portrait>goldencrownmayor</portrait>
+		<rarity>4</rarity>
+		<desc>Recruit the Healer and they will restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>4</id>
+		<name>The Assassin</name>
+		<portrait>invisibleassassin</portrait>
+		<rarity>4</rarity>
+		<desc>Recruit the Assassin to deal damage to enemy creatures on the turn they are played.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>Whenever the enemy plays a creature, The Assassin deals 10% of their health to them as damage.</desc>
+			<desc_upgrade>^c0F0FWhenever the enemy plays a creature, The Assassin deals 10% of their health to them as damage.</desc_upgrade>
+			<effect>
+				<on_play defender='1'>
+					<skill id='ambush' base='health' mult='0.1' />
+				</on_play>
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>Whenever the enemy plays a creature, The Assassin deals 15% of their health to them as damage.</desc>
+			<desc_upgrade>Whenever the enemy plays a creature, The Assassin deals ^c0F0F15%^cFFFF of their health to them as damage.</desc_upgrade>
+			<effect>
+				<on_play defender='1'>
+					<skill id='ambush' base='health' mult='0.15' />
+				</on_play>
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>Whenever the enemy plays a creature, The Assassin deals 20% of their health to them as damage.</desc>
+			<desc_upgrade>Whenever the enemy plays a creature, The Assassin deals ^c0F0F20%^cFFFF of their health to them as damage.</desc_upgrade>
+			<effect>
+				<on_play defender='1'>
+					<skill id='ambush' base='health' mult='0.20' />
+				</on_play>
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>Whenever the enemy plays a creature, The Assassin deals 25% of their health to them as damage.</desc>
+			<desc_upgrade>Whenever the enemy plays a creature, The Assassin deals ^c0F0F25%^cFFFF of their health to them as damage.</desc_upgrade>
+			<effect>
+				<on_play defender='1'>
+					<skill id='ambush' base='health' mult='0.25' />
+				</on_play>
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>Whenever the enemy plays a creature, The Assassin deals 35% of their health to them as damage.</desc>
+			<desc_upgrade>Whenever the enemy plays a creature, The Assassin deals ^c0F0F35%^cFFFF of their health to them as damage.</desc_upgrade>
+			<effect>
+				<on_play defender='1'>
+					<skill id='ambush' base='health' mult='0.35' />
+				</on_play>
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>Whenever the enemy plays a creature, The Assassin deals 50% of their health to them as damage.</desc>
+			<desc_upgrade>Whenever the enemy plays a creature, The Assassin deals ^c0F0F50%^cFFFF of their health to them as damage.</desc_upgrade>
+			<effect>
+				<on_play defender='1'>
+					<skill id='ambush' base='health' mult='0.5' />
+				</on_play>
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>5</id>
+		<name>Duskwillow Aegis</name>
+		<portrait>Portraits_Shield</portrait>
+		<rarity>4</rarity>
+		<desc>Find the Aegis of Duskwillow to give all of your creatures Armor each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Armor 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Armor 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Armor 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Armor 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Armor 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Armor 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Armor 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>6</id>
+		<name>Blazing Dyrnwyn</name>
+		<portrait>Portraits_Fire_Sword</portrait>
+		<rarity>4</rarity>
+		<desc>Find Blazing Dyrnwyn to give all of your creatures Scorch each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Scorch 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Scorch 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Scorch 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Scorch 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Scorch 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Scorch 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Scorch 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain Scorch ^c0F0FScorch 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>7</id>
+		<name>Life Water</name>
+		<portrait>Portraits_Water_of_Life</portrait>
+		<rarity>4</rarity>
+		<desc>Find Life Water to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- April Fools -->
+	<map_upgrade>
+		<id>8</id>
+		<name>Buff Wand</name>
+		<portrait>buffwand</portrait>
+		<rarity>4</rarity>
+		<desc>Find the Buff Wand to increase the attack of allied creatures!</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Empowered 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Empowered 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='rally' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Empowered 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are Empowered^c0F0F 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='rally' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>400</upgrade_cost>
+			<desc>All of your creatures are Empowered 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are Empowered^c0F0F 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='rally' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Empowered 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are Empowered^c0F0F 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='rally' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>2000</upgrade_cost>
+			<desc>All of your creatures are Empowered 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are Empowered^c0F0F 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='rally' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>10000</upgrade_cost>
+			<desc>All of your creatures are Empowered 10 each turn.</desc>
+			<desc_upgrade>All of your creatures are Empowered^c0F0F 10^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='rally' x='10' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>9</id>
+		<name>Nerf Stick</name>
+		<portrait>nerfstick</portrait>
+		<rarity>4</rarity>
+		<desc>Find the Nerf Stick to weaken and eventually remove skills from your opponent's creatures!</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>Weaken one enemy creature by 2.</desc>
+			<desc_upgrade>^c0F0FWeaken one enemy creature by 2.^cFFFF</desc_upgrade>
+			<effect>
+				<skill id='weaken' x='2' enemy_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>Weaken one enemy creature by 3.</desc>
+			<desc_upgrade>Weaken one enemy creature by ^c0F0F3^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='weaken' x='3' enemy_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>400</upgrade_cost>
+			<desc>Weaken all enemy creatures by 2.</desc>
+			<desc_upgrade>^c0F0FWeaken all enemy creatures by 2.^cFFFF</desc_upgrade>
+			<effect>
+				<skill id='weaken' all='1' x='2' enemy_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>Weaken all enemy creatures by 3.</desc>
+			<desc_upgrade>Weaken all enemy creatures by ^c0F0F3^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='weaken' all='1' x='3' enemy_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>2000</upgrade_cost>
+			<desc>One of your creatures gains Silence every turn.</desc>
+			<desc_upgrade>^c0F0FOne of your creatures gains Silence every turn.^cFFFF</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='silence' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>10000</upgrade_cost>
+			<desc>All of your creatures gains Silence every turn.</desc>
+			<desc_upgrade>^c0F0FAll^cFFFF of your creatures gains Silence every turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='silence' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>10</id>
+		<name>Ban Hammer</name>
+		<portrait>banhammer</portrait>
+		<rarity>4</rarity>
+		<desc>Find the Ban Hammer to Nullify and eventually remove enemy creatures from combat! READ THE TERMS AND CONDITIONS!</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>One of your creatures gains Nullify 1 every turn.</desc>
+			<desc_upgrade>^c0F0FOne of your creatures gains Nullify 1 every turn.^cFFFF</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>One of your creatures gains Nullify 2 every turn.</desc>
+			<desc_upgrade>One of your creatures gains Nullify ^c0F0F2^cFFFF every turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='2' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>400</upgrade_cost>
+			<desc>One of your creatures gains Nullify 3 every turn.</desc>
+			<desc_upgrade>One of your creatures gains Nullify ^c0F0F3^cFFFF every turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='3' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>One of your creatures gains Nullify 4 every turn.</desc>
+			<desc_upgrade>One of your creatures gains Nullify ^c0F0F4^cFFFF every turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='4' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>Freeze a random enemy creature every turn.</desc>
+			<desc_upgrade>^c0F0FFreeze a random enemy creature every turn.^cFFFF</desc_upgrade>
+			<effect>
+				<skill id='jam' enemy_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>15000</upgrade_cost>
+			<desc>Freeze all enemy creatures every turn.</desc>
+			<desc_upgrade>^c0F0FFreeze all enemy creatures every turn.</desc_upgrade>
+			<effect>
+				<skill id='jam' all='1' enemy_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>11</id>
+		<name>Dyrnwyn Reborn</name>
+		<portrait>dyrnwynSupersword</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade Dyrnwyn Reborn to give all of your creatures Emberhide each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Emberhide 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>12</id>
+		<name>Seastone Staff</name>
+		<portrait>seastoneStaff</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Seastone Staff to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>13</id>
+		<name>Heart of Blue Fire</name>
+		<portrait>heartOfBlueFire</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Heart of Blue Fire to give your creatures Berserk each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Berserk 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Berserk 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Berserk 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Berserk 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Berserk 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Berserk 5 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Berserk 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- Campaign Event 4 -->
+
+	<map_upgrade>
+		<id>14</id>
+		<name>Earth Spiritling</name>
+		<portrait>earthSprite</portrait>
+		<rarity>4</rarity>
+		<desc>Feed the Earth Spiritling to give all of your creatures Armor each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Armor 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Armor 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Armor 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Armor 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Armor 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Armor 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Armor 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>15</id>
+		<name>Wind Spiritling</name>
+		<portrait>windSprite</portrait>
+		<rarity>4</rarity>
+		<desc>Feed the Wind Spiritling to give your creatures Siphon each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Siphon 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Siphon 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Siphon 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Siphon 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Siphon 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Siphon 5 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Siphon 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>16</id>
+		<name>Fire Spiritling</name>
+		<portrait>fireSprite</portrait>
+		<rarity>4</rarity>
+		<desc>Feed the Fire Spiritling to give your creatures Berserk each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Berserk 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Berserk 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Berserk 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Berserk 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Berserk 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Berserk 5 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Berserk 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>17</id>
+		<name>Hermit Cannon</name>
+		<portrait>Portraits_Seafolk_Ancient_Cannon</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Hermit Cannon to Bolt enemy creatures each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll enemy creatures are hit with Bolt 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='1' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 2 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='2' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 3 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='3' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 4 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='4' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 5 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='5' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 6 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='6' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>18</id>
+		<name>Edgemaker Forge</name>
+		<portrait>Portraits_Seafolk_Energy_Generato</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Edgemaker Forge to give all of your creatures Pierce each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Pierce 2 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Pierce 2 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Pierce 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Pierce 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Pierce 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Pierce 10 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 10^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='10' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Pierce 15 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 15^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='15' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>19</id>
+		<name>Sea Urchin Wall</name>
+		<portrait>Portraits_Seafolk_Spiked_Wall</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Sea Urchin Wall to give all of your creatures Vengeance each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Vengeance 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 10 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 10^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='10' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- Campaign Event 6 -->
+
+	<map_upgrade>
+		<id>20</id>
+		<name>Aether Gemstone</name>
+		<portrait>Portraits_Power_Gem_Stone_Aether</portrait>
+		<rarity>4</rarity>
+		<desc>Power up the Aether Gemstone and it will protect your creatures with Barrier each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are protected by Barrier 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='3' all='3' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>21</id>
+		<name>Wyld Gemstone</name>
+		<portrait>Portraits_Power_Gem_Stone_Wyld</portrait>
+		<rarity>4</rarity>
+		<desc>Power up the Wyld Gemstone and it will restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>22</id>
+		<name>Chaos Gemstone</name>
+		<portrait>Portraits_Power_Gem_Stone_Chaos</portrait>
+		<rarity>4</rarity>
+		<desc>Power up the Chaos Gemstone to give all of your creatures Scorch each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Scorch 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Scorch 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Scorch 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Scorch 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Scorch 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Scorch 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Scorch 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain Scorch ^c0F0FScorch 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- The Celestial Vault -->
+
+	<map_upgrade>
+		<id>23</id>
+		<name>Petal Orb</name>
+		<portrait>powergemOrbsFlower</portrait>
+		<rarity>4</rarity>
+		<desc>Power up the Petal Orb and it will restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>24</id>
+		<name>Lava Orb</name>
+		<portrait>powergemOrbsLava</portrait>
+		<rarity>4</rarity>
+		<desc>Power up the Lava Orb to give all of your creatures Enrage each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Enrage 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Enrage 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Enrage 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Enrage 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Enrage 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Enrage 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Enrage 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>25</id>
+		<name>Basin Orb</name>
+		<portrait>powergemOrbsWater</portrait>
+		<rarity>4</rarity>
+		<desc>Power up the Basin Orb and it will protect your creatures with Barrier each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are protected by Barrier 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='3' all='3' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- Campaign Event 8 Skyhaven -->
+
+	<map_upgrade>
+		<id>26</id>
+		<name>Tome of Firebolt</name>
+		<portrait>Portrait_PBGE_Tome_Fireball</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Tome of Firebolt to Bolt enemy creatures each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll enemy creatures are hit with Bolt 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='1' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 2 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='2' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 3 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='3' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 4 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='4' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 5 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='5' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 6 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='6' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>27</id>
+		<name>Tome of Shielding</name>
+		<portrait>Portrait_PBGE_Tome_Vengeance</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Tome of Shielding to give all of your creatures Armor each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Armor 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Armor 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Armor 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Armor 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Armor 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Armor 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Armor 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>28</id>
+		<name>Tome of Darkness</name>
+		<portrait>Portrait_PBGE_Tome_Darkness</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Tome of Darkness to give all of your creatures Nullify each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Nullify 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Nullify 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Nullify 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FNullify 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Nullify 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FNullify 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Nullify 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FNullify 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Nullify 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FNullify 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Nullify 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FNullify 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='nullify' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>29</id>
+		<name>Overprotective Dragonling</name>
+		<portrait>Portraits_Young_Dragon_Blue</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Overprotective Dragonling to give all of your creatures Ward each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Ward 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Ward 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Ward 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Ward 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Ward 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Ward 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Ward 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>30</id>
+		<name>Hotblooded Dragonling</name>
+		<portrait>Portraits_Young_Dragon_Red</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Hotblooded Dragonling to give all of your creatures Emberhide each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Emberhide 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>31</id>
+		<name>Gusty Dragonling</name>
+		<portrait>Portraits_Young_Dragon_Green</portrait>
+		<rarity>4</rarity>
+		<desc>Feed the Gusty Dragonling to give your creatures Siphon each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Siphon 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Siphon 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Siphon 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Siphon 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Siphon 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Siphon 5 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Siphon 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FSiphon 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='leech' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>32</id>
+		<name>Crab Seer</name>
+		<portrait>Portrait_Crab_Sage</portrait>
+		<rarity>4</rarity>
+		<desc>Recruit the Crab Seer to give all of your creatures Pierce each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Pierce 2 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Pierce 2 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Pierce 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Pierce 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Pierce 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Pierce 10 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 10^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='10' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Pierce 15 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 15^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='15' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>33</id>
+		<name>Spriggan Seer</name>
+		<portrait>Portrait_Spriggan_Sage</portrait>
+		<rarity>4</rarity>
+		<desc>Recruit the Spriggan Seer and to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>34</id>
+		<name>Insect Seer</name>
+		<portrait>Portrait_Insect_Sage</portrait>
+		<rarity>4</rarity>
+		<desc>Recruit the Insect Seer to give all of your creatures Emberhide each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Emberhide 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Emberhide 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEmberhide 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counterburn' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- Campaign Event 11 Golden Crown Village -->
+
+	<map_upgrade>
+		<id>35</id>
+		<name>Airship Support</name>
+		<portrait>Portrait_Airship_Upgrades_Shield_Blue</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade your Airship Support to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>36</id>
+		<name>Airship Countermeasures</name>
+		<portrait>Portrait_Airship_Upgrades_Shield_Red</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade your Airship Countermeasures to give all of your creatures Vengeance each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Vengeance 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 10 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 10^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='10' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>37</id>
+		<name>Airship Cannon</name>
+		<portrait>Portrait_Airship_Upgrades_Cannon</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade your Airship Cannons to Bolt enemy creatures each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll enemy creatures are hit with Bolt 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='1' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 2 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='2' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 3 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='3' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 4 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='4' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 5 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='5' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 6 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='6' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- Campaign Event 12 Desecrated Red Valley -->
+
+	<map_upgrade>
+		<id>38</id>
+		<name>Healing Glyph</name>
+		<portrait>Portrait_Magical_Rune_Heart</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Healing Glyph to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>39</id>
+		<name>Shielding Glyph</name>
+		<portrait>Portrait_Magical_Rune_Shield</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Shielding Glyph to protect your creatures with Armor each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Armor 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Armor 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Armor 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Armor 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Armor 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Armor 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Armor 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>40</id>
+		<name>Scorching Glyph</name>
+		<portrait>Portrait_Magical_Rune_Flame</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Scorching Glyph to give all of your creatures Scorch each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Scorch 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Scorch 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Scorch 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Scorch 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Scorch 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Scorch 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Scorch 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain Scorch ^c0F0FScorch 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>41</id>
+		<name>Ward Fossil</name>
+		<portrait>Portrait_Dragon_Fossil_Plesio</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Ward Fossil to give all of your creatures Ward each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Ward 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Ward 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Ward 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Ward 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Ward 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Ward 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Ward 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>42</id>
+		<name>Vengeful Fossil</name>
+		<portrait>Portrait_Dragon_Fossil_Raptor</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade your Vengeful Fossil to give all of your creatures Vengeance each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Vengeance 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Vengeance 10 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FVengeance 10^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='counter' x='10' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>43</id>
+		<name>Spitfire Fossil</name>
+		<portrait>Portrait_Dragon_Fossil_Dactyl</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Spitfire Fossil to Bolt enemy creatures each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll enemy creatures are hit with Bolt 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='1' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 2 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='2' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 3 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='3' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 4 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='4' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 5 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='5' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 6 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='6' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>44</id>
+		<name>Samael</name>
+		<portrait>samaelWithFiresword</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade Samael and Dyrnwyn to give all of your creatures Scorch each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Scorch 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Scorch 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Scorch 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Scorch 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Scorch 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Scorch 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Scorch 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain Scorch ^c0F0FScorch 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>45</id>
+		<name>Yuriel</name>
+		<portrait>yurielupgrade</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade Yuriel and his tomes to protect your creatures with Barrier each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are protected by Barrier 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='3' all='3' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are protected by Barrier 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are protected by ^c0F0FBarrier 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='protect' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+	<map_upgrade>
+		<id>46</id>
+		<name>Arena Equipment</name>
+		<portrait>Portraits_Shield</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade your own gear to protect your creatures with Armor each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Armor 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Armor 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Armor 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Armor 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Armor 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Armor 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Armor 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+<!-- Three Titans -->
+	<map_upgrade>
+		<id>47</id>
+		<name>Memory of Wyld</name>
+		<portrait>wyldguardian</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Memory of the Wyld to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>48</id>
+		<name>Memory of Chaos</name>
+		<portrait>chaosguardian</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Memory of Chaos to give all of your creatures Enrage each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Enrage 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Enrage 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Enrage 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Enrage 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Enrage 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Enrage 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Enrage 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FEnrage 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='enrage' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>49</id>
+		<name>Memory of Aether</name>
+		<portrait>aetherguardian</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Memory of Aether to give all of your creatures Ward each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Ward 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Ward 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Ward 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Ward 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Ward 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Ward 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Ward 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- First Order Defense -->
+	<map_upgrade>
+		<id>50</id>
+		<name>Sea Guardian Bones</name>
+		<portrait>Portrait_Dragon_Fossil_Plesio</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Sea Guardian Bones to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>51</id>
+		<name>Land Guardian Bones</name>
+		<portrait>Portrait_Dragon_Fossil_Raptor</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Land Guardian Bones to protect your creatures with Armor each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Armor 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Armor 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Armor 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Armor 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Armor 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Armor 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Armor 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='armored' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>52</id>
+		<name>Sky Guardian Bones</name>
+		<portrait>Portrait_Dragon_Fossil_Dactyl</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Sky Guardian Bones to Bolt enemy creatures each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll enemy creatures are hit with Bolt 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='1' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 2 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='2' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 3 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='3' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 4 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='4' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 5 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='5' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 6 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='6' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+
+	<!-- Malchior's Defenses -->
+	<map_upgrade>
+		<id>53</id>
+		<name>Flame Maker</name>
+		<portrait>Portraits_Seafolk_Energy_Generato</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Flame Maker to give all your creatures Scorch each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Scorch 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Scorch 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Scorch 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Scorch 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Scorch 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Scorch 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FScorch 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Scorch 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain Scorch ^c0F0FScorch 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='burn' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>54</id>
+		<name>Holy Water</name>
+		<portrait>Portraits_Water_of_Life</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Holy Water to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>55</id>
+		<name>Treebark Shield</name>
+		<portrait>Portraits_Shield</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Treebark Shield to give all of your creatures Ward each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Ward 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Ward 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Ward 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Ward 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Ward 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Ward 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Ward 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- Dawnglow Defenses -->
+	<map_upgrade>
+		<id>56</id>
+		<name>Healing Turret</name>
+		<portrait>arcaneturret</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Magical Turret to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>57</id>
+		<name>Automaton Driller</name>
+		<portrait>Portraits_Miner_Droid</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Automaton Driller to give all your creatures Pierce each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Pierce 2.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures Pierce 2.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Pierce 4.</desc>
+			<desc_upgrade>All of your creatures gain Pierce ^c0F0F4^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Pierce 6.</desc>
+			<desc_upgrade>All of your creatures gain Pierce ^c0F0F6^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Pierce 8.</desc>
+			<desc_upgrade>All of your creatures gain Pierce ^c0F0F8^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Pierce 10.</desc>
+			<desc_upgrade>All of your creatures gain Pierce ^c0F0F10^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='10' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Pierce 15.</desc>
+			<desc_upgrade>All of your creatures gain Pierce ^c0F0F15^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='pierce' x='15' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>58</id>
+		<name>Dawnglow Guardian</name>
+		<portrait>dawnglowmonster</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade the Dawnglow Guardian to give all your creatures Berserk each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Berserk 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Berserk 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Berserk 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Berserk 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Berserk 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Berserk 5 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Berserk 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FBerserk 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='berserk' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<!-- Crimsonwing Spirits -->
+	<map_upgrade>
+		<id>59</id>
+		<name>Batara, Commander</name>
+		<portrait>Portrait_Angel_Demon_Samurai</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade Batara to give your creatures Ward each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures gain Ward 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Ward 1 each turn^cFFFF.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures gain Ward 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Ward 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures gain Ward 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures gain Ward 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Ward 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FWard 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='imbue' s='absorb' x='8' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>60</id>
+		<name>Razi, Historian</name>
+		<portrait>Portraits_Crimson_Winged_Angel</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade Razi to  Bolt enemy creatures each turn</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll enemy creatures are hit with Bolt 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='1' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 2 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='2' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 3 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='3' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 4 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='4' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 5 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='5' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 6 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='strike' x='6' all='1' enemy_only='1' ally_turn='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+	<map_upgrade>
+		<id>61</id>
+		<name>Kachina, Reincarnation</name>
+		<portrait>Portrait_Dream_Catcher_Wings</portrait>
+		<rarity>4</rarity>
+		<desc>Upgrade Kachina to restore your creatures with Heal each turn.</desc>
+		<upgrade>
+			<level>1</level>
+			<upgrade_cost>50</upgrade_cost>
+			<desc>All of your creatures are Healed for 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures are Healed for 1 each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='1' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
+			<desc>All of your creatures are Healed for 2 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 2^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='2' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures are Healed for 3 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='3' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All of your creatures are Healed for 4 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 4^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='4' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
+			<desc>All of your creatures are Healed for 5 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='5' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures are Healed for 6 each turn.</desc>
+			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id='heal' x='6' all='1' ally_only='1' />
+			</effect>
+		</upgrade>
+	</map_upgrade>
+
+
+</root>

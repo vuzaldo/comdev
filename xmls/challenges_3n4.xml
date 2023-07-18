@@ -1,0 +1,1986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!--
+		1001-1999	PvE
+		2001-2999	Clash
+
+		type 1 		PvE
+		type 2 		Clash
+	-->
+
+	<!-- ============================== -->
+	<!-- ==== PvE Challenge Events ==== -->
+	<!-- ============================== -->
+
+	<challenge>
+		<id>1001</id>
+		<name>Goblin Crypt Challenge</name>
+		<desc>Defeat powerful enemies to climb levels! More difficult and better rewards with each higher level!</desc>
+		<type>1</type>
+		<portrait>skeletonwarrior</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_campaign_dragon' bundle='116'/>
+		<battleground_id>108</battleground_id>
+		<enemy_battleground_id>510</enemy_battleground_id>
+		<dungeon_upgrade_levels>100</dungeon_upgrade_levels>
+		<!-- Assets -->
+		<star_icon_1>single_star</star_icon_1>
+		<star_icon_2>single_star</star_icon_2>
+		<star_icon_3>single_star</star_icon_3>
+		<star_icon_empty_1>single_star_empty</star_icon_empty_1>
+		<star_icon_empty_2>single_star_empty</star_icon_empty_2>
+		<star_icon_empty_3>single_star_empty</star_icon_empty_3>
+		<star_bundle_1>31</star_bundle_1>
+		<star_bundle_2>31</star_bundle_2>
+		<star_bundle_3>31</star_bundle_3>
+		<defeat_icon>defeat_skull_icon</defeat_icon>
+		<star_bundle_defeat>31</star_bundle_defeat>
+		<points_icon>treasure_icon</points_icon>
+		<points_bundle>31</points_bundle>
+		<!-- End Assets -->
+		<mil_points_str>Challenge Level {0}</mil_points_str>
+		<level_change_str>Crypt</level_change_str>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>20</start_value>	<!-- Starting energy -->
+			<recharge_amount>20</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>60</max_value>				<!-- Maximum Energy -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<hc_cost>250</hc_cost>
+			<hc_cost_scalar>250</hc_cost_scalar>
+		</energy>
+ 		<commander>
+ 			<card id='383' max_mastery_level='40' />
+			<card id='386' min_mastery_level='30' />
+		</commander>
+
+		<deck>
+			<!--
+				Optional tags within <card> similar to raid are:
+
+				mastery_level='#' - includes card at dungeon level
+				remove_mastery_level='#' - removes card at dungeon level
+			-->
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='5' set='3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='10' set='1000,3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='15' set='1000,3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='20' set='3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='25' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='30' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='35' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='40' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
+			<card id='8073' mastery_level='75' /> 	<!-- Vorpal Shock Troop -->
+
+			<card id='8075' mastery_level='5' /> 	<!-- Vorpal Magnate -->
+			<card id='8077' mastery_level='10' />	<!-- Vorpal Berserker -->
+			<card id='8073' mastery_level='15' />
+			<card id='8077' mastery_level='20' />
+			<card id='8073' mastery_level='25' />
+			<card id='8078' mastery_level='30' />	<!-- Vorpal Essencer -->
+			<card id='8088' mastery_level='35' />	<!-- Vorpal Necromancer -->
+			<card id='8076' mastery_level='40' />  <!-- Vorpal Knight -->
+			<card id='8076' mastery_level='45' />
+			<card id='8088' mastery_level='45' />
+			<card id='8075' mastery_level='50' />
+			<card id='8078' mastery_level='50' />
+			<card id='8076' mastery_level='55' />
+			<card id='8077' mastery_level='55' />
+
+		</deck>
+	</challenge>
+
+	<challenge>
+		<id>1002</id>
+		<name>Dragon Crypt Challenge</name>
+		<desc>Defeat powerful enemies to climb levels! More difficult and better rewards with each higher level!</desc>
+		<type>1</type>
+		<portrait>skeletonwarrior</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_campaign_dragon' bundle='116'/>
+		<battleground_id>108</battleground_id>
+		<enemy_battleground_id>510</enemy_battleground_id>
+		<dungeon_upgrade_levels>100</dungeon_upgrade_levels>
+		<!-- Assets -->
+		<star_icon_1>single_star</star_icon_1>
+		<star_icon_2>single_star</star_icon_2>
+		<star_icon_3>DungeonNodeIcon</star_icon_3>
+		<star_icon_empty_1>single_star_empty</star_icon_empty_1>
+		<star_icon_empty_2>single_star_empty</star_icon_empty_2>
+		<star_icon_empty_3>DungeonNodeIcon</star_icon_empty_3>
+		<star_bundle_1>31</star_bundle_1>
+		<star_bundle_2>31</star_bundle_2>
+		<star_bundle_3>71</star_bundle_3>
+		<defeat_icon>defeat_skull_icon</defeat_icon>
+		<star_bundle_defeat>31</star_bundle_defeat>
+		<points_icon>treasure_icon</points_icon>
+		<points_bundle>31</points_bundle>
+		<!-- End Assets -->
+		<mil_points_str>Challenge Level {0}</mil_points_str>
+		<level_change_str>Crypt</level_change_str>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>20</start_value>	<!-- Starting energy -->
+			<recharge_amount>20</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>60</max_value>				<!-- Maximum Energy -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<hc_cost>250</hc_cost>
+			<hc_cost_scalar>250</hc_cost_scalar>
+		</energy>
+ 		<commander>
+ 			<card id='384' max_mastery_level='40' />
+			<card id='387' min_mastery_level='30' />
+		</commander>
+
+		<deck>
+			<!--
+				Optional tags within <card> similar to raid are:
+
+				mastery_level='#' - includes card at dungeon level
+				remove_mastery_level='#' - removes card at dungeon level
+			-->
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='5' set='3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='10' set='1000,3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='15' set='1000,3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='20' set='3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='25' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='30' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='35' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='40' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
+			<card id='8073' mastery_level='75' /> 	<!-- Vorpal Shock Troop -->
+
+			<card id='8075' mastery_level='5' /> 	<!-- Vorpal Magnate -->
+			<card id='8077' mastery_level='10' />	<!-- Vorpal Berserker -->
+			<card id='8073' mastery_level='15' />
+			<card id='8077' mastery_level='20' />
+			<card id='8073' mastery_level='25' />
+			<card id='8078' mastery_level='30' />	<!-- Vorpal Essencer -->
+			<card id='8088' mastery_level='35' />	<!-- Vorpal Necromancer -->
+			<card id='8076' mastery_level='40' />  	<!-- Vorpal Knight -->
+			<card id='8076' mastery_level='45' />
+			<card id='8088' mastery_level='45' />
+			<card id='8075' mastery_level='50' />
+			<card id='8078' mastery_level='50' />
+			<card id='8076' mastery_level='55' />
+			<card id='8077' mastery_level='55' />
+
+		</deck>
+	</challenge>
+
+	<challenge>
+		<id>1003</id>
+		<name>Undead Crypt Challenge</name>
+		<desc>Defeat powerful enemies to climb levels! More difficult and better rewards with each higher level!</desc>
+		<type>1</type>
+		<portrait>skeletonwarrior</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_campaign_dragon' bundle='116'/>
+		<battleground_id>108</battleground_id>
+		<enemy_battleground_id>510</enemy_battleground_id>
+		<dungeon_upgrade_levels>100</dungeon_upgrade_levels>
+		<!-- Assets -->
+		<star_icon_1>single_star</star_icon_1>
+		<star_icon_2>single_star</star_icon_2>
+		<star_icon_3>DungeonNodeIcon</star_icon_3>
+		<star_icon_empty_1>single_star_empty</star_icon_empty_1>
+		<star_icon_empty_2>single_star_empty</star_icon_empty_2>
+		<star_icon_empty_3>DungeonNodeIcon</star_icon_empty_3>
+		<star_bundle_1>31</star_bundle_1>
+		<star_bundle_2>31</star_bundle_2>
+		<star_bundle_3>71</star_bundle_3>
+		<defeat_icon>defeat_skull_icon</defeat_icon>
+		<star_bundle_defeat>31</star_bundle_defeat>
+		<points_icon>treasure_icon</points_icon>
+		<points_bundle>31</points_bundle>
+		<!-- End Assets -->
+		<mil_points_str>Challenge Level {0}</mil_points_str>
+		<level_change_str>Crypt</level_change_str>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>20</start_value>	<!-- Starting energy -->
+			<recharge_amount>20</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>60</max_value>				<!-- Maximum Energy -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<hc_cost>250</hc_cost>
+			<hc_cost_scalar>250</hc_cost_scalar>
+		</energy>
+ 		<commander>
+ 			<card id='384' max_mastery_level='40' />
+			<card id='387' min_mastery_level='30' />
+		</commander>
+
+		<deck>
+			<!--
+				Optional tags within <card> similar to raid are:
+
+				mastery_level='#' - includes card at dungeon level
+				remove_mastery_level='#' - removes card at dungeon level
+			-->
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='5' set='3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='10' set='1000,3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='15' set='1000,3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='20' set='3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='25' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='30' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='35' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='40' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
+			<card id='8073' mastery_level='75' /> 	<!-- Vorpal Shock Troop -->
+
+			<card id='8075' mastery_level='5' /> 	<!-- Vorpal Magnate -->
+			<card id='8077' mastery_level='10' />	<!-- Vorpal Berserker -->
+			<card id='8073' mastery_level='15' />
+			<card id='8077' mastery_level='20' />
+			<card id='8073' mastery_level='25' />
+			<card id='8078' mastery_level='30' />	<!-- Vorpal Essencer -->
+			<card id='8088' mastery_level='35' />	<!-- Vorpal Necromancer -->
+			<card id='8076' mastery_level='40' />  	<!-- Vorpal Knight -->
+			<card id='8076' mastery_level='45' />
+			<card id='8088' mastery_level='45' />
+			<card id='8075' mastery_level='50' />
+			<card id='8078' mastery_level='50' />
+			<card id='8076' mastery_level='55' />
+			<card id='8077' mastery_level='55' />
+
+		</deck>
+	</challenge>
+
+	<challenge>
+		<id>1004</id>
+		<name>Heal Crypt Challenge</name>
+		<desc>Defeat powerful enemies to climb levels! More difficult and better rewards with each higher level!</desc>
+		<type>1</type>
+		<portrait>skeletonwarrior</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_campaign_dragon' bundle='116'/>
+		<battleground_id>108</battleground_id>
+		<enemy_battleground_id>510</enemy_battleground_id>
+		<dungeon_upgrade_levels>100</dungeon_upgrade_levels>
+		<!-- Assets -->
+		<star_icon_1>single_star</star_icon_1>
+		<star_icon_2>single_star</star_icon_2>
+		<star_icon_3>DungeonNodeIcon</star_icon_3>
+		<star_icon_empty_1>single_star_empty</star_icon_empty_1>
+		<star_icon_empty_2>single_star_empty</star_icon_empty_2>
+		<star_icon_empty_3>DungeonNodeIcon</star_icon_empty_3>
+		<star_bundle_1>31</star_bundle_1>
+		<star_bundle_2>31</star_bundle_2>
+		<star_bundle_3>71</star_bundle_3>
+		<defeat_icon>defeat_skull_icon</defeat_icon>
+		<star_bundle_defeat>31</star_bundle_defeat>
+		<points_icon>treasure_icon</points_icon>
+		<points_bundle>31</points_bundle>
+		<!-- End Assets -->
+		<mil_points_str>Challenge Level {0}</mil_points_str>
+		<level_change_str>Crypt</level_change_str>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>20</start_value>	<!-- Starting energy -->
+			<recharge_amount>20</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>60</max_value>				<!-- Maximum Energy -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<hc_cost>250</hc_cost>
+			<hc_cost_scalar>250</hc_cost_scalar>
+		</energy>
+ 		<commander>
+ 			<card id='384' max_mastery_level='40' />
+			<card id='387' min_mastery_level='30' />
+		</commander>
+
+		<deck>
+			<!--
+				Optional tags within <card> similar to raid are:
+
+				mastery_level='#' - includes card at dungeon level
+				remove_mastery_level='#' - removes card at dungeon level
+			-->
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='5' set='3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='10' set='1000,3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='15' set='1000,3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='20' set='3000' />
+			<card min_rarity='3' max_rarity='4' remove_mastery_level='25' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='30' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='35' set='1000,3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='40' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
+			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
+			<card id='8073' mastery_level='75' /> 	<!-- Vorpal Shock Troop -->
+
+			<card id='8075' mastery_level='5' /> 	<!-- Vorpal Magnate -->
+			<card id='8077' mastery_level='10' />	<!-- Vorpal Berserker -->
+			<card id='8073' mastery_level='15' />
+			<card id='8077' mastery_level='20' />
+			<card id='8073' mastery_level='25' />
+			<card id='8078' mastery_level='30' />	<!-- Vorpal Essencer -->
+			<card id='8088' mastery_level='35' />	<!-- Vorpal Necromancer -->
+			<card id='8076' mastery_level='40' />  	<!-- Vorpal Knight -->
+			<card id='8076' mastery_level='45' />
+			<card id='8088' mastery_level='45' />
+			<card id='8075' mastery_level='50' />
+			<card id='8078' mastery_level='50' />
+			<card id='8076' mastery_level='55' />
+			<card id='8077' mastery_level='55' />
+
+		</deck>
+	</challenge>
+
+	<!-- ================================ -->
+	<!-- ==== Clash Challenge Events ==== -->
+	<!-- ================================ -->
+
+	<challenge>
+		<id>2001</id>
+		<name>Poisondart Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Frogs gain Poisonbolt equal to 50% of their base Attack and all enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>Portraits_Tribal_Frog</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_frogs' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>108</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2002</id>
+		<name>Relentless Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Undead gain Berserk equal to 30% of their base Attack and all enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>undeadbrute</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_relentless' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>105</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2003</id>
+		<name>Heavenly Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Angels gain Legion equal to 50% of their base Attack and all enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>Portrait_Spy_Angel</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_angel' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>106</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2004</id>
+		<name>Dragonfire Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Dragons gain Scorch equal to 20% of their base Health and all enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>moltendragon</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_dragonfire' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>120</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2005</id>
+		<name>Empowering Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Empower and Empower All is 50% stronger and all enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>wyldguardian</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_empowering' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>522</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2006</id>
+		<name>Thunderdome Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Bolt and Bolt All is 50% stronger and all enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>chaosguardian</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_thunderdome' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>508</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2007</id>
+		<name>Berserker Rage Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Berserk is 50% stronger and all enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>maniacgeneral</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_berserk' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>524</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2008</id>
+		<name>Armored Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Armor is 50% stronger and all enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>lanternguardian</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_armored' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>517</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2009</id>
+		<name>Equilibrium Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>ranger</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_equilibrium' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2010</id>
+		<name>Vanishing Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All creatures gain Invisibility 99 and all enemies start with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>invisibleassassin</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_invisible' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>525</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2011</id>
+		<name>Forge Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All creatures gain Armor 99 and Scorch equal to 10% of their base Health. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>lanternguardian</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_armored' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>527</battleground_id>
+		<battleground_id>528</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2012</id>
+		<name>Null Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All creatures gain Nullify 99. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>void2</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_null' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>529</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2013</id>
+		<name>Acid Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All creatures gain Corrosive 99. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>Portrait_Wyld_Corrosive_Hero</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_acid' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>530</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2014</id>
+		<name>Flash Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All creatures are 1 Delay. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>steampunk_scarab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_flash' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>535</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2015</id>
+		<name>Immunity Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All creatures gain Ward 99. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>grandexcavator</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_immunity' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>531</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2016</id>
+		<name>Rune Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All bonuses from Runes are doubled. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>grandexcavator</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_rune' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>534</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2017</id>
+		<name>Fury Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All creatures are Enraged for 20% of their base Health each turn. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>Chaos_Hero_Mecha_Hero_Portrait</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_fury' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>532</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2018</id>
+		<name>Powderkeg Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All creatures gain Barrage equal to their base Attack. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>skyPirateLadyGoblin</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_powderkeg' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>533</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2019</id>
+		<name>Airborne Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All Dragons regenerate 25% of their base Health, all Avians gain Mark equal to 15% of their Health, and all Angels gain Legion equal to 50% of their Attack. Enemy starts with a Castle Tower card! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>samaelWithFiresword</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_airborne' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>101</battleground_id>
+		<battleground_id>106</battleground_id>
+		<battleground_id>114</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2020</id>
+		<name>Graves &#38; Gears Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All Mecha gain Ward equal to 3 plus 10% of their base Health and when an Undead dies it creates an Unearthed Skeleton token creature. Enemy starts with a Castle Tower card! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>giantMechaBoss</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_gravesgears' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>115</battleground_id>
+		<battleground_id>122</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2021</id>
+		<name>Swarms &#38; Seas Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All Seafolk gain a Barrier each turn equal to 30% of their base Health while on delay and Insects gain Venom equal to 10% of their Health. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>Portraits_Seafolk_King</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_swarmsseas' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>113</battleground_id>
+		<battleground_id>117</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2022</id>
+		<name>Conflux Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Aether have their Attack increased by 50% of the base, Chaos gain Vengeance equal to 50% of base Attack, and Wyld gain an additional 25% base Health. Enemy starts with a Castle Tower card! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>mythicConglomerate</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_conflux' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>536</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2023</id>
+		<name>Aether Triumph Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Aether have their Attack and Health increased by 25% of the base. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>aetherguardian</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_angel' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>123</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2024</id>
+		<name>Chaos Triumph Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Chaos have their Attack and Health increased by 25% of the base. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>chaosguardian</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_relentless' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>124</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2025</id>
+		<name>Wyld Triumph Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Wyld have their Attack and Health increased by 25% of the base. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>wyldguardian</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_empowering' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>125</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2026</id>
+		<name>Inferno Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Scorch, Emberhide, and Scorchbreath have their effects increased by 50%. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>decimupgrade</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_dragonfire' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>513</battleground_id>
+		<battleground_id>537</battleground_id>
+		<battleground_id>538</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2027</id>
+		<name>Battlefield Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Empower, Legion, and Berserk have their effects increased by 50%. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>ursurioupgrade</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_berserk' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>522</battleground_id>
+		<battleground_id>524</battleground_id>
+		<battleground_id>539</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2028</id>
+		<name>Snowstorm Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Bolt, Frostbreath, and Weaken have their effects increased by 50%. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>elementalhero</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_thunderdome' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>508</battleground_id>
+		<battleground_id>520</battleground_id>
+		<battleground_id>540</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2029</id>
+		<name>Swamp Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Poison, Corrosive, and Hex have their effects increased by 50%. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>elyseupgrade</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_frogs' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>516</battleground_id>
+		<battleground_id>519</battleground_id>
+		<battleground_id>541</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2030</id>
+		<name>Fortress Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Armor, Barrier, and Pierce have their effects increased by 50%. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>seraph</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_fortress' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>511</battleground_id>
+		<battleground_id>517</battleground_id>
+		<battleground_id>542</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2031</id>
+		<name>Recovery Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! Heal, Siphon, and Regenerate have their effects increased by 50%. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>543</battleground_id>
+		<battleground_id>544</battleground_id>
+		<battleground_id>545</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2032</id>
+		<name>Common Revenge Challenge</name>
+		<desc>Battle to earn stars and rewards! All Common cards have their Attack, Health, and all Skills multiplied by 5! Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>odaupgrade</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_aprilcommon' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>546</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+
+		<!-- 104014 - Ralgan Ironpaw -->
+		<event_reward>
+			<desc>Complete the Challenge at Rank 1.</desc>
+			<tier>1</tier>
+			<req>
+				<min_rank>1</min_rank>
+			</req>
+			<item id='104017' quantity='250' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 2.</desc>
+			<tier>2</tier>
+			<req>
+				<min_rank>2</min_rank>
+			</req>
+			<item id='104017' quantity='230' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 3.</desc>
+			<tier>3</tier>
+			<req>
+				<min_rank>3</min_rank>
+			</req>
+			<item id='104017' quantity='210' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 10 or higher.</desc>
+			<tier>4</tier>
+			<req>
+				<min_rank>10</min_rank>
+			</req>
+			<item id='104017' quantity='180' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 25 or higher.</desc>
+			<tier>5</tier>
+			<req>
+				<min_rank>25</min_rank>
+			</req>
+			<item id='104017' quantity='150' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 50 or higher.</desc>
+			<tier>6</tier>
+			<req>
+				<min_rank>50</min_rank>
+			</req>
+			<item id='104017' quantity='120' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 75 or higher.</desc>
+			<tier>7</tier>
+			<req>
+				<min_rank>75</min_rank>
+			</req>
+			<item id='104017' quantity='100' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 100 or higher.</desc>
+			<tier>8</tier>
+			<req>
+				<min_rank>100</min_rank>
+			</req>
+			<item id='104017' quantity='80' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 150 or higher.</desc>
+			<tier>9</tier>
+			<req>
+				<min_rank>150</min_rank>
+			</req>
+			<item id='104017' quantity='70' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 250 or higher.</desc>
+			<tier>10</tier>
+			<req>
+				<min_rank>250</min_rank>
+			</req>
+			<item id='104017' quantity='50' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 350 or higher.</desc>
+			<tier>11</tier>
+			<req>
+				<min_rank>350</min_rank>
+			</req>
+			<item id='104017' quantity='40' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 500 or higher.</desc>
+			<tier>12</tier>
+			<req>
+				<min_rank>500</min_rank>
+			</req>
+			<item id='104017' quantity='30' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 750 or higher.</desc>
+			<tier>13</tier>
+			<req>
+				<min_rank>750</min_rank>
+			</req>
+			<item id='104017' quantity='25' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_rank>1000</min_rank>
+			</req>
+			<item id='104017' quantity='20' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_rank>2000</min_rank>
+			</req>
+			<item id='104017' quantity='15' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 5000 or higher.</desc>
+			<tier>16</tier>
+			<req>
+				<min_rank>5000</min_rank>
+			</req>
+			<item id='104017' quantity='10' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 20000 or higher.</desc>
+			<tier>17</tier>
+			<req>
+				<min_rank>20000</min_rank>
+			</req>
+			<item id='104017' quantity='5' order='1' />
+		</event_reward>
+	</challenge>
+
+	<challenge>
+		<id>2033</id>
+		<name>Common Firework Challenge</name>
+		<desc>Battle to earn stars and rewards! All Common cards have their Health and all Skills multiplied by 5! In addition, they gain Barrage equal to 5 times their base Attack! Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_aprilcommon' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>547</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1562173200</recharge_start_time>	<!-- Wednesday, July 3, 2019 17:00:00  -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+
+		<!-- 104020 - Sound of Death -->
+		<event_reward>
+			<desc>Complete the Challenge at Rank 1.</desc>
+			<tier>1</tier>
+			<req>
+				<min_rank>1</min_rank>
+			</req>
+			<item id='104020' quantity='250' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 2.</desc>
+			<tier>2</tier>
+			<req>
+				<min_rank>2</min_rank>
+			</req>
+			<item id='104020' quantity='230' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 3.</desc>
+			<tier>3</tier>
+			<req>
+				<min_rank>3</min_rank>
+			</req>
+			<item id='104020' quantity='210' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 10 or higher.</desc>
+			<tier>4</tier>
+			<req>
+				<min_rank>10</min_rank>
+			</req>
+			<item id='104020' quantity='180' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 25 or higher.</desc>
+			<tier>5</tier>
+			<req>
+				<min_rank>25</min_rank>
+			</req>
+			<item id='104020' quantity='150' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 50 or higher.</desc>
+			<tier>6</tier>
+			<req>
+				<min_rank>50</min_rank>
+			</req>
+			<item id='104020' quantity='120' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 75 or higher.</desc>
+			<tier>7</tier>
+			<req>
+				<min_rank>75</min_rank>
+			</req>
+			<item id='104020' quantity='100' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 100 or higher.</desc>
+			<tier>8</tier>
+			<req>
+				<min_rank>100</min_rank>
+			</req>
+			<item id='104020' quantity='80' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 150 or higher.</desc>
+			<tier>9</tier>
+			<req>
+				<min_rank>150</min_rank>
+			</req>
+			<item id='104020' quantity='70' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 250 or higher.</desc>
+			<tier>10</tier>
+			<req>
+				<min_rank>250</min_rank>
+			</req>
+			<item id='104020' quantity='50' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 350 or higher.</desc>
+			<tier>11</tier>
+			<req>
+				<min_rank>350</min_rank>
+			</req>
+			<item id='104020' quantity='40' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 500 or higher.</desc>
+			<tier>12</tier>
+			<req>
+				<min_rank>500</min_rank>
+			</req>
+			<item id='104020' quantity='30' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 750 or higher.</desc>
+			<tier>13</tier>
+			<req>
+				<min_rank>750</min_rank>
+			</req>
+			<item id='104020' quantity='25' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_rank>1000</min_rank>
+			</req>
+			<item id='104020' quantity='20' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_rank>2000</min_rank>
+			</req>
+			<item id='104020' quantity='15' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 5000 or higher.</desc>
+			<tier>16</tier>
+			<req>
+				<min_rank>5000</min_rank>
+			</req>
+			<item id='104020' quantity='10' order='1' />
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 20000 or higher.</desc>
+			<tier>17</tier>
+			<req>
+				<min_rank>20000</min_rank>
+			</req>
+			<item id='104020' quantity='5' order='1' />
+		</event_reward>
+	</challenge>
+
+	<challenge>
+		<id>2034</id>
+		<name>Gigantic Clash Challenge</name>
+		<desc>All cards double their base Attack and HP.</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>548</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1569862800</recharge_start_time>	<!-- Monday, 30 September 2019 17:00:00 -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2035</id>
+		<name>Unlife Clash Challenge</name>
+		<desc>Undead token BGE for all cards.</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>549</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1569949200</recharge_start_time>	<!-- Tuesday, 1 October 2019 17:00:00 -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2036</id>
+		<name>Sanctuary Clash Challenge</name>
+		<desc>All cards gain Shroud 99.</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>550</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1570035600</recharge_start_time>	<!-- Wednesday, 2 October 2019 17:00:00 -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2037</id>
+		<name>Revenge Clash Challenge</name>
+		<desc>Backlash +50%, Emberhide +50%, Vengeance +50%</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>551</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1570122000</recharge_start_time>	<!-- Thursday, 3 October 2019 17:00:00 -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2038</id>
+		<name>Crushing Wave Clash Challenge</name>
+		<desc>Frogs and Seafolk deal extra damage on their first attack each turn equal to 25% of their base Health.</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>552</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1570208400</recharge_start_time>	<!-- Friday, 4 October 2019 17:00:00 -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2039</id>
+		<name>Doubling Clash Challenge</name>
+		<desc>All cards gain dualstrike every 1.</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>553</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1570294800</recharge_start_time>	<!-- Saturday, 5 October 2019 17:00:00 -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2040</id>
+		<name>Firepower Clash Challenge</name>
+		<desc>Bolt, Frostbreath, Hex, HP +100%</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>554</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1570381200</recharge_start_time>	<!-- Sunday, 6 October 2019 17:00:00 -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2041</id>
+		<name>Decay Clash Challenge</name>
+		<desc>Scorch, Scorchbreath, Poison, Emberhide, HP +100%</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>555</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1570467600</recharge_start_time>	<!-- Monday, 7 October 2019 17:00:00 -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2042</id>
+		<name>Detonation Clash</name>
+		<desc>On Death, all cards Barrage 50% HP</desc>
+		<type>2</type>
+		<portrait>lavacrab</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>556</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1570554000</recharge_start_time>	<!-- Tuesday, 8 October 2019 17:00:00 -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2043</id>
+		<name>Epic Madness Challenge</name>
+		<desc>Battle to earn stars and rewards! All Epic cards have their Attack, Health, and all Skills multiplied by 2! Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>odaupgrade</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_raid_fortunesfavor' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>557</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2044</id>
+		<name>Deathtouch Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All cards gain Poison 99, Ward and Armor 25. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>elyseupgrade</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_acid' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>558</battleground_id>
+		<battleground_id>560</battleground_id>
+		<battleground_id>559</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2045</id>
+		<name>Paradox Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All cards gain Daze 15 and Valor 15. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>Obyto14</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_equilibrium' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>561</battleground_id>
+		<battleground_id>562</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2046</id>
+		<name>One Shot Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All cards gain Regenerate 99 and Berserk 10. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>groundelemental2</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name='challenge_banner_clash_relentless' bundle='116'/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>563</battleground_id>
+		<battleground_id>564</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+
+</root>

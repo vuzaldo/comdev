@@ -1,0 +1,1803 @@
+<root>
+	<!--
+		   1-100  for Market
+		 101-1000 for Bundle Packages
+		1001-3000 for Boxes & Chance Packs
+		3001-4000 for Special Market
+		4001-5000 for Emporium
+		5001-6000 for Shard Bundle Packages
+		6001-7000 for Reward Boxes
+		7001-8000 for Step Boxes
+
+		Boxes get +250 <priority>
+	-->
+
+	<event_box>
+        <id>6000</id>
+        <name>Stub Reward Box</name>
+        <desc>test</desc>
+        <start_time>1</start_time>
+        <end_time>2</end_time>
+	</event_box>
+
+	<event_box>
+		<id>6001</id>
+		<name>Undead Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>event_016_event_chest</asset_prefab>
+		<background_prefab>event_016_banner_eventBox</background_prefab>
+		<bundle>73</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<sc_cost>2000</sc_cost>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2025' level='1'/>
+		<card id='2060' level='1'/>
+		<card id='2024' level='1'/>
+		<card id='2059' level='1'/>
+	</event_box>
+
+	<event_box>
+		<id>6002</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner_noPrice</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2064' level='1' order='1' />
+		<card id='2062' level='1' order='2' />
+		<card id='2053' level='1' order='3' />
+		<card id='2063' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6003</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2045' level='1' order='1' />
+		<card id='2066' level='1' order='2' />
+		<card id='2046' level='1' order='3' />
+		<card id='2067' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6004</id>
+		<name>Frog Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2069' level='1' order='1' />
+		<card id='2034' level='1' order='2' />
+		<card id='2070' level='1' order='3' />
+		<card id='2012' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6005</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2076' level='1' order='1' />
+		<card id='2079' level='1' order='2' />
+		<card id='2078' level='1' order='3' />
+		<card id='2077' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6006</id>
+		<name>Avian Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2081' level='1' order='1' />
+		<card id='2040' level='1' order='2' />
+		<card id='2082' level='1' order='3' />
+		<card id='2041' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6007</id>
+		<name>Angel Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2085' level='1' order='1' />
+		<card id='2030' level='1' order='2' />
+		<card id='2084' level='1' order='3' />
+		<card id='2054' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6008</id>
+		<name>Undead Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>undead_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2025' level='1' order='1' />
+		<card id='2087' level='1' order='2' />
+		<card id='2059' level='1' order='3' />
+		<card id='2088' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6009</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2005' level='1' order='1' />
+		<card id='2001' level='1' order='2' />
+		<card id='2044' level='1' order='3' />
+		<card id='2090' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6010</id>
+		<name>Elemental Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2095' level='1' order='1' />
+		<card id='2008' level='1' order='2' />
+		<card id='2096' level='1' order='3' />
+		<card id='2056' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6011</id>
+		<name>Insect Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2099' level='1' order='1' />
+		<card id='2049' level='1' order='2' />
+		<card id='2048' level='1' order='3' />
+		<card id='2098' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6012</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2101' level='1' order='1' />
+		<card id='2063' level='1' order='2' />
+		<card id='2102' level='1' order='3' />
+		<card id='2062' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6013</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFEpic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='600' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='2105' level='1' order='1' />
+		<card id='2076' level='1' order='2' />
+		<card id='2104' level='1' order='3' />
+		<card id='2077' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6014</id>
+		<name>Frog Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12011' level='1' order='1' />
+		<card id='12107' level='1' order='2' />
+		<card id='12070' level='1' order='3' />
+		<card id='12012' level='1' order='4' />
+		<card id='12014' level='1' order='5' />
+	</event_box>
+
+	<event_box>
+		<id>6015</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12002' level='1' order='1' />
+		<card id='12111' level='1' order='2' />
+		<card id='12109' level='1' order='3' />
+		<card id='12110' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6016</id>
+		<name>Undead Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>undead_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12114' level='1' order='1' />
+		<card id='12024' level='1' order='2' />
+		<card id='12115' level='1' order='3' />
+		<card id='12060' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6017</id>
+		<name>Avian Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12117' level='1' order='1' />
+		<card id='12081' level='1' order='2' />
+		<card id='12042' level='1' order='3' />
+		<card id='12118' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6018</id>
+		<name>Elemental Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12119' level='1' order='1' />
+		<card id='12058' level='1' order='2' />
+		<card id='12120' level='1' order='3' />
+		<card id='12032' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6019</id>
+		<name>Angel Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12030' level='1' order='1' />
+		<card id='12121' level='1' order='2' />
+		<card id='12027' level='1' order='3' />
+		<card id='12122' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6020</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12124' level='1' order='1' />
+		<card id='12045' level='1' order='2' />
+		<card id='12123' level='1' order='3' />
+		<card id='12067' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6021</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12125' level='1' order='1' />
+		<card id='12101' level='1' order='2' />
+		<card id='12126' level='1' order='3' />
+		<card id='12053' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6022</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12127' level='1' order='1' />
+		<card id='12002' level='1' order='2' />
+		<card id='12128' level='1' order='3' />
+		<card id='12111' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6023</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12129' level='1' order='1' />
+		<card id='12078' level='1' order='2' />
+		<card id='12130' level='1' order='3' />
+		<card id='12070' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6024</id>
+		<name>Insect Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12099' level='1' order='1' />
+		<card id='12131' level='1' order='2' />
+		<card id='12132' level='1' order='3' />
+		<card id='12077' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6025</id>
+		<name>Frog Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12133' level='1' order='1' />
+		<card id='12011' level='1' order='2' />
+		<card id='12134' level='1' order='3' />
+		<card id='12069' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6026</id>
+		<name>Avian Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12135' level='1' order='1' />
+		<card id='12119' level='1' order='2' />
+		<card id='12136' level='1' order='3' />
+		<card id='12081' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6027</id>
+		<name>Elemental Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12137' level='1' order='1' />
+		<card id='12096' level='1' order='2' />
+		<card id='12138' level='1' order='3' />
+		<card id='12118' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6028</id>
+		<name>Undead Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>undead_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12140' level='1' order='1' />
+		<card id='12139' level='1' order='2' />
+		<card id='12087' level='1' order='3' />
+		<card id='12115' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6029</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12142' level='1' order='1' />
+		<card id='12046' level='1' order='2' />
+		<card id='12141' level='1' order='3' />
+		<card id='12004' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6030</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12143' level='1' order='1' />
+		<card id='12124' level='1' order='2' />
+		<card id='12144' level='1' order='3' />
+		<card id='12107' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6031</id>
+		<name>Angel Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12146' level='1' order='1' />
+		<card id='12085' level='1' order='2' />
+		<card id='12147' level='1' order='3' />
+		<card id='12084' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6032</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12148' level='1' order='1' />
+		<card id='12125' level='1' order='2' />
+		<card id='12149' level='1' order='3' />
+		<card id='12063' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6033</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12151' level='1' order='1' />
+		<card id='12076' level='1' order='2' />
+		<card id='12130' level='1' order='3' />
+		<card id='12150' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6034</id>
+		<name>Elemental Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12154' level='1' order='1' />
+		<card id='12032' level='1' order='2' />
+		<card id='12155' level='1' order='3' />
+		<card id='12120' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6035</id>
+		<name>Insect Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12156' level='1' order='1' />
+		<card id='12099' level='1' order='2' />
+		<card id='12157' level='1' order='3' />
+		<card id='12098' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6036</id>
+		<name>Undead Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>undead_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12160' level='1' order='1' />
+		<card id='12060' level='1' order='2' />
+		<card id='12159' level='1' order='3' />
+		<card id='12024' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6037</id>
+		<name>Frog Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12161' level='1' order='1' />
+		<card id='12012' level='1' order='2' />
+		<card id='12162' level='1' order='3' />
+		<card id='12070' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6038</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12163' level='1' order='1' />
+		<card id='12046' level='1' order='2' />
+		<card id='12164' level='1' order='3' />
+		<card id='12067' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6039</id>
+		<name>Avian Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12165' level='1' order='1' />
+		<card id='12081' level='1' order='2' />
+		<card id='12166' level='1' order='3' />
+		<card id='12119' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6040</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12167' level='1' order='1' />
+		<card id='12128' level='1' order='2' />
+		<card id='12168' level='1' order='3' />
+		<card id='12144' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6041</id>
+		<name>Elemental Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12169' level='1' order='1' />
+		<card id='12138' level='1' order='2' />
+		<card id='12170' level='1' order='3' />
+		<card id='12119' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6042</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12171' level='1' order='1' />
+		<card id='12101' level='1' order='2' />
+		<card id='12172' level='1' order='3' />
+		<card id='12102' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6043</id>
+		<name>Undead Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>undead_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12173' level='1' order='1' />
+		<card id='12159' level='1' order='2' />
+		<card id='12174' level='1' order='3' />
+		<card id='12020' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6044</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12175' level='1' order='1' />
+		<card id='12105' level='1' order='2' />
+		<card id='12176' level='1' order='3' />
+		<card id='12135' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6045</id>
+		<name>Angel Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12177' level='1' order='1' />
+		<card id='12030' level='1' order='2' />
+		<card id='12178' level='1' order='3' />
+		<card id='12141' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6046</id>
+		<name>Insect Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12179' level='1' order='1' />
+		<card id='12131' level='1' order='2' />
+		<card id='12180' level='1' order='3' />
+		<card id='12050' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6047</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12181' level='1' order='1' />
+		<card id='12124' level='1' order='2' />
+		<card id='12182' level='1' order='3' />
+		<card id='12141' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6048</id>
+		<name>Frog Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12183' level='1' order='1' />
+		<card id='12107' level='1' order='2' />
+		<card id='12184' level='1' order='3' />
+		<card id='12034' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6049</id>
+		<name>Avian Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12185' level='1' order='1' />
+		<card id='12081' level='1' order='2' />
+		<card id='12186' level='1' order='3' />
+		<card id='12117' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6050</id>
+		<name>Elemental Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12188' level='1' order='1' />
+		<card id='12154' level='1' order='2' />
+		<card id='12189' level='1' order='3' />
+		<card id='12122' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6051</id>
+		<name>Undead Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>undead_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12190' level='1' order='1' />
+		<card id='12060' level='1' order='2' />
+		<card id='12191' level='1' order='3' />
+		<card id='12088' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6052</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12192' level='1' order='1' />
+		<card id='12124' level='1' order='2' />
+		<card id='12193' level='1' order='3' />
+		<card id='12109' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6053</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12194' level='1' order='1' />
+		<card id='12062' level='1' order='2' />
+		<card id='12195' level='1' order='3' />
+		<card id='12148' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6054</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12196' level='1' order='1' />
+		<card id='12003' level='1' order='2' />
+		<card id='12197' level='1' order='3' />
+		<card id='12164' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6055</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12198' level='1' order='1' />
+		<card id='12130' level='1' order='2' />
+		<card id='12199' level='1' order='3' />
+		<card id='12104' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6056</id>
+		<name>Avian Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12201' level='1' order='1' />
+		<card id='12041' level='1' order='2' />
+		<card id='12202' level='1' order='3' />
+		<card id='12040' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6057</id>
+		<name>Angel Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12203' level='1' order='1' />
+		<card id='12084' level='1' order='2' />
+		<card id='12204' level='1' order='3' />
+		<card id='12085' level='1' order='4' />
+	</event_box>
+	
+	<event_box>
+		<id>6058</id>
+		<name>Frog Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12206' level='1' order='1' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12162' level='1' order='2' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12014' level='1' order='3' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12012' level='1' order='4' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+	</event_box>
+
+	<event_box>
+		<id>6059</id>
+		<name>Elemental Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12207' level='1' order='1' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12095' level='1' order='2' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12155' level='1' order='3' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12170' level='1' order='4' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+	</event_box>
+	
+	<event_box>
+		<id>6060</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12192' level='1' order='1' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12143' level='1' order='2' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12111' level='1' order='3' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12209' level='1' order='4' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+	</event_box>
+	
+	<event_box>
+		<id>6061</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12210' level='1' order='1' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12123' level='1' order='2' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12164' level='1' order='3' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+		<card id='12124' level='1' order='4' /> <!-- Reward Epic in Dual Fuse (+10000 ID) -->
+	</event_box>
+	
+	<event_box>
+		<id>6062</id>
+		<name>Insect Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12212' level='1' order='1' />
+		<card id='12099' level='1' order='2' />
+		<card id='12131' level='1' order='3' />
+		<card id='12157' level='1' order='4' />
+	</event_box>
+	
+	<event_box>
+		<id>6063</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12213' level='1' order='1' />
+		<card id='12194' level='1' order='2' />
+		<card id='12171' level='1' order='3' />
+		<card id='12125' level='1' order='4' />
+	</event_box>
+	
+	<event_box>
+		<id>6064</id>
+		<name>Avian Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12215' level='1' order='1' />
+		<card id='12166' level='1' order='2' />
+		<card id='12202' level='1' order='3' />
+		<card id='12119' level='1' order='4' />
+	</event_box>
+	
+	<event_box>
+		<id>6065</id>
+		<name>Undead Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12216' level='1' order='1' />
+		<card id='12059' level='1' order='2' />
+		<card id='12191' level='1' order='3' />
+		<card id='12140' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6066</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12218' level='1' order='1' />
+		<card id='12148' level='1' order='2' />
+		<card id='12077' level='1' order='3' />
+		<card id='12078' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6067</id>
+		<name>Angel Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>angel_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12219' level='1' order='1' />
+		<card id='12030' level='1' order='2' />
+		<card id='12204' level='1' order='3' />
+		<card id='12141' level='1' order='4' />
+	</event_box>
+	
+	<event_box>
+		<id>6068</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12221' level='1' order='1' />
+		<card id='12168' level='1' order='2' />
+		<card id='12193' level='1' order='3' />
+		<card id='12144' level='1' order='4' />
+	</event_box>
+	
+	<event_box>
+		<id>6069</id>
+		<name>Frog Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12222' level='1' order='1' />
+		<card id='12216' level='1' order='2' />
+		<card id='12107' level='1' order='3' />
+		<card id='12182' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6070</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12224' level='1' order='1' />
+		<card id='12062' level='1' order='2' />
+		<card id='12053' level='1' order='3' />
+		<card id='12102' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6071</id>
+		<name>Elemental Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12226' level='1' order='1' />
+		<card id='12138' level='1' order='2' />
+		<card id='12137' level='1' order='3' />
+		<card id='12056' level='1' order='4' />
+	</event_box>
+	
+	<event_box>
+		<id>6072</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12227' level='1' order='1' />
+		<card id='12130' level='1' order='2' />
+		<card id='12176' level='1' order='3' />
+		<card id='12129' level='1' order='4' />
+	</event_box>
+	
+	<event_box>
+		<id>6073</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12228' level='1' order='1' />
+		<card id='12123' level='1' order='2' />
+		<card id='12141' level='1' order='3' />
+		<card id='12197' level='1' order='4' />
+	</event_box>
+	
+
+	<event_box>
+		<id>6074</id>
+		<name>Angel Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>angel_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12230' level='1' order='1' />
+		<card id='12177' level='1' order='2' />
+		<card id='12219' level='1' order='3' />
+		<card id='12052' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6075</id>
+		<name>Avian Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12231' level='1' order='1' />
+		<card id='12041' level='1' order='2' />
+		<card id='12081' level='1' order='3' />
+		<card id='12125' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+			<id>6076</id>
+			<name>Insect Arena Chest</name>
+			<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+			<category>1</category>
+			<asset_prefab>insect_arena_box</asset_prefab>
+			<background_prefab>arena_box_banner</background_prefab>
+			<bundle>76</bundle>
+			<priority>-60</priority>
+			<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+			<cost item='5' num='1000' />
+			<!-- <sc_cost>2000</sc_cost> -->
+			<start_index>1</start_index>
+			<chance_pack>1</chance_pack>
+			<card id='12234' level='1' order='1' />
+			<card id='12179' level='1' order='2' />
+			<card id='12156' level='1' order='3' />
+			<card id='12050' level='1' order='4' />
+		</event_box>
+
+		<event_box>
+			<id>6077</id>
+			<name>Undead Arena Chest</name>
+			<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+			<category>1</category>
+			<asset_prefab>undead_arena_box</asset_prefab>
+			<background_prefab>undead_box_banner</background_prefab>
+			<bundle>76</bundle>
+			<priority>-60</priority>
+			<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+			<cost item='5' num='1000' />
+			<!-- <sc_cost>2000</sc_cost> -->
+			<start_index>1</start_index>
+			<chance_pack>1</chance_pack>
+			<card id='12235' level='1' order='1' />
+			<card id='12024' level='1' order='2' />
+			<card id='12159' level='1' order='3' />
+			<card id='12140' level='1' order='4' />
+		</event_box>			
+		
+		<event_box>
+			<id>6078</id>
+			<name>Frog Arena Chest</name>
+			<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+			<category>1</category>
+			<asset_prefab>frog_arena_box</asset_prefab>
+			<background_prefab>arena_box_banner</background_prefab>
+			<bundle>76</bundle>
+			<priority>-60</priority>
+			<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+			<cost item='5' num='1000' />
+			<!-- <sc_cost>2000</sc_cost> -->
+			<start_index>1</start_index>
+			<chance_pack>1</chance_pack>
+			<card id='12237' level='1' order='1' />
+			<card id='12216' level='1' order='2' />
+			<card id='12034' level='1' order='3' />
+			<card id='12011' level='1' order='4' />
+		</event_box>	
+
+	<event_box>
+		<id>6079</id>
+		<name>Elemental Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12238' level='1' order='1' />
+		<card id='12168' level='1' order='2' />
+		<card id='12058' level='1' order='3' />
+		<card id='12095' level='1' order='4' />
+	</event_box>
+
+<event_box>
+		<id>6080</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12240' level='1' order='1' />
+		<card id='12127' level='1' order='2' />
+		<card id='12163' level='1' order='3' />
+		<card id='12221' level='1' order='4' />
+	</event_box>
+
+<event_box>
+		<id>6081</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12242' level='1' order='1' />
+		<card id='12132' level='1' order='2' />
+		<card id='12151' level='1' order='3' />
+		<card id='12150' level='1' order='4' />
+	</event_box>	
+	
+	<event_box>
+		<id>6082</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12243' level='1' order='1' />
+		<card id='12213' level='1' order='2' />
+		<card id='12125' level='1' order='3' />
+		<card id='12148' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6083</id>
+		<name>Angel Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12245' level='1' order='1' />
+		<card id='12203' level='1' order='2' />
+		<card id='12219' level='1' order='3' />
+		<card id='12204' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6084</id>
+		<name>Insect Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12246' level='1' order='1' />
+		<card id='12180' level='1' order='2' />
+		<card id='12157' level='1' order='3' />
+		<card id='12179' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+		<id>6085</id>
+		<name>Dragon Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12248' level='1' order='1' />
+		<card id='12004' level='1' order='2' />
+		<card id='12066' level='1' order='3' />
+		<card id='12046' level='1' order='4' />
+	</event_box>
+
+	<event_box>
+			<id>6086</id>
+			<name>Frog Arena Chest</name>
+			<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+			<category>1</category>
+			<asset_prefab>frog_arena_box</asset_prefab>
+			<background_prefab>arena_box_banner</background_prefab>
+			<bundle>76</bundle>
+			<priority>-60</priority>
+			<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+			<cost item='5' num='1000' />
+			<!-- <sc_cost>2000</sc_cost> -->
+			<start_index>1</start_index>
+			<chance_pack>1</chance_pack>
+			<card id='12249' level='1' order='1' />
+			<card id='12183' level='1' order='2' />
+			<card id='12014' level='1' order='3' />
+			<card id='12184' level='1' order='4' />
+	</event_box>
+	<event_box>
+		<id>6087</id>
+		<name>Avian Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12251' level='1' order='1' />
+		<card id='12119' level='1' order='2' />
+		<card id='12117' level='1' order='3' />
+		<card id='12165' level='1' order='4' />
+	</event_box>
+	<event_box>
+			<id>6088</id>
+			<name>Undead Arena Chest</name>
+			<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+			<category>1</category>
+			<asset_prefab>undead_arena_box</asset_prefab>
+			<background_prefab>undead_box_banner</background_prefab>
+			<bundle>76</bundle>
+			<priority>-60</priority>
+			<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+			<cost item='5' num='1000' />
+			<!-- <sc_cost>2000</sc_cost> -->
+			<start_index>1</start_index>
+			<chance_pack>1</chance_pack>
+			<card id='12252' level='1' order='1' />
+			<card id='12023' level='1' order='2' />
+			<card id='12174' level='1' order='3' />
+			<card id='12060' level='1' order='4' />
+		</event_box>
+
+	<event_box>
+		<id>6089</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12254' level='1' order='1' />
+		<card id='12144' level='1' order='2' />
+		<card id='12221' level='1' order='3' />
+		<card id='12192' level='1' order='4' />
+	</event_box>
+
+</root>
