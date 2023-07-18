@@ -15,6 +15,7 @@ cards = [
 	"cards_special",
 	"cards_standard",
 	"cards_story",
+	"config",
 	"fusion_recipes_cj2"
 	]
 events = [
@@ -35,6 +36,7 @@ maps = [
 shop = [
 	"bundle_packages_n5j",
 	"event_box",
+	"event_timeline_n3rjc",
 	"items_dsvn3j",
 	"market",
 	"step_box",
