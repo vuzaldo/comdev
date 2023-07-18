@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<config>
+		<review_max_count>2</review_max_count>
+		<review_trigger_threshold>3</review_trigger_threshold>
+		<review_min_level>4</review_min_level>
+		<review_feedback_link>http://support.synapsegames.com/?game=spellstone&amp;type=feedback</review_feedback_link>
+		<review_popup>1</review_popup>
+		<standalone_review_popup>0</standalone_review_popup>
+		<asset_bundle_cache_delay>1209600</asset_bundle_cache_delay> <!-- 1209600 = 2 weeks -->
+		<max_guild_members>50</max_guild_members>
+		<max_auto_battles>100</max_auto_battles>
+		<iap_end_time>0</iap_end_time>
+		<optimized_achievements>1</optimized_achievements>
+
+
+		<arena_autoplay_enabled>1</arena_autoplay_enabled>		<!-- 1 -->
+		<!-- Challenges / Clashes / Dungeons -->
+		<auto_battles_enabled>1</auto_battles_enabled> <!-- 0 -->
+
+		<dev_event_time_offset>14400</dev_event_time_offset>
+
+		<!-- 1440  = +1  Days -->	<!-- 15840 = +11 Days -->	<!-- 30240 = +21 Days -->	<!-- 44640 = +31 Days -->	<!-- 59040 = +41 Days -->
+		<!-- 2880  = +2  Days -->	<!-- 17280 = +12 Days -->	<!-- 31680 = +22 Days -->	<!-- 46080 = +32 Days -->	<!-- 60480 = +42 Days -->
+		<!-- 4320  = +3  Days -->	<!-- 18720 = +13 Days -->	<!-- 33120 = +23 Days -->	<!-- 47520 = +33 Days -->	<!-- 61920 = +43 Days -->
+		<!-- 5760  = +4  Days -->	<!-- 20160 = +14 Days -->	<!-- 34560 = +24 Days -->	<!-- 48960 = +34 Days -->	<!-- 63360 = +44 Days -->
+		<!-- 7158  = +5  Days -->	<!-- 21600 = +15 Days -->	<!-- 36000 = +25 Days -->	<!-- 50400 = +35 Days -->	<!-- 64800 = +45 Days -->
+		<!-- 8640  = +6  Days -->	<!-- 23040 = +16 Days -->	<!-- 37440 = +26 Days -->	<!-- 51840 = +36 Days -->	<!-- 66240 = +46 Days -->
+		<!-- 10080 = +7  Days -->	<!-- 24480 = +17 Days -->	<!-- 38880 = +27 Days -->	<!-- 53280 = +37 Days -->	<!-- 67680 = +47 Days -->
+		<!-- 11520 = +8  Days -->	<!-- 25920 = +18 Days -->	<!-- 40320 = +28 Days -->	<!-- 54720 = +38 Days -->	<!-- 69120 = +48 Days -->
+		<!-- 12960 = +9  Days -->	<!-- 27360 = +19 Days -->	<!-- 41760 = +29 Days -->	<!-- 56160 = +39 Days -->	<!-- 70560 = +49 Days -->
+		<!-- 14400 = +10 Days -->	<!-- 28800 = +20 Days -->	<!-- 43200 = +30 Days -->	<!-- 57600 = +40 Days -->	<!-- 71580 = +50 Days -->
+
+		<!-- Debug 1 -->
+
+		<!-- Loading Screen Overwrite
+		<loading_prefab>EventMap_004</loading_prefab>
+		<loading_bundle_id>29</loading_bundle_id> -->
+
+		<!-- <refund_card> Allows card to show up in buyback tool in admin panel -->
+		<!-- <buyback_card id="1234" endtime="unixtimestamp" /> -->
+		
+		<buyback_card id="5220" endtime="1688662800" />
+		<buyback_card id="5219" endtime="1688662800" />
+		<buyback_card id="5279" endtime="1688662800" />
+		<buyback_card id="7280" endtime="1688662800" />
+		<buyback_card id="7193" endtime="1688662800" />
+		<buyback_card id="7251" endtime="1688662800" />
+		<buyback_card id="6241" endtime="1688662800" />
+		<buyback_card id="6198" endtime="1688662800" />
+		<buyback_card id="6278" endtime="1688662800" />
+		<buyback_card id="5248" endtime="1688662800" />
+		<buyback_card id="5079" endtime="1688662800" />
+		<buyback_card id="5153" endtime="1688662800" />
+		<buyback_card id="7221" endtime="1688662800" />
+		<buyback_card id="7191" endtime="1688662800" />
+		<buyback_card id="7219" endtime="1688662800" />
+		<buyback_card id="6279" endtime="1688662800" />
+		<buyback_card id="6210" endtime="1688662800" />
+		<buyback_card id="6280" endtime="1688662800" />
+		<buyback_card id="5025" endtime="1688662800" />
+		<buyback_card id="5163" endtime="1688662800" />
+		<buyback_card id="5221" endtime="1688662800" />
+		<buyback_card id="7164" endtime="1688662800" />
+		<buyback_card id="7220" endtime="1688662800" />
+		<buyback_card id="7181" endtime="1688662800" />
+		<buyback_card id="6208" endtime="1688662800" />
+		<buyback_card id="6153" endtime="1688662800" />
+		<buyback_card id="6159" endtime="1688662800" />
+		
+		
+		
+		<buyback_card id="15220" endtime="1688662800" />
+		<buyback_card id="15219" endtime="1688662800" />
+		<buyback_card id="15279" endtime="1688662800" />
+		<buyback_card id="17280" endtime="1688662800" />
+		<buyback_card id="17193" endtime="1688662800" />
+		<buyback_card id="17251" endtime="1688662800" />
+		<buyback_card id="16241" endtime="1688662800" />
+		<buyback_card id="16198" endtime="1688662800" />
+		<buyback_card id="16278" endtime="1688662800" />
+		<buyback_card id="15248" endtime="1688662800" />
+		<buyback_card id="15079" endtime="1688662800" />
+		<buyback_card id="15153" endtime="1688662800" />
+		<buyback_card id="17221" endtime="1688662800" />
+		<buyback_card id="17191" endtime="1688662800" />
+		<buyback_card id="17219" endtime="1688662800" />
+		<buyback_card id="16279" endtime="1688662800" />
+		<buyback_card id="16210" endtime="1688662800" />
+		<buyback_card id="16280" endtime="1688662800" />
+		<buyback_card id="15025" endtime="1688662800" />
+		<buyback_card id="15163" endtime="1688662800" />
+		<buyback_card id="15221" endtime="1688662800" />
+		<buyback_card id="17164" endtime="1688662800" />
+		<buyback_card id="17220" endtime="1688662800" />
+		<buyback_card id="17181" endtime="1688662800" />
+		<buyback_card id="16208" endtime="1688662800" />
+		<buyback_card id="16153" endtime="1688662800" />
+		<buyback_card id="16159" endtime="1688662800" />
+		
+		
+		<buyback_card id="25220" endtime="1688662800" />
+		<buyback_card id="25219" endtime="1688662800" />
+		<buyback_card id="25279" endtime="1688662800" />
+		<buyback_card id="27280" endtime="1688662800" />
+		<buyback_card id="27193" endtime="1688662800" />
+		<buyback_card id="27251" endtime="1688662800" />
+		<buyback_card id="26241" endtime="1688662800" />
+		<buyback_card id="26198" endtime="1688662800" />
+		<buyback_card id="26278" endtime="1688662800" />
+		<buyback_card id="25248" endtime="1688662800" />
+		<buyback_card id="25079" endtime="1688662800" />
+		<buyback_card id="25153" endtime="1688662800" />
+		<buyback_card id="27221" endtime="1688662800" />
+		<buyback_card id="27191" endtime="1688662800" />
+		<buyback_card id="27219" endtime="1688662800" />
+		<buyback_card id="26279" endtime="1688662800" />
+		<buyback_card id="26210" endtime="1688662800" />
+		<buyback_card id="26280" endtime="1688662800" />
+		<buyback_card id="25025" endtime="1688662800" />
+		<buyback_card id="25163" endtime="1688662800" />
+		<buyback_card id="25221" endtime="1688662800" />
+		<buyback_card id="27164" endtime="1688662800" />
+		<buyback_card id="27220" endtime="1688662800" />
+		<buyback_card id="27181" endtime="1688662800" />
+		<buyback_card id="26208" endtime="1688662800" />
+		<buyback_card id="26153" endtime="1688662800" />
+		<buyback_card id="26159" endtime="1688662800" />
+		
+		
+		
+
+	
+
+		<realtime_pvp_leaderboard_tier>13</realtime_pvp_leaderboard_tier> 		<!-- 13 -->
+		<realtime_pvp_leaderboard_count>100</realtime_pvp_leaderboard_count>	<!-- 100 -->
+		<realtime_pvp_leaderboard_minimum>2200</realtime_pvp_leaderboard_minimum>
+
+		<realtime_pvp_timeout>30</realtime_pvp_timeout>
+		<realtime_pvp_request_timeout>120</realtime_pvp_request_timeout>
+		<realtime_pvp_poll_time>3</realtime_pvp_poll_time>
+		<daily_login_bonus_start_day>17004</daily_login_bonus_start_day>
+		<buyback_cap>60</buyback_cap> <!-- Maximum num cards in buyback -->
+
+		<force_sound_binary>0</force_sound_binary>
+	</config>
+
+	<cardFile id="0" file="cards_config.xml" />
+	<cardFile id="1" file="cards_heroes.xml" />
+	<cardFile id="2" file="cards_premium_aether.xml" />
+	<cardFile id="3" file="cards_premium_chaos.xml" />
+	<cardFile id="4" file="cards_premium_wyld.xml" />
+	<cardFile id="5" file="cards_reward.xml" />
+	<cardFile id="6" file="cards_special.xml" />
+	<cardFile id="7" file="cards_standard.xml" />
+	<cardFile id="8" file="cards_story.xml" />
+	<!-- ID 9 used for cards_dev -->
+	<cardFile id="10" file="cards_shard.xml" />
+</root>
