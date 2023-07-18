@@ -2,6 +2,7 @@
 const core = require('@actions/core')
 const https = require('https')
 const fs = require('fs')
+const path = require('path')
 
 cards = [
 	"cards_config",
@@ -93,10 +94,8 @@ async function download() {
 }
 
 try {
-	rootDir = core.getInput('working-directory')
-	if (!rootDir) {
-		rootDir = '../../../xmls/'
-	}
+	rootDir = path.resolve(core.getInput('working-directory'))
+	rootDir = path.join(rootDir.split('comdev')[0], 'comdev/xmls/')
 	console.log(rootDir)
 	download()
 } catch (error) {
