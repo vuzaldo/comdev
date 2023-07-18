@@ -95,8 +95,8 @@ async function download() {
 
 try {
 	rootDir = path.resolve(core.getInput('working-directory'))
-	rootDir = path.join(rootDir.split('comdev')[0], 'comdev/xmls/')
-	console.log(rootDir)
+	rootDir = rootDir.split('.github')[0]
+	rootDir = path.join(rootDir, 'xmls/')
 	download()
 } catch (error) {
 	console.error(error.message)
