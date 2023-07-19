@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!-- guild_points for guild points -->
+
+	<event>
+		<event_id>1</event_id>
+		<start_time>0</start_time> <!-- Unknown start -->
+		<end_time>1383584400</end_time>
+		<web_picture>tartarus_unleashed_rewardsGT.jpg</web_picture>
+	</event>
+	<event>
+		<event_id>2</event_id>
+		<start_time>1384300800</start_time>
+		<end_time>1386176400</end_time> <!-- currently December 4th 1386176400 -->
+		<web_picture>fist_cyberius_rewards3.jpg</web_picture>
+		<!-- <screen>7</screen> --> <!-- Go to the Store page for 'View' -->
+		<achievement_chain>
+			<name>Wasteland Defender </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_raider</icon>
+			<portrait>robot2.jpg</portrait>
+			<mission id='2009' level='1' gold='250' desc='Defeat Walker Rises Lv. 1' />
+			<mission id='2010' level='1' gold='250' desc='Defeat Payload Lv. 1' />
+			<mission id='2011' level='1' gold='250' desc='Defeat Striking Distance Lv. 1' />
+			<mission id='2009' level='5' gold='250' desc='Defeat Walker Rises Lv. 5' />
+			<mission id='2010' level='5' gold='250' desc='Defeat Payload Lv. 5' />
+			<mission id='2011' level='5' gold='250' desc='Defeat Striking Distance Lv. 5' />
+			<mission id='2009' level='10' gold='250' desc='Defeat Walker Rises Lv. 10' />
+			<mission id='2010' level='10' gold='250' desc='Defeat Payload Lv. 10' />
+			<mission id='2011' level='10' gold='250' desc='Defeat Striking Distance Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Vegawalker Lv. </name>
+			<desc>Defeat Vegawalker Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_raider</icon>
+			<portrait>harvest_walker_commander.jpg</portrait>
+			<mission id='2012' level='1' gold='250' />
+			<mission id='2012' level='2' gold='250' />
+			<mission id='2012' level='3' gold='250' />
+			<mission id='2012' level='4' gold='250' />
+			<mission id='2012' level='5' gold='250' />
+			<mission id='2012' level='6' gold='250' />
+			<mission id='2012' level='7' gold='250' />
+			<mission id='2012' level='8' gold='250' />
+			<mission id='2012' level='9' gold='250' />
+			<mission id='2012' level='10' card='666' />
+			<mission id='2012' level='50' card='666' desc='Defeat Vegawalker 50 times' name='Vegawalker Master' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Wasteland Savior </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_raider</icon>
+			<portrait>hephaestus.jpg</portrait>
+			<mission id='2013' level='1' gold='100' desc='Defeat Air to Ground Lv. 1' />
+			<mission id='2014' level='1' gold='100' desc='Defeat Purpose Lv. 1' />
+			<mission id='2015' level='1' gold='100' desc='Defeat Death from Above Lv. 1' />
+			<mission id='2017' level='1' gold='100' desc='Defeat Advance Position Lv. 1' />
+			<mission id='2018' level='1' gold='100' desc='Defeat Hold Ground Lv. 1' />
+			<mission id='2013' level='5' gold='150' desc='Defeat Air to Ground Lv. 5' />
+			<mission id='2014' level='5' gold='150' desc='Defeat Purpose Lv. 5' />
+			<mission id='2015' level='5' gold='150' desc='Defeat Death from Above Lv. 5' />
+			<mission id='2017' level='5' gold='150' desc='Defeat Advance Position Lv. 5' />
+			<mission id='2018' level='5' gold='150' desc='Defeat Hold Ground Lv. 5' />
+			<mission id='2013' level='10' gold='200' desc='Defeat Air to Ground Lv. 10' />
+			<mission id='2014' level='10' gold='200' desc='Defeat Purpose Lv. 10' />
+			<mission id='2015' level='10' gold='200' desc='Defeat Death from Above Lv. 10' />
+			<mission id='2017' level='10' gold='200' desc='Defeat Advance Position Lv. 10' />
+			<mission id='2018' level='10' gold='200' desc='Defeat Hold Ground Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Tyr Cannon Lv. </name>
+			<desc>Defeat Tyr Cannon Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_raider</icon>
+			<portrait>harvest_tank_commander.jpg</portrait>
+			<mission id='2016' level='1' gold='400' />
+			<mission id='2016' level='2' gold='100' />
+			<mission id='2016' level='3' gold='100' />
+			<mission id='2016' level='4' gold='100' />
+			<mission id='2016' level='5' gold='250' />
+			<mission id='2016' level='6' gold='100' />
+			<mission id='2016' level='7' gold='100' />
+			<mission id='2016' level='8' gold='100' />
+			<mission id='2016' level='9' gold='100' />
+			<mission id='2016' level='10' card='672' />
+			<mission id='2016' level='50' card='672' desc='Defeat Tyr Cannon 50 times' name='Tyr Cannon Master' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Wasteland Survivor </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_raider</icon>
+			<portrait>helios.jpg</portrait>
+			<mission id='2019' level='1' gold='100' desc='Defeat Combine Lv. 1' />
+			<mission id='2022' level='1' gold='100' desc='Defeat Stay Low Lv. 1' />
+			<mission id='2025' level='1' gold='100' desc='Defeat Worldshaker Lv. 1' />
+			<mission id='2019' level='5' gold='150' desc='Defeat Combine Lv. 5' />
+			<mission id='2022' level='5' gold='150' desc='Defeat Stay Low Lv. 5' />
+			<mission id='2025' level='5' gold='150' desc='Defeat Worldshaker Lv. 5' />
+			<mission id='2019' level='10' gold='200' desc='Defeat Combine Lv. 10' />
+			<mission id='2022' level='10' gold='200' desc='Defeat Stay Low Lv. 10' />
+			<mission id='2025' level='10' gold='200' desc='Defeat Worldshaker Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Cyberius Lv. </name>
+			<desc>Defeat Cyberius Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_raider</icon>
+			<portrait>harvest_mech_commander.jpg</portrait>
+			<mission id='2026' level='1' gold='250' />
+			<mission id='2026' level='5' gold='500' desc='Defeat Cyberius Lv. 5' name='Cyberius Lv 5' />
+			<mission id='2026' level='10' gold='500' desc='Defeat Cyberius Lv. 10' name='Cyberius Lv 10' card='755' />
+			<mission id='2026' level='50' card='755' desc='Defeat Cyberius 50 times' name='Cyberius Master' />
+		</achievement_chain>
+	</event>
+	<event>
+		<event_id>3</event_id>
+		<start_time>1386698400</start_time> <!-- currently December 11th noon 1386784800 -->
+		<end_time>1388685600</end_time> <!-- currently January 2nd noon 1388685600 -->
+		<web_picture>acheron_solstice_rewards3_WBsale.jpg</web_picture> <!-- rise_ancients_rewards3 -->
+		<achievement_chain>
+			<name>Arctis Excavator </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_righteous</icon>
+			<portrait>chestthawlaser.jpg</portrait>
+			<mission id='2027' level='1' gold='100' desc='Defeat Excavation Lv. 1' />
+			<mission id='2030' level='1' gold='100' desc='Defeat Search Continues Lv. 1' />
+			<mission id='2033' level='1' gold='100' desc='Defeat Insurmountable Lv. 1' />
+			<mission id='2027' level='5' gold='150' desc='Defeat Excavation Lv. 5' />
+			<mission id='2030' level='5' gold='150' desc='Defeat Search Continues Lv. 5' />
+			<mission id='2033' level='5' gold='150' desc='Defeat Insurmountable Lv. 5' />
+			<mission id='2027' level='10' gold='200' desc='Defeat Excavation Lv. 10' />
+			<mission id='2030' level='10' gold='200' desc='Defeat Search Continues Lv. 10' />
+			<mission id='2033' level='10' gold='200' desc='Defeat Insurmountable Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Serapherus Lv. </name>
+			<desc>Defeat Seraphus Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_righteous</icon>
+			<portrait>cerebus_commander.jpg</portrait>
+			<mission id='2034' level='1' gold='250' />
+			<mission id='2034' level='5' gold='500' desc='Defeat Serapherus Lv. 5' name='Serapherus Lv 5' />
+			<mission id='2034' level='10' gold='500' card='416' desc='Defeat Serapherus Lv. 10' name='Serapherus Lv 10' />
+			<mission id='2034' level='50' card='416' desc='Defeat Serapherus 50 times' name='Serapherus Master' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Uncovering Arctis </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_righteous</icon>
+			<portrait>iceclaw.jpg</portrait>
+			<mission id='2035' level='1' gold='100' desc='Defeat The Legend Lv. 1' />
+			<mission id='2038' level='1' gold='100' desc='Defeat Worse Conditions Lv. 1' />
+			<mission id='2041' level='1' gold='100' desc='Defeat Endless Legion Lv. 1' />
+			<mission id='2035' level='5' gold='150' desc='Defeat The Legend Lv. 5' />
+			<mission id='2038' level='5' gold='150' desc='Defeat Worse Conditions Lv. 5' />
+			<mission id='2041' level='5' gold='150' desc='Defeat Endless Legion Lv. 5' />
+			<mission id='2035' level='10' gold='200' desc='Defeat The Legend Lv. 10' />
+			<mission id='2038' level='10' gold='200' desc='Defeat Worse Conditions Lv. 10' />
+			<mission id='2041' level='10' gold='200' desc='Defeat Endless Legion Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Pantheon Lv. </name>
+			<desc>Defeat Pantheon Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_righteous</icon>
+			<portrait>pantheoncore.jpg</portrait>
+			<mission id='2042' level='1' gold='250' />
+			<mission id='2042' level='5' gold='500' desc='Defeat Pantheon Lv. 5' name='Pantheon Lv 5' />
+			<mission id='2042' level='10' gold='500' card='579' desc='Defeat Pantheon Lv. 10' name='Pantheon Lv 10' />
+			<mission id='2042' level='50' card='579' desc='Defeat Pantheon 50 times' name='Pantheon Master' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Arctis Unearthed </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_righteous</icon>
+			<portrait>iceclaw.jpg</portrait>
+			<mission id='2043' level='1' gold='100' desc='Defeat Rise Lv. 1' />
+			<mission id='2046' level='1' gold='100' desc='Defeat Collateral Damage Lv. 1' />
+			<mission id='2049' level='1' gold='100' desc='Defeat Finest Hour Lv. 1' />
+			<mission id='2043' level='5' gold='150' desc='Defeat Rise Lv. 5' />
+			<mission id='2046' level='5' gold='150' desc='Defeat Collateral Damage Lv. 5' />
+			<mission id='2049' level='5' gold='150' desc='Defeat Finest Hour Lv. 5' />
+			<mission id='2043' level='10' gold='200' desc='Defeat Rise Lv. 10' />
+			<mission id='2046' level='10' gold='200' desc='Defeat Collateral Damage Lv. 10' />
+			<mission id='2049' level='10' gold='200' desc='Defeat Finest Hour Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Jotun Lv. </name>
+			<desc>Defeat Jotun Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_righteous</icon>
+			<portrait>santacolossuscommander.jpg</portrait>
+			<mission id='2050' level='1' gold='250' />
+			<mission id='2050' level='5' gold='500' desc='Defeat Jotun Lv. 5' name='Jotun Lv 5' />
+			<mission id='2050' level='10' gold='500' card='973' desc='Defeat Jotun Lv. 10' name='Jotun Lv 10' />
+			<mission id='2050' level='50' card='973' desc='Defeat Jotun 50 times' name='Jotun Master' />
+		</achievement_chain>
+	</event>
+	<event>
+		<event_id>4</event_id>
+		<start_time>1389290400</start_time> <!-- currently January 9th noon 1389290400 -->
+		<end_time>1391119200</end_time> <!-- currently January 30th 4pm 1391119200 -->
+		<web_picture>heart_enclave_rewards3.jpg</web_picture> <!-- rise_ancients_rewards3 -->
+		<achievement_chain>
+			<name>Homeworld Invader </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_xeno</icon>
+			<portrait>impregnablebattleship.jpg</portrait>
+			<mission id='2051' level='1' gold='100' desc='Defeat Xeno Atmosphere Lv. 1' />
+			<mission id='2054' level='1' gold='100' desc='Defeat Curious Conundrum Lv. 1' />
+			<mission id='2057' level='1' gold='100' desc='Defeat Shocking Revelation Lv. 1' />
+			<mission id='2051' level='5' gold='150' desc='Defeat Xeno Atmosphere Lv. 5' />
+			<mission id='2054' level='5' gold='150' desc='Defeat Curious Conundrum Lv. 5' />
+			<mission id='2057' level='5' gold='150' desc='Defeat Shocking Revelation Lv. 5' />
+			<mission id='2051' level='10' gold='200' desc='Defeat Xeno Atmosphere Lv. 10' />
+			<mission id='2054' level='10' gold='200' desc='Defeat Curious Conundrum Lv. 10' />
+			<mission id='2057' level='10' gold='200' desc='Defeat Shocking Revelation Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Rastax, Fleet Commander Lv. </name>
+			<desc>Defeat Rastax, Fleet Commander Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_xeno</icon>
+			<portrait>xenocommander1.jpg</portrait>
+			<mission id='2058' level='1' gold='250' />
+			<mission id='2058' level='5' gold='500' desc='Defeat Rastax, Fleet Commander Lv. 5' name='Rastax, Fleet Commander Lv 5' />
+			<mission id='2058' level='10' gold='500' card='672' desc='Defeat Rastax, Fleet Commander Lv. 10' name='Rastax, Fleet Commander Lv 10' />
+			<mission id='2058' level='50' card='672' desc='Defeat Rastax, Fleet Commander 50 times' name='Rastax, Fleet Commander Master' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Homeworld Trekker </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_xeno</icon>
+			<portrait>tentacletroll.jpg</portrait>
+			<mission id='2059' level='1' gold='100' desc='Defeat Trivial Victory Lv. 1' />
+			<mission id='2062' level='1' gold='100' desc='Defeat Into the Fire Lv. 1' />
+			<mission id='2065' level='1' gold='100' desc='Defeat Futile Attack Lv. 1' />
+			<mission id='2059' level='5' gold='150' desc='Defeat Trivial Victory Lv. 5' />
+			<mission id='2062' level='5' gold='150' desc='Defeat Into the Fire Lv. 5' />
+			<mission id='2065' level='5' gold='150' desc='Defeat Futile Attack Lv. 5' />
+			<mission id='2059' level='10' gold='200' desc='Defeat Trivial Victory Lv. 10' />
+			<mission id='2062' level='10' gold='200' desc='Defeat Into the Fire Lv. 10' />
+			<mission id='2065' level='10' gold='200' desc='Defeat Futile Attack Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Razogoth Lv. </name>
+			<desc>Defeat Razogoth Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_xeno</icon>
+			<portrait>btgorecommander.jpg</portrait>
+			<mission id='2066' level='1' gold='250' />
+			<mission id='2066' level='5' gold='500' desc='Defeat Razogoth Lv. 5' name='Razogoth Lv 5' />
+			<mission id='2066' level='10' gold='500' card='4712' desc='Defeat Razogoth Lv. 10' name='Razogoth Lv 10' />
+			<mission id='2066' level='50' card='4712' desc='Defeat Razogoth 50 times' name='Razogoth Master' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Homeworld Escape </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_xeno</icon>
+			<portrait>spyplane.jpg</portrait>
+			<mission id='2067' level='1' gold='100' desc='Defeat Narrow Escape Lv. 1' />
+			<mission id='2070' level='1' gold='100' desc='Defeat Stealthier Approach Lv. 1' />
+			<mission id='2073' level='1' gold='100' desc='Defeat Discovered Lv. 1' />
+			<mission id='2067' level='5' gold='150' desc='Defeat Narrow Escape Lv. 5' />
+			<mission id='2070' level='5' gold='150' desc='Defeat Stealthier Approach Lv. 5' />
+			<mission id='2073' level='5' gold='150' desc='Defeat Discovered Lv. 5' />
+			<mission id='2067' level='10' gold='200' desc='Defeat Narrow Escape Lv. 10' />
+			<mission id='2070' level='10' gold='200' desc='Defeat Stealthier Approach Lv. 10' />
+			<mission id='2073' level='10' gold='200' desc='Defeat Discovered Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Excelsitus, High Admiral Lv. </name>
+			<desc>Defeat Excelsitus, High Admiral Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_xeno</icon>
+			<portrait>xenocommander2.jpg</portrait>
+			<mission id='2074' level='1' gold='250' />
+			<mission id='2074' level='5' gold='500' desc='Defeat Excelsitus, High Admiral Lv. 5' name='Excelsitus, High Admiral Lv 5' />
+			<mission id='2074' level='10' gold='500' card='4694' desc='Defeat Excelsitus, High Admiral Lv. 10' name='Excelsitus, High Admiral Lv 10' />
+			<mission id='2074' level='50' card='4694' desc='Defeat Excelsitus, High Admiral 50 times' name='Excelsitus, High Admiral Master' />
+		</achievement_chain>
+	</event>
+	<event>
+		<event_id>5</event_id>
+		<start_time>1391700600</start_time> <!-- currently Feb 6, 9:30am 1391700600 -->
+		<end_time>1392314400</end_time> <!-- currently Feb 13th noon 1392314400 -->
+		<web_picture>valentines_massacre_sale.jpg</web_picture> <!-- rise_ancients_rewards3 -->
+		<achievement_chain>
+			<name>Razogoth Reborn Lv. </name>
+			<desc>Defeat Razogoth Reborn Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_bloodthirsty</icon>
+			<portrait>btgorecommander.jpg</portrait>
+			<mission id='2075' level='1' gold='250' />
+			<mission id='2075' level='5' gold='500' desc='Defeat Razogoth Reborn Lv. 5' name='Razogoth Reborn Lv 5' />
+			<mission id='2075' level='10' gold='500' card='921' desc='Defeat Razogoth Reborn Lv. 10' name='Razogoth Reborn Lv 10' />
+			<mission id='2075' level='50' card='386' desc='Defeat Razogoth Reborn 50 times' name='Razogoth Reborn Master' />
+		</achievement_chain>
+	</event>
+	<event>
+		<event_id>6</event_id>
+		<start_time>1392408000</start_time> <!-- 1392919200 -->
+		<end_time>1392660000</end_time> <!-- 1392660000 -->
+		<web_picture>valentines_banner_timer_refill.jpg</web_picture> <!-- rise_ancients_rewards3 -->
+		<screen>10</screen>
+	</event>
+	<event>
+		<event_id>7</event_id>
+		<start_time>1392919200</start_time> <!-- currently Feb 20th noon 1392919200 -->
+		<end_time>1394733600</end_time> <!-- currently March 13th noon 1394733600 -->
+		<web_picture>phobos_rising_rewards3.jpg</web_picture>
+		<store_banner>mendinglight_halfsize_banner.png</store_banner>
+		<achievement_chain>
+			<name>Path of Betrayal </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_imperial</icon>
+			<portrait>sabre.jpg</portrait>
+			<mission id='2076' level='1' gold='100' desc='Defeat Impending Launch Lv. 1' />
+			<mission id='2079' level='1' gold='100' desc='Defeat New Threat Lv. 1' />
+			<mission id='2082' level='1' gold='100' desc='Defeat Surround Lv. 1' />
+			<mission id='2076' level='5' gold='150' desc='Defeat Impending Launch Lv. 5' />
+			<mission id='2079' level='5' gold='150' desc='Defeat New Threat Lv. 5' />
+			<mission id='2082' level='5' gold='150' desc='Defeat Surround Lv. 5' />
+			<mission id='2076' level='10' gold='200' desc='Defeat Impending Launch Lv. 10' />
+			<mission id='2079' level='10' gold='200' desc='Defeat New Threat Lv. 10' />
+			<mission id='2082' level='10' gold='200' desc='Defeat Surround Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>General Agmeus Lv. </name>
+			<desc>Defeat General Agmeus Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_imperial</icon>
+			<portrait>tankcommander.jpg</portrait>
+			<mission id='2083' level='1' gold='250' />
+			<mission id='2083' level='5' gold='500' desc='Defeat General Agmeus Lv. 5' name='General Agmeus Lv. 5' />
+			<mission id='2083' level='10' gold='500' card='666' desc='Defeat General Agmeus Lv. 10' name='General Agmeus Lv. 10' />
+			<mission id='2083' level='50' card='666' desc='Defeat General Agmeus 50 times' name='General Agmeus Master' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Path of Revelation </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_imperial</icon>
+			<portrait>jetdrones.jpg</portrait>
+			<mission id='2084' level='1' gold='100' desc='Defeat Red Maw&apos;s Decline Lv. 1' />
+			<mission id='2087' level='1' gold='100' desc='Defeat Project Purger Lv. 1' />
+			<mission id='2090' level='1' gold='100' desc='Defeat Death&apos;s Doorstep Lv. 1' />
+			<mission id='2084' level='5' gold='150' desc='Defeat Red Maw&apos;s Decline Lv. 5' />
+			<mission id='2087' level='5' gold='150' desc='Defeat Project Purger Lv. 5' />
+			<mission id='2090' level='5' gold='150' desc='Defeat Death&apos;s Doorstep Lv. 5' />
+			<mission id='2084' level='10' gold='200' desc='Defeat Red Maw&apos;s Decline Lv. 10' />
+			<mission id='2087' level='10' gold='200' desc='Defeat Project Purger Lv. 10' />
+			<mission id='2090' level='10' gold='200' desc='Defeat Death&apos;s Doorstep Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Vargas Lv. </name>
+			<desc>Defeat Vargas Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_imperial</icon>
+			<portrait>researchcommander.jpg</portrait>
+			<mission id='2091' level='1' gold='250' />
+			<mission id='2091' level='5' gold='500' desc='Defeat Vargas Lv. 5' name='Vargas Lv. 5' />
+			<mission id='2091' level='10' gold='500' card='5131' desc='Defeat Vargas Lv. 10' name='Vargas Lv. 10' />
+			<mission id='2091' level='50' card='5131' desc='Defeat Vargas 50 times' name='Vargas Master' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Path of Honor </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_imperial</icon>
+			<portrait>clobberinfantry.jpg</portrait>
+			<mission id='2092' level='1' gold='100' desc='Defeat Cry Havoc Lv. 1' />
+			<mission id='2095' level='1' gold='100' desc='Defeat Glaring Weakness Lv. 1' />
+			<mission id='2098' level='1' gold='100' desc='Defeat Fallen Comrade Lv. 1' />
+			<mission id='2092' level='5' gold='150' desc='Defeat Cry Havoc Lv. 5' />
+			<mission id='2095' level='5' gold='150' desc='Defeat Glaring Weakness Lv. 5' />
+			<mission id='2098' level='5' gold='150' desc='Defeat Fallen Comrade Lv. 5' />
+			<mission id='2092' level='10' gold='200' guild_points='10' desc='Defeat Cry Havoc Lv. 10' />
+			<mission id='2093' level='10' gold='200' guild_points='10' desc='Defeat Impending Doom Lv. 10' />
+			<mission id='2094' level='10' gold='200' guild_points='10' desc='Defeat Risk Worth Taking Lv. 10' />
+			<mission id='2095' level='10' gold='200' guild_points='10' desc='Defeat Glaring Weakness Lv. 10' />
+			<mission id='2096' level='10' gold='200' guild_points='10' desc='Defeat One Chance Lv. 10' />
+			<mission id='2097' level='10' gold='200' guild_points='10' desc='Defeat Ominous Charge Lv. 10' />
+			<mission id='2098' level='10' gold='200' guild_points='10' desc='Defeat Fallen Comrade Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>GDR-5000 Lv. </name>
+			<desc>Defeat GDR-5000 Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_imperial</icon>
+			<portrait>giantdeathrobot.jpg</portrait>
+			<mission id='2099' level='1' guild_points='10' gold='250' />
+			<mission id='2099' level='5' guild_points='25' gold='500' desc='Defeat GDR-5000 Lv. 5' name='GDR-5000 Lv. 5' />
+			<mission id='2099' level='10' guild_points='50' gold='500' card='5149' desc='Defeat GDR-5000 Lv. 10' name='GDR-5000 Lv. 10' />
+			<mission id='2099' level='50' guild_points='200' card='5149' desc='Defeat GDR-5000 50 times' name='GDR-5000 Master' />
+		</achievement_chain>
+	</event>
+	<event>
+		<event_id>8</event_id>
+		<start_time>1394816400</start_time> <!-- 1394816400 -->
+		<end_time>1395075600</end_time> <!-- 1395081000 -->
+		<web_picture>redmaw_fullbanner.jpg</web_picture>
+		<screen>10</screen>
+	</event>
+	<event>
+		<event_id>9</event_id>
+		<start_time>1395334800</start_time> <!-- currently March 20th noon 1395334800 -->
+		<end_time>1397149200</end_time> <!-- currently April 10th noon 1397149200 -->
+		<web_picture>divine_awakening_rewards3.jpg</web_picture>
+		<store_banner>explosivevolley_halfsize_banner.png</store_banner>
+		<achievement_chain>
+			<name>Acolyte's Duties </name>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_righteous</icon>
+			<portrait>rightcycle.jpg</portrait>
+			<mission id='2100' level='1' gold='100' desc='Defeat Hazy Memory Lv. 1' />
+			<mission id='2103' level='1' gold='100' desc='Defeat Guardian Lv. 1' />
+			<mission id='2106' level='1' gold='100' desc='Defeat Refocused Lv. 1' />
+			<mission id='2100' level='5' gold='150' desc='Defeat Hazy Memory Lv. 5' />
+			<mission id='2103' level='5' gold='150' desc='Defeat Guardian Lv. 5' />
+			<mission id='2106' level='5' gold='150' desc='Defeat Refocused Lv. 5' />
+			<mission id='2100' level='10' gold='200' guild_points='10' desc='Defeat Hazy Memory Lv. 10' />
+			<mission id='2101' level='10' gold='200' guild_points='10' desc='Defeat Alone Lv. 10' />
+			<mission id='2102' level='10' gold='200' guild_points='10' desc='Defeat Divine Lv. 10' />
+			<mission id='2103' level='10' gold='200' guild_points='10' desc='Defeat Guardian Lv. 10' />
+			<mission id='2104' level='10' gold='200' guild_points='10' desc='Defeat Different Sect Lv. 10' />
+			<mission id='2105' level='10' gold='200' guild_points='10' desc='Defeat Preparations Lv. 10' />
+			<mission id='2106' level='10' gold='200' guild_points='10' desc='Defeat Refocused Lv. 10' />
+		</achievement_chain>
+		<achievement_chain>
+			<name>Heimdal Lv. </name>
+			<desc>Defeat Heimdal Lv. </desc>
+			<order>0</order>
+			<base_req>402</base_req>
+			<icon>filter_align_righteous</icon>
+			<portrait>rightboss1.jpg</portrait>
+			<mission id='2107' level='1' guild_points='10' gold='250'/>
+			<mission id='2107' level='5' guild_points='25' gold='500' desc='Defeat Heimdal Lv. 5' name='Heimdal Lv. 5' />
+			<mission id='2107' level='10' guild_points='50' gold='500' card='5408' desc='Defeat Heimdal Lv. 10' name='Heimdal Lv. 10' />
+			<mission id='2107' level='50' guild_points='200' card='5408' desc='Defeat Heimdal 50 times' name='Heimdal Master' />
+		</achievement_chain>        
+		<achievement_chain>
+            <name>Acolyte's Training </name>
+            <order>0</order>
+            <base_req>402</base_req>
+            <icon>filter_align_righteous</icon>
+            <portrait>muon_walker.jpg</portrait>
+            <mission id='2108' level='1' gold='100' desc='Defeat Reunited Lv. 1' />
+            <mission id='2111' level='1' gold='100' desc='Defeat Armageddon Lv. 1' />
+            <mission id='2114' level='1' gold='100' desc='Defeat Glimmer of Hope Lv. 1' />
+            <mission id='2108' level='5' gold='150' desc='Defeat Reunited Lv. 5' />
+            <mission id='2111' level='5' gold='150' desc='Defeat Armageddon Lv. 5' />
+            <mission id='2114' level='5' gold='150' desc='Defeat Glimmer of Hope Lv. 5' />
+            <mission id='2108' level='10' gold='200' guild_points='10' desc='Defeat Reunited Lv. 10' />
+            <mission id='2109' level='10' gold='200' guild_points='10' desc='Defeat Renewed Spirits Lv. 10' />
+            <mission id='2110' level='10' gold='200' guild_points='10' desc='Defeat Outcasts Lv. 10' />
+            <mission id='2111' level='10' gold='200' guild_points='10' desc='Defeat Armageddon Lv. 10' />
+            <mission id='2112' level='10' gold='200' guild_points='10' desc='Defeat Carried Away Lv. 10' />
+            <mission id='2113' level='10' gold='200' guild_points='10' desc='Defeat Retaliation Lv. 10' />
+            <mission id='2114' level='10' gold='200' guild_points='10' desc='Defeat Glimmer of Hope Lv. 10' />
+        </achievement_chain>
+        <achievement_chain>
+            <name>Evrane Lv. </name>
+            <desc>Defeat Evrane Lv. </desc>
+            <order>0</order>
+            <base_req>402</base_req>
+            <icon>filter_align_righteous</icon>
+            <portrait>rightboss2.jpg</portrait>
+            <mission id='2115' level='1' guild_points='10' gold='250' />
+            <mission id='2115' level='5' guild_points='25' gold='500' desc='Defeat Evrane Lv. 5' name='Evrane Lv. 5' />
+            <mission id='2115' level='10' guild_points='50' gold='500' card='5432' desc='Defeat Evrane Lv. 10' name='Evrane Lv. 10' />
+            <mission id='2115' level='50' guild_points='200' card='5432' desc='Defeat Evrane 50 times' name='Evrane Master' />
+        </achievement_chain>
+        <achievement_chain>
+            <name>Acolyte's Mastery </name>
+            <order>0</order>
+            <base_req>402</base_req>
+            <icon>filter_align_righteous</icon>
+            <portrait>stagger_shooter.jpg</portrait>
+            <mission id='2116' level='1' gold='100' desc='Defeat Halt Advance Lv. 1' />
+            <mission id='2119' level='1' gold='100' desc='Defeat Disturbed Ceremony Lv. 1' />
+            <mission id='2122' level='1' gold='100' desc='Defeat Sacrifice Lv. 1' />
+            <mission id='2116' level='5' gold='150' desc='Defeat Halt Advance Lv. 5' />
+            <mission id='2119' level='5' gold='150' desc='Defeat Disturbed Ceremony Lv. 5' />
+            <mission id='2122' level='5' gold='150' desc='Defeat Sacrifice Lv. 5' />
+            <mission id='2116' level='10' gold='200' guild_points='10' desc='Defeat Halt Advance Lv. 10' />
+            <mission id='2117' level='10' gold='200' guild_points='10' desc='Defeat Fool&apos;s Wish Lv. 10' />
+            <mission id='2118' level='10' gold='200' guild_points='10' desc='Defeat Phoenix Lv. 10' />
+            <mission id='2119' level='10' gold='200' guild_points='10' desc='Defeat Disturbed Ceremony Lv. 10' />
+            <mission id='2120' level='10' gold='200' guild_points='10' desc='Defeat Devout Defenders Lv. 10' />
+            <mission id='2121' level='10' gold='200' guild_points='10' desc='Defeat Shiva&apos;s Presence Lv. 10' />
+            <mission id='2122' level='10' gold='200' guild_points='10' desc='Defeat Sacrifice Lv. 10' />
+        </achievement_chain>
+        <achievement_chain>
+            <name>Shiva Lv. </name>
+            <desc>Defeat Shiva Lv. </desc>
+            <order>0</order>
+            <base_req>402</base_req>
+            <icon>filter_align_righteous</icon>
+            <portrait>rightboss3.jpg</portrait>
+            <mission id='2123' level='1' guild_points='10' gold='250' />
+            <mission id='2123' level='5' guild_points='25' gold='500' desc='Defeat Shiva Lv. 5' name='Shiva Lv. 5' />
+            <mission id='2123' level='10' guild_points='50' gold='500' card='5482' desc='Defeat Shiva Lv. 10' name='Shiva Lv. 10' />
+            <mission id='2123' level='50' guild_points='200' card='5482' desc='Defeat Shiva 50 times' name='Shiva Master' />
+        </achievement_chain>
+	</event>
+	<event>
+		<event_id>10</event_id>
+		<start_time>1397235600</start_time> <!-- 1397235600 -->
+		<end_time>1397494800</end_time> <!-- 1397494800 -->
+		<web_picture>apocalypse_war_bannerfull.jpg</web_picture>
+		<screen>10</screen>
+	</event>
+</root>
