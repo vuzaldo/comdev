@@ -15,7 +15,6 @@ cards = [
 	"cards_special",
 	"cards_standard",
 	"cards_story",
-	"config",
 	"fusion_recipes_cj2"
 	]
 events = [
@@ -53,6 +52,7 @@ challenges = [
 other = [
 	"achievements",
 	"battleground_effects",
+	"config",
 	"guide",
 	"guilds",
 	"levels",
@@ -61,6 +61,7 @@ other = [
 obsolete = [
 	"arena",
 	"cards",
+	"events",
 	"passive_missions"
 	]
 
@@ -79,7 +80,7 @@ async function downloadFiles(files, dir = '') {
 		response = await new Promise((resolve, reject) => {
 			https.get(options, resolve)
 		})
-		fileStream = fs.createWriteStream(rootDir + dir + filename)
+		fileStream = fs.createWriteStream(path.join(rootDir, dir, filename))
 		response.pipe(fileStream)
 		await new Promise((resolve, reject) => {
 			fileStream.on('finish', resolve)
@@ -92,13 +93,13 @@ async function download() {
 	console.log('\nDownloading XML files:')
 	await downloadFiles(files)
 	console.log('\nObsolete files:')
-	await downloadFiles(obsolete, 'obsolete/')
+	await downloadFiles(obsolete, 'obsolete')
 }
 
 try {
 	rootDir = path.resolve(core.getInput('working-directory'))
-	rootDir = rootDir.split('.github')[0]
-	rootDir = path.join(rootDir, 'xmls/')
+	rootDir = rootDir.split('.github')[0] // for local execution
+	rootDir = path.join(rootDir, 'xmls')
 	download()
 } catch (error) {
 	console.error(error.message)
