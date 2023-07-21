@@ -17477,6 +17477,473 @@
 		<end_duration>4320</end_duration>			<!-- 3 Days -->
 	</event>
 
+				<!-- Begin Event 105 Insect BGE Bundle Sales -->
+
+	<event>
+		<id>3415</id>
+		<name>Helvius Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>1203</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1691427600</start_time>		<!-- Monday 7 August 2023 17:00:00 -->
+		<end_duration>40320</end_duration>			<!-- 28 Days -->
+	</event>
+	<event>
+		<id>3416</id>
+		<name>Helvius Large Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<!-- Must have purchased the following before it shows up -->
+		<purchased_event_req>3415</purchased_event_req>
+		<bundle_package>1204</bundle_package>
+		<num_available>1</num_available>
+		<start_time>1691427600</start_time>		<!-- Monday 7 August 2023 17:00:00 -->
+		<end_duration>40320</end_duration>			<!-- 28 Days -->
+	</event>
+	<event>
+		<id>3417</id>
+		<name>Helvius Fortune Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<!-- Must have purchased the following before it shows up -->
+		<purchased_event_req>3416</purchased_event_req>
+		<bundle_package>1205</bundle_package>
+		<num_available>1</num_available>
+		<start_time>1691427600</start_time>		<!-- Monday 7 August 2023 17:00:00 -->
+		<end_duration>40320</end_duration>			<!-- 28 Days -->
+	</event>
+	<event>
+		<id>3418</id>
+		<name>Havoc Flask Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>120</type>
+		<bundle_package>1209</bundle_package>
+		<num_available>4</num_available>
+		<!-- First Saturday -->
+		<start_time>1690045200</start_time> <!--  Saturday, 22 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration>			<!-- 3 Days -->
+	</event>
+	<event>
+		<id>3419</id>
+		<name>Greater Shadows Flask Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<bundle_package>1212</bundle_package>
+		<num_available>4</num_available>
+		<!-- Third Saturday -->
+		<start_time>1691254800</start_time> <!--  Saturday, 5 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration>			<!-- 3 Days -->
+	</event>
+	<event>
+		<id>3420</id>
+		<name>Agatha Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFAgatha, Myth Warden^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>1206</bundle_package>
+		<num_available>1</num_available>
+		<!-- Second Saturday -->
+		<start_time>1690650000</start_time>	<!-- Saturday, 29 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration>			<!-- 3 Days -->
+	</event>
+	<event>
+		<id>3421</id>
+		<name>Mothmo Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFMothmo, the Cryptid^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>1018</bundle_package>
+		<num_available>1</num_available>
+		<!-- Fourth Saturday -->
+		<start_time>1691859600</start_time>	<!-- Saturday, 12 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration>			<!-- 3 Days -->
+	</event>	
+	<event>
+		<id>3422</id>
+		<name>Heralidae Deal!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>103</type>
+		<priority>190</priority>
+		<display_card id='25069' level='1' /> <!-- Card ID -->
+		<bundle_package>842</bundle_package> <!-- Stuff to give -->
+		<num_available>1</num_available>
+		<!-- First Saturday -->
+		<start_time>1690045200</start_time>	<!-- Saturday, 22 July 2023 17:00:00  -->
+		<end_duration>4320</end_duration>	<!-- 3 Days -->
+	</event>
+	<event>
+		<id>3423</id>
+		<name>Scorgon Deal!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>103</type>
+		<priority>190</priority>
+		<display_card id='26129' level='1' /> <!-- Card ID -->
+		<bundle_package>783</bundle_package> <!-- Stuff to give -->
+		<num_available>1</num_available>
+		<!-- Second Wednesday -->
+		<start_time>1690995600</start_time>	<!-- Wednesday, 2 August 2023 17:00:00  -->
+		<end_duration>4320</end_duration>	<!-- 3 Days -->
+	</event>
+	<event>
+		<id>3424</id>
+		<name>Super Colossal Bundle!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>160</type>
+		<bundle_package>848</bundle_package>
+		<num_available>2</num_available>
+		<!-- First Friday -->
+		<start_time>1689958800</start_time> <!-- Friday, 21 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3425</id>
+		<name>Epic Guild Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>110</type>
+		<bundle_package>751</bundle_package>
+		<num_available>10</num_available>
+		<!-- First Wednesday -->
+		<start_time>1690390800</start_time> <!-- Wednesday, 26 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3426</id>
+		<name>Dual Insect Shard Bundle!</name>
+		<desc>Gives 330 Shards and two copies of one guaranteed ^c0DFFEpic^cFFFF+ Insect card! May be purchased 4 times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<asset_prefab>event_030_two_epics</asset_prefab>
+		<asset_bundle>107</asset_bundle>
+		<bundle_package>657</bundle_package>
+		<num_available>4</num_available>
+		<!-- Second Saturday -->
+		<start_time>1690650000</start_time>		<!-- Saturday, 29 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration>			<!-- 3 Days -->
+	</event>	
+	<event>
+		<id>3427</id>
+		<name>Flash Shard Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>106</type>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<bundle_package>615</bundle_package>
+		<num_available>10</num_available>
+		<!-- Second Tuesday -->
+		<start_time>1690909200</start_time> <!-- Tuesday, 1 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3428</id>
+		<name>Super Insect Bonus!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>150</type>
+		<bundle_package>847</bundle_package>
+		<num_available>2</num_available>
+		<!-- Third Saturday -->
+		<start_time>1691254800</start_time>		<!-- Saturday, 5 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration>	<!-- 3 Days -->
+	</event>	
+	<event>
+		<id>3429</id>
+		<name>Mystical Epic Shard Bundle</name>
+		<desc>Includes 180 Shards and one Epic Pack! May be purchased ten times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>110</type>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<bundle_package>642</bundle_package>
+		<num_available>10</num_available>
+		<!-- Third Sunday -->
+		<start_time>1691341200</start_time> <!-- Sunday, 6 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>	
+	<event>
+		<id>3430</id>
+		<name>Epic Guild Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>110</type>
+		<bundle_package>751</bundle_package>
+		<num_available>10</num_available>
+		<!-- Third Wednesday -->
+		<start_time>1691600400</start_time> <!-- Wednesday, 9 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3431</id>
+		<name>Legendary Guild Bundle</name>
+		<desc>Purchase 1400 Shards and get a bonus ^cE7FFLegendary Pack ^cFFFFand everyone in your guild receives 100 ^cE7FFLegendary Pack Fragments^cFFFF!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>150</type>
+		<asset_prefab>legendary_crystal_guild_shards</asset_prefab>
+		<asset_bundle>30</asset_bundle>
+		<bundle_package>1080</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Wednesday -->
+		<start_time>1691600400</start_time> <!-- Wednesday, 9 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3432</id>
+		<name>Dust &#38; Shards Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>106</type>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<bundle_package>952</bundle_package>
+		<num_available>1</num_available>
+		<!-- Fourth Tuesday -->
+		<start_time>1692118800</start_time> <!-- Tuesday, 15 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+
+			<!-- End Event 105 Insect BGE Bundle Sales -->
+
+			<!-- Begin Event 105 Insect BGE Chance/Step Sales -->
+	<!-- NEW CHAMPION PACK 1 -->	
+	<event>
+		<id>5490</id>
+		<name>Assailants Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2675</event_box> 
+		<!-- First Thursday -->
+		<start_time>1689872400</start_time>		<!-- Thursday, 20 July 2023 17:00:00 -->
+		<end_duration>10080</end_duration>		<!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- OLD CHAMPION PACK 2 -->
+	<event>
+		<id>5491</id>
+		<name>Volvel Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2676</event_box>
+		<!-- First Monday -->
+		<start_time>1690218000</start_time>		<!-- Monday, 24 July 2023 17:00:00 -->
+		<end_duration>10080</end_duration>		<!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- OLD CHAMPION PACK 3 -->
+	<event>
+		<id>5492</id>
+		<name>Tilly Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2677</event_box>
+		<!-- Second Thursday -->
+		<start_time>1690477200</start_time>		<!-- Thursday, 27 July 2023 17:00:00 -->
+		<end_duration>10080</end_duration>		<!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- NEW CHANCE PACK  4 -->
+	<event>
+		<id>5493</id>
+		<name>Bombardier Chance Pack</name>
+		<banner_prefab>event_105_beetleprotector_banner</banner_prefab>
+		<bundle>275</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2678</event_box>
+		<!-- Second Monday -->
+		<start_time>1690822800</start_time> <!-- Monday, 31 July 2023 17:00:00 -->
+		<end_duration>5760</end_duration>		<!-- 4 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- NEW CHAMPION PACK 5 -->	
+	<event>
+		<id>5494</id>
+		<name>Frazzil Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2679</event_box> 
+		<!-- Third Thursday -->			
+		<start_time>1691082000</start_time>		<!-- Thursday, 3 August 2023 17:00:00 -->
+		<end_duration>10080</end_duration>		<!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- OLD CHAMPION PACK 6 -->
+	<event>
+		<id>5495</id>
+		<name>Kabuto Champion Pack</name>		
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2680</event_box>	
+		<!-- Third Monday -->			
+		<start_time>1691427600</start_time>		<!-- Monday, 7 August 2023 17:00:00 -->
+		<end_duration>10080</end_duration>		<!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- OLD CHAMPION PACK 7 -->
+	<event>
+		<id>5496</id>
+		<name>Pollutarax Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2681</event_box>
+		<!-- Fourth Thursday -->			
+		<start_time>1691686800</start_time>		<!-- Thursday, 10 August 2023 17:00:00 -->
+		<end_duration>10080</end_duration>		<!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- STEP BOX 8 -->
+	<event>
+		<id>5497</id>
+		<name>Drakefly Step Box</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<step_box>7066</step_box>	
+		<!-- Fourth Monday -->			
+		<start_time>1692032400</start_time>		<!-- Monday, 14 August 2023 17:00:00 -->
+		<end_duration>7200</end_duration>		<!-- 5 Days -->
+		<mission_req>64</mission_req>
+	</event>
+			<!-- End Event 105 Insect BGE Chance/Step Sales -->
+
+			<!-- Begin Event 105 Insect BGE Market Sales -->
+	<event>
+		<id>33171</id>
+		<name>Celesti Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='7199' level='1' />
+		<num_available>4</num_available>
+		<store_item>5265</store_item>
+		<!-- First Tuesday -->
+		<start_time>1690304400</start_time>		<!-- Tuesday, 25 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration>			<!-- 3 Days -->
+	</event>
+	<event>
+		<id>33172</id>
+		<name>Bloodboil Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='6206' level='1' />
+		<num_available>4</num_available>
+		<store_item>5292</store_item>
+		<!-- Second Sunday -->
+		<start_time>1690736400</start_time>		<!-- Sunday, 30 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration>			<!-- 3 Days -->
+	</event>
+	<event>
+		<id>33173</id>
+		<name>Spider Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='7295' level='1' />
+		<num_available>4</num_available>
+		<store_item>5290</store_item>
+		<!-- Third Friday -->
+		<start_time>1691168400</start_time>		<!--  Friday, 4 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration>			<!-- 3 Days -->
+	</event>
+	<event>
+		<id>33174</id>
+		<name>Gurgitator Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='6067' level='1' />
+		<num_available>4</num_available>
+		<store_item>5314</store_item>
+		<!-- Fourth Saturday -->
+		<start_time>1691859600</start_time>		<!--  Saturday, 12 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration>			<!-- 3 Days -->
+	</event>			
+	<event>
+		<id>33175</id>
+		<name>Chest of Bounty Unlimited</name>
+		<desc>Includes four Bounty Refill +10 and 1500 gold! May be purchased an unlimited number of times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<banner>1</banner>
+		<store_item>5124</store_item>
+		<!-- First Sunday -->
+		<start_time>1690131600</start_time> <!-- Sunday, 23 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33176</id>
+		<name>Limitless Windsoul Stockpile</name>
+		<desc>Includes 200 Windsouls! May be purchased an unlimited amount of times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5150</store_item>
+		<!-- Second Friday -->
+		<start_time>1690563600</start_time> <!-- Friday, 28 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33177</id>
+		<name>Dungeon Survival Bundle</name>
+		<desc>Includes three Dungeon Refill +20 items, an Epic Pack, and 2000 gold. May be purchased 5 times.</desc>
+		<asset_prefab>dungeon_refill_box</asset_prefab>
+		<asset_bundle>31</asset_bundle>
+		<num_available>5</num_available>
+		<store_item>5045</store_item>
+		<!-- Second Monday -->
+		<start_time>1690822800</start_time>	<!-- Monday, 31 July 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>	
+	<event>
+		<id>33178</id>
+		<name>Limitless Brinesoul Stockpile</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5100</store_item>
+		<!-- Fourth Friday -->
+		<start_time>1691773200</start_time> <!-- Friday, 11 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33179</id>
+		<name>Unlimited Energy Refill Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5108</store_item>
+		<!-- Fourth Sunday -->
+		<start_time>1691946000</start_time> <!-- Sunday, 13 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33180</id>
+		<name>Limitless Embersoul Stockpile</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5098</store_item>
+		<!-- Fourth Wednesday -->
+		<start_time>1692205200</start_time> <!-- Wednesday, 16 August 2023 17:00:00 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+			<!-- End Event 105 Insect BGE Market Sales -->
+
+			<!-- LBN - Event 105 Insect - Nophora  -->
+
+  			<!-- Global News -->
+ 	<event>
+    	<id>10172</id>
+    	<news>1</news>
+    	<name>Insect Card Updates!</name>
+    	<desc>A number of Insect cards have had their stats increased! You can use the Resummon feature to get them back at a discounted price for a limited time! Join the Official Discord for more information!</desc>
+    	<portrait>lanternguardian</portrait>
+    	<banner_prefab>maintenance_Banner</banner_prefab>
+    	<hide_upcoming>1</hide_upcoming>
+    	<bundle>21</bundle>
+    	<start_time>1690218000</start_time>   <!-- Monday, 24 July 2023 17:00:00 -->
+    	<end_duration>14400</end_duration>    <!-- 10 Days -->
+    	<view_url>https://discord.gg/kongregate</view_url>
+	</event>
+
+			<!-- Arena Chest -->
+	<event>
+		<id>11093</id>
+		<name>Insect Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<asset_bundle>76</asset_bundle>
+		<banner_prefab>generic_chance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-40</priority>
+		<event_box>6089</event_box>
+		<start_time>1689872400</start_time> <!-- Thursday, 20 July 2023 17:00:00 -->
+		<end_duration>40320</end_duration>	<!-- 40320 | 28 Days -->
+		<mission_req>64</mission_req>
+	</event>
+
 	<!-- BUNDLE END -->
 
 <!-- |||||||||||||||||||||||||||||||||||||||||||||||| -->
@@ -43705,30 +44172,15 @@
 
 	<event>
 		<id>6105</id>
-		<name>Faction Power</name>
-		<desc>All Aether is going to receive Legion at 20%, Chaos receive Scorch at 30% and Wyld receive Berserk at 30%. All the stats are based on Attack</desc>
+		<name>Thriving Swarm</name>
+		<desc>All Insects gain extra Health equal to 10% of their base Health and Swarm equal to 15% of their base health. After dealing Attack damage, Swarm permanently increases the Attack of the weakest ally.</desc>
 		<banner_prefab>event_007_banner</banner_prefab>
 		<bundle>42</bundle>
 		<effect>
 			<bg_effect>167</bg_effect>
 		</effect>
 		<start_time>1689872400</start_time>  <!-- Thursday, July 20, 2023 at 17:00:00 		 -->
-		<end_time>1704128400</end_time> 	 <!-- Monday, 1 January 2024 17:00:00	 -->
-		<priority>-50</priority>
-		<mission_req>64</mission_req>
-	</event>
-
-	<event>
-		<id>6106</id>
-		<name>Faction Resistance</name>
-		<desc>All Aether is going to receive Ward at 30%, Chaos receive Weaken at 30% and Wyld receive Armor at 20%. All the stats are based on Attack</desc>
-		<banner_prefab>event_007_banner</banner_prefab>
-		<bundle>42</bundle>
-		<effect>
-			<bg_effect>168</bg_effect>
-		</effect>
-		<start_time>1689872400</start_time>  <!-- Thursday, July 20, 2023 at 17:00:00 		 -->
-		<end_time>1704128400</end_time> 	 <!-- Monday, 1 January 2024 17:00:00	 -->
+		<end_time>1694710800</end_time> 	 <!-- Thursday, September 14, 2023 17:00:00	 -->
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>

@@ -12175,7 +12175,184 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
+
+	<package>
+		<id>1203</id>
+		<name>Helvius Trove</name>
+		<desc>Gives 75 ^cE7FFHelvius Stone^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 50 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<asset_prefab>event_105_stonepack_01</asset_prefab>
+		<bundle>275</bundle>
+		<background_prefab>event_105_deadlymantis_banner</background_prefab>
+		<background_bundle>275</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104073' number='75' />  <!-- Stone -->
+		<item id='2001' number='25' />  <!-- Arcane Fragment -->
+		<item id='1004' number='10' />  <!-- Energy +20 -->
+		<item id='4001' number='50' />  <!-- Inscription Powder -->
+		<sp>50</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1204</id>
+		<name>Helvius Large Trove</name>
+		<desc>Gives 200 ^cE7FFHelvius Stone^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 100 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<asset_prefab>event_105_stonepack_02</asset_prefab>
+		<bundle>275</bundle>
+		<background_prefab>event_105_deadlymantis_banner</background_prefab>
+		<background_bundle>275</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104073' number='200' /> <!-- Stone -->
+		<item id='2001' number='50' />  <!-- Arcane Fragment -->
+		<item id='1004' number='15' />  <!-- Energy +20 -->
+		<item id='4001' number='100' /> <!-- Inscription Powder -->
+		<sp>100</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t40_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1205</id>
+		<name>Helvius Fortune Trove</name>
+		<desc>Gives 725 ^cE7FFHelvius Stone^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 300 Arcane Dust, and 250 Inscription Powder! May only be purchased once!</desc>
+		<asset_prefab>event_105_stonepack_03</asset_prefab>
+		<bundle>275</bundle>
+		<background_prefab>event_105_deadlymantis_banner</background_prefab>
+		<background_bundle>275</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104073' number='725' /> <!-- Stone -->
+		<item id='2001' number='150' /> <!-- Arcane Fragment -->
+		<item id='1004' number='25' />  <!-- Energy +20 -->
+		<item id='4001' number='250' /> <!-- Inscription Powder -->
+		<sp>300</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t60_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1206</id>
+		<name>Agatha Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFAgatha, Myth Warden^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+		<asset_prefab>event_076_stonepack_02</asset_prefab>
+		<bundle>221</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<category>1</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104046' number='200' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<!-- Premium Flasks Gen 6 Bundles -->
 	
+	<package>
+		<id>1207</id>
+		<name>Genesis Flask Pack</name>
+		<desc>Gives 180 Aether Genesis Flasks. They contain Champion Stones for Kira, the Innovator; Aeronwen, the Glider; Duchess Pollutarax; or Shrime, the Frozen! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<priority>1000</priority>
+			<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2684' number='180' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1208</id>
+		<name>Greater Genesis Flask Pack</name>
+		<desc>Gives 350 Aether Genesis Flasks. They contain Champion Stones for Kira, the Innovator; Aeronwen, the Glider; Duchess Pollutarax; or Shrime, the Frozen! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<priority>1000</priority>
+			<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2684' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1209</id>
+		<name>Havoc Flask Pack</name>
+		<desc>Gives 180 Chaos Havoc Flasks. They contain Champion Stones for Jormun, the Ravager; Abbadon, the Vicious; Ardeat, the Arsonist; or Nophora, the Hoarder! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+			<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2685' number='180' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1210</id>
+		<name>Greater Havoc Flask Pack</name>
+		<desc>Gives 350 Chaos Cannon Flasks. They contain Champion Stones for Jormun, the Ravager; Abbadon, the Vicious; Ardeat, the Arsonist; or Nophora, the Hoarder! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<priority>1000</priority>
+			<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2685' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1211</id>
+		<name>Shadows Flask Pack</name>
+		<desc>Gives 180 Wyld Shadows Flasks. They contain Champion Stones for Gravy, the Ravenlyte; Dunstan, the Untamed; Sigblin, the Trollskin; or Quad, the Gatherer! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_wyld_1</asset_prefab> <!-- Small Wyld Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>wyld_flask_banner</background_prefab> <!-- Wyld Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+    		<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2686' number='180' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1212</id>
+		<name>Greater Shadows Flask Pack</name>
+		<desc>Gives 350 Wyld Shadows Flasks. They contain Champion Stones for Gravy, the Ravenlyte; Dunstan, the Untamed; Sigblin, the Trollskin; or Quad, the Gatherer! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>wyld_flask_banner</background_prefab> <!-- Wyld Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+			<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2686' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<!-- END Premium Flasks Gen 6 Bundles -->
+
 <!-- END BUNDLES BUNDLES END-->
 
 	<!-- ====================== -->
