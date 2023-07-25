@@ -150,10 +150,10 @@
               </deck>
 
               <event_reward>
-                    <desc>Complete the Dungeon at Rank 1.</desc>
+                    <desc>Complete the Dungeon at Rank 5 or higher.</desc>
                     <tier>1</tier>
                     <req>
-                      <min_rank>1</min_rank>
+                      <min_rank>5</min_rank>
                     </req>
                     <display_item>0</display_item>
                     <item id='{STONES_ID}' quantity='150' /> <!-- Champion Stone --> <!-- HERE -->
@@ -162,22 +162,22 @@
               </event_reward>
 
               <event_reward>
-                    <desc>Complete the Dungeon at Rank 2.</desc>
+                    <desc>Complete the Dungeon at Rank 10 or higher.</desc>
                     <tier>2</tier>
                     <req>
-                      <min_rank>2</min_rank>
+                      <min_rank>10</min_rank>
                     </req>
                     <display_item>0</display_item>
                     <item id='{STONES_ID}' quantity='120' /> <!-- Champion Stone -->
-                    <item id='{FACTION_RUNE_ID}' quantity='1' /> <!-- Faction Rune -->
+                    <item id='{FACTION_RUNE_ID}' quantity='2' /> <!-- Faction Rune -->
                     <item id='1012' quantity='16' /> <!-- Gold Bar -->
               </event_reward>
 
               <event_reward>
-                    <desc>Complete the Dungeon at Rank 10 or higher.</desc>
+                    <desc>Complete the Dungeon at Rank 15 or higher.</desc>
                     <tier>3</tier>
                     <req>
-                      <min_rank>10</min_rank>
+                      <min_rank>15</min_rank>
                     </req>
                     <display_item>0</display_item>
                     <item id='{STONES_ID}' quantity='100' /> <!-- Champion Stone -->
@@ -205,6 +205,7 @@
                     </req>
                     <display_item>0</display_item>
                     <item id='{STONES_ID}' quantity='60' /> <!-- Champion Stone -->
+                    <item id='{FACTION_RUNE_ID}' quantity='1' /> <!-- Faction Rune -->
                     <item id='1012' quantity='4' /> <!-- Gold Bar -->
               </event_reward>
 
