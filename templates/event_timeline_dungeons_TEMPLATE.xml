@@ -1,4 +1,4 @@
-	<!-- ======= {EVENT_BGE} BGE Dungeon / {START_TIME_COMMENT}			 ======= -->
+	<!-- ======= {EVENT_BGE} BGE Dungeon / {START_TIME_COMMENT} ======= -->
     
       <event>
               <id>{EVENT_ID}</id> <!-- HERE -->
@@ -61,8 +61,8 @@
 
               <map_node>
                 <map>{MAP_ID}</map> <!-- Select map for Clash Node to appear --> <!-- HERE -->
-					<x>{MAP_X}</x> <!-- left right --> <!-- HERE -->
-					<y>{MAP_Y}</y> <!-- up down --> <!-- HERE -->
+                <x>{MAP_X}</x> <!-- left right --> <!-- HERE -->
+                <y>{MAP_Y}</y> <!-- up down --> <!-- HERE -->
                 <map_active_prefab>dungeon_node_active</map_active_prefab>
                 <map_inactive_prefab>dungeon_node_not_active</map_inactive_prefab>
                 <map_bundle>71</map_bundle>
