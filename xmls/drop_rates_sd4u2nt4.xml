@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<rarity_weights>
+		<!-- Store Packs -->
+		<type>1</type>
+		<name>Store Packs</name>
+		<rarity id='1' p='0.8' />
+		<rarity id='2' p='0.18' />
+		<rarity id='3' p='0.018' />
+		<rarity id='4' p='0.002' />
+	</rarity_weights>
+	
+	<rarity_weights>
+		<!-- Store Packs with Pity Drop -->
+		<type>2</type>
+		<name>Store Packs with Pity Drop</name>
+		<rarity id='1' p='0.8' />
+		<rarity id='2' p='0.18' />
+		<!-- N used if drop_type/drop_id is set -->
+		<rarity id='3' p='0.018' n='200' drop_type='3' drop_id='3' />
+		<rarity id='4' p='0.002' n='1600' drop_type='3' drop_id='4'  />
+	</rarity_weights>
+	
+	<rarity_weights>
+		<!-- Boxes / Chance Packs -->
+		<type>3</type>
+		<name>Boxes / Chance Packs</name>
+		<rarity id='3' p='0.75' />
+		<rarity id='4' p='0.25' />
+	</rarity_weights>
+</root>

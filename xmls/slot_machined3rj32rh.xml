@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<config>
+		<name>Drake's Mystery Treasure</name>
+		<desc>Each pull gives a chance at one of the listed items and increases the price of the next pull! Resets once per day!</desc>
+		<asset_prefab>slots_chest</asset_prefab>
+		<asset_bundle>30</asset_bundle>
+		<!-- Link to cycling store id -->
+		<jackpot_store_item_id>4001</jackpot_store_item_id>
+		<!-- Cost configs -->
+		<slot_cost_base>5</slot_cost_base>
+		<slot_cost_increment>5</slot_cost_increment>
+		<slot_reset_utc_hour>17</slot_reset_utc_hour>
+		<reward_prefab>slots_chest</reward_prefab>
+		<jackpot_reward_prefab>slots_chest</jackpot_reward_prefab>
+		
+	</config>
+	
+	<!-- 
+		Reward Tags
+		<gold></gold>
+		<dust></dust>
+		<shards></shards>
+		<item id='' quantity='' />
+		<unit id='' level='' />
+	 -->
+
+	<!-- ============================ -->
+	<!-- ====== Jackpot Reward ====== -->
+	<!-- ============================ -->
+	<slot_reward>
+		<jackpot>1</jackpot>
+		<!-- 'p' value is calculated based on 'n' and pity drop pulls -->
+		<n>100</n>
+		<drop_type>1</drop_type>
+		<drop_id>1</drop_id>
+		<drop_rarity>5</drop_rarity>
+		<drop_desc>Guaranteed at least once every 150 pulls!</drop_desc>
+		<!-- id is default, replaced by jackpot cycle -->
+		<item id='104002' quantity='300' />	
+	</slot_reward>
+
+	<!-- ============================ -->
+	<!-- === Reward Possibilities === -->
+	<!-- ============================ -->
+
+	<drop_key>
+		<drop_rarity id='2' name='rare' color='^c8E5F' weight='1' />
+		<drop_rarity id='3' name='epic' color='^c0DFF' weight='0.3' />
+		<drop_rarity id='4' name='legendary' color='^cE7FF' weight='0.15' />
+		<drop_rarity id='5' name='mythic' color='^cF90F' />
+	</drop_key>
+	
+	<!-- ============================ -->
+	
+	<slot_reward>
+		<p>0.15</p>	<!-- Hefty Mythical Flask 4 -->
+		<drop_rarity>4</drop_rarity>
+		<item id='2529' quantity='4' />
+	</slot_reward>
+	<slot_reward>
+		<p>0.15</p>	<!-- Legendary Rune Sliver x2 -->
+		<drop_rarity>4</drop_rarity>
+		<item id='4013' quantity='2' />
+	</slot_reward>
+
+	<slot_reward>
+		<jackpot_item>1</jackpot_item>
+		<p>0.3</p>
+		<!-- id is default, replaced by jackpot cycle -->
+		<drop_rarity>3</drop_rarity>
+		<item id='104002' quantity='50' />
+	</slot_reward>
+	<slot_reward>
+		<p>0.3</p>	<!-- Runecrafter's Chest x1 -->
+		<drop_rarity>3</drop_rarity>
+		<item id='512' quantity='1' />
+	</slot_reward>
+
+	<slot_reward>
+		<p>1</p>	<!-- Energy Refill +20 x2 -->
+		<drop_rarity>2</drop_rarity>
+		<item id='1004' quantity='2' />
+	</slot_reward>
+	<slot_reward>
+		<p>1</p>	<!-- Bounty Refill +5 -->
+		<drop_rarity>2</drop_rarity>
+		<item id='1023' quantity='1' />
+	</slot_reward>
+	<slot_reward>
+		<p>1</p>	<!-- Blue Fire Souls x35 -->
+		<drop_rarity>2</drop_rarity>
+		<item id='2501' quantity='35' />
+	</slot_reward>
+	<slot_reward>
+		<p>1</p>	<!-- Inscription Powder x8 -->
+		<drop_rarity>2</drop_rarity>
+		<item id='4001' quantity='8' />
+	</slot_reward>
+	<slot_reward>
+		<p>1</p>	<!-- Arcane Fragments x10 -->
+		<drop_rarity>2</drop_rarity>
+		<item id='2001' quantity='10' />
+	</slot_reward>
+	<slot_reward>
+		<p>1</p>	<!-- Arcane Dust x20 -->
+		<drop_rarity>2</drop_rarity>
+		<dust>20</dust>
+	</slot_reward>
+	<slot_reward>
+		<p>1</p>	<!-- Tiny Mythical Flask x2 -->
+		<drop_rarity>2</drop_rarity>
+		<item id='2526' quantity='2' />
+	</slot_reward>
+
+	<!-- 
+	<slot_reward>
+		<p>1</p>
+		<shards>20</shards>
+	</slot_reward> 
+	
+	<slot_reward>
+		<p>1</p>
+		<unit id='1001' level='1' />
+	</slot_reward>
+
+	<slot_reward>
+		<p>1</p>
+		<gold>1000</gold>
+	</slot_reward>	
+	-->	
+	
+</root>
+
+		
