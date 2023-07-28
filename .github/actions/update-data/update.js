@@ -22,6 +22,7 @@ events = [
 	"event_timeline_clash",
 	"event_timeline_dungeons",
 	"event_timeline_expeditions",
+	"event_timeline_n3rjc",
 	"event_timeline_raids",
 	"event_timeline_wars_clash"
 	]
@@ -32,12 +33,13 @@ maps = [
 	"missions",
 	"missions_event"
 	]
-shop = [
+store = [
 	"bundle_packages_n5j",
+	"drop_rates_sd4u2nt4",
 	"event_box",
-	"event_timeline_n3rjc",
 	"items_dsvn3j",
 	"market",
+	"slot_machined3rj32rh",
 	"step_box",
 	]
 arena = [
@@ -65,7 +67,7 @@ obsolete = [
 	"passive_missions"
 	]
 
-files = cards.concat(events).concat(maps).concat(shop) // required BGE cycle
+files = cards.concat(events).concat(maps).concat(store) // required BGE cycle
 files = files.concat(arena).concat(challenges).concat(other)
 
 async function downloadFiles(files, dir = '') {
