@@ -29987,4 +29987,79 @@
 
 <!-- ====== Insect BGE Guild War End ======== -->
 
+<!-- TEST WAR PLEASE REMOVE -->
+
+<event>
+    <id>30087</id> <!-- HERE -->
+    <name>TEST Guild War</name> <!-- HERE -->
+    <priority>500</priority>
+    <desc>We are testing fixes to recent issues with Guild War. Please bear with us so that we can ensure the stability of the next war.</desc>
+    <guild_event>1</guild_event>
+    <clash>
+        <name>TEST Guild War Placements</name>
+        <priority>499</priority>
+        <duration>60</duration>   <!-- 60 | 1 Hour -->
+        <max_energy>30</max_energy>
+        <reward_desc_label>Your final rankings in the placement will determine your guild's starting rank in the War.</reward_desc_label>
+        <desc>Defeat enemies to increase your guild rank! Your final ranking will determine your guild's starting rank in the war. All enemies start with a Tower card in play. Attacks do not recharge!</desc>
+        <banner_prefab>guild_war_placement_banner</banner_prefab>
+        <bundle>31</bundle>
+        <list_image name='challenge_banner_guild_wars' bundle='116'/>
+        <portrait>bountyhunter</portrait>
+        <points_icon>single_star</points_icon>
+        <points_bundle>31</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        <attack_icon>guild_clash_icon</attack_icon>
+        <scroll_prefab>clash_scroll_guild_War_placement</scroll_prefab>
+        <commander_background>Clash_Guild_mat</commander_background>
+        <energy_bar>bar_fill_blue</energy_bar>
+        <effect clash_only='1'>
+            <bg_effect>501</bg_effect>
+        </effect>
+    </clash>
+    <type>9</type>
+    <start_time>1691013600</start_time>   <!--  Wed Aug 2 2023 22:00:00	--> 
+    <tracking_duration>1440</tracking_duration>         <!-- 1440 | 1 Days -->
+    <claim_delay>15</claim_delay>
+    <end_duration>1440</end_duration>                  <!-- 1440 | 1 Days -->
+    <view_action>GuildWar</view_action>
+    <list_image name='challenge_banner_guild_wars' bundle='116'/>
+    <portrait>bountyhunter</portrait>
+    <banner_prefab>guild_war_banner</banner_prefab>
+    <bundle>31</bundle>
+    <points_icon>guild_war_point_icon</points_icon>     <!-- Personal Points Icon -->
+    <points_bundle>26</points_bundle>
+    <rank_icon>guild_war_rank_icon</rank_icon>          <!-- Trophy Icon -->
+    <rank_bundle>26</rank_bundle>
+    <rank_points_icon>guildWarVictoryPointIcon</rank_points_icon>   <!-- Guild Points Icon -->
+    <rank_points_bundle>31</rank_points_bundle>
+    <rank_note>Victory Points are earned based on your placement in Matching at the end of each war.</rank_note>
+    <standings_note>Rewards are determined by Victory Points. Victory Points are earned each war based on your Matching placement.</standings_note>
+    <show_standings>1</show_standings>
+    <effect guildwar_only='1'>
+        <bg_effect>501</bg_effect>
+    </effect>
+    <map_node>
+        <map>22</map> <!-- Select map for Clash Node to appear --> <!-- HERE -->
+        <x>490</x> <!-- left right --> <!-- HERE -->
+        <y>340</y> <!-- up down --> <!-- HERE -->
+        <map_active_prefab>guildwar_node_active</map_active_prefab>
+        <map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+        <map_bundle>26</map_bundle>
+    </map_node>
+
+    <event_reward>
+          <desc>Complete the War at Rank 1 or higher.</desc>
+          <tier>1</tier>
+          <req>
+              <min_points>100</min_points>
+              <min_rank>2000</min_rank>
+          </req>
+          <display_item>0</display_item>
+          <item id='1011' quantity='6' /> <!-- Gold Nugget -->
+    </event_reward>
+
+  </event>
+
 </root>

@@ -44185,6 +44185,21 @@
 		<mission_req>64</mission_req>
 	</event>
 
+	<event>
+		<id>6106</id>
+		<name>Goblin Civil War</name>
+		<desc>All Goblins gain 10% Armor. Aether gain 7% + Delay Frostbreath, Chaos gain 15% + Delay Barrage, Wyld gain 7% + Delay Venom. Void gain Siphon equal to base Attack. Values are based on base health.</desc>
+		<banner_prefab>event_017_banner</banner_prefab> <!-- referring to xml code from Goblin's Battle kit -->
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>168</bg_effect> <!-- based off of battleground_effects.xml -->
+		</effect>
+		<start_time>1692291600</start_time> <!-- Thursday, August 17, 2023 17:00:00 GMT+0000 -->
+		<end_time>1697130000</end_time> <!-- Thursday, October 12, 2023 17:00:00 GMT+0000, 56 days duration -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
 	<!-- BGE END -->
 
 <!-- |||||||||||||||||||||||||||||||||||||||||||| -->
