@@ -45255,6 +45255,22 @@
    <!-- <hide_upcoming>1</hide_upcoming>-->
   </event>
 
+  <!-- Event 105: Insects ComDev Lightning Node-->
+  <event>
+    <id>9071</id>
+    <name>Lightning Boss Nophora's Counterblast</name>
+    <desc>A time-limited boss node is available at Distorted Beetleton.</desc>
+    <portrait>Weapon_Hoarder_Portrait</portrait>
+    <banner_prefab>event_013_banner</banner_prefab> <!-- Insect Background --> 
+    <bundle>64</bundle> <!-- Insect Background -->
+    <type>1</type>
+    <campaign>4018</campaign>
+    <start_time>1691449200</start_time> <!--  Monday, 7 August 2023 23:00:00 -->
+    <end_duration>4320</end_duration>   <!-- 3 Days -->
+    <mission_req>64</mission_req>
+    <priority>1000</priority>
+  </event>
+
 <!-- |||||||||||||||||||||||||||||||||||||||||| -->
 <!-- Global Timeline News Events ID 10001-11000 -->
 <!-- |||||||||||||||||||||||||||||||||||||||||| -->
