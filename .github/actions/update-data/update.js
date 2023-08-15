@@ -30,6 +30,7 @@ events = [
 maps = [
 	"campaigns",
 	"map_config",
+	"map_expansions_btzw6",
 	"map_upgrades",
 	"missions",
 	"missions_event"
