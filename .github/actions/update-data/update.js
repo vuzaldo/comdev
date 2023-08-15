@@ -175,7 +175,7 @@ async function parse() {
 					node = expansion.map_node
 					if (node) {
 						icon = itemData[expansion.currency_item].icon
-						nodes[node.map].push({ icon, x: node.x, y: node.y, expansion: '1' })
+						nodes[node.map].unshift({ icon, x: node.x, y: node.y, expansion: '1' })
 					}
 				})
 			}
