@@ -166,7 +166,8 @@ async function parse() {
 						}
 						icon = node.icon?.$.id
 						show_level = node.show_level
-						nodes[node.location_id].push({ icon, x: node.x, y: node.y, show_level })
+						hidden = node.hidden
+						nodes[node.location_id].push({ icon, x: node.x, y: node.y, show_level, hidden })
 					}
 				})
 			}
