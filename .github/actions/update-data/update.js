@@ -121,7 +121,7 @@ async function parse() {
 		try {
 			xml = fs.readFileSync(path.join(rootDir, 'xmls', filename + '.xml'))
 			json = await parseXML(xml)
-			json = json['root']
+			json = json.root
 			if (json.unitType) {
 				factions = json.unitType.filter(f => f.name)
 			}
@@ -132,13 +132,19 @@ async function parse() {
 				})
 			}
 		} catch (error) {
-			console.error('Error parsing XML:', error)
+			console.error('Error parsing card XML:', error)
 			continue
 		}
 	}
 	console.log('\nTotal:', Object.keys(cardData).length, 'cards\n')
 	factions = 'var FACTIONS = ' + JSON.stringify(factions)
 	cardData = 'var CARDS = ' + JSON.stringify(cardData)
+	itemData = {}
+	xml = fs.readFileSync(path.join(rootDir, 'xmls', 'items_dsvn3j.xml'))
+	json = await parseXML(xml)
+	json.root.item.forEach(item => {
+		itemData[item.id] = item
+	})
 	mapData = {}
 	nodes = {}
 	for ([i, filename] of maps.entries()) {
@@ -146,7 +152,7 @@ async function parse() {
 		try {
 			xml = fs.readFileSync(path.join(rootDir, 'xmls', filename + '.xml'))
 			json = await parseXML(xml)
-			json = json['root']
+			json = json.root
 			if (json.location) {
 				json.location.forEach(location => {
 					mapData[location.id] = { name: location.name, mapBG: location.mapBG }
@@ -168,13 +174,13 @@ async function parse() {
 				json.map_expansion.forEach(expansion => {
 					node = expansion.map_node
 					if (node) {
-						icon = expansion.icon
+						icon = itemData[expansion.currency_item].icon
 						nodes[node.map].push({ icon, x: node.x, y: node.y, expansion: '1' })
 					}
 				})
 			}
 		} catch (error) {
-			console.error('Error parsing XML:', error)
+			console.error('Error parsing map XML:', error)
 			continue
 		}
 	}
