@@ -3,6 +3,7 @@ const core = require('@actions/core')
 const https = require('https')
 const fs = require('fs')
 const path = require('path')
+const xml2js = require('xml2js')
 
 cards = [
 	"cards_config",
@@ -82,13 +83,12 @@ async function downloadFiles(files, dir = '') {
 		response = await new Promise((resolve, reject) => {
 			https.get(options, resolve)
 		})
-		fileStream = fs.createWriteStream(path.join(rootDir, dir, filename))
+		fileStream = fs.createWriteStream(path.join(rootDir, 'xmls', dir, filename))
 		response.pipe(fileStream)
 		await new Promise((resolve, reject) => {
 			fileStream.on('finish', resolve)
 			fileStream.on('error', reject)
 		})
-		// break
 	}
 }
 async function download() {
@@ -98,11 +98,112 @@ async function download() {
 	await downloadFiles(obsolete, 'obsolete')
 }
 
+const parser = new xml2js.Parser({ explicitArray: false })
+async function parseXML(xml) {
+	return new Promise((resolve, reject) => {
+		parser.parseString(xml, (err, result) => {
+			if (err) {
+				reject(err)
+			} else {
+				resolve(result)
+			}
+		})
+	})
+}
+
+async function parse() {
+	console.log('\nParsing card data:')
+	cardData = {}
+	factions = []
+	for ([i, filename] of cards.entries()) {
+		console.log(i + 1 + '/' + cards.length, filename)
+		try {
+			xml = fs.readFileSync(path.join(rootDir, 'xmls', filename + '.xml'))
+			json = await parseXML(xml)
+			json = json['root']
+			if (json.unitType) {
+				factions = json.unitType.filter(f => f.name)
+			}
+			if (json.unit) {
+				console.log(json.unit.length, 'units')
+				json.unit.forEach(unit => {
+					cardData[unit.id] = unit
+				})
+			}
+		} catch (error) {
+			console.error('Error parsing XML:', error)
+			continue
+		}
+	}
+	console.log('\nTotal:', Object.keys(cardData).length, 'cards\n')
+	factions = 'var FACTIONS = ' + JSON.stringify(factions)
+	cardData = 'var CARDS = ' + JSON.stringify(cardData)
+	mapData = {}
+	nodes = {}
+	for ([i, filename] of maps.entries()) {
+		console.log(i + 1 + '/' + maps.length, filename)
+		try {
+			xml = fs.readFileSync(path.join(rootDir, 'xmls', filename + '.xml'))
+			json = await parseXML(xml)
+			json = json['root']
+			if (json.location) {
+				json.location.forEach(location => {
+					mapData[location.id] = { name: location.name, mapBG: location.mapBG }
+				})
+			}
+			if (json.campaign) {
+				json.campaign.forEach(node => {
+					if (node.location_id != 0) {
+						if (!nodes[node.location_id]) {
+							nodes[node.location_id] = []
+						}
+						icon = node.icon?.$.id
+						show_level = node.show_level
+						nodes[node.location_id].push({ icon, x: node.x, y: node.y, show_level })
+					}
+				})
+			}
+		} catch (error) {
+			console.error('Error parsing XML:', error)
+			continue
+		}
+	}
+	console.log('\nTotal:', Object.keys(mapData).length, 'maps')
+	mapData = 'var MAPS = ' + JSON.stringify(mapData)
+	nodes = 'var NODES = ' + JSON.stringify(nodes)
+	string = '\n' + [factions, cardData, mapData, nodes].join('\n\n') + '\n'
+	fs.writeFileSync(path.join(rootDir, 'src', 'js', 'data.js'), string)
+}
+
+async function templates() {
+	console.log('\nCopying templates:')
+	templates = {}
+	for (filename of events) {
+		filePath = path.join(rootDir, 'templates', filename + '_TEMPLATE.xml')
+		if (!fs.existsSync(filePath)) {
+			continue
+		}
+		console.log(filename + '_TEMPLATE.xml')
+		templates[filename] = fs.readFileSync(filePath).toString()
+	}
+	templates = 'var TEMPLATES = ' + JSON.stringify(templates)
+	filePath = path.join(rootDir, 'templates', 'expedition_parameters.json')
+	expedition_parameters = JSON.parse(fs.readFileSync(filePath))
+	expedition_parameters = 'var EXPEDITION = ' + JSON.stringify(expedition_parameters)
+	string = '\n' + [templates, expedition_parameters].join('\n\n') + '\n'
+	fs.writeFileSync(path.join(rootDir, 'src', 'js', 'templates.js'), string)
+}
+
+async function updateData() {
+	await download()
+	// await parse()
+	// await templates()
+}
+
 try {
 	rootDir = path.resolve(core.getInput('working-directory'))
 	rootDir = rootDir.split('.github')[0] // for local execution
-	rootDir = path.join(rootDir, 'xmls')
-	download()
+	updateData()
 } catch (error) {
 	console.error(error.message)
 	core.setFailed(error.message)
