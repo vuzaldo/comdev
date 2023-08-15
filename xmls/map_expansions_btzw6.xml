@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<!--
+		1-100		DO NOT USE, OFF LIMITS!!
+		101-500		World Event BGE
+		501-1000	Specialty BGE
+		1001-2000	Personal BGE
+		2001-3000	Enemy Scaling BGE
+		3001+		Map Expansion BGE
+	-->
+
+	<map_expansion>
+		<id>0</id>
+		<name>Stub</name>
+	</map_expansion>
+
+	<map_expansion>
+		<id>1</id>
+		<name>Duskwillow Fellowship</name>
+		<desc>It's a fellowship! Gather your allies and level them up to help you in battles on the Duskwillow map!</desc>
+		<icon>blue_pearl_bge_64</icon>
+		<icon_bundle>82</icon_bundle>
+		<currency_item>3048</currency_item>
+		<map_node>
+			<map>7</map>
+			<x>460</x>
+			<y>446</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3001</id>
+			<map_upgrade>1</map_upgrade>
+			<map_upgrade>2</map_upgrade>
+			<map_upgrade>3</map_upgrade>
+			<map_upgrade>4</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>2</id>
+		<name>Frigore Relic Hunt</name>
+		<desc>It's a quest for arcane treasure! Gather magical items and level them up to help you in battles on the Frigore map!</desc>
+		<icon>snowdust_bge_64</icon>
+		<icon_bundle>84</icon_bundle>
+		<currency_item>3049</currency_item>
+		<map_node>
+			<map>8</map>
+			<x>460</x>
+			<y>446</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3002</id>
+			<map_upgrade>5</map_upgrade>
+			<map_upgrade>6</map_upgrade>
+			<map_upgrade>7</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>3</id>
+		<name>Legendary Dev Tools</name>
+		<desc>The developers have lost their tools! Quick, use your hero coins to power them up and crush the developers!</desc>
+		<icon>banana_64</icon>
+		<icon_bundle>52</icon_bundle>
+		<currency_item>3052</currency_item>
+		<map_node>
+			<map>108</map>
+			<x>230</x>
+			<y>220</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3003</id>
+			<map_upgrade>8</map_upgrade>
+			<map_upgrade>9</map_upgrade>
+			<map_upgrade>10</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>4</id>
+		<name>Reborn Relics</name>
+		<desc>Arriving in The Void Plane has sparked new potential within your relics. Upgrade them with Purple Fire Souls to unlock greater powers!</desc>
+		<icon>purple_fire_soul_BGE_64</icon>
+		<icon_bundle>92</icon_bundle>
+		<currency_item>3053</currency_item>
+		<map_node>
+			<map>9</map>
+			<x>430</x>
+			<y>495</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3004</id>
+			<map_upgrade>11</map_upgrade>
+			<map_upgrade>12</map_upgrade>
+			<map_upgrade>13</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>5</id>
+		<name>Elemental Spiritlings</name>
+		<desc>Rayne has rescued a few elemental spirits in Beetleton Bunker, and left you to care for them. Feeding them Honeycombs unlocks their powers for you to use!</desc>
+		<icon>honeycomb_BGE_64</icon>
+		<icon_bundle>97</icon_bundle>
+		<currency_item>3056</currency_item>
+		<map_node>
+			<map>10</map>
+			<x>262</x>
+			<y>435</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3005</id>
+			<map_upgrade>14</map_upgrade>
+			<map_upgrade>15</map_upgrade>
+			<map_upgrade>16</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>6</id>
+		<name>Temple's Defenses</name>
+		<desc>Pharos Temple's power has decayed without an energy supply. Revive the ancient technology using Mini Jellyfish!</desc>
+		<icon>event_028_BGE_60</icon>
+		<icon_bundle>103</icon_bundle>
+		<currency_item>3059</currency_item>
+		<map_node>
+			<map>11</map>
+			<x>830</x>
+			<y>570</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3006</id>
+			<map_upgrade>17</map_upgrade>
+			<map_upgrade>18</map_upgrade>
+			<map_upgrade>19</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>7</id>
+		<name>Power Gemstones</name>
+		<desc>Powerful gemstones have been discovered in the mine. Restore their energy using Fireshards!</desc>
+		<icon>Fireshard_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3062</currency_item>
+		<map_node>
+			<map>12</map>
+			<x>700</x>
+			<y>199</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3007</id>
+			<map_upgrade>20</map_upgrade>
+			<map_upgrade>21</map_upgrade>
+			<map_upgrade>22</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>8</id>
+		<name>Celestial Orbs</name>
+		<desc>The Orbs in the Celestial Vault keep the islands afloat. Power them up and gain their strength with Breezy Wind!</desc>
+		<icon>capturedWind_BGE</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3065</currency_item>
+		<map_node>
+			<map>13</map>
+			<x>270</x>
+			<y>251</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3008</id>
+			<map_upgrade>23</map_upgrade>
+			<map_upgrade>24</map_upgrade>
+			<map_upgrade>25</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>9</id>
+		<name>Yuriel's Mystic Tomes</name>
+		<desc>Yuriel's lent out his magical tomes, which can imbue great powers. Collect Word Eaters to strengthen his Mystic Tomes!</desc>
+		<icon>event_34_bge</icon>
+		<icon_bundle>119</icon_bundle>
+		<currency_item>3068</currency_item>
+		<map_node>
+			<map>14</map>
+			<x>751</x>
+			<y>570</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3009</id>
+			<map_upgrade>26</map_upgrade>
+			<map_upgrade>27</map_upgrade>
+			<map_upgrade>28</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>10</id>
+		<name>Fiona's Dragonlings</name>
+		<desc>Fiona's dragonlings boast different combat specialties, and they might help you if you can become friends! Feed them Bonbon Sparklers to increase their power!</desc>
+		<icon>sparkler_BGE</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3071</currency_item>
+		<map_node>
+			<map>15</map>
+			<x>410</x>
+			<y>191</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3010</id>
+			<map_upgrade>29</map_upgrade>
+			<map_upgrade>30</map_upgrade>
+			<map_upgrade>31</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>11</id>
+		<name>Island Seers</name>
+		<desc>Strange Seers on the island have forgotten their own powers. Gift them Tropical Coconuts to awaken their abilities!</desc>
+		<icon>Coconut_A_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3074</currency_item>
+		<map_node>
+			<map>16</map>
+			<x>550</x>
+			<y>330</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3011</id>
+			<map_upgrade>32</map_upgrade>
+			<map_upgrade>33</map_upgrade>
+			<map_upgrade>34</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>12</id>
+		<name>Airship Upgrades</name>
+		<desc>Repair your airship and get its defense functions back online. Use Golden Leaves as a catalyst!</desc>
+		<icon>GoldLeaf_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3077</currency_item>
+		<map_node>
+			<map>17</map>
+			<x>675</x>
+			<y>450</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3012</id>
+			<map_upgrade>35</map_upgrade>
+			<map_upgrade>36</map_upgrade>
+			<map_upgrade>37</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>13</id>
+		<name>Ancient Glyphs</name>
+		<desc>Ancient rocks with symbols of runes carved upon them once served as Redfeather Valley's defense system. Power them up with Black Blossoms!</desc>
+		<icon>voidFlower_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3080</currency_item>
+		<map_node>
+			<map>18</map>
+			<x>725</x>
+			<y>500</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3013</id>
+			<map_upgrade>38</map_upgrade>
+			<map_upgrade>39</map_upgrade>
+			<map_upgrade>40</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>14</id>
+		<name>Ancestor Dragons</name>
+		<desc>The spirits of dragon legends who died protecting Tarragon Peak. Receive their blessing by offering Dragon Claws!</desc>
+		<icon>dragonclaw_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3083</currency_item>
+		<map_node>
+			<map>19</map>
+			<x>675</x>
+			<y>280</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3014</id>
+			<map_upgrade>41</map_upgrade>
+			<map_upgrade>42</map_upgrade>
+			<map_upgrade>43</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>15</id>
+		<name>Fighting Spirits</name>
+		<desc>Your friends are giving you their strength to fight in the arena. Purchase upgrades with Gladius Coins!</desc>
+		<icon>event_46_BGE</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3086</currency_item>
+		<map_node>
+			<map>20</map>
+			<x>485</x>
+			<y>510</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3015</id>
+			<map_upgrade>44</map_upgrade>
+			<map_upgrade>45</map_upgrade>
+			<map_upgrade>46</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>16</id>
+		<name>Fiona's Dragonlings</name>
+		<desc>Fiona's dragonlings are back and as hungry as ever! Feed them Corroded Mist Pearls to increase their power!</desc>
+		<icon>blue_pearl_bge_64</icon>
+		<icon_bundle>82</icon_bundle>
+		<currency_item>3089</currency_item>
+		<map_node>
+			<map>21</map>
+			<x>445</x>
+			<y>145</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3016</id>
+			<map_upgrade>29</map_upgrade>
+			<map_upgrade>30</map_upgrade>
+			<map_upgrade>31</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>17</id>
+		<name>Elemental Spiritlings</name>
+		<desc>Rayne's spiritlings have grown since you last saw them, but are still in need of care. Feed them Dark Honey to unlock their powers!</desc>
+		<icon>jarofhoney_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3092</currency_item>
+		<map_node>
+			<map>22</map>
+			<x>252</x>
+			<y>435</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3017</id>
+			<map_upgrade>14</map_upgrade>
+			<map_upgrade>15</map_upgrade>
+			<map_upgrade>16</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>18</id>
+		<name>Temple Glyphs</name>
+		<desc>Ancient rocks with symbols of runes carved upon them serve as defenses in the Salt Wastes. Power them up with Enchanted Iron!</desc>
+		<icon>iron_nugget_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3095</currency_item>
+		<map_node>
+			<map>23</map>
+			<x>725</x>
+			<y>500</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
+		<bge>
+			<id>3018</id>
+			<map_upgrade>38</map_upgrade>
+			<map_upgrade>39</map_upgrade>
+			<map_upgrade>40</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>19</id>
+		<name>Three Titans</name>
+		<desc>The true power of Wyld, Chaos, and Aether. Return Pillar Souls to them so they can remember their true strength.</desc>
+		<icon>event_53_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3098</currency_item>
+		<map_node>
+			<map>24</map>
+			<x>465</x>
+			<y>340</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3019</id>
+			<map_upgrade>47</map_upgrade>
+			<map_upgrade>48</map_upgrade>
+			<map_upgrade>49</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>20</id>
+		<name>First Order Defense</name>
+		<desc>Defenses set up by the First Order monks, they are powered by small Elemental creatures.</desc>
+		<icon>event_34_bge</icon>
+		<icon_bundle>119</icon_bundle>
+		<currency_item>3101</currency_item>
+		<map_node>
+			<map>25</map>
+			<x>475</x>
+			<y>350</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3020</id>
+			<map_upgrade>50</map_upgrade>
+			<map_upgrade>51</map_upgrade>
+			<map_upgrade>52</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>21</id>
+		<name>Malchior's Defense</name>
+		<desc>Use Malchior's expertise against the Undead! Trade him Void Essence to unlock new powers!</desc>
+		<icon>event_058_undead_essence</icon>
+		<icon_bundle>177</icon_bundle>
+		<currency_item>3104</currency_item>
+		<map_node>
+			<map>26</map>
+			<x>780</x>
+			<y>170</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3021</id>
+			<map_upgrade>53</map_upgrade>
+			<map_upgrade>54</map_upgrade>
+			<map_upgrade>55</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>22</id>
+		<name>Airship Defenses</name>
+		<desc>Use Wyld Leaves as fuel to power your Airship defenses!</desc>
+		<icon>GoldLeaf_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3107</currency_item>
+		<map_node>
+			<map>27</map>
+			<x>760</x>
+			<y>170</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3022</id>
+			<map_upgrade>35</map_upgrade>
+			<map_upgrade>36</map_upgrade>
+			<map_upgrade>37</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>23</id>
+		<name>Dawnglow Defenses</name>
+		<desc>Purify Void Remnants to revitalize the Dawnglow security!</desc>
+		<icon>purple_fire_soul_BGE_64</icon>
+		<icon_bundle>92</icon_bundle>
+		<currency_item>3110</currency_item>
+		<map_node>
+			<map>28</map>
+			<x>470</x>
+			<y>300</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3023</id>
+			<map_upgrade>56</map_upgrade>
+			<map_upgrade>57</map_upgrade>
+			<map_upgrade>58</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>24</id>
+		<name>Yuriel's Mystic Tomes</name>
+		<desc>Power Yuriel's Tomes with Wisp Fragments!</desc>
+		<icon>bge_willowisp_icon</icon>
+		<icon_bundle>191</icon_bundle>
+		<currency_item>3113</currency_item>
+		<map_node>
+			<map>29</map>
+			<x>870</x>
+			<y>440</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3024</id>
+			<map_upgrade>26</map_upgrade>
+			<map_upgrade>27</map_upgrade>
+			<map_upgrade>28</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>25</id>
+		<name>Karthos Crystals</name>
+		<desc>Powerful gems serve as defense around Karthos's borders. Power them up with Karthos Embers!</desc>
+		<icon>bge_Burning_Target</icon>
+		<icon_bundle>197</icon_bundle>
+		<currency_item>3116</currency_item>
+		<map_node>
+			<map>30</map>
+			<x>810</x>
+			<y>520</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3025</id>
+			<map_upgrade>20</map_upgrade>
+			<map_upgrade>21</map_upgrade>
+			<map_upgrade>22</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>26</id>
+		<name>Dragon Spirits</name>
+		<desc>The spirits of dragon legends who died protecting Tarragon Peak. Receive their blessing by offering Dragon Talons!</desc>
+		<icon>dragonclaw_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3119</currency_item>
+		<map_node>
+			<map>31</map>
+			<x>900</x>
+			<y>300</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3026</id>
+			<map_upgrade>41</map_upgrade>
+			<map_upgrade>42</map_upgrade>
+			<map_upgrade>43</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>27</id>
+		<name>Crimsonwing Spirits</name>
+		<desc>The spirits of the Crimsonwings are lending you their strength, now that their minds have been restored. Buy their services with Gladius Currency!</desc>
+		<icon>event_46_BGE</icon>
+		<icon_bundle>110</icon_bundle>
+		<currency_item>3122</currency_item>
+		<map_node>
+			<map>32</map>
+			<x>850</x>
+			<y>480</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3027</id>
+			<map_upgrade>59</map_upgrade>
+			<map_upgrade>60</map_upgrade>
+			<map_upgrade>61</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>28</id>
+		<name>Tome Defense System</name>
+		<desc>Yuriel has left behind his magical tomes to help Skyhaven. Power them up with Angel Plume!</desc>
+		<icon>event_072_angel_feather</icon>
+		<icon_bundle>210</icon_bundle>
+		<currency_item>3125</currency_item>
+		<map_node>
+			<map>33</map>
+			<x>800</x>
+			<y>540</y>
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3028</id>
+			<map_upgrade>26</map_upgrade>
+			<map_upgrade>27</map_upgrade>
+			<map_upgrade>28</map_upgrade>
+		</bge>
+	</map_expansion>
+
+	<map_expansion>
+		<id>29</id>
+		<name>Power Gemstones</name>
+		<desc>Powerful Gems have emerged from Dawnglow Swamp. Power them up with Element Souls!</desc>
+		<icon>event_34_bge</icon>
+		<icon_bundle>119</icon_bundle>
+		<currency_item>3128</currency_item>
+		<map_node>
+			<map>34</map>
+			<x>400</x> <!-- left right -->
+			<y>450</y> <!-- up down -->
+			<map_prefab>dungeon_node_not_active</map_prefab>
+			<map_bundle>133</map_bundle>
+		</map_node>
+		<bge>
+			<id>3029</id>
+			<map_upgrade>20</map_upgrade>
+			<map_upgrade>21</map_upgrade>
+			<map_upgrade>22</map_upgrade>
+		</bge>
+	</map_expansion>
+
+</root>
