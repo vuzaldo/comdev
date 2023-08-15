@@ -164,6 +164,15 @@ async function parse() {
 					}
 				})
 			}
+			if (json.map_expansion) {
+				json.map_expansion.forEach(expansion => {
+					node = expansion.map_node
+					if (node) {
+						icon = expansion.icon
+						nodes[node.map].push({ icon, x: node.x, y: node.y, expansion: '1' })
+					}
+				})
+			}
 		} catch (error) {
 			console.error('Error parsing XML:', error)
 			continue
@@ -196,8 +205,8 @@ async function templates() {
 }
 
 async function updateData() {
-	await download()
-	// await parse()
+	// await download()
+	await parse()
 	// await templates()
 }
 
