@@ -1,0 +1,41 @@
+doctype html
+html(lang='en')
+
+	head
+
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+		meta(name='description', content='ComDev - Spellstone tools')
+		meta(name='author', content='')
+
+		meta(property='og:title', content='ComDev')
+		meta(property='og:description', content='Spellstone development tools')
+		//- meta(property='og:image', content='assets/preview-image.png')
+
+		title ComDev - Spellstone
+
+		// Favicon
+		link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+		// Core theme CSS (includes Bootstrap)
+		link(href='css/styles.css', rel='stylesheet')
+
+		// CodeMirror
+		link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/codemirror@5.65.14/lib/codemirror.css')
+
+	body
+
+		include cycle.pug
+		include maps.pug
+
+		// Bootstrap core JS
+		script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+		// CodeMirror
+		script(src='https://cdn.jsdelivr.net/npm/codemirror@5.65.14/lib/codemirror.js')
+		script(src='https://cdn.jsdelivr.net/npm/codemirror@5.65.14/mode/xml/xml.js')
+
+		script(src='js/scripts.js')
+		script(src='js/data.js')
+		script(src='js/templates.js')
+		script(src='js/generate.js')

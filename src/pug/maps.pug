@@ -1,0 +1,48 @@
+
+div#maps(style='display: none')
+	#wrapper.d-flex
+		// Sidebar
+		#sidebar-wrapper.border-end
+			.list-group
+				div.list-group-flush(style='position: fixed')
+					.sidebar-heading.border-bottom.list-group-item-light Maps
+					a.list-group-item.list-group-item-action.list-group-item-light.p-3x.border-bottom(href='#campaigns') Campaigns
+
+		// Page content wrapper
+		#page-content-wrapper
+
+			include menu.pug
+
+			// Page content
+			.container-fluid
+				section#next-bge
+					h2.mt-4 Campaigns
+					//- h5.mt-2
+					//- 	| Start Time
+					.row
+						.col-md-10
+							.row
+								.col-md-6.col-auto.mt-2
+									select.form-select#selectMap
+										option(selected, disabled) Select Map
+							.row.g-3.align-items-center.mt-0
+								.col-auto
+									label.col-form-label(for='nodeX') New Node
+								.col-auto
+									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X')#nodeX
+								.col-auto
+									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y')#nodeY
+								.col-auto
+									div.form-check.form-switch
+										input.form-check-input(type='checkbox', id='switchHidden', checked, onclick='switchHidden()')
+										label.form-check-label(for='switchHidden', style='user-select: none') Show hidden nodes
+							.row.mt-2
+								div.position-relative#selectedMap(style='display: none')
+									img.img-fluid(style='border: 2px solid black')
+						//- .col-md-6.mt-2
+						//- 	h6
+						//- 		i battleground_effects.xml
+						//- 	textarea#code-editor
+						//- 	button.btn.btn-light.mt-1.custom-btn.btn-border Copy
+
+					.footer.py-5

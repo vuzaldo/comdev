@@ -1,0 +1,283 @@
+
+div#cycle(style='display: none')
+	#wrapper.d-flex
+		// Sidebar
+		#sidebar-wrapper.border-end
+			.list-group
+				div.list-group-flush(style='position: fixed')
+					//- .sidebar-heading.border-bottom.list-group-item-light Cycle
+					.sidebar-heading.border-bottom.list-group-item-light Events
+					a.list-group-item.list-group-item-action.list-group-item-light.p-3x.border-bottom(href='#next-bge') Next BGE
+					a.list-group-item.list-group-item-action.list-group-item-light.p-3x.border-bottom(href='#clash') Clash
+					a.list-group-item.list-group-item-action.list-group-item-light.p-3x.border-bottom(href='#dungeon') Dungeon
+					a.list-group-item.list-group-item-action.list-group-item-light.p-3x.border-bottom(href='#guild-war') Guild War
+					a.list-group-item.list-group-item-action.list-group-item-light.p-3x.border-bottom(href='#expedition') Expedition
+					a.list-group-item.list-group-item-action.list-group-item-light.p-3x.border-bottom(href='#brawl') Brawl
+					//- .sidebar-heading.border-bottom.list-group-item-light Store
+
+		// Page content wrapper
+		#page-content-wrapper
+
+			include menu.pug
+			
+			// Page content
+			.container-fluid
+				section#next-bge
+					h2.mt-4 Next BGE
+					h5.mt-2#startTime
+						| Start Time
+					.row
+						.col-md-6
+							.row
+								.col-md-6.col-auto.mt-2
+									select.form-select#selectTribe
+										option(selected, disabled) Select Tribe
+								.col-md-6.col-auto.mt-2
+									button.btn.btn-primary(type='submit', onclick='generate()').custom-btn Generate
+							.row.g-3.align-items-center.mt-1
+								.col-auto
+									label.col-form-label(for='rewardChamp') Reward Champion
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardChamp')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-1
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpic1') Reward Epic (1)
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic1')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpic2') Reward Epic (2)
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic2')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpic3') Reward Epic (3)
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic3')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpic4') Reward Epic (4)
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic4')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row
+								.col-md-6.col-auto.mt-5
+									select.form-select#selectMapCycle
+										option(selected, disabled) Select Map
+							.row.g-3.align-items-center.mt-0
+								.col-auto
+									label.col-form-label(for='eventNodeX') Event Node
+								.col-auto
+									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X')#eventNodeX
+								.col-auto
+									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y')#eventNodeY
+							.row.mt-2
+								div.position-relative#selectedMapCycle(style='display: none')
+									img.img-fluid(style='border: 2px solid black')
+						//- .col-md-6.mt-2
+						//- 	h6
+						//- 		i battleground_effects.xml
+						//- 	textarea#code-editor
+						//- 	button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
+				section#clash
+					h2.mt-5 Clash
+					h5.mt-2#clashStartTime
+						| Start Time
+					.row
+						.col-md-6
+							.row.mt-2
+								.col-md-6.col-auto
+									label(for='clashName', class='form-label') Name
+							.row
+								.col-md-6.col-auto
+									input.form-control.col-md-4(type='text', oninput='updateEditors()', id='clashName')
+							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpicClash') Reward Epic
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpicClash', disabled)
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
+								.col-auto
+									label.col-form-label(for='rewardRareClash') Reward Rare
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardRareClash')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							h2.mt-4 Guild Clash
+								h5.mt-2#guildClashStartTime
+									| Start Time
+							.row
+								.col-md-6.col-auto
+									label(for='guildClashName', class='form-label') Name
+							.row
+								.col-md-6.col-auto
+									input.form-control.col-md-4(type='text', oninput='updateEditors()', id='guildClashName')
+							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpicGuildClash') Reward Epic
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpicGuildClash', disabled)
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
+								.col-auto
+									label.col-form-label(for='rewardRareGuildClash') Reward Rare
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardRareGuildClash')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+						.col-md-6.mt-2
+							h6
+								i event_timeline_clash.xml
+							textarea#event_timeline_clash
+							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
+				section#dungeon
+					h2.mt-5 Dungeon
+					h5.mt-#dungeonStartTime
+						| Start Time
+					.row
+						.col-md-6
+							.row.mt-2
+								.col-md-6.col-auto
+									label(for='dungeonName', class='form-label') Name
+							.row
+								.col-md-6.col-auto
+									input.form-control.col-md-4(type='text', oninput='updateEditors()', id='dungeonName')
+							.row.mt-2
+								.col-md-6.col-auto
+									label(for='dungeonEnemyName', class='form-label') Enemy Name
+							.row
+								.col-md-6.col-auto
+									input.form-control.col-md-4(type='text', oninput='updateEditors()', id='dungeonEnemyName')
+							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpicDungeon') Reward Epic
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpicDungeon', disabled)
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
+								.col-auto
+									label.col-form-label(for='rewardRareDungeon') Reward Rare
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardRareDungeon')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.mt-3
+								.col-md-6.col-auto
+									label(for='dungeonDeckHash', class='form-label') Deck Hash
+							.row
+								.col-md-10.col-auto
+									input.form-control.col-md-4(type='text', id='dungeonDeckHash', disabled, placeholder='Coming soon')
+							//- .form-text#passwordHelpBlock Invalid hash.
+						.col-md-6.mt-2
+							h6
+								i event_timeline_dungeons.xml
+							textarea#event_timeline_dungeons
+							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
+				section#guild-war
+					h2.mt-5 Guild War
+					h5.mt-2#warStartTime
+						| Start Time
+					.row
+						.col-md-6
+							.row.mt-2
+								.col-md-6.col-auto
+									label(for='warName', class='form-label') Name
+							.row
+								.col-md-6.col-auto
+									input.form-control.col-md-4(type='text', oninput='updateEditors()', id='warName')
+							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpicWar') Reward Epic
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpicWar', disabled)
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
+								.col-auto
+									label.col-form-label(for='rewardRareWar') Reward Rare
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardRareWar')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+						.col-md-6.mt-2
+							h6
+								i event_timeline_wars_clash.xml
+							textarea#event_timeline_wars_clash
+							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
+				section#expedition
+					h2.mt-5 Expedition
+					h5.mt-2#expeditionStartTime
+						| Start Time
+					.row
+						.col-md-6
+							.row.mt-2
+								.col-md-6.col-auto
+									label(for='expeditionName', class='form-label') Name
+							.row
+								.col-md-6.col-auto
+									input.form-control.col-md-4(type='text', oninput='updateEditors()', id='expeditionName')
+							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpicExpedition') Reward Epic
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpicExpedition', disabled)
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
+								.col-auto
+									label.col-form-label(for='rewardRareExpedition') Reward Rare
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardRareExpedition')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+						.col-md-6.mt-2
+							h6
+								i event_timeline_expeditions.xml
+							textarea#event_timeline_expeditions
+							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
+				section#brawl
+					h2.mt-5 Brawl
+					h5.mt-2#brawlStartTime
+						| Start Time
+					.row
+						.col-md-6
+							.row.mt-2
+								.col-md-6.col-auto
+									label(for='brawlName', class='form-label') Name
+							.row
+								.col-md-6.col-auto
+									input.form-control.col-md-4(type='text', oninput='updateEditors()', id='brawlName')
+							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-x
+									label.col-form-label(for='rewardEpicBrawl') Reward Epic
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpicBrawl', disabled)
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
+								.col-auto
+									label.col-form-label(for='rewardRareBrawl') Reward Rare
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardRareBrawl')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+						.col-md-6.mt-2
+							h6
+								i event_timeline_brawls.xml
+							textarea#event_timeline_brawls
+							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
+
+					.footer.py-5
