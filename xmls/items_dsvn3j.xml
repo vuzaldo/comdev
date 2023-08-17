@@ -4377,7 +4377,7 @@
             </choice>
     </item>
 
-    <item>
+	<item>
             <id>2699</id>
             <name>Vigilant Spark Flask</name>
             <icon>Lava_Vial</icon>
@@ -4395,7 +4395,51 @@
             <choice id='4'>
                     <item id='104041' quantity='1' /> <!-- Leyla, Queen of Skyhaven -->
             </choice>
-    </item>   
+    </item>
+
+		<!-- Event 106: Goblins ComDev -->
+
+	<!-- New Map Reward Flask -->
+	<item>
+            <id>2700</id>
+            <name>Return to Karthos Flask</name>
+            <icon>Lava_Vial</icon>
+            <bundle>17</bundle>
+            <desc>Consume to get your choice of Champion Stones for Spikes, the Warmonger; Nuvis, the Eye Collector; Reks, the Dragonslayer or Krampus, the Impostor</desc>
+            <choice id="1">
+                    <item id="104026" quantity="1"/> <!-- Spikes -->
+            </choice>
+            <choice id="2">
+                    <item id="104037" quantity="1"/> <!-- Nuvis -->
+            </choice>
+            <choice id="3">
+                    <item id="104054" quantity="1"/> <!-- Reks -->
+            </choice>
+            <choice id="4">
+                    <item id="104066" quantity="1"/> <!-- Krampus -->
+            </choice>
+    </item>
+	
+	<!-- Second Reward Flask with the other goblin reward champs -->
+	<item>
+            <id>2801</id> <!-- Need to avoid 2701-2800 reserved for Battleground Effect Items -->
+            <name>Goblin Civil War Flask</name>
+            <icon>Lava_Vial</icon>
+            <bundle>17</bundle>
+            <desc>Consume to get your choice of Champion Stones for Boldur, Bridge Builder; Daknak Darkblade; Ark and the Goatapult or Sivun, the Blind Commander</desc>
+            <choice id="1">
+                    <item id="104005" quantity="1"/> <!-- Boldur -->
+            </choice>
+            <choice id="2">
+                    <item id="104016" quantity="1"/> <!-- Daknak -->
+            </choice>
+            <choice id="3">
+                    <item id="104047" quantity="1"/> <!-- Ark -->
+            </choice>
+            <choice id="4">
+                    <item id="104074" quantity="1"/> <!-- Sivun -->
+            </choice>
+    </item>
 
     <!--  WARNING NOTE: ID 2701 is already taken and 2701-2800 is currently reserved for battleground items. 2801-3000 is currently unused -->
 
@@ -4413,7 +4457,7 @@
     	<usable>0</usable>
     </item>
 
-    <!-- 3001-4000 SPECIAL EVENT ITEMS START -->
+    <!-- 3001-3200 SPECIAL EVENT ITEMS START -->
     <!-- Dragon Event -->
     <item>
     	<id>3001</id>
@@ -5704,6 +5748,33 @@
         <bundle>92</bundle>
         <desc>A collection of shattered Spellstones. Combine with Void Soul to summon Shatterstone Anomaly!</desc>
         <usable>0</usable>
+    </item>
+
+	<!-- 3200-4000 ComDev Random Card Chooser -->
+
+<!-- Event 106: ComDev Goblin -->
+
+<!-- Pilot Item -->
+
+    <item>
+        <id>3200</id>
+        <name>Random Goblin Reward Epic Choice</name>
+        <icon>icon_card</icon>
+        <bundle>0</bundle>
+        <desc>A choice from 4 random ^c0DFFEpic ^cFFFFGoblin cards from Reward Set!</desc>
+        <create_choice id='1'>
+            <card min_level='1' max_level='1' min_rarity='3' max_rarity='3' set='2000' type='11' />
+        </create_choice>
+        <create_choice id='2'>
+            <card min_level='1' max_level='1' min_rarity='3' max_rarity='3' set='2000' type='11' />
+        </create_choice>
+        <create_choice id='3'>
+            <card min_level='1' max_level='1' min_rarity='3' max_rarity='3' set='2000' type='11' />
+        </create_choice>
+        <create_choice id='4'>
+            <card min_level='1' max_level='1' min_rarity='3' max_rarity='3' set='2000' type='11' />
+        </create_choice>
+        <auto_use>1</auto_use>
     </item>
 
     <!-- 4001-4999 COMPONENTS START -->

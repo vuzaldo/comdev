@@ -29442,4 +29442,321 @@
 		</box_discount>
 	</event_box>
 
+	<!-- OLD CHAMPION PACK 1 -->	
+	<event_box>
+		<id>2682</id>
+		<name>Wrom Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFWrom Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFWrom, the Entomancer^cFFFF Champion card!</desc>
+		<asset_prefab>event_061_grasshopperlegs</asset_prefab>
+    	<background_prefab>event_061_banner_grasshopperlegs</background_prefab>
+   		<bundle>184</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='5191' order='1' /> <!-- Legendary Bubble Gumm -->
+		<card id='6141' order='2' /> <!-- Legendary Zabzod -->
+		<card id='6188' order='3' /> <!-- Legendary Dune Thief -->
+		<card id='7087' order='4' /> <!-- Epic -->
+		<card id='6144' order='5' /> <!-- Epic -->
+		<card id='6072' order='6' /> <!-- Epic -->
+		<card id='7146' order='7' /> <!-- Epic -->
+		<card id='7090' order='8' /> <!-- Epic -->
+		<card id='6021' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='107609' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 2 -->
+	<event_box>
+		<id>2683</id>
+		<name>Drarm Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFDrarm Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFDrarm, the Soulbinder^cFFFF Champion card!</desc>
+		<asset_prefab>event_85_undeadectomancer_championpack</asset_prefab>
+		<background_prefab>event_85_undeadectomancer_banner</background_prefab>
+		<bundle>237</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='7148' order='1' /> <!-- Legendary Pointystick -->
+		<card id='5147' order='2' /> <!-- Legendary Bard of Gobsburg -->
+		<card id='6219' order='3' /> <!-- Legendary Cinderclaw -->
+		<card id='5146' order='4' /> <!-- Epic -->
+		<card id='5146' order='5' /> <!-- Epic -->
+		<card id='6089' order='6' /> <!-- Epic -->
+		<card id='6089' order='7' /> <!-- Epic -->
+		<card id='6090' order='8' /> <!-- Epic -->
+		<card id='6090' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='105627' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 3 -->
+	<event_box>
+		<id>2684</id>
+		<name>Ystlin Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFBoss Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFYstlin, the Market Boss^cFFFF Champion card!</desc>
+		<asset_prefab>event_057_cunninggoblinleader</asset_prefab>
+		<background_prefab>event_057_banner_cunninggoblinleader</background_prefab>
+		<bundle>175</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='6220' order='1' /> <!-- Legendary Gobtoh -->
+		<card id='5092' order='2' /> <!-- Legendary Tundra Reaver -->
+		<card id='7193' order='3' /> <!-- Legendary Rocketspear -->
+		<card id='7090' order='4' /> <!-- Epic -->
+		<card id='6072' order='5' /> <!-- Epic -->
+		<card id='6143' order='6' /> <!-- Epic -->
+		<card id='7087' order='7' /> <!-- Epic -->
+		<card id='5146' order='8' /> <!-- Epic -->
+		<card id='5145' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='105610' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHANCE PACK  4 -->
+	<event_box>
+		<id>2685</id>
+		<name>Goblin Defense Squad Chance Pack</name> <!-- UPDATE DESC -->
+		<desc>Pull from an assortment of amazing Goblin cards, all ^cF00FArmor^cFFFFed for war!</desc>
+		<asset_prefab>event_057_goblinpaladin</asset_prefab>
+		<background_prefab>event_057_banner_goblinpaladin</background_prefab>
+		<bundle>175</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='5253' order='1' /> <!-- Face card Bullywhack -->
+		<card id='7088' order='2' /> <!-- Legendary Jubjub -->
+		<card id='7256' order='3' /> <!-- Legendary Soldier of Fortune -->
+		<card id='6297' order='4' /> <!-- Legendary War Drummer -->
+		<card id='5091' order='5' /> <!-- Epic -->
+		<card id='5091' order='6' /> <!-- Epic -->
+		<card id='5145' order='7' /> <!-- Epic --> 	
+		<card id='5145' order='8' /> <!-- Epic -->
+		<card id='7145' order='9' /> <!-- Epic -->
+		<card id='7145' order='10' /> <!-- Epic -->
+		<box_discount>
+			<box_discount_id>1</box_discount_id>
+			<name>Scout's Deal</name>
+			<desc>Four cards at once for a low price! Limit one per chance pack.</desc>
+			<hc_cost>120</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3'/>
+			</cards>
+		</box_discount>
+		<box_discount>
+			<box_discount_id>2</box_discount_id>
+			<name>Adventurer's Deal</name>
+			<desc>Ten cards at once with two guaranteed Legendary cards! Limit one per chance pack.</desc>
+			<hc_cost>400</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='4' />
+				<card min_rarity='4' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 5 -->
+	<event_box>
+		<id>2686</id>
+		<name>Vig Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFLeaper Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFVig, the Leaper^cFFFF Champion card!</desc>
+		<asset_prefab>event_97_portalambusher_championpack</asset_prefab>
+		<background_prefab>event_97_portalambusher_banner</background_prefab>
+		<bundle>261</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='7254' order='1' /> <!-- Legendary Halo Frenzier -->
+		<card id='5088' order='2' /> <!-- Legendary Betrayal -->
+		<card id='6091' order='3' /> <!-- Legendary Bone Sculptor -->
+		<card id='6021' order='4' /> <!-- Epic -->
+		<card id='6089' order='5' /> <!-- Epic -->
+		<card id='7145' order='6' /> <!-- Epic -->
+		<card id='6143' order='7' /> <!-- Epic -->
+		<card id='6090' order='8' /> <!-- Epic -->
+		<card id='5089' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='106627' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 6 -->
+	<event_box>
+		<id>2687</id>
+		<name>Remi Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFRemi Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFRemi, the Banished^cFFFF Champion card!</desc>
+		<asset_prefab>event_94_remibipolar_championpack</asset_prefab>
+		<background_prefab>event_94_remibipolar_banner</background_prefab>
+		<bundle>255</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='6282' order='1' /> <!-- Legendary Cauldron Troop -->
+		<card id='7001' order='2' /> <!-- Legendary Hekaton -->
+		<card id='5251' order='3' /> <!-- Legendary Spellbuster Witch -->
+		<card id='6072' order='4' /> <!-- Epic -->
+		<card id='6143' order='5' /> <!-- Epic -->
+		<card id='5145' order='6' /> <!-- Epic -->
+		<card id='6089' order='7' /> <!-- Epic -->
+		<card id='5091' order='8' /> <!-- Epic -->
+		<card id='5089' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='105635' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 7 -->
+	<event_box>
+		<id>2688</id>
+		<name>Xerkahn Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFXerkahn Stones^cFFFF with a chance at a 500 Stone jackpot! Collect to get the ^cE7FFXerkahn, the Rancor^cFFFF Champion card!</desc>
+		<asset_prefab>event_066_xerkahn</asset_prefab>
+		<background_prefab>event_066_banner_xerkahn</background_prefab>
+		<bundle>197</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='7226' order='1' /> <!-- Legendary Froglin -->
+		<card id='5144' order='2' /> <!-- Legendary Wee Sparkcaster -->
+		<card id='6148' order='3' /> <!-- Legendary Narwhal Spiker -->
+		<card id='6144' order='4' /> <!-- Epic -->
+		<card id='7087' order='5' /> <!-- Epic -->
+		<card id='7146' order='6' /> <!-- Epic -->
+		<card id='6021' order='7' /> <!-- Epic -->
+		<card id='5091' order='8' /> <!-- Epic -->
+		<card id='7090' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='106605' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+
 </root>

@@ -1820,4 +1820,24 @@
 		<card id='12049' level='1' order='4' />
 	</event_box>
 
+	<event_box>
+		<id>6091</id>
+		<name>Goblin Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='12096' level='1' order='1' />  <!-- Magma Sledder -->
+		<card id='12194' level='1' order='2' />  <!-- Combatant Twogre -->
+		<card id='12195' level='1' order='3' />  <!-- Rotten Rogue -->
+		<card id='12064' level='1' order='4' />  <!-- Tome Bandit -->
+	</event_box>
+
 </root>
