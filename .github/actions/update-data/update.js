@@ -214,8 +214,8 @@ async function templates() {
 
 async function updateData() {
 	await download()
-	// await parse()
-	// await templates()
+	await parse()
+	await templates()
 }
 
 try {
