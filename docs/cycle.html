@@ -1,0 +1,271 @@
+<div id="cycle" style="display: none">
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-end" id="sidebar-wrapper">
+            <div class="list-group">
+                <div class="list-group-flush" style="position: fixed">
+                    <div class="sidebar-heading border-bottom list-group-item-light">Events</div>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3x border-bottom" href="#next-bge">Next BGE</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3x border-bottom" href="#clash">Clash</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3x border-bottom" href="#dungeon">Dungeon</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3x border-bottom" href="#guild-war">Guild War</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3x border-bottom" href="#expedition">Expedition</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3x border-bottom" href="#brawl">Brawl</a>
+                </div>
+            </div>
+        </div>
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Top navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="padding: 0.48rem"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mt-2 mt-lg-0">
+                            <li class="nav-item active"><a class="nav-link" href="#cycle">Cycle</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#maps">Maps</a></li>
+                            <li class="nav-item active"></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page content-->
+            <div class="container-fluid">
+                <section id="next-bge">
+                    <h2 class="mt-4">Next BGE</h2>
+                    <h5 class="mt-2" id="startTime">Start Time</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 col-auto mt-2">
+                                    <select class="form-select" id="selectTribe">
+                                        <option selected disabled>Select Tribe</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 col-auto mt-2"><button class="btn btn-primary custom-btn" type="submit" onclick="generate()">Generate</button></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-1">
+                                <div class="col-auto"><label class="col-form-label" for="rewardChamp">Reward Champion</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardChamp" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-1">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpic1">Reward Epic (1)</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpic1" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpic2">Reward Epic (2)</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpic2" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpic3">Reward Epic (3)</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpic3" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpic4">Reward Epic (4)</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpic4" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto mt-5">
+                                    <select class="form-select" id="selectMapCycle">
+                                        <option selected disabled>Select Map</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto"><label class="col-form-label" for="eventNodeX">Event Node</label></div>
+                                <div class="col-auto"><input class="form-control" type="number" min="0" max="999" oninput="filterCoordinate(this)" placeholder="X" id="eventNodeX" /></div>
+                                <div class="col-auto"><input class="form-control" type="number" min="65" max="665" oninput="filterCoordinate(this)" placeholder="Y" id="eventNodeY" /></div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="position-relative" id="selectedMapCycle" style="display: none"><img class="img-fluid" style="border: 2px solid black" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="clash">
+                    <h2 class="mt-5">Clash</h2>
+                    <h5 class="mt-2" id="clashStartTime">Start Time</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row mt-2">
+                                <div class="col-md-6 col-auto"><label class="form-label" for="clashName">Name</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto"><input class="form-control col-md-4" type="text" oninput="updateEditors()" id="clashName" /></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpicClash">Reward Epic</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpicClash" disabled /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto"><label class="col-form-label" for="rewardRareClash">Reward Rare</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardRareClash" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <h2 class="mt-4">
+                                Guild Clash
+                                <h5 class="mt-2" id="guildClashStartTime">Start Time</h5>
+                            </h2>
+                            <div class="row">
+                                <div class="col-md-6 col-auto"><label class="form-label" for="guildClashName">Name</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto"><input class="form-control col-md-4" type="text" oninput="updateEditors()" id="guildClashName" /></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpicGuildClash">Reward Epic</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpicGuildClash" disabled /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto"><label class="col-form-label" for="rewardRareGuildClash">Reward Rare</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardRareGuildClash" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <h6><i>event_timeline_clash.xml</i></h6>
+                            <textarea id="event_timeline_clash"></textarea>
+                            <button class="btn btn-light mt-1 custom-btn btn-border" onclick="copyText(this)">Copy</button>
+                        </div>
+                    </div>
+                </section>
+                <section id="dungeon">
+                    <h2 class="mt-5">Dungeon</h2>
+                    <h5 class="mt-" id="dungeonStartTime">Start Time</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row mt-2">
+                                <div class="col-md-6 col-auto"><label class="form-label" for="dungeonName">Name</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto"><input class="form-control col-md-4" type="text" oninput="updateEditors()" id="dungeonName" /></div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-6 col-auto"><label class="form-label" for="dungeonEnemyName">Enemy Name</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto"><input class="form-control col-md-4" type="text" oninput="updateEditors()" id="dungeonEnemyName" /></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpicDungeon">Reward Epic</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpicDungeon" disabled /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto"><label class="col-form-label" for="rewardRareDungeon">Reward Rare</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardRareDungeon" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-6 col-auto"><label class="form-label" for="dungeonDeckHash">Deck Hash</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10 col-auto"><input class="form-control col-md-4" type="text" id="dungeonDeckHash" disabled placeholder="Coming soon" /></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <h6><i>event_timeline_dungeons.xml</i></h6>
+                            <textarea id="event_timeline_dungeons"></textarea>
+                            <button class="btn btn-light mt-1 custom-btn btn-border" onclick="copyText(this)">Copy</button>
+                        </div>
+                    </div>
+                </section>
+                <section id="guild-war">
+                    <h2 class="mt-5">Guild War</h2>
+                    <h5 class="mt-2" id="warStartTime">Start Time</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row mt-2">
+                                <div class="col-md-6 col-auto"><label class="form-label" for="warName">Name</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto"><input class="form-control col-md-4" type="text" oninput="updateEditors()" id="warName" /></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpicWar">Reward Epic</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpicWar" disabled /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto"><label class="col-form-label" for="rewardRareWar">Reward Rare</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardRareWar" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <h6><i>event_timeline_wars_clash.xml</i></h6>
+                            <textarea id="event_timeline_wars_clash"></textarea>
+                            <button class="btn btn-light mt-1 custom-btn btn-border" onclick="copyText(this)">Copy</button>
+                        </div>
+                    </div>
+                </section>
+                <section id="expedition">
+                    <h2 class="mt-5">Expedition</h2>
+                    <h5 class="mt-2" id="expeditionStartTime">Start Time</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row mt-2">
+                                <div class="col-md-6 col-auto"><label class="form-label" for="expeditionName">Name</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto"><input class="form-control col-md-4" type="text" oninput="updateEditors()" id="expeditionName" /></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpicExpedition">Reward Epic</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpicExpedition" disabled /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto"><label class="col-form-label" for="rewardRareExpedition">Reward Rare</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardRareExpedition" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <h6><i>event_timeline_expeditions.xml</i></h6>
+                            <textarea id="event_timeline_expeditions"></textarea>
+                            <button class="btn btn-light mt-1 custom-btn btn-border" onclick="copyText(this)">Copy</button>
+                        </div>
+                    </div>
+                </section>
+                <section id="brawl">
+                    <h2 class="mt-5">Brawl</h2>
+                    <h5 class="mt-2" id="brawlStartTime">Start Time</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row mt-2">
+                                <div class="col-md-6 col-auto"><label class="form-label" for="brawlName">Name</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto"><input class="form-control col-md-4" type="text" oninput="updateEditors()" id="brawlName" /></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpicBrawl">Reward Epic</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpicBrawl" disabled /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                            <div class="row g-3 align-items-center mt-0">
+                                <div class="col-auto"><label class="col-form-label" for="rewardRareBrawl">Reward Rare</label></div>
+                                <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardRareBrawl" /></div>
+                                <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <h6><i>event_timeline_brawls.xml</i></h6>
+                            <textarea id="event_timeline_brawls"></textarea>
+                            <button class="btn btn-light mt-1 custom-btn btn-border" onclick="copyText(this)">Copy</button>
+                        </div>
+                    </div>
+                    <div class="footer py-5"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
