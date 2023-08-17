@@ -55,6 +55,7 @@ challenges = [
 	]
 other = [
 	"achievements",
+	"assetbundles",
 	"battleground_effects",
 	"config",
 	"guide",
