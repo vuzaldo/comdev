@@ -214,6 +214,7 @@ async function templates() {
 	expedition_parameters = JSON.parse(fs.readFileSync(filePath))
 	expedition_parameters = 'var EXPEDITION = ' + JSON.stringify(expedition_parameters)
 	string = '\n' + [templates, expedition_parameters].join('\n\n') + '\n'
+	string = string.replace(/\\r/g, '')
 	saveData('templates.js', string)
 }
 
