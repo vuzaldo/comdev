@@ -113,6 +113,11 @@ async function parseXML(xml) {
 	})
 }
 
+function saveData(file, string) {
+	fs.writeFileSync(path.join(rootDir, 'src', 'js', file), string)
+	fs.writeFileSync(path.join(rootDir, 'docs', 'js', file), string)
+}
+
 async function parse() {
 	console.log('\nParsing card data:')
 	cardData = {}
@@ -190,7 +195,7 @@ async function parse() {
 	mapData = 'var MAPS = ' + JSON.stringify(mapData)
 	nodes = 'var NODES = ' + JSON.stringify(nodes)
 	string = '\n' + [factions, cardData, mapData, nodes].join('\n\n') + '\n'
-	fs.writeFileSync(path.join(rootDir, 'src', 'js', 'data.js'), string)
+	saveData('data.js', string)
 }
 
 async function templates() {
@@ -209,7 +214,7 @@ async function templates() {
 	expedition_parameters = JSON.parse(fs.readFileSync(filePath))
 	expedition_parameters = 'var EXPEDITION = ' + JSON.stringify(expedition_parameters)
 	string = '\n' + [templates, expedition_parameters].join('\n\n') + '\n'
-	fs.writeFileSync(path.join(rootDir, 'src', 'js', 'templates.js'), string)
+	saveData('templates.js', string)
 }
 
 async function updateData() {
