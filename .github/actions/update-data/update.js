@@ -61,6 +61,7 @@ other = [
 	"guide",
 	"guilds",
 	"levels",
+	"recipes_mj8d",
 	"tutorial1"
 	]
 obsolete = [
