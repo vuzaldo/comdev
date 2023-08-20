@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+	<!-- <card_req id='2001' number='1' level='1' /> -->
+	<!-- <item_req id='2001' number='1' /> -->
+	<!-- <unlock_req item_id='#' /> -->
+	<!-- <item_req id='gold' number='#' /> -->
+	<!-- <disable_multi_craft> 		Disables multiple crafting for this recipe -->
+
+
+	<!-- ====================================== -->
+	<!-- ============ Card Recipes ============ -->
+	<!-- ====================================== -->
+
+	<!-- Packs -->
+	<recipe>
+		<id>1001</id>
+		<name>Arcane Ore</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+    	<give_card id='501' number='1' level='1' />
+
+		<item_req id='2001' number='20' />
+	</recipe>
+	<recipe>
+		<id>1002</id>
+		<name>Blue Fire Pack</name>
+		<category>1</category>
+		<icon>icon_green_crystal_lg</icon>
+    	<give_pack id='2' number='1' />
+
+		<item_req id='2501' number='40' />
+	</recipe>
+	<recipe>
+		<id>1003</id>
+		<name>Epic Pack</name>
+		<category>1</category>
+		<icon>icon_blue_crystal_lg</icon>
+    	<give_pack id='44' number='1' />
+
+		<item_req id='17' number='1000' />
+	</recipe>
+	<recipe>
+		<id>1004</id>
+		<name>Legendary Pack</name>
+		<category>1</category>
+		<icon>icon_purple_crystal_lg</icon>
+    	<give_pack id='13' number='1' />
+
+		<item_req id='18' number='1000' />
+	</recipe>
+	<!-- <recipe>
+		<id>1005</id>
+		<name>Reward Pack Pack</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+    	<give_pack id='4' number='1' />
+
+		<item_req id='6' number='100' />
+		<item_req id='1' number='1000' />
+	</recipe> -->
+
+
+	<!-- Mythic Cards -->
+	<recipe>
+		<id>1101</id>
+		<name>Atlas</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+    	<give_card id='2016' number='1' level='1' />
+
+		<item_req id='2506' number='9' />
+		<item_req id='2503' number='1' />
+	</recipe>
+	<recipe>
+		<id>1102</id>
+		<name>Solaron</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+    	<give_card id='2017' number='1' level='1' />
+
+		<item_req id='2506' number='9' />
+		<item_req id='2504' number='1' />
+	</recipe>
+	<recipe>
+		<id>1103</id>
+		<name>Vulcanos</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+    	<give_card id='2018' number='1' level='1' />
+
+		<item_req id='2506' number='9' />
+		<item_req id='2505' number='1' />
+	</recipe>
+	<recipe>
+		<id>1104</id>
+		<name>Scylla</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+    	<give_card id='2072' number='1' level='1' />
+
+		<item_req id='2523' number='1' />
+		<item_req id='2522' number='50' />
+	</recipe>
+	<recipe>
+		<id>1105</id>
+		<name>Verus</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+    	<give_card id='2092' number='1' level='1' />
+
+		<item_req id='2525' number='1' />
+		<item_req id='2524' number='1000' />
+	</recipe>
+
+
+	<!-- <recipe>
+		<id>1107</id>
+		<name>GoldSoulds</name>
+		<category>1</category>
+    <icon>icon_card_lg</icon>
+		<give_item id='30007' number='1' />
+    <sc>30</sc>
+    <item_req id='1' number='30' />
+	</recipe> -->
+
+
+	<!-- Mythic Undead -->
+
+	<recipe>
+		<id>1106</id>
+		<name>Mortagan</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8017' />
+    	<give_card id='2158' number='1' level='1' />
+
+		<item_req id='2532' number='1' />
+		<item_req id='2533' number='1' />
+	</recipe>
+
+
+	<!-- Legendary Cards -->
+	<recipe>
+		<id>1201</id>
+		<name>Infinity</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8001' />
+    	<give_card id='2028' number='1' level='1' />
+
+		<item_req id='3050' number='1' />
+		<item_req id='3051' number='1' />
+	</recipe>
+	<recipe>
+		<id>1202</id>
+		<name>Zhulong</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8002' />
+    	<give_card id='2006' number='1' level='1' />
+
+		<item_req id='3054' number='1' />
+		<item_req id='3055' number='1' />
+	</recipe>
+	<recipe>
+		<id>1203</id>
+		<name>Dune Hopper</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8003' />
+    	<give_card id='2051' number='1' level='1' />
+
+		<item_req id='3057' number='1' />
+		<item_req id='3058' number='1' />
+	</recipe>
+	<recipe>
+		<id>1204</id>
+		<name>Pharite Snapjaw</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8004' />
+    	<give_card id='2106' number='1' level='1' />
+
+		<item_req id='3060' number='1' />
+		<item_req id='3061' number='1' />
+	</recipe>
+	<recipe>
+		<id>1205</id>
+		<name>Vali, the Thunderer</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8005' />
+    	<give_card id='2113' number='1' level='1' />
+
+		<item_req id='3063' number='1' />
+		<item_req id='3064' number='1' />
+	</recipe>
+	<recipe>
+		<id>1206</id>
+		<name>Eos</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8006' />
+    	<give_card id='2043' number='1' level='1' />
+
+		<item_req id='3066' number='1' />
+		<item_req id='3067' number='1' />
+	</recipe>
+	<recipe>
+		<id>1207</id>
+		<name>Rimelight Crusader</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8007' />
+    	<give_card id='2086' number='1' level='1' />
+
+		<item_req id='3069' number='1' />
+		<item_req id='3070' number='1' />
+	</recipe>
+	<recipe>
+		<id>1208</id>
+		<name>Pinpin, Dragon Handler</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8008' />
+    	<give_card id='2065' number='1' level='1' />
+
+		<item_req id='3072' number='1' />
+		<item_req id='3073' number='1' />
+	</recipe>
+	<recipe>
+		<id>1209</id>
+		<name>Hunter Zind</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8010' />
+    	<give_card id='2080' number='1' level='1' />
+
+		<item_req id='3075' number='1' />
+		<item_req id='3076' number='1' />
+	</recipe>
+	<recipe>
+		<id>1210</id>
+		<name>Stoneclad Toad</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8011' />
+    	<give_card id='2013' number='1' level='1' />
+
+		<item_req id='3078' number='1' />
+		<item_req id='3079' number='1' />
+	</recipe>
+	<recipe>
+		<id>1211</id>
+		<name>Gem Harvester</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8012' />
+    	<give_card id='2097' number='1' level='1' />
+
+		<item_req id='3081' number='1' />
+		<item_req id='3082' number='1' />
+	</recipe>
+	<recipe>
+		<id>1212</id>
+		<name>Ignus</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8013' />
+    	<give_card id='2091' number='1' level='1' />
+
+		<item_req id='3084' number='1' />
+		<item_req id='3085' number='1' />
+	</recipe>
+	<recipe>
+		<id>1213</id>
+		<name>Habrok, the Lance</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8014' />
+    	<give_card id='2083' number='1' level='1' />
+
+		<item_req id='3087' number='1' />
+		<item_req id='3088' number='1' />
+	</recipe>
+	<recipe>
+		<id>1214</id>
+		<name>Messina's Choice</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8015' />
+    	<give_card id='2116' number='1' level='1' />
+
+		<item_req id='3090' number='1' />
+		<item_req id='3091' number='1' />
+	</recipe>
+	<recipe>
+		<id>1215</id>
+		<name>Warrior Karna</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8016' />
+    	<give_card id='2112' number='1' level='1' />
+
+		<item_req id='3093' number='1' />
+		<item_req id='3094' number='1' />
+	</recipe>
+	<recipe>
+		<id>1216</id>
+		<name>Sproutfrog Rainwisher</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8018' />
+    	<give_card id='2071' number='1' level='1' />
+
+		<item_req id='3096' number='1' />
+		<item_req id='3097' number='1' />
+	</recipe>
+	<recipe>
+		<id>1217</id>
+		<name>Whitesail Wyvern</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8019' />
+    	<give_card id='2068' number='1' level='1' />
+
+		<item_req id='3099' number='1' />
+		<item_req id='3100' number='1' />
+	</recipe>
+	<recipe>
+		<id>1218</id>
+		<name>Avalanche Equine</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8020' />
+    	<give_card id='2022' number='1' level='1' />
+
+		<item_req id='3102' number='1' />
+		<item_req id='3103' number='1' />
+	</recipe>
+	<recipe>
+		<id>1219</id>
+		<name>Reks, the Forlorn</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8021' />
+    	<give_card id='2061' number='1' level='1' />
+
+		<item_req id='3105' number='1' />
+		<item_req id='3106' number='1' />
+	</recipe>
+	<recipe>
+		<id>1220</id>
+		<name>Wrath</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8022' />
+    	<give_card id='2055' number='1' level='1' />
+
+		<item_req id='3108' number='1' />
+		<item_req id='3109' number='1' />
+	</recipe>
+	<recipe>
+		<id>1221</id>
+		<name>Conjured Dragon</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8023' />
+    	<give_card id='2047' number='1' level='1' />
+
+		<item_req id='3111' number='1' />
+		<item_req id='3112' number='1' />
+	</recipe>
+	<recipe>
+		<id>1222</id>
+		<name>Bloodmist Harpy</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8024' />
+    	<give_card id='2187' number='1' level='1' />
+
+		<item_req id='3114' number='1' />
+		<item_req id='3115' number='1' />
+	</recipe>
+	<recipe>
+		<id>1223</id>
+		<name>Slagspirit</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8025' />
+    	<give_card id='2089' number='1' level='1' />
+
+		<item_req id='3117' number='1' />
+		<item_req id='3118' number='1' />
+	</recipe>
+	<recipe>
+		<id>1224</id>
+		<name>Siren</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8026' />
+    	<give_card id='2103' number='1' level='1' />
+
+		<item_req id='3120' number='1' />
+		<item_req id='3121' number='1' />
+	</recipe>
+	<recipe>
+		<id>1225</id>
+		<name>Noble Swordfish</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8027' />
+    	<give_card id='2200' number='1' level='1' />
+
+		<item_req id='3123' number='1' />
+		<item_req id='3124' number='1' />
+	</recipe>
+	<recipe>
+		<id>1226</id>
+		<name>Herald of Judgement</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8028' />
+    	<give_card id='2205' number='1' level='1' />
+
+		<item_req id='3126' number='1' />
+		<item_req id='3127' number='1' />
+	</recipe>
+	<recipe>
+		<id>1227</id>
+		<name>Shatterstone Anomaly</name>
+		<category>1</category>
+		<icon>icon_card_lg</icon>
+		<unlock_req item_id='8029' />
+    	<give_card id='2208' number='1' level='1' />
+
+		<item_req id='3129' number='1' />
+		<item_req id='3130' number='1' />
+	</recipe>
+
+	<!-- ====================================== -->
+	<!-- ============ Rune Recipes ============ -->
+	<!-- ====================================== -->
+
+	<recipe>
+		<id>2001</id>
+		<name>Rare Rune</name>
+		<category>2</category>
+		<icon>rune_empty_rare_LG</icon>
+    	<bundle>34</bundle>
+    	<desc>Creates your choice of one of three random Rare Runes when crafted.</desc>
+		<disable_multi_craft>1</disable_multi_craft>
+		<choice id='1'>
+        	<rune_drop rarity='2' p='1' set='1' />
+    	</choice>
+    	<choice id='2'>
+        	<rune_drop rarity='2' p='1' set='1' />
+    	</choice>
+    	<choice id='3'>
+        	<rune_drop rarity='2' p='1' set='1' />
+    	</choice>
+
+		<item_req id='4011' number='1' />	<!-- Runeshell -->
+		<item_req id='4001' number='5' />	<!-- Inscription Powder -->
+		<item_req id='2001' number='10' />	<!-- Arcane Fragment -->
+		<item_req id='2501' number='40' />	<!-- Bluefire Soul -->
+	</recipe>
+	<recipe>
+		<id>2002</id>
+		<name>Epic Rune</name>
+		<category>2</category>
+		<icon>rune_empty_epic_LG</icon>
+    	<bundle>34</bundle>
+		<desc>Creates your choice of one of three random Epic Rune when crafted.</desc>
+		<disable_multi_craft>1</disable_multi_craft>
+		<choice id='1'>
+        	<rune_drop rarity='3' p='1' set='1' />
+    	</choice>
+    	<choice id='2'>
+        	<rune_drop rarity='3' p='1' set='1' />
+    	</choice>
+    	<choice id='3'>
+        	<rune_drop rarity='3' p='1' set='1' />
+    	</choice>
+
+		<item_req id='4012' number='1' />	<!-- Runeshell -->
+		<item_req id='4001' number='20' />	<!-- Inscription Powder -->
+		<item_req id='2001' number='25' />	<!-- Arcane Fragment -->
+		<item_req id='2501' number='120' />	<!-- Bluefire Soul -->
+	</recipe>
+	<recipe>
+		<id>2003</id>
+		<name>Legendary Rune</name>
+		<category>2</category>
+		<icon>rune_empty_legendary_LG</icon>
+    	<bundle>34</bundle>
+		<desc>Creates your choice of one of three random Legendary Rune when crafted.</desc>
+		<disable_multi_craft>1</disable_multi_craft>
+		<choice id='1'>
+        	<rune_drop rarity='4' p='1' set='1' />
+    	</choice>
+    	<choice id='2'>
+        	<rune_drop rarity='4' p='1' set='1' />
+    	</choice>
+    	<choice id='3'>
+        	<rune_drop rarity='4' p='1' set='1' />
+    	</choice>
+
+		<item_req id='4013' number='3' />	<!-- Rune Sliver -->
+		<item_req id='4001' number='60' />	<!-- Inscription Powder -->
+		<item_req id='2001' number='75' />	<!-- Arcane Fragment -->
+		<item_req id='2501' number='350' />	<!-- Bluefire Soul -->
+	</recipe>
+
+
+	<!-- ====================================== -->
+	<!-- ============ Item Recipes ============ -->
+	<!-- ====================================== -->
+
+	<recipe>
+		<id>3001</id>
+		<name>Runecrafter's Pouch</name>
+		<category>3</category>
+		<icon>rune_component_bag_item</icon>
+		<bundle>17</bundle>
+    	<give_item id='514' />
+		<!-- <give_pack id='81' /> -->
+
+		<item_req id='6' number='20' />
+	</recipe>
+	<recipe>
+		<id>3002</id>
+		<name>Massive Runecrafter's Chest</name>
+		<category>3</category>
+		<icon>massiverunechest_100</icon>
+		<bundle>133</bundle>
+		<unlock_req item_id='8009' />
+		<give_pack id='89' />
+
+		<item_req id='19' number='100' />
+	</recipe>
+
+
+
+	<recipe_category>
+    	<id>0</id>
+    	<name>All</name>
+    	<banner>recipes_text</banner>
+    	<banner_bundle>0</banner_bundle>
+    	<icon>all_tab_icon</icon>
+    </recipe_category>
+    <recipe_category>
+    	<id>1</id>
+    	<name>Cards</name>
+    	<banner>cards_text</banner>
+    	<banner_bundle>0</banner_bundle>
+    	<icon>card_tab_icon</icon>
+    </recipe_category>
+    <recipe_category>
+    	<id>2</id>
+    	<name>Runes</name>
+    	<banner>runes_text</banner>
+    	<banner_bundle>0</banner_bundle>
+    	<icon>rune_tab_icon</icon>
+    </recipe_category>
+    <recipe_category>
+    	<id>3</id>
+    	<name>Items</name>
+    	<banner>items_text</banner>
+    	<banner_bundle>0</banner_bundle>
+    	<icon>item_tab_icon</icon>
+    </recipe_category>
+
+</root>
