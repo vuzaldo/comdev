@@ -67,6 +67,7 @@ other = [
 obsolete = [
 	"arena",
 	"cards",
+	"event_timeline_wars",
 	"events",
 	"passive_missions"
 	]
