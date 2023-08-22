@@ -1,0 +1,4251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!--
+    	Global Timeline Guild Wars		20000-21999
+    	Global Timeline Clash Wars		30000-31999
+
+
+    	Optional Overrides
+
+    		"active_node_prefab" = "guildwar_node_active"
+			"inactive_node_prefab" = "guildwar_node_not_active"
+			"node_bundle" = 26
+			"map_prefab" = "guild_war_castles"
+			"map_bundle" = 26
+			"points_icon"
+			"points_bundle"
+			"rank_icon"
+			"rank_bundle"
+    -->
+
+	<!-- REAL EVENTS -->
+    <event>
+        <id>20000</id>
+        <name>Stub Guild War</name>
+        <desc></desc>
+        <war_event_id>1</war_event_id>
+		<portrait>darius</portrait>
+        <start_time>1</start_time>
+        <end_time>2</end_time>
+    </event>
+
+    <event>
+        <id>20001</id>
+        <name>Arcantica Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>1</war_event_id>
+		<type>3</type>
+        <start_time>1446134400</start_time> 				<!-- Thu, 29 Oct 2015 16:00:00 GMT -->
+        <tracking_end_time>1446505200</tracking_end_time> 	<!-- Tue, 03 Nov 2015 16:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1446508800</end_time> 					<!-- Fri, 06 Nov 2015 16:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>103</map>
+			<x>600</x>
+			<y>146</y>
+		</map_node>
+        <event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='11041' level='1' /> <!--Dual Legendary Card -->
+			<unit id='1328' level='5' /> <!-- Epic Card -->
+			<unit id='1618' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>11250</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='1041' level='4' /> <!-- Legendary Card -->
+			<unit id='1328' level='5' /> <!-- Epic Card -->
+			<unit id='1618' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='1041' level='1' /> <!-- Legendary Card -->
+			<unit id='1328' level='5' /> <!-- Epic Card -->
+			<unit id='1618' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='1328' level='5' /> <!-- Epic Card -->
+			<unit id='1618' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>8250</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='1328' level='3' /> <!-- Epic Card -->
+			<unit id='1618' level='4' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='1328' level='1' /> <!-- Epic Card -->
+			<unit id='1618' level='4' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+			<unit id='1618' level='4' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+			<unit id='1618' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+			<unit id='1618' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='1618' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='1' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+    </event>
+
+    <event>
+        <id>20002</id>
+        <name>Tarragon Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>2</war_event_id>
+		<type>3</type>
+        <start_time>1448038800</start_time> 				<!-- Fri, 20 Nov 2015 17:00:00 GMT -->
+        <tracking_end_time>1448470800</tracking_end_time> 	<!-- Wed, 25 Nov 2015 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1448730000</end_time> 					<!-- Sat, 28 Nov 2015 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>101</map>
+			<x>640</x>
+			<y>250</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+        <event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='11340' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='1628' level='5' /> <!-- Epic Card -->
+			<unit id='5012' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='1340' level='4' /> <!-- Legendary Card -->
+			<unit id='1628' level='5' /> <!-- Epic Card -->
+			<unit id='5012' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='1340' level='1' /> <!-- Legendary Card -->
+			<unit id='1628' level='5' /> <!-- Epic Card -->
+			<unit id='5012' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='1628' level='5' /> <!-- Epic Card -->
+			<unit id='5012' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='1628' level='3' /> <!-- Epic Card -->
+			<unit id='5012' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='1628' level='1' /> <!-- Epic Card -->
+			<unit id='5012' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+			<unit id='5012' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+			<unit id='5012' level='3' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+			<unit id='5012' level='2' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='5012' level='1' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+    </event>
+
+    <event>
+        <id>20003</id>
+        <name>Winter's Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>3</war_event_id>
+		<type>3</type>
+        <start_time>1450285200</start_time> 				<!-- Wed, 16 Dec 2015 17:00:00 GMT -->
+        <tracking_end_time>1450717200</tracking_end_time> 	<!-- Mon, 21 Dec 2015 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1450976400</end_time> 					<!-- Thu, 24 Dec 2015 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>104</map>
+			<x>520</x>
+			<y>455</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+        <event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='11043' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='1632' level='5' /> <!-- Epic Card -->
+			<unit id='1314' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='1043' level='4' /> <!-- Legendary Card -->
+			<unit id='1632' level='5' /> <!-- Epic Card -->
+			<unit id='1314' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='1043' level='1' /> <!-- Legendary Card -->
+			<unit id='1632' level='5' /> <!-- Epic Card -->
+			<unit id='1314' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='1632' level='5' /> <!-- Epic Card -->
+			<unit id='1314' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='1632' level='3' /> <!-- Epic Card -->
+			<unit id='1314' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='1632' level='1' /> <!-- Epic Card -->
+			<unit id='1314' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+			<unit id='1314' level='4' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+			<unit id='1314' level='3' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+			<unit id='1314' level='2' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='1314' level='1' /> <!-- Rare Card -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+    </event>
+
+    <event>
+        <id>20005</id>
+        <name>Frostheart Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>5</war_event_id>
+		<type>3</type>
+        <start_time>1452193200</start_time> 				<!-- Thu, 07 Jan 2016 19:00:00 GMT -->
+        <tracking_end_time>1452625200</tracking_end_time> 	<!-- Tue, 12 Jan 2016 19:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1452877200</end_time> 					<!-- Fri, 15 Jan 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>104</map>
+			<x>450</x>
+			<y>295</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12022' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='1332' level='5' /> <!-- Epic Card -->
+			<unit id='1019' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2022' level='4' /> <!-- Legendary Card -->
+			<unit id='1332' level='5' /> <!-- Epic Card -->
+			<unit id='1019' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2022' level='1' /> <!-- Legendary Card -->
+			<unit id='1332' level='5' /> <!-- Epic Card -->
+			<unit id='1019' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='1332' level='5' /> <!-- Epic Card -->
+			<unit id='1019' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='1332' level='4' /> <!-- Epic Card -->
+			<unit id='1019' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='1332' level='3' /> <!-- Epic Card -->
+			<unit id='1019' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='1332' level='2' /> <!-- Epic Card -->
+			<unit id='1019' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='1332' level='2' /> <!-- Epic Card -->
+			<unit id='1019' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='1332' level='1' /> <!-- Epic Card -->
+			<unit id='1019' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='1332' level='1' /> <!-- Epic Card -->
+        	<unit id='1019' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='1019' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='1019' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='1019' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='1019' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+   
+	<event>
+        <id>20006</id>
+        <name>Undead Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1454000400</start_time> 				<!-- Thu, 28 Jan 2016 19:00:00 GMT -->
+        <tracking_end_time>1454432400</tracking_end_time> 	<!-- Tue, 02 Feb 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1454691600</end_time> 					<!-- Fri, 05 Feb 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>105</map>
+			<x>240</x>
+			<y>340</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='11342' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2025' level='5' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='1342' level='4' /> <!-- Legendary Card -->
+			<unit id='2025' level='5' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='1342' level='1' /> <!-- Legendary Card -->
+			<unit id='2025' level='5' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2025' level='5' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2025' level='4' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2025' level='3' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2025' level='2' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2025' level='2' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2025' level='1' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2025' level='1' /> <!-- Epic Card -->
+        	<unit id='7022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='7022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='7022' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='7022' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='7022' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+
+	<event>
+        <id>20007</id>
+        <name>Skythrone Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1457024400</start_time> 				<!-- Thu, 03 Mar 2016 17:00:00 GMT -->
+        <tracking_end_time>1457456400</tracking_end_time> 	<!-- Tue, 08 Mar 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1457715600</end_time> 					<!-- Fri, 11 Mar 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>106</map>
+			<x>170</x>
+			<y>304</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12028' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2004' level='5' /> <!-- Epic Card -->
+			<unit id='7017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2028' level='4' /> <!-- Legendary Card -->
+			<unit id='2004' level='5' /> <!-- Epic Card -->
+			<unit id='7017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2028' level='1' /> <!-- Legendary Card -->
+			<unit id='2004' level='5' /> <!-- Epic Card -->
+			<unit id='7017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2004' level='5' /> <!-- Epic Card -->
+			<unit id='7017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2004' level='4' /> <!-- Epic Card -->
+			<unit id='7017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2004' level='3' /> <!-- Epic Card -->
+			<unit id='7017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2004' level='2' /> <!-- Epic Card -->
+			<unit id='7017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2004' level='2' /> <!-- Epic Card -->
+			<unit id='7017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2004' level='1' /> <!-- Epic Card -->
+			<unit id='7017' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2004' level='1' /> <!-- Epic Card -->
+        	<unit id='7017' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='7017' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='7017' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='7017' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='7017' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20008</id>
+        <name>Elements Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1459443600</start_time> 				<!-- Thu, 31 Mar 2016 17:00:00 GMT -->
+        <tracking_end_time>1459875600</tracking_end_time> 	<!-- Tue, 05 Apr 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1460134800</end_time> 					<!-- Fri, 08 Apr 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>102</map>
+			<x>755</x>
+			<y>325</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12007' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2008' level='5' /> <!-- Epic Card -->
+			<unit id='1617' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2007' level='4' /> <!-- Legendary Card -->
+			<unit id='2008' level='5' /> <!-- Epic Card -->
+			<unit id='1617' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2007' level='1' /> <!-- Legendary Card -->
+			<unit id='2008' level='5' /> <!-- Epic Card -->
+			<unit id='1617' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2008' level='5' /> <!-- Epic Card -->
+			<unit id='1617' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2008' level='4' /> <!-- Epic Card -->
+			<unit id='1617' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2008' level='3' /> <!-- Epic Card -->
+			<unit id='1617' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2008' level='2' /> <!-- Epic Card -->
+			<unit id='1617' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2008' level='2' /> <!-- Epic Card -->
+			<unit id='1617' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2008' level='1' /> <!-- Epic Card -->
+			<unit id='1617' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2008' level='1' /> <!-- Epic Card -->
+        	<unit id='1617' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='1617' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='1617' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='1617' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='1617' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20009</id>
+        <name>Frogpocalypse Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1461862800</start_time> 				<!-- Thu, 28 Apr 2016 17:00:00 GMT -->
+        <tracking_end_time>1462294800</tracking_end_time> 	<!-- Tue, 03 May 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1462554000</end_time> 					<!-- Fri, 06 May 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>107</map>
+			<x>480</x>
+			<y>525</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12013' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2014' level='5' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2013' level='4' /> <!-- Legendary Card -->
+			<unit id='2014' level='5' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2013' level='1' /> <!-- Legendary Card -->
+			<unit id='2014' level='5' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2014' level='5' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2014' level='4' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2014' level='3' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2014' level='2' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2014' level='2' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2014' level='1' /> <!-- Epic Card -->
+			<unit id='7022' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2014' level='1' /> <!-- Epic Card -->
+        	<unit id='7022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='7022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='7022' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='7022' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='7022' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20010</id>
+        <name>Spirit Dragon Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1466701200</start_time> 				<!-- Thu, 23 Jun 2016 17:00:00 GMT -->
+        <tracking_end_time>1467133200</tracking_end_time> 	<!-- Tue, 28 Jun 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1467392400</end_time> 					<!-- Fri, 01 Jul 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>101</map>
+			<x>480</x>
+			<y>590</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12047' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2003' level='5' /> <!-- Epic Card -->
+			<unit id='7012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2047' level='4' /> <!-- Legendary Card -->
+			<unit id='2003' level='5' /> <!-- Epic Card -->
+			<unit id='7012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2047' level='1' /> <!-- Legendary Card -->
+			<unit id='2003' level='5' /> <!-- Epic Card -->
+			<unit id='7012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2003' level='5' /> <!-- Epic Card -->
+			<unit id='7012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2003' level='4' /> <!-- Epic Card -->
+			<unit id='7012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2003' level='3' /> <!-- Epic Card -->
+			<unit id='7012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2003' level='2' /> <!-- Epic Card -->
+			<unit id='7012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2003' level='2' /> <!-- Epic Card -->
+			<unit id='7012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2003' level='1' /> <!-- Epic Card -->
+			<unit id='7012' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2003' level='1' /> <!-- Epic Card -->
+        	<unit id='7012' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='7012' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='7012' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='7012' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='7012' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20011</id>
+        <name>Swarmlord Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1469120400</start_time> 				<!-- Thu, 21 Jul 2016 17:00:00 GMT -->
+        <tracking_end_time>1469552400</tracking_end_time> 	<!-- Tue, 26 Jul 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1469811600</end_time> 					<!-- Fri, 29 Jul 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>110</map>
+			<x>420</x>
+			<y>320</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<pack_icon>icon_purple_crystal_LG</pack_icon>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12051' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2048' level='5' /> <!-- Epic Card -->
+			<unit id='5022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2051' level='4' /> <!-- Legendary Card -->
+			<unit id='2048' level='5' /> <!-- Epic Card -->
+			<unit id='5022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2051' level='1' /> <!-- Legendary Card -->
+			<unit id='2048' level='5' /> <!-- Epic Card -->
+			<unit id='5022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2048' level='5' /> <!-- Epic Card -->
+			<unit id='5022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2048' level='4' /> <!-- Epic Card -->
+			<unit id='5022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2048' level='3' /> <!-- Epic Card -->
+			<unit id='5022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2048' level='2' /> <!-- Epic Card -->
+			<unit id='5022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2048' level='2' /> <!-- Epic Card -->
+			<unit id='5022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2048' level='1' /> <!-- Epic Card -->
+			<unit id='5022' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2048' level='1' /> <!-- Epic Card -->
+        	<unit id='5022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='5022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='5022' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='5022' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='5022' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20012</id>
+        <name>Skyhaven Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1471539600</start_time> 				<!-- Thu, 18 Aug 2016 17:00:00 GMT -->
+        <tracking_end_time>1471971600</tracking_end_time> 	<!-- Tue, 23 Aug 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1472230800</end_time> 					<!-- Fri, 26 Aug 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>106</map>
+			<x>680</x>
+			<y>435</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12055' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2053' level='5' /> <!-- Epic Card -->
+			<unit id='1014' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2055' level='4' /> <!-- Legendary Card -->
+			<unit id='2053' level='5' /> <!-- Epic Card -->
+			<unit id='1014' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2055' level='1' /> <!-- Legendary Card -->
+			<unit id='2053' level='5' /> <!-- Epic Card -->
+			<unit id='1014' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2053' level='5' /> <!-- Epic Card -->
+			<unit id='1014' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2053' level='4' /> <!-- Epic Card -->
+			<unit id='1014' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2053' level='3' /> <!-- Epic Card -->
+			<unit id='1014' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2053' level='2' /> <!-- Epic Card -->
+			<unit id='1014' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2053' level='2' /> <!-- Epic Card -->
+			<unit id='1014' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2053' level='1' /> <!-- Epic Card -->
+			<unit id='1014' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2053' level='1' /> <!-- Epic Card -->
+        	<unit id='1014' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='1014' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='1014' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='1014' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='1014' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20013</id>
+        <name>Salt Wastes Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1473958800</start_time> 				<!-- Thu, 15 Sep 2016 17:00:00 GMT -->
+        <tracking_end_time>1474390800</tracking_end_time> 	<!-- Tue, 20 Sep 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1474650000</end_time> 					<!-- Fri, 23 Sep 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>100</map>
+			<x>680</x>
+			<y>435</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12026' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2031' level='5' /> <!-- Epic Card -->
+			<unit id='5017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2026' level='4' /> <!-- Legendary Card -->
+			<unit id='2031' level='5' /> <!-- Epic Card -->
+			<unit id='5017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2026' level='1' /> <!-- Legendary Card -->
+			<unit id='2031' level='5' /> <!-- Epic Card -->
+			<unit id='5017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2031' level='5' /> <!-- Epic Card -->
+			<unit id='5017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2031' level='4' /> <!-- Epic Card -->
+			<unit id='5017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2031' level='3' /> <!-- Epic Card -->
+			<unit id='5017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2031' level='2' /> <!-- Epic Card -->
+			<unit id='5017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2031' level='2' /> <!-- Epic Card -->
+			<unit id='5017' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2031' level='1' /> <!-- Epic Card -->
+			<unit id='5017' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2031' level='1' /> <!-- Epic Card -->
+        	<unit id='5017' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='5017' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='5017' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='5017' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='5017' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20014</id>
+        <name>Lichlord Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1476378000</start_time> 				<!-- Thu, 13 Oct 2016 17:00:00 GMT -->
+        <tracking_end_time>1476810000</tracking_end_time> 	<!-- Tue, 18 Oct 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1477069200</end_time> 					<!-- Fri, 21 Oct 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>105</map>
+			<x>565</x>
+			<y>220</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12061' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2024' level='5' /> <!-- Epic Card -->
+			<unit id='1311' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2061' level='4' /> <!-- Legendary Card -->
+			<unit id='2024' level='5' /> <!-- Epic Card -->
+			<unit id='1311' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2061' level='1' /> <!-- Legendary Card -->
+			<unit id='2024' level='5' /> <!-- Epic Card -->
+			<unit id='1311' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2024' level='5' /> <!-- Epic Card -->
+			<unit id='1311' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2024' level='4' /> <!-- Epic Card -->
+			<unit id='1311' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2024' level='3' /> <!-- Epic Card -->
+			<unit id='1311' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2024' level='2' /> <!-- Epic Card -->
+			<unit id='1311' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2024' level='2' /> <!-- Epic Card -->
+			<unit id='1311' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2024' level='1' /> <!-- Epic Card -->
+			<unit id='1311' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2024' level='1' /> <!-- Epic Card -->
+        	<unit id='1311' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='1311' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='1311' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='1311' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='1311' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20015</id>
+        <name>Goblin Rise Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1478797200</start_time> 				<!-- Thu, 10 Nov 2016 17:00:00 GMT -->
+        <tracking_end_time>1479229200</tracking_end_time> 	<!-- Tue, 15 Nov 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1479488400</end_time> 					<!-- Fri, 18 Nov 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>111</map>
+			<x>80</x>
+			<y>405</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12065' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2064' level='5' /> <!-- Epic Card -->
+			<unit id='6007' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2065' level='4' /> <!-- Legendary Card -->
+			<unit id='2064' level='5' /> <!-- Epic Card -->
+			<unit id='6007' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2065' level='1' /> <!-- Legendary Card -->
+			<unit id='2064' level='5' /> <!-- Epic Card -->
+			<unit id='6007' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2064' level='5' /> <!-- Epic Card -->
+			<unit id='6007' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2064' level='4' /> <!-- Epic Card -->
+			<unit id='6007' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2064' level='3' /> <!-- Epic Card -->
+			<unit id='6007' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2064' level='2' /> <!-- Epic Card -->
+			<unit id='6007' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2064' level='2' /> <!-- Epic Card -->
+			<unit id='6007' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2064' level='1' /> <!-- Epic Card -->
+			<unit id='6007' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2064' level='1' /> <!-- Epic Card -->
+        	<unit id='6007' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='6007' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='6007' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='6007' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='6007' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20016</id>
+        <name>Fire Peak Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1481216400</start_time> 				<!-- Thu, 08 Dec 2016 17:00:00 GMT -->
+        <tracking_end_time>1481648400</tracking_end_time> 	<!-- Tue, 13 Dec 2016 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1481907600</end_time> 					<!-- Fri, 16 Dec 2016 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>101</map>
+			<x>500</x>
+			<y>570</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12068' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2046' level='5' /> <!-- Epic Card -->
+			<unit id='6012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2068' level='4' /> <!-- Legendary Card -->
+			<unit id='2046' level='5' /> <!-- Epic Card -->
+			<unit id='6012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2068' level='1' /> <!-- Legendary Card -->
+			<unit id='2046' level='5' /> <!-- Epic Card -->
+			<unit id='6012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2046' level='5' /> <!-- Epic Card -->
+			<unit id='6012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2046' level='4' /> <!-- Epic Card -->
+			<unit id='6012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2046' level='3' /> <!-- Epic Card -->
+			<unit id='6012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2046' level='2' /> <!-- Epic Card -->
+			<unit id='6012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2046' level='2' /> <!-- Epic Card -->
+			<unit id='6012' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2046' level='1' /> <!-- Epic Card -->
+			<unit id='6012' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2046' level='1' /> <!-- Epic Card -->
+        	<unit id='6012' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='6012' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='6012' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='6012' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='6012' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20017</id>
+        <name>Rainwater Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1483635600</start_time> 				<!-- Thu, 05 Jan 2017 17:00:00 GMT -->
+        <tracking_end_time>1484067600</tracking_end_time> 	<!-- Tue, 10 Jan 2017 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1484326800</end_time> 					<!-- Fri, 13 Jan 2017 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>107</map>
+			<x>640</x>
+			<y>280</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12071' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2034' level='5' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2071' level='4' /> <!-- Legendary Card -->
+			<unit id='2034' level='5' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2071' level='1' /> <!-- Legendary Card -->
+			<unit id='2034' level='5' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2034' level='5' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2034' level='4' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2034' level='3' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2034' level='2' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2034' level='2' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2034' level='1' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2034' level='1' /> <!-- Epic Card -->
+        	<unit id='6022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='6022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='6022' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='6022' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='6022' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	<event>
+        <id>20018</id>
+        <name>Maelstrom Guild War</name>
+        <priority>500</priority>
+        <desc>Compete with your Guild to earn War Points, increase your Guild's Total Points, and win exclusive rewards!</desc>
+        <!-- <link>
+	    	<url>http://www.kongregate.com/forums/4496-general/topics/511713-dev-guild-war-mechanics</url>
+	    	<name>Read More</name>
+	    </link> -->
+	    <guild_event>1</guild_event>
+        <war_event_id>6</war_event_id>
+		<type>3</type>
+        <start_time>1486054800</start_time> 				<!-- Thu, 02 Feb 2017 17:00:00 GMT -->
+        <tracking_end_time>1486486800</tracking_end_time> 	<!-- Tue, 07 Feb 2017 17:00:00 GMT -->
+        <claim_delay>20</claim_delay>
+        <end_time>1486746000</end_time> 					<!-- Fri, 10 Feb 2017 17:00:00 GMT -->
+        <view_action>GuildWar</view_action>
+        <portrait>bountyhunter</portrait>
+        <banner_prefab>guildWarsBanner</banner_prefab>
+		<bundle>26</bundle>
+        <points_icon>guild_war_point_icon</points_icon>
+        <points_bundle>26</points_bundle>
+        <rank_icon>guild_war_rank_icon</rank_icon>
+        <rank_bundle>26</rank_bundle>
+        
+        <rank_str>Test Req Rank {0}</rank_str>
+		<points_str>Test Req Points {0}</points_str>
+		<guild_points_str> Test Req Guild Points {0}</guild_points_str>
+
+		<effect guildwar_only='1'>
+			<bg_effect>501</bg_effect>
+		</effect>
+        <map_node>
+			<map>7</map>
+			<x>110</x>
+			<y>475</y>
+			<map_active_prefab>guildwar_node_active</map_active_prefab>
+			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
+			<map_bundle>26</map_bundle>
+		</map_node>
+		<event_reward>
+        	<desc>Complete the War at Rank 1 or higher.</desc>
+        	<tier>1</tier>
+        	<req>
+        		<min_points>14000</min_points>
+        		<min_rank>1</min_rank>
+        	</req>
+			<unit id='12080' level='1' /> <!-- Dual Legendary Card -->
+			<unit id='2079' level='5' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 3 or higher.</desc>
+        	<tier>2</tier>
+        	<req>
+        		<min_points>13000</min_points>
+        		<min_rank>2</min_rank>
+        	</req>
+			<unit id='2080' level='4' /> <!-- Legendary Card -->
+			<unit id='2079' level='5' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='7' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 5 or higher.</desc>
+        	<tier>3</tier>
+        	<req>
+        		<min_points>12000</min_points>
+        		<min_rank>3</min_rank>
+        	</req>
+			<unit id='2080' level='1' /> <!-- Legendary Card -->
+			<unit id='2079' level='5' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='6' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 10 or higher.</desc>
+        	<tier>4</tier>
+        	<req>
+        		<min_points>10500</min_points>
+        		<min_rank>10</min_rank>
+        	</req>
+			<unit id='2079' level='5' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='5' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 25 or higher.</desc>
+        	<tier>5</tier>
+        	<req>
+        		<min_points>9000</min_points>
+        		<min_rank>25</min_rank>
+        	</req>
+			<unit id='2079' level='4' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 50 or higher.</desc>
+        	<tier>6</tier>
+        	<req>
+        		<min_points>7500</min_points>
+        		<min_rank>50</min_rank>
+        	</req>
+			<unit id='2079' level='3' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1023' quantity='1' /> <!-- Bount Refill +5 -->
+			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 75 or higher.</desc>
+        	<tier>7</tier>
+        	<req>
+        		<min_points>6000</min_points>
+        		<min_rank>75</min_rank>
+        	</req>
+        	<unit id='2079' level='2' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='4' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 100 or higher.</desc>
+        	<tier>8</tier>
+        	<req>
+        		<min_points>5250</min_points>
+        		<min_rank>100</min_rank>
+        	</req>
+        	<unit id='2079' level='2' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='12' quantity='1' /> <!-- Epic Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='3' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 150 or higher.</desc>
+        	<tier>9</tier>
+        	<req>
+        		<min_points>4500</min_points>
+        		<min_rank>150</min_rank>
+        	</req>
+        	<unit id='2079' level='1' /> <!-- Epic Card -->
+			<unit id='6022' level='4' /> <!-- Rare Card -->
+			<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 250 or higher.</desc>
+        	<tier>10</tier>
+        	<req>
+        		<min_points>3750</min_points> <!-- 15 -->
+        		<min_rank>250</min_rank> <!-- 1300 -->
+        	</req>
+        	<unit id='2079' level='1' /> <!-- Epic Card -->
+        	<unit id='6022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='3' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 350 or higher.</desc>
+        	<tier>11</tier>
+        	<req>
+        		<min_points>2250</min_points>
+        		<min_rank>350</min_rank>
+        	</req>
+        	<unit id='6022' level='4' /> <!-- Rare Card -->
+        	<item id='11' quantity='1' /> <!-- Rare Pack -->
+			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 500 or higher.</desc>
+        	<tier>12</tier>
+        	<req>
+        		<min_points>1500</min_points>
+        		<min_rank>500</min_rank>
+        	</req>
+        	<unit id='6022' level='3' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+        </event_reward>
+        <event_reward>
+        	<desc>Complete the War at Rank 750 or higher.</desc>
+        	<tier>13</tier>
+        	<req>
+        		<min_points>750</min_points>
+        		<min_rank>750</min_rank>
+        	</req>
+        	<unit id='6022' level='2' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1012' quantity='1' /> <!-- Gold Bar -->
+        </event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 1000 or higher.</desc>
+			<tier>14</tier>
+			<req>
+				<min_points>375</min_points>
+				<min_rank>1000</min_rank>
+			</req>
+			<unit id='6022' level='1' /> <!-- Rare Card -->
+			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
+			<tier>15</tier>
+			<req>
+				<min_points>150</min_points>
+				<min_rank>2000</min_rank>
+			</req>
+			<unit id='510' level='1' />
+			<item id='1011' quantity='2' /> <!-- Gold Nugget -->
+		</event_reward>
+	</event>
+	
+	
+	
+</root>
