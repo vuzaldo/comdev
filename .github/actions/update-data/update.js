@@ -87,12 +87,16 @@ async function downloadFiles(files, dir = '') {
 		response = await new Promise((resolve, reject) => {
 			https.get(options, resolve)
 		})
-		fileStream = fs.createWriteStream(path.join(rootDir, 'xmls', dir, filename))
+		filePath = path.join(rootDir, 'xmls', dir, filename)
+		fileStream = fs.createWriteStream(filePath)
 		response.pipe(fileStream)
 		await new Promise((resolve, reject) => {
 			fileStream.on('finish', resolve)
 			fileStream.on('error', reject)
 		})
+		if (fs.readFileSync(filePath).includes('<root>')) { // will trigger the error to test in github actions
+			throw new Error('Network/server error')
+		}
 	}
 }
 async function download() {
