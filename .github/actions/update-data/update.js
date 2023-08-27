@@ -94,7 +94,7 @@ async function downloadFiles(files, dir = '') {
 			fileStream.on('finish', resolve)
 			fileStream.on('error', reject)
 		})
-		if (fs.readFileSync(filePath).includes('<root>')) { // will trigger the error to test in github actions
+		if (!fs.readFileSync(filePath).includes('<root>')) {
 			throw new Error('Network/server error')
 		}
 	}
