@@ -183,6 +183,7 @@ selectTribe.addEventListener('change', function() {
 	eventBGE = selectedOption.text;
 	eventTribeId = selectedOption.value;
 	updateEditors();
+	document.getElementById('generateBtn').disabled = false;
 });
 // selectTribe.selectedIndex = 6; // Goblin
 // selectTribe.dispatchEvent(new Event('change'));
