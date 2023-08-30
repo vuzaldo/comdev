@@ -115,8 +115,8 @@ div#cycle(style='display: none')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
 							h2.mt-4 Guild Clash
-								h5.mt-2#guildClashStartTime
-									| Start Time
+							h5.mt-2#guildClashStartTime
+								| Start Time
 							.row
 								.col-md-6.col-auto
 									label(for='guildClashName', class='form-label') Name
@@ -144,7 +144,7 @@ div#cycle(style='display: none')
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#dungeon
 					h2.mt-5 Dungeon
-					h5.mt-#dungeonStartTime
+					h5.mt-2#dungeonStartTime
 						| Start Time
 					.row
 						.col-md-6
@@ -187,13 +187,12 @@ div#cycle(style='display: none')
 							textarea#event_timeline_dungeons
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#guild-war
-					h2.mt-5 Guild War
-					.row
+					.row.mt-5
 						.col-md-6
-							.row
-								h5.mt-2#warStartTime
-									| Start Time
-							.row.mt-2
+							h2 Guild War
+							h5.mt-2#warStartTime
+								| Start Time
+							.row.mt-3
 								.col-md-6.col-auto
 									label(for='warName', class='form-label') Name
 							.row
@@ -219,13 +218,12 @@ div#cycle(style='display: none')
 							textarea#event_timeline_wars_clash
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#expedition
-					h2.mt-5 Expedition
-					.row
+					.row.mt-5
 						.col-md-6
-							.row
-								h5.mt-2#expeditionStartTime
-									| Start Time
-							.row.mt-2
+							h2 Expedition
+							h5.mt-2#expeditionStartTime
+								| Start Time
+							.row.mt-3
 								.col-md-6.col-auto
 									label(for='expeditionName', class='form-label') Name
 							.row
@@ -251,13 +249,12 @@ div#cycle(style='display: none')
 							textarea#event_timeline_expeditions
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#brawl
-					h2.mt-5 Brawl
-					.row
+					.row.mt-5
 						.col-md-6
-							.row
-								h5.mt-2#brawlStartTime
-									| Start Time
-							.row.mt-2
+							h2 Brawl
+							h5.mt-2#brawlStartTime
+								| Start Time
+							.row.mt-3
 								.col-md-6.col-auto
 									label(for='brawlName', class='form-label') Name
 							.row
@@ -283,4 +280,4 @@ div#cycle(style='display: none')
 							textarea#event_timeline_brawls
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 
-					.footer.py-5
+					.footer.py-5.mt-5
