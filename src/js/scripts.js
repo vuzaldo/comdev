@@ -217,7 +217,7 @@ document.querySelectorAll('textarea').forEach(textArea => {
 	editors[textArea.id].setValue('Loading template...');
 });
 // editors['event_timeline_dungeons'].getWrapperElement().style.minHeight = '40rem';
-'wars_clash expeditions brawls'.split(' ').forEach(e => {
+'wars_clash expeditions brawls n3rjc'.split(' ').forEach(e => {
 	editors['event_timeline_' + e].getWrapperElement().style.minHeight = '15rem';
 });
 function refreshEditors() {

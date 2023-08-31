@@ -1,0 +1,14 @@
+	<event>
+		<id>{EVENT_ID}</id>
+		<name>{BGE_NAME}</name>
+		<desc>{BGE_DESCRIPTION}</desc>
+		<banner_prefab>{BGE_BANNER}</banner_prefab>
+		<bundle>{BGE_BUNDLE}</bundle>
+		<effect>
+			<bg_effect>{BGE_EFFECT_ID}</bg_effect>
+		</effect>
+		<start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} -->
+		<end_time>{END_TIME}</end_time> <!-- {END_TIME_COMMENT} -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>

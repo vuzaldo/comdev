@@ -82,6 +82,7 @@ const dungeonId = 28067 + numCycles;
 const warId = 30087 + numCycles;
 const expeditionId = 7101 + numCycles;
 const brawlId = 8111 + numCycles;
+const eventBgeId = 6105 + numCycles;
 let eventBGE, eventTribeId, eventMap, eventMapX, eventMapY;
 
 let newChamp = 4073, newEpic = 2255;
@@ -118,6 +119,12 @@ template = 'event_timeline_brawls';
 parameters[template]['EVENT_ID'] = brawlId;
 parameters[template]['START_TIME'] = brawlStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(brawlStartTime);
+template = 'event_timeline_n3rjc';
+parameters[template]['EVENT_ID'] = eventBgeId;
+parameters[template]['START_TIME'] = nextStartTime;
+parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
+parameters[template]['END_TIME'] = nextStartTime + cycleDuration * 2;
+parameters[template]['END_TIME_COMMENT'] = convertTimestamp(parameters[template]['END_TIME']);
 
 function updateParameters() {
 	for (const template in parameters) {
@@ -163,6 +170,11 @@ function updateParameters() {
 			parameters['event_timeline_expeditions']['EXPEDITION_' + expParams[i]] = expedition[param];
 			i++;
 		}
+	}
+	template = 'event_timeline_n3rjc';
+	if (eventBGE) {
+		parameters[template]['BGE_BANNER'] = BGE_BANNERS[eventBGE].banner_prefab;
+		parameters[template]['BGE_BUNDLE'] = BGE_BANNERS[eventBGE].bundle;
 	}
 }
 
