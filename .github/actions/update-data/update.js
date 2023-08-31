@@ -219,7 +219,10 @@ async function templates() {
 	filePath = path.join(rootDir, 'templates', 'expedition_parameters.json')
 	expedition_parameters = JSON.parse(fs.readFileSync(filePath))
 	expedition_parameters = 'var EXPEDITION = ' + JSON.stringify(expedition_parameters)
-	string = '\n' + [templates, expedition_parameters].join('\n\n') + '\n'
+	filePath = path.join(rootDir, 'templates', 'bge_banners.json')
+	bge_banners = JSON.parse(fs.readFileSync(filePath))
+	bge_banners = 'var BGE_BANNERS = ' + JSON.stringify(bge_banners)
+	string = '\n' + [templates, expedition_parameters, bge_banners].join('\n\n') + '\n'
 	string = string.replace(/\\r/g, '')
 	saveData('templates.js', string)
 }
