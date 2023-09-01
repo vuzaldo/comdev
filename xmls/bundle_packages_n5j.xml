@@ -6722,15 +6722,15 @@
 	<package>
 		<id>888</id>
 		<name>Divinity Flask Pack</name>
-		<desc>Gives 180 Aether Divinity Flasks. They contain Champion Stones for Tanit, Divinity's Focus; Volsung Icewind; TZ-530 the Impassable; or Dina the Iridescent! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+		<desc>Gives 200 Aether Divinity Flasks. They contain Champion Stones for Tanit, Divinity's Focus; Volsung Icewind; TZ-530 the Impassable; or Dina the Iridescent! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
 		<bundle>35</bundle>
 		<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
 		<background_bundle>35</background_bundle>
-			<priority>1000</priority>
+		<priority>1000</priority>
 		<num_available>4</num_available>
 		<!-- Stuff to give -->
-		<item id='2578' number='180' />	<!-- Aether Gen 1 Flasks -->
+		<item id='2578' number='200' />	<!-- Aether Gen 1 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -6811,15 +6811,15 @@
 	<package>
 		<id>894</id>
 		<name>Cannon Flask Pack</name>
-		<desc>Gives 180 Chaos Cannon Flasks. They contain Champion Stones for Sigix the Charcannon; Elytragor, Beacon's Call; Apex Land Shark; or Kabuto, Samurai Myth! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
-			<bundle>35</bundle>
-			<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
-			<background_bundle>35</background_bundle>
-			<num_available>4</num_available>
+		<desc>Gives 200 Chaos Cannon Flasks. They contain Champion Stones for Sigix the Charcannon; Elytragor, Beacon's Call; Apex Land Shark; or Kabuto, Samurai Myth! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<num_available>4</num_available>
 		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2579' number='180' />	<!-- Chaos Gen 1 Flasks -->
+		<item id='2579' number='200' />	<!-- Chaos Gen 1 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -6900,7 +6900,7 @@
 	<package>
 		<id>900</id>
 		<name>Glory Flask Pack</name>
-		<desc>Gives 180 Wyld Glory Flasks. They contain Champion Stones for Glory Seeker Arran; Nemea, the Lost Regent; Leafsinger; or Formyr the Desecrated! May be purchased 4 times!</desc>
+		<desc>Gives 200 Wyld Glory Flasks. They contain Champion Stones for Glory Seeker Arran; Nemea, the Lost Regent; Leafsinger; or Formyr the Desecrated! May be purchased 4 times!</desc>
 		<asset_prefab>flask_pack_wyld_1</asset_prefab> <!-- Small Wyld Flasks Icon -->
 		<bundle>35</bundle>
 		<background_prefab>wyld_flask_banner</background_prefab> <!-- Wyld Flask Banner -->
@@ -6908,7 +6908,7 @@
 		<num_available>4</num_available>
     	<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2580' number='180' />	<!-- Wyld Gen 1 Flasks -->
+		<item id='2580' number='200' />	<!-- Wyld Gen 1 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -7984,15 +7984,15 @@
 	<package>
 		<id>961</id>
 		<name>Mirror Flask Pack</name>
-		<desc>Gives 180 Aether Mirror Flasks. They contain Champion Stones for Mirrormage Ghessela; Medusozoa, the Immortal; Volvel, Golden Pride; or Tao, Transcended Lich! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+		<desc>Gives 200 Aether Mirror Flasks. They contain Champion Stones for Mirrormage Ghessela; Medusozoa, the Immortal; Volvel, Golden Pride; or Tao, Transcended Lich! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
 		<bundle>35</bundle>
 		<background_prefab>aether_flask_banner_2</background_prefab> <!-- Aether Flask Banner -->
 		<background_bundle>35</background_bundle>
-			<priority>1000</priority>
+		<priority>1000</priority>
 		<num_available>4</num_available>
 		<!-- Stuff to give -->
-		<item id='2595' number='180' />	<!-- Aether Gen 2 Flasks -->
+		<item id='2595' number='200' />	<!-- Aether Gen 2 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -8073,15 +8073,15 @@
 	<package>
 		<id>967</id>
 		<name>Djinn Flask Pack</name>
-		<desc>Gives 180 Chaos Djinn Flasks. They contain Champion Stones for Malik, Hollow Djinn; Styxia, the Headless; Xerkahn, the Rancor; or Lyra, Mayhem Conductor! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
-			<bundle>35</bundle>
-			<background_prefab>chaos_flask_banner_2</background_prefab> <!-- Chaos Flask Banner -->
-			<background_bundle>35</background_bundle>
-			<num_available>4</num_available>
+		<desc>Gives 200 Chaos Djinn Flasks. They contain Champion Stones for Malik, Hollow Djinn; Styxia, the Headless; Xerkahn, the Rancor; or Lyra, Mayhem Conductor! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>chaos_flask_banner_2</background_prefab> <!-- Chaos Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<num_available>4</num_available>
 		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2596' number='180' />	<!-- Chaos Gen 2 Flasks -->
+		<item id='2596' number='200' />	<!-- Chaos Gen 2 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -8162,7 +8162,7 @@
 	<package>
 		<id>973</id>
 		<name>Rex Flask Pack</name>
-		<desc>Gives 180 Wyld Rex Flasks. They contain Champion Stones for Tropicano Rex; Rago, Crimson Vicar; Puzzlemud's Body; or The Triad of Fortunes! May be purchased 4 times!</desc>
+		<desc>Gives 200 Wyld Rex Flasks. They contain Champion Stones for Tropicano Rex; Rago, Crimson Vicar; Puzzlemud's Body; or The Triad of Fortunes! May be purchased 4 times!</desc>
 		<asset_prefab>flask_pack_wyld_1</asset_prefab> <!-- Small Wyld Flasks Icon -->
 		<bundle>35</bundle>
 		<background_prefab>wyld_flask_banner_2</background_prefab> <!-- Wyld Flask Banner -->
@@ -8170,7 +8170,7 @@
 		<num_available>4</num_available>
     	<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2597' number='180' />	<!-- Wyld Gen 2 Flasks -->
+		<item id='2597' number='200' />	<!-- Wyld Gen 2 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -8250,15 +8250,15 @@
 	<package>
 		<id>979</id>
 		<name>Wind Flask Pack</name>
-		<desc>Gives 180 Aether Wind Flasks. They contain Champion Stones for Windsage Gama; Phorus of the Sunsphere; Ystlin, the Market Boss; or Zhu-Lath, the Hermit! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+		<desc>Gives 200 Aether Wind Flasks. They contain Champion Stones for Windsage Gama; Phorus of the Sunsphere; Ystlin, the Market Boss; or Zhu-Lath, the Hermit! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
 		<bundle>35</bundle>
 		<background_prefab>aether_flask_banner_3</background_prefab> <!-- Aether Flask Banner -->
 		<background_bundle>35</background_bundle>
-			<priority>1000</priority>
+		<priority>1000</priority>
 		<num_available>4</num_available>
 		<!-- Stuff to give -->
-		<item id='2598' number='180' />	<!-- Aether Gen 3 Flasks -->
+		<item id='2598' number='200' />	<!-- Aether Gen 3 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -8339,15 +8339,15 @@
 	<package>
 		<id>985</id>
 		<name>Elder Flask Pack</name>
-		<desc>Gives 180 Chaos Elder Flasks. They contain Champion Stones for The Elder Evil; Bashira, the Half-Blooded; Zyd, the Unhinged; or Hedron, the Critical Threat! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
-			<bundle>35</bundle>
-			<background_prefab>chaos_flask_banner_3</background_prefab> <!-- Chaos Flask Banner -->
-			<background_bundle>35</background_bundle>
-			<num_available>4</num_available>
+		<desc>Gives 200 Chaos Elder Flasks. They contain Champion Stones for The Elder Evil; Bashira, the Half-Blooded; Zyd, the Unhinged; or Hedron, the Critical Threat! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>chaos_flask_banner_3</background_prefab> <!-- Chaos Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<num_available>4</num_available>
 		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2599' number='180' />	<!-- Chaos Gen 3 Flasks -->
+		<item id='2599' number='200' />	<!-- Chaos Gen 3 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -8428,15 +8428,15 @@
 	<package>
 		<id>991</id>
 		<name>Entomancy Flask Pack</name>
-		<desc>Gives 180 Wyld Entomancy Flasks. They contain Champion Stones for Wrom, the Entomancer; Trafyr, the Rose Warden; Vsov, Blizzard Djinn; or Tzopilotl, the Beyonder! May be purchased 4 times!</desc>
+		<desc>Gives 200 Wyld Entomancy Flasks. They contain Champion Stones for Wrom, the Entomancer; Trafyr, the Rose Warden; Vsov, Blizzard Djinn; or Tzopilotl, the Beyonder! May be purchased 4 times!</desc>
 		<asset_prefab>flask_pack_wyld_1</asset_prefab> <!-- Small Wyld Flasks Icon -->
 		<bundle>35</bundle>
 		<background_prefab>wyld_flask_banner_3</background_prefab> <!-- Wyld Flask Banner -->
 		<background_bundle>35</background_bundle>
 		<num_available>4</num_available>
-    	<priority>1000</priority>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2600' number='180' />	<!-- Wyld Gen 3 Flasks -->
+		<item id='2600' number='200' />	<!-- Wyld Gen 3 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -10228,21 +10228,21 @@
 
   <!-- Premium Flask Sales AETHER Gen 4 and 5 -->
 
-  <package>
-    <id>1091</id>
-    <name>Flow Flask Pack</name>
-    <desc>Gives 180 Aether Flow Flasks. They contain Champion Stones for Genen, the Icebreaker; Caraca, the Redeemed; Zahira, the Bladedance; or Sword Saint Katto! May be purchased 4 times!</desc>
-    <asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
-    <bundle>35</bundle>
-    <background_prefab>aether_flask_banner_gen4</background_prefab> <!-- Aether Flask Banner -->
-    <background_bundle>35</background_bundle>
-    <num_available>4</num_available>
-      <priority>1000</priority>
-    <!-- Stuff to give -->
-    <item id='2615' number='180' /> <!-- Aether Gen 4 Flasks -->
-    <!-- Purchase Identifier Config -->
-    <price_point_id>t20</price_point_id>
-  </package>
+	<package>
+		<id>1091</id>
+		<name>Flow Flask Pack</name>
+		<desc>Gives 200 Aether Flow Flasks. They contain Champion Stones for Genen, the Icebreaker; Caraca, the Redeemed; Zahira, the Bladedance; or Sword Saint Katto! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>aether_flask_banner_gen4</background_prefab> <!-- Aether Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<num_available>4</num_available>
+		<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2615' number='200' /> <!-- Aether Gen 4 Flasks -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
 
   <package>
     <id>1092</id>
@@ -10260,21 +10260,21 @@
     <price_point_id>t30</price_point_id>
   </package>
 
-   <package>
-    <id>1093</id>
-    <name>Exaltation Flask Pack</name>
-    <desc>Gives 180 Aether Exaltation Flasks. They contain Champion Stones for Satchmo, Pipe Tail; Osyris, Mighty Goddess; Raju, the Unyielding; or Chlorox Omega! May be purchased 4 times!</desc>
-    <asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
-    <bundle>35</bundle>
-    <background_prefab>aether_flask_banner_gen5</background_prefab> <!-- Aether Flask Banner -->
-    <background_bundle>35</background_bundle>
-    <num_available>4</num_available>
-      <priority>1000</priority>
-    <!-- Stuff to give -->
-    <item id='2636' number='180' /> <!-- Aether Gen 5 Flasks -->
-    <!-- Purchase Identifier Config -->
-    <price_point_id>t20</price_point_id>
-  </package> 
+	<package>
+		<id>1093</id>
+		<name>Exaltation Flask Pack</name>
+		<desc>Gives 200 Aether Exaltation Flasks. They contain Champion Stones for Satchmo, Pipe Tail; Osyris, Mighty Goddess; Raju, the Unyielding; or Chlorox Omega! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>aether_flask_banner_gen5</background_prefab> <!-- Aether Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<num_available>4</num_available>
+		<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2636' number='200' /> <!-- Aether Gen 5 Flasks -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
 
   <package>
     <id>1094</id>
@@ -10297,15 +10297,15 @@
  	<package>
 		<id>1095</id>
 		<name>Fury Flask Pack</name>
-		<desc>Gives 180 Chaos Fury Flasks. They contain Champion Stones for Issa, the Wireslayer; Caelius, the Highlord; Zolb, Labyrinth King; or Skylo, Lord of the Wings! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
-			<bundle>35</bundle>
-			<background_prefab>chaos_flask_banner_gen4</background_prefab> <!-- Chaos Flask Banner -->
-			<background_bundle>35</background_bundle>
-			<num_available>4</num_available>
+		<desc>Gives 200 Chaos Fury Flasks. They contain Champion Stones for Issa, the Wireslayer; Caelius, the Highlord; Zolb, Labyrinth King; or Skylo, Lord of the Wings! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>chaos_flask_banner_gen4</background_prefab> <!-- Chaos Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<num_available>4</num_available>
 		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2616' number='180' />	<!-- Chaos Gen 4 Flasks -->
+		<item id='2616' number='200' />	<!-- Chaos Gen 4 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -10329,15 +10329,15 @@
 	<package>
 		<id>1097</id>
 		<name>Eruption Flask Pack</name>
-		<desc>Gives 180 Chaos Eruption Flasks. They contain Champion Stones for Blaze, The Unvoker; Stern, the Gladthorn; Mephisto, the Pactmaker; or Domhain, the Fomorian! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
-			<bundle>35</bundle>
-			<background_prefab>chaos_flask_banner_gen5</background_prefab> <!-- Chaos Flask Banner -->
-			<background_bundle>35</background_bundle>
-			<num_available>4</num_available>
+		<desc>Gives 200 Chaos Eruption Flasks. They contain Champion Stones for Blaze, The Unvoker; Stern, the Gladthorn; Mephisto, the Pactmaker; or Domhain, the Fomorian! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>chaos_flask_banner_gen5</background_prefab> <!-- Chaos Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<num_available>4</num_available>
 		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2637' number='180' />	<!-- Chaos Gen 5 Flasks -->
+		<item id='2637' number='200' />	<!-- Chaos Gen 5 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -10363,15 +10363,15 @@
 	<package>
 		<id>1099</id>
 		<name>Root Flask Pack</name>
-		<desc>Gives 180 Wyld Root Flasks. They contain Champion Stones for Tarkar, the Unturned; Tylong, Old Warrior; Kyviat, the Aquamancer; or Lechuza, the Skybinder! May be purchased 4 times!</desc>
+		<desc>Gives 200 Wyld Root Flasks. They contain Champion Stones for Tarkar, the Unturned; Tylong, Old Warrior; Kyviat, the Aquamancer; or Lechuza, the Skybinder! May be purchased 4 times!</desc>
 		<asset_prefab>flask_pack_wyld_1</asset_prefab> <!-- Small Wyld Flasks Icon -->
 		<bundle>35</bundle>
 		<background_prefab>wyld_flask_banner_gen4</background_prefab> <!-- Wyld Flask Banner -->
 		<background_bundle>35</background_bundle>
 		<num_available>4</num_available>
-    	<priority>1000</priority>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2617' number='180' />	<!-- Wyld Gen 4 Flasks -->
+		<item id='2617' number='200' />	<!-- Wyld Gen 4 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -10394,15 +10394,15 @@
 	<package>
 		<id>1101</id>
 		<name>Abundancy Flask Pack</name>
-		<desc>Gives 180 Wyld Abundancy Flasks. They contain Champion Stones for Caccia, the Lunatic; Rima, The Impaler; Klevit, the Speedfall; or Saucy, Lady of the Cauldron! May be purchased 4 times!</desc>
+		<desc>Gives 200 Wyld Abundancy Flasks. They contain Champion Stones for Caccia, the Lunatic; Rima, The Impaler; Klevit, the Speedfall; or Saucy, Lady of the Cauldron! May be purchased 4 times!</desc>
 		<asset_prefab>flask_pack_wyld_1</asset_prefab> <!-- Small Wyld Flasks Icon -->
 		<bundle>35</bundle>
 		<background_prefab>wyld_flask_banner_gen5</background_prefab> <!-- Wyld Flask Banner -->
 		<background_bundle>35</background_bundle>
 		<num_available>4</num_available>
-    	<priority>1000</priority>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2638' number='180' />	<!-- Wyld Gen 5 Flasks -->
+		<item id='2638' number='200' />	<!-- Wyld Gen 5 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -12258,15 +12258,15 @@
 	<package>
 		<id>1207</id>
 		<name>Genesis Flask Pack</name>
-		<desc>Gives 180 Aether Genesis Flasks. They contain Champion Stones for Kira, the Innovator; Aeronwen, the Glider; Duchess Pollutarax; or Shrime, the Frozen! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
-			<bundle>35</bundle>
-			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
-			<background_bundle>35</background_bundle>
-			<priority>1000</priority>
-			<num_available>4</num_available>
+		<desc>Gives 200 Aether Genesis Flasks. They contain Champion Stones for Kira, the Innovator; Aeronwen, the Glider; Duchess Pollutarax; or Shrime, the Frozen! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
+		<num_available>4</num_available>
 		<!-- Stuff to give -->
-		<item id='2684' number='180' />
+		<item id='2684' number='200' />
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -12290,15 +12290,15 @@
 	<package>
 		<id>1209</id>
 		<name>Havoc Flask Pack</name>
-		<desc>Gives 180 Chaos Havoc Flasks. They contain Champion Stones for Jormun, the Ravager; Abbadon, the Vicious; Ardeat, the Arsonist; or Nophora, the Hoarder! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
-			<bundle>35</bundle>
-			<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
-			<background_bundle>35</background_bundle>
-			<num_available>4</num_available>
-			<priority>1000</priority>
+		<desc>Gives 200 Chaos Havoc Flasks. They contain Champion Stones for Jormun, the Ravager; Abbadon, the Vicious; Ardeat, the Arsonist; or Nophora, the Hoarder! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<num_available>4</num_available>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2685' number='180' />
+		<item id='2685' number='200' />
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -12306,13 +12306,13 @@
 	<package>
 		<id>1210</id>
 		<name>Greater Havoc Flask Pack</name>
-		<desc>Gives 350 Chaos Cannon Flasks. They contain Champion Stones for Jormun, the Ravager; Abbadon, the Vicious; Ardeat, the Arsonist; or Nophora, the Hoarder! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-			<bundle>35</bundle>
-			<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
-			<background_bundle>35</background_bundle>
-			<priority>1000</priority>
-			<num_available>4</num_available>
+		<desc>Gives 350 Chaos Havoc Flasks. They contain Champion Stones for Jormun, the Ravager; Abbadon, the Vicious; Ardeat, the Arsonist; or Nophora, the Hoarder! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
+		<num_available>4</num_available>
 		<!-- Stuff to give -->
 		<item id='2685' number='350' />
 		<!-- Purchase Identifier Config -->
@@ -12322,15 +12322,15 @@
 	<package>
 		<id>1211</id>
 		<name>Shadows Flask Pack</name>
-		<desc>Gives 180 Wyld Shadows Flasks. They contain Champion Stones for Gravy, the Ravenlyte; Dunstan, the Untamed; Sigblin, the Trollskin; or Quad, the Gatherer! May be purchased 4 times!</desc>
-			<asset_prefab>flask_pack_wyld_1</asset_prefab> <!-- Small Wyld Flasks Icon -->
-			<bundle>35</bundle>
-			<background_prefab>wyld_flask_banner</background_prefab> <!-- Wyld Flask Banner -->
-			<background_bundle>35</background_bundle>
-			<num_available>4</num_available>
-    		<priority>1000</priority>
+		<desc>Gives 200 Wyld Shadows Flasks. They contain Champion Stones for Gravy, the Ravenlyte; Dunstan, the Untamed; Sigblin, the Trollskin; or Quad, the Gatherer! May be purchased 4 times!</desc>
+		<asset_prefab>flask_pack_wyld_1</asset_prefab> <!-- Small Wyld Flasks Icon -->
+		<bundle>35</bundle>
+		<background_prefab>wyld_flask_banner</background_prefab> <!-- Wyld Flask Banner -->
+		<background_bundle>35</background_bundle>
+		<num_available>4</num_available>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
-		<item id='2686' number='180' />
+		<item id='2686' number='200' />
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
@@ -12371,10 +12371,10 @@
 		<id>1214</id>
 		<name>Sivun Trove</name>
 		<desc>Gives 75 ^cE7FFSivun Stone^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 50 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
-		<asset_prefab>championStoneBag1</asset_prefab>
-		<bundle>277</bundle>
-		<background_prefab>event17_banner_legendaryPack</background_prefab>
-		<background_bundle>75</background_bundle>
+		<asset_prefab>event_068_stonepack_01</asset_prefab>
+		<bundle>201</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
 		<category>2</category>
 		<num_available>1</num_available>
 		<!-- Stuff to give -->
@@ -12391,10 +12391,10 @@
 		<id>1215</id>
 		<name>Sivun Large Trove</name>
 		<desc>Gives 200 ^cE7FFSivun Stone^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 100 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
-		<asset_prefab>championStoneBox2</asset_prefab>
-		<bundle>277</bundle>
-		<background_prefab>event17_banner_legendaryPack</background_prefab>
-		<background_bundle>75</background_bundle>
+		<asset_prefab>event_068_stonepack_02</asset_prefab>
+		<bundle>201</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
 		<category>2</category>
 		<num_available>1</num_available>
 		<!-- Stuff to give -->
@@ -12411,10 +12411,10 @@
 		<id>1216</id>
 		<name>Sivun Fortune Trove</name>
 		<desc>Gives 725 ^cE7FFSivun Stone^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 300 Arcane Dust, and 250 Inscription Powder! May only be purchased once!</desc>
-		<asset_prefab>championStoneBox3</asset_prefab>
-		<bundle>277</bundle>
-		<background_prefab>event17_banner_legendaryPack</background_prefab>
-		<background_bundle>75</background_bundle>
+		<asset_prefab>event_068_stonepack_03</asset_prefab>
+		<bundle>201</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
 		<category>2</category>
 		<num_available>1</num_available>
 		<!-- Stuff to give -->

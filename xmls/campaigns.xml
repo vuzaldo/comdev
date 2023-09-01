@@ -11741,7 +11741,7 @@
 <campaign>
 	<id>1351</id>
 	<name>A Flight in the Dark</name>
-	<icon id="machine_parts" bundle="17"/>
+	<icon id="machine_parts_200" bundle="17"/>
 	<campaign_req id="36" level="1"/>
 	<locked_start_time>1689872400</locked_start_time> <!--  Thursday, July 20, 2023 17:00:00 -->
 	<location_id>22</location_id> <!-- From map_config.xml -->
@@ -11772,7 +11772,7 @@
 <campaign>
 	<id>1352</id>
 	<name>The Healer's Prison</name>
-	<icon id="machine_parts" bundle="17"/>
+	<icon id="machine_parts_200" bundle="17"/>
 	<campaign_req id="1351" level="1"/>
 	<locked_start_time>1691082000</locked_start_time> <!--  Thursday, August 3, 2023 17:00:00 -->
 	<location_id>22</location_id> <!-- From map_config.xml -->
@@ -11805,7 +11805,7 @@
 <campaign>
 	<id>1353</id>
 	<name>The Return of a King</name>
-	<icon id='machine_parts' bundle='17'/>
+	<icon id='machine_parts_200' bundle='17'/>
 	<campaign_req id='36' level='1'/> <!-- From now on, all ComDev nodes require first 6 maps up to Seastone Citadel to be completed -->
 	<locked_start_time>1692291600</locked_start_time> <!--  Thursday, August 17, 2023 17:00:00 -->
 	<location_id>30</location_id> <!-- From map_config.xml -->
@@ -11822,10 +11822,10 @@
 	</missions>
 	<rewards>
 		<item level='1' id='2700' number='50'/>  <!-- New Return to Karthos Flask in items_dsvn3j.xml -->
-		<card level='2' id='512' number='2'/> <!-- Arcane Deposit -->
+		<card level='2' id='512'/> <!-- Arcane Deposit -->
 		<card level='3' id='511'/> <!-- Arcane Ore -->
-		<card level='4' id='2064' number='2'/> <!-- Tome Thief Reward Epic -->
-		<card level='5' id='2100' number='2'/> <!-- Kheptronos Reward Legendary -->
+		<card level='4' id='2064'/> <!-- Tome Thief Reward Epic -->
+		<card level='5' id='2100'/> <!-- Kheptronos Reward Legendary -->
 		<card level='6' id='511'/> <!-- Arcane Ore -->
 		<item level='7' id='2700' number='150'/>  <!-- New Return to Karthos Flask in items_dsvn3j.xml -->
 	</rewards>
@@ -11836,7 +11836,7 @@
 <campaign>
 	<id>1354</id>
 	<name>Warring Factions</name>
-	<icon id='machine_parts' bundle='17'/>
+	<icon id='machine_parts_200' bundle='17'/>
 	<campaign_req id='1353' level='1'/> <!-- Require previous node in event -->
 	<locked_start_time>1693501200</locked_start_time> <!--  Thursday, August 31, 2023 17:00:00 -->
 	<location_id>30</location_id> <!-- From map_config.xml -->
@@ -11853,10 +11853,10 @@
 	</missions>
 	<rewards>
 		<item level='1' id='2700' number='50'/>  <!-- New Return to Karthos Flask in items_dsvn3j.xml -->
-		<card level='2' id='512' number='2'/> <!-- Arcane Deposit -->
+		<card level='2' id='512'/> <!-- Arcane Deposit -->
 		<card level='3' id='2100'/> <!-- Kheptronos Reward Legendary -->
-		<card level='4' id='2064' number='2'/> <!-- Tome Thief Reward Epic -->
-		<card level='5' id='2100' number='2'/> <!-- Kheptronos Reward Legendary -->
+		<card level='4' id='2064'/> <!-- Tome Thief Reward Epic -->
+		<card level='5' id='2100'/> <!-- Kheptronos Reward Legendary -->
 		<card level='6' id='2100'/> <!-- Kheptronos Reward Legendary -->
 		<item level='7' id='2700' number='150'/>  <!-- New Return to Karthos Flask in items_dsvn3j.xml -->
 	</rewards>
@@ -11873,7 +11873,7 @@
 
 	<campaign>
 		<id>5001</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Lightning Boss Gobtoh</name>
 		<icon id='energy_refill' bundle='30' />
@@ -12438,6 +12438,7 @@
 		<name>Classic Lightning Vulcanos</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12472,6 +12473,7 @@
 		<name>Classic Lightning Alyel</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12506,6 +12508,7 @@
 		<name>Classic Lightning Ashanti</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12535,11 +12538,12 @@
 <!-- LBN Nophora Insect event 91 -->
 	<campaign>
 		<id>4004</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Nophora</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12569,11 +12573,12 @@
 <!-- LBN Llorona Undead event 92 -->
 	<campaign>
 		<id>4005</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Llorona</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12603,11 +12608,12 @@
 <!-- LBN Caesar Frog event 93 -->
 	<campaign>
 		<id>4006</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Caesar</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12637,11 +12643,12 @@
 <!-- LBN Remi Elemental event 94 -->
 	<campaign>
 		<id>4007</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Remi</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12671,11 +12678,12 @@
 <!-- LBN Darkassan Mecha event 95 -->
 	<campaign>
 		<id>4008</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Darkassan</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12705,11 +12713,12 @@
 <!-- LBN Lerna Seafolk event 96 -->
 	<campaign>
 		<id>4009</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Lerna</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12739,11 +12748,12 @@
 <!-- LBN Krampus Goblin event 97 -->
 	<campaign>
 		<id>4010</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Krampus</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12773,11 +12783,12 @@
 <!-- LBN Uncommon Allies event 98 -->
 	<campaign>
 		<id>4011</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Allies</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12807,11 +12818,12 @@
 <!-- LBN Nophora event 99 -->
 	<campaign>
 		<id>4012</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Nophora's Return</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12841,11 +12853,12 @@
 <!-- LBN Vulcanos event 100 -->
 	<campaign>
 		<id>4013</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Vulcanos' Payback</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12875,11 +12888,12 @@
 <!-- LBN Caesar event 101 -->
 	<campaign>
 		<id>4014</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Caesar's Return</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12908,11 +12922,12 @@
 <!-- LBN Ashanti event 102 -->
 	<campaign>
 		<id>4015</id> <!-- HERE -->
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Ashanti's Trial</name> <!-- HERE -->
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12941,11 +12956,12 @@
 <!-- LBN Llorona event 103 -->
 	<campaign>
 		<id>4016</id> <!-- HERE -->
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Llorona's Rebirth</name> <!-- HERE -->
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -12975,11 +12991,12 @@
 <!-- LBN Darkassan Mecha event 104 -->
 	<campaign>
 		<id>4017</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Darkassan's Trial</name>
 		<icon id="gem_Boss_LG" bundle="0"/>
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
@@ -13009,11 +13026,12 @@
 <!-- Event 105: Insects ComDev Lightning Node-->
 	<campaign>
 		<id>4018</id>
-		<event_only>1</event_only> 
+		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Nophora's Counterblast</name>
 		<icon id="gem_Boss_LG" bundle="0" />
 		<exclude_map_bges>1</exclude_map_bges>
+		<side_mission>1</side_mission>
 		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
 		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
 		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->

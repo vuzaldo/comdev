@@ -44663,6 +44663,21 @@
 		<mission_req>64</mission_req>
 	</event>
 
+	<event>
+		<id>6107</id>
+		<name>Elemental Meltdown</name>
+		<desc>0-2D Elementals gain Scorch, Weaken and Pierce equal to 15% base health. 3-4D Elementals gain Barrier and Vengeance and are Enraged for 10% base health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>169</bg_effect>
+		</effect>
+		<start_time>1694710800</start_time> <!-- Thursday, September 14, 2023 at 17:00:00 -->
+		<end_time>1699549200</end_time> <!-- Thursday, November 09, 2023 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
 	<!-- BGE END -->
 
 <!-- |||||||||||||||||||||||||||||||||||||||||||| -->
