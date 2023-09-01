@@ -150,6 +150,28 @@ function filterInput(input, update = true) {
 	}
 }
 
+function filterBge(input, update = true) {
+	input.value = input.value.replace(/[^0-9]/g, '').slice(0, 4);
+	let name = '', description = '';
+	const bge = BGES[input.value];
+	if (bge) {
+		name = bge.name;
+		description = bge.desc;
+	}
+	else if (input.value == newBGE) {
+		name = '(New BGE name)';
+		description = '(New BGE description)';
+	}
+	else if (input.value != '') {
+		name = 'Invalid BGE';
+	}
+	document.getElementById('bgeName').value = name;
+	document.getElementById('bgeDescription').value = description;
+	if (update) {
+		updateEditors();
+	}
+}
+
 function filterCoordinate(input) {
 	input.value = input.value.replace(/[^0-9]/g, '').slice(0, 3);
 	const nodeId = input.id.slice(0, -1);
@@ -212,7 +234,7 @@ const editorSettings = {
 	indentUnit: 4
 };
 const editors = {};
-document.querySelectorAll('textarea').forEach(textArea => {
+document.querySelectorAll('textarea.code').forEach(textArea => {
 	editors[textArea.id] = CodeMirror.fromTextArea(textArea, editorSettings);
 	editors[textArea.id].setValue('Loading template...');
 });

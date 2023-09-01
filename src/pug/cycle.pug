@@ -36,6 +36,19 @@ div#cycle(style='display: none')
 									button.btn.btn-primary(type='submit', onclick='generate()', disabled, id='generateBtn').custom-btn Generate
 							.row.g-3.align-items-center.mt-1
 								.col-auto
+									label.col-form-label(for='bgeId') BGE
+								.col-auto.col-md-3
+									input.form-control(type='number', min='0', max='9999', oninput='filterBge(this)', maxlength='4', placeholder='Effect ID', id='bgeId')
+								.col-auto
+									input.form-control.col-md-4(type='text', oninput='updateEditors()', placeholder='Name', id='bgeName')
+							.row.mt-2
+								.col-md-6.col-auto
+									label(for='bgeDescription', class='form-label') Description
+							.row
+								.col-md-10.col-auto
+									textarea.form-control.col-md-4(type='text', oninput='updateEditors()', rows='4', id='bgeDescription')
+							.row.g-3.align-items-center.mt-4
+								.col-auto
 									label.col-form-label(for='rewardChamp') Reward Champion
 								.col-auto.col-md-3
 									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardChamp')
@@ -86,7 +99,7 @@ div#cycle(style='display: none')
 						.col-md-6.mt-2
 							h6
 								i event_timeline_n3rjc.xml
-							textarea#event_timeline_n3rjc
+							textarea.code#event_timeline_n3rjc
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#clash
 					h2.mt-5 Clash
@@ -117,7 +130,7 @@ div#cycle(style='display: none')
 							h2.mt-4 Guild Clash
 							h5.mt-2#guildClashStartTime
 								| Start Time
-							.row
+							.row.mt-3
 								.col-md-6.col-auto
 									label(for='guildClashName', class='form-label') Name
 							.row
@@ -140,7 +153,7 @@ div#cycle(style='display: none')
 						.col-md-6.mt-2
 							h6
 								i event_timeline_clash.xml
-							textarea#event_timeline_clash
+							textarea.code#event_timeline_clash
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#dungeon
 					h2.mt-5 Dungeon
@@ -184,7 +197,7 @@ div#cycle(style='display: none')
 						.col-md-6.mt-2
 							h6
 								i event_timeline_dungeons.xml
-							textarea#event_timeline_dungeons
+							textarea.code#event_timeline_dungeons
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#guild-war
 					.row.mt-5
@@ -215,7 +228,7 @@ div#cycle(style='display: none')
 						.col-md-6.mt-2
 							h6
 								i event_timeline_wars_clash.xml
-							textarea#event_timeline_wars_clash
+							textarea.code#event_timeline_wars_clash
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#expedition
 					.row.mt-5
@@ -246,7 +259,7 @@ div#cycle(style='display: none')
 						.col-md-6.mt-2
 							h6
 								i event_timeline_expeditions.xml
-							textarea#event_timeline_expeditions
+							textarea.code#event_timeline_expeditions
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#brawl
 					.row.mt-5
@@ -277,7 +290,7 @@ div#cycle(style='display: none')
 						.col-md-6.mt-2
 							h6
 								i event_timeline_brawls.xml
-							textarea#event_timeline_brawls
+							textarea.code#event_timeline_brawls
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 
 					.footer.py-5.mt-5

@@ -125,7 +125,7 @@ function saveData(file, string) {
 }
 
 async function parse() {
-	console.log('\nParsing card data:')
+	console.log('\nParsing card data...')
 	cardData = {}
 	factions = []
 	for ([i, filename] of cards.entries()) {
@@ -148,9 +148,11 @@ async function parse() {
 			continue
 		}
 	}
-	console.log('\nTotal:', Object.keys(cardData).length, 'cards\n')
+	console.log('\nTotal:', Object.keys(cardData).length, 'cards')
+	tribes = factions.filter(f => !f.hidden && f.tribe == 1)
 	factions = 'var FACTIONS = ' + JSON.stringify(factions)
 	cardData = 'var CARDS = ' + JSON.stringify(cardData)
+	console.log('\nParsing map data...')
 	itemData = {}
 	xml = fs.readFileSync(path.join(rootDir, 'xmls', 'items_dsvn3j.xml'))
 	json = await parseXML(xml)
@@ -200,7 +202,23 @@ async function parse() {
 	console.log('\nTotal:', Object.keys(mapData).length, 'maps')
 	mapData = 'var MAPS = ' + JSON.stringify(mapData)
 	nodes = 'var NODES = ' + JSON.stringify(nodes)
-	string = '\n' + [factions, cardData, mapData, nodes].join('\n\n') + '\n'
+	console.log('\nParsing BGE data...')
+	bges = {}
+	xml = fs.readFileSync(path.join(rootDir, 'xmls', 'battleground_effects.xml'))
+	json = await parseXML(xml)
+	icon2tribe = tribes.reduce((result, t) => {
+		result[t.icon.substring(7, 11)] = t.name
+		return result
+	}, {})
+	json.root.battleground.forEach(bge => {
+		tribe = icon2tribe[bge.icon?.substring(7, 11)]
+		name = bge.name
+		desc = bge.desc
+		bges[bge.id] = { tribe, name, desc }
+	})
+	console.log('Total:', Object.keys(bges).length, 'BGEs')
+	bges = 'var BGES = ' + JSON.stringify(bges)
+	string = '\n' + [factions, cardData, mapData, nodes, bges].join('\n\n') + '\n'
 	saveData('data.js', string)
 }
 

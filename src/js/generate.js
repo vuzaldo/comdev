@@ -21,13 +21,19 @@ function generateRewards(cards, amount) {
 	shuffleArray(rewards);
 	return rewards.slice(0, amount).map(c => c.id);
 }
-function generateInput(elementId, newValue) {
+function generateInput(elementId, newValue, filter = filterInput) {
 	const input = document.getElementById(elementId);
 	input.value = newValue;
-	filterInput(input, false);
+	filter(input, false);
+}
+function generateBGE() {
+	const bges = Object.keys(BGES).filter(id => id < newBGE && BGES[id].tribe == eventBGE);
+	shuffleArray(bges);
+	generateInput('bgeId', bges[0], filterBge);
 }
 function generate() {
 	if (!eventBGE) return;
+	generateBGE();
 	generateInput('rewardChamp', newChamp);
 	const epics = generateRewards(rewardEpics, 4);
 	generateInput('rewardEpic1', epics[0]);
@@ -88,6 +94,8 @@ let eventBGE, eventTribeId, eventMap, eventMapX, eventMapY;
 let newChamp = 4073, newEpic = 2255;
 while (CARDS[newChamp]) newChamp++;
 while (CARDS[newEpic]) newEpic++;
+let newBGE = 167;
+while (BGES[newBGE]) newBGE++;
 
 const parameters = {}, previous = {};
 for (const template in editors) {
@@ -172,6 +180,9 @@ function updateParameters() {
 		}
 	}
 	template = 'event_timeline_n3rjc';
+	parameters[template]['BGE_NAME'] = document.getElementById('bgeName').value;
+	parameters[template]['BGE_DESCRIPTION'] = document.getElementById('bgeDescription').value;
+	parameters[template]['BGE_EFFECT_ID'] = document.getElementById('bgeId').value;
 	if (eventBGE) {
 		parameters[template]['BGE_BANNER'] = BGE_BANNERS[eventBGE].banner_prefab;
 		parameters[template]['BGE_BUNDLE'] = BGE_BANNERS[eventBGE].bundle;
