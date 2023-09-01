@@ -59,11 +59,23 @@ function generate() {
 }
 
 
+function escapeXML(text) {
+	return text.replace(/[<>&'"]/g, function(char) {
+		switch (char) {
+			case '<': return '&lt;';
+			case '>': return '&gt;';
+			case '&': return '&#38;';
+			case '\'': return '&apos;';
+			case '"': return '&quot;';
+		}
+	});
+}
 function updateEditor(template) {
 	let generated = TEMPLATES[template];
 	for (param in parameters[template]) {
 		const paramRegex = new RegExp(`\\{${param}}`, 'g');
-		generated = generated.replace(paramRegex, parameters[template][param]);
+		const value = escapeXML(parameters[template][param].toString());
+		generated = generated.replace(paramRegex, value);
 	}
 	if (generated != previous[template]) {
 		// console.log('Updating editor:', template);
