@@ -8,8 +8,6 @@ function shuffleArray(array) {
 
 const rewardEpics = Object.values(CARDS).filter(c => isRewardRarity(c, 3));
 console.log(`${rewardEpics.length} reward epics`)
-const rewardRares = Object.values(CARDS).filter(c => isRewardRarity(c, 2));
-console.log(`${rewardRares.length} reward rares`)
 
 function generateRewards(cards, amount) {
 	let rewards = cards.filter(c => c.sub_type == eventTribeId && !c.fusion_level);
@@ -40,20 +38,13 @@ function generate() {
 	generateInput('rewardEpic2', epics[1]);
 	generateInput('rewardEpic3', epics[2]);
 	generateInput('rewardEpic4', epics[3]);
-	const rares = generateRewards(rewardRares, 6);
 	document.getElementById('clashName').value = eventBGE + ' Clash';
-	generateInput('rewardRareClash', rares[0]);
 	document.getElementById('guildClashName').value = eventBGE + ' Guild Clash';
-	generateInput('rewardRareGuildClash', rares[1]);
 	document.getElementById('dungeonName').value = eventBGE + ' Dungeon';
 	document.getElementById('dungeonEnemyName').value = 'Savage ' + eventBGE + 's';
-	generateInput('rewardRareDungeon', rares[2]);
 	document.getElementById('warName').value = eventBGE + ' Guild War';
-	generateInput('rewardRareWar', rares[3]);
 	document.getElementById('expeditionName').value = eventBGE + ' Expedition';
-	generateInput('rewardRareExpedition', rares[4]);
 	document.getElementById('brawlName').value = eventBGE + ' Brawl';
-	generateInput('rewardRareBrawl', rares[5]);
 	selectMapCycle.selectedIndex = Math.floor(Math.random() * (selectMapCycle.options.length - 1)) + 1; // Exclude first "label" element
 	selectMapCycle.dispatchEvent(new Event('change'));
 }
@@ -157,15 +148,12 @@ function updateParameters() {
 	template = 'event_timeline_clash';
 	parameters[template]['EVENT_NAME'] = document.getElementById('clashName').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicClash').value;
-	parameters[template]['RARE_CARD_ID'] = document.getElementById('rewardRareClash').value;
 	parameters[template]['EVENT_NAME_2'] = document.getElementById('guildClashName').value;
 	parameters[template]['EPIC_CARD_ID_2'] = document.getElementById('rewardEpicGuildClash').value;
-	parameters[template]['RARE_CARD_ID_2'] = document.getElementById('rewardRareGuildClash').value;
 	template = 'event_timeline_dungeons';
 	parameters[template]['EVENT_NAME'] = document.getElementById('dungeonName').value;
 	parameters[template]['ENEMY_NAME'] = document.getElementById('dungeonEnemyName').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicDungeon').value;
-	parameters[template]['RARE_CARD_ID'] = document.getElementById('rewardRareDungeon').value;
 	eventTribeId && (parameters[template]['EVENT_TRIBE_ID'] = eventTribeId);
 	const tribeRuneId = { 'Angel': 5501, 'Elemental': 5502, 'Undead': 5503, 'Goblin': 5504, 'Dragon': 5505,
 							'Seafolk': 5506, 'Avian': 5507, 'Frog': 5508, 'Mecha': 5509, 'Insect': 5510 }
@@ -173,15 +161,12 @@ function updateParameters() {
 	template = 'event_timeline_wars_clash';
 	parameters[template]['EVENT_NAME'] = document.getElementById('warName').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicWar').value;
-	parameters[template]['RARE_CARD_ID'] = document.getElementById('rewardRareWar').value;
 	template = 'event_timeline_expeditions';
 	parameters[template]['EVENT_NAME'] = document.getElementById('expeditionName').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicExpedition').value;
-	parameters[template]['RARE_CARD_ID'] = document.getElementById('rewardRareExpedition').value;
 	template = 'event_timeline_brawls';
 	parameters[template]['EVENT_NAME'] = document.getElementById('brawlName').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicBrawl').value;
-	parameters[template]['RARE_CARD_ID'] = document.getElementById('rewardRareBrawl').value;
 	if (eventMap) {
 		const expedition = EXPEDITION[eventMap];
 		const expParams = 'MAP ITEM POINT_ITEM PORTRAIT BANNER BUNDLE ICON POINTS_BUNDLE'.split(' ')
@@ -290,7 +275,7 @@ function createNode(x, y, icon, showLevel, upgradeNodeType) {
 	element.style.width = '100%';
 	const adjust = { 'Lava_Vial': [90, 10, 0], 'Coconut_A_100': [83, 10, 10], 'santaHat': [100, -8, 20], 'Obsidian_Gravel_01': [100, 0, 30],
 					'Burning_Target_110': [80, 15, -8], 'arcane_vapor': [75, 16, -5], 'purple_fire': [65, 28, 0], 'machine_parts': [135, -12, -16],
-					'KnightNode': [75, 18, 0], 'herocoin': [80, 10, 0], 'sparkler100': [100, 5, 0] };
+					'KnightNode': [75, 18, 0], 'herocoin': [80, 10, 0], 'sparkler100': [100, 5, 0], 'machine_parts_200': [135, -12, -16] };
 	if (adjust[icon]) {
 		element.style.width = adjust[icon][0] + '%';
 		element.style.transform = `translateX(${adjust[icon][1]}%) translateY(${adjust[icon][2]}%)`

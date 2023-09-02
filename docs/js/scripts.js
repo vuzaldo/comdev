@@ -138,7 +138,7 @@ function propagateEpic(input, card) {
 
 function filterInput(input, update = true) {
 	input.value = input.value.replace(/[^0-9]/g, '').slice(0, 4);
-	const rarity = input.id.includes('Epic') ? 3 : input.id.includes('Rare') ? 2 : 0;
+	const rarity = input.id.includes('Epic') ? 3 : 0;
 	const card = id2Card(input.value, input.id.includes('Champ'), rarity);
 	const help = input.parentElement.nextElementSibling.firstChild;
 	help.textContent = card;
