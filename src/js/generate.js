@@ -331,7 +331,8 @@ function createNode(x, y, icon, showLevel, upgradeNodeType) {
 			}
 		});
 		if (!isEventNode) switchHidden();
-		const [x, y] = [300, 300];
+		const last = LAST_EVENT_NODES[mapId];
+		const [x, y] = isEventNode && last ? [last.x, last.y] : [300, 300];
 		const icon = isEventNode ? 'map_tower' : 'gem_7';
 		const node = createNode(x, y, icon);
 		node.id = isEventNode ? 'eventNode' : 'node';

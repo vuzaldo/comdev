@@ -202,6 +202,14 @@ async function parse() {
 	console.log('\nTotal:', Object.keys(mapData).length, 'maps')
 	mapData = 'var MAPS = ' + JSON.stringify(mapData)
 	nodes = 'var NODES = ' + JSON.stringify(nodes)
+	lastEventNodes = {}
+	xml = fs.readFileSync(path.join(rootDir, 'xmls', 'event_timeline_wars_clash.xml'))
+	json = await parseXML(xml)
+	json.root.event.forEach(event => {
+		node = event.map_node
+		node && (lastEventNodes[node.map] = { x: node.x, y: node.y })
+	})
+	lastEventNodes = 'var LAST_EVENT_NODES = ' + JSON.stringify(lastEventNodes)
 	console.log('\nParsing BGE data...')
 	bges = {}
 	xml = fs.readFileSync(path.join(rootDir, 'xmls', 'battleground_effects.xml'))
@@ -218,7 +226,7 @@ async function parse() {
 	})
 	console.log('Total:', Object.keys(bges).length, 'BGEs')
 	bges = 'var BGES = ' + JSON.stringify(bges)
-	string = '\n' + [factions, cardData, mapData, nodes, bges].join('\n\n') + '\n'
+	string = '\n' + [factions, cardData, mapData, nodes, lastEventNodes, bges].join('\n\n') + '\n'
 	saveData('data.js', string)
 }
 
