@@ -40,6 +40,7 @@ function generate() {
 	generateInput('rewardEpic4', epics[3]);
 	document.getElementById('clashName').value = eventBGE + ' Clash';
 	document.getElementById('guildClashName').value = eventBGE + ' Guild Clash';
+	document.getElementById('selectTower').selectedIndex = 3; // Tree of Life
 	document.getElementById('dungeonName').value = eventBGE + ' Dungeon';
 	document.getElementById('dungeonEnemyName').value = 'Savage ' + eventBGE + 's';
 	document.getElementById('warName').value = eventBGE + ' Guild War';
