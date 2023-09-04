@@ -92,6 +92,8 @@ const warId = 30087 + numCycles;
 const expeditionId = 7101 + numCycles;
 const brawlId = 8111 + numCycles;
 const eventBgeId = 6105 + numCycles;
+const rewardBoxId = 6090 + numCycles;
+const eventRewardBoxId = 11093 + numCycles;
 let eventBGE, eventTribeId, eventMap, eventMapX, eventMapY;
 
 let newChamp = 4073, newEpic = 2255;
@@ -130,12 +132,19 @@ template = 'event_timeline_brawls';
 parameters[template]['EVENT_ID'] = brawlId;
 parameters[template]['START_TIME'] = brawlStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(brawlStartTime);
-template = 'event_timeline_n3rjc';
+template = 'event_timeline_n3rjc_BGE';
 parameters[template]['EVENT_ID'] = eventBgeId;
 parameters[template]['START_TIME'] = nextStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
 parameters[template]['END_TIME'] = nextStartTime + cycleDuration * 2;
 parameters[template]['END_TIME_COMMENT'] = convertTimestamp(parameters[template]['END_TIME']);
+template = 'reward_box';
+parameters[template]['BOX_ID'] = rewardBoxId;
+template = 'event_timeline_n3rjc_AC';
+parameters[template]['EVENT_ID'] = eventRewardBoxId;
+parameters[template]['BOX_ID'] = rewardBoxId;
+parameters[template]['START_TIME'] = nextStartTime;
+parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
 
 function updateParameters() {
 	for (const template in parameters) {
@@ -176,7 +185,7 @@ function updateParameters() {
 			i++;
 		}
 	}
-	template = 'event_timeline_n3rjc';
+	template = 'event_timeline_n3rjc_BGE';
 	parameters[template]['BGE_NAME'] = document.getElementById('bgeName').value;
 	parameters[template]['BGE_DESCRIPTION'] = document.getElementById('bgeDescription').value;
 	parameters[template]['BGE_EFFECT_ID'] = document.getElementById('bgeId').value;
@@ -184,6 +193,15 @@ function updateParameters() {
 		parameters[template]['BGE_BANNER'] = BGE_BANNERS[eventBGE].banner_prefab;
 		parameters[template]['BGE_BUNDLE'] = BGE_BANNERS[eventBGE].bundle;
 	}
+	template = 'reward_box';
+	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
+	for (let i = 1; i < 5; i++) {
+		const cardId = document.getElementById(`rewardEpic${i}`).value;
+		parameters[template][`EPIC_CARD_ID_${i}`] = cardId;
+		parameters[template][`EPIC_CARD_ID_${i}_COMMENT`] = id2Card('1' + cardId, false, 3);
+	}
+	template = 'event_timeline_n3rjc_AC';
+	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
 }
 
 updateEditors();

@@ -1,0 +1,16 @@
+	<event>
+		<id>{EVENT_ID}</id>
+		<name>{EVENT_BGE} Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<asset_prefab>{EVENT_BGE_LOWERCASE}_arena_box</asset_prefab>
+		<asset_bundle>76</asset_bundle>
+		<banner_prefab>generic_chance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-40</priority>
+		<event_box>{BOX_ID}</event_box>
+		<start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} -->
+		<end_duration>40320</end_duration>	<!-- 40320 | 28 Days -->
+		<mission_req>64</mission_req>
+	</event>

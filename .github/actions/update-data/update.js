@@ -225,7 +225,9 @@ async function parse() {
 async function templates() {
 	console.log('\nCopying templates:')
 	templates = {}
-	for (filename of events) {
+	n3rjc = 'event_timeline_n3rjc'
+	files = events.concat([n3rjc + '_BGE', n3rjc + '_AC', 'reward_box'])
+	for (filename of files) {
 		filePath = path.join(rootDir, 'templates', filename + '_TEMPLATE.xml')
 		if (!fs.existsSync(filePath)) {
 			continue

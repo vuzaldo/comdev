@@ -23,18 +23,18 @@ div#cycle(style='display: none')
 			// Page content
 			.container-fluid
 				section#next-bge
-					h2.mt-4 Next BGE
-					h5.mt-2#startTime
-						| Start Time
-					.row
+					.row.mt-4
 						.col-md-6
+							h2 Next BGE
+							h5.mt-2#startTime
+								| Start Time
 							.row
 								.col-md-6.col-auto.mt-2
 									select.form-select#selectTribe
 										option(selected, disabled) Select Tribe
 								.col-md-6.col-auto.mt-2
 									button.btn.btn-primary(type='submit', onclick='generate()', disabled, id='generateBtn').custom-btn Generate
-							.row.g-3.align-items-center.mt-1
+							.row.g-3.align-items-center.mt-4
 								.col-auto
 									label.col-form-label(for='bgeId') BGE
 								.col-auto.col-md-3
@@ -54,28 +54,28 @@ div#cycle(style='display: none')
 									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardChamp')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-1
+							.row.g-3.align-items-center.mt-2
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic1') Reward Epic (1)
 								.col-auto.col-md-3
 									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic1')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-0
+							.row.g-3.align-items-center.mt-1
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic2') Reward Epic (2)
 								.col-auto.col-md-3
 									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic2')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-0
+							.row.g-3.align-items-center.mt-1
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic3') Reward Epic (3)
 								.col-auto.col-md-3
 									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic3')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-0
+							.row.g-3.align-items-center.mt-1
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic4') Reward Epic (4)
 								.col-auto.col-md-3
@@ -99,7 +99,17 @@ div#cycle(style='display: none')
 						.col-md-6.mt-2
 							h6
 								i event_timeline_n3rjc.xml
-							textarea.code#event_timeline_n3rjc
+								| (BGE)
+							textarea.code#event_timeline_n3rjc_BGE
+							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
+							h6.mt-4
+								i reward_box.xml
+							textarea.code#reward_box
+							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
+							h6.mt-4
+								i event_timeline_n3rjc.xml
+								| (Arena Chest)
+							textarea.code#event_timeline_n3rjc_AC
 							button.btn.btn-light.mt-1.custom-btn.btn-border(onclick='copyText(this)') Copy
 				section#clash
 					h2.mt-5 Clash

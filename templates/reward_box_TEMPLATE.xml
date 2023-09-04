@@ -1,0 +1,19 @@
+	<event_box>
+		<id>{BOX_ID}</id>
+		<name>{EVENT_BGE} Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>{EVENT_BGE_LOWERCASE}_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>	<!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='1{EPIC_CARD_ID_1}' level='1' order='1' />  <!-- {EPIC_CARD_ID_1_COMMENT} -->
+		<card id='1{EPIC_CARD_ID_2}' level='1' order='2' />  <!-- {EPIC_CARD_ID_2_COMMENT} -->
+		<card id='1{EPIC_CARD_ID_3}' level='1' order='3' />  <!-- {EPIC_CARD_ID_3_COMMENT} -->
+		<card id='1{EPIC_CARD_ID_4}' level='1' order='4' />  <!-- {EPIC_CARD_ID_4_COMMENT} -->
+	</event_box>
