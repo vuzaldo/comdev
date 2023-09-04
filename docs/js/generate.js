@@ -311,10 +311,23 @@ function createNode(x, y, icon, showLevel, upgradeNodeType) {
 	return container;
 }
 
+function propagateEventNode() {
+	if (selectMap.value == selectMapCycle.value) {
+		let node = document.getElementById('eventNodeCopy');
+		if (!node) {
+			node = createNode(eventMapX, eventMapY, 'map_tower');
+			node.id = 'eventNodeCopy';
+			document.getElementById('selectedMap').appendChild(node);
+		}
+		else {
+			placeNode(node, eventMapX, eventMapY);
+		}
+	}
+}
+
 [selectMap, selectMapCycle].forEach(selector => {
 	selector.addEventListener('change', function() {
-		const selectedOption = selector.options[selector.selectedIndex];
-		const mapId = selectedOption.value;
+		const mapId = selector.value;
 		const selectedMap = document.getElementById(this.id.replace('select', 'selected'));
 		const mapBackground = selectedMap.getElementsByClassName('img-fluid')[0];
 		mapBackground.src = `assets/maps/${MAPS[mapId].mapBG}.png`;
@@ -358,6 +371,7 @@ function createNode(x, y, icon, showLevel, upgradeNodeType) {
 			eventMapY = y;
 			updateEditors();
 		}
+		propagateEventNode();
 	});
 });
 selectMap.selectedIndex = 1; // Elaria
@@ -388,6 +402,7 @@ document.addEventListener('mouseup', () => {
 			updateEditors();
 		}
 		activeNode = null;
+		propagateEventNode();
 	}
 });
 
