@@ -159,6 +159,12 @@ function updateParameters() {
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicClash').value;
 	parameters[template]['EVENT_NAME_2'] = document.getElementById('guildClashName').value;
 	parameters[template]['EPIC_CARD_ID_2'] = document.getElementById('rewardEpicGuildClash').value;
+	const tower = document.getElementById('selectTower');
+	if (tower.selectedIndex) {
+		const selectedTower = tower.options[tower.selectedIndex];
+		parameters[template]['TOWER_TYPE'] = selectedTower.text;
+		parameters[template]['TOWER_EFFECT_ID'] = selectedTower.value;
+	}
 	template = 'event_timeline_dungeons';
 	parameters[template]['EVENT_NAME'] = document.getElementById('dungeonName').value;
 	parameters[template]['ENEMY_NAME'] = document.getElementById('dungeonEnemyName').value;

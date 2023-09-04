@@ -146,6 +146,14 @@ div#cycle(style='display: none')
 									input.form-control(type='number', min='0', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpicGuildClash', disabled)
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
+							.row
+								.col-md-6.col-auto.mt-3
+									select.form-select(onchange='updateEditors()')#selectTower
+										option(selected, disabled) Select Tower
+										option(value='501') Castle Tower
+										option(value='502') Cannon Tower
+										option(value='506') Tree of Life
+										option(value='509') Fortified Tower
 						.col-md-6.mt-2
 							h6
 								i event_timeline_clash.xml

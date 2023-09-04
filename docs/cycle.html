@@ -144,6 +144,17 @@
                                 <div class="col-auto col-md-3"><input class="form-control" type="number" min="0" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpicGuildClash" disabled /></div>
                                 <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto mt-3">
+                                    <select class="form-select" onchange="updateEditors()" id="selectTower">
+                                        <option selected disabled>Select Tower</option>
+                                        <option value="501">Castle Tower</option>
+                                        <option value="502">Cannon Tower</option>
+                                        <option value="506">Tree of Life</option>
+                                        <option value="509">Fortified Tower</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-6 mt-2">
                             <h6><i>event_timeline_clash.xml</i></h6>
