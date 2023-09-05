@@ -59,9 +59,9 @@
               <!-- <mil_guild_points_str></mil_guild_points_str> -->
 
               <map_node>
-                <map>{MAP_ID}</map> <!-- Select map for Clash Node to appear --> <!-- HERE -->
-                <x>{MAP_X}</x> <!-- left right --> <!-- HERE -->
-                <y>{MAP_Y}</y> <!-- up down --> <!-- HERE -->
+                <map>{MAP_ID}</map> <!-- Select map for Dungeon Node to appear -->
+                <x>{MAP_X}</x> <!-- left right -->
+                <y>{MAP_Y}</y> <!-- up down -->
                 <map_active_prefab>dungeon_node_active</map_active_prefab>
                 <map_inactive_prefab>dungeon_node_not_active</map_inactive_prefab>
                 <map_bundle>71</map_bundle>
@@ -226,7 +226,7 @@
                     <req>
                       <min_points>140</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='80'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='1025' quantity='2'/> <!-- Bounty Refill +20 -->
               </milestone_reward>
 
               <milestone_reward>
@@ -234,7 +234,7 @@
                     <req>
                       <min_points>135</min_points>
                     </req>
-                    <unit id='512' level='1'/> <!-- Arcane Ore -->
+                    <item id='4012' quantity='15'/> <!-- Epic Runeshell -->
               </milestone_reward>
 
               <milestone_reward>
@@ -242,7 +242,7 @@
                     <req>
                       <min_points>130</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='50'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='30'/> <!-- Champion Stone --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -258,7 +258,7 @@
                     <req>
                       <min_points>120</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='20'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='30'/> <!-- Champion Stone --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -266,7 +266,7 @@
                     <req>
                       <min_points>115</min_points>
                     </req>
-                    <item id='18' quantity='250'/> <!-- Legendary Pack Fragments -->
+                    <item id='18' quantity='500'/> <!-- Legendary Pack Fragments -->
               </milestone_reward>
 
               <milestone_reward>
@@ -274,7 +274,7 @@
                     <req>
                       <min_points>110</min_points>
                     </req>
-                    <item id='18' quantity='250'/> <!-- Legendary Pack Fragments -->
+                    <item id='{STONES_ID}' quantity='25'/> <!-- Champion Stone --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -282,7 +282,7 @@
                     <req>
                       <min_points>105</min_points>
                     </req>
-                    <item id='2529' quantity='1'/> <!-- Mythical Flask x15 -->
+                    <item id='2529' quantity='1'/> <!-- Hefty Mythical Flask -->
               </milestone_reward>
 
               <milestone_reward>
@@ -290,7 +290,7 @@
                     <req>
                       <min_points>100</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='20'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='25'/> <!-- Champion Stone --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -298,7 +298,7 @@
                     <req>
                       <min_points>95</min_points>
                     </req>
-                    <item id='2528' quantity='1'/> <!-- Mythical Flask x10 -->
+                    <item id='2528' quantity='1'/> <!-- Medium Mythical Flask -->
               </milestone_reward>
 
               <milestone_reward>
@@ -306,7 +306,7 @@
                     <req>
                       <min_points>90</min_points>
                     </req>
-                    <item id='17' quantity='500'/> <!-- Epic Pack Fragments -->
+                    <item id='{STONES_ID}' quantity='25'/> <!-- Champion Stone --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -314,7 +314,7 @@
                     <req>
                       <min_points>85</min_points>
                     </req>
-                    <item id='17' quantity='250'/> <!-- Epic Pack Fragments -->
+                    <item id='17' quantity='500'/> <!-- Epic Pack Fragments -->
               </milestone_reward>
 
               <milestone_reward>
@@ -330,7 +330,7 @@
                     <req>
                       <min_points>75</min_points>
                     </req>
-                    <unit id='{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #3 --> <!-- HERE -->
+                    <item id='17' quantity='250'/> <!-- Epic Pack Fragments -->
               </milestone_reward>
 
               <milestone_reward>
@@ -338,7 +338,7 @@
                     <req>
                       <min_points>70</min_points>
                     </req>
-                    <item id='17' quantity='150'/> <!-- Epic Pack Fragments -->
+                    <item id='{STONES_ID}' quantity='15'/> <!-- Champion Stone --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -346,7 +346,7 @@
                     <req>
                       <min_points>65</min_points>
                     </req>
-                    <item id='17' quantity='100'/> <!-- Epic Pack Fragments -->
+                    <item id='17' quantity='250'/> <!-- Epic Pack Fragments -->
               </milestone_reward>
 
               <milestone_reward>
@@ -362,7 +362,7 @@
                     <req>
                       <min_points>55</min_points>
                     </req>
-                    <item id='4001' quantity='10'/> <!-- Inscription Powder -->
+                    <item id='{STONES_ID}' quantity='10'/> <!-- Champion Stone --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -370,7 +370,7 @@
                     <req>
                       <min_points>50</min_points>
                     </req>
-                    <item id='4001' quantity='5'/> <!-- Inscription Powder -->
+                    <item id='{STONES_ID}' quantity='10'/> <!-- Champion Stone --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -378,35 +378,67 @@
                     <req>
                       <min_points>45</min_points>
                     </req>
-                    <unit id='511' level='1'/> <!-- Arcane Ore -->
+                    <item id='4001' quantity='10'/> <!-- Inscription Powder -->
               </milestone_reward>
 
               <milestone_reward>
                     <tier>21</tier>
                     <req>
-                      <min_points>30</min_points>
+                      <min_points>40</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='5'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='2527' quantity='1'/> <!-- Small Mythical Flask -->
               </milestone_reward>
 
               <milestone_reward>
                     <tier>22</tier>
                     <req>
-                      <min_points>15</min_points>
+                      <min_points>35</min_points>
                     </req>
-                    <!-- <unit id='{RARE_CARD_ID}' level='1'/> <!-- Rare Card #3 --> <!-- HERE --> -->
+                    <unit id='511' level='1'/> <!-- Arcane Ore -->
               </milestone_reward>
 
               <milestone_reward>
                     <tier>23</tier>
                     <req>
-                      <min_points>10</min_points>
+                      <min_points>30</min_points>
+                    </req>
+                    <item id='4001' quantity='5'/> <!-- Inscription Powder -->
+              </milestone_reward>
+
+              <milestone_reward>
+                    <tier>24</tier>
+                    <req>
+                      <min_points>25</min_points>
+                    </req>
+                    <unit id='{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #4 --> <!-- HERE -->
+              </milestone_reward>
+
+              <milestone_reward>
+                    <tier>25</tier>
+                    <req>
+                      <min_points>20</min_points>
                     </req>
                     <item id='4001' quantity='2'/> <!-- Inscription Powder -->
               </milestone_reward>
 
               <milestone_reward>
-                    <tier>24</tier>
+                    <tier>26</tier>
+                    <req>
+                      <min_points>15</min_points>
+                    </req>
+                    <item id='{STONES_ID}' quantity='5'/> <!-- Champion Stone --> <!-- HERE -->
+              </milestone_reward>
+
+              <milestone_reward>
+                    <tier>27</tier>
+                    <req>
+                      <min_points>10</min_points>
+                    </req>
+                    <!-- Previously Rare Card #3 --> <!-- HERE -->
+              </milestone_reward>
+
+              <milestone_reward>
+                    <tier>28</tier>
                     <req>
                       <min_points>5</min_points>
                     </req>
