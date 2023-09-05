@@ -400,9 +400,9 @@ document.addEventListener('mouseup', () => {
 			eventMapX = document.getElementById('eventNodeX').value;
 			eventMapY = document.getElementById('eventNodeY').value;
 			updateEditors();
+			propagateEventNode();
 		}
 		activeNode = null;
-		propagateEventNode();
 	}
 });
 

@@ -183,6 +183,7 @@ function filterCoordinate(input) {
 		eventMapX = x;
 		eventMapY = y;
 		updateEditors();
+		propagateEventNode();
 	}
 }
 
