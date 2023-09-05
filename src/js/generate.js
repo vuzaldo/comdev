@@ -117,6 +117,7 @@ parameters[template]['START_TIME_COMMENT'] = convertTimestamp(clashStartTime);
 parameters[template]['START_TIME_2'] = guildClashStartTime;
 parameters[template]['START_TIME_COMMENT_2'] = convertTimestamp(guildClashStartTime);
 template = 'event_timeline_dungeons';
+parameters[template]['EVENT_NUMBER'] = eventNumber;
 parameters[template]['EVENT_ID'] = dungeonId;
 parameters[template]['START_TIME'] = dungeonStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(dungeonStartTime);
