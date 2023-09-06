@@ -23,6 +23,10 @@ jobs:
         id: git-check
         run: echo "modified=$(if [[ $(git status --porcelain) ]]; then echo "true"; else echo "false"; fi)" >> $GITHUB_OUTPUT
 
+      - name: Build changes
+        if: steps.git-check.outputs.modified == 'true'
+        run: npm run build
+
       - name: Push changes
         if: steps.git-check.outputs.modified == 'true'
         run: |
