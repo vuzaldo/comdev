@@ -68,14 +68,15 @@
               </map_node>
 
               <commander>
-                <card id='343' max_mastery_level='40'/>
-                <card id='344' max_mastery_level='50'/>
-                <card id='345' max_mastery_level='60'/>
-                <card id='346' min_mastery_level='40' max_mastery_level='115'/>
-                <card id='347' min_mastery_level='50' max_mastery_level='120'/>
-                <card id='348' min_mastery_level='60' max_mastery_level='130'/>
-                <card id='349' min_mastery_level='115' max_mastery_level='140'/>
-                <card id='350' min_mastery_level='126'/>
+                <card id='{STARTING_COMMANDER_1}' max_mastery_level='40'/> <!-- {STARTING_COMMANDER_1_COMMENT} -->
+                <card id='{STARTING_COMMANDER_2}' max_mastery_level='50'/> <!-- {STARTING_COMMANDER_2_COMMENT} -->
+                <card id='{STARTING_COMMANDER_3}' max_mastery_level='60'/> <!-- {STARTING_COMMANDER_3_COMMENT} -->
+                <card id='{MIDDLE_COMMANDER_1}' min_mastery_level='40' max_mastery_level='115'/> <!-- {MIDDLE_COMMANDER_1_COMMENT} -->
+                <card id='{MIDDLE_COMMANDER_2}' min_mastery_level='50' max_mastery_level='120'/> <!-- {MIDDLE_COMMANDER_2_COMMENT} -->
+                <card id='{MIDDLE_COMMANDER_3}' min_mastery_level='60' max_mastery_level='130'/> <!-- {MIDDLE_COMMANDER_3_COMMENT} -->
+                <card id='{MIDDLE_COMMANDER_4}' min_mastery_level='115' max_mastery_level='140'/> <!-- {MIDDLE_COMMANDER_4_COMMENT} -->
+                <card id='{FINAL_COMMANDER_1}' min_mastery_level='126'/> <!-- {FINAL_COMMANDER_1_COMMENT} -->
+                <card id='{FINAL_COMMANDER_2}' min_mastery_level='135'/> <!-- {FINAL_COMMANDER_2_COMMENT} -->
               </commander>
 
               <deck>
@@ -123,30 +124,30 @@
                 <card min_rarity='4' max_rarity='4' mastery_level='70' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='4000'/>
                 <card min_rarity='4' max_rarity='4' mastery_level='75' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='4000'/>
 
-                <card id='8094' mastery_level='75'/> <!-- Viracocha's Familiar -->
+                <card id='{FIXED_CARD_1}' mastery_level='75'/> <!-- {FIXED_CARD_1_COMMENT} -->
 
                 <card min_rarity='4' max_rarity='4' mastery_level='80' remove_mastery_level='134' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
                 <card min_rarity='4' max_rarity='4' mastery_level='85' remove_mastery_level='134' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
                 <card min_rarity='4' max_rarity='4' mastery_level='90' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
                 <card min_rarity='4' max_rarity='4' mastery_level='95' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
 
-                <card id='8020' mastery_level='100'/>    <!-- Fortune's Scallywag -->
-                <card id='8049' mastery_level='105'/>    <!-- Spirit of the Free -->
-                <card id='2083' mastery_level='110'/>    <!-- Habrok, the Lance -->
-                <card id='5111' mastery_level='115'/>    <!-- Bennu -->
-                <card id='5206' mastery_level='115'/>    <!-- Scarhawk Avienda -->
-                <card id='8034' mastery_level='120'/> 
-                <card id='6272' mastery_level='120'/>    <!-- Blazemaster Rookie -->
-                <card id='7263' mastery_level='125'/>    <!-- Cheggrub -->
-                <card id='7293' mastery_level='125'/>    <!-- Golden Promise -->
-                <card id='7293' mastery_level='125'/>    <!-- Golden Promise -->
-                <card id='8036' mastery_level='130'/>    <!-- Mugen and Young Hawk -->
-                <card id='7174' mastery_level='130'/>  
-                <card id='8102' mastery_level='130'/>    <!-- Crimsonwing's Reach -->
-                <card id='8057' mastery_level='134'/>    <!-- Dyrnwyn's Courage -->
-                <card id='6174' mastery_level='134'/>    <!-- Deatheye Owl -->
-                <card id='5187' mastery_level='138'/>    <!-- Star Chaser -->
-                <card id='5187' mastery_level='138'/>    <!-- Star Chaser -->
+                <card id='{FIXED_CARD_2}' mastery_level='100'/>    <!-- {FIXED_CARD_2_COMMENT} -->
+                <card id='{FIXED_CARD_3}' mastery_level='105'/>    <!-- {FIXED_CARD_3_COMMENT} -->
+                <card id='{FIXED_CARD_4}' mastery_level='110'/>    <!-- {FIXED_CARD_4_COMMENT} -->
+                <card id='{FIXED_CARD_5}' mastery_level='115'/>    <!-- {FIXED_CARD_5_COMMENT} -->
+                <card id='{FIXED_CARD_6}' mastery_level='115'/>    <!-- {FIXED_CARD_6_COMMENT} -->
+                <card id='{FIXED_CARD_7}' mastery_level='120'/>    <!-- {FIXED_CARD_7_COMMENT} -->
+                <card id='{FIXED_CARD_8}' mastery_level='120'/>    <!-- {FIXED_CARD_8_COMMENT} -->
+                <card id='{FIXED_CARD_9}' mastery_level='125'/>    <!-- {FIXED_CARD_9_COMMENT} -->
+                <card id='{FIXED_CARD_10}' mastery_level='125'/>    <!-- {FIXED_CARD_10_COMMENT} -->
+                <card id='{FIXED_CARD_11}' mastery_level='125'/>    <!-- {FIXED_CARD_11_COMMENT} -->
+                <card id='{FIXED_CARD_12}' mastery_level='130'/>    <!-- {FIXED_CARD_12_COMMENT} -->
+                <card id='{FIXED_CARD_13}' mastery_level='130'/>    <!-- {FIXED_CARD_13_COMMENT} -->
+                <card id='{FIXED_CARD_14}' mastery_level='130'/>    <!-- {FIXED_CARD_14_COMMENT} -->
+                <card id='{FIXED_CARD_15}' mastery_level='134'/>    <!-- {FIXED_CARD_15_COMMENT} -->
+                <card id='{FIXED_CARD_16}' mastery_level='134'/>    <!-- {FIXED_CARD_16_COMMENT} -->
+                <card id='{FIXED_CARD_17}' mastery_level='138'/>    <!-- {FIXED_CARD_17_COMMENT} -->
+                <card id='{FIXED_CARD_18}' mastery_level='138'/>    <!-- {FIXED_CARD_18_COMMENT} -->
 
               </deck>
 
