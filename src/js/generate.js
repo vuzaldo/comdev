@@ -205,8 +205,8 @@ function updateParameters() {
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
 	for (let i = 1; i < 5; i++) {
 		const cardId = document.getElementById(`rewardEpic${i}`).value;
-		parameters[template][`EPIC_CARD_ID_${i}`] = cardId;
-		parameters[template][`EPIC_CARD_ID_${i}_COMMENT`] = id2Card('1' + cardId, false, 3);
+		parameters[template][`EPIC_CARD_${i}`] = cardId;
+		parameters[template][`EPIC_CARD_${i}_NAME`] = id2Card('1' + cardId, false, 3);
 	}
 	template = 'event_timeline_n3rjc_AC';
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());

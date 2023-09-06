@@ -68,15 +68,15 @@
               </map_node>
 
               <commander>
-                <card id='{STARTING_COMMANDER_1}' max_mastery_level='40'/> <!-- {STARTING_COMMANDER_1_COMMENT} -->
-                <card id='{STARTING_COMMANDER_2}' max_mastery_level='50'/> <!-- {STARTING_COMMANDER_2_COMMENT} -->
-                <card id='{STARTING_COMMANDER_3}' max_mastery_level='60'/> <!-- {STARTING_COMMANDER_3_COMMENT} -->
-                <card id='{MIDDLE_COMMANDER_1}' min_mastery_level='40' max_mastery_level='115'/> <!-- {MIDDLE_COMMANDER_1_COMMENT} -->
-                <card id='{MIDDLE_COMMANDER_2}' min_mastery_level='50' max_mastery_level='120'/> <!-- {MIDDLE_COMMANDER_2_COMMENT} -->
-                <card id='{MIDDLE_COMMANDER_3}' min_mastery_level='60' max_mastery_level='130'/> <!-- {MIDDLE_COMMANDER_3_COMMENT} -->
-                <card id='{MIDDLE_COMMANDER_4}' min_mastery_level='115' max_mastery_level='140'/> <!-- {MIDDLE_COMMANDER_4_COMMENT} -->
-                <card id='{FINAL_COMMANDER_1}' min_mastery_level='126'/> <!-- {FINAL_COMMANDER_1_COMMENT} -->
-                <card id='{FINAL_COMMANDER_2}' min_mastery_level='135'/> <!-- {FINAL_COMMANDER_2_COMMENT} -->
+                <card id='{STARTING_COMMANDER_1}' max_mastery_level='40'/> <!-- {STARTING_COMMANDER_1_NAME} -->
+                <card id='{STARTING_COMMANDER_2}' max_mastery_level='50'/> <!-- {STARTING_COMMANDER_2_NAME} -->
+                <card id='{STARTING_COMMANDER_3}' max_mastery_level='60'/> <!-- {STARTING_COMMANDER_3_NAME} -->
+                <card id='{MIDDLE_COMMANDER_1}' min_mastery_level='40' max_mastery_level='115'/> <!-- {MIDDLE_COMMANDER_1_NAME} -->
+                <card id='{MIDDLE_COMMANDER_2}' min_mastery_level='50' max_mastery_level='120'/> <!-- {MIDDLE_COMMANDER_2_NAME} -->
+                <card id='{MIDDLE_COMMANDER_3}' min_mastery_level='60' max_mastery_level='130'/> <!-- {MIDDLE_COMMANDER_3_NAME} -->
+                <card id='{MIDDLE_COMMANDER_4}' min_mastery_level='115' max_mastery_level='140'/> <!-- {MIDDLE_COMMANDER_4_NAME} -->
+                <card id='{FINAL_COMMANDER_1}' min_mastery_level='126'/> <!-- {FINAL_COMMANDER_1_NAME} -->
+                <card id='{FINAL_COMMANDER_2}' min_mastery_level='135'/> <!-- {FINAL_COMMANDER_2_NAME} -->
               </commander>
 
               <deck>
@@ -124,30 +124,30 @@
                 <card min_rarity='4' max_rarity='4' mastery_level='70' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='4000'/>
                 <card min_rarity='4' max_rarity='4' mastery_level='75' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='4000'/>
 
-                <card id='{FIXED_CARD_1}' mastery_level='75'/> <!-- {FIXED_CARD_1_COMMENT} -->
+                <card id='{FIXED_CARD_1}' mastery_level='75'/> <!-- {FIXED_CARD_1_NAME} -->
 
                 <card min_rarity='4' max_rarity='4' mastery_level='80' remove_mastery_level='134' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
                 <card min_rarity='4' max_rarity='4' mastery_level='85' remove_mastery_level='134' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
                 <card min_rarity='4' max_rarity='4' mastery_level='90' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
                 <card min_rarity='4' max_rarity='4' mastery_level='95' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
 
-                <card id='{FIXED_CARD_2}' mastery_level='100'/>    <!-- {FIXED_CARD_2_COMMENT} -->
-                <card id='{FIXED_CARD_3}' mastery_level='105'/>    <!-- {FIXED_CARD_3_COMMENT} -->
-                <card id='{FIXED_CARD_4}' mastery_level='110'/>    <!-- {FIXED_CARD_4_COMMENT} -->
-                <card id='{FIXED_CARD_5}' mastery_level='115'/>    <!-- {FIXED_CARD_5_COMMENT} -->
-                <card id='{FIXED_CARD_6}' mastery_level='115'/>    <!-- {FIXED_CARD_6_COMMENT} -->
-                <card id='{FIXED_CARD_7}' mastery_level='120'/>    <!-- {FIXED_CARD_7_COMMENT} -->
-                <card id='{FIXED_CARD_8}' mastery_level='120'/>    <!-- {FIXED_CARD_8_COMMENT} -->
-                <card id='{FIXED_CARD_9}' mastery_level='125'/>    <!-- {FIXED_CARD_9_COMMENT} -->
-                <card id='{FIXED_CARD_10}' mastery_level='125'/>    <!-- {FIXED_CARD_10_COMMENT} -->
-                <card id='{FIXED_CARD_11}' mastery_level='125'/>    <!-- {FIXED_CARD_11_COMMENT} -->
-                <card id='{FIXED_CARD_12}' mastery_level='130'/>    <!-- {FIXED_CARD_12_COMMENT} -->
-                <card id='{FIXED_CARD_13}' mastery_level='130'/>    <!-- {FIXED_CARD_13_COMMENT} -->
-                <card id='{FIXED_CARD_14}' mastery_level='130'/>    <!-- {FIXED_CARD_14_COMMENT} -->
-                <card id='{FIXED_CARD_15}' mastery_level='134'/>    <!-- {FIXED_CARD_15_COMMENT} -->
-                <card id='{FIXED_CARD_16}' mastery_level='134'/>    <!-- {FIXED_CARD_16_COMMENT} -->
-                <card id='{FIXED_CARD_17}' mastery_level='138'/>    <!-- {FIXED_CARD_17_COMMENT} -->
-                <card id='{FIXED_CARD_18}' mastery_level='138'/>    <!-- {FIXED_CARD_18_COMMENT} -->
+                <card id='{FIXED_CARD_2}' mastery_level='100'/>    <!-- {FIXED_CARD_2_NAME} -->
+                <card id='{FIXED_CARD_3}' mastery_level='105'/>    <!-- {FIXED_CARD_3_NAME} -->
+                <card id='{FIXED_CARD_4}' mastery_level='110'/>    <!-- {FIXED_CARD_4_NAME} -->
+                <card id='{FIXED_CARD_5}' mastery_level='115'/>    <!-- {FIXED_CARD_5_NAME} -->
+                <card id='{FIXED_CARD_6}' mastery_level='115'/>    <!-- {FIXED_CARD_6_NAME} -->
+                <card id='{FIXED_CARD_7}' mastery_level='120'/>    <!-- {FIXED_CARD_7_NAME} -->
+                <card id='{FIXED_CARD_8}' mastery_level='120'/>    <!-- {FIXED_CARD_8_NAME} -->
+                <card id='{FIXED_CARD_9}' mastery_level='125'/>    <!-- {FIXED_CARD_9_NAME} -->
+                <card id='{FIXED_CARD_10}' mastery_level='125'/>    <!-- {FIXED_CARD_10_NAME} -->
+                <card id='{FIXED_CARD_11}' mastery_level='125'/>    <!-- {FIXED_CARD_11_NAME} -->
+                <card id='{FIXED_CARD_12}' mastery_level='130'/>    <!-- {FIXED_CARD_12_NAME} -->
+                <card id='{FIXED_CARD_13}' mastery_level='130'/>    <!-- {FIXED_CARD_13_NAME} -->
+                <card id='{FIXED_CARD_14}' mastery_level='130'/>    <!-- {FIXED_CARD_14_NAME} -->
+                <card id='{FIXED_CARD_15}' mastery_level='134'/>    <!-- {FIXED_CARD_15_NAME} -->
+                <card id='{FIXED_CARD_16}' mastery_level='134'/>    <!-- {FIXED_CARD_16_NAME} -->
+                <card id='{FIXED_CARD_17}' mastery_level='138'/>    <!-- {FIXED_CARD_17_NAME} -->
+                <card id='{FIXED_CARD_18}' mastery_level='138'/>    <!-- {FIXED_CARD_18_NAME} -->
 
               </deck>
 
