@@ -261,8 +261,6 @@ selectTribe.addEventListener('change', function() {
 	document.getElementById('generateBtn').disabled = false;
 	document.getElementById('generateDungeonBtn').disabled = false;
 });
-// selectTribe.selectedIndex = 6; // Goblin
-// selectTribe.dispatchEvent(new Event('change'));
 
 
 const selectMap = document.getElementById('selectMap');
@@ -342,6 +340,16 @@ function createNode(x, y, icon, showLevel, upgradeNodeType) {
 	return container;
 }
 
+function switchHidden() {
+	const showHidden = document.getElementById('switchHidden').checked;
+	const map = document.getElementById('selectedMap');
+	Array.from(map.children).forEach(node => {
+		if (node.dataset.hidden) {
+			node.style.display = showHidden ? 'block' : 'none';
+		}
+	});
+}
+
 function propagateEventNode() {
 	if (selectMap.value == selectMapCycle.value) {
 		let node = document.getElementById('eventNodeCopy');
@@ -407,11 +415,6 @@ function propagateEventNode() {
 		propagateEventNode();
 	});
 });
-selectMap.selectedIndex = 1; // Elaria
-// selectMap.selectedIndex = 22; // Distorted Beetleton
-selectMap.dispatchEvent(new Event('change'));
-// selectMapCycle.selectedIndex = 24; // Return to Karthos
-// selectMapCycle.dispatchEvent(new Event('change'));
 
 let offsetX, offsetY, activeNode = null;
 document.addEventListener('mousemove', (event) => {
@@ -439,12 +442,30 @@ document.addEventListener('mouseup', () => {
 	}
 });
 
-function switchHidden() {
-	const showHidden = document.getElementById('switchHidden').checked;
-	const map = document.getElementById('selectedMap');
-	Array.from(map.children).forEach(node => {
-		if (node.dataset.hidden) {
-			node.style.display = showHidden ? 'block' : 'none';
-		}
-	});
+
+const autoSelectEventOptions = {
+	105: { tribe: 'Insect', map: 'Distorted Beetleton' },
+	106: { tribe: 'Goblin', map: 'Return to Karthos' },
+	107: { tribe: 'Elemental', map: 'Conflux Convergence' },
+	108: { tribe: 'Seafolk' }
+};
+
+function findSelectorOption(selector, option) {
+	const options = Array.from(selector.querySelectorAll('option'));
+	return options.find(o => o.text == option).value;
+}
+
+selectMap.value = findSelectorOption(selectMap, 'Elaria');
+selectMap.dispatchEvent(new Event('change'));
+
+const options = autoSelectEventOptions[eventNumber];
+if (options) {
+	if (options.tribe) {
+		selectTribe.value = findSelectorOption(selectTribe, options.tribe);
+		selectTribe.dispatchEvent(new Event('change'));
+	}
+	if (options.map) {
+		selectMapCycle.value = findSelectorOption(selectMapCycle, options.map);
+		selectMapCycle.dispatchEvent(new Event('change'));
+	}
 }
