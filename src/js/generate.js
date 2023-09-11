@@ -202,6 +202,7 @@ function updateParameters() {
 		const cardId = document.getElementById(elementId).value;
 		parameters[template][param] = cardId;
 		parameters[template][param + '_COMMENT'] = id2Card(cardId, 2);
+		parameters[template][param + '_MIN_LVL'] = document.getElementById(elementId + 'MinLvl').value;
 	}
 	template = 'event_timeline_wars_clash';
 	parameters[template]['EVENT_NAME'] = document.getElementById('warName').value;
