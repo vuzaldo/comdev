@@ -95,19 +95,22 @@ function updateButtonContent(button, newContent) {
 function isRewardRarity(card, rarity) {
 	return rarity && card.set == 2000 && card.rarity == rarity;
 }
-function id2Card(id, champ, rarity) {
+function id2Card(id, cardType, rarity, isChamp) {
 	if (id == '') {
 		return '';
 	}
 	const card = CARDS[id];
-	if (card && ((champ && card.shard_card) || isRewardRarity(card, rarity))) {
+	if (card && ((cardType == card.card_type) || isRewardRarity(card, rarity) || (isChamp && card.shard_card))) {
 		return card.name;
 	}
-	if (champ && id == newChamp) {
+	if (isChamp && id == newChamp) {
 		return '(New champion)'
 	}
 	if (rarity == 3 && id == newEpic) {
 		return '(New epic)'
+	}
+	if (cardType == 1) {
+		return 'Invalid commander';
 	}
 	return 'Invalid card';
 }
@@ -137,9 +140,10 @@ function propagateEpic(input, card) {
 }
 
 function filterInput(input, update = true) {
-	input.value = input.value.replace(/[^0-9]/g, '').slice(0, 4);
+	input.value = input.value.replace(/[^0-9]/g, '').slice(0, input.maxLength);
+	const cardType = input.id.includes('Commander') ? 1 : input.id.includes('Card') ? 2 : 0;
 	const rarity = input.id.includes('Epic') ? 3 : 0;
-	const card = id2Card(input.value, input.id.includes('Champ'), rarity);
+	const card = id2Card(input.value, cardType, rarity, input.id.includes('Champ'));
 	const help = input.parentElement.nextElementSibling.firstChild;
 	help.textContent = card;
 	if (rarity == 3) {
@@ -239,7 +243,7 @@ document.querySelectorAll('textarea.code').forEach(textArea => {
 	editors[textArea.id] = CodeMirror.fromTextArea(textArea, editorSettings);
 	editors[textArea.id].setValue('Loading template...');
 });
-// editors['event_timeline_dungeons'].getWrapperElement().style.minHeight = '40rem';
+editors['event_timeline_dungeons'].getWrapperElement().style.minHeight = '54rem';
 'wars_clash expeditions brawls n3rjc_BGE n3rjc_AC'.split(' ').forEach(e => {
 	editors['event_timeline_' + e].getWrapperElement().style.minHeight = '15rem';
 });

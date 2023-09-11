@@ -29,6 +29,8 @@ function generateBGE() {
 	shuffleArray(bges);
 	generateInput('bgeId', bges[0], filterBge);
 }
+function generateDungeon() {
+}
 function generate() {
 	if (!eventBGE) return;
 	generateBGE();
@@ -175,6 +177,31 @@ function updateParameters() {
 	const tribeRuneId = { 'Angel': 5501, 'Elemental': 5502, 'Undead': 5503, 'Goblin': 5504, 'Dragon': 5505,
 							'Seafolk': 5506, 'Avian': 5507, 'Frog': 5508, 'Mecha': 5509, 'Insect': 5510 }
 	eventBGE && (parameters[template]['TRIBE_RUNE_ID'] = tribeRuneId[eventBGE]);
+	let commander = 1;
+	for (const [phase, commanders] of [['STARTING', 3], ['MIDDLE', 4], ['FINAL', 2]]) {
+		for (let i = 1; i <= commanders; i++) {
+			const param = `${phase}_COMMANDER_${i}`;
+			const elementId = `dungeonCommander${commander}`
+			const commanderId = document.getElementById(elementId).value;
+			parameters[template][param] = commanderId;
+			parameters[template][param + '_NAME'] = id2Card(commanderId, 1);
+			['Min', 'Max'].forEach(m => {
+				const element = document.getElementById(elementId + `${m}Lvl`);
+				if (element) {
+					const p = param + `_${m.toUpperCase()}_LVL`;
+					parameters[template][p] = element.value;
+				}
+			});
+			commander++;
+		}
+	}
+	for (let i = 1; i <= 18; i++) {
+		const param = 'FIXED_CARD_' + i;
+		const elementId = 'dungeonCard' + i;
+		const cardId = document.getElementById(elementId).value;
+		parameters[template][param] = cardId;
+		parameters[template][param + '_NAME'] = id2Card(cardId, 2);
+	}
 	template = 'event_timeline_wars_clash';
 	parameters[template]['EVENT_NAME'] = document.getElementById('warName').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicWar').value;
@@ -206,7 +233,7 @@ function updateParameters() {
 	for (let i = 1; i < 5; i++) {
 		const cardId = document.getElementById(`rewardEpic${i}`).value;
 		parameters[template][`EPIC_CARD_${i}`] = cardId;
-		parameters[template][`EPIC_CARD_${i}_NAME`] = id2Card('1' + cardId, false, 3);
+		parameters[template][`EPIC_CARD_${i}_NAME`] = id2Card('1' + cardId, 0, 3);
 	}
 	template = 'event_timeline_n3rjc_AC';
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
@@ -230,6 +257,7 @@ selectTribe.addEventListener('change', function() {
 	eventTribeId = selectedOption.value;
 	updateEditors();
 	document.getElementById('generateBtn').disabled = false;
+	document.getElementById('generateDungeonBtn').disabled = false;
 });
 // selectTribe.selectedIndex = 6; // Goblin
 // selectTribe.dispatchEvent(new Event('change'));
