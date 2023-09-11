@@ -42,13 +42,12 @@ function generate() {
 	generateInput('rewardEpic4', epics[3]);
 	document.getElementById('clashName').value = eventBGE + ' Clash';
 	document.getElementById('guildClashName').value = eventBGE + ' Guild Clash';
-	document.getElementById('selectTower').selectedIndex = 3; // Tree of Life
 	document.getElementById('dungeonName').value = eventBGE + ' Dungeon';
 	document.getElementById('dungeonEnemyName').value = 'Savage ' + eventBGE + 's';
 	document.getElementById('warName').value = eventBGE + ' Guild War';
 	document.getElementById('expeditionName').value = eventBGE + ' Expedition';
 	document.getElementById('brawlName').value = eventBGE + ' Brawl';
-	selectMapCycle.selectedIndex = Math.floor(Math.random() * (selectMapCycle.options.length - 1)) + 1; // Exclude first "label" element
+	selectMapCycle.selectedIndex = Math.floor(Math.random() * (selectMapCycle.options.length));
 	selectMapCycle.dispatchEvent(new Event('change'));
 }
 
@@ -164,12 +163,9 @@ function updateParameters() {
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicClash').value;
 	parameters[template]['EVENT_NAME_2'] = document.getElementById('guildClashName').value;
 	parameters[template]['EPIC_CARD_ID_2'] = document.getElementById('rewardEpicGuildClash').value;
-	const tower = document.getElementById('selectTower');
-	if (tower.selectedIndex) {
-		const selectedTower = tower.options[tower.selectedIndex];
-		parameters[template]['TOWER_TYPE'] = selectedTower.text;
-		parameters[template]['TOWER_EFFECT_ID'] = selectedTower.value;
-	}
+	const tower = document.getElementById('selectTower').selectedOptions[0];
+	parameters[template]['TOWER_TYPE'] = tower.text;
+	parameters[template]['TOWER_EFFECT_ID'] = tower.value;
 	template = 'event_timeline_dungeons';
 	parameters[template]['EVENT_NAME'] = document.getElementById('dungeonName').value;
 	parameters[template]['ENEMY_NAME'] = document.getElementById('dungeonEnemyName').value;
@@ -240,8 +236,6 @@ function updateParameters() {
 	template = 'event_timeline_n3rjc_AC';
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
 }
-
-updateEditors();
 
 
 const tribes = FACTIONS.filter(f => !f.hidden && f.tribe == 1);
@@ -415,6 +409,7 @@ function propagateEventNode() {
 		propagateEventNode();
 	});
 });
+selectMap.dispatchEvent(new Event('change'));
 
 let offsetX, offsetY, activeNode = null;
 document.addEventListener('mousemove', (event) => {
@@ -454,18 +449,11 @@ function findSelectorOption(selector, option) {
 	const options = Array.from(selector.querySelectorAll('option'));
 	return options.find(o => o.text == option).value;
 }
-
-selectMap.value = findSelectorOption(selectMap, 'Elaria');
-selectMap.dispatchEvent(new Event('change'));
-
 const options = autoSelectEventOptions[eventNumber];
 if (options) {
-	if (options.tribe) {
-		selectTribe.value = findSelectorOption(selectTribe, options.tribe);
-		selectTribe.dispatchEvent(new Event('change'));
-	}
-	if (options.map) {
-		selectMapCycle.value = findSelectorOption(selectMapCycle, options.map);
-		selectMapCycle.dispatchEvent(new Event('change'));
-	}
+	options.tribe && (selectTribe.value = findSelectorOption(selectTribe, options.tribe));
+	options.map && (selectMapCycle.value = findSelectorOption(selectMapCycle, options.map));
 }
+
+selectTribe.dispatchEvent(new Event('change'));
+selectMapCycle.dispatchEvent(new Event('change'));

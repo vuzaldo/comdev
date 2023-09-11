@@ -30,9 +30,11 @@ div#cycle(style='display: none')
 								| Start Time
 							.row
 								.col-md-6.col-auto.mt-2
+									label(for='selectTribe', class='form-label') Select Tribe
+							.row
+								.col-md-6.col-auto
 									select.form-select#selectTribe
-										option(selected, disabled) Select Tribe
-								.col-md-6.col-auto.mt-2
+								.col-md-6.col-auto
 									button.btn.btn-primary(type='submit', onclick='generate()', disabled, id='generateBtn').custom-btn Generate
 							.row.g-3.align-items-center.mt-4
 								.col-auto
@@ -82,17 +84,18 @@ div#cycle(style='display: none')
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic4')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
-							.row
-								.col-md-6.col-auto.mt-5
-									select.form-select#selectMapCycle
-										option(selected, disabled) Select Map
-							.row.g-3.align-items-center.mt-0
+							.row.mt-5
 								.col-auto
+									label.col-form-label(for='selectMapCycle') Select Map
+								.col-md-6.col-auto
+									select.form-select#selectMapCycle
+							.row.g-3.align-items-center.mt-0
+								.col-auto(style='padding-right: 0.756rem')
 									label.col-form-label(for='eventNodeX') Event Node
 								.col-auto
-									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X', disabled)#eventNodeX
+									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X')#eventNodeX
 								.col-auto
-									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y', disabled)#eventNodeY
+									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y')#eventNodeY
 							.row.mt-3
 								.col-md-11.col-auto
 									div.position-relative#selectedMapCycle(style='display: none')
@@ -147,13 +150,15 @@ div#cycle(style='display: none')
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Epic #2', id='rewardEpicGuildClash', disabled)
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
+							.row.mt-3
+								.col-auto
+									label.col-form-label(for='selectTower') Select Tower
 							.row
-								.col-md-6.col-auto.mt-3
+								.col-md-6.col-auto
 									select.form-select(onchange='updateEditors()')#selectTower
-										option(selected, disabled) Select Tower
 										option(value='501') Castle Tower
 										option(value='502') Cannon Tower
-										option(value='506') Tree of Life
+										option(value='506', selected) Tree of Life
 										option(value='509') Fortified Tower
 						.col-md-6.mt-2
 							h6

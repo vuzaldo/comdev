@@ -21,17 +21,18 @@ div#maps(style='display: none')
 					//- 	| Start Time
 					.row
 						.col-md-10
-							.row
-								.col-md-6.col-auto.mt-2
-									select.form-select#selectMap
-										option(selected, disabled) Select Map
-							.row.g-3.align-items-center.mt-0
+							.row.mt-2
 								.col-auto
+									label.col-form-label(for='selectMap') Select Map
+								.col-md-6.col-auto
+									select.form-select#selectMap
+							.row.g-3.align-items-center.mt-0
+								.col-auto(style='padding-right: 1.175rem')
 									label.col-form-label(for='nodeX') New Node
 								.col-auto
-									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X', disabled)#nodeX
+									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X')#nodeX
 								.col-auto
-									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y', disabled)#nodeY
+									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y')#nodeY
 								.col-auto
 									div.form-check.form-switch
 										input.form-check-input(type='checkbox', id='switchHidden', checked, onclick='switchHidden()')

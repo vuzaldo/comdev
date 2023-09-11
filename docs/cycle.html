@@ -37,12 +37,11 @@
                             <h2>Next BGE</h2>
                             <h5 class="mt-2" id="startTime">Start Time</h5>
                             <div class="row">
-                                <div class="col-md-6 col-auto mt-2">
-                                    <select class="form-select" id="selectTribe">
-                                        <option selected disabled>Select Tribe</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 col-auto mt-2"><button class="btn btn-primary custom-btn" type="submit" onclick="generate()" disabled id="generateBtn">Generate</button></div>
+                                <div class="col-md-6 col-auto mt-2"><label class="form-label" for="selectTribe">Select Tribe</label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-auto"><select class="form-select" id="selectTribe"></select></div>
+                                <div class="col-md-6 col-auto"><button class="btn btn-primary custom-btn" type="submit" onclick="generate()" disabled id="generateBtn">Generate</button></div>
                             </div>
                             <div class="row g-3 align-items-center mt-4">
                                 <div class="col-auto"><label class="col-form-label" for="bgeId">BGE</label></div>
@@ -80,17 +79,14 @@
                                 <div class="col-auto col-md-3"><input class="form-control" type="number" min="1" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpic4" /></div>
                                 <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6 col-auto mt-5">
-                                    <select class="form-select" id="selectMapCycle">
-                                        <option selected disabled>Select Map</option>
-                                    </select>
-                                </div>
+                            <div class="row mt-5">
+                                <div class="col-auto"><label class="col-form-label" for="selectMapCycle">Select Map</label></div>
+                                <div class="col-md-6 col-auto"><select class="form-select" id="selectMapCycle"></select></div>
                             </div>
                             <div class="row g-3 align-items-center mt-0">
-                                <div class="col-auto"><label class="col-form-label" for="eventNodeX">Event Node</label></div>
-                                <div class="col-auto"><input class="form-control" type="number" min="0" max="999" oninput="filterCoordinate(this)" placeholder="X" disabled id="eventNodeX" /></div>
-                                <div class="col-auto"><input class="form-control" type="number" min="65" max="665" oninput="filterCoordinate(this)" placeholder="Y" disabled id="eventNodeY" /></div>
+                                <div class="col-auto" style="padding-right: 0.756rem"><label class="col-form-label" for="eventNodeX">Event Node</label></div>
+                                <div class="col-auto"><input class="form-control" type="number" min="0" max="999" oninput="filterCoordinate(this)" placeholder="X" id="eventNodeX" /></div>
+                                <div class="col-auto"><input class="form-control" type="number" min="65" max="665" oninput="filterCoordinate(this)" placeholder="Y" id="eventNodeY" /></div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-md-11 col-auto">
@@ -146,13 +142,15 @@
                                 <div class="col-auto col-md-3"><input class="form-control" type="number" min="1" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Epic #2" id="rewardEpicGuildClash" disabled /></div>
                                 <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
                             </div>
+                            <div class="row mt-3">
+                                <div class="col-auto"><label class="col-form-label" for="selectTower">Select Tower</label></div>
+                            </div>
                             <div class="row">
-                                <div class="col-md-6 col-auto mt-3">
+                                <div class="col-md-6 col-auto">
                                     <select class="form-select" onchange="updateEditors()" id="selectTower">
-                                        <option selected disabled>Select Tower</option>
                                         <option value="501">Castle Tower</option>
                                         <option value="502">Cannon Tower</option>
-                                        <option value="506">Tree of Life</option>
+                                        <option value="506" selected>Tree of Life</option>
                                         <option value="509">Fortified Tower</option>
                                     </select>
                                 </div>
