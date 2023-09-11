@@ -68,7 +68,8 @@ function updateEditor(template) {
 	let generated = TEMPLATES[template];
 	for (param in parameters[template]) {
 		const paramRegex = new RegExp(`\\{${param}}`, 'g');
-		const value = escapeXML(parameters[template][param].toString());
+		let value = parameters[template][param].toString();
+		value = param.includes('_COMMENT') ? value : escapeXML(value);
 		generated = generated.replace(paramRegex, value);
 	}
 	if (generated != previous[template]) {
@@ -184,7 +185,7 @@ function updateParameters() {
 			const elementId = `dungeonCommander${commander}`
 			const commanderId = document.getElementById(elementId).value;
 			parameters[template][param] = commanderId;
-			parameters[template][param + '_NAME'] = id2Card(commanderId, 1);
+			parameters[template][param + '_COMMENT'] = id2Card(commanderId, 1);
 			['Min', 'Max'].forEach(m => {
 				const element = document.getElementById(elementId + `${m}Lvl`);
 				if (element) {
@@ -200,7 +201,7 @@ function updateParameters() {
 		const elementId = 'dungeonCard' + i;
 		const cardId = document.getElementById(elementId).value;
 		parameters[template][param] = cardId;
-		parameters[template][param + '_NAME'] = id2Card(cardId, 2);
+		parameters[template][param + '_COMMENT'] = id2Card(cardId, 2);
 	}
 	template = 'event_timeline_wars_clash';
 	parameters[template]['EVENT_NAME'] = document.getElementById('warName').value;
@@ -233,7 +234,7 @@ function updateParameters() {
 	for (let i = 1; i < 5; i++) {
 		const cardId = document.getElementById(`rewardEpic${i}`).value;
 		parameters[template][`EPIC_CARD_${i}`] = cardId;
-		parameters[template][`EPIC_CARD_${i}_NAME`] = id2Card('1' + cardId, 0, 3);
+		parameters[template][`EPIC_CARD_${i}_COMMENT`] = id2Card('1' + cardId, 0, 3);
 	}
 	template = 'event_timeline_n3rjc_AC';
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
