@@ -29,9 +29,9 @@ div#maps(style='display: none')
 								.col-auto
 									label.col-form-label(for='nodeX') New Node
 								.col-auto
-									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X')#nodeX
+									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X', disabled)#nodeX
 								.col-auto
-									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y')#nodeY
+									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y', disabled)#nodeY
 								.col-auto
 									div.form-check.form-switch
 										input.form-check-input(type='checkbox', id='switchHidden', checked, onclick='switchHidden()')

@@ -380,8 +380,10 @@ function propagateEventNode() {
 		const icon = isEventNode ? 'map_tower' : 'gem_7';
 		const node = createNode(x, y, icon);
 		node.id = isEventNode ? 'eventNode' : 'node';
-		document.getElementById(node.id + 'X').value = x;
-		document.getElementById(node.id + 'Y').value = y;
+		const nodeX = document.getElementById(node.id + 'X');
+		const nodeY = document.getElementById(node.id + 'Y');
+		nodeX.value = x; nodeY.value = y;
+		nodeX.disabled = false; nodeY.disabled = false;
 		node.style.cursor = 'grab';
 		node.addEventListener('mousedown', event => {
 			event.preventDefault();

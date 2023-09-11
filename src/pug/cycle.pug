@@ -90,9 +90,9 @@ div#cycle(style='display: none')
 								.col-auto
 									label.col-form-label(for='eventNodeX') Event Node
 								.col-auto
-									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X')#eventNodeX
+									input.form-control(type='number', min='0', max='999', oninput='filterCoordinate(this)', placeholder='X', disabled)#eventNodeX
 								.col-auto
-									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y')#eventNodeY
+									input.form-control(type='number', min='65', max='665', oninput='filterCoordinate(this)', placeholder='Y', disabled)#eventNodeY
 							.row.mt-3
 								.col-md-11.col-auto
 									div.position-relative#selectedMapCycle(style='display: none')
