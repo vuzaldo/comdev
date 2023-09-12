@@ -35,6 +35,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='600' /> <!-- Legendary Stones --> <!-- HERE -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_1}' /> <!-- Champion Flask --> <!-- HERE -->
     <unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Dual Epic Card --> <!-- HERE -->
     <item id='18' quantity='1000' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -52,6 +53,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='400' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_2}' /> <!-- Champion Flask -->
     <unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Dual Epic Card -->
     <item id='18' quantity='1000' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -69,6 +71,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='350' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_3}' /> <!-- Champion Flask -->
     <unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Dual Epic Card -->
     <item id='18' quantity='800' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -86,6 +89,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='250' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_4}' /> <!-- Champion Flask -->
     <unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Dual Epic Card -->
     <item id='18' quantity='700' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -103,6 +107,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='225' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_5}' /> <!-- Champion Flask -->
     <unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Dual Epic Card -->
     <item id='18' quantity='600' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -120,6 +125,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='200' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_6}' /> <!-- Champion Flask -->
     <unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Dual Epic Card -->
     <item id='18' quantity='500' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -137,6 +143,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='175' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_7}' /> <!-- Champion Flask -->
     <unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Dual Epic Card -->
     <item id='18' quantity='400' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -154,6 +161,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='150' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_8}' /> <!-- Champion Flask -->
     <unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Dual Epic Card -->
     <item id='18' quantity='300' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -171,6 +179,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='125' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_9}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID}' level='4' /> <!-- Epic Card --> <!-- HERE -->
     <item id='18' quantity='200' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -187,6 +196,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='100' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_10}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID}' level='3' /> <!-- Epic Card -->
     <item id='18' quantity='100' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
@@ -203,6 +213,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='75' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_11}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID}' level='2' /> <!-- Epic Card -->
     <item id='17' quantity='500' /> <!-- Epic Pack Fragment -->
     <unit id='510' level='1' /> <!-- Arcane Chunk -->
@@ -218,6 +229,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='50' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_12}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID}' level='2' /> <!-- Epic Card -->
     <item id='17' quantity='300' /> <!-- Epic Pack Fragment -->
     <unit id='510' level='1' /> <!-- Arcane Chunk -->
@@ -233,6 +245,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='25' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_13}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID}' level='1' /> <!-- Epic Card -->
     <item id='17' quantity='200' /> <!-- Epic Pack Fragment -->
     <unit id='510' level='1' /> <!-- Arcane Chunk -->
@@ -247,6 +260,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='10' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_14}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID}' level='1' /> <!-- Epic Card -->
     <item id='17' quantity='100' /> <!-- Epic Pack Fragment -->
     <unit id='510' level='1' /> <!-- Arcane Chunk -->
@@ -300,6 +314,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='600' /> <!-- Legendary Stones -->  <!-- HERE -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_1_GC}' /> <!-- Champion Flask --> <!-- HERE -->
     <unit id='{EPIC_CARD_ID_2}' level='5' /> <!-- Epic Card --> <!-- HERE -->
     <item id='18' quantity='1500' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -317,6 +332,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='450' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_2_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='5' /> <!-- Epic Card -->
     <item id='18' quantity='1500' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -334,6 +350,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='375' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_3_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='5' /> <!-- Epic Card -->
     <item id='18' quantity='1500' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -351,6 +368,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='300' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_4_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='5' /> <!-- Epic Card -->
     <item id='18' quantity='1500' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -368,6 +386,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='240' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_5_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='5' /> <!-- Epic Card -->
     <item id='18' quantity='1350' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -385,6 +404,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='195' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_6_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='5' /> <!-- Epic Card -->
     <item id='18' quantity='1200' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -402,6 +422,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='150' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_7_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='4' /> <!-- Epic Card -->
     <item id='18' quantity='1050' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -419,6 +440,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='105' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_8_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='3' /> <!-- Epic Card -->
     <item id='18' quantity='900' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -436,6 +458,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='75' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_9_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='3' /> <!-- Epic Card -->
     <item id='18' quantity='750' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -453,6 +476,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='45' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_10_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='2' /> <!-- Epic Card -->
     <item id='18' quantity='450' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -470,6 +494,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='30' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_11_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='2' /> <!-- Epic Card -->
     <item id='18' quantity='300' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
@@ -487,6 +512,7 @@
     </req>
     <display_item>0</display_item>
     <item id='{STONES_ID}' quantity='15' /> <!-- Legendary Stones -->
+    <item id='{FLASK_ID}' quantity='{STONES_TIER_12_GC}' /> <!-- Champion Flask -->
     <unit id='{EPIC_CARD_ID_2}' level='1' /> <!-- Epic Card -->
     <item id='18' quantity='150' /> <!-- Legendary Pack Fragment -->
     <item id='17' quantity='1125' /> <!-- Epic Pack Fragment -->
