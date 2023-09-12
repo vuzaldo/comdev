@@ -35,6 +35,7 @@ function generate() {
 	if (!eventBGE) return;
 	generateBGE();
 	generateInput('rewardChamp', newChamp);
+	generateInput('rewardFlask', newFlask, filterItem);
 	const epics = generateRewards(rewardEpics, 4);
 	generateInput('rewardEpic1', epics[0]);
 	generateInput('rewardEpic2', epics[1]);
@@ -104,6 +105,8 @@ while (CARDS[newChamp]) newChamp++;
 while (CARDS[newEpic]) newEpic++;
 let newBGE = 167;
 while (BGES[newBGE]) newBGE++;
+let newFlask = 2801;
+while (ITEMS[newFlask]) newFlask++;
 
 const parameters = {}, previous = {};
 for (const template in editors) {
@@ -150,13 +153,36 @@ parameters[template]['BOX_ID'] = rewardBoxId;
 parameters[template]['START_TIME'] = nextStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
 
+const stoneTiers = {
+	event_timeline_clash: [600, 400, 350, 250, 225, 200, 175, 150, 125, 100, 75, 50, 25, 10],
+	event_timeline_clash_GC: [600, 450, 375, 300, 240, 195, 150, 105, 75, 45, 30, 15],
+	event_timeline_wars_clash: [400, 300, 250, 200, 160, 130, 100, 70, 50, 30, 20, 10],
+	event_timeline_expeditions: [1000, 800, 600, 400, 350, 300, 250, 200, 170, 140, 120, 100, 80, 60, 40, 30, 25, 15],
+	event_timeline_brawls: [1000, 800, 600, 500, 400, 350, 300, 275, 225, 175, 150, 130, 110, 90, 80, 60, 40, 20]
+}
+function scaleStones(stones, scale) {
+	const scaledAmount = (stones * scale).toFixed(2);
+	return Math.ceil(parseFloat(scaledAmount));
+}
+function updateStoneTiers(template, scale, GC = '') {
+	for (let i = 0; i < stoneTiers[template + GC]?.length; i++) {
+		const stones = scaleStones(stoneTiers[template + GC][i], scale);
+		parameters[template]['STONES_TIER_' + (i + 1) + GC] = stones;
+	}
+}
+
 function updateParameters() {
+	const rewardChamp = '10' + document.getElementById('rewardChamp').value;
+	const rewardFlask = document.getElementById('rewardFlask').value;
+	const scaleQuantity = document.getElementById('rewardFlaskScale').value;
 	for (const template in parameters) {
 		eventBGE && (parameters[template]['EVENT_BGE'] = eventBGE);
 		eventMap && (parameters[template]['MAP_ID'] = eventMap);
 		if (eventMapX != null) (parameters[template]['MAP_X'] = eventMapX);
 		if (eventMapY != null) (parameters[template]['MAP_Y'] = eventMapY);
-		parameters[template]['STONES_ID'] = '10' + document.getElementById('rewardChamp').value;
+		parameters[template]['STONES_ID'] = rewardChamp;
+		parameters[template]['FLASK_ID'] = rewardFlask;
+		updateStoneTiers(template, scaleQuantity);
 	}
 	template = 'event_timeline_clash';
 	parameters[template]['EVENT_NAME'] = document.getElementById('clashName').value;
@@ -166,10 +192,12 @@ function updateParameters() {
 	const tower = document.getElementById('selectTower').selectedOptions[0];
 	parameters[template]['TOWER_TYPE'] = tower.text;
 	parameters[template]['TOWER_EFFECT_ID'] = tower.value;
+	updateStoneTiers(template, scaleQuantity, '_GC');
 	template = 'event_timeline_dungeons';
 	parameters[template]['EVENT_NAME'] = document.getElementById('dungeonName').value;
 	parameters[template]['ENEMY_NAME'] = document.getElementById('dungeonEnemyName').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicDungeon').value;
+	parameters[template]['STONES_AMOUNT_DUNGEON'] = scaleStones(200, scaleQuantity);
 	eventTribeId && (parameters[template]['EVENT_TRIBE_ID'] = eventTribeId);
 	const tribeRuneId = { 'Angel': 5501, 'Elemental': 5502, 'Undead': 5503, 'Goblin': 5504, 'Dragon': 5505,
 							'Seafolk': 5506, 'Avian': 5507, 'Frog': 5508, 'Mecha': 5509, 'Insect': 5510 }
@@ -385,7 +413,6 @@ function propagateEventNode() {
 		const nodeX = document.getElementById(node.id + 'X');
 		const nodeY = document.getElementById(node.id + 'Y');
 		nodeX.value = x; nodeY.value = y;
-		nodeX.disabled = false; nodeY.disabled = false;
 		node.style.cursor = 'grab';
 		node.addEventListener('mousedown', event => {
 			event.preventDefault();

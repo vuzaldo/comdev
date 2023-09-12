@@ -126,8 +126,7 @@ function saveData(file, string) {
 
 async function parse() {
 	console.log('\nParsing card data...')
-	cardData = {}
-	factions = []
+	cardData = {}, factions = []
 	for ([i, filename] of cards.entries()) {
 		console.log(i + 1 + '/' + cards.length, filename)
 		try {
@@ -152,15 +151,18 @@ async function parse() {
 	tribes = factions.filter(f => !f.hidden && f.tribe == 1)
 	factions = 'var FACTIONS = ' + JSON.stringify(factions)
 	cardData = 'var CARDS = ' + JSON.stringify(cardData)
-	console.log('\nParsing map data...')
-	itemData = {}
+	console.log('\nParsing item data...')
+	itemData = {}, items = {}
 	xml = fs.readFileSync(path.join(rootDir, 'xmls', 'items_dsvn3j.xml'))
 	json = await parseXML(xml)
 	json.root.item.forEach(item => {
 		itemData[item.id] = item
+		items[item.id] = item.name
 	})
-	mapData = {}
-	nodes = {}
+	console.log('Total:', Object.keys(itemData).length, 'items')
+	items = 'var ITEMS = ' + JSON.stringify(items)
+	console.log('\nParsing map data...')
+	mapData = {}, nodes = {}
 	for ([i, filename] of maps.entries()) {
 		console.log(i + 1 + '/' + maps.length, filename)
 		try {
@@ -226,7 +228,7 @@ async function parse() {
 	})
 	console.log('Total:', Object.keys(bges).length, 'BGEs')
 	bges = 'var BGES = ' + JSON.stringify(bges)
-	string = '\n' + [factions, cardData, mapData, nodes, lastEventNodes, bges].join('\n\n') + '\n'
+	string = '\n' + [factions, cardData, items, mapData, nodes, lastEventNodes, bges].join('\n\n') + '\n'
 	saveData('data.js', string)
 }
 

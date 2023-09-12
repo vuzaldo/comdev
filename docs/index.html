@@ -80,6 +80,15 @@
                                         <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
                                     </div>
                                     <div class="row g-3 align-items-center mt-2">
+                                        <div class="col-auto" style="padding-right: 1.711rem"><label class="col-form-label" for="rewardFlask">Reward Flask</label></div>
+                                        <div class="col-auto col-md-3"><input class="form-control" type="number" min="1" max="9999" oninput="filterItem(this)" maxlength="4" placeholder="Item ID" id="rewardFlask" /></div>
+                                        <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
+                                    </div>
+                                    <div class="row g-3 align-items-center pt-2">
+                                        <div class="col-auto" style="padding-right: 1.066rem"><label class="col-form-label" for="rewardFlaskScale">Scale Quantity</label></div>
+                                        <div class="col-auto col-md-2"><input class="form-control" type="number" min="0" max="10" step="0.1" oninput="filterScale(this)" maxlength="3" id="rewardFlaskScale" value="0.5" /></div>
+                                    </div>
+                                    <div class="row g-3 align-items-center mt-2">
                                         <div class="col-auto pr-x"><label class="col-form-label" for="rewardEpic1">Reward Epic #1</label></div>
                                         <div class="col-auto col-md-3"><input class="form-control" type="number" min="1" max="9999" oninput="filterInput(this)" maxlength="4" placeholder="Card ID" id="rewardEpic1" /></div>
                                         <div class="col-auto"><span class="form-text" style="font-size: 0.95rem"></span></div>
@@ -105,8 +114,8 @@
                                     </div>
                                     <div class="row g-3 align-items-center mt-0">
                                         <div class="col-auto" style="padding-right: 0.756rem"><label class="col-form-label" for="eventNodeX">Event Node</label></div>
-                                        <div class="col-auto"><input class="form-control" type="number" min="0" max="999" oninput="filterCoordinate(this)" placeholder="X" id="eventNodeX" /></div>
-                                        <div class="col-auto"><input class="form-control" type="number" min="65" max="665" oninput="filterCoordinate(this)" placeholder="Y" id="eventNodeY" /></div>
+                                        <div class="col-auto"><input class="form-control" type="number" min="0" max="999" oninput="filterCoordinate(this)" maxlength="3" placeholder="X" id="eventNodeX" /></div>
+                                        <div class="col-auto"><input class="form-control" type="number" min="65" max="665" oninput="filterCoordinate(this)" maxlength="3" placeholder="Y" id="eventNodeY" /></div>
                                     </div>
                                     <div class="row mt-3">
                                         <div class="col-md-11 col-auto">
@@ -286,7 +295,7 @@
                                         <div class="col-md-10 col-auto"><label class="form-label" for="dungeonDeckHash">Enemy Deck Hash (18 fixed cards)</label></div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-10 col-auto"><input class="form-control col-md-4" type="text" id="dungeonDeckHash" placeholder="TheSench's DeckBuilder" /></div>
+                                        <div class="col-md-10 col-auto"><input class="form-control col-md-4" type="text" id="dungeonDeckHash" placeholder="TheSench's DeckBuilder" disabled /></div>
                                         <div class="col-md-2 col-auto">
                                             <a href="https://thesench.github.io/SIMSpellstone/DeckBuilder.html?hash=" target="_blank" id="dungeonDeckHashLink"><i class="bi bi-box-arrow-up-right" style="font-size: 1.4rem"></i></a>
                                         </div>
@@ -536,8 +545,8 @@
                                     </div>
                                     <div class="row g-3 align-items-center mt-0">
                                         <div class="col-auto" style="padding-right: 1.175rem"><label class="col-form-label" for="nodeX">New Node</label></div>
-                                        <div class="col-auto"><input class="form-control" type="number" min="0" max="999" oninput="filterCoordinate(this)" placeholder="X" id="nodeX" /></div>
-                                        <div class="col-auto"><input class="form-control" type="number" min="65" max="665" oninput="filterCoordinate(this)" placeholder="Y" id="nodeY" /></div>
+                                        <div class="col-auto"><input class="form-control" type="number" min="0" max="999" oninput="filterCoordinate(this)" maxlength="3" placeholder="X" id="nodeX" /></div>
+                                        <div class="col-auto"><input class="form-control" type="number" min="65" max="665" oninput="filterCoordinate(this)" maxlength="3" placeholder="Y" id="nodeY" /></div>
                                         <div class="col-auto">
                                             <div class="form-check form-switch">
                                                 <input class="form-check-input" type="checkbox" id="switchHidden" checked onclick="switchHidden()" />
@@ -561,9 +570,9 @@
         <!-- CodeMirror-->
         <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.14/lib/codemirror.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.14/mode/xml/xml.js"></script>
-        <script src="js/scripts.js?v=1694433783680"></script>
-        <script src="js/data.js?v=1694433783680"></script>
-        <script src="js/templates.js?v=1694433783680"></script>
-        <script src="js/generate.js?v=1694433783680"></script>
+        <script src="js/scripts.js?v=1694515438356"></script>
+        <script src="js/data.js?v=1694515438356"></script>
+        <script src="js/templates.js?v=1694515438356"></script>
+        <script src="js/generate.js?v=1694515438356"></script>
     </body>
 </html>

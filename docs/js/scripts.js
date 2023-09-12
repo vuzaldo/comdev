@@ -139,8 +139,14 @@ function propagateEpic(input, card) {
 	}
 }
 
+function filter(input, regex = /[^0-9]/g) {
+	if (input.value != '') {
+		input.value = input.value.replace(regex, '').slice(0, input.maxLength);
+	}
+}
+
 function filterInput(input, update = true) {
-	input.value = input.value.replace(/[^0-9]/g, '').slice(0, input.maxLength);
+	filter(input);
 	const cardType = input.id.includes('Commander') ? 1 : input.id.includes('Card') ? 2 : 0;
 	const rarity = input.id.includes('Epic') ? 3 : 0;
 	const card = id2Card(input.value, cardType, rarity, input.id.includes('Champ'));
@@ -154,8 +160,35 @@ function filterInput(input, update = true) {
 	}
 }
 
+function filterItem(input, update = true) {
+	filter(input);
+	let name = '';
+	const item = ITEMS[input.value];
+	if (item?.includes('Flask')) {
+		name = item;
+	}
+	else if (input.value == newFlask) {
+		name = '(New flask)';
+	}
+	else if (input.value != '') {
+		name = 'Invalid item';
+	}
+	const help = input.parentElement.nextElementSibling.firstChild;
+	help.textContent = name;
+	if (update) {
+		updateEditors();
+	}
+}
+
+function filterScale(input, update = true) {
+	filter(input, /[^0-9.,]/g);
+	if (update) {
+		updateEditors();
+	}
+}
+
 function filterBge(input, update = true) {
-	input.value = input.value.replace(/[^0-9]/g, '').slice(0, 4);
+	filter(input);
 	let name = '', description = '';
 	const bge = BGES[input.value];
 	if (bge) {
@@ -177,7 +210,7 @@ function filterBge(input, update = true) {
 }
 
 function filterCoordinate(input) {
-	input.value = input.value.replace(/[^0-9]/g, '').slice(0, 3);
+	filter(input);
 	const nodeId = input.id.slice(0, -1);
 	let x = parseInt(document.getElementById(nodeId + 'X').value);
 	let y = parseInt(document.getElementById(nodeId + 'Y').value);
