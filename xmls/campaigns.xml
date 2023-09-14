@@ -7324,7 +7324,8 @@
 	<campaign>
 		<id>1207</id>
 		<name>Return to Beetleton</name>
-		<campaign_req id="24" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="24" level="1"/> -->
 		<locked_start_time>1556816400</locked_start_time> <!-- Thu, 02 May 2019 17:00:00 GMT -->
 		<location_id>22</location_id>
 		<x>265</x>
@@ -7353,7 +7354,8 @@
 	<campaign>
 		<id>1208</id>
 		<name>The Sage's Path</name>
-		<campaign_req id="1207" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1207" level="1"/> -->
 		<locked_start_time>1558026000</locked_start_time> <!--  Thu, May 16 2019 17:00:00 -->
 		<battleground_id>2065</battleground_id>
 		<location_id>22</location_id>
@@ -7387,7 +7389,8 @@
 		<name>Memories Best Left Forgotten</name>
 		<type>2</type>
 		<icon id="gem_Boss_LG" bundle="0"/>
-		<campaign_req id="1207" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1207" level="1"/> -->
 		<locked_start_time>1558026000</locked_start_time> <!-- Thu, May 16 2019 17:00:00 -->
 		<battleground_id>2066</battleground_id>
 		<location_id>22</location_id>
@@ -7419,7 +7422,8 @@
 	<campaign>
 		<id>1210</id>
 		<name>Priority Differences</name>
-		<campaign_req id="1208" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1208" level="1"/> -->
 		<locked_start_time>1559235600</locked_start_time> <!-- Thursday, May 30, 2019  -->
 		<battleground_id>2069</battleground_id>
 		<location_id>22</location_id>
@@ -7449,7 +7453,8 @@
 	<campaign>
 		<id>1211</id>
 		<name>A Dream's Rebirth</name>
-		<campaign_req id="1210" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1210" level="1"/> -->
 		<locked_start_time>1560445200</locked_start_time> <!-- Thursday, June 13, 2019  -->
 		<battleground_id>2070</battleground_id>
 		<location_id>22</location_id>
@@ -9513,8 +9518,8 @@
 	<campaign>
 		<id>1278</id>
 		<name>World Conflux</name>
-		<hidden>1</hidden>
-		<!-- <campaign_req id="24" level="1"/> -->
+		<!-- <hidden>1</hidden> -->
+		<campaign_req id="24" level="1"/>
 		<locked_start_time>1614877200</locked_start_time> <!-- Thursday, March 4, 2021 17:00:00 -->
 		<location_id>34</location_id>
 		<x>10</x> <!-- left right -->
@@ -9543,8 +9548,8 @@
 	<campaign>
 		<id>1279</id>
 		<name>Dyrnwyn's Judgement</name>
-		<hidden>1</hidden>
-		<!-- <campaign_req id="1278" level="1"/> -->
+		<!-- <hidden>1</hidden> -->
+		<campaign_req id="1278" level="1"/>
 		<locked_start_time>1616086800</locked_start_time> <!-- Thursday, March 18, 2021 17:00:00	 -->
 		<battleground_id>2115</battleground_id> <!-- Enemy BGE -->
 		<location_id>34</location_id>
@@ -9578,8 +9583,8 @@
 		<name>Faction Weakness Awakening</name>
 		<type>2</type>
 		<icon id="gem_Boss_LG" bundle="0"/>
-		<hidden>1</hidden>
-		<!-- <campaign_req id="1278" level="1"/> -->
+		<!-- <hidden>1</hidden> -->
+		<campaign_req id="1278" level="1"/>
 		<locked_start_time>1616086800</locked_start_time> <!--  Thursday, 18 March 2021 0:00:00 -->
 		<battleground_id>2116</battleground_id> <!-- Enemy BGE -->
 		<location_id>34</location_id>
@@ -9706,8 +9711,8 @@
 	<campaign>
 		<id>1284</id>
 		<name>Titan Conflux</name>
-		<hidden>1</hidden>
-		<!-- <campaign_req id="1279" level="1"/> -->
+		<!-- <hidden>1</hidden> -->
+		<campaign_req id="1279" level="1"/>
 		<locked_start_time>1617296400</locked_start_time> <!-- Thursday, April 1, 2021 17:00:00	 -->
 		<battleground_id>2117</battleground_id> <!-- Enemy BGE -->
 		<location_id>34</location_id>
@@ -9737,8 +9742,8 @@
 	<campaign>
 		<id>1285</id>
 		<name>Spellstone's End</name>
-		<hidden>1</hidden>
-		<!-- <campaign_req id="1284" level="1"/> -->
+		<!-- <hidden>1</hidden> -->
+		<campaign_req id="1284" level="1"/>
 		<locked_start_time>1618506000</locked_start_time> <!-- Thursday, April 15, 2021 17:00:00	 -->
 		<battleground_id>2118</battleground_id> <!-- Enemy BGE -->
 		<location_id>34</location_id>
@@ -11944,9 +11949,11 @@
 		<id>1351</id>
 		<name>A Flight in the Dark</name>
 		<icon id="machine_parts_200" bundle="17"/>
-		<campaign_req id="36" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="36" level="1"/> -->
 		<locked_start_time>1689872400</locked_start_time> <!--  Thursday, July 20, 2023 17:00:00 -->
-		<location_id>22</location_id> <!-- From map_config.xml -->
+		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
+		<location_id>22</location_id> <!-- Distorted Beetleton in map_config.xml -->
 		<x>400</x>
 		<y>350</y>
 		<combatBG>CombatBGVoid</combatBG>
@@ -11975,9 +11982,11 @@
 		<id>1352</id>
 		<name>The Healer's Prison</name>
 		<icon id="machine_parts_200" bundle="17"/>
-		<campaign_req id="1351" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1351" level="1"/> -->
 		<locked_start_time>1691082000</locked_start_time> <!--  Thursday, August 3, 2023 17:00:00 -->
-		<location_id>22</location_id> <!-- From map_config.xml -->
+		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
+		<location_id>22</location_id> <!-- Distorted Beetleton in map_config.xml -->
 		<x>650</x>
 		<y>500</y>
 		<combatBG>CombatBGVoid</combatBG>
@@ -12010,7 +12019,8 @@
 		<icon id="machine_parts_200" bundle="17"/>
 		<campaign_req id="36" level="1"/> <!-- From now on, all ComDev nodes require first 6 maps up to Seastone Citadel to be completed -->
 		<locked_start_time>1692291600</locked_start_time> <!--  Thursday, August 17, 2023 17:00:00 -->
-		<location_id>30</location_id> <!-- From map_config.xml -->
+		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
+		<location_id>30</location_id> <!-- Return to Karthos in map_config.xml -->
 		<x>530</x> <!-- Left Right -->
 		<y>380</y> <!-- Up Down -->
 		<combatBG>CombatBGKarthos</combatBG>
@@ -12031,7 +12041,7 @@
 			<card level="6" id="511"/> <!-- Arcane Ore -->
 			<item level="7" id="2700" number="150"/>  <!-- New Return to Karthos Flask in items_dsvn3j.xml -->
 		</rewards>
-		<find_item id="3116" drop_per_energy="1.7"/> <!-- Halve to 0.85 after end of BGE -->
+		<find_item id="3116" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
 		<ignore_energy_reduction_until>1694710800</ignore_energy_reduction_until> <!-- Thursday, September 14, 2023 at 17:00:00	   -->
 	</campaign>
 
@@ -12041,7 +12051,8 @@
 		<icon id="machine_parts_200" bundle="17"/>
 		<campaign_req id="1353" level="1"/> <!-- Require previous node in event -->
 		<locked_start_time>1693501200</locked_start_time> <!--  Thursday, August 31, 2023 17:00:00 -->
-		<location_id>30</location_id> <!-- From map_config.xml -->
+		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
+		<location_id>30</location_id> <!-- Return to Karthos in map_config.xml -->
 		<x>220</x> <!-- Left Right -->
 		<y>600</y> <!-- Up Down -->
 		<combatBG>CombatBGKarthos</combatBG>
@@ -12062,8 +12073,74 @@
 			<card level="6" id="2100"/> <!-- Kheptronos Reward Legendary -->
 			<item level="7" id="2700" number="150"/>  <!-- New Return to Karthos Flask in items_dsvn3j.xml -->
 		</rewards>
-		<find_item id="3116" drop_per_energy="1.8"/> <!-- Halve to 0.9 after end of BGE -->
+		<find_item id="3116" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
 		<ignore_energy_reduction_until>1694710800</ignore_energy_reduction_until> <!-- Thursday, September 14, 2023 at 17:00:00	   -->
+	</campaign>
+
+<!-- Event 107: ComDev Elementals - Conflux Convergence -->
+
+	<campaign>
+		<id>1355</id>
+		<name>The Goblins' Conflux</name>
+		<icon id="machine_parts" bundle="17"/>
+		<campaign_req id="36" level="1"/> <!-- ComDev nodes require completion of first 6 maps up to Seastone Citadel -->
+		<locked_start_time>1694710800</locked_start_time> <!-- Thursday, 14 September 2023 at 17:00:00 -->
+		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
+		<location_id>34</location_id> <!-- Conflux Convergence in map_config.xml -->
+		<x>110</x> <!-- Left Right -->
+		<y>440</y> <!-- Up Down -->
+		<combatBG>CombatBGVoid</combatBG>
+		<missions>
+			<mission_id>7146</mission_id>
+			<mission_id>7147</mission_id>
+			<mission_id>7148</mission_id>
+			<mission_id>7149</mission_id>
+			<mission_id>7150</mission_id>
+			<mission_id>7151</mission_id>
+		</missions>
+		<rewards>
+			<item level="1" id="2802" number="50"/>  <!-- New Conflux Convergence Super Flask in items_dsvn3j.xml -->
+			<card level="2" id="2009"/> <!-- Sapling -->
+			<card level="3" id="2010"/> <!-- Silver Wind -->
+			<card level="4" id="2057"/> <!-- Twister -->
+			<card level="5" id="2007"/> <!-- Platinum Golum Reward Legendary -->
+			<card level="6" id="2007"/> <!-- Platinum Golum Reward Legendary -->
+			<item level="7" id="2802" number="150"/>  <!-- New Conflux Convergence Super Flask in items_dsvn3j.xml -->
+		</rewards>
+		<find_item id="3128" drop_per_energy="1.7"/> <!-- Halve to 0.85 after end of BGE -->
+		<ignore_energy_reduction_until>1697130000</ignore_energy_reduction_until> <!-- Thursday, 12 October 2023 at 17:00:00 -->
+	</campaign>
+
+	<campaign>
+		<id>1356</id>
+		<name>Furious Clouds</name>
+		<icon id="machine_parts" bundle="17"/>
+		<campaign_req id="1355" level="1"/> <!-- Require previous node in event -->
+		<locked_start_time>1695920400</locked_start_time> <!--  Thursday, 28 September 2023 17:00:00 -->
+		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
+		<location_id>34</location_id> <!-- Conflux Convergence in map_config.xml -->
+		<x>450</x> <!-- Left Right -->
+		<y>250</y> <!-- Up Down -->
+		<combatBG>CombatBGVoid</combatBG>
+		<missions>
+			<mission_id>7152</mission_id>
+			<mission_id>7153</mission_id>
+			<mission_id>7154</mission_id>
+			<mission_id>7155</mission_id>
+			<mission_id>7156</mission_id>
+			<mission_id>7157</mission_id>
+		</missions>
+		<rewards>
+			<item level="1" id="2802" number="50"/>  <!-- New Conflux Convergence Super Flask in items_dsvn3j.xml -->
+			<card level="2" id="2009"/> <!-- Sapling -->
+			<card level="3" id="2010"/> <!-- Silver Wind -->
+			<card level="4" id="2057"/> <!-- Twister -->
+			<card level="5" id="2007"/> <!-- Platinum Golum Reward Legendary -->
+			<card level="6" id="2007"/> <!-- Platinum Golum Reward Legendary -->
+			<item level="7" id="2802" number="150"/>  <!-- New Conflux Convergence Super Flask in items_dsvn3j.xml -->
+		</rewards>
+		<find_item id="3128" drop_per_energy="1.8"/> <!-- Halve to 0.9 after end of BGE -->
+		<ignore_energy_reduction_until>1697130000</ignore_energy_reduction_until> <!-- Thursday, 12 October 2023 at 17:00:00 -->
 	</campaign>
 
 <!-- End normal campaign events -->

@@ -12626,6 +12626,167 @@
 
 	<!-- END Premium Flasks Gen 6 Bundles -->
 
+	<package>
+		<id>1229</id>
+		<name>Echoing Sound Flask Special</name>
+		<desc>Gives 100 Echoing Sound Flasks. They contain Champion Stones for Emerald Amarok; Boldur, Bridge Builder; Kachina, the Dreamer; or Sound of Death! May be purchased 4 times!</desc>
+		<asset_prefab>event_051_stonepack_01</asset_prefab>
+		<bundle>161</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
+		<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2549' number='100' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1230</id>
+		<name>K'luum Trove</name>
+		<desc>Gives 75 ^cE7FFK'luum Stone^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 50 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104075' number='75' />  <!-- Stone -->
+		<item id='2001' number='25' />  <!-- Arcane Fragment -->
+		<item id='1004' number='10' />  <!-- Energy +20 -->
+		<item id='4001' number='50' />  <!-- Inscription Powder -->
+		<sp>50</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1231</id>
+		<name>K'luum Large Trove</name>
+		<desc>Gives 200 ^cE7FFK'luum Stone^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 100 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104075' number='200' /> <!-- Stone -->
+		<item id='2001' number='50' />  <!-- Arcane Fragment -->
+		<item id='1004' number='15' />  <!-- Energy +20 -->
+		<item id='4001' number='100' /> <!-- Inscription Powder -->
+		<sp>100</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t40_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1232</id>
+		<name>K'luum Fortune Trove</name>
+		<desc>Gives 725 ^cE7FFK'luum Stone^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 300 Arcane Dust, and 250 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104075' number='725' /> <!-- Stone -->
+		<item id='2001' number='150' /> <!-- Arcane Fragment -->
+		<item id='1004' number='25' />  <!-- Energy +20 -->
+		<item id='4001' number='250' /> <!-- Inscription Powder -->
+		<sp>300</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t60_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1233</id>
+		<name>Elemental Starter Set</name>
+		<desc>Power up your Elemental deck! Contains 4 Quads: ^cE7FFIcestone Beast^cFFFF, ^cE7FFBlazehorn^cFFFF, ^c0DFFMaster of Elements^cFFFF, and ^c0DFFArcane Snowman^cFFFF plus 50 Kensho Stones! One purchase only!</desc>
+		<asset_prefab>starter_deck</asset_prefab>
+		<bundle>35</bundle>
+		<background_prefab>3rdAnniversary_banner</background_prefab>
+		<background_bundle>136</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<show_list>1</show_list>
+		<!-- Stuff to give -->
+		<card id='21642' /> <!-- Icestone -->
+		<card id='21343' /> <!-- Blazehorn -->
+		<card id='21029' /> <!-- Elementalist -->
+		<card id='22075' /> <!-- Snowman -->
+		<item id='104018' number='50' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1234</id>
+		<name>Viir Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFViir, the Subjugator^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+    	<asset_prefab>event_094_stonepack_02</asset_prefab>
+   		<bundle>255</bundle>
+    	<background_prefab>event_94_voidcolossal_banner</background_prefab>
+    	<background_bundle>255</background_bundle>
+		<category>1</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104063' number='200' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1235</id>
+		<name>Quad Sakura Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFSakura Blossom^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id='27045' />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1236</id>
+		<name>Quad Shadow Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFShadow of Storms^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id='26042' />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1237</id>
+		<name>Venus Mawtrap Shard Bundle!</name>
+		<desc>Gives 330 Shards and a BONUS ^cE7FFVenus Mawtrap^cFFFF card! May be purchased 4 times!</desc>
+		<priority>300</priority>
+		<!-- Stuff to give -->
+		<card id='6274' />
+		<tokens>330</tokens>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1238</id>
+		<name>Super Dual Elemental Bonus!</name>
+		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFElemental card, 200 Arcane Dust and 150 Inscription Powder! May be purchased 2 times!</desc>
+		<asset_prefab>elemental_crystal_legendary</asset_prefab>
+		<bundle>49</bundle>
+		<!-- Stuff to give -->
+		<tokens>800</tokens>
+		<pack>5331</pack>
+		<item id='4001' number='150' />	<!-- Inscription Powder -->
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t50</price_point_id>
+	</package>
+
 <!-- END BUNDLES BUNDLES END-->
 
 	<!-- ====================== -->

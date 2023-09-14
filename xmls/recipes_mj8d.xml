@@ -552,7 +552,373 @@
 		<item_req id='2596' number='1' />
 	</recipe>
 
+	<!-- ====================================== -->
+	<!-- ============ Pack Recipes ============ -->
+	<!-- ====================================== -->
 
+	<recipe>
+		<id>3101</id>
+		<name>Mist Pearl Extraction</name>
+		<category>3</category>
+		<icon>blue_pearl</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Mist Pearls from Duskillow to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3048' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3102</id>
+		<name>Snowdust Extraction</name>
+		<category>3</category>
+		<icon>snowdust_100</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Snowdust from Frigore to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3049' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3103</id>
+		<name>Purple Fire Soul Extraction</name>
+		<category>3</category>
+		<icon>purple_fire_soul_item_100</icon>
+		<bundle>92</bundle>
+		<desc>Use Universal Solvent on Purple Fire Soul from The Void Plane to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3053' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3104</id>
+		<name>Honeycomb Extraction</name>
+		<category>3</category>
+		<icon>honeycomb_item_100</icon>
+		<bundle>97</bundle>
+		<desc>Use Universal Solvent on Honeycombs from Beetleton Bunker to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3056' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3105</id>
+		<name>Mini Jellyfish Extraction</name>
+		<category>3</category>
+		<icon>Baby_Jelly_100</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Mini Jellyfish from Pharos Temple to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3059' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3106</id>
+		<name>Fireshard Extraction</name>
+		<category>3</category>
+		<icon>Fireshard_100</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Fireshards from Fireshard Mine to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3062' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3107</id>
+		<name>Breezy Wind Extraction</name>
+		<category>3</category>
+		<icon>Captured_Wind_100</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Breezy Winds from The Celestial Vault to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3065' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3108</id>
+		<name>Word Eaters Extraction</name>
+		<category>3</category>
+		<icon>Soul_of_Silver_100</icon>
+		<bundle>119</bundle>
+		<desc>Use Universal Solvent on Word Eaters from Skyhaven to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3068' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3109</id>
+		<name>Bonbon Sparklers Extraction</name>
+		<category>3</category>
+		<icon>sparkler100</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Bonbon Sparklers from Goblin Rise Stronghold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3071' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3110</id>
+		<name>Tropical Coconut Extraction</name>
+		<category>3</category>
+		<icon>Coconut_A_100</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Tropical Coconuts from Forgotten Island to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3074' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3111</id>
+		<name>Golden Leaf Extraction</name>
+		<category>3</category>
+		<icon>gold_leaf</icon>
+		<bundle>17</bundle>
+		<desc>Use Universal Solvent on Golden Leaves from Golden Crown Village to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3077' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3112</id>
+		<name>Black Blossom Extraction</name>
+		<category>3</category>
+		<icon>void_flower</icon>
+		<bundle>17</bundle>
+		<desc>Use Universal Solvent on Black Blossoms from Desolate Red Valley to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3080' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3113</id>
+		<name>Dragon Claw Extraction</name>
+		<category>3</category>
+		<icon>dragon_claw</icon>
+		<bundle>17</bundle>
+		<desc>Use Universal Solvent on Dragon Claws from Tarragon Peak to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3083' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3114</id>
+		<name>Gladius Coin Extraction</name>
+		<category>3</category>
+		<icon>ancientCoin_100</icon>
+		<bundle>133</bundle>
+		<desc>Use Universal Solvent on Gladius Coins from Gladius Arena to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3086' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3115</id>
+		<name>Corroded Mist Pearl Extraction</name>
+		<category>3</category>
+		<icon>blue_pearl</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Corroded Mist Pearls from Duskillow Rebuilt to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3089' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3116</id>
+		<name>Dark Honey Extraction</name>
+		<category>3</category>
+		<icon>honey_jar</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Dark Honey from Distorted Beetleton to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3092' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3117</id>
+		<name>Enchanted Iron Extraction</name>
+		<category>3</category>
+		<icon>iron_nugget100</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Enchanted Iron from Salt Wastes to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3095' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3118</id>
+		<name>Pillar Soul Extraction</name>
+		<category>3</category>
+		<icon>event_53_item_100</icon>
+		<bundle>133</bundle>
+		<desc>Use Universal Solvent on Pillar Souls from The Abyss to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3098' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3119</id>
+		<name>Soul of Silver Extraction</name>
+		<category>3</category>
+		<icon>Soul_of_Silver_100</icon>
+		<bundle>119</bundle>
+		<desc>Use Universal Solvent on Souls of Silver from Stormy Seastone Citadel to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3101' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3120</id>
+		<name>Void Essence Extraction</name>
+		<category>3</category>
+		<icon>undead_essence</icon>
+		<bundle>17</bundle>
+		<desc>Use Universal Solvent on Void Essences from World's Center to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3104' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3121</id>
+		<name>Wyld Leaf Extraction</name>
+		<category>3</category>
+		<icon>gold_leaf</icon>
+		<bundle>17</bundle>
+		<desc>Use Universal Solvent on Wyld Leaves from Return to Elaria to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3107' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3122</id>
+		<name>Void Remnant Extraction</name>
+		<category>3</category>
+		<icon>purple_fire_soul_item_100</icon>
+		<bundle>92</bundle>
+		<desc>Use Universal Solvent on Void Remnants from Healed Dawnglow to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3110' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3123</id>
+		<name>Wisp Fragment Extraction</name>
+		<category>3</category>
+		<icon>will_o_wisp100</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Wisp Fragments from Return to Luminis to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3113' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3124</id>
+		<name>Karthos Ember Extraction</name>
+		<category>3</category>
+		<icon>Burning_Target_110</icon>
+		<bundle>17</bundle>
+		<desc>Use Universal Solvent on Karthos Embers from Return to Karthos to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3116' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3125</id>
+		<name>Dragon Talon Extraction</name>
+		<category>3</category>
+		<icon>dragon_claw</icon>
+		<bundle>17</bundle>
+		<desc>Use Universal Solvent on Dragon Talons from Return to Tarragon Peak to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3119' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3126</id>
+		<name>Gladius Currency Extraction</name>
+		<category>3</category>
+		<icon>ancientCoin_100</icon>
+		<bundle>133</bundle>
+		<desc>Use Universal Solvent on Gladius Currencies from Gladius Scriptorium to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3122' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3127</id>
+		<name>Angel Plume Extraction</name>
+		<category>3</category>
+		<icon>angel_feather100</icon>
+		<bundle>58</bundle>
+		<desc>Use Universal Solvent on Angel Plumes from Skyhaven Assault to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3125' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
+	
+	<recipe>
+		<id>3128</id>
+		<name>Element Soul Extraction</name>
+		<category>3</category>
+		<icon>Soul_of_Silver_100</icon>
+		<bundle>119</bundle>
+		<desc>Use Universal Solvent on Element Souls from Conflux Convergence to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<unlock_req item_id='8030'/> <!-- Unlocking Book Item -->
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='3128' number='3000'/> <!-- Expedition Item -->
+		<item_req id='4002' number='1'/> <!-- Universal Solvent -->
+	</recipe>
 
 	<recipe_category>
     	<id>0</id>
