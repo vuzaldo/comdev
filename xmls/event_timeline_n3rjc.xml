@@ -45121,7 +45121,7 @@
 	<event>
 		<id>6106</id>
 		<name>Goblin Civil War</name>
-		<desc>All Goblins gain 10% Armor. Aether gain 7% + Delay Frostbreath, Chaos gain 15% + Delay Barrage, Wyld gain 7% + Delay Venom. Void gain Siphon equal to base Attack. Values are based on base health.</desc>
+		<desc>All Goblins gain 10% Armor. Aether gain 7% + Delay Frostbreath, Chaos gain 20% + Delay Barrage, Wyld gain 10% + Delay Venom, Void gain Siphon equal to base Attack. Values are based on base health.</desc>
 		<banner_prefab>event_017_banner</banner_prefab> <!-- referring to xml code from Goblin's Battle kit -->
 		<bundle>75</bundle>
 		<effect>
@@ -45136,7 +45136,7 @@
 	<event>
 		<id>6107</id>
 		<name>Elemental Meltdown</name>
-		<desc>0-2D Elementals gain Scorch, Weaken and Pierce equal to 15% base health. 3-4D Elementals gain Barrier and Vengeance and are Enraged for 10% base health.</desc>
+		<desc>All Elementals are Enraged for 7% base health. 0-2D gain Weaken and Pierce equal to 15%, and 3-4D Elementals gain Shroud and Vengeance equal to 10% base health.</desc>
 		<banner_prefab>elementalsBanner</banner_prefab>
 		<bundle>21</bundle>
 		<effect>

@@ -12082,7 +12082,7 @@
 	<campaign>
 		<id>1355</id>
 		<name>The Goblins' Conflux</name>
-		<icon id="machine_parts" bundle="17"/>
+		<icon id="machine_parts_200" bundle="17"/>
 		<campaign_req id="36" level="1"/> <!-- ComDev nodes require completion of first 6 maps up to Seastone Citadel -->
 		<locked_start_time>1694710800</locked_start_time> <!-- Thursday, 14 September 2023 at 17:00:00 -->
 		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
@@ -12114,7 +12114,7 @@
 	<campaign>
 		<id>1356</id>
 		<name>Furious Clouds</name>
-		<icon id="machine_parts" bundle="17"/>
+		<icon id="machine_parts_200" bundle="17"/>
 		<campaign_req id="1355" level="1"/> <!-- Require previous node in event -->
 		<locked_start_time>1695920400</locked_start_time> <!--  Thursday, 28 September 2023 17:00:00 -->
 		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
