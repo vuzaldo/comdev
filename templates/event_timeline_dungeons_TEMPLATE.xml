@@ -1,4 +1,4 @@
-	<!-- ======= {EVENT_BGE} BGE Dungeon Event {EVENT_NUMBER} / {START_TIME_COMMENT} ======= -->
+  <!-- ======= {EVENT_BGE} BGE Dungeon Event {EVENT_NUMBER} / {START_TIME_COMMENT} ======= -->
       <event>
               <id>{EVENT_ID}</id>
               <name>{EVENT_NAME}</name>
@@ -10,12 +10,12 @@
               <banner_prefab>dungeon_001_banner</banner_prefab>
               <bundle>71</bundle>
               <start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} -->
-              <recharge_duration>3660</recharge_duration>     <!-- 3660 | 2 Days 13 Hours -->
-              <tracking_duration>4320</tracking_duration>     <!-- 4320 | 3 Days -->
+              <recharge_duration>3660</recharge_duration> <!-- 3660 | 2 Days 13 Hours -->
+              <tracking_duration>4320</tracking_duration> <!-- 4320 | 3 Days -->
               <claim_delay>15</claim_delay>
-              <end_duration>8640</end_duration>         <!-- 8640 | 6 Days -->
+              <end_duration>8640</end_duration> <!-- 8640 | 6 Days -->
               <view_action>1</view_action>
-              <max_energy>0</max_energy>              <!-- 0 max_energy means no cap -->
+              <max_energy>0</max_energy> <!-- 0 max_energy means no cap -->
               <starting_energy>20</starting_energy>
               <recharge_time>1800</recharge_time>
               <enemy_name>{ENEMY_NAME}</enemy_name> <!-- Change enemy name! -->
@@ -131,23 +131,23 @@
                 <card min_rarity='4' max_rarity='4' mastery_level='90' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
                 <card min_rarity='4' max_rarity='4' mastery_level='95' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000,4000'/>
 
-                <card id='{FIXED_CARD_2}' mastery_level='{FIXED_CARD_2_MIN_LVL}'/>    <!-- {FIXED_CARD_2_COMMENT} -->
-                <card id='{FIXED_CARD_3}' mastery_level='{FIXED_CARD_3_MIN_LVL}'/>    <!-- {FIXED_CARD_3_COMMENT} -->
-                <card id='{FIXED_CARD_4}' mastery_level='{FIXED_CARD_4_MIN_LVL}'/>    <!-- {FIXED_CARD_4_COMMENT} -->
-                <card id='{FIXED_CARD_5}' mastery_level='{FIXED_CARD_5_MIN_LVL}'/>    <!-- {FIXED_CARD_5_COMMENT} -->
-                <card id='{FIXED_CARD_6}' mastery_level='{FIXED_CARD_6_MIN_LVL}'/>    <!-- {FIXED_CARD_6_COMMENT} -->
-                <card id='{FIXED_CARD_7}' mastery_level='{FIXED_CARD_7_MIN_LVL}'/>    <!-- {FIXED_CARD_7_COMMENT} -->
-                <card id='{FIXED_CARD_8}' mastery_level='{FIXED_CARD_8_MIN_LVL}'/>    <!-- {FIXED_CARD_8_COMMENT} -->
-                <card id='{FIXED_CARD_9}' mastery_level='{FIXED_CARD_9_MIN_LVL}'/>    <!-- {FIXED_CARD_9_COMMENT} -->
-                <card id='{FIXED_CARD_10}' mastery_level='{FIXED_CARD_10_MIN_LVL}'/>    <!-- {FIXED_CARD_10_COMMENT} -->
-                <card id='{FIXED_CARD_11}' mastery_level='{FIXED_CARD_11_MIN_LVL}'/>    <!-- {FIXED_CARD_11_COMMENT} -->
-                <card id='{FIXED_CARD_12}' mastery_level='{FIXED_CARD_12_MIN_LVL}'/>    <!-- {FIXED_CARD_12_COMMENT} -->
-                <card id='{FIXED_CARD_13}' mastery_level='{FIXED_CARD_13_MIN_LVL}'/>    <!-- {FIXED_CARD_13_COMMENT} -->
-                <card id='{FIXED_CARD_14}' mastery_level='{FIXED_CARD_14_MIN_LVL}'/>    <!-- {FIXED_CARD_14_COMMENT} -->
-                <card id='{FIXED_CARD_15}' mastery_level='{FIXED_CARD_15_MIN_LVL}'/>    <!-- {FIXED_CARD_15_COMMENT} -->
-                <card id='{FIXED_CARD_16}' mastery_level='{FIXED_CARD_16_MIN_LVL}'/>    <!-- {FIXED_CARD_16_COMMENT} -->
-                <card id='{FIXED_CARD_17}' mastery_level='{FIXED_CARD_17_MIN_LVL}'/>    <!-- {FIXED_CARD_17_COMMENT} -->
-                <card id='{FIXED_CARD_18}' mastery_level='{FIXED_CARD_18_MIN_LVL}'/>    <!-- {FIXED_CARD_18_COMMENT} -->
+                <card id='{FIXED_CARD_2}' mastery_level='{FIXED_CARD_2_MIN_LVL}'/> <!-- {FIXED_CARD_2_COMMENT} -->
+                <card id='{FIXED_CARD_3}' mastery_level='{FIXED_CARD_3_MIN_LVL}'/> <!-- {FIXED_CARD_3_COMMENT} -->
+                <card id='{FIXED_CARD_4}' mastery_level='{FIXED_CARD_4_MIN_LVL}'/> <!-- {FIXED_CARD_4_COMMENT} -->
+                <card id='{FIXED_CARD_5}' mastery_level='{FIXED_CARD_5_MIN_LVL}'/> <!-- {FIXED_CARD_5_COMMENT} -->
+                <card id='{FIXED_CARD_6}' mastery_level='{FIXED_CARD_6_MIN_LVL}'/> <!-- {FIXED_CARD_6_COMMENT} -->
+                <card id='{FIXED_CARD_7}' mastery_level='{FIXED_CARD_7_MIN_LVL}'/> <!-- {FIXED_CARD_7_COMMENT} -->
+                <card id='{FIXED_CARD_8}' mastery_level='{FIXED_CARD_8_MIN_LVL}'/> <!-- {FIXED_CARD_8_COMMENT} -->
+                <card id='{FIXED_CARD_9}' mastery_level='{FIXED_CARD_9_MIN_LVL}'/> <!-- {FIXED_CARD_9_COMMENT} -->
+                <card id='{FIXED_CARD_10}' mastery_level='{FIXED_CARD_10_MIN_LVL}'/> <!-- {FIXED_CARD_10_COMMENT} -->
+                <card id='{FIXED_CARD_11}' mastery_level='{FIXED_CARD_11_MIN_LVL}'/> <!-- {FIXED_CARD_11_COMMENT} -->
+                <card id='{FIXED_CARD_12}' mastery_level='{FIXED_CARD_12_MIN_LVL}'/> <!-- {FIXED_CARD_12_COMMENT} -->
+                <card id='{FIXED_CARD_13}' mastery_level='{FIXED_CARD_13_MIN_LVL}'/> <!-- {FIXED_CARD_13_COMMENT} -->
+                <card id='{FIXED_CARD_14}' mastery_level='{FIXED_CARD_14_MIN_LVL}'/> <!-- {FIXED_CARD_14_COMMENT} -->
+                <card id='{FIXED_CARD_15}' mastery_level='{FIXED_CARD_15_MIN_LVL}'/> <!-- {FIXED_CARD_15_COMMENT} -->
+                <card id='{FIXED_CARD_16}' mastery_level='{FIXED_CARD_16_MIN_LVL}'/> <!-- {FIXED_CARD_16_COMMENT} -->
+                <card id='{FIXED_CARD_17}' mastery_level='{FIXED_CARD_17_MIN_LVL}'/> <!-- {FIXED_CARD_17_COMMENT} -->
+                <card id='{FIXED_CARD_18}' mastery_level='{FIXED_CARD_18_MIN_LVL}'/> <!-- {FIXED_CARD_18_COMMENT} -->
 
               </deck>
 
