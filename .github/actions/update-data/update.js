@@ -62,7 +62,8 @@ other = [
 	"guilds",
 	"levels",
 	"recipes_mj8d",
-	"tutorial1"
+	"tutorial1",
+	"vip_levels"
 	]
 obsolete = [
 	"arena",
