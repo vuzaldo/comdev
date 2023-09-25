@@ -470,7 +470,7 @@ const autoSelectEventOptions = {
 	105: { tribe: 'Insect', map: 'Distorted Beetleton' },
 	106: { tribe: 'Goblin', map: 'Return to Karthos' },
 	107: { tribe: 'Elemental', map: 'Conflux Convergence' },
-	108: { tribe: 'Seafolk' }
+	108: { tribe: 'Seafolk', map: 'Pharos Temple' }
 };
 
 function findSelectorOption(selector, option) {
