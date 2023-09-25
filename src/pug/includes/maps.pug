@@ -37,6 +37,10 @@ div#maps(style='display: none')
 									div.form-check.form-switch
 										input.form-check-input(type='checkbox', id='switchHidden', checked, onclick='switchHidden()')
 										label.form-check-label(for='switchHidden', style='user-select: none') Show hidden nodes
+								.col-auto
+									div.form-check.form-switch
+										input.form-check-input(type='checkbox', id='switchBackup', checked, onclick='switchHidden()')
+										label.form-check-label(for='switchBackup', style='user-select: none') Use backup data
 							.row.mt-2
 								div.position-relative#selectedMap(style='display: none')
 									img.img-fluid(style='border: 2px solid black')

@@ -365,11 +365,11 @@ function createNode(x, y, icon, showLevel, upgradeNodeType) {
 
 function switchHidden() {
 	const showHidden = document.getElementById('switchHidden').checked;
+	const useBackup = document.getElementById('switchBackup').checked;
 	const map = document.getElementById('selectedMap');
 	Array.from(map.children).forEach(node => {
-		if (node.dataset.hidden) {
-			node.style.display = showHidden ? 'block' : 'none';
-		}
+		const hidden = useBackup ? node.dataset.wasHidden : node.dataset.hidden;
+		node.style.display = hidden ? showHidden ? 'block' : 'none' : 'block';
 	});
 }
 
@@ -399,9 +399,12 @@ function propagateEventNode() {
 		}
 		const isEventNode = this.id.includes('Cycle');
 		NODES[mapId]?.forEach(node => {
-			if (!node.hidden || !isEventNode) {
+			const wasHidden = NODE_VISIBILITY[node.id] == 0;
+			const hidden = isEventNode ? wasHidden : node.hidden;
+			if (!hidden || !isEventNode) {
 				const element = createNode(node.x, node.y, node.icon, node.show_level, node.expansion);
-				if (node.hidden) element.dataset.hidden = node.hidden;
+				if (hidden) element.dataset.hidden = hidden;
+				if (wasHidden) element.dataset.wasHidden = wasHidden;
 				selectedMap.appendChild(element);
 			}
 		});

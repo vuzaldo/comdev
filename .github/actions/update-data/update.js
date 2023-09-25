@@ -180,10 +180,11 @@ async function parse() {
 						if (!nodes[node.location_id]) {
 							nodes[node.location_id] = []
 						}
+						id = node.id
 						icon = node.icon?.$.id
 						show_level = node.show_level
 						hidden = node.hidden
-						nodes[node.location_id].push({ icon, x: node.x, y: node.y, show_level, hidden })
+						nodes[node.location_id].push({ id, icon, x: node.x, y: node.y, show_level, hidden })
 					}
 				})
 			}
@@ -252,7 +253,10 @@ async function templates() {
 	filePath = path.join(rootDir, 'templates', 'bge_banners.json')
 	bge_banners = JSON.parse(fs.readFileSync(filePath))
 	bge_banners = 'var BGE_BANNERS = ' + JSON.stringify(bge_banners)
-	string = '\n' + [templates, expedition_parameters, bge_banners].join('\n\n') + '\n'
+	filePath = path.join(rootDir, 'templates', 'node_visibility.json')
+	node_visibility = JSON.parse(fs.readFileSync(filePath))
+	node_visibility = 'var NODE_VISIBILITY = ' + JSON.stringify(node_visibility)
+	string = '\n' + [templates, expedition_parameters, bge_banners, node_visibility].join('\n\n') + '\n'
 	string = string.replace(/\\r/g, '')
 	saveData('templates.js', string)
 }
