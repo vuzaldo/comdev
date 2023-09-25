@@ -75,7 +75,7 @@ function _handlePug(filePath, watchEvent) {
 }
 
 function _renderAllPug() {
-    console.log('### INFO: Rendering All');
+    console.log('### INFO: Rendering All Pug');
     _.each(allPugFiles, (value, filePath) => {
         renderPug(filePath);
     });
