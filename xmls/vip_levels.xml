@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+	<!-- 	<max_energy>#</max_energy>
+			<max_bounties>#</max_bounties>
+			<max_units>#</max_units>
+			<gold_bonus>#</gold_bonus> -->
+			
+			
+	<vip_level>
+		<id>0</id>
+		<points>0</points>
+		<desc>Purchase items in the store to earn VIP Points and gain VIP Levels which unlock exclusive rewards and features!</desc>
+	</vip_level>
+	
+	<vip_level>
+		<id>1</id>
+		<points>10</points>
+		<rewards>
+			<reward>
+				<name>emporium_token</name>
+				<bundle>58</bundle>
+				<desc>Unlocks second item in Drake &#38; Drake's Emporium!</desc>
+			</reward>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 50</desc>
+				<max_units>50</max_units>
+			</reward>
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>2</id>
+		<points>40</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 55</desc>
+				<max_units>55</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +1</desc>
+				<max_bounties>1</max_bounties>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 1 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>3</id>
+		<points>80</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 60</desc>
+				<max_units>60</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +1</desc>
+				<max_bounties>1</max_bounties>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 2 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>4</id>
+		<points>200</points>
+		<rewards>
+			<reward>
+				<name>maxUpgradeItem_100</name>
+				<bundle>58</bundle>
+				<desc>Unlocks Max Upgrade button!</desc>
+			</reward>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 65</desc>
+				<max_units>65</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +2</desc>
+				<max_bounties>2</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +20</desc>
+				<max_energy>20</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 3 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>5</id>
+		<points>400</points>
+		<rewards>
+			<reward>
+				<name>emporium_token</name>
+				<bundle>58</bundle>
+				<desc>Unlocks third item in Drake &#38; Drake's Emporium!</desc>
+			</reward>
+			<reward>
+				<name>icon_basic_crystal_lg</name>
+				<bundle>0</bundle>
+				<desc>Unlocks Dust Pack x10! Auto vaporizes all Common &#38; Rares!</desc>
+			</reward>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 100</desc>
+				<max_units>100</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +2</desc>
+				<max_bounties>2</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +20</desc>
+				<max_energy>20</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 4 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>6</id>
+		<points>600</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 125</desc>
+				<max_units>125</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +3</desc>
+				<max_bounties>3</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +20</desc>
+				<max_energy>20</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 5 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>7</id>
+		<points>1000</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 150</desc>
+				<max_units>150</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +4</desc>
+				<max_bounties>4</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +40</desc>
+				<max_energy>40</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 6 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>8</id>
+		<points>1600</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 175</desc>
+				<max_units>175</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +5</desc>
+				<max_bounties>5</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +40</desc>
+				<max_energy>40</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 7 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>9</id>
+		<points>2800</points>
+		<rewards>
+			<reward>
+				<name>emporium_token</name>
+				<bundle>58</bundle>
+				<desc>Unlocks fourth item in Drake &#38; Drake's Emporium!</desc>
+			</reward>
+			<reward>
+				<name>icon_basic_crystal_lg</name>
+				<bundle>0</bundle>
+				<desc>Unlocks Dust Pack x50!</desc>
+			</reward>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 200</desc>
+				<max_units>200</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +6</desc>
+				<max_bounties>6</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +40</desc>
+				<max_energy>40</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 8 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>10</id>
+		<points>4000</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 250</desc>
+				<max_units>250</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +7</desc>
+				<max_bounties>7</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +60</desc>
+				<max_energy>60</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 9 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>11</id>
+		<points>6000</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 300</desc>
+				<max_units>300</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +8</desc>
+				<max_bounties>8</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +60</desc>
+				<max_energy>60</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 10 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>12</id>
+		<points>9600</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 350</desc>
+				<max_units>350</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +9</desc>
+				<max_bounties>9</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +60</desc>
+				<max_energy>60</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 11 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>13</id>
+		<points>16000</points>
+		<rewards>
+			<reward>
+				<name>emporium_token</name>
+				<bundle>58</bundle>
+				<desc>Unlocks fifth item in Drake &#38; Drake's Emporium!</desc>
+			</reward>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 400</desc>
+				<max_units>400</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +10</desc>
+				<max_bounties>10</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +80</desc>
+				<max_energy>80</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 12 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>14</id>
+		<points>32000</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 450</desc>
+				<max_units>450</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +10</desc>
+				<max_bounties>10</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +100</desc>
+				<max_energy>100</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 13 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+	
+	<vip_level>
+		<id>15</id>
+		<points>60000</points>
+		<rewards>
+			<reward>
+				<name>card_storage</name>
+    			<bundle>17</bundle>
+				<desc>Increases Card Inventory by 500</desc>
+				<max_units>500</max_units>
+			</reward>
+			<reward>
+				<name>bounty_increase_item</name>
+    			<bundle>58</bundle>
+				<desc>Increases your maximum Bounties by +10</desc>
+				<max_bounties>10</max_bounties>
+			</reward>
+			<reward>
+				<name>energy_cap_item</name>
+    			<bundle>0</bundle>
+				<desc>Increases your maximum Energy by +120</desc>
+				<max_energy>120</max_energy>
+			</reward>
+			<!-- <reward>
+				<name>icon_VIP_point100</name>
+    			<bundle>0</bundle>
+				<desc>Includes all VIP Tier 14 Rewards</desc>
+			</reward> -->
+		</rewards>
+	</vip_level>
+</root>
