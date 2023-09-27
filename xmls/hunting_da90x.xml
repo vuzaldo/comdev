@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+	<rank>
+		<id>1</id>
+		<image>pvp_badge_1</image>
+		<points>30</points>	<!-- points required to move up a rank -->
+		<cannot_drop_rank>1</cannot_drop_rank>		<!-- once a player reaches this rank, they cannot drop below it -->
+		<gold>10</gold>		<!-- gold gained for defeating a rank 1 player -->
+		<win>10</win>
+		<loss>0</loss>		<!-- points lost on defeat -->
+		<max_bounties>5</max_bounties>
+		<recharge_time>10</recharge_time>
+		<truncate_enemy_deck>3</truncate_enemy_deck>
+		<brawl_points>5</brawl_points>		<!-- how much is a player in this rank worth in a brawl -->
+	</rank>
+	<rank>
+		<id>2</id>
+		<image>pvp_badge_1</image>
+		<points>120</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>15</gold>
+		<win>12</win>
+		<loss>1</loss>
+		<recharge_time>12</recharge_time>
+		<truncate_enemy_deck>5</truncate_enemy_deck>
+		<brawl_points>10</brawl_points>
+	</rank>
+	<rank>
+		<id>3</id>
+		<image>pvp_badge_1</image>
+		<points>280</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>20</gold>
+		<win>14</win>
+		<loss>1</loss>
+		<max_bounties>6</max_bounties>
+		<recharge_time>15</recharge_time>
+		<truncate_enemy_deck>6</truncate_enemy_deck>
+		<brawl_points>15</brawl_points>
+	</rank>
+	<rank>
+		<id>4</id>
+		<image>pvp_badge_1</image>
+		<points>595</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>30</gold>
+		<win>17</win>
+		<loss>3</loss>
+		<recharge_time>20</recharge_time>
+		<truncate_enemy_deck>8</truncate_enemy_deck>
+		<brawl_points>25</brawl_points>
+	</rank>
+	<rank>
+		<id>5</id>
+		<image>pvp_badge_2</image>
+		<points>1000</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>40</gold>
+		<win>20</win>
+		<loss>4</loss>
+		<recharge_time>25</recharge_time>
+		<truncate_enemy_deck>10</truncate_enemy_deck>
+		<brawl_points>35</brawl_points>
+	</rank>
+	<rank>
+		<id>6</id>
+		<image>pvp_badge_2</image>
+		<points>1625</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>48</gold>
+		<win>25</win>
+		<loss>6</loss>
+		<max_bounties>7</max_bounties>
+		<recharge_time>30</recharge_time>
+		<brawl_points>50</brawl_points>
+	</rank>
+	<rank>
+		<id>7</id>
+		<image>pvp_badge_2</image>
+		<points>2400</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>56</gold>
+		<win>30</win>
+		<loss>9</loss>
+		<recharge_time>40</recharge_time>
+		<brawl_points>75</brawl_points>
+	</rank>
+	<rank>
+		<id>8</id>
+		<image>pvp_badge_2</image>
+		<points>3500</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>63</gold>
+		<win>35</win>
+		<loss>12</loss>
+		<max_bounties>8</max_bounties>
+		<recharge_time>50</recharge_time>
+		<brawl_points>100</brawl_points>
+	</rank>
+	<rank>
+		<id>9</id>
+		<image>pvp_badge_2</image>
+		<points>4800</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>77</gold>
+		<win>40</win>
+		<loss>16</loss>
+		<recharge_time>60</recharge_time>
+		<brawl_points>120</brawl_points>
+	</rank>
+	<rank>
+		<id>10</id>
+		<image>pvp_badge_3</image>
+		<points>6300</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>98</gold>
+		<win>45</win>
+		<loss>23</loss>
+		<item_drop id='2001' drop='0.13' first='1'/>
+		<item_drop id='4011' drop='0.007' first='1'/>
+		<item_drop id='4012' drop='0.0021' first='1'/>
+		<recharge_time>75</recharge_time>
+		<brawl_points>150</brawl_points>
+		<desc>^cFA0FUnlocks Legendary Heroes!{0}^cCCCF98 Gold per Bounty{0}Arcane Fragments now found from Bounties!{0}Runeshells and Rune Slivers now found from Bounties!</desc>
+	</rank>
+	<rank>
+		<id>11</id>
+		<image>pvp_badge_3</image>
+		<points>8000</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>102</gold>
+		<win>50</win>
+		<loss>38</loss>
+		<item_drop id='2001' drop='0.16' />
+		<item_drop id='4011' drop='0.008' />
+		<item_drop id='4012' drop='0.0024' />
+		<recharge_time>75</recharge_time>
+		<brawl_points>150</brawl_points>
+	</rank>
+	<rank>
+		<id>12</id>
+		<image>pvp_badge_3</image>
+		<points>9900</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>105</gold>
+		<win>55</win>
+		<loss>55</loss>
+		<item_drop id='2001' drop='0.22' />
+		<item_drop id='4011' drop='0.01' />
+		<item_drop id='4012' drop='0.003' />
+		<item_drop id='4013' drop='0.001' />
+		<recharge_time>75</recharge_time>
+		<brawl_points>150</brawl_points>
+	</rank>
+	<rank>
+		<id>13</id>
+		<image>pvp_badge_3</image>
+		<points>12000</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>112</gold>
+		<win>60</win>
+		<loss>75</loss>
+		<item_drop id='2001' drop='0.27' />
+		<item_drop id='4011' drop='0.012' />
+		<item_drop id='4012' drop='0.0036' />
+		<item_drop id='4013' drop='0.0013' />
+		<recharge_time>75</recharge_time>
+		<brawl_points>150</brawl_points>
+	</rank>
+	<rank>
+		<id>14</id>
+		<image>pvp_badge_3</image>
+		<points>14300</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>119</gold>
+		<win>65</win>
+		<loss>98</loss>
+		<item_drop id='2001' drop='0.33' />
+		<item_drop id='4011' drop='0.015' />
+		<item_drop id='4012' drop='0.0045' />
+		<item_drop id='4013' drop='0.0016' />
+		<recharge_time>75</recharge_time>
+		<brawl_points>150</brawl_points>
+	</rank>
+	<rank>
+		<id>15</id>
+		<image>pvp_badge_3</image>
+		<points>17500</points>
+		<cannot_drop_rank>1</cannot_drop_rank>
+		<gold>126</gold>
+		<win>70</win>
+		<loss>210</loss>
+		<item_drop id='2001' drop='0.44' />
+		<item_drop id='4011' drop='0.017' />
+		<item_drop id='4012' drop='0.0051' />
+		<item_drop id='4013' drop='0.002' />
+		<recharge_time>75</recharge_time>
+		<brawl_points>150</brawl_points>
+	</rank>
+	
+	<!-- NEW COMPETITIVE RANKS -->
+	<rank>
+		<id>16</id>
+		<image>pvp_badge_3</image>
+		<points>20000</points>
+		<gold>130</gold>
+		<win>200</win>
+		<loss>800</loss>		<!-- 800/(800+200) = 80% win rate | Previously 1500 -->
+		<item_drop id='2001' drop='0.47' />
+		<item_drop id='4011' drop='0.018' />
+		<item_drop id='4012' drop='0.0054' />
+		<item_drop id='4013' drop='0.0023' />
+		<recharge_time>75</recharge_time>
+		<brawl_points>160</brawl_points>
+	</rank>
+	<rank>
+		<id>17</id>
+		<image>pvp_badge_3</image>
+		<points>20000</points>
+		<gold>135</gold>
+		<win>250</win>
+		<loss>2000</loss>		<!-- 2000/(2000+250) = ~88% win rate expected | Previously 2500-->
+		<item_drop id='2001' drop='0.49' />
+		<item_drop id='4011' drop='0.019' />
+		<item_drop id='4012' drop='0.0057' />
+		<item_drop id='4013' drop='0.0026' />
+		<recharge_time>75</recharge_time>
+		<brawl_points>170</brawl_points>
+	</rank>
+	<rank>
+		<id>18</id>
+		<image>pvp_badge_3</image>
+		<points>20000</points>
+		<gold>140</gold>
+		<win>300</win>
+		<loss>3000</loss>		<!-- 3000/(3000+300) = ~91% win rate expected | Previously 3700 -->
+		<item_drop id='2001' drop='0.55' />
+		<item_drop id='4011' drop='0.02' />
+		<item_drop id='4012' drop='0.006' />
+		<item_drop id='4013' drop='0.003' />
+		<recharge_time>75</recharge_time>
+		<brawl_points>180</brawl_points>
+	</rank>
+</root>
