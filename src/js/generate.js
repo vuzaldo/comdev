@@ -168,7 +168,8 @@ function scaleStones(stones, scale) {
 function updateStoneTiers(template, scale, GC = '') {
 	for (let i = 0; i < stoneTiers[template + GC]?.length; i++) {
 		const stones = scaleStones(stoneTiers[template + GC][i], scale);
-		parameters[template]['STONES_TIER_' + (i + 1) + GC] = stones;
+		const rounded = Math.ceil(stones / 5) * 5; // next multiple of 5
+		parameters[template]['STONES_TIER_' + (i + 1) + GC] = rounded;
 	}
 }
 
