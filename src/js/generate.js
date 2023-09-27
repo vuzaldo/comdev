@@ -48,7 +48,10 @@ function generate() {
 	document.getElementById('warName').value = eventBGE + ' Guild War';
 	document.getElementById('expeditionName').value = eventBGE + ' Expedition';
 	document.getElementById('brawlName').value = eventBGE + ' Brawl';
-	selectMapCycle.selectedIndex = Math.floor(Math.random() * (selectMapCycle.options.length));
+	if (options?.map)
+		selectMapCycle.value = findSelectorOption(selectMapCycle, options.map);
+	else
+		selectMapCycle.selectedIndex = Math.floor(Math.random() * (selectMapCycle.options.length));
 	selectMapCycle.dispatchEvent(new Event('change'));
 }
 
