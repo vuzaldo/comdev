@@ -67,7 +67,12 @@ div#cycle(style='display: none')
 								.col-auto(style='padding-right: 1.066rem')
 									label.col-form-label(for='rewardFlaskScale') Scale Quantity
 								.col-auto
-									input.form-control(type='number', min='0', max='10', step='0.1', oninput='filterScale(this)', maxlength='4', id='rewardFlaskScale', value='0.5', style='width: 5rem')
+									input.form-control(type='number', min='0', max='10', step='0.01', oninput='filterScale(this)', maxlength='4', id='rewardFlaskScale', value='0.5', style='width: 5rem')
+							.row.g-3.align-items-center.pt-2
+								.col-auto(style='padding-right: 0rem; margin-right: -0.019rem')
+									label.col-form-label(for='rewardFlaskScale') Expedition/Brawl
+								.col-auto
+									input.form-control(type='number', min='0', max='10', step='0.01', oninput='filterScale(this)', maxlength='4', id='rewardFlaskScale2', value='0.25', style='width: 5rem')
 							.row.g-3.align-items-center.mt-2
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic1') Reward Epic #1
@@ -75,28 +80,28 @@ div#cycle(style='display: none')
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic1')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-1
+							.row.g-3.align-items-center.mt-0
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic2') Reward Epic #2
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic2')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-1
+							.row.g-3.align-items-center.mt-0
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic3') Reward Epic #3
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic3')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-1
+							.row.g-3.align-items-center.mt-0
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic4') Reward Epic #4
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic4')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
-							.row.mt-5
+							.row.mt-4.pt-2
 								.col-auto
 									label.col-form-label(for='selectMapCycle') Select Map
 								.col-md-6.col-auto

@@ -180,6 +180,8 @@ function updateParameters() {
 	const rewardChamp = '10' + document.getElementById('rewardChamp').value;
 	const rewardFlask = document.getElementById('rewardFlask').value;
 	const scaleQuantity = document.getElementById('rewardFlaskScale').value;
+	const scaleQuantity2 = document.getElementById('rewardFlaskScale2').value;
+	const separateScale = ['event_timeline_expeditions', 'event_timeline_brawls'];
 	for (const template in parameters) {
 		eventBGE && (parameters[template]['EVENT_BGE'] = eventBGE);
 		eventMap && (parameters[template]['MAP_ID'] = eventMap);
@@ -187,7 +189,8 @@ function updateParameters() {
 		if (eventMapY != null) (parameters[template]['MAP_Y'] = eventMapY);
 		parameters[template]['STONES_ID'] = rewardChamp;
 		parameters[template]['FLASK_ID'] = rewardFlask;
-		updateStoneTiers(template, scaleQuantity);
+		const scale = separateScale.includes(template) ? scaleQuantity2 : scaleQuantity;
+		updateStoneTiers(template, scale);
 	}
 	template = 'event_timeline_clash';
 	parameters[template]['EVENT_NAME'] = document.getElementById('clashName').value;
