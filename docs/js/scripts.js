@@ -77,8 +77,21 @@ window.addEventListener('popstate', function(event) {
 });
 
 
+function updateButtonContent(button, newContent) {
+	button.textContent = newContent;
+	setTimeout(() => {
+		button.textContent = 'Copy';
+	}, 1000);
+}
+function getNthPreviousSibling(element, n) {
+	for (let i = 0; i < n; i++) {
+		element = element.previousElementSibling;
+	}
+	return element;
+}
 function copyText(button) {
-	const text = editors[button.previousElementSibling.previousElementSibling.id].getValue();
+	const editor = getNthPreviousSibling(button, 2);
+	const text = editors[editor.id].getValue();
 	navigator.clipboard.writeText(text).then(() => {
 		updateButtonContent(button, 'Copied');
 	}).catch(err => {
@@ -86,11 +99,16 @@ function copyText(button) {
 		updateButtonContent(button, 'Failed');
 	});
 }
-function updateButtonContent(button, newContent) {
-	button.textContent = newContent;
-	setTimeout(() => {
-		button.textContent = 'Copy';
-	}, 1000);
+function downloadFile(button) {
+	const editor = getNthPreviousSibling(button, 3);
+	const text = editors[editor.id].getValue();
+	const blob = new Blob([text]);
+	const url = window.URL.createObjectURL(blob);
+	const link = document.createElement('a');
+	link.href = url;
+	link.download = `${editor.id}_E${eventNumber}.xml`;
+	link.click();
+	window.URL.revokeObjectURL(url);
 }
 
 
