@@ -1,4 +1,6 @@
 
+'use strict';
+
 function shuffleArray(array) {
 	for (let i = array.length - 1; i > 0; i--) {
 		const j = Math.floor(Math.random() * (i + 1));
@@ -69,7 +71,7 @@ function escapeXML(text) {
 }
 function updateEditor(template) {
 	let generated = TEMPLATES[template];
-	for (param in parameters[template]) {
+	for (const param in parameters[template]) {
 		const paramRegex = new RegExp(`\\{${param}}`, 'g');
 		let value = parameters[template][param].toString();
 		value = param.includes('_COMMENT') ? value : escapeXML(value);
