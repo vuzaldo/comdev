@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 
-    <!-- ============================= -->
-    <!-- ========= CORE MAPS ========= -->
-    <!-- ============================= -->
+	<!-- ============================= -->
+	<!-- ========= CORE MAPS ========= -->
+	<!-- ============================= -->
 
 	<location>
 		<id>1</id>
@@ -140,7 +140,7 @@
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_SeafolkWaterTemple" bundle="102" />
 		<unlock_time>1503594000</unlock_time> <!-- Thu, 24 August 2017 17:00:00 -->
-		<req>-1</req>
+		<req>24</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -218,7 +218,7 @@
 		<preview name="Map_Banner_EventMap_010" bundle="102" />
 		<unlock_time>1532624400</unlock_time> <!-- Thu, July 26 2018 17:00:00 -->
 		<asset_bundle>48</asset_bundle>
-		<req>24</req>
+		<req>-1</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -257,7 +257,7 @@
 		<preview name="Map_Banner_FallenAngelGladiator" bundle="102" />
 		<unlock_time>1547139600</unlock_time> <!-- Thu, Jan 10 2019 17:00:00 -->
 		<asset_bundle>139</asset_bundle>
-		<req>24</req>
+		<req>-1</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -270,7 +270,7 @@
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_Duskwillow_02" bundle="102" />
 		<unlock_time>1551978000</unlock_time>	<!-- Thu, 07 March 2019 17:00:00 GMT -->
-		<req>-1</req>
+		<req>24</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -283,7 +283,7 @@
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_Beetleton_Bunker_B" bundle="102" />
 		<unlock_time>1556816400</unlock_time> <!-- Thu, 02 May 2019 17:00:00 -->
-		<req>24</req>
+		<req>-1</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -315,23 +315,23 @@
 	</location>
 
 	<location>
-	  <id>25</id>
-	  <name>Stormy Seastone Citadel</name>
-	  <mapBG>Map_Stormy_Seastone_Citadel</mapBG>
-	  <asset_bundle>169</asset_bundle>
-	  <combatBG>CombatBGVoid</combatBG>
-	  <preview name="Map_Banner_StormySeastoneCitadel" bundle="102" />
-	  <unlock_time>1571331600</unlock_time> <!-- Thursday, 17 October 2019 17:00:00 -->
+		<id>25</id>
+		<name>Stormy Seastone Citadel</name>
+		<mapBG>Map_Stormy_Seastone_Citadel</mapBG>
+		<asset_bundle>169</asset_bundle>
+		<combatBG>CombatBGVoid</combatBG>
+		<preview name="Map_Banner_StormySeastoneCitadel" bundle="102" />
+		<unlock_time>1571331600</unlock_time> <!-- Thursday, 17 October 2019 17:00:00 -->
 		<req>-1</req>
-	  <arena_x>250</arena_x>
-	  <arena_y>150</arena_y>
+		<arena_x>250</arena_x>
+		<arena_y>150</arena_y>
 	</location>
 
 	<location>
 		<id>26</id>
 		<name>World's Center</name>
 		<mapBG>EventMap_007</mapBG>
-	  <asset_bundle>44</asset_bundle>
+		<asset_bundle>44</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_EventMap_007" bundle="102" />
 		<unlock_time>1576170000</unlock_time> <!-- Thursday, 12 December 2019 17:00:00 -->
@@ -344,7 +344,7 @@
 		<id>27</id>
 		<name>Return to Elaria</name>
 		<mapBG>Map_Overgrown_Elaria</mapBG>
-	  <asset_bundle>183</asset_bundle>
+		<asset_bundle>183</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_OvergrownElaria" bundle="102" />
 		<unlock_time>1581008400</unlock_time> <!-- Thursday, 6 February 2020 17:00:00 -->
@@ -357,7 +357,7 @@
 		<id>28</id>
 		<name>Healed Dawnglow</name>
 		<mapBG>EventMap_004</mapBG>
-	  <asset_bundle>29</asset_bundle>
+		<asset_bundle>29</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_EventMap_004" bundle="102" />
 		<unlock_time>1585846800</unlock_time> <!-- Thursday, 2 April 2020 17:00:00 -->
@@ -370,7 +370,7 @@
 		<id>29</id>
 		<name>Return to Luminis</name>
 		<mapBG>Map_Luminis_Revisited</mapBG>
-	  <asset_bundle>183</asset_bundle>
+		<asset_bundle>183</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_LuminisRevisited" bundle="102" />
 		<unlock_time>1590685200</unlock_time> <!-- Thursday, 28 May 2020 17:00:00 -->
@@ -383,7 +383,7 @@
 		<id>30</id>
 		<name>Return to Karthos</name>
 		<mapBG>Map_Karthos_Revisited</mapBG>
-	  <asset_bundle>196</asset_bundle>
+		<asset_bundle>196</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_KarthosRevisited" bundle="102" />
 		<unlock_time>1595523600</unlock_time> <!-- Thursday, 23 July 2020 17:00:00 -->
@@ -396,11 +396,11 @@
 		<id>31</id>
 		<name>Return to Tarragon Peak</name>
 		<mapBG>Map_Tarragon_Peak_Revisited</mapBG>
-	  <asset_bundle>196</asset_bundle>
+		<asset_bundle>196</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_Tarragon_Peak_Revisited" bundle="102" />
 		<unlock_time>1600362000</unlock_time> <!-- Thursday, 17 September 2020 17:00:00 -->
-		<req>-1</req>
+		<req>24</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -409,7 +409,7 @@
 		<id>32</id>
 		<name>Gladius Scriptorium</name>
 		<mapBG>Map_Gladius_Arena_Revisited</mapBG>
-	  <asset_bundle>205</asset_bundle>
+		<asset_bundle>205</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_Gladius_Arena_Revisited" bundle="102" />
 		<unlock_time>1605200400</unlock_time> <!-- Thursday, 12 November 2020 17:00:00 -->
@@ -422,7 +422,7 @@
 		<id>33</id>
 		<name>Skyhaven Assault</name>
 		<mapBG>Map_Skyhaven_Revisited</mapBG>
-	  <asset_bundle>205</asset_bundle>
+		<asset_bundle>205</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_Skyhaven_Revisited" bundle="102" />
 		<unlock_time>1610038800</unlock_time> <!-- Thursday, 7 January 2021 17:00:00 -->
@@ -448,7 +448,7 @@
 		<id>35</id>
 		<name>Testing Convergence</name>
 		<mapBG>Map_Final_Mission</mapBG>
-	  		<asset_bundle>216</asset_bundle>
+		<asset_bundle>216</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_Final_Mission" bundle="102" />
 		<unlock_time>1653498000</unlock_time> <!-- Wednesday, 25 May 2022 17:00:00 -->
@@ -457,9 +457,9 @@
 		<arena_y>150</arena_y>
 	</location>
 
-    <!-- ============================= -->
-    <!-- ==== LIMITED TIME EVENTS ==== -->
-    <!-- ============================= -->
+	<!-- ============================= -->
+	<!-- ==== LIMITED TIME EVENTS ==== -->
+	<!-- ============================= -->
 
 	<location>
 		<id>100</id>
@@ -594,11 +594,11 @@
 	</location>
 
 
-    <!-- ======================== -->
-    <!-- ====== RIVAL MAPS ====== -->
-    <!-- ======================== -->
+	<!-- ======================== -->
+	<!-- ====== RIVAL MAPS ====== -->
+	<!-- ======================== -->
 
-    <rival>
+	<rival>
 		<id>2001</id>
 		<location_id>1</location_id>
 		<combatBG>CombatBGLuminis</combatBG>

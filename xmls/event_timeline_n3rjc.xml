@@ -18723,7 +18723,7 @@
 	<!-- STEP BOX 8 -->
 	<event>
 		<id>35013</id>
-		<name>Azurtitan Sorcerer Step Box</name>
+		<name>Elemental Seafolk Step Box</name>
 		<banner_prefab>event_030_banner</banner_prefab>
 		<bundle>107</bundle>
 		<hide_upcoming>1</hide_upcoming>
@@ -45148,6 +45148,21 @@
 		<mission_req>64</mission_req>
 	</event>
 
+	<event>
+		<id>6108</id>
+		<name>Eye of the Maelstrom</name>
+		<desc>All Seafolk gain Mark equal to 15% base health. 3-4D Seafolk also gain Regenerate for 15% base health. This BGE is subject to change.</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>170</bg_effect>
+		</effect>
+		<start_time>1697130000</start_time> <!-- Thursday, October 12, 2023 at 17:00:00 -->
+		<end_time>1701968400</end_time> <!-- Thursday, December 07, 2023 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
 	<!-- BGE END -->
 
 <!-- |||||||||||||||||||||||||||||||||||||||||||| -->
@@ -46268,6 +46283,29 @@
 		<mission_req>64</mission_req>
 		<priority>1000</priority>
 		<hide_upcoming>1</hide_upcoming>
+	</event>
+
+	<!-- Spellstone 8th Anniversary -->
+	<event>
+		<id>9076</id>
+		<name>Spellstone's 8th Anniversary</name>
+		<desc>A limited time campaign in Conflux Convergence to celebrate our 8th Anniversary!</desc>
+		<portrait>raven</portrait>
+		<banner_prefab>gold_news_Banner</banner_prefab>
+		<bundle>30</bundle>
+		<type>1</type>
+		<campaign>5003</campaign>
+		<achievement_id>3915</achievement_id>
+		<achievement_id>3916</achievement_id>
+		<achievement_id>3917</achievement_id>
+		<achievement_id>3918</achievement_id>
+		<achievement_id>3919</achievement_id>
+		<achievement_id>3920</achievement_id>
+		<achievement_id>3921</achievement_id>
+		<start_time>1695920400</start_time> <!--  Thursday, 28 September 2023 17:00:00 -->
+		<end_time>1697130000</end_time> <!-- Thursday, 12 October 2023 at 17:00:00 -->
+		<mission_req>64</mission_req>
+		<priority>1000</priority>
 	</event>
 
 <!-- Event 107: ComDev Elementals - Classic Lightning Node-->
