@@ -324,13 +324,13 @@ div#cycle(style='display: none')
 								.col-auto
 									label(for='dungeonDeckHash', class='form-label') Enemy Deck Hash (18 fixed cards)
 							.row
-								.col-md-10.col-auto
-									input.form-control(type='text', id='dungeonDeckHash', placeholder='TheSench\'s DeckBuilder', disabled)
+								.col-md-10.col-auto(style='padding-right: 0.5rem')
+									input.form-control(type='text', id='dungeonDeckHash', placeholder='TheSench\'s DeckBuilder')
 								.col-md-2.col-auto
 									a(href='https://thesench.github.io/SIMSpellstone/DeckBuilder.html?hash=', target='_blank', id='dungeonDeckHashLink')
 										i.bi.bi-box-arrow-up-right(style='font-size: 1.4rem')
-							.form-text#deckHashHelp Invalid hash.
-							//- .form-text#deckHashHelp &nbsp;
+							//- .form-text#deckHashHelp Invalid hash.
+							.form-text#deckHashHelp &nbsp;
 							.accordion.mt-1
 								.accordion-item
 									h2.accordion-header

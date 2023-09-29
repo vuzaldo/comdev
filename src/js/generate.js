@@ -8,18 +8,37 @@ function shuffleArray(array) {
 	}
 }
 
-const rewardEpics = Object.values(CARDS).filter(c => isRewardRarity(c, 3));
-console.log(`${rewardEpics.length} reward epics`)
+let commanders = Object.values(CARDS).filter(c => c.card_type == 1 && c.id > 100); // exclude player commanders
+commanders = commanders.filter(c => !c.name.includes('Lightning Boss')); // exclude LBN commanders
+console.log(`${commanders.length} commanders`);
+const mythicCommanders = commanders.filter(c => c.rarity == 5);
+console.log(`${mythicCommanders.length} mythic commanders`);
+const legendaryCommanders = commanders.filter(c => c.rarity == 4);
+console.log(`${legendaryCommanders.length} legendary commanders`);
+const epicCommanders = commanders.filter(c => c.rarity == 3);
+console.log(`${epicCommanders.length} epic commanders`);
 
-function generateRewards(cards, amount) {
-	let rewards = cards.filter(c => c.sub_type == eventTribeId && !c.fusion_level);
-	if (rewards.length < amount) {
+const legendaries = Object.values(CARDS).filter(c => c.card_type == 2 && c.rarity == 4 && !c.shard_card); // exclude champions
+console.log(`\n${legendaries.length} legendary cards`);
+const standardLegendaries = legendaries.filter(c => c.set == 1000);
+console.log(`${standardLegendaries.length} standard legendaries`);
+const rewardLegendaries = legendaries.filter(c => c.set == 2000);
+console.log(`${rewardLegendaries.length} reward legendaries`);
+const epics = Object.values(CARDS).filter(c => c.card_type == 2 && c.rarity == 3);
+console.log(`${epics.length} epics`);
+const rewardEpics = epics.filter(c => c.set == 2000);
+console.log(`${rewardEpics.length} reward epics`);
+
+function generateCardList(cards, amount) {
+	let list = cards.filter(c => c.sub_type == eventTribeId && !c.fusion_level);
+	if (list.length < amount) { // not enough cards from the selected tribe, try to complete the list using others
 		let differentTribes = cards.filter(c => c.sub_type != eventTribeId && !c.fusion_level);
-		differentTribes = differentTribes.slice(0, amount - rewards.length);
-		rewards = rewards.concat(differentTribes);
+		shuffleArray(differentTribes);
+		differentTribes = differentTribes.slice(0, amount - list.length);
+		list = list.concat(differentTribes);
 	}
-	shuffleArray(rewards);
-	return rewards.slice(0, amount).map(c => c.id);
+	shuffleArray(list);
+	return list.slice(0, amount).map(c => c.id);
 }
 function generateInput(elementId, newValue, filter = filterInput) {
 	const input = document.getElementById(elementId);
@@ -31,14 +50,35 @@ function generateBGE() {
 	shuffleArray(bges);
 	generateInput('bgeId', bges[0], filterBge);
 }
-function generateDungeon() {
+function generateDungeon(update = true) {
+	const start = generateCardList(epicCommanders, 3);
+	generateInput('dungeonCommander1', start[0]);
+	generateInput('dungeonCommander2', start[1]);
+	generateInput('dungeonCommander3', start[2]);
+	const middle = generateCardList(legendaryCommanders, 3);
+	generateInput('dungeonCommander4', middle[0]);
+	generateInput('dungeonCommander5', middle[1]);
+	generateInput('dungeonCommander6', middle[2]);
+	let finalCommanders = legendaryCommanders.filter(c => !middle.includes(c.id));
+	finalCommanders = finalCommanders.concat(mythicCommanders);
+	const final = generateCardList(finalCommanders, 3);
+	generateInput('dungeonCommander7', final[0]);
+	generateInput('dungeonCommander8', final[1]);
+	generateInput('dungeonCommander9', final[2]);
+	const cards = generateCardList(legendaries, 18);
+	for (let i = 1; i <= cards.length; i++) {
+		generateInput('dungeonCard' + i, cards[i - 1]);
+	}
+	if (update) {
+		updateEditors();
+	}
 }
 function generate() {
 	if (!eventBGE) return;
 	generateBGE();
 	generateInput('rewardChamp', newChamp);
 	generateInput('rewardFlask', newFlask, filterItem);
-	const epics = generateRewards(rewardEpics, 4);
+	const epics = generateCardList(rewardEpics, 4);
 	generateInput('rewardEpic1', epics[0]);
 	generateInput('rewardEpic2', epics[1]);
 	generateInput('rewardEpic3', epics[2]);
@@ -47,6 +87,7 @@ function generate() {
 	document.getElementById('guildClashName').value = eventBGE + ' Guild Clash';
 	document.getElementById('dungeonName').value = eventBGE + ' Dungeon';
 	document.getElementById('dungeonEnemyName').value = 'Savage ' + eventBGE + 's';
+	generateDungeon(false);
 	document.getElementById('warName').value = eventBGE + ' Guild War';
 	document.getElementById('expeditionName').value = eventBGE + ' Expedition';
 	document.getElementById('brawlName').value = eventBGE + ' Brawl';
@@ -249,7 +290,7 @@ function updateParameters() {
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicBrawl').value;
 	if (eventMap) {
 		const expedition = EXPEDITION[eventMap];
-		const expParams = 'MAP ITEM POINT_ITEM PORTRAIT BANNER BUNDLE ICON POINTS_BUNDLE'.split(' ')
+		const expParams = 'MAP ITEM POINT_ITEM PORTRAIT BANNER BUNDLE ICON POINTS_BUNDLE'.split(' ');
 		let i = 0;
 		for (const param in expedition) {
 			parameters['event_timeline_expeditions']['EXPEDITION_' + expParams[i]] = expedition[param];
