@@ -402,7 +402,8 @@ function createNode(x, y, icon, showLevel, upgradeNodeType) {
 	element.style.width = '100%';
 	const adjust = { 'Lava_Vial': [90, 10, 0], 'Coconut_A_100': [83, 10, 10], 'santaHat': [100, -8, 20], 'Obsidian_Gravel_01': [100, 0, 30],
 					'Burning_Target_110': [80, 15, -8], 'arcane_vapor': [75, 16, -5], 'purple_fire': [65, 28, 0], 'machine_parts': [135, -12, -16],
-					'KnightNode': [75, 18, 0], 'herocoin': [80, 10, 0], 'sparkler100': [100, 5, 0], 'machine_parts_200': [135, -12, -16] };
+					'KnightNode': [75, 18, 0], 'herocoin': [80, 10, 0], 'sparkler100': [100, 5, 0], 'machine_parts_200': [135, -12, -16],
+					'firework': [135, -20, 0] };
 	if (adjust[icon]) {
 		element.style.width = adjust[icon][0] + '%';
 		element.style.transform = `translateX(${adjust[icon][1]}%) translateY(${adjust[icon][2]}%)`
@@ -449,7 +450,7 @@ function propagateEventNode() {
 		}
 		const isEventNode = this.id.includes('Cycle');
 		NODES[mapId]?.forEach(node => {
-			const wasHidden = NODE_VISIBILITY[node.id] == 0;
+			const wasHidden = node.id in NODE_VISIBILITY ? NODE_VISIBILITY[node.id] == 0 : node.hidden;
 			const hidden = isEventNode ? wasHidden : node.hidden;
 			if (!hidden || !isEventNode) {
 				const element = createNode(node.x, node.y, node.icon, node.show_level, node.expansion);
