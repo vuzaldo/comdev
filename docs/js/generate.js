@@ -123,10 +123,14 @@ console.log(`${epics.length} epics`);
 const rewardEpics = epics.filter(c => c.set == 2000);
 console.log(`${rewardEpics.length} reward epics`);
 
+function isTribe(card, tribe) {
+	const hasTribe = Array.isArray(card.sub_type) && card.sub_type.includes(tribe);
+	return hasTribe || card.sub_type == tribe;
+}
 function generateCardList(cards, amount) {
-	let list = cards.filter(c => c.sub_type == eventTribeId && !c.fusion_level);
+	let list = cards.filter(c => isTribe(c, eventTribeId) && !c.fusion_level);
 	if (list.length < amount) { // not enough cards from the selected tribe, try to complete the list using others
-		let differentTribes = cards.filter(c => c.sub_type != eventTribeId && !c.fusion_level);
+		let differentTribes = cards.filter(c => !isTribe(c, eventTribeId) && !c.fusion_level);
 		shuffleArray(differentTribes);
 		differentTribes = differentTribes.slice(0, amount - list.length);
 		list = list.concat(differentTribes);
