@@ -176,6 +176,7 @@ function filterInput(input, update = true) {
 		propagateEpic(input, card);
 	}
 	if (update) {
+		input.id.includes('dungeon') && updateDungeonHash();
 		updateEditors();
 	}
 }
@@ -227,6 +228,12 @@ function filterBge(input, update = true) {
 	if (update) {
 		updateEditors();
 	}
+}
+
+function filterHash(input) {
+	filter(input, /[^A-Za-z0-9!~]/g);
+	hash2deck(input.value);
+	updateEditors();
 }
 
 function filterCoordinate(input) {

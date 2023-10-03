@@ -1,6 +1,100 @@
 
 'use strict';
 
+const base64chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!~';
+const maxRuneID = 1000;
+function base64decode(base64) {
+	let dec = 0;
+	for (let i = base64.length - 1; i >= 0; i--) {
+		dec *= 64;
+		dec += base64chars.indexOf(base64[i]);
+	}
+	const runeID = dec % maxRuneID;
+	dec = (dec - runeID) / maxRuneID;
+	dec = (dec - dec % 7) / 7;
+	dec = (dec - dec % 3) / 3;
+	return dec;
+}
+function hashHelp(message) {
+	message = message ? message : '\u00A0';
+	document.getElementById('deckHashHelp').textContent = message;
+}
+function hash2deck(hash) {
+	const deck = [];
+	let message = '';
+	for (let i = 0; i < hash.length; i += 5) {
+		const unitHash = hash.substr(i, 5);
+		const id = base64decode(unitHash);
+		const card = CARDS[id];
+		if (CARDS[id]) {
+			deck.push(card);
+		}
+		else {
+			message = `Could not decode '${unitHash}' (${id})`;
+		}
+	}
+	generateInput('dungeonCommander9', deck[0] ? deck[0].id : '')
+	for (let i = 1; i < 19; i++) {
+		generateInput('dungeonCard' + i, deck[i] ? deck[i].id : '');
+	}
+	if (!message && deck.length && deck.length < 19) {
+		message = deck.length - 1 + '/18 cards loaded.';
+	}
+	if (!message && hash.length == 95) {
+		convertQuads();
+	}
+	document.getElementById('dungeonDeckHashLink').href = link + hash;
+	hashHelp(message);
+}
+function base64encode(id) {
+	const card = CARDS[id];
+	const level = card?.upgrade ? card.upgrade.length : 0;
+	let fusion = Math.floor(id / 10000);
+	fusion = fusion ? fusion : Math.floor(level / 7);
+	let dec = parseInt(id) % 10000;
+	dec = dec * 3 + fusion;
+	dec = dec * 7 + level % 7;
+	dec = dec * maxRuneID;
+	let base64 = '';
+	for (let i = 0; i < 5; i++) {
+		const part = dec % 64;
+		base64 += base64chars[part];
+		dec = (dec - part) / 64;
+	}
+	return base64;
+}
+function convertQuads() {
+	const quads = document.getElementById('convertQuads').checked;
+	let hash = document.getElementById('dungeonDeckHash').value;
+	if (!hash) return;
+	hash = hash.match(new RegExp('.{1,5}', 'g'));
+	hash = [hash[0], ...hash.slice(1).map(function(h) {
+		const id = base64decode(h);
+		const quad = quads ? '2' + id : id;
+		const newId = CARDS[quad] ? quad : id;
+		return base64encode(newId);
+	})];
+	hash = hash.join('')
+	document.getElementById('dungeonDeckHash').value = hash;
+	document.getElementById('dungeonDeckHashLink').href = link + hash;
+}
+const link = 'https://thesench.github.io/SIMSpellstone/DeckBuilder.html?hash=';
+function updateDungeonHash() {
+	let hash = [];
+	const commander = document.getElementById('dungeonCommander9').value;
+	hash.push(base64encode(commander in CARDS ? commander : 202));
+	let last = 1;
+	for (let i = 1; i <= 18; i++) {
+		const card = document.getElementById('dungeonCard' + i).value;
+		hash.push(base64encode(card in CARDS ? card : 500));
+		last = card in CARDS ? i + 1 : last;
+	}
+	hash = hash.slice(0, last).join('');
+	document.getElementById('dungeonDeckHash').value = hash;
+	convertQuads();
+	hashHelp('');
+}
+
 function shuffleArray(array) {
 	for (let i = array.length - 1; i > 0; i--) {
 		const j = Math.floor(Math.random() * (i + 1));
@@ -69,6 +163,7 @@ function generateDungeon(update = true) {
 	for (let i = 1; i <= cards.length; i++) {
 		generateInput('dungeonCard' + i, cards[i - 1]);
 	}
+	updateDungeonHash();
 	if (update) {
 		updateEditors();
 	}
