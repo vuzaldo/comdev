@@ -163,7 +163,7 @@ function generateDungeon(update = true) {
 	generateInput('dungeonCommander7', final[0]);
 	generateInput('dungeonCommander8', final[1]);
 	generateInput('dungeonCommander9', final[2]);
-	const cards = generateCardList(legendaries, 18);
+	const cards = generateCardList(legendaries.filter(c => c.cost > 0), 18);
 	for (let i = 1; i <= cards.length; i++) {
 		generateInput('dungeonCard' + i, cards[i - 1]);
 	}
