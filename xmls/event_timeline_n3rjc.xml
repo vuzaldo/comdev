@@ -46279,7 +46279,24 @@
 		<type>1</type>
 		<campaign>5002</campaign>
 		<start_time>1696266000</start_time> <!-- Monday, 2 October 2023 -->
-		<end_duration>4320</end_duration>   <!-- 3 Days -->
+		<end_duration>14400</end_duration>   <!-- 10 Days -->
+		<mission_req>64</mission_req>
+		<priority>1000</priority>
+		<hide_upcoming>1</hide_upcoming>
+	</event>
+
+	<!-- Event 107: ComDev Elementals - Classic Lightning Node-->
+	<event>
+		<id>9075</id>
+		<name>Classic Lightning Boss Alyel</name>
+		<desc>A time-limited boss node is available at Seastone Citadel.</desc>
+		<portrait>Portrait_RighteousBerserker</portrait>
+		<banner_prefab>event7_banner</banner_prefab> <!-- Classic Background --> 
+		<bundle>42</bundle> <!-- Classic Background -->
+		<type>1</type>
+		<campaign>4002</campaign>
+		<start_time>1696266000</start_time> <!-- Monday, 2 October 2023 -->
+		<end_duration>14400</end_duration>   <!-- 10 Days -->
 		<mission_req>64</mission_req>
 		<priority>1000</priority>
 		<hide_upcoming>1</hide_upcoming>
@@ -46306,23 +46323,6 @@
 		<end_time>1697130000</end_time> <!-- Thursday, 12 October 2023 at 17:00:00 -->
 		<mission_req>64</mission_req>
 		<priority>1000</priority>
-	</event>
-
-<!-- Event 107: ComDev Elementals - Classic Lightning Node-->
-	<event>
-		<id>9075</id>
-		<name>Classic Lightning Boss Alyel</name>
-		<desc>A time-limited boss node is available at Seastone Citadel.</desc>
-		<portrait>Portrait_RighteousBerserker</portrait>
-		<banner_prefab>event7_banner</banner_prefab> <!-- Classic Background --> 
-		<bundle>42</bundle> <!-- Classic Background -->
-		<type>1</type>
-		<campaign>4002</campaign>
-		<start_time>1696266000</start_time> <!-- Monday, 2 October 2023 -->
-		<end_duration>4320</end_duration>   <!-- 3 Days -->
-		<mission_req>64</mission_req>
-		<priority>1000</priority>
-		<hide_upcoming>1</hide_upcoming>
 	</event>
 
 <!-- |||||||||||||||||||||||||||||||||||||||||| -->
