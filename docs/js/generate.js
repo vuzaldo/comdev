@@ -172,7 +172,7 @@ function generate() {
 	if (!eventBGE) return;
 	generateBGE();
 	generateInput('rewardChamp', newChamp);
-	generateInput('rewardFlask', newFlask, filterItem);
+	generateInput('rewardFlask', options?.flask ? options.flask : newFlask, filterItem);
 	const epics = generateCardList(rewardEpics, 4);
 	generateInput('rewardEpic1', epics[0]);
 	generateInput('rewardEpic2', epics[1]);
@@ -618,8 +618,8 @@ document.addEventListener('mouseup', () => {
 const autoSelectEventOptions = {
 	105: { tribe: 'Insect', map: 'Distorted Beetleton' },
 	106: { tribe: 'Goblin', map: 'Return to Karthos' },
-	107: { tribe: 'Elemental', map: 'Conflux Convergence' },
-	108: { tribe: 'Seafolk', map: 'Pharos Temple' }
+	107: { tribe: 'Elemental', map: 'Conflux Convergence', flask: '2802' },
+	108: { tribe: 'Seafolk', map: 'Pharos Temple', flask: '2803' }
 };
 
 function findSelectorOption(selector, option) {
