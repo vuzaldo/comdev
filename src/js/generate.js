@@ -103,7 +103,7 @@ function shuffleArray(array) {
 }
 
 let commanders = Object.values(CARDS).filter(c => c.card_type == 1 && c.id > 100); // exclude player commanders
-commanders = commanders.filter(c => !c.name.includes('Lightning Boss')); // exclude LBN commanders
+commanders = commanders.filter(c => !c.name.includes('Lightning Boss') && !c.name.includes('Party')); // exclude LBN and anniversary commanders
 console.log(`${commanders.length} commanders`);
 const mythicCommanders = commanders.filter(c => c.rarity == 5);
 console.log(`${mythicCommanders.length} mythic commanders`);
@@ -112,13 +112,13 @@ console.log(`${legendaryCommanders.length} legendary commanders`);
 const epicCommanders = commanders.filter(c => c.rarity == 3);
 console.log(`${epicCommanders.length} epic commanders`);
 
-const legendaries = Object.values(CARDS).filter(c => c.card_type == 2 && c.rarity == 4 && !c.shard_card); // exclude champions
+const legendaries = Object.values(CARDS).filter(c => c.card_type == 2 && c.rarity == 4 && !c.shard_card && !c.mythic); // exclude champions and mythics
 console.log(`\n${legendaries.length} legendary cards`);
 const standardLegendaries = legendaries.filter(c => c.set == 1000);
 console.log(`${standardLegendaries.length} standard legendaries`);
 const rewardLegendaries = legendaries.filter(c => c.set == 2000);
 console.log(`${rewardLegendaries.length} reward legendaries`);
-const epics = Object.values(CARDS).filter(c => c.card_type == 2 && c.rarity == 3);
+const epics = Object.values(CARDS).filter(c => c.card_type == 2 && c.rarity == 3 && !c.mythic); // exclude mythics
 console.log(`${epics.length} epics`);
 const rewardEpics = epics.filter(c => c.set == 2000);
 console.log(`${rewardEpics.length} reward epics`);
