@@ -568,6 +568,8 @@ function propagateEventNode() {
 		const nodeY = document.getElementById(node.id + 'Y');
 		nodeX.value = x; nodeY.value = y;
 		node.style.cursor = 'grab';
+		node.style.willChange = 'transform';
+		node.style.transform = 'translateZ(0)';
 		node.addEventListener('mousedown', event => {
 			event.preventDefault();
 			activeNode = node;
