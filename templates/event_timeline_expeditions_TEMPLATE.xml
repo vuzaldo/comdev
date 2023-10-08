@@ -1,6 +1,6 @@
 	<event>
-		<id>{EVENT_ID}</id>
-		<name>{EVENT_NAME}</name>
+		<id>{EVENT_ID}</id> <!-- HERE -->
+		<name>{EVENT_NAME}</name> <!-- HERE -->
 		<desc>Find {EXPEDITION_ITEM} while adventuring in {EXPEDITION_MAP}! Rank up based on total number collected to win exclusive rewards!</desc>
 		<type>6</type>
 		<point_item>{EXPEDITION_POINT_ITEM}</point_item>
@@ -9,7 +9,7 @@
 		<bundle>{EXPEDITION_BUNDLE}</bundle>
 		<points_icon>{EXPEDITION_ICON}</points_icon>
 		<points_bundle>{EXPEDITION_POINTS_BUNDLE}</points_bundle>
-		<start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} -->
+		<start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} --> <!-- HERE -->
 		<tracking_duration>40320</tracking_duration>		<!-- 40320 | 28 Days -->
 		<claim_delay>10</claim_delay>
 		<end_duration>44640</end_duration>					<!-- 44640 | 31 Days -->
@@ -21,9 +21,9 @@
 				<min_rank>5</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='1000' /> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_1}' /> <!-- Champion Flask -->
-			<unit id='1{EPIC_CARD_ID}' level='5' /> <!-- Epic Card #2 -->
+			<item id='{STONES_ID}' quantity='1000' /> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{FLASK_ID}' quantity='{STONES_TIER_1}' /> <!-- Champion Flask --> <!-- HERE -->
+			<unit id='1{EPIC_CARD_ID}' level='5' /> <!-- Epic Card #2 --> <!-- HERE -->
 			<item id='18' quantity='1000' /> <!-- Legendary Pack Fragment -->
 			<item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
 			<unit id='512' level='1' /> <!-- Arcane Deposit -->
@@ -350,7 +350,7 @@
 			<req>
 				<min_rank>15000</min_rank>
 			</req>
-			<unit id='{EPIC_CARD_ID}' level='1' /> <!-- Epic Card #2 -->
+			<unit id='{EPIC_CARD_ID}' level='1' /> <!-- Epic Card #2 --> <!-- HERE -->
 			<unit id='510' level='1' /> <!-- Arcane Chunk -->
 			<item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
 			<item id='1012' quantity='3' /> <!-- Gold Bar -->
