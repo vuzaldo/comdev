@@ -262,7 +262,10 @@ async function templates() {
 	filePath = path.join(rootDir, 'templates', 'pseudo_tribes.json')
 	pseudo_tribes = JSON.parse(fs.readFileSync(filePath))
 	pseudo_tribes = 'var PSEUDO_TRIBES = ' + JSON.stringify(pseudo_tribes)
-	string = '\n' + [templates, expedition_parameters, bge_banners, node_visibility, pseudo_tribes].join('\n\n') + '\n'
+	filePath = path.join(rootDir, 'templates', 'event_names.json')
+	event_names = JSON.parse(fs.readFileSync(filePath))
+	event_names = 'var EVENT_NAMES = ' + JSON.stringify(event_names)
+	string = '\n' + [templates, expedition_parameters, bge_banners, node_visibility, pseudo_tribes, event_names].join('\n\n') + '\n'
 	string = string.replace(/\\r/g, '')
 	saveData('templates.js', string)
 }

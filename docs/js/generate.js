@@ -181,18 +181,22 @@ function generate() {
 	generateInput('rewardEpic2', epics[1]);
 	generateInput('rewardEpic3', epics[2]);
 	generateInput('rewardEpic4', epics[3]);
-	document.getElementById('clashName').value = eventBGE + ' Clash';
-	document.getElementById('guildClashName').value = eventBGE + ' Guild Clash';
-	document.getElementById('dungeonName').value = eventBGE + ' Dungeon';
-	document.getElementById('dungeonEnemyName').value = 'Savage ' + eventBGE + 's';
+	const names = EVENT_NAMES[eventBGE];
+	shuffleArray(names);
+	document.getElementById('clashName').value = names[0] + ' Clash';
+	document.getElementById('guildClashName').value = names[1] + ' Guild Clash';
+	const dungeonName = names[2] + ' Dungeon';
+	document.getElementById('dungeonName').value = dungeonName;
+	document.getElementById('dungeonEnemyName').value = dungeonName;
 	generateDungeon(false);
-	document.getElementById('warName').value = eventBGE + ' Guild War';
-	document.getElementById('expeditionName').value = eventBGE + ' Expedition';
-	document.getElementById('brawlName').value = eventBGE + ' Brawl';
+	document.getElementById('warName').value = names[3] + ' Guild War';
+	document.getElementById('brawlName').value = names[4] + ' Brawl';
 	if (options?.map)
 		selectMapCycle.value = findSelectorOption(selectMapCycle, options.map);
 	else
 		selectMapCycle.selectedIndex = Math.floor(Math.random() * (selectMapCycle.options.length));
+	const expeditionItem = ITEMS[EXPEDITION[selectMapCycle.value].point_item];
+	document.getElementById('expeditionName').value = expeditionItem + ' Expedition';
 	selectMapCycle.dispatchEvent(new Event('change'));
 }
 
