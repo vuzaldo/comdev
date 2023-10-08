@@ -74,6 +74,13 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='0', max='10', step='0.01', oninput='filterScale(this)', maxlength='4', id='rewardFlaskScale2', value='0.25', style='width: 5rem')
 							.row.g-3.align-items-center.mt-2
+								.col-auto(style='padding-right: 0.395rem')
+									label.col-form-label(for='rewardLegendary') Reward Legend.
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardLegendary')
+								.col-auto
+									span.form-text(style='font-size: 0.95rem')
+							.row.g-3.align-items-center.mt-0
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic1') Reward Epic #1
 								.col-auto
@@ -92,13 +99,6 @@ div#cycle(style='display: none')
 									label.col-form-label(for='rewardEpic3') Reward Epic #3
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic3')
-								.col-auto
-									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-0
-								.col-auto.pr-x
-									label.col-form-label(for='rewardEpic4') Reward Epic #4
-								.col-auto
-									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic4')
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
 							.row.mt-4.pt-2
@@ -204,7 +204,7 @@ div#cycle(style='display: none')
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpicDungeon') Reward Epic
 								.col-auto
-									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Epic #4', id='rewardEpicDungeon', disabled)
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Epic #3', id='rewardEpicDungeon', disabled)
 								.col-auto
 									span.form-text(style='font-size: 0.95rem')
 							.row.mt-4

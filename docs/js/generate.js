@@ -176,11 +176,11 @@ function generate() {
 	generateBGE();
 	generateInput('rewardChamp', newChamp);
 	generateInput('rewardFlask', options?.flask ? options.flask : newFlask, filterItem);
-	const epics = generateCardList(rewardEpics, 4);
+	generateInput('rewardLegendary', generateCardList(rewardLegendaries, 1)[0]);
+	const epics = generateCardList(rewardEpics, 3);
 	generateInput('rewardEpic1', epics[0]);
 	generateInput('rewardEpic2', epics[1]);
 	generateInput('rewardEpic3', epics[2]);
-	generateInput('rewardEpic4', epics[3]);
 	const names = EVENT_NAMES[eventBGE];
 	shuffleArray(names);
 	document.getElementById('clashName').value = names[0] + ' Clash';
@@ -409,7 +409,10 @@ function updateParameters() {
 	}
 	template = 'reward_box';
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
-	for (let i = 1; i < 5; i++) {
+	const cardId = document.getElementById('rewardLegendary').value;
+	parameters[template]['LEGENDARY_CARD'] = cardId;
+	parameters[template]['LEGENDARY_CARD_COMMENT'] = id2Card(cardId, 0, 4);
+	for (let i = 1; i < 4; i++) {
 		const cardId = document.getElementById(`rewardEpic${i}`).value;
 		parameters[template][`EPIC_CARD_${i}`] = cardId;
 		parameters[template][`EPIC_CARD_${i}_COMMENT`] = id2Card('1' + cardId, 0, 3);

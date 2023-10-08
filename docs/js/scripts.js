@@ -152,10 +152,8 @@ function propagateEpic(input, card) {
 		propagateCard('rewardEpicExpedition', input.value, card);
 	}
 	if (epic == 3) {
-		propagateCard('rewardEpicBrawl', input.value, card);
-	}
-	if (epic == 4) {
 		propagateCard('rewardEpicDungeon', input.value, card);
+		propagateCard('rewardEpicBrawl', input.value, card);
 	}
 }
 
@@ -168,7 +166,7 @@ function filter(input, regex = /[^0-9]/g) {
 function filterInput(input, update = true) {
 	filter(input);
 	const cardType = input.id.includes('Commander') ? 1 : input.id.includes('Card') ? 2 : 0;
-	const rarity = input.id.includes('Epic') ? 3 : 0;
+	const rarity = input.id.includes('Epic') ? 3 : input.id.includes('Legendary') ? 4 : 0;
 	const card = id2Card(input.value, cardType, rarity, input.id.includes('Champ'));
 	const help = input.parentElement.nextElementSibling.firstChild;
 	help.textContent = card;

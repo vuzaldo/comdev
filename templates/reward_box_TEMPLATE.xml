@@ -1,7 +1,7 @@
 	<event_box>
 		<id>{BOX_ID}</id>
 		<name>{EVENT_BGE} Arena Chest</name>
-		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<desc>Pull from a set of awesome reward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
 		<category>1</category>
 		<asset_prefab>{EVENT_BGE_LOWERCASE}_arena_box</asset_prefab>
 		<background_prefab>arena_box_banner</background_prefab>
@@ -12,8 +12,8 @@
 		<!-- <sc_cost>2000</sc_cost> -->
 		<start_index>1</start_index>
 		<chance_pack>1</chance_pack>
-		<card id='1{EPIC_CARD_1}' level='1' order='1' />  <!-- {EPIC_CARD_1_COMMENT} -->
-		<card id='1{EPIC_CARD_2}' level='1' order='2' />  <!-- {EPIC_CARD_2_COMMENT} -->
-		<card id='1{EPIC_CARD_3}' level='1' order='3' />  <!-- {EPIC_CARD_3_COMMENT} -->
-		<card id='1{EPIC_CARD_4}' level='1' order='4' />  <!-- {EPIC_CARD_4_COMMENT} -->
+		<card id='{LEGENDARY_CARD}' level='1' order='1' />   <!-- {LEGENDARY_CARD_COMMENT} -->
+		<card id='1{EPIC_CARD_1}' level='1' order='2' />  <!-- {EPIC_CARD_1_COMMENT} -->
+		<card id='1{EPIC_CARD_2}' level='1' order='3' />  <!-- {EPIC_CARD_2_COMMENT} -->
+		<card id='1{EPIC_CARD_3}' level='1' order='4' />  <!-- {EPIC_CARD_3_COMMENT} -->
 	</event_box>
