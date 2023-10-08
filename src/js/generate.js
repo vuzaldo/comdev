@@ -304,20 +304,21 @@ parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
 const stoneTiers = {
 	event_timeline_clash: [600, 400, 350, 250, 225, 200, 175, 150, 125, 100, 75, 50, 25, 10],
 	event_timeline_clash_GC: [600, 450, 375, 300, 240, 195, 150, 105, 75, 45, 30, 15],
+	event_timeline_dungeons: [150, 120, 100, 80, 60, 40],
 	event_timeline_wars_clash: [400, 300, 250, 200, 160, 130, 100, 70, 50, 30, 20, 10],
-	// event_timeline_expeditions: [1000, 800, 600, 400, 350, 300, 250, 200, 170, 140, 120, 100, 80, 60, 40, 30, 25, 15],
 	event_timeline_expeditions: [1000, 800, 600, 500, 400, 350, 300, 275, 225, 175, 150, 130, 110, 90, 80, 60, 40, 20],
 	event_timeline_brawls: [1000, 800, 600, 500, 400, 350, 300, 275, 225, 175, 150, 130, 110, 90, 80, 60, 40, 20]
 }
 function scaleStones(stones, scale) {
 	const scaledAmount = (stones * scale).toFixed(2);
-	return Math.ceil(parseFloat(scaledAmount));
+	const rounded = Math.ceil(parseFloat(scaledAmount));
+	const rounded5 = Math.ceil(rounded / 5) * 5; // next multiple of 5
+	return rounded5;
 }
 function updateStoneTiers(template, scale, GC = '') {
 	for (let i = 0; i < stoneTiers[template + GC]?.length; i++) {
 		const stones = scaleStones(stoneTiers[template + GC][i], scale);
-		const rounded = Math.ceil(stones / 5) * 5; // next multiple of 5
-		parameters[template]['STONES_TIER_' + (i + 1) + GC] = rounded;
+		parameters[template]['STONES_TIER_' + (i + 1) + GC] = stones;
 	}
 }
 
@@ -350,7 +351,8 @@ function updateParameters() {
 	parameters[template]['EVENT_NAME'] = document.getElementById('dungeonName').value;
 	parameters[template]['ENEMY_NAME'] = document.getElementById('dungeonEnemyName').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicDungeon').value;
-	parameters[template]['STONES_AMOUNT_DUNGEON'] = scaleStones(200, scaleQuantity);
+	parameters[template]['STONES_MILESTONE_1'] = scaleStones(100, scaleQuantity);
+	parameters[template]['STONES_MILESTONE_2'] = scaleStones(100, scaleQuantity);
 	eventTribeId && (parameters[template]['EVENT_TRIBE_ID'] = eventTribeId);
 	const tribeRuneId = { 'Angel': 5501, 'Elemental': 5502, 'Undead': 5503, 'Goblin': 5504, 'Dragon': 5505,
 							'Seafolk': 5506, 'Avian': 5507, 'Frog': 5508, 'Mecha': 5509, 'Insect': 5510 }

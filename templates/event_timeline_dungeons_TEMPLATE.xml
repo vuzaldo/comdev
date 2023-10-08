@@ -158,7 +158,8 @@
                       <min_rank>5</min_rank>
                     </req>
                     <display_item>0</display_item>
-                    <item id='{STONES_ID}' quantity='150'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='150'/> <!-- Legendary Stones --> <!-- HERE -->
+                    <item id='{FLASK_ID}' quantity='{STONES_TIER_1}' /> <!-- Champion Flask --> <!-- HERE -->
                     <item id='{TRIBE_RUNE_ID}' quantity='2'/> <!-- HERE Tribe Rune (Angel: 5501, Elemental: 5502, Undead: 5503, Goblin: 5504, Dragon: 5505,  Seafolk: 5506, Avian: 5507, Frog: 5508, Mecha: 5509, Insect: 5510) -->
                     <item id='1012' quantity='24'/> <!-- Gold Bar -->
               </event_reward>
@@ -170,7 +171,8 @@
                       <min_rank>10</min_rank>
                     </req>
                     <display_item>0</display_item>
-                    <item id='{STONES_ID}' quantity='120'/> <!-- Champion Stone -->
+                    <item id='{STONES_ID}' quantity='120'/> <!-- Legendary Stones -->
+                    <item id='{FLASK_ID}' quantity='{STONES_TIER_2}' /> <!-- Champion Flask --> <!-- HERE -->
                     <item id='{TRIBE_RUNE_ID}' quantity='2'/> <!-- Tribe Rune -->
                     <item id='1012' quantity='16'/> <!-- Gold Bar -->
               </event_reward>
@@ -182,7 +184,8 @@
                       <min_rank>15</min_rank>
                     </req>
                     <display_item>0</display_item>
-                    <item id='{STONES_ID}' quantity='100'/> <!-- Champion Stone -->
+                    <item id='{STONES_ID}' quantity='100'/> <!-- Legendary Stones -->
+                    <item id='{FLASK_ID}' quantity='{STONES_TIER_3}' /> <!-- Champion Flask --> <!-- HERE -->
                     <item id='{TRIBE_RUNE_ID}' quantity='1'/> <!-- Tribe Rune -->
                     <item id='1012' quantity='8'/> <!-- Gold Bar -->
               </event_reward>
@@ -194,7 +197,8 @@
                       <min_rank>25</min_rank>
                     </req>
                     <display_item>0</display_item>
-                    <item id='{STONES_ID}' quantity='80'/> <!-- Champion Stone -->
+                    <item id='{STONES_ID}' quantity='80'/> <!-- Legendary Stones -->
+                    <item id='{FLASK_ID}' quantity='{STONES_TIER_4}' /> <!-- Champion Flask --> <!-- HERE -->
                     <item id='{TRIBE_RUNE_ID}' quantity='1'/> <!-- Tribe Rune -->
                     <item id='1012' quantity='6'/> <!-- Gold Bar -->
               </event_reward>
@@ -206,7 +210,8 @@
                       <min_rank>50</min_rank>
                     </req>
                     <display_item>0</display_item>
-                    <item id='{STONES_ID}' quantity='60'/> <!-- Champion Stone -->
+                    <item id='{STONES_ID}' quantity='60'/> <!-- Legendary Stones -->
+                    <item id='{FLASK_ID}' quantity='{STONES_TIER_5}' /> <!-- Champion Flask --> <!-- HERE -->
                     <item id='{TRIBE_RUNE_ID}' quantity='1'/> <!-- Tribe Rune -->
                     <item id='1012' quantity='4'/> <!-- Gold Bar -->
               </event_reward>
@@ -218,7 +223,8 @@
                       <min_rank>100</min_rank>
                     </req>
                     <display_item>0</display_item>
-                    <item id='{STONES_ID}' quantity='40'/> <!-- Champion Stone -->
+                    <item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+                    <item id='{FLASK_ID}' quantity='{STONES_TIER_6}' /> <!-- Champion Flask --> <!-- HERE -->
                     <item id='1012' quantity='4'/> <!-- Gold Bar -->
               </event_reward>
 
@@ -243,7 +249,7 @@
                     <req>
                       <min_points>130</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='30'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -259,7 +265,7 @@
                     <req>
                       <min_points>120</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='30'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -275,7 +281,7 @@
                     <req>
                       <min_points>110</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='25'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -291,7 +297,7 @@
                     <req>
                       <min_points>100</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='25'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -307,7 +313,7 @@
                     <req>
                       <min_points>90</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='25'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -323,7 +329,7 @@
                     <req>
                       <min_points>80</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='15'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -339,7 +345,7 @@
                     <req>
                       <min_points>70</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='15'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='15'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -355,7 +361,7 @@
                     <req>
                       <min_points>60</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='10'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='15'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -363,7 +369,7 @@
                     <req>
                       <min_points>55</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='10'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -371,7 +377,7 @@
                     <req>
                       <min_points>50</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='10'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -427,7 +433,7 @@
                     <req>
                       <min_points>15</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='5'/> <!-- Champion Stone --> <!-- HERE -->
+                    <item id='{FLASK_ID}' quantity='{STONES_MILESTONE_2}' /> <!-- Champion Flask --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -435,7 +441,7 @@
                     <req>
                       <min_points>10</min_points>
                     </req>
-                    <item id='{FLASK_ID}' quantity='{STONES_AMOUNT_DUNGEON}' /> <!-- Champion Flask --> <!-- HERE -->
+                    <item id='{FLASK_ID}' quantity='{STONES_MILESTONE_1}' /> <!-- Champion Flask --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
