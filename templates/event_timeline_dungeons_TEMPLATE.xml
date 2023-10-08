@@ -1,7 +1,7 @@
   <!-- ======= {EVENT_BGE} BGE Dungeon Event {EVENT_NUMBER} / {START_TIME_COMMENT} ======= -->
       <event>
-              <id>{EVENT_ID}</id>
-              <name>{EVENT_NAME}</name>
+              <id>{EVENT_ID}</id> <!-- HERE -->
+              <name>{EVENT_NAME}</name> <!-- HERE -->
               <desc>Conquer monsters to find treasure! Three star victories move you up levels while defeats drop you down! Attacks have no cap and stop recharging 11 hours before event end!</desc>
               <type>8</type>
               <priority>410</priority>
@@ -9,7 +9,7 @@
               <portrait>bluefireVoidDragon</portrait>
               <banner_prefab>dungeon_001_banner</banner_prefab>
               <bundle>71</bundle>
-              <start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} -->
+              <start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} --> <!-- HERE -->
               <recharge_duration>3660</recharge_duration> <!-- 3660 | 2 Days 13 Hours -->
               <tracking_duration>4320</tracking_duration> <!-- 4320 | 3 Days -->
               <claim_delay>15</claim_delay>
@@ -18,7 +18,7 @@
               <max_energy>0</max_energy> <!-- 0 max_energy means no cap -->
               <starting_energy>20</starting_energy>
               <recharge_time>1800</recharge_time>
-              <enemy_name>{ENEMY_NAME}</enemy_name> <!-- Change enemy name! -->
+              <enemy_name>{ENEMY_NAME}</enemy_name> <!-- HERE -->
               <enemy_bge>510</enemy_bge>
               <dungeon_upgrade_levels>100</dungeon_upgrade_levels>
 
@@ -59,9 +59,9 @@
               <!-- <mil_guild_points_str></mil_guild_points_str> -->
 
               <map_node>
-                <map>{MAP_ID}</map> <!-- Select map for Dungeon Node to appear -->
-                <x>{MAP_X}</x> <!-- left right -->
-                <y>{MAP_Y}</y> <!-- up down -->
+                <map>{MAP_ID}</map> <!-- Select map for Dungeon Node to appear --> <!-- HERE -->
+                <x>{MAP_X}</x> <!-- left right --> <!-- HERE -->
+                <y>{MAP_Y}</y> <!-- up down --> <!-- HERE -->
                 <map_active_prefab>dungeon_node_active</map_active_prefab>
                 <map_inactive_prefab>dungeon_node_not_active</map_inactive_prefab>
                 <map_bundle>71</map_bundle>

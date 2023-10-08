@@ -30,7 +30,7 @@
         </effect>
     </clash>
     <type>9</type>
-    <start_time>{START_TIME}</start_time>   <!-- {START_TIME_COMMENT} --> 
+    <start_time>{START_TIME}</start_time>   <!-- {START_TIME_COMMENT} --> <!-- HERE -->
     <tracking_duration>5760</tracking_duration>         <!-- 5760 | 4 Days -->
     <claim_delay>15</claim_delay>
     <end_duration>10080</end_duration>                  <!-- 10080 | 7 Days -->
@@ -311,7 +311,7 @@
               <min_points>800</min_points>
               <min_rank>350</min_rank>
           </req>
-          <unit id='{EPIC_CARD_ID}' level='1' /> <!-- Epic Card #1 -->
+          <unit id='{EPIC_CARD_ID}' level='1' /> <!-- Epic Card #1 --> <!-- HERE -->
           <item id='17' quantity='500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1022' quantity='1' /> <!-- Bount Refill +3 -->
