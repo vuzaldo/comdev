@@ -33,7 +33,7 @@ function hash2deck(hash) {
 			message = `Could not decode '${unitHash}' (${id})`;
 		}
 	}
-	generateInput('dungeonCommander9', deck[0] ? deck[0].id : '')
+	generateInput('dungeonCommander9', deck[0] ? deck[0].id : '');
 	for (let i = 1; i < 19; i++) {
 		generateInput('dungeonCard' + i, deck[i] ? deck[i].id : '');
 	}
@@ -73,8 +73,7 @@ function convertQuads() {
 		const quad = quads ? '2' + id : id;
 		const newId = CARDS[quad] ? quad : id;
 		return base64encode(newId);
-	})];
-	hash = hash.join('')
+	})].join('');
 	document.getElementById('dungeonDeckHash').value = hash;
 	document.getElementById('dungeonDeckHashLink').href = link + hash;
 }
@@ -125,7 +124,7 @@ console.log(`${rewardEpics.length} reward epics`);
 
 function isTribe(card, tribe) {
 	const hasTribe = Array.isArray(card.sub_type) && card.sub_type.includes(tribe);
-	return hasTribe || card.sub_type == tribe;
+	return hasTribe || card.sub_type == tribe || PSEUDO_TRIBES[card.id] == tribe;
 }
 function generateCardList(cards, amount) {
 	let list = cards.filter(c => isTribe(c, eventTribeId) && !c.fusion_level);

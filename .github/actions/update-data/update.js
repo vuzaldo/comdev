@@ -259,7 +259,10 @@ async function templates() {
 	filePath = path.join(rootDir, 'templates', 'node_visibility.json')
 	node_visibility = JSON.parse(fs.readFileSync(filePath))
 	node_visibility = 'var NODE_VISIBILITY = ' + JSON.stringify(node_visibility)
-	string = '\n' + [templates, expedition_parameters, bge_banners, node_visibility].join('\n\n') + '\n'
+	filePath = path.join(rootDir, 'templates', 'pseudo_tribes.json')
+	pseudo_tribes = JSON.parse(fs.readFileSync(filePath))
+	pseudo_tribes = 'var PSEUDO_TRIBES = ' + JSON.stringify(pseudo_tribes)
+	string = '\n' + [templates, expedition_parameters, bge_banners, node_visibility, pseudo_tribes].join('\n\n') + '\n'
 	string = string.replace(/\\r/g, '')
 	saveData('templates.js', string)
 }
