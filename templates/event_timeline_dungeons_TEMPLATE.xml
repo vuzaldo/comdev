@@ -233,7 +233,7 @@
                     <req>
                       <min_points>140</min_points>
                     </req>
-                    <item id='1025' quantity='2'/> <!-- Bounty Refill +20 -->
+                    <item id='4013' quantity='2'/> <!-- Legendary Rune Sliver -->
               </milestone_reward>
 
               <milestone_reward>
@@ -257,7 +257,7 @@
                     <req>
                       <min_points>125</min_points>
                     </req>
-                    <item id='18' quantity='500'/> <!-- Legendary Pack Fragments -->
+                    <item id='1025' quantity='2'/> <!-- Bounty Refill +20 -->
               </milestone_reward>
 
               <milestone_reward>
@@ -281,7 +281,7 @@
                     <req>
                       <min_points>110</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -297,7 +297,7 @@
                     <req>
                       <min_points>100</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
+                    <item id='{FLASK_ID}' quantity='{STONES_MILESTONE_2}' /> <!-- Champion Flask --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -305,7 +305,7 @@
                     <req>
                       <min_points>95</min_points>
                     </req>
-                    <item id='2528' quantity='1'/> <!-- Medium Mythical Flask -->
+                    <item id='18' quantity='500'/> <!-- Legendary Pack Fragments -->
               </milestone_reward>
 
               <milestone_reward>
@@ -313,7 +313,7 @@
                     <req>
                       <min_points>90</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -321,7 +321,7 @@
                     <req>
                       <min_points>85</min_points>
                     </req>
-                    <item id='17' quantity='500'/> <!-- Epic Pack Fragments -->
+                    <unit id='{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card #1 --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -329,7 +329,7 @@
                     <req>
                       <min_points>80</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -337,7 +337,7 @@
                     <req>
                       <min_points>75</min_points>
                     </req>
-                    <item id='17' quantity='250'/> <!-- Epic Pack Fragments -->
+                    <item id='2528' quantity='1'/> <!-- Medium Mythical Flask -->
               </milestone_reward>
 
               <milestone_reward>
@@ -345,7 +345,7 @@
                     <req>
                       <min_points>70</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='15'/> <!-- Legendary Stones --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -353,7 +353,7 @@
                     <req>
                       <min_points>65</min_points>
                     </req>
-                    <item id='17' quantity='250'/> <!-- Epic Pack Fragments -->
+                    <item id='17' quantity='500'/> <!-- Epic Pack Fragments -->
               </milestone_reward>
 
               <milestone_reward>
@@ -361,7 +361,7 @@
                     <req>
                       <min_points>60</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='15'/> <!-- Legendary Stones --> <!-- HERE -->
+                    <item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -369,7 +369,7 @@
                     <req>
                       <min_points>55</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones --> <!-- HERE -->
+                    <unit id='{LEGENDARY_CARD_ID_2}' level='1'/> <!-- Legendary Card #2 --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -377,7 +377,7 @@
                     <req>
                       <min_points>50</min_points>
                     </req>
-                    <item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones --> <!-- HERE -->
+                    <item id='{FLASK_ID}' quantity='{STONES_MILESTONE_1}' /> <!-- Champion Flask --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -385,7 +385,7 @@
                     <req>
                       <min_points>45</min_points>
                     </req>
-                    <item id='4001' quantity='10'/> <!-- Inscription Powder -->
+                    <item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
               </milestone_reward>
 
               <milestone_reward>
@@ -393,7 +393,7 @@
                     <req>
                       <min_points>40</min_points>
                     </req>
-                    <item id='2527' quantity='1'/> <!-- Small Mythical Flask -->
+                    <item id='17' quantity='500'/> <!-- Epic Pack Fragments -->
               </milestone_reward>
 
               <milestone_reward>
@@ -401,7 +401,7 @@
                     <req>
                       <min_points>35</min_points>
                     </req>
-                    <unit id='511' level='1'/> <!-- Arcane Ore -->
+                    <item id='2527' quantity='1'/> <!-- Small Mythical Flask -->
               </milestone_reward>
 
               <milestone_reward>
@@ -409,7 +409,7 @@
                     <req>
                       <min_points>30</min_points>
                     </req>
-                    <item id='4001' quantity='5'/> <!-- Inscription Powder -->
+                    <item id='4001' quantity='10'/> <!-- Inscription Powder -->
               </milestone_reward>
 
               <milestone_reward>
@@ -425,7 +425,7 @@
                     <req>
                       <min_points>20</min_points>
                     </req>
-                    <item id='4001' quantity='2'/> <!-- Inscription Powder -->
+                    <item id='4001' quantity='5'/> <!-- Inscription Powder -->
               </milestone_reward>
 
               <milestone_reward>
@@ -433,7 +433,7 @@
                     <req>
                       <min_points>15</min_points>
                     </req>
-                    <item id='{FLASK_ID}' quantity='{STONES_MILESTONE_2}' /> <!-- Champion Flask --> <!-- HERE -->
+                    <unit id='511' level='1'/> <!-- Arcane Ore -->
               </milestone_reward>
 
               <milestone_reward>
@@ -441,7 +441,7 @@
                     <req>
                       <min_points>10</min_points>
                     </req>
-                    <item id='{FLASK_ID}' quantity='{STONES_MILESTONE_1}' /> <!-- Champion Flask --> <!-- HERE -->
+                    <item id='4001' quantity='2'/> <!-- Inscription Powder -->
               </milestone_reward>
 
               <milestone_reward>
