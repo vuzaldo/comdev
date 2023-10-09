@@ -112,15 +112,16 @@ function downloadFile(button) {
 }
 
 
-function isRewardRarity(card, rarity) {
-	return rarity && card.set == 2000 && card.rarity == rarity;
+function isRarity(card, rarity) {
+	return rarity && card.rarity == rarity;
 }
-function id2Card(id, cardType, rarity, isChamp) {
+function id2Card(id, cardType, rarity, isReward, isChamp) {
 	if (id == '') {
 		return '';
 	}
 	const card = CARDS[id];
-	if (card && ((cardType == card.card_type) || isRewardRarity(card, rarity) || (isChamp && card.shard_card))) {
+	if (card && ((cardType == card.card_type) || (!isReward && card.set < 4000 && isRarity(card, rarity))
+		|| (isReward && card.set == 2000 && isRarity(card, rarity)) || (isChamp && card.shard_card))) {
 		return card.name;
 	}
 	if (isChamp && id == newChamp) {
@@ -156,6 +157,28 @@ function propagateEpic(input, card) {
 		propagateCard('rewardEpicBrawl', input.value, card);
 	}
 }
+function repeatedLegendaries() {
+	const leg1 = document.getElementById('Legendary1').value;
+	const leg3 = document.getElementById('Legendary3').value;
+	return leg1 == leg3;
+}
+function propagateLegendary(input, card) {
+	const legendary = input.id.slice(-1);
+	if (legendary == 1) {
+		propagateCard('LegendaryClash', input.value, card);
+		propagateCard('LegendaryWar', input.value, card);
+	}
+	if (legendary == 2) {
+		propagateCard('LegendaryGuildClash', input.value, card);
+		propagateCard('LegendaryExpedition', input.value, card);
+		repeatedLegendaries() && propagateCard('LegendaryDungeon2', input.value, card);
+	}
+	if (legendary == 3) {
+		propagateCard('LegendaryDungeon', input.value, card);
+		propagateCard('LegendaryBrawl', input.value, card);
+		!repeatedLegendaries() && propagateCard('LegendaryDungeon2', input.value, card);
+	}
+}
 
 function filter(input, regex = /[^0-9]/g) {
 	if (input.value != '') {
@@ -167,11 +190,14 @@ function filterInput(input, update = true) {
 	filter(input);
 	const cardType = input.id.includes('Commander') ? 1 : input.id.includes('Card') ? 2 : 0;
 	const rarity = input.id.includes('Epic') ? 3 : input.id.includes('Legendary') ? 4 : 0;
-	const card = id2Card(input.value, cardType, rarity, input.id.includes('Champ'));
+	const card = id2Card(input.value, cardType, rarity, input.id.includes('reward'), input.id.includes('Champ'));
 	const help = input.parentElement.nextElementSibling.firstChild;
 	help.textContent = card;
 	if (rarity == 3) {
 		propagateEpic(input, card);
+	}
+	if (rarity == 4) {
+		propagateLegendary(input, card);
 	}
 	if (update) {
 		input.id.includes('dungeon') && updateDungeonHash();
@@ -301,11 +327,14 @@ document.querySelectorAll('textarea.code').forEach(textArea => {
 	editors[textArea.id] = CodeMirror.fromTextArea(textArea, editorSettings);
 	editors[textArea.id].setValue('Loading template...');
 });
-editors['event_timeline_dungeons'].getWrapperElement().style.minHeight = '54rem';
+
 'wars_clash expeditions brawls n3rjc_BGE n3rjc_AC'.split(' ').forEach(e => {
 	editors['event_timeline_' + e].getWrapperElement().style.minHeight = '15rem';
 });
-editors['reward_box'].getWrapperElement().style.minHeight = '15rem';
+editors['reward_box'].getWrapperElement().style.minHeight = '31rem';
+editors['event_timeline_clash'].getWrapperElement().style.minHeight = '31rem';
+editors['event_timeline_dungeons'].getWrapperElement().style.minHeight = '60rem';
+
 function refreshEditors() {
 	for (const template in editors) {
 		editors[template].refresh();

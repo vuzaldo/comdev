@@ -126,9 +126,9 @@ function isTribe(card, tribe) {
 	const hasTribe = Array.isArray(card.sub_type) && card.sub_type.includes(tribe);
 	return hasTribe || card.sub_type == tribe || PSEUDO_TRIBES[card.id] == tribe;
 }
-function generateCardList(cards, amount) {
+function generateCardList(cards, amount, fill = true) {
 	let list = cards.filter(c => isTribe(c, eventTribeId) && !c.fusion_level);
-	if (list.length < amount) { // not enough cards from the selected tribe, try to complete the list using others
+	if (fill && list.length < amount) { // not enough cards from the selected tribe, try to fill the list using others
 		let differentTribes = cards.filter(c => !isTribe(c, eventTribeId) && !c.fusion_level);
 		shuffleArray(differentTribes);
 		differentTribes = differentTribes.slice(0, amount - list.length);
@@ -176,6 +176,10 @@ function generate() {
 	generateBGE();
 	generateInput('rewardChamp', newChamp);
 	generateInput('rewardFlask', options?.flask ? options.flask : newFlask, filterItem);
+	const legendaries = generateCardList(standardLegendaries, 3, false);
+	generateInput('Legendary1', legendaries[0]);
+	generateInput('Legendary3', legendaries[2] ? legendaries[2] : legendaries[0]);
+	generateInput('Legendary2', legendaries[1]);
 	generateInput('rewardLegendary', generateCardList(rewardLegendaries, 1)[0]);
 	const epics = generateCardList(rewardEpics, 3);
 	generateInput('rewardEpic1', epics[0]);
@@ -340,8 +344,10 @@ function updateParameters() {
 	}
 	template = 'event_timeline_clash';
 	parameters[template]['EVENT_NAME'] = document.getElementById('clashName').value;
+	parameters[template]['LEGENDARY_CARD_ID'] = document.getElementById('LegendaryClash').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicClash').value;
 	parameters[template]['EVENT_NAME_2'] = document.getElementById('guildClashName').value;
+	parameters[template]['LEGENDARY_CARD_ID_2'] = document.getElementById('LegendaryGuildClash').value;
 	parameters[template]['EPIC_CARD_ID_2'] = document.getElementById('rewardEpicGuildClash').value;
 	const tower = document.getElementById('selectTower').selectedOptions[0];
 	parameters[template]['TOWER_TYPE'] = tower.text;
@@ -350,6 +356,8 @@ function updateParameters() {
 	template = 'event_timeline_dungeons';
 	parameters[template]['EVENT_NAME'] = document.getElementById('dungeonName').value;
 	parameters[template]['ENEMY_NAME'] = document.getElementById('dungeonEnemyName').value;
+	parameters[template]['LEGENDARY_CARD_ID'] = document.getElementById('LegendaryDungeon').value;
+	parameters[template]['LEGENDARY_CARD_ID_2'] = document.getElementById('LegendaryDungeon2').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicDungeon').value;
 	parameters[template]['STONES_MILESTONE_1'] = scaleStones(100, scaleQuantity);
 	parameters[template]['STONES_MILESTONE_2'] = scaleStones(100, scaleQuantity);
@@ -385,12 +393,15 @@ function updateParameters() {
 	}
 	template = 'event_timeline_wars_clash';
 	parameters[template]['EVENT_NAME'] = document.getElementById('warName').value;
+	parameters[template]['LEGENDARY_CARD_ID'] = document.getElementById('LegendaryWar').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicWar').value;
 	template = 'event_timeline_expeditions';
 	parameters[template]['EVENT_NAME'] = document.getElementById('expeditionName').value;
+	parameters[template]['LEGENDARY_CARD_ID'] = document.getElementById('LegendaryExpedition').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicExpedition').value;
 	template = 'event_timeline_brawls';
 	parameters[template]['EVENT_NAME'] = document.getElementById('brawlName').value;
+	parameters[template]['LEGENDARY_CARD_ID'] = document.getElementById('LegendaryBrawl').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicBrawl').value;
 	if (eventMap) {
 		const expedition = EXPEDITION[eventMap];
@@ -413,11 +424,11 @@ function updateParameters() {
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
 	const cardId = document.getElementById('rewardLegendary').value;
 	parameters[template]['LEGENDARY_CARD'] = cardId;
-	parameters[template]['LEGENDARY_CARD_COMMENT'] = id2Card(cardId, 0, 4);
+	parameters[template]['LEGENDARY_CARD_COMMENT'] = id2Card(cardId, 0, 4, true);
 	for (let i = 1; i < 4; i++) {
 		const cardId = document.getElementById(`rewardEpic${i}`).value;
 		parameters[template][`EPIC_CARD_${i}`] = cardId;
-		parameters[template][`EPIC_CARD_${i}_COMMENT`] = id2Card('1' + cardId, 0, 3);
+		parameters[template][`EPIC_CARD_${i}_COMMENT`] = id2Card('1' + cardId, 0, 3, true);
 	}
 	template = 'event_timeline_n3rjc_AC';
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());

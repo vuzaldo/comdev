@@ -55,14 +55,14 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardChamp')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text.font-hint
 							.row.g-3.align-items-center.mt-2
 								.col-auto(style='padding-right: 1.711rem')
 									label.col-form-label(for='rewardFlask') Reward Flask
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterItem(this)', maxlength='4', placeholder='Item ID', id='rewardFlask')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text.font-hint
 							.row.g-3.align-items-center.pt-2
 								.col-auto(style='padding-right: 1.066rem')
 									label.col-form-label(for='rewardFlaskScale') Scale Quantity
@@ -70,37 +70,58 @@ div#cycle(style='display: none')
 									input.form-control(type='number', min='0', max='10', step='0.01', oninput='filterScale(this)', maxlength='4', id='rewardFlaskScale', value='0.5', style='width: 5rem')
 							.row.g-3.align-items-center.pt-2
 								.col-auto(style='padding-right: 0rem; margin-right: -0.019rem')
-									label.col-form-label(for='rewardFlaskScale') Expedition/Brawl
+									label.col-form-label(for='rewardFlaskScale2') Expedition/Brawl
 								.col-auto
 									input.form-control(type='number', min='0', max='10', step='0.01', oninput='filterScale(this)', maxlength='4', id='rewardFlaskScale2', value='0.25', style='width: 5rem')
+							.row.g-3.align-items-center.mt-2
+								.col-auto.pr-l
+									label.col-form-label(for='Legendary1') Legendary #1
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='Legendary1')
+								.col-auto
+									span.form-text.font-hint
+							.row.g-3.align-items-center.pt-2
+								.col-auto.pr-l
+									label.col-form-label(for='Legendary2') Legendary #2
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='Legendary2')
+								.col-auto
+									span.form-text.font-hint
+							.row.g-3.align-items-center.pt-2
+								.col-auto.pr-l
+									label.col-form-label(for='Legendary3') Legendary #3
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='Legendary3')
+								.col-auto
+									span.form-text.font-hint
 							.row.g-3.align-items-center.mt-2
 								.col-auto(style='padding-right: 0.395rem')
 									label.col-form-label(for='rewardLegendary') Reward Legend.
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardLegendary')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-0
+									span.form-text.font-hint
+							.row.g-3.align-items-center.pt-2
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic1') Reward Epic #1
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic1')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-0
+									span.form-text.font-hint
+							.row.g-3.align-items-center.pt-2
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic2') Reward Epic #2
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic2')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
-							.row.g-3.align-items-center.mt-0
+									span.form-text.font-hint
+							.row.g-3.align-items-center.pt-2
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpic3') Reward Epic #3
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='rewardEpic3')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text.font-hint
 							.row.mt-4.pt-2
 								.col-auto
 									label.col-form-label(for='selectMapCycle') Select Map
@@ -145,12 +166,19 @@ div#cycle(style='display: none')
 								.col-md-6.col-auto
 									input.form-control(type='text', oninput='updateEditors()', id='clashName')
 							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-l2
+									label.col-form-label(for='LegendaryClash') Legendary
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Leg #1', id='LegendaryClash', disabled)
+								.col-auto
+									span.form-text.font-hint
+							.row.g-3.align-items-center.pt-2
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpicClash') Reward Epic
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Epic #1', id='rewardEpicClash', disabled)
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text.font-hint
 							h2.mt-4 Guild Clash
 							h5.mt-2#guildClashStartTime
 								| Start Time
@@ -161,12 +189,19 @@ div#cycle(style='display: none')
 								.col-md-6.col-auto
 									input.form-control(type='text', oninput='updateEditors()', id='guildClashName')
 							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-l2
+									label.col-form-label(for='LegendaryGuildClash') Legendary
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Leg #2', id='LegendaryGuildClash', disabled)
+								.col-auto
+									span.form-text.font-hint
+							.row.g-3.align-items-center.pt-2
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpicGuildClash') Reward Epic
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Epic #2', id='rewardEpicGuildClash', disabled)
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text.font-hint
 							.row.mt-3
 								.col-auto
 									label.col-form-label(for='selectTower') Select Tower
@@ -201,12 +236,26 @@ div#cycle(style='display: none')
 								.col-md-6.col-auto
 									input.form-control(type='text', oninput='updateEditors()', id='dungeonEnemyName')
 							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-l3
+									label.col-form-label(for='LegendaryDungeon') Legend. #1
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='LegendaryDungeon')
+								.col-auto
+									span.form-text.font-hint
+							.row.g-3.align-items-center.pt-2
+								.col-auto.pr-l3
+									label.col-form-label(for='LegendaryDungeon2') Legend. #2
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='LegendaryDungeon2')
+								.col-auto
+									span.form-text.font-hint
+							.row.g-3.align-items-center.pt-2
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpicDungeon') Reward Epic
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Epic #3', id='rewardEpicDungeon', disabled)
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text.font-hint
 							.row.mt-4
 								.col-md-8.col-auto
 									label(for='dungeonDifficulty', class='form-label') Difficulty (currently random)
@@ -231,7 +280,7 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='999', oninput='filterInput(this)', maxlength='3', placeholder='ID', id='dungeonCommander1')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text
 							.row.g-3.align-items-center.pt-1
 								.col-auto.pr-y
 									label.col-form-label(for='dungeonCommander2') Start (2)
@@ -242,7 +291,7 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='999', oninput='filterInput(this)', maxlength='3', placeholder='ID', id='dungeonCommander2')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text
 							.row.g-3.align-items-center.pt-1
 								.col-auto.pr-y
 									label.col-form-label(for='dungeonCommander3') Start (3)
@@ -253,7 +302,7 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='999', oninput='filterInput(this)', maxlength='3', placeholder='ID', id='dungeonCommander3')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text
 							.row.g-3.align-items-center.pt-1
 								.col-auto.pr-z
 									label.col-form-label(for='dungeonCommander4') Middle (1)
@@ -264,7 +313,7 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='999', oninput='filterInput(this)', maxlength='3', placeholder='ID', id='dungeonCommander4')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text
 							.row.g-3.align-items-center.pt-1
 								.col-auto.pr-z
 									label.col-form-label(for='dungeonCommander5') Middle (2)
@@ -275,7 +324,7 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='999', oninput='filterInput(this)', maxlength='3', placeholder='ID', id='dungeonCommander5')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text
 							.row.g-3.align-items-center.pt-1
 								.col-auto.pr-z
 									label.col-form-label(for='dungeonCommander6') Middle (3)
@@ -286,7 +335,7 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='999', oninput='filterInput(this)', maxlength='3', placeholder='ID', id='dungeonCommander6')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text
 							.row.g-3.align-items-center.pt-1
 								.col-auto.pr-z
 									label.col-form-label(for='dungeonCommander7') Middle (4)
@@ -297,7 +346,7 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='999', oninput='filterInput(this)', maxlength='3', placeholder='ID', id='dungeonCommander7')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text
 							.row.g-3.align-items-center.pt-1
 								.col-auto.pr-y
 									label.col-form-label(for='dungeonCommander8') Final (1)
@@ -308,7 +357,7 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='999', oninput='filterInput(this)', maxlength='3', placeholder='ID', id='dungeonCommander8')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text
 							.row.g-3.align-items-center.pt-1
 								.col-auto.pr-y
 									label.col-form-label(for='dungeonCommander9') Final (2)
@@ -319,7 +368,7 @@ div#cycle(style='display: none')
 								.col-auto
 									input.form-control(type='number', min='1', max='999', oninput='filterInput(this)', maxlength='3', placeholder='ID', id='dungeonCommander9')
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text
 							.row.mt-3
 								.col-auto
 									label(for='dungeonDeckHash', class='form-label') Enemy Deck Hash (18 fixed cards)
@@ -353,7 +402,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard1')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c
 													label.col-form-label(for='dungeonCard2') Card 2
@@ -362,7 +411,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard2')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c
 													label.col-form-label(for='dungeonCard3') Card 3
@@ -371,7 +420,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard3')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c
 													label.col-form-label(for='dungeonCard4') Card 4
@@ -380,7 +429,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard4')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c
 													label.col-form-label(for='dungeonCard5') Card 5
@@ -389,7 +438,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard5')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c
 													label.col-form-label(for='dungeonCard6') Card 6
@@ -398,7 +447,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard6')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c
 													label.col-form-label(for='dungeonCard7') Card 7
@@ -407,7 +456,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard7')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c
 													label.col-form-label(for='dungeonCard8') Card 8
@@ -416,7 +465,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard8')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c
 													label.col-form-label(for='dungeonCard9') Card 9
@@ -425,7 +474,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard9')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c2
 													label.col-form-label(for='dungeonCard10') Card 10
@@ -434,7 +483,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard10')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c2
 													label.col-form-label(for='dungeonCard11') Card 11
@@ -443,7 +492,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard11')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c2
 													label.col-form-label(for='dungeonCard12') Card 12
@@ -452,7 +501,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard12')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c2
 													label.col-form-label(for='dungeonCard13') Card 13
@@ -461,7 +510,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard13')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c2
 													label.col-form-label(for='dungeonCard14') Card 14
@@ -470,7 +519,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard14')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c2
 													label.col-form-label(for='dungeonCard15') Card 15
@@ -479,7 +528,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard15')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c2
 													label.col-form-label(for='dungeonCard16') Card 16
@@ -488,7 +537,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard16')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c2
 													label.col-form-label(for='dungeonCard17') Card 17
@@ -497,7 +546,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard17')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 											.row.g-3.align-items-center.pt-1
 												.col-auto.pr-c2
 													label.col-form-label(for='dungeonCard18') Card 18
@@ -506,7 +555,7 @@ div#cycle(style='display: none')
 												.col-auto
 													input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Card ID', id='dungeonCard18')
 												.col-auto
-													span.form-text(style='font-size: 0.95rem')
+													span.form-text.font-hint
 						.col-md-6.mt-2
 							h6
 								i event_timeline_dungeons.xml
@@ -525,12 +574,19 @@ div#cycle(style='display: none')
 								.col-md-6.col-auto
 									input.form-control(type='text', oninput='updateEditors()', id='warName')
 							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-l2
+									label.col-form-label(for='LegendaryWar') Legendary
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Leg #1', id='LegendaryWar', disabled)
+								.col-auto
+									span.form-text.font-hint
+							.row.g-3.align-items-center.mt-0
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpicWar') Reward Epic
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Epic #1', id='rewardEpicWar', disabled)
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text.font-hint
 						.col-md-6.mt-2
 							h6
 								i event_timeline_wars_clash.xml
@@ -549,12 +605,19 @@ div#cycle(style='display: none')
 								.col-md-6.col-auto
 									input.form-control(type='text', oninput='updateEditors()', id='expeditionName')
 							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-l2
+									label.col-form-label(for='LegendaryExpedition') Legendary
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Leg #2', id='LegendaryExpedition', disabled)
+								.col-auto
+									span.form-text.font-hint
+							.row.g-3.align-items-center.mt-0
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpicExpedition') Reward Epic
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Epic #2', id='rewardEpicExpedition', disabled)
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text.font-hint
 						.col-md-6.mt-2
 							h6
 								i event_timeline_expeditions.xml
@@ -573,12 +636,19 @@ div#cycle(style='display: none')
 								.col-md-6.col-auto
 									input.form-control(type='text', oninput='updateEditors()', id='brawlName')
 							.row.g-3.align-items-center.mt-0
+								.col-auto.pr-l2
+									label.col-form-label(for='LegendaryBrawl') Legendary
+								.col-auto
+									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Leg #3', id='LegendaryBrawl', disabled)
+								.col-auto
+									span.form-text.font-hint
+							.row.g-3.align-items-center.mt-0
 								.col-auto.pr-x
 									label.col-form-label(for='rewardEpicBrawl') Reward Epic
 								.col-auto
 									input.form-control(type='number', min='1', max='9999', oninput='filterInput(this)', maxlength='4', placeholder='Epic #3', id='rewardEpicBrawl', disabled)
 								.col-auto
-									span.form-text(style='font-size: 0.95rem')
+									span.form-text.font-hint
 						.col-md-6.mt-2
 							h6
 								i event_timeline_brawls.xml
