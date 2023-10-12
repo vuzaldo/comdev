@@ -12787,6 +12787,299 @@
 		<price_point_id>t50</price_point_id>
 	</package>
 
+	<package>
+		<id>1239</id>
+		<name>Mossy Quageye Flask Special</name>
+		<desc>Gives 100 Mossy Quageye Flasks. They contain Champion Stones for Lok'Thor, the Reborn; Typhoeus, Storm Father; Ralgan Ironpaw; or Quageye, the Masher! May be purchased 4 times!</desc>
+		<asset_prefab>event_056_stonepack_01</asset_prefab>
+		<bundle>173</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
+		<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2559' number='100' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1240</id>
+		<name>Tethys Trove</name>
+		<desc>Gives 75 ^cE7FFTethys Stone^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 50 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104076' number='75' />  <!-- Stone -->
+		<item id='2001' number='25' />  <!-- Arcane Fragment -->
+		<item id='1004' number='10' />  <!-- Energy +20 -->
+		<item id='4001' number='50' />  <!-- Inscription Powder -->
+		<sp>50</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1241</id>
+		<name>Tethys Large Trove</name>
+		<desc>Gives 200 ^cE7FFTethys Stone^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 100 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104076' number='200' /> <!-- Stone -->
+		<item id='2001' number='50' />  <!-- Arcane Fragment -->
+		<item id='1004' number='15' />  <!-- Energy +20 -->
+		<item id='4001' number='100' /> <!-- Inscription Powder -->
+		<sp>100</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t40_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1242</id>
+		<name>Tethys Fortune Trove</name>
+		<desc>Gives 725 ^cE7FFTethys Stone^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 300 Arcane Dust, and 250 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104076' number='725' /> <!-- Stone -->
+		<item id='2001' number='150' /> <!-- Arcane Fragment -->
+		<item id='1004' number='25' />  <!-- Energy +20 -->
+		<item id='4001' number='250' /> <!-- Inscription Powder -->
+		<sp>300</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t60_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1243</id>
+		<name>Seafolk Starter Set</name>
+		<desc>Power up your Seafolk deck! Contains 4 Quads: ^cE7FFNether Blackfin^cFFFF, ^cE7FFCloudwhale Magus^cFFFF, ^c0DFFBrightshoal Legionnaire^cFFFF, and ^c0DFFMaddening Clams^cFFFF plus 50 Typhoeus Stones! One purchase only!</desc>
+		<asset_prefab>starter_deck</asset_prefab>
+		<bundle>35</bundle>
+		<background_prefab>3rdAnniversary_banner</background_prefab>
+		<background_bundle>136</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<show_list>1</show_list>
+		<!-- Stuff to give -->
+		<card id='21644' /> <!-- Blackfin -->
+		<card id='21045' /> <!-- Cloudwhale -->
+		<card id='21634' /> <!-- Brightshoal -->
+		<card id='22226' /> <!-- Clams -->
+		<item id='104007' number='50' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1244</id>
+		<name>Lerna Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFLerna, the Mutated^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+    	<asset_prefab>event_096_stonepack_02</asset_prefab>
+   		<bundle>259</bundle>
+    	<background_prefab>event_96_voidhydra_banner</background_prefab>
+    	<background_bundle>259</background_bundle>
+		<category>1</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104065' number='200' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1245</id>
+		<name>Quad Clownder Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFKindled Clownder^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id='27109' />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1246</id>
+		<name>Quad Raider Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFSwiftlance Raiders^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id='25041' />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1247</id>
+		<name>Sea&apos;s Sky Forces Shard Bundle!</name>
+		<desc>Gives 330 Shards and a BONUS ^cE7FFSea&apos;s Sky Forces^cFFFF card! May be purchased 4 times!</desc>
+		<priority>300</priority>
+		<!-- Stuff to give -->
+		<card id='5198' />
+		<tokens>330</tokens>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1248</id>
+		<name>Super Dual Seafolk Bonus!</name>
+		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFSeafolk card, 200 Arcane Dust and 150 Inscription Powder! May be purchased 2 times!</desc>
+		<asset_prefab>elemental_crystal_legendary</asset_prefab>
+		<bundle>49</bundle>
+		<!-- Stuff to give -->
+		<tokens>800</tokens>
+		<pack>5336</pack>
+		<item id='4001' number='150' />	<!-- Inscription Powder -->
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t50</price_point_id>
+	</package>
+
+	<!-- Premium Flasks Gen 8 Bundles -->
+
+	<package>
+		<id>1249</id>
+		<name>Liberation Flask Pack</name>
+		<desc>Gives 200 Aether Liberation Flasks. They contain Champion Stones for Gorgon, the Imprisoned; Kandrula, the Sly; Asim, the Lorekeeper; or Saint Galahad! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+    		<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2690' number='200' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1250</id>
+		<name>Greater Liberation Flask Pack</name>
+		<desc>Gives 350 Aether Liberation Flasks. They contain Champion Stones for Gorgon, the Imprisoned; Kandrula, the Sly; Asim, the Lorekeeper; or Saint Galahad! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+			<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2690' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1251</id>
+		<name>Chaotic Void Flask Pack</name>
+		<desc>Gives 200 Chaotic Void Flasks. They contain Champion Stones for The Undead Armada; R3-M1, the Channeler; Vig, the Leaper; or Zamriel, the Vengeful! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_chaos_1</asset_prefab> <!-- Small Chaos Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+			<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2691' number='200' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1252</id>
+		<name>Greater Chaotic Void Flask Pack</name>
+		<desc>Gives 350 Chaotic Void Flasks. They contain Champion Stones for The Undead Armada; R3-M1, the Channeler; Vig, the Leaper; or Zamriel, the Vengeful! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<priority>1000</priority>
+			<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2691' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1253</id>
+		<name>Reign Flask Pack</name>
+		<desc>Gives 200 Aether Reign Flasks. They contain Champion Stones for La Llorona; Auron, the Icewall; Eira, the Electrokinetic; or Almet, the Ferromancer! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+    		<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2692' number='200' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1254</id>
+		<name>Greater Reign Flask Pack</name>
+		<desc>Gives 350 Aether Reign Flasks. They contain Champion Stones for La Llorona; Auron, the Icewall; Eira, the Electrokinetic; or Almet, the Ferromancer! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+			<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2692' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1255</id>
+		<name>Justice Flask Pack</name>
+		<desc>Gives 200 Aether Justice Flasks. They contain Champion Stones for Moby, the Righteous; The Dragon Family; Zakum, the Destroyer; or Howaito and Kuroilong! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+    		<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2693' number='200' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1256</id>
+		<name>Greater Justice Flask Pack</name>
+		<desc>Gives 350 Aether Justice Flasks. They contain Champion Stones for Moby, the Righteous; The Dragon Family; Zakum, the Destroyer; or Howaito and Kuroilong! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+			<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2693' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+	
+	<!-- End Premium Flasks Gen 8 Bundles -->
+
 <!-- END BUNDLES BUNDLES END-->
 
 	<!-- ====================== -->

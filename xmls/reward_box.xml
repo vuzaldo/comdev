@@ -1860,4 +1860,24 @@
 		<card id='12009' level='1' order='4' />  <!-- Spirit of Sap -->
 	</event_box>
 
+	<event_box>
+		<id>6093</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of awesome reward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>  <!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id='20' order='1' />   <!-- Trophy -->
+		<card id='12104' level='1' order='2' />  <!-- Sharktrooper -->
+		<card id='12178' level='1' order='3' />  <!-- Helcay Veteran -->
+		<card id='12079' level='1' order='4' />  <!-- Koi Safeguard -->
+	</event_box>
+
 </root>

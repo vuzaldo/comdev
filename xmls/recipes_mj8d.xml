@@ -537,7 +537,6 @@
 		<bundle>133</bundle>
 		<unlock_req item_id='8009' />
 		<give_pack id='89' />
-
 		<item_req id='19' number='100' />
 	</recipe>
 
@@ -552,10 +551,19 @@
 		<item_req id='2596' number='1' />
 	</recipe>
 
+	<recipe>
+		<id>3004</id>
+		<name>Double Legendary Reward</name>
+		<category>3</category>
+		<icon>icon_purple_crystal_lg</icon>
+		<give_pack id='45' number='1'/> <!-- Double Legendary Reward Pack -->
+		<item_req id='20' number='3'/>
+	</recipe>
+
 	<!-- ====================================== -->
 	<!-- ============ Pack Recipes ============ -->
 	<!-- ====================================== -->
-
+	
 	<recipe>
 		<id>3101</id>
 		<name>Mist Pearl Extraction</name>

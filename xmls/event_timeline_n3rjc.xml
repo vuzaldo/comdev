@@ -18877,6 +18877,476 @@
 		<mission_req>64</mission_req>
 	</event>
 
+		<!-- Begin Event 108 Seafolk BGE Bundle Sales -->
+	<event>
+		<id>3469</id>
+		<name>Tethys Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4075' level='1' />
+		<bundle_package>1240</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
+	<event>
+		<id>3470</id>
+		<name>Tethys Large Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4075' level='1' />
+		<!-- Must have purchased the following before it shows up -->
+		<purchased_event_req>3469</purchased_event_req>
+		<bundle_package>1241</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
+	<event>
+		<id>3471</id>
+		<name>Tethys Fortune Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4075' level='1' />
+		<!-- Must have purchased the following before it shows up -->
+		<purchased_event_req>3470</purchased_event_req>
+		<bundle_package>1242</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
+	<event>
+		<id>3472</id>
+		<name>Greater Dichotomy Flask Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>120</type>
+		<bundle_package>1220</bundle_package>
+		<num_available>4</num_available>
+		<!-- First Saturday -->
+		<start_time>1697302800</start_time> <!-- Saturday, 14 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3473</id>
+		<name>Greater Liberation Flask Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<bundle_package>1250</bundle_package>
+		<num_available>4</num_available>
+		<!-- Third Saturday -->
+		<start_time>1698512400</start_time> <!-- Saturday, 28 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3474</id>
+		<name>Morty Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFMorty Ahab, Seaturned^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>1089</bundle_package>
+		<num_available>1</num_available>
+		<!-- Second Saturday -->
+		<start_time>1697907600</start_time> <!-- Saturday, 21 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3475</id>
+		<name>Lerna Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFLerna, the Mutated^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>1244</bundle_package>
+		<num_available>1</num_available>
+		<!-- Fourth Saturday -->
+		<start_time>1699117200</start_time> <!-- Saturday, 4 November 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3476</id>
+		<name>Mossy Quageye Flask Special</name>
+		<desc>Gives 40 Mossy Quageye Flasks. They contain Champion Stones for Lok'Thor, the Reborn; Typhoeus, Storm Father; Ralgan Ironpaw; or Quageye, the Masher! May be purchased 4 times!</desc>
+		<priority>400</priority>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>1239</bundle_package>
+		<num_available>4</num_available>
+		<!-- Third Wednesday -->
+		<start_time>1698858000</start_time> <!-- Wednesday, 1 November 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3477</id>
+		<name>Quad Clownder Deal!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>103</type>
+		<priority>190</priority>
+		<display_card id='27109' level='1' /> <!-- Card ID -->
+		<bundle_package>1245</bundle_package> <!-- Stuff to give -->
+		<num_available>1</num_available>
+		<!-- First Wednesday -->
+		<start_time>1697648400</start_time> <!-- Wednesday, 18 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3478</id>
+		<name>Quad Swiftlance Raiders Deal!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>103</type>
+		<priority>190</priority>
+		<display_card id='25041' level='1' /> <!-- Card ID -->
+		<bundle_package>1246</bundle_package> <!-- Stuff to give -->
+		<num_available>1</num_available>
+		<!-- Second Wednesday -->
+		<start_time>1698253200</start_time> <!-- Wednesday, 25 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3479</id>
+		<name>Seafolk Starter Set</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>1243</bundle_package>
+		<num_available>1</num_available>
+		<!-- First Thursday -->
+		<start_time>1697130000</start_time> <!-- Thursday, 12 October 2023 -->
+		<end_duration>8640</end_duration> <!-- 6 Days -->
+	</event>
+	<event>
+		<id>3480</id>
+		<name>Super Colossal Bundle!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>160</type>
+		<bundle_package>1223</bundle_package>
+		<num_available>2</num_available>
+		<!-- First Friday -->
+		<start_time>1697216400</start_time> <!-- Friday, 13 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3481</id>
+		<name>Sea's Sky Forces Shard Bundle!</name>
+		<desc>Gives 330 Shards and a BONUS ^cE7FFSea&apos;s Sky Forces^cFFFF card! May be purchased 4 times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>103</type>
+		<priority>100</priority>
+		<display_card id='5198' level='1' />
+		<bundle_package>1247</bundle_package>
+		<num_available>4</num_available>
+		<!-- Second Saturday -->
+		<start_time>1697907600</start_time> <!-- Saturday, 21 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3482</id>
+		<name>Flash Shard Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>106</type>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<bundle_package>615</bundle_package>
+		<num_available>10</num_available>
+		<!-- Second Tuesday -->
+		<start_time>1698166800</start_time> <!-- Tuesday, 24 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3483</id>
+		<name>Super Dual Seafolk Bonus!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>150</type>
+		<bundle_package>1248</bundle_package>
+		<num_available>2</num_available>
+		<!-- Third Saturday -->
+		<start_time>1698512400</start_time> <!-- Saturday, 28 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3484</id>
+		<name>Mystical Epic Shard Bundle</name>
+		<desc>Includes 180 Shards and one Epic Pack! May be purchased ten times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>110</type>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<bundle_package>642</bundle_package>
+		<num_available>10</num_available>
+		<!-- Third Sunday -->
+		<start_time>1698598800</start_time> <!-- Sunday, 29 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3485</id>
+		<name>Legendary Guild Bundle</name>
+		<desc>Purchase 1400 Shards and get a bonus ^cE7FFLegendary Pack ^cFFFFand everyone in your guild receives 100 ^cE7FFLegendary Pack Fragments^cFFFF!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>150</type>
+		<asset_prefab>legendary_crystal_guild_shards</asset_prefab>
+		<asset_bundle>30</asset_bundle>
+		<bundle_package>1080</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Wednesday -->
+		<start_time>1698858000</start_time> <!-- Wednesday, 1 November 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3486</id>
+		<name>Dust &#38; Shards Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>106</type>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<bundle_package>952</bundle_package>
+		<num_available>1</num_available>
+		<!-- Fourth Tuesday -->
+		<start_time>1699376400</start_time> <!-- Tuesday, 7 November 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<!-- End Event 108 Seafolk BGE Bundle Sales -->
+
+	<!-- Begin Event 108 Seafolk BGE Chance/Step Sales -->
+	<!-- NEW CHAMPION PACK 1 -->
+	<event>
+		<id>35014</id>
+		<name>Family Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2696</event_box>
+		<!-- First Thursday -->
+		<start_time>1697130000</start_time> <!-- Thursday, 12 October 2023 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- OLD CHAMPION PACK 2 -->
+	<event>
+		<id>35015</id>
+		<name>Jormun Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2697</event_box>
+		<!-- First Monday -->
+		<start_time>1697475600</start_time> <!-- Monday, 16 October 2023 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- OLD CHAMPION PACK 3 -->
+	<event>
+		<id>35016</id>
+		<name>Kandrula Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2698</event_box>
+		<!-- Second Thursday -->
+		<start_time>1697734800</start_time> <!-- Thursday, 19 October 2023 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- NEW CHANCE PACK 4 -->
+	<event>
+		<id>35017</id>
+		<name>You Can't Sea Me Chance Pack</name>
+		<banner_prefab>event_020_bge_quest_banner</banner_prefab>
+		<bundle>82</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2699</event_box>
+		<!-- Second Monday -->
+		<start_time>1698080400</start_time> <!-- Monday, 23 October 2023 -->
+		<end_duration>5760</end_duration> <!-- 4 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- NEW CHAMPION PACK 5 -->
+	<event>
+		<id>35018</id>
+		<name>Kyviat Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2700</event_box>
+		<!-- Third Thursday -->
+		<start_time>1698339600</start_time> <!-- Thursday, 26 October 2023 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- OLD CHAMPION PACK 6 -->
+	<event>
+		<id>35019</id>
+		<name>Armada Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2701</event_box>
+		<!-- Third Monday -->
+		<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- OLD CHAMPION PACK 7 -->
+	<event>
+		<id>35020</id>
+		<name>Ghessela Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2702</event_box>
+		<!-- Fourth Thursday -->
+		<start_time>1698944400</start_time> <!-- Thursday, 2 November 2023 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- STEP BOX 8 -->
+	<event>
+		<id>35021</id>
+		<name>Seafolk Angel Step Box</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<step_box>7069</step_box>
+		<!-- Fourth Monday -->
+		<start_time>1699290000</start_time> <!-- Monday, 6 November 2023 -->
+		<end_duration>7200</end_duration> <!-- 5 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- End Event 108 Seafolk BGE Chance/Step Sales -->
+
+	<!-- Begin Event 108 Seafolk BGE Market Sales -->
+	<event>
+		<id>33201</id>
+		<name>Mollusk Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='7154' level='1' />
+		<num_available>4</num_available>
+		<store_item>5337</store_item>
+		<!-- First Tuesday -->
+		<start_time>1697562000</start_time> <!-- Tuesday, 17 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33202</id>
+		<name>Bailong Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='6106' level='1' />
+		<num_available>4</num_available>
+		<store_item>5338</store_item>
+		<!-- Second Sunday -->
+		<start_time>1697994000</start_time> <!-- Sunday, 22 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33203</id>
+		<name>Lanternbulb Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='5237' level='1' />
+		<num_available>4</num_available>
+		<store_item>5339</store_item>
+		<!-- Third Friday -->
+		<start_time>1698426000</start_time> <!-- Friday, 27 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33204</id>
+		<name>Boilfin Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='6225' level='1' />
+		<num_available>4</num_available>
+		<store_item>5340</store_item>
+		<!-- Fourth Saturday -->
+		<start_time>1699117200</start_time> <!-- Saturday, 4 November 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33205</id>
+		<name>Chest of Bounty Unlimited</name>
+		<desc>Includes four Bounty Refill +10 and 1500 gold! May be purchased an unlimited number of times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<banner>1</banner>
+		<store_item>5124</store_item>
+		<!-- First Sunday -->
+		<start_time>1697389200</start_time> <!-- Sunday, 15 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33206</id>
+		<name>Limitless Windsoul Stockpile</name>
+		<desc>Includes 200 Windsouls! May be purchased an unlimited amount of times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5150</store_item>
+		<!-- Second Friday -->
+		<start_time>1697821200</start_time> <!-- Friday, 20 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33207</id>
+		<name>Dungeon Survival Bundle</name>
+		<desc>Includes three Dungeon Refill +20 items, an Epic Pack, and 2000 gold. May be purchased 5 times.</desc>
+		<asset_prefab>dungeon_refill_box</asset_prefab>
+		<asset_bundle>31</asset_bundle>
+		<num_available>5</num_available>
+		<store_item>5045</store_item>
+		<!-- Second Monday -->
+		<start_time>1698080400</start_time> <!-- Monday, 23 October 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33208</id>
+		<name>Limitless Brinesoul Stockpile</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5100</store_item>
+		<!-- Fourth Friday -->
+		<start_time>1699030800</start_time> <!-- Friday, 3 November 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33209</id>
+		<name>Unlimited Energy Refill Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5108</store_item>
+		<!-- Fourth Sunday -->
+		<start_time>1699203600</start_time> <!-- Sunday, 5 November 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33210</id>
+		<name>Limitless Embersoul Stockpile</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5098</store_item>
+		<!-- Fourth Wednesday -->
+		<start_time>1699462800</start_time> <!-- Wednesday, 8 November 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<!-- End Event 108 Seafolk BGE Market Sales -->
+
+	<!-- Global News -->
+	<event>
+		<id>10175</id>
+		<news>1</news>
+		<name>Seafolk Card Updates!</name>
+		<desc>A number of Seafolk cards have had their stats increased! You can use the Resummon feature to get them back at a discounted price for a limited time! Join the Official Discord for more information!</desc>
+		<portrait>lanternguardian</portrait>
+		<banner_prefab>maintenance_Banner</banner_prefab>
+		<hide_upcoming>1</hide_upcoming>
+		<bundle>21</bundle>
+		<!-- First Thursday -->
+		<start_time>1697130000</start_time> <!-- Thursday, 12 October 2023 -->
+		<end_duration>14400</end_duration> <!-- 10 Days -->
+		<view_url>https://discord.gg/kongregate</view_url>
+	</event>
+
+	<!-- Arena Chest -->
+	<event>
+		<id>11096</id>
+		<name>Seafolk Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<asset_bundle>76</asset_bundle>
+		<banner_prefab>generic_chance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-40</priority>
+		<event_box>6093</event_box>
+		<!-- First Thursday -->
+		<start_time>1697130000</start_time> <!-- Thursday, 12 October 2023 -->
+		<end_duration>40320</end_duration> <!-- 40320 | 28 Days -->
+		<mission_req>64</mission_req>
+	</event>
+
 	<!-- BUNDLE END -->
 
 <!-- |||||||||||||||||||||||||||||||||||||||||||||||| -->
@@ -45151,7 +45621,7 @@
 	<event>
 		<id>6108</id>
 		<name>Eye of the Maelstrom</name>
-		<desc>All Seafolk gain Mark equal to 15% base health. 3-4D Seafolk also gain Regenerate for 15% base health. This BGE is subject to change.</desc>
+		<desc>All Seafolk gain Mark equal to 15% base health. 3-4D Seafolk also gain Regenerate for 15% base health.</desc>
 		<banner_prefab>event_020_seafolk_quest</banner_prefab>
 		<bundle>82</bundle>
 		<effect>
@@ -46323,6 +46793,40 @@
 		<end_time>1697130000</end_time> <!-- Thursday, 12 October 2023 at 17:00:00 -->
 		<mission_req>64</mission_req>
 		<priority>1000</priority>
+	</event>
+
+	<!-- Event 108: ComDev Seafolk - New Lightning Node -->
+	<event>
+		<id>9077</id>
+		<name>Lightning Boss Scylla</name>
+		<desc>A time-limited boss node is available at Pharos Temple.</desc>
+		<portrait>Portrait_Mythic_Seafolk</portrait>
+		<banner_prefab>event_020_bge_quest_banner</banner_prefab> <!-- Seafolk Background --> 
+		<bundle>82</bundle> <!-- Seafolk Background -->
+		<type>1</type>
+		<campaign>5004</campaign>
+		<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
+		<end_duration>4320</end_duration>   <!-- 3 Days -->
+		<mission_req>64</mission_req>
+		<priority>1000</priority>
+		<hide_upcoming>1</hide_upcoming>
+	</event>
+
+	<!-- Event 108: ComDev Seafolk - Classic Lightning Node -->
+	<event>
+		<id>9078</id>
+		<name>Classic Lightning Boss Ashanti</name>
+		<desc>A time-limited boss node is available at Seastone Citadel.</desc>
+		<portrait>Portrait_Aereal_Assasin</portrait>
+		<banner_prefab>event8_banner</banner_prefab> <!-- Classic Background --> 
+		<bundle>46</bundle> <!-- Classic Background -->
+		<type>1</type>
+		<campaign>4003</campaign>
+		<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
+		<end_duration>4320</end_duration>   <!-- 3 Days -->
+		<mission_req>64</mission_req>
+		<priority>1000</priority>
+		<hide_upcoming>1</hide_upcoming>
 	</event>
 
 <!-- |||||||||||||||||||||||||||||||||||||||||| -->

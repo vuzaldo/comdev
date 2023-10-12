@@ -30076,4 +30076,321 @@
 		</box_discount>
 	</event_box>
 
+		<!-- OLD CHAMPION PACK 1 -->
+	<event_box>
+		<id>2696</id>
+		<name>Family Champion Pack</name>
+		<desc>Each pull grants 10-15 ^cE7FFFamily Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFThe Dragon Family^cFFFF Champion card!</desc>
+		<asset_prefab>event_96_dragonfamily_championpack</asset_prefab>
+		<background_prefab>event_96_dragonfamily_banner</background_prefab>
+		<bundle>259</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='5198' order='1' /> <!-- Legendary Sea Sky -->
+		<card id='5294' order='2' /> <!-- Legendary Kani -->
+		<card id='6225' order='3' /> <!-- Legendary Boilfin -->
+		<card id='6149' order='4' /> <!-- Epic -->
+		<card id='7109' order='5' /> <!-- Epic -->
+		<card id='5152' order='6' /> <!-- Epic -->
+		<card id='5107' order='7' /> <!-- Epic -->
+		<card id='7167' order='8' /> <!-- Epic -->
+		<card id='5149' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='105638' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 2 -->
+	<event_box>
+		<id>2697</id>
+		<name>Jormun Champion Pack</name>
+		<desc>Each pull grants 10-15 ^cE7FFJormun Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFJormun, the Ravager^cFFFF Champion card!</desc>
+		<asset_prefab>event_87_whirlpoolserpent_championpack</asset_prefab>
+		<background_prefab>event_87_whirlpoolserpent_banner</background_prefab>
+		<bundle>241</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='5285' order='1' /> <!-- Legendary Peng -->
+		<card id='5095' order='2' /> <!-- Legendary Silurigon -->
+		<card id='7091' order='3' /> <!-- Legendary Plunderer -->
+		<card id='7149' order='4' /> <!-- Epic -->
+		<card id='5073' order='5' /> <!-- Epic -->
+		<card id='6150' order='6' /> <!-- Epic -->
+		<card id='7107' order='7' /> <!-- Epic -->
+		<card id='5149' order='8' /> <!-- Epic -->
+		<card id='7167' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='106618' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 3 -->
+	<event_box>
+		<id>2698</id>
+		<name>Kandrula Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFKandrula Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFKandrula, the Sly^cFFFF Champion card!</desc>
+		<asset_prefab>event_87_nagawitch_championpack</asset_prefab>
+		<background_prefab>event_87_nagawitch_banner</background_prefab>
+		<bundle>241</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='6151' order='1' /> <!-- Legendary Cetus -->
+		<card id='5150' order='2' /> <!-- Legendary Brinespear -->
+		<card id='7104' order='3' /> <!-- Legendary Ribbitor -->
+		<card id='7167' order='4' /> <!-- Epic -->
+		<card id='5073' order='5' /> <!-- Epic -->
+		<card id='7066' order='6' /> <!-- Epic -->
+		<card id='6150' order='7' /> <!-- Epic -->
+		<card id='7151' order='8' /> <!-- Epic -->
+		<card id='5108' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='105629' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHANCE PACK 4 -->
+	<event_box>
+		<id>2699</id>
+		<name>You Can't Sea Me Chance Pack</name> <!-- UPDATE DESC -->
+		<desc>Pull from an assortment of amazing INVISIBLE Seafolk!  Your enemies won't see you coming!!</desc>
+		<asset_prefab>event_020_chest_w3</asset_prefab>
+		<background_prefab>event_020_banner_w3</background_prefab>
+		<bundle>82</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='7108' order='1' /> <!-- Legendary Quetee -->
+		<card id='5283' order='2' /> <!-- Legendary Ice Destroyers -->
+		<card id='6148' order='3' /> <!-- Legendary Narwhal -->
+		<card id='7025' order='4' /> <!-- Legendary Webtalon -->
+		<card id='7005' order='5' /> <!-- Epic -->
+		<card id='7005' order='6' /> <!-- Epic -->
+		<card id='6110' order='7' /> <!-- Epic -->
+		<card id='6110' order='8' /> <!-- Epic -->
+		<card id='6108' order='9' /> <!-- Epic -->
+		<card id='6108' order='10' /> <!-- Epic -->
+		<box_discount>
+			<box_discount_id>1</box_discount_id>
+			<name>Scout's Deal</name>
+			<desc>Four cards at once for a low price! Limit one per chance pack.</desc>
+			<hc_cost>120</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3'/>
+			</cards>
+		</box_discount>
+		<box_discount>
+			<box_discount_id>2</box_discount_id>
+			<name>Adventurer's Deal</name>
+			<desc>Ten cards at once with two guaranteed Legendary cards! Limit one per chance pack.</desc>
+			<hc_cost>400</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='4' />
+				<card min_rarity='4' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 5 -->
+	<event_box>
+		<id>2700</id>
+		<name>Kyviat Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFKyviat Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFKyviat, the Aquamancer^cFFFF Champion card!</desc>
+		<asset_prefab>event_070_aquamancer</asset_prefab>
+		<background_prefab>event_070_banner_aquamancer</background_prefab>
+		<bundle>206</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='5197' order='1' /> <!-- Legendary Deepcharge -->
+		<card id='7014' order='2' /> <!-- Legendary Genbu -->
+		<card id='7023' order='3' /> <!-- Legendary Zolmosh -->
+		<card id='6149' order='4' /> <!-- Epic -->
+		<card id='5041' order='5' /> <!-- Epic -->
+		<card id='7107' order='6' /> <!-- Epic -->
+		<card id='5011' order='7' /> <!-- Epic -->
+		<card id='6135' order='8' /> <!-- Epic -->
+		<card id='5107' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='107615' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 6 -->
+	<event_box>
+		<id>2701</id>
+		<name>Armada Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFArmada Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFThe Undead Armada^cFFFF Champion card!</desc>
+		<asset_prefab>event_96_undeadarmada_championpack</asset_prefab>
+		<background_prefab>event_96_undeadarmada_banner</background_prefab>
+		<bundle>259</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='6198' order='1' /> <!-- Legendary Rattleclank -->
+		<card id='5244' order='2' /> <!-- Legendary Scaupus -->
+		<card id='7194' order='3' /> <!-- Legendary Coralscape -->
+		<card id='5011' order='4' /> <!-- Epic -->
+		<card id='5073' order='5' /> <!-- Epic -->
+		<card id='6150' order='6' /> <!-- Epic -->
+		<card id='5152' order='7' /> <!-- Epic -->
+		<card id='6108' order='8' /> <!-- Epic -->
+		<card id='7109' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='106626' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- OLD CHAMPION PACK 7 -->
+	<event_box>
+		<id>2702</id>
+		<name>Ghessela Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFMirrormage Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFMirrormage Ghessela^cFFFF Champion card!</desc>
+		<asset_prefab>event_048_champion_mirrormermaid</asset_prefab>
+		<background_prefab>event_048_banner_mirrormermaid</background_prefab>
+		<bundle>153</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='5284' order='1' /> <!-- Legendary Terriers -->
+		<card id='5106' order='2' /> <!-- Legendary Acuro -->
+		<card id='7261' order='3' /> <!-- Legendary Rayren -->
+		<card id='5149' order='4' /> <!-- Epic -->
+		<card id='7066' order='5' /> <!-- Epic -->
+		<card id='5107' order='6' /> <!-- Epic -->
+		<card id='7005' order='7' /> <!-- Epic -->
+		<card id='6135' order='8' /> <!-- Epic -->
+		<card id='7149' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='105604' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+
 </root>

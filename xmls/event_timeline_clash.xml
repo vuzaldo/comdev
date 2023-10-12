@@ -66662,4 +66662,616 @@
   </event_reward>
 </event>
 
+<!-- ======== Event 108 Seafolk BGE Clash & Guild Clash ======== -->
+<event>
+  <id>22204</id> <!-- HERE -->
+  <name>Mutated Clash</name> <!-- HERE -->
+  <desc>Defeat tough enemies to earn stars and rewards!  All enemies start with a Castle Tower card in play! Attack recharges stop 11 hours before event end!</desc>
+  <type>4</type>
+  <priority>300</priority>
+    <portrait>bountyhunter</portrait>
+    <list_image name='challenge_banner_clash' bundle='116'/>
+    <points_icon>single_star</points_icon>
+    <points_bundle>31</points_bundle>
+  <banner_prefab>Banner_GenericBrawl</banner_prefab>
+  <start_time>1697216400</start_time>         <!-- Friday, October 13, 2023 at 17:00:00 --> <!-- HERE -->
+  <recharge_duration>3660</recharge_duration>     <!-- 3660 | 2 Days 13 Hours -->
+  <tracking_duration>4320</tracking_duration>     <!-- 4320 | 3 Days -->
+  <claim_delay>5</claim_delay>
+  <end_duration>8640</end_duration>         <!-- 8640 | 6 Days -->
+  <max_energy>60</max_energy>
+  <starting_energy>20</starting_energy>
+  <recharge_time>1800</recharge_time>
+  <view_action>1</view_action>
+  <mission_req>64</mission_req>
+  <effect clash_only='1'>
+    <bg_effect>501</bg_effect>
+  </effect>
+  <map_node>
+    <map>11</map> <!-- Select map for Clash Node to appear --> <!-- HERE -->
+        <x>120</x> <!-- left right --> <!-- HERE -->
+        <y>450</y> <!-- up down --> <!-- HERE -->
+  </map_node>
+  <event_reward>
+    <tier>1</tier>
+    <req>
+      <min_rank>25</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='600' /> <!-- Legendary Stones --> <!-- HERE -->
+    <item id='2803' quantity='300' /> <!-- Champion Flask --> <!-- HERE -->
+    <unit id='11644' level='6' /> <!-- Legendary Card #1 --> <!-- HERE -->
+    <unit id='12104' level='5' /> <!-- Epic Card #1 --> <!-- HERE -->
+    <item id='18' quantity='1000' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='2001' quantity='20' /> <!-- Arcane Fragment -->
+    <item id='1012' quantity='12' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <tier>2</tier>
+    <req>
+      <min_rank>50</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='400' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='200' /> <!-- Champion Flask -->
+    <unit id='11644' level='6' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='5' /> <!-- Epic Card #1 -->
+    <item id='18' quantity='1000' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='2001' quantity='20' /> <!-- Arcane Fragment -->
+    <item id='1012' quantity='12' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <tier>3</tier>
+    <req>
+      <min_rank>100</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='350' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='175' /> <!-- Champion Flask -->
+    <unit id='11644' level='6' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='5' /> <!-- Epic Card #1 -->
+    <item id='18' quantity='800' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='2001' quantity='18' /> <!-- Arcane Fragment -->
+    <item id='1012' quantity='10' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <tier>4</tier>
+    <req>
+      <min_rank>150</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='250' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='125' /> <!-- Champion Flask -->
+    <unit id='11644' level='5' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='5' /> <!-- Epic Card #1 -->
+    <item id='18' quantity='700' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='2001' quantity='16' /> <!-- Arcane Fragment -->
+    <item id='1012' quantity='9' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <tier>5</tier>
+    <req>
+      <min_rank>200</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='225' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='115' /> <!-- Champion Flask -->
+    <unit id='11644' level='5' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='5' /> <!-- Epic Card #1 -->
+    <item id='18' quantity='600' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='2001' quantity='14' /> <!-- Arcane Fragment -->
+    <item id='1012' quantity='8' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <tier>6</tier>
+    <req>
+      <min_rank>250</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='200' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='100' /> <!-- Champion Flask -->
+    <unit id='11644' level='5' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='5' /> <!-- Epic Card #1 -->
+    <item id='18' quantity='500' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='2001' quantity='12' /> <!-- Arcane Fragment -->
+    <item id='1012' quantity='7' /> <!-- Gold Bar -->
+    <item id='1011' quantity='2' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <tier>7</tier>
+    <req>
+      <min_rank>350</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='175' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='90' /> <!-- Champion Flask -->
+    <unit id='11644' level='4' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='4' /> <!-- Epic Card #1 -->
+    <item id='18' quantity='400' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='2001' quantity='12' /> <!-- Arcane Fragment -->
+    <item id='1012' quantity='7' /> <!-- Gold Bar -->
+    <item id='1011' quantity='2' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <tier>8</tier>
+    <req>
+      <min_rank>500</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='150' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='75' /> <!-- Champion Flask -->
+    <unit id='11644' level='4' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='4' /> <!-- Epic Card #1 -->
+    <item id='18' quantity='300' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='2001' quantity='12' /> <!-- Arcane Fragment -->
+    <item id='1012' quantity='6' /> <!-- Gold Bar -->
+    <item id='1011' quantity='1' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <tier>9</tier>
+    <req>
+      <min_rank>750</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='125' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='65' /> <!-- Champion Flask -->
+    <unit id='11644' level='3' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='3' /> <!-- Epic Card #1 -->
+    <item id='18' quantity='200' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='2001' quantity='10' /> <!-- Arcane Fragment -->
+    <item id='1012' quantity='5' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <tier>10</tier>
+    <req>
+      <min_rank>1000</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='100' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='50' /> <!-- Champion Flask -->
+    <unit id='11644' level='3' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='3' /> <!-- Epic Card #1 -->
+    <item id='18' quantity='100' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
+    <unit id='510' level='1' /> <!-- Arcane Chunk -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1012' quantity='3' /> <!-- Gold Bar -->
+    <item id='1011' quantity='2' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <tier>11</tier>
+    <req>
+      <min_rank>2000</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='75' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='40' /> <!-- Champion Flask -->
+    <unit id='11644' level='2' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='2' /> <!-- Epic Card #1 -->
+    <item id='17' quantity='500' /> <!-- Epic Pack Fragment -->
+    <unit id='510' level='1' /> <!-- Arcane Chunk -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1012' quantity='3' /> <!-- Gold Bar -->
+    <item id='1011' quantity='2' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <tier>12</tier>
+    <req>
+      <min_rank>3500</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='50' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='25' /> <!-- Champion Flask -->
+    <unit id='11644' level='2' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='2' /> <!-- Epic Card #1 -->
+    <item id='17' quantity='300' /> <!-- Epic Pack Fragment -->
+    <unit id='510' level='1' /> <!-- Arcane Chunk -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1002' quantity='1' /> <!-- Energy Refill +5 -->
+    <item id='1012' quantity='2' /> <!-- Gold Bar -->
+    <item id='1011' quantity='2' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <tier>13</tier>
+    <req>
+      <min_rank>5000</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='25' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='15' /> <!-- Champion Flask -->
+    <unit id='11644' level='1' /> <!-- Legendary Card #1 -->
+    <unit id='12104' level='1' /> <!-- Epic Card #1 -->
+    <item id='17' quantity='200' /> <!-- Epic Pack Fragment -->
+    <unit id='510' level='1' /> <!-- Arcane Chunk -->
+    <item id='1003' quantity='1' /> <!-- Energy Refill +10 -->
+    <item id='1012' quantity='2' /> <!-- Gold Bar -->
+    <item id='1011' quantity='1' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <tier>14</tier>
+    <req>
+      <min_rank>7500</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='10' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='5' /> <!-- Champion Flask -->
+    <unit id='1644' level='1' /> <!-- Legendary Card #1 --> <!-- HERE -->
+    <unit id='2104' level='1' /> <!-- Epic Card #1 --> <!-- HERE -->
+    <item id='17' quantity='100' /> <!-- Epic Pack Fragment -->
+    <unit id='510' level='1' /> <!-- Arcane Chunk -->
+    <item id='1002' quantity='1' /> <!-- Energy Refill +5 -->
+    <item id='1012' quantity='2' /> <!-- Gold Bar -->
+    <item id='1011' quantity='1' /> <!-- Gold Nugget -->
+  </event_reward>
+</event>
+
+<event>
+  <id>22205</id> <!-- HERE -->
+  <name>Triton's Call Guild Clash</name> <!-- HERE -->
+  <desc>Defeat tough enemies to earn stars and rewards with your guild! All enemies start with a Cannon Tower card in play! Attack recharges stop 11 hours before event end!</desc>
+  <type>4</type>
+  <priority>300</priority>
+  <guild_event>1</guild_event>
+    <portrait>bountyhunter</portrait>
+    <list_image name='challenge_banner_clash_guild' bundle='116'/>
+    <points_icon>single_star</points_icon>
+    <points_bundle>31</points_bundle>
+    <attack_icon>guild_clash_icon</attack_icon>
+    <scroll_prefab>clash_scroll_guild</scroll_prefab>
+    <commander_background>Clash_Guild_mat</commander_background>
+    <energy_bar>bar_fill_blue</energy_bar>
+    <banner_prefab>guild_clash_banner</banner_prefab>
+    <bundle>31</bundle>
+  <start_time>1697821200</start_time>         <!-- Friday, October 20, 2023 at 17:00:00 --> <!-- HERE -->
+  <recharge_duration>3660</recharge_duration>     <!-- 3660 | 2 Days 13 Hours -->
+  <tracking_duration>4320</tracking_duration>     <!-- 4320 | 3 Days -->
+  <claim_delay>5</claim_delay>
+  <end_duration>8640</end_duration>         <!-- 8640 | 6 Days -->
+  <max_energy>60</max_energy>
+  <starting_energy>20</starting_energy>
+  <recharge_time>1800</recharge_time>
+  <view_action>1</view_action>
+  <mission_req>64</mission_req>
+  <effect clash_only='1'>
+    <bg_effect>502</bg_effect>
+  </effect>
+  <map_node>
+    <map>11</map> <!-- Select map for Clash Node to appear --> <!-- HERE -->
+      <x>120</x> <!-- left right --> <!-- HERE -->
+      <y>450</y> <!-- up down --> <!-- HERE -->
+  </map_node>
+  <event_reward>
+    <desc>Complete the Clash at Rank 1 or higher.</desc>
+    <tier>1</tier>
+    <req>
+      <min_points>210</min_points>
+      <min_rank>1</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='600' /> <!-- Legendary Stones -->  <!-- HERE -->
+    <item id='2803' quantity='300' /> <!-- Champion Flask --> <!-- HERE -->
+    <unit id='11045' level='6' /> <!-- Legendary Card #2 --> <!-- HERE -->
+    <unit id='12178' level='5' /> <!-- Epic Card #2 --> <!-- HERE -->
+    <item id='18' quantity='1500' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1023' quantity='2' /> <!-- Bounty Refill +5 -->
+    <item id='1012' quantity='12' /> <!-- Gold Bar -->
+    <item id='1011' quantity='6' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 2 or higher.</desc>
+    <tier>2</tier>
+    <req>
+      <min_points>210</min_points>
+      <min_rank>2</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='450' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='225' /> <!-- Champion Flask -->
+    <unit id='11045' level='6' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='5' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='1500' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1023' quantity='2' /> <!-- Bounty Refill +5 -->
+    <item id='1012' quantity='10' /> <!-- Gold Bar -->
+    <item id='1011' quantity='6' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 3 or higher.</desc>
+    <tier>3</tier>
+    <req>
+      <min_points>210</min_points>
+      <min_rank>3</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='375' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='190' /> <!-- Champion Flask -->
+    <unit id='11045' level='6' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='5' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='1500' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1023' quantity='2' /> <!-- Bounty Refill +5 -->
+    <item id='1012' quantity='9' /> <!-- Gold Bar -->
+    <item id='1011' quantity='6' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 5 or higher.</desc>
+    <tier>4</tier>
+    <req>
+      <min_points>195</min_points>
+      <min_rank>5</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='300' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='150' /> <!-- Champion Flask -->
+    <unit id='11045' level='5' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='5' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='1500' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
+    <item id='1012' quantity='7' /> <!-- Gold Bar -->
+    <item id='1011' quantity='6' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 7 or higher.</desc>
+    <tier>5</tier>
+    <req>
+      <min_points>180</min_points>
+      <min_rank>7</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='240' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='120' /> <!-- Champion Flask -->
+    <unit id='11045' level='5' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='5' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='1350' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
+    <item id='1012' quantity='7' /> <!-- Gold Bar -->
+    <item id='1011' quantity='6' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 10 or higher.</desc>
+    <tier>6</tier>
+    <req>
+      <min_points>170</min_points>
+      <min_rank>10</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='195' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='100' /> <!-- Champion Flask -->
+    <unit id='11045' level='5' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='5' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='1200' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
+    <item id='1012' quantity='7' /> <!-- Gold Bar -->
+    <item id='1011' quantity='6' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 15 or higher.</desc>
+    <tier>7</tier>
+    <req>
+      <min_points>160</min_points>
+      <min_rank>15</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='150' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='75' /> <!-- Champion Flask -->
+    <unit id='11045' level='4' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='4' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='1050' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
+    <item id='1012' quantity='6' /> <!-- Gold Bar -->
+    <item id='1011' quantity='4' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 20 or higher.</desc>
+    <tier>8</tier>
+    <req>
+      <min_points>150</min_points>
+      <min_rank>20</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='105' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='55' /> <!-- Champion Flask -->
+    <unit id='11045' level='4' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='4' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='900' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
+    <item id='1012' quantity='6' /> <!-- Gold Bar -->
+    <item id='1011' quantity='3' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 40 or higher.</desc>
+    <tier>9</tier>
+    <req>
+      <min_points>140</min_points>
+      <min_rank>40</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='75' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='40' /> <!-- Champion Flask -->
+    <unit id='11045' level='3' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='3' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='750' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
+    <item id='1012' quantity='6' /> <!-- Gold Bar -->
+    <item id='1011' quantity='3' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 70 or higher.</desc>
+    <tier>10</tier>
+    <req>
+      <min_points>130</min_points>
+      <min_rank>70</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='45' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='25' /> <!-- Champion Flask -->
+    <unit id='11045' level='3' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='3' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='450' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
+    <item id='1012' quantity='4' /> <!-- Gold Bar -->
+    <item id='1011' quantity='6' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 100 or higher.</desc>
+    <tier>11</tier>
+    <req>
+      <min_points>120</min_points>
+      <min_rank>100</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='30' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='15' /> <!-- Champion Flask -->
+    <unit id='11045' level='2' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='2' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='300' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
+    <item id='1012' quantity='4' /> <!-- Gold Bar -->
+    <item id='1011' quantity='4' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 150 or higher.</desc>
+    <tier>12</tier>
+    <req>
+      <min_points>105</min_points>
+      <min_rank>150</min_rank>
+    </req>
+    <display_item>0</display_item>
+    <item id='104076' quantity='15' /> <!-- Legendary Stones -->
+    <item id='2803' quantity='10' /> <!-- Champion Flask -->
+    <unit id='11045' level='2' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='2' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='150' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='1125' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
+    <item id='1012' quantity='4' /> <!-- Gold Bar -->
+    <item id='1011' quantity='3' /> <!-- Gold Nugget -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 250 or higher.</desc>
+    <tier>13</tier>
+    <req>
+      <min_points>90</min_points> <!-- 15 -->
+      <min_rank>250</min_rank> <!-- 1300 -->
+    </req>
+    <unit id='11045' level='1' /> <!-- Legendary Card #2 -->
+    <unit id='12178' level='1' /> <!-- Epic Card #2 -->
+    <item id='18' quantity='75' /> <!-- Legendary Pack Fragment -->
+    <item id='17' quantity='750' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
+    <item id='1012' quantity='4' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 350 or higher.</desc>
+    <tier>14</tier>
+    <req>
+      <min_points>60</min_points>
+      <min_rank>350</min_rank>
+    </req>
+    <unit id='1045' level='1' /> <!-- Legendary Card #2 --> <!-- HERE -->
+    <unit id='2178' level='1' /> <!-- Epic Card #2 --> <!-- HERE -->
+    <item id='17' quantity='375' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
+    <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
+    <item id='1012' quantity='3' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 500 or higher.</desc>
+    <tier>15</tier>
+    <req>
+      <min_points>45</min_points>
+      <min_rank>500</min_rank>
+    </req>
+    <unit id='510' level='1' /> <!-- Arcane Chunk -->
+    <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
+    <item id='1012' quantity='3' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 750 or higher.</desc>
+    <tier>16</tier>
+    <req>
+      <min_points>30</min_points>
+      <min_rank>1000</min_rank>
+    </req>
+    <unit id='510' level='1' /> <!-- Arcane Chunk -->
+    <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
+    <item id='1012' quantity='1' /> <!-- Gold Bar -->
+  </event_reward>
+  <event_reward>
+    <desc>Complete the Clash at Rank 1000 or higher.</desc>
+    <tier>17</tier>
+    <req>
+      <min_points>15</min_points>
+      <min_rank>2000</min_rank>
+    </req>
+    <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
+    <item id='1011' quantity='3' /> <!-- Gold Nugget -->
+  </event_reward>
+</event>
+
 </root>

@@ -172,6 +172,16 @@
 		<consume>100</consume>
 		<give_pack>89</give_pack>
 	</item>
+	<item>
+		<id>20</id>
+		<name>Arena Trophy</name>
+		<icon>ArenaIcon</icon>
+		<bundle>31</bundle>
+		<desc>Collect three Trophies to craft a Double Legendary Reward Pack!</desc>
+		<quantity_cap>50</quantity_cap>
+		<consume>3</consume>
+		<give_pack>45</give_pack>
+	</item>
 
     <!-- 91-100 TEST ITEMS -->
 
@@ -504,6 +514,26 @@
     	<give_card id='2033' level='1' />
     	<auto_use>1</auto_use>		<!-- automatically use this on init -->
     </item>
+
+	<item>
+		<id>531</id>
+		<name>Special Event Mystery Package</name>
+		<icon>package</icon>
+		<desc>A choice of either a random premium Quad Legendary card, a random Legendary rune, or 500 Stones for a random Champion.</desc>
+		<choice id="1">
+			<pack>3108</pack> <!-- Random Premium Quad Legendary -->
+		</choice>
+		<choice id="2">
+			<pack>87</pack> <!-- Random Legendary Rune -->
+		</choice>
+		<choice id="3">
+			<pack>98</pack> <!-- 500 Stones for Random Reward Champion -->
+		</choice>
+		<choice id="4">
+			<pack>99</pack> <!-- 500 Stones for Random Premium Champion -->
+		</choice>
+		<auto_use>1</auto_use>
+	</item>
 
 
     <!-- 1001-2000 CONSUMABLES START -->
@@ -6199,8 +6229,8 @@
 		<id>4002</id>
 		<name>Universal Solvent</name>
 		<type>2</type>
-		<icon>arcane_vapor</icon>
-		<bundle>17</bundle>
+		<icon>rubedo_vapor</icon>
+		<bundle>279</bundle>
 		<desc>Used for crafting Legendary Rewards. Purchased from the Store.</desc>
 		<usable>0</usable>
 	</item>
