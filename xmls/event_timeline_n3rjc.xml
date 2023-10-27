@@ -45633,6 +45633,21 @@
 		<mission_req>64</mission_req>
 	</event>
 
+	<event>
+		<id>6109</id>
+		<name>Angels and Demons</name>
+		<desc>All Angels gain Vampirism equal to 5% base Health plus 2. When an Angel dies it creates a Summoned Demon token creature with 75% Attack and Health of the Angel that died. The token has Invisibility and Legion based on its rarity. This BGE effect is subject to change.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>171</bg_effect>
+		</effect>
+		<start_time>1699549200</start_time> <!-- Thursday, November 09, 2023 at 17:00:00 -->
+		<end_time>1704387600</end_time> <!-- Thursday, January 04, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
 	<!-- BGE END -->
 
 <!-- |||||||||||||||||||||||||||||||||||||||||||| -->
@@ -46827,6 +46842,22 @@
 		<mission_req>64</mission_req>
 		<priority>1000</priority>
 		<hide_upcoming>1</hide_upcoming>
+	</event>
+
+	<!-- Halloween Special Event 2023 -->
+	<event>
+		<id>9079</id>
+		<name>Halloween Trick or Treat</name>
+		<desc>A time-limited campaign in Pharos Temple! It promises a special treat but will there be a spooky ending?</desc>
+		<portrait>pumpkingPortrait</portrait>
+		<banner_prefab>hallowed_quest_banner</banner_prefab>
+		<bundle>25</bundle>
+		<type>1</type>
+		<campaign>5005</campaign>
+		<start_time>1698339600</start_time> <!-- Thursday, 26 October 2023 at 17:00:00 -->
+		<end_duration>10080</end_duration>   <!-- 7 Days -->
+		<mission_req>64</mission_req>
+		<priority>1000</priority>
 	</event>
 
 <!-- |||||||||||||||||||||||||||||||||||||||||| -->
