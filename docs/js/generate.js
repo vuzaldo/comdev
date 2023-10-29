@@ -644,7 +644,8 @@ const autoSelectEventOptions = {
 	105: { tribe: 'Insect', map: 'Distorted Beetleton' },
 	106: { tribe: 'Goblin', map: 'Return to Karthos' },
 	107: { tribe: 'Elemental', map: 'Conflux Convergence', flask: '2802' },
-	108: { tribe: 'Seafolk', map: 'Pharos Temple', flask: '2803' }
+	108: { tribe: 'Seafolk', map: 'Pharos Temple', flask: '2803' },
+	109: { tribe: 'Angel', map: 'Skyhaven Assault', flask: '2816' },
 };
 
 function findSelectorOption(selector, option) {
