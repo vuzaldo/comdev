@@ -115,8 +115,8 @@ const legendaries = Object.values(CARDS).filter(c => c.card_type == 2 && c.rarit
 console.log(`\n${legendaries.length} legendary cards`);
 const standardLegendaries = legendaries.filter(c => c.set == 1000);
 console.log(`${standardLegendaries.length} standard legendaries`);
-const rewardLegendaries = legendaries.filter(c => c.set == 2000);
-console.log(`${rewardLegendaries.length} reward legendaries`);
+// const rewardLegendaries = legendaries.filter(c => c.set == 2000);
+// console.log(`${rewardLegendaries.length} reward legendaries`);
 const epics = Object.values(CARDS).filter(c => c.card_type == 2 && c.rarity == 3 && !c.mythic); // exclude mythics
 console.log(`${epics.length} epics`);
 const rewardEpics = epics.filter(c => c.set == 2000);
@@ -180,7 +180,7 @@ function generate() {
 	generateInput('Legendary1', legendaries[0]);
 	generateInput('Legendary3', legendaries[2] ? legendaries[2] : legendaries[0]);
 	generateInput('Legendary2', legendaries[1]);
-	generateInput('rewardLegendary', generateCardList(rewardLegendaries, 1)[0]);
+	// generateInput('rewardLegendary', generateCardList(rewardLegendaries, 1)[0]);
 	const epics = generateCardList(rewardEpics, 3);
 	generateInput('rewardEpic1', epics[0]);
 	generateInput('rewardEpic2', epics[1]);
@@ -422,9 +422,9 @@ function updateParameters() {
 	}
 	template = 'reward_box';
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
-	const cardId = document.getElementById('rewardLegendary').value;
-	parameters[template]['LEGENDARY_CARD'] = cardId;
-	parameters[template]['LEGENDARY_CARD_COMMENT'] = id2Card(cardId, 0, 4, true);
+	// const cardId = document.getElementById('rewardLegendary').value;
+	// parameters[template]['LEGENDARY_CARD'] = cardId;
+	// parameters[template]['LEGENDARY_CARD_COMMENT'] = id2Card(cardId, 0, 4, true);
 	for (let i = 1; i < 4; i++) {
 		const cardId = document.getElementById(`rewardEpic${i}`).value;
 		parameters[template][`EPIC_CARD_${i}`] = cardId;

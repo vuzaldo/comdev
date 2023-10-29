@@ -332,7 +332,7 @@ document.querySelectorAll('textarea.code').forEach(textArea => {
 	editors['event_timeline_' + e].getWrapperElement().style.minHeight = '15rem';
 });
 editors['reward_box'].getWrapperElement().style.minHeight = '31rem';
-editors['event_timeline_clash'].getWrapperElement().style.minHeight = '31rem';
+editors['event_timeline_clash'].getWrapperElement().style.minHeight = '34rem';
 editors['event_timeline_dungeons'].getWrapperElement().style.minHeight = '60rem';
 
 function refreshEditors() {
