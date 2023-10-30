@@ -45636,7 +45636,7 @@
 	<event>
 		<id>6109</id>
 		<name>Angels and Demons</name>
-		<desc>All Angels gain Vampirism equal to 5% base Health plus 2. When an Angel dies it creates a Summoned Demon token creature with 75% Attack and Health of the Angel that died. The token has Invisibility and Legion based on its rarity. This BGE effect is subject to change.</desc>
+		<desc>All Angels gain Vampirism equal to 5% base Health + 2. When an Angel dies it creates a token creature with 75% Attack and Health of the Angel that died. The token has Invisibility and Legion based on its rarity. This BGE is subject to change.</desc>
 		<banner_prefab>event_008_banner</banner_prefab>
 		<bundle>46</bundle>
 		<effect>
@@ -46854,10 +46854,20 @@
 		<bundle>25</bundle>
 		<type>1</type>
 		<campaign>5005</campaign>
+		<achievement_id>3930</achievement_id>
+		<achievement_id>3931</achievement_id>
+		<achievement_id>3932</achievement_id>
+		<achievement_id>3933</achievement_id>
+		<achievement_id>3934</achievement_id>
+		<achievement_id>3935</achievement_id>
+		<achievement_id>3936</achievement_id>
+		<achievement_id>3937</achievement_id>
+		<achievement_id>3938</achievement_id>
+		<achievement_id>3939</achievement_id>
+		<achievement_id>3940</achievement_id>
 		<start_time>1698339600</start_time> <!-- Thursday, 26 October 2023 at 17:00:00 -->
 		<end_duration>10080</end_duration>   <!-- 7 Days -->
 		<mission_req>64</mission_req>
-		<priority>1000</priority>
 	</event>
 
 <!-- |||||||||||||||||||||||||||||||||||||||||| -->

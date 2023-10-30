@@ -535,6 +535,25 @@
 		<auto_use>1</auto_use>
 	</item>
 
+	<item>
+		<id>532</id>
+		<name>Special Event Mystery Package</name>
+		<icon>package</icon>
+		<desc>A choice of either a random premium Quad Legendary card, a random Legendary rune, or 500 Stones for a random Champion.</desc>
+		<choice id="1">
+			<pack>3108</pack> <!-- Random Premium Quad Legendary -->
+		</choice>
+		<choice id="2">
+			<pack>87</pack> <!-- Random Legendary Rune -->
+		</choice>
+		<choice id="3">
+			<pack>98</pack> <!-- 500 Stones for Random Reward Champion -->
+		</choice>
+		<choice id="4">
+			<pack>99</pack> <!-- 500 Stones for Random Premium Champion -->
+		</choice>
+	</item>
+
 
     <!-- 1001-2000 CONSUMABLES START -->
     <!-- Energy Refills -->
