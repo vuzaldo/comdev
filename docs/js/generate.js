@@ -40,10 +40,10 @@ function hash2deck(hash) {
 	if (!message && deck.length && deck.length < 19) {
 		message = deck.length - 1 + '/18 cards loaded.';
 	}
+	document.getElementById('dungeonDeckHashLink').href = link + hash;
 	if (!message && hash.length == 95) {
 		convertQuads();
 	}
-	document.getElementById('dungeonDeckHashLink').href = link + hash;
 	hashHelp(message);
 }
 function base64encode(id) {
