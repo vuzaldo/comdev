@@ -216,12 +216,15 @@ function escapeXML(text) {
 		}
 	});
 }
+function skipEscape(parameter) {
+	return parameter.includes('_COMMENT') || parameter.includes('EVENT_NAME');
+}
 function updateEditor(template) {
 	let generated = TEMPLATES[template];
 	for (const param in parameters[template]) {
 		const paramRegex = new RegExp(`\\{${param}}`, 'g');
 		let value = parameters[template][param].toString();
-		value = param.includes('_COMMENT') ? value : escapeXML(value);
+		value = skipEscape(param) ? value : escapeXML(value);
 		generated = generated.replace(paramRegex, value);
 	}
 	if (generated != previous[template]) {
