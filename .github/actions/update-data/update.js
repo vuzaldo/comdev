@@ -67,6 +67,15 @@ other = [
 	"tutorial1",
 	"vip_levels"
 	]
+
+localization = [
+	"localization/english",
+	"localization/french",
+	"localization/german",
+	"localization/russian",
+	"localization/spanish",
+	]
+
 obsolete = [
 	"arena",
 	"cards",
@@ -97,7 +106,7 @@ async function downloadFiles(files, dir = '') {
 			fileStream.on('finish', resolve)
 			fileStream.on('error', reject)
 		})
-		if (!fs.readFileSync(filePath).includes('<root>')) {
+		if (!fs.readFileSync(filePath).includes('<root')) {
 			throw new Error('Network/server error')
 		}
 	}
@@ -105,6 +114,8 @@ async function downloadFiles(files, dir = '') {
 async function download() {
 	console.log('\nDownloading XML files:')
 	await downloadFiles(files)
+	console.log('\nLocalization files:')
+	await downloadFiles(localization)
 	console.log('\nObsolete files:')
 	await downloadFiles(obsolete, 'obsolete')
 }
