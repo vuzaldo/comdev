@@ -74,6 +74,11 @@ localization = [
 	"localization/german",
 	"localization/russian",
 	"localization/spanish",
+	"localization/english_images",
+	"localization/french_images",
+	"localization/german_images",
+	"localization/russian_images",
+	"localization/spanish_images"
 	]
 
 obsolete = [
