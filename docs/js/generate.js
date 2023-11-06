@@ -311,9 +311,9 @@ parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
 
 const stoneTiers = {
 	event_timeline_clash: [600, 400, 350, 250, 225, 200, 175, 150, 125, 100, 75, 50, 25, 10],
-	event_timeline_clash_GC: [600, 450, 375, 300, 240, 195, 150, 105, 75, 45, 30, 15],
+	event_timeline_clash_GC: [600, 450, 375, 300, 240, 200, 150, 125, 100, 75, 50, 25],
 	event_timeline_dungeons: [150, 120, 100, 80, 60, 40],
-	event_timeline_wars_clash: [400, 300, 250, 200, 160, 130, 100, 70, 50, 30, 20, 10],
+	event_timeline_wars_clash: [600, 450, 375, 300, 240, 200, 150, 125, 100, 75, 50, 25],
 	event_timeline_expeditions: [1000, 800, 600, 500, 400, 350, 300, 275, 225, 175, 150, 130, 110, 90, 80, 60, 40, 20],
 	event_timeline_brawls: [1000, 800, 600, 500, 400, 350, 300, 275, 225, 175, 150, 130, 110, 90, 80, 60, 40, 20]
 }
