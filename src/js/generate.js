@@ -363,8 +363,8 @@ function updateParameters() {
 	parameters[template]['LEGENDARY_CARD_ID'] = document.getElementById('LegendaryDungeon').value;
 	parameters[template]['LEGENDARY_CARD_ID_2'] = document.getElementById('LegendaryDungeon2').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicDungeon').value;
-	parameters[template]['STONES_MILESTONE_1'] = scaleStones(100, scaleQuantity);
-	parameters[template]['STONES_MILESTONE_2'] = scaleStones(100, scaleQuantity);
+	parameters[template]['STONES_MILESTONE_1'] = scaleStones(150, scaleQuantity);
+	parameters[template]['STONES_MILESTONE_2'] = scaleStones(150, scaleQuantity);
 	eventTribeId && (parameters[template]['EVENT_TRIBE_ID'] = eventTribeId);
 	const tribeRuneId = { 'Angel': 5501, 'Elemental': 5502, 'Undead': 5503, 'Goblin': 5504, 'Dragon': 5505,
 							'Seafolk': 5506, 'Avian': 5507, 'Frog': 5508, 'Mecha': 5509, 'Insect': 5510 }
