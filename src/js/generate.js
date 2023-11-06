@@ -282,6 +282,7 @@ parameters[template]['EVENT_ID'] = dungeonId;
 parameters[template]['START_TIME'] = dungeonStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(dungeonStartTime);
 template = 'event_timeline_wars_clash';
+parameters[template]['EVENT_NUMBER'] = eventNumber;
 parameters[template]['EVENT_ID'] = warId;
 parameters[template]['START_TIME'] = warStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(warStartTime);

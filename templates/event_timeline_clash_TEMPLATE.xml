@@ -25,8 +25,8 @@
   </effect>
   <map_node>
     <map>{MAP_ID}</map> <!-- Select map for Clash Node to appear --> <!-- HERE -->
-        <x>{MAP_X}</x> <!-- left right --> <!-- HERE -->
-        <y>{MAP_Y}</y> <!-- up down --> <!-- HERE -->
+    <x>{MAP_X}</x> <!-- left right --> <!-- HERE -->
+    <y>{MAP_Y}</y> <!-- up down --> <!-- HERE -->
   </map_node>
   <event_reward>
     <tier>1</tier>
@@ -316,8 +316,8 @@
   </effect>
   <map_node>
     <map>{MAP_ID}</map> <!-- Select map for Clash Node to appear --> <!-- HERE -->
-      <x>{MAP_X}</x> <!-- left right --> <!-- HERE -->
-      <y>{MAP_Y}</y> <!-- up down --> <!-- HERE -->
+    <x>{MAP_X}</x> <!-- left right --> <!-- HERE -->
+    <y>{MAP_Y}</y> <!-- up down --> <!-- HERE -->
   </map_node>
   <event_reward>
     <desc>Complete the Clash at Rank 1 or higher.</desc>
@@ -561,6 +561,7 @@
     <unit id='511' level='1' /> <!-- Arcane Ore -->
     <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
     <item id='1012' quantity='4' /> <!-- Gold Bar -->
+    <item id='1011' quantity='3' /> <!-- Gold Nugget -->
   </event_reward>
   <event_reward>
     <desc>Complete the Clash at Rank 350 or higher.</desc>
@@ -583,12 +584,13 @@
       <min_points>45</min_points>
       <min_rank>500</min_rank>
     </req>
-    <unit id='510' level='1' /> <!-- Arcane Chunk -->
+    <item id='17' quantity='250' /> <!-- Epic Pack Fragment -->
+    <unit id='511' level='1' /> <!-- Arcane Ore -->
     <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
     <item id='1012' quantity='3' /> <!-- Gold Bar -->
   </event_reward>
   <event_reward>
-    <desc>Complete the Clash at Rank 750 or higher.</desc>
+    <desc>Complete the Clash at Rank 1000 or higher.</desc>
     <tier>16</tier>
     <req>
       <min_points>30</min_points>
@@ -599,12 +601,13 @@
     <item id='1012' quantity='1' /> <!-- Gold Bar -->
   </event_reward>
   <event_reward>
-    <desc>Complete the Clash at Rank 1000 or higher.</desc>
+    <desc>Complete the Clash at Rank 2000 or higher.</desc>
     <tier>17</tier>
     <req>
       <min_points>15</min_points>
       <min_rank>2000</min_rank>
     </req>
+    <unit id='510' level='1' /> <!-- Arcane Chunk -->
     <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
     <item id='1011' quantity='3' /> <!-- Gold Nugget -->
   </event_reward>
