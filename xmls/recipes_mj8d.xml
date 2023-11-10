@@ -448,69 +448,105 @@
 		<name>Rare Rune</name>
 		<category>2</category>
 		<icon>rune_empty_rare_LG</icon>
-    	<bundle>34</bundle>
-    	<desc>Creates your choice of one of three random Rare Runes when crafted.</desc>
+		<bundle>34</bundle>
+		<desc>Creates your choice of one of four random Rare Runes when crafted.</desc>
 		<disable_multi_craft>1</disable_multi_craft>
 		<choice id='1'>
-        	<rune_drop rarity='2' p='1' set='1' />
-    	</choice>
-    	<choice id='2'>
-        	<rune_drop rarity='2' p='1' set='1' />
-    	</choice>
-    	<choice id='3'>
-        	<rune_drop rarity='2' p='1' set='1' />
-    	</choice>
+			<rune_drop rarity='2' p='1' set='1'/>
+		</choice>
+		<choice id='2'>
+			<rune_drop rarity='2' p='1' set='1'/>
+		</choice>
+		<choice id='3'>
+			<rune_drop rarity='2' p='1' set='1'/>
+		</choice>
+		<choice id='4'>
+			<rune_drop rarity='2' p='1' set='1'/>
+		</choice>
 
-		<item_req id='4011' number='1' />	<!-- Runeshell -->
-		<item_req id='4001' number='5' />	<!-- Inscription Powder -->
-		<item_req id='2001' number='10' />	<!-- Arcane Fragment -->
-		<item_req id='2501' number='40' />	<!-- Bluefire Soul -->
+		<item_req id='4011' number='1'/> <!-- Runeshell -->
+		<item_req id='4001' number='5'/> <!-- Inscription Powder -->
+		<item_req id='2001' number='10'/> <!-- Arcane Fragment -->
+		<item_req id='2501' number='40'/> <!-- Bluefire Soul -->
 	</recipe>
 	<recipe>
 		<id>2002</id>
 		<name>Epic Rune</name>
 		<category>2</category>
 		<icon>rune_empty_epic_LG</icon>
-    	<bundle>34</bundle>
-		<desc>Creates your choice of one of three random Epic Rune when crafted.</desc>
+		<bundle>34</bundle>
+		<desc>Creates your choice of one of four random Epic Runes when crafted.</desc>
 		<disable_multi_craft>1</disable_multi_craft>
 		<choice id='1'>
-        	<rune_drop rarity='3' p='1' set='1' />
-    	</choice>
-    	<choice id='2'>
-        	<rune_drop rarity='3' p='1' set='1' />
-    	</choice>
-    	<choice id='3'>
-        	<rune_drop rarity='3' p='1' set='1' />
-    	</choice>
+			<rune_drop rarity='3' p='1' set='1'/>
+		</choice>
+		<choice id='2'>
+			<rune_drop rarity='3' p='1' set='1'/>
+		</choice>
+		<choice id='3'>
+			<rune_drop rarity='3' p='1' set='1'/>
+		</choice>
+		<choice id='4'>
+			<rune_drop rarity='3' p='1' set='1'/>
+		</choice>
 
-		<item_req id='4012' number='1' />	<!-- Runeshell -->
-		<item_req id='4001' number='20' />	<!-- Inscription Powder -->
-		<item_req id='2001' number='25' />	<!-- Arcane Fragment -->
-		<item_req id='2501' number='120' />	<!-- Bluefire Soul -->
+		<item_req id='4012' number='1'/> <!-- Runeshell -->
+		<item_req id='4001' number='20'/> <!-- Inscription Powder -->
+		<item_req id='2001' number='25'/> <!-- Arcane Fragment -->
+		<item_req id='2501' number='100'/> <!-- Bluefire Soul -->
 	</recipe>
 	<recipe>
 		<id>2003</id>
 		<name>Legendary Rune</name>
 		<category>2</category>
 		<icon>rune_empty_legendary_LG</icon>
-    	<bundle>34</bundle>
-		<desc>Creates your choice of one of three random Legendary Rune when crafted.</desc>
+		<bundle>34</bundle>
+		<desc>Creates your choice of one of four random Legendary Runes from the Main set when crafted: Health; Barrier All, Bolt All, Empower All, Enrage All, Heal All, Hex All, Weaken All; Armor, Berserk, Empower, Fervor, Poison, Scorch, Vengeance.</desc>
 		<disable_multi_craft>1</disable_multi_craft>
 		<choice id='1'>
-        	<rune_drop rarity='4' p='1' set='1' />
-    	</choice>
-    	<choice id='2'>
-        	<rune_drop rarity='4' p='1' set='1' />
-    	</choice>
-    	<choice id='3'>
-        	<rune_drop rarity='4' p='1' set='1' />
-    	</choice>
+			<rune_drop rarity='4' p='1' set='1'/>
+		</choice>
+		<choice id='2'>
+			<rune_drop rarity='4' p='1' set='1'/>
+		</choice>
+		<choice id='3'>
+			<rune_drop rarity='4' p='1' set='1'/>
+		</choice>
+		<choice id='4'>
+			<rune_drop rarity='4' p='1' set='1'/>
+		</choice>
 
-		<item_req id='4013' number='3' />	<!-- Rune Sliver -->
-		<item_req id='4001' number='60' />	<!-- Inscription Powder -->
-		<item_req id='2001' number='75' />	<!-- Arcane Fragment -->
-		<item_req id='2501' number='350' />	<!-- Bluefire Soul -->
+		<item_req id='4013' number='3'/> <!-- Rune Sliver -->
+		<item_req id='4001' number='60'/> <!-- Inscription Powder -->
+		<item_req id='2001' number='75'/> <!-- Arcane Fragment -->
+		<item_req id='2501' number='350'/> <!-- Bluefire Soul -->
+	</recipe>
+		
+	<recipe>
+		<id>2004</id>
+		<name>Legacy Legendary Rune</name>
+		<category>2</category>
+		<icon>rune_empty_legendary_LG</icon>
+		<bundle>34</bundle>
+		<desc>Creates your choice of one of four random Legendary Rune from the Legacy set: (Single target) Barrier, Bolt, Heal, Hex, Weaken; Corrosion, Daze, Frostbreath, Invisibility, Legion, Nullify, Siphon, Valor, Ward.</desc>
+		<disable_multi_craft>1</disable_multi_craft>
+		<choice id='1'>
+			<rune_drop rarity='4' p='1' set='3'/>
+		</choice>
+		<choice id='2'>
+			<rune_drop rarity='4' p='1' set='3'/>
+		</choice>
+		<choice id='3'>
+			<rune_drop rarity='4' p='1' set='3'/>
+		</choice>
+		<choice id='4'>
+			<rune_drop rarity='4' p='1' set='3'/>
+		</choice>
+
+		<item_req id='4013' number='2'/> <!-- Rune Sliver -->
+		<item_req id='4001' number='60'/> <!-- Inscription Powder -->
+		<item_req id='2001' number='75'/> <!-- Arcane Fragment -->
+		<item_req id='2501' number='350'/> <!-- Bluefire Soul -->
 	</recipe>
 
 

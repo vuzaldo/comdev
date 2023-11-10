@@ -4897,6 +4897,82 @@
 			</choice>
 	</item>
 
+		<!-- Event 109: ComDev Angel - Skyhaven Assault -->
+
+	<!-- New Map Reward Flask of Flasks -->
+	<item>
+			<id>2816</id>
+			<name>Skyhaven Assault Super Flask</name>
+			<icon>essence_of_gold</icon>
+			<bundle>58</bundle>
+			<desc>A flask of flasks containing all previous Angel Reward Champion Stones</desc>
+			<choice id="1">
+					<item id="28161" quantity="1"/> <!-- Aether and Wyld 1D and 2D -->
+			</choice>
+			<choice id="2">
+					<item id="28162" quantity="1"/> <!-- Aether 3D and 4D -->
+			</choice>
+			<choice id="3">
+					<item id="28163" quantity="1"/> <!-- Chaos and Factionless -->
+			</choice>
+	</item>
+	
+	<!-- Flasks within Super Flask -->
+	<item>
+			<id>28161</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Fast Aether &amp; Wyld Angel Mini Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Razi, Leyla or Freya Stones; OR revert back to Super Flask</desc>
+			<choice id="1">
+					<item id="104002" quantity="1"/> <!-- Razi -->
+			</choice>
+			<choice id="2">
+					<item id="104041" quantity="1"/> <!-- Leyla -->
+			</choice>
+			<choice id="3">
+					<item id="104051" quantity="1"/> <!-- Freya -->
+			</choice>
+			<choice id="4">
+					<item id="2816" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+	</item>
+	<item>
+			<id>28162</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Slow Aether Angel Mini Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Kachina or Cyno Stones; OR revert back to Super Flask</desc>
+			<choice id="1">
+					<item id="104009" quantity="1"/> <!-- Kachina -->
+			</choice>
+			<choice id="2">
+					<item id="104029" quantity="1"/> <!-- Cyno -->
+			</choice>
+			<choice id="3">
+					<item id="2816" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+	</item>
+	<item>
+			<id>28163</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Chaos and Factionless Angel Mini Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Batara, Alyel or Allies Stones; OR revert back to Super Flask</desc>
+			<choice id="1">
+					<item id="104015" quantity="1"/> <!-- Batara -->
+			</choice>
+			<choice id="2">
+					<item id="104058" quantity="1"/> <!-- Alyel -->
+			</choice>
+			<choice id="3">
+					<item id="104067" quantity="1"/> <!-- Allies -->
+			</choice>
+			<choice id="4">
+					<item id="2816" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+	</item>
+
     <!--  WARNING NOTE: ID 2701 is already taken and 2701-2800 is currently reserved for battleground items. 2801-3000 is currently unused -->
 
     <!-- 2701-2800 Battleground Effect Items -->
@@ -6306,1343 +6382,1371 @@
 
 
 
-    <!-- 5001+ RUNES START -->
+	<!-- 5001+ RUNES START -->
 	<!-- 	Sets
 			1 = Normal
 			2 = Reward
-			3 = Retired -->
+			3 = Legacy -->
 
-   	<!-- <item>
-    	<id>5001</id>
-    	<name>Rune of Minor Strength</name>
-    	<type>3</type>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_attack_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Attack +1</desc>
-    	<delay_req>2</delay_req>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<attack>1</attack>
-    	</stat_boost>
-    </item>
-     <item>
-    	<id>5002</id>
-    	<name>Rune of Strength</name>
-    	<type>3</type>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_attack_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Attack +2</desc>
-    	<delay_req>2</delay_req>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<attack>2</attack>
-    	</stat_boost>
-    </item> -->
-    <!-- <item>
-    	<id>5003</id>
-    	<name>Rune of Greater Strength</name>
-    	<type>3</type>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_attack_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Attack +50%, rounded up.</desc>
-    	<delay_req>2</delay_req>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<attack mult='0.5' />
-    	</stat_boost>
-    </item> -->
-    <!--  <item>
-    	<id>5004</id>
-    	<name>Rune of Swift Strength</name>
-    	<type>3</type>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_attack_epic2</icon>
-    	<bundle>34</bundle>
-    	<desc>Attack +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<attack>1</attack>
-    	</stat_boost>
-    </item>
-   <item>
-    	<id>5005</id>
-    	<name>Rune of Greater Swift Strength</name>
-    	<type>3</type>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_attack_legendary2</icon>
-    	<bundle>34</bundle>
-    	<desc>Attack +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<attack>2</attack>
-    	</stat_boost>
-    </item> -->
-
-    <item>
-    	<id>5011</id>
-    	<name>Rune of Minor Health</name>
-    	<type>3</type>
-    	<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_health_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +3</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>3</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5012</id>
-    	<name>Rune of Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +5</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>5</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5013</id>
-    	<name>Rune of Greater Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_health_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +30%, rounded up. Minimum +6.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health mult='0.3' min_bonus='6' />
-    	</stat_boost>
-    </item>
-
-     <item>
-    	<id>5021</id>
-    	<name>Rune of Invisibility</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_invisibility_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Invisibility +50%, rounded up.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='evade' mult='0.5' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5031</id>
-    	<name>Rune of Minor Barrier</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_barrier_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Barrier +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='protect' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5032</id>
-    	<name>Rune of Barrier</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_barrier_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Barrier +3</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='protect' x='3' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5033</id>
-    	<name>Rune of Greater Barrier</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_barrier_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Barrier +75%, rounded up. Minimum +4.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='protect' mult='0.75' min_bonus='4' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5034</id>
-    	<name>Rune of Mass Barrier</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_barrier_all_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Barrier All +50%, rounded up.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='protect' mult='0.5' all='1' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5041</id>
-    	<name>Rune of Minor Healing</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_heal_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Healing +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='heal' x='2' />
-    	</stat_boost>
-    </item>
-     <item>
-    	<id>5042</id>
-    	<name>Rune of Healing</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_heal_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Healing +3</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='heal' x='3' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5043</id>
-    	<name>Rune of Greater Healing</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_heal_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Healing +75%, rounded up. Minimum +4.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='heal' mult='0.75' min_bonus='4' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5044</id>
-    	<name>Rune of Mass Healing</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_heal_all_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Heal All +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='heal' x='1' all='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5045</id>
-    	<name>Rune of Greater Mass Healing</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_heal_all_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Heal All +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='heal' mult='0.5' all='1' min_bonus='2' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5051</id>
-    	<name>Rune of Minor Vengeance</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_vengeance_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Vengeance +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='counter' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5052</id>
-    	<name>Rune of Vengeance</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_vengeance_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Vengeance +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='counter' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5053</id>
-    	<name>Rune of Greater Vengeance</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_vengeance_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Vengeance +50%, rounded up. Minimum +3.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='counter' mult='0.5' min_bonus='3' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5061</id>
-    	<name>Rune of Minor Armor</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_shield_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Armored +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='armored' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5062</id>
-    	<name>Rune of Armor</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_shield_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Armored +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='armored' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5063</id>
-    	<name>Rune of Greater Armor</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_shield_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Armored +50%, rounded up. Minimum +3.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='armored' mult='0.5' min_bonus='3' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5071</id>
-    	<name>Rune of Minor Empower</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_empower_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Empower +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='rally' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5072</id>
-    	<name>Rune of Empower</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_empower_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Empower +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='rally' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5073</id>
-    	<name>Rune of Greater Empower</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_empower_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Empower +50%, rounded up. Minimum +3.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='rally' mult='0.5' min_bonus='3' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5074</id>
-    	<name>Rune of Boundless Empower</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_empower_all_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Empower All +50%, rounded up.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='rally' mult='0.5' all='1' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5081</id>
-    	<name>Rune of Legion</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_legion_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Legion +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='legion' x='1'  />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5082</id>
-    	<name>Rune of Greater Legion</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_legion_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Legion +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='legion' mult='0.5' min_bonus='2' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5091</id>
-    	<name>Rune of Fervor</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_fervor_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Fervor +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='fervor' x='1'  />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5092</id>
-    	<name>Rune of Greater Fervor</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_fervor_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Fervor +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='fervor' mult='0.5' min_bonus='2' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5101</id>
-    	<name>Rune of Minor Hex</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_hex_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Hex +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='enfeeble' x='1' />
-    	</stat_boost>
-    </item>
-     <item>
-    	<id>5102</id>
-    	<name>Rune of Hex</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_hex_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Hex +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='enfeeble' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5103</id>
-    	<name>Rune of Greater Hex</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_hex_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Hex +50%, rounded up. Minimum +3.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='enfeeble' mult='0.5' min_bonus='3' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5104</id>
-    	<name>Rune of Sweeping Hex</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_hex_all_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Hex All +50%, rounded up.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='enfeeble' mult='0.5' all='1' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5111</id>
-    	<name>Rune of Minor Bolt</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_bolt_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Bolt +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='strike' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5112</id>
-    	<name>Rune of Bolt</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_bolt_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Bolt +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='strike' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5113</id>
-    	<name>Rune of Greater Bolt</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_bolt_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Bolt +50%, rounded up. Minimum +3.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='strike' mult='0.5' min_bonus='3' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5114</id>
-    	<name>Rune of Storming Bolt</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_bolt_all_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Bolt All +50%, rounded up.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='strike' mult='0.5' all='1' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5121</id>
-    	<name>Rune of Scorch</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_scorch_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Scorch +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='burn' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5122</id>
-    	<name>Rune of Greater Scorch</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_scorch_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Scorch +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='burn' mult='0.5' min_bonus='2' />
-    	</stat_boost>
-    </item>
-
-    <!--<item>
-    	<id>5131</id>
-    	<name>Rune of Greater Freezing</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_freeze_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Freeze Cooldown -1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='jam' c='-1' />
-    	</stat_boost>
-    </item>
-
-     <item>
-    	<id>5141</id>
-    	<name>Rune of Greater Dualstriking</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_dualstrike_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Dualstrike Cooldown -1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='flurry' c='-1' />
-    	</stat_boost>
-    </item> -->
-
-    <item>
-    	<id>5151</id>
-    	<name>Rune of Minor Weakening</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_weaken_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Weaken +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='weaken' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5152</id>
-    	<name>Rune of Weakening</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_weaken_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Weaken +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='weaken' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5153</id>
-    	<name>Rune of Greater Weakening</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_weaken_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Weaken +75%, rounded up. Minimum +3.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='weaken' mult='0.75' min_bonus='3' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5154</id>
-    	<name>Rune of Infectious Weakening</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_weaken_all_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Weaken All +50%, rounded up.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='weaken' mult='0.5' all='1' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5161</id>
-    	<name>Rune of Minor Piercing</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_pierce_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Pierce +1, Health +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='pierce' x='1' />
-    		<health>1</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5162</id>
-    	<name>Rune of Piercing</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_pierce_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Pierce +2, Health +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='pierce' x='2' />
-    		<health>2</health>
-    	</stat_boost>
-    </item>
-    <!-- <item>
-    	<id>5163</id>
-    	<name>Rune of Greater Piercing</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_pierce_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Pierce +3, Health +3</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='pierce' x='3' />
-    		<health>3</health>
-    	</stat_boost>
-    </item> -->
-
-    <item>
-    	<id>5171</id>
-    	<name>Rune of Poison</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_poison_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Poison +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='poison' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5172</id>
-    	<name>Rune of Greater Poison</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_poison_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Poison +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='poison' mult='0.5' min_bonus='2' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5181</id>
-    	<name>Rune of Minor Siphoning</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>2</rarity>
-    	<icon>rune_siphon_rare</icon>
-    	<bundle>34</bundle>
-    	<desc>Siphon +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='leech' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5182</id>
-    	<name>Rune of Siphoning</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_siphon_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Siphon +3</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='leech' x='3' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5183</id>
-    	<name>Rune of Greater Siphoning</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_siphon_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Siphon +75%, rounded up. Minimum +4.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='leech' mult='0.75' min_bonus='4' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5184</id>
-    	<name>Rune of Berserk</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_berserk_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Berserk +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='berserk' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5185</id>
-    	<name>Rune of Greater Berserk</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_berserk_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Berserk +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='berserk' mult='0.5' min_bonus='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5186</id>
-    	<name>Rune of Frostbreath</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_frostbreath_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Frostbreath +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='frost' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5187</id>
-    	<name>Rune of Greater Frostbreath</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_frostbreath_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Frostbreath +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='frost' mult='0.5' min_bonus='2' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5191</id>
-    	<name>Rune of Valor</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_valor_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Valor +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='valor' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5192</id>
-    	<name>Rune of Greater Valor</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_valor_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Valor +50%, rounded up. Minimum +3.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='valor' mult='0.5' min_bonus='3' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5201</id>
-    	<name>Rune of Nullification</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_nullify_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Nullify +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='nullify' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5202</id>
-    	<name>Rune of Greater Nullification</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>3</set>
-    	<rarity>4</rarity>
-    	<icon>rune_nullify_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Nullify +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='nullify' mult='0.5' min_bonus='2' />
-    	</stat_boost>
-    </item>
-
-    <item>
-    	<id>5211</id>
-    	<name>Rune of Corrosion</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_corrosive_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Corrosive +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='corrosive' x='1' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5212</id>
-    	<name>Rune of Greater Corrosion</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_corrosive_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Corrosive +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='corrosive' mult='0.5' min_bonus='2' />
-    	</stat_boost>
-    </item>
+	<!-- <item>
+		<id>5001</id>
+		<name>Rune of Minor Strength</name>
+		<type>3</type>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_attack_rare</icon>
+		<bundle>34</bundle>
+		<desc>Attack +1</desc>
+		<delay_req>2</delay_req>
+		<usable>0</usable>
+		<stat_boost>
+			<attack>1</attack>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5002</id>
+		<name>Rune of Strength</name>
+		<type>3</type>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_attack_epic</icon>
+		<bundle>34</bundle>
+		<desc>Attack +2</desc>
+		<delay_req>2</delay_req>
+		<usable>0</usable>
+		<stat_boost>
+			<attack>2</attack>
+		</stat_boost>
+	</item> -->
+	<!-- <item>
+		<id>5003</id>
+		<name>Rune of Greater Strength</name>
+		<type>3</type>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_attack_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Attack +50%, rounded up.</desc>
+		<delay_req>2</delay_req>
+		<usable>0</usable>
+		<stat_boost>
+			<attack mult='0.5' />
+		</stat_boost>
+	</item> -->
+	<!--  <item>
+		<id>5004</id>
+		<name>Rune of Swift Strength</name>
+		<type>3</type>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_attack_epic2</icon>
+		<bundle>34</bundle>
+		<desc>Attack +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<attack>1</attack>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5005</id>
+		<name>Rune of Greater Swift Strength</name>
+		<type>3</type>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_attack_legendary2</icon>
+		<bundle>34</bundle>
+		<desc>Attack +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<attack>2</attack>
+		</stat_boost>
+	</item> -->
 
 	<item>
-    	<id>5221</id>
-    	<name>Rune of Warding</name>
-    	<type>3</type>
+		<id>5011</id>
+		<name>Rune of Minor Health</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_ward_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Ward +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='absorb' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5222</id>
-    	<name>Rune of Greater Warding</name>
-    	<type>3</type>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_health_rare</icon>
+		<bundle>34</bundle>
+		<desc>Health +3</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>3</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5012</id>
+		<name>Rune of Health</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_ward_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Ward +30%, rounded up. Minimum +3.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='absorb' mult='0.3' min_bonus='3' />
-    	</stat_boost>
-    </item>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_health_epic</icon>
+		<bundle>34</bundle>
+		<desc>Health +5</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>5</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5013</id>
+		<name>Rune of Greater Health</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_health_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +30%, rounded up. Minimum +6.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health mult='0.3' min_bonus='6'/>
+		</stat_boost>
+	</item>
 
 	<item>
-    	<id>5231</id>
-    	<name>Rune of Shroud</name>
-    	<type>3</type>
+		<id>5021</id>
+		<name>Rune of Invisibility</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_shroud_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Shroud +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='stasis' x='1' />
-    	</stat_boost>
-    </item>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_invisibility_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Invisibility +50%, Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='evade' mult='0.5'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
 
 	<item>
-    	<id>5241</id>
-    	<name>Rune of Backlash</name>
-    	<type>3</type>
+		<id>5031</id>
+		<name>Rune of Minor Barrier</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_backlash_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Backlash +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='backlash' x='1' />
-    	</stat_boost>
-    </item>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_barrier_rare</icon>
+		<bundle>34</bundle>
+		<desc>Barrier +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='protect' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5032</id>
+		<name>Rune of Barrier</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_barrier_epic</icon>
+		<bundle>34</bundle>
+		<desc>Barrier +3</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='protect' x='3'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5033</id>
+		<name>Rune of Greater Barrier</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_barrier_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Barrier +75%, rounded up. Minimum +4. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='protect' mult='0.75' min_bonus='4'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5034</id>
+		<name>Rune of Mass Barrier</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_barrier_all_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Barrier All +50%, rounded up. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='protect' mult='0.5' all='1'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
 
 	<item>
-    	<id>5251</id>
-    	<name>Rune of Emberhide</name>
-    	<type>3</type>
+		<id>5041</id>
+		<name>Rune of Minor Healing</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_emberhide_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Emberhide +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='counterburn' x='1' />
-    	</stat_boost>
-    </item>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_heal_rare</icon>
+		<bundle>34</bundle>
+		<desc>Healing +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='heal' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5042</id>
+		<name>Rune of Healing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_heal_epic</icon>
+		<bundle>34</bundle>
+		<desc>Healing +3</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='heal' x='3'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5043</id>
+		<name>Rune of Greater Healing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_heal_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Healing +75%, rounded up. Minimum +4. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='heal' mult='0.75' min_bonus='4'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5044</id>
+		<name>Rune of Mass Healing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_heal_all_epic</icon>
+		<bundle>34</bundle>
+		<desc>Heal All +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='heal' x='1' all='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5045</id>
+		<name>Rune of Greater Mass Healing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_heal_all_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Heal All +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='heal' mult='0.5' all='1' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
 
 	<item>
-    	<id>5261</id>
-    	<name>Rune of Enrage</name>
-    	<type>3</type>
+		<id>5051</id>
+		<name>Rune of Minor Vengeance</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_enrage_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Enrage +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='enrage' x='2' />
-    	</stat_boost>
-    </item>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_vengeance_rare</icon>
+		<bundle>34</bundle>
+		<desc>Vengeance +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='counter' x='1'/>
+		</stat_boost>
+	</item>
 	<item>
-    	<id>5262</id>
-    	<name>Rune of Mass Enrage</name>
-    	<type>3</type>
+		<id>5052</id>
+		<name>Rune of Vengeance</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_enrage all_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Enrage All +1</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='enrage' x='1' all='1' />
-    	</stat_boost>
-    </item>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_vengeance_epic</icon>
+		<bundle>34</bundle>
+		<desc>Vengeance +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='counter' x='2'/>
+		</stat_boost>
+	</item>
 	<item>
-    	<id>5263</id>
-    	<name>Rune of Greater Mass Enrage</name>
-    	<type>3</type>
+		<id>5053</id>
+		<name>Rune of Greater Vengeance</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_enrage_all_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Enrage All +50%, rounded up. Minimum +2.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='enrage' mult='0.5' all='1' min_bonus='2' />
-    	</stat_boost>
-    </item>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_vengeance_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Vengeance +50%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='counter' mult='0.5' min_bonus='3'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
 
 	<item>
-    	<id>5271</id>
-    	<name>Rune of Dazing</name>
-    	<type>3</type>
+		<id>5061</id>
+		<name>Rune of Minor Armor</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>3</rarity>
-    	<icon>rune_daze_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Daze +2</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='daze' x='2' />
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5272</id>
-    	<name>Rune of Greater Dazing</name>
-    	<type>3</type>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_shield_rare</icon>
+		<bundle>34</bundle>
+		<desc>Armored +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='armored' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5062</id>
+		<name>Rune of Armor</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>1</set>
-    	<rarity>4</rarity>
-    	<icon>rune_daze_legendary</icon>
-    	<bundle>34</bundle>
-    	<desc>Daze +50%, rounded up. Minimum +3.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<skill id='daze' mult='0.5' min_bonus='3' />
-    	</stat_boost>
-    </item>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_shield_epic</icon>
+		<bundle>34</bundle>
+		<desc>Armored +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='armored' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5063</id>
+		<name>Rune of Greater Armor</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_shield_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Armored +50%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='armored' mult='0.5' min_bonus='3'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5071</id>
+		<name>Rune of Minor Empower</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_empower_rare</icon>
+		<bundle>34</bundle>
+		<desc>Empower +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='rally' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5072</id>
+		<name>Rune of Empower</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_empower_epic</icon>
+		<bundle>34</bundle>
+		<desc>Empower +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='rally' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5073</id>
+		<name>Rune of Greater Empower</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_empower_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Empower +50%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='rally' mult='0.5' min_bonus='3'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5074</id>
+		<name>Rune of Boundless Empower</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_empower_all_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Empower All +50%, rounded up. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='rally' mult='0.5' all='1'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5081</id>
+		<name>Rune of Legion</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_legion_epic</icon>
+		<bundle>34</bundle>
+		<desc>Legion +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='legion' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5082</id>
+		<name>Rune of Greater Legion</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_legion_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Legion +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='legion' mult='0.5' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5091</id>
+		<name>Rune of Fervor</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_fervor_epic</icon>
+		<bundle>34</bundle>
+		<desc>Fervor +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='fervor' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5092</id>
+		<name>Rune of Greater Fervor</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_fervor_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Fervor +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='fervor' mult='0.5' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5101</id>
+		<name>Rune of Minor Hex</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_hex_rare</icon>
+		<bundle>34</bundle>
+		<desc>Hex +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='enfeeble' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5102</id>
+		<name>Rune of Hex</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_hex_epic</icon>
+		<bundle>34</bundle>
+		<desc>Hex +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='enfeeble' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5103</id>
+		<name>Rune of Greater Hex</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_hex_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Hex +50%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='enfeeble' mult='0.5' min_bonus='3'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5104</id>
+		<name>Rune of Sweeping Hex</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_hex_all_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Hex All +50%, rounded up. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='enfeeble' mult='0.5' all='1'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5111</id>
+		<name>Rune of Minor Bolt</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_bolt_rare</icon>
+		<bundle>34</bundle>
+		<desc>Bolt +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='strike' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5112</id>
+		<name>Rune of Bolt</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_bolt_epic</icon>
+		<bundle>34</bundle>
+		<desc>Bolt +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='strike' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5113</id>
+		<name>Rune of Greater Bolt</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_bolt_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Bolt +50%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='strike' mult='0.5' min_bonus='3'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5114</id>
+		<name>Rune of Storming Bolt</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_bolt_all_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Bolt All +50%, rounded up. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='strike' mult='0.5' all='1'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5121</id>
+		<name>Rune of Scorch</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_scorch_epic</icon>
+		<bundle>34</bundle>
+		<desc>Scorch +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='burn' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5122</id>
+		<name>Rune of Greater Scorch</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_scorch_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Scorch +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='burn' mult='0.5' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<!--<item>
+		<id>5131</id>
+		<name>Rune of Greater Freezing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_freeze_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Freeze Cooldown -1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='jam' c='-1' />
+		</stat_boost>
+	</item>
+
+	 <item>
+		<id>5141</id>
+		<name>Rune of Greater Dualstriking</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_dualstrike_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Dualstrike Cooldown -1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='flurry' c='-1' />
+		</stat_boost>
+	</item> -->
+
+	<item>
+		<id>5151</id>
+		<name>Rune of Minor Weakening</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_weaken_rare</icon>
+		<bundle>34</bundle>
+		<desc>Weaken +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='weaken' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5152</id>
+		<name>Rune of Weakening</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_weaken_epic</icon>
+		<bundle>34</bundle>
+		<desc>Weaken +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='weaken' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5153</id>
+		<name>Rune of Greater Weakening</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_weaken_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Weaken +75%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='weaken' mult='0.75' min_bonus='3'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5154</id>
+		<name>Rune of Infectious Weakening</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_weaken_all_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Weaken All +50%, rounded up. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='weaken' mult='0.5' all='1'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5161</id>
+		<name>Rune of Minor Piercing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_pierce_rare</icon>
+		<bundle>34</bundle>
+		<desc>Pierce +1, Health +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='pierce' x='1'/>
+			<health>1</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5162</id>
+		<name>Rune of Piercing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_pierce_epic</icon>
+		<bundle>34</bundle>
+		<desc>Pierce +2, Health +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='pierce' x='2'/>
+			<health>2</health>
+		</stat_boost>
+	</item>
+	<!-- <item>
+		<id>5163</id>
+		<name>Rune of Greater Piercing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_pierce_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Pierce +3, Health +3</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='pierce' x='3' />
+			<health>3</health>
+		</stat_boost>
+	</item> -->
+
+	<item>
+		<id>5171</id>
+		<name>Rune of Poison</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_poison_rare</icon>
+		<bundle>34</bundle>
+		<desc>Poison +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='poison' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5172</id>
+		<name>Rune of Greater Poison</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_poison_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Poison +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='poison' mult='0.5' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5181</id>
+		<name>Rune of Minor Siphoning</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>2</rarity>
+		<icon>rune_siphon_rare</icon>
+		<bundle>34</bundle>
+		<desc>Siphon +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='leech' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5182</id>
+		<name>Rune of Siphoning</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_siphon_epic</icon>
+		<bundle>34</bundle>
+		<desc>Siphon +3</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='leech' x='3'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5183</id>
+		<name>Rune of Greater Siphoning</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_siphon_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Siphon +75%, rounded up. Minimum +4. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='leech' mult='0.75' min_bonus='4'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5184</id>
+		<name>Rune of Berserk</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_berserk_epic</icon>
+		<bundle>34</bundle>
+		<desc>Berserk +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='berserk' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5185</id>
+		<name>Rune of Greater Berserk</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_berserk_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Berserk +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='berserk' mult='0.5' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5186</id>
+		<name>Rune of Frostbreath</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_frostbreath_epic</icon>
+		<bundle>34</bundle>
+		<desc>Frostbreath +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='frost' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5187</id>
+		<name>Rune of Greater Frostbreath</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_frostbreath_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Frostbreath +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='frost' mult='0.5' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5191</id>
+		<name>Rune of Valor</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_valor_epic</icon>
+		<bundle>34</bundle>
+		<desc>Valor +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='valor' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5192</id>
+		<name>Rune of Greater Valor</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_valor_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Valor +50%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='valor' mult='0.5' min_bonus='3'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5201</id>
+		<name>Rune of Nullification</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_nullify_epic</icon>
+		<bundle>34</bundle>
+		<desc>Nullify +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='nullify' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5202</id>
+		<name>Rune of Greater Nullification</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_nullify_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Nullify +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='nullify' mult='0.5' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5211</id>
+		<name>Rune of Corrosion</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_corrosive_epic</icon>
+		<bundle>34</bundle>
+		<desc>Corrosive +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='corrosive' x='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5212</id>
+		<name>Rune of Greater Corrosion</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_corrosive_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Corrosive +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='corrosive' mult='0.5' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5221</id>
+		<name>Rune of Warding</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_ward_epic</icon>
+		<bundle>34</bundle>
+		<desc>Ward +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='absorb' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5222</id>
+		<name>Rune of Greater Warding</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_ward_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Ward +30%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='absorb' mult='0.3' min_bonus='3'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5231</id>
+		<name>Rune of Shroud</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_shroud_epic</icon>
+		<bundle>34</bundle>
+		<desc>Shroud +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='stasis' x='1'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5241</id>
+		<name>Rune of Backlash</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_backlash_epic</icon>
+		<bundle>34</bundle>
+		<desc>Backlash +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='backlash' x='1'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5251</id>
+		<name>Rune of Emberhide</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_emberhide_epic</icon>
+		<bundle>34</bundle>
+		<desc>Emberhide +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='counterburn' x='1'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5261</id>
+		<name>Rune of Enrage</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_enrage_epic</icon>
+		<bundle>34</bundle>
+		<desc>Enrage +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='enrage' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5262</id>
+		<name>Rune of Mass Enrage</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_enrage all_epic</icon>
+		<bundle>34</bundle>
+		<desc>Enrage All +1</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='enrage' x='1' all='1'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5263</id>
+		<name>Rune of Greater Mass Enrage</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>4</rarity>
+		<icon>rune_enrage_all_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Enrage All +50%, rounded up. Minimum +2. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='enrage' mult='0.5' all='1' min_bonus='2'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
+
+	<item>
+		<id>5271</id>
+		<name>Rune of Dazing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>1</set>
+		<rarity>3</rarity>
+		<icon>rune_daze_epic</icon>
+		<bundle>34</bundle>
+		<desc>Daze +2</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='daze' x='2'/>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5272</id>
+		<name>Rune of Greater Dazing</name>
+		<type>3</type>
+		<category>3</category>
+		<set>3</set>
+		<rarity>4</rarity>
+		<icon>rune_daze_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Daze +50%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<skill id='daze' mult='0.5' min_bonus='3'/>
+			<health mult='0.15'/>
+		</stat_boost>
+	</item>
 
 
-    <!-- Faction Runes 5501+ -->
-    <item>
-    	<id>5501</id>
-    	<name>Angelic Rune of Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>6</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Angels. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5502</id>
-    	<name>Elemental Rune of Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>5</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Elementals. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5503</id>
-    	<name>Undead Rune of Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>7</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Undead. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5504</id>
-    	<name>Goblin Rune of Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>11</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Goblins. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5505</id>
-    	<name>Dragon Rune of Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>9</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Dragons. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5506</id>
-    	<name>Seafolk Rune of Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>12</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Seafolk. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5507</id>
-    	<name>Avian Rune of Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>10</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Avian. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
-    <item>
-    	<id>5508</id>
-    	<name>Frog Rune of Health</name>
-    	<type>3</type>
-		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>4</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Frogs. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
+	<!-- Faction Runes 5501+ -->
 	<item>
-    	<id>5509</id>
-    	<name>Mecha Rune of Health</name>
-    	<type>3</type>
+		<id>5501</id>
+		<name>Angelic Rune of Health</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>16</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Mecha. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>6</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Angels. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
 	<item>
-    	<id>5510</id>
-    	<name>Insect Rune of Health</name>
-    	<type>3</type>
+		<id>5502</id>
+		<name>Elemental Rune of Health</name>
+		<type>3</type>
 		<category>3</category>
-    	<set>2</set>
-    	<rarity>3</rarity>
-    	<faction_req>13</faction_req>
-    	<icon>rune_health_epic</icon>
-    	<bundle>34</bundle>
-    	<desc>Health +10. May only be embedded on Insect. May not be crafted.</desc>
-    	<usable>0</usable>
-    	<stat_boost>
-    		<health>10</health>
-    	</stat_boost>
-    </item>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>5</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Elementals. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5503</id>
+		<name>Undead Rune of Health</name>
+		<type>3</type>
+		<category>3</category>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>7</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Undead. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5504</id>
+		<name>Goblin Rune of Health</name>
+		<type>3</type>
+		<category>3</category>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>11</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Goblins. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5505</id>
+		<name>Dragon Rune of Health</name>
+		<type>3</type>
+		<category>3</category>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>9</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Dragons. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5506</id>
+		<name>Seafolk Rune of Health</name>
+		<type>3</type>
+		<category>3</category>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>12</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Seafolk. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5507</id>
+		<name>Avian Rune of Health</name>
+		<type>3</type>
+		<category>3</category>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>10</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Avian. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5508</id>
+		<name>Frog Rune of Health</name>
+		<type>3</type>
+		<category>3</category>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>4</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Frogs. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5509</id>
+		<name>Mecha Rune of Health</name>
+		<type>3</type>
+		<category>3</category>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>16</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Mecha. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
+	<item>
+		<id>5510</id>
+		<name>Insect Rune of Health</name>
+		<type>3</type>
+		<category>3</category>
+		<set>2</set>
+		<rarity>3</rarity>
+		<faction_req>13</faction_req>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Health +10. May only be embedded on Insect. May not be crafted.</desc>
+		<usable>0</usable>
+		<stat_boost>
+			<health>10</health>
+		</stat_boost>
+	</item>
 
 
     <!-- Evolution Runes -->

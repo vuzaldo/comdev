@@ -1880,4 +1880,24 @@
 		<card id='12079' level='1' order='4' />  <!-- Koi Safeguard -->
 	</event_box>
 
+	<event_box>
+		<id>6094</id>
+		<name>Angel Arena Chest</name>
+		<desc>Pull from a set of awesome reward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>angel_arenaBox</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>  <!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id='20' order='1' />   <!-- Trophy -->
+		<card id='12054' level='1' order='2' />  <!-- Pack Alpha -->
+		<card id='12245' level='1' order='3' />  <!-- Winged Soldiers -->
+		<card id='12030' level='1' order='4' />  <!-- Ebonfire Duelist -->
+	</event_box>
+
 </root>

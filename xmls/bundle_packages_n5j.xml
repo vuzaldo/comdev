@@ -13080,6 +13080,236 @@
 	
 	<!-- End Premium Flasks Gen 8 Bundles -->
 
+	<!-- Premium Flasks Gen 9 Bundles -->
+
+	<package>
+		<id>1257</id>
+		<name>Greater Dreams Flask Pack</name>
+		<desc>Gives 350 Chaotic Dreams Flasks. They contain Champion Stones for Gaerriel, Flying Nightmare; Worf, Volcano King; Skids, Hellfire Liches; or Nuri &#38; Nera, Twin Assailants! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>chaos_flask_banner</background_prefab> <!-- Chaos Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<priority>1000</priority>
+			<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2817' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1258</id>
+		<name>Greater Hoarfrost Flask Pack</name>
+		<desc>Gives 350 Aether Hoarfrost Flasks. They contain Champion Stones for B4RN4B1, Exo Warkid; Austra, the Ice Mage; Katerina, Snowfang; or Frazzil, Glacial Guardian! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<priority>1000</priority>
+			<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2818' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1259</id>
+		<name>Greater Conclusion Flask Pack</name>
+		<desc>Gives 350 Wyld Conclusion Flasks. They contain Champion Stones for Tiendroantun, the Protector; Coldsteel Hunter; or Nano Swarm! May be purchased 4 times!</desc>
+			<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
+			<bundle>35</bundle>
+			<background_prefab>wyld_flask_banner</background_prefab> <!-- Wyld Flask Banner -->
+			<background_bundle>35</background_bundle>
+			<num_available>4</num_available>
+			<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2819' number='350' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<!-- END Premium Flasks Gen 9 Bundles -->
+
+		<package>
+		<id>1260</id>
+		<name>Hidden Formos Flask Special</name>
+		<desc>Gives 100 Hidden Formos Flasks. They contain Champion Stones for Razi the Fallen Light; Kachina, the Dreamer; Emerald Amarok; or Formos Ebonclaw! May be purchased 4 times!</desc>
+		<asset_prefab>event_050_stonepack_02</asset_prefab>
+		<bundle>158</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
+		<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2546' number='100' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1261</id>
+		<name>Angel Starter Set</name>
+		<desc>Power up your Angel deck! Contains 4 Quads: ^cE7FFSanguine Demon^cFFFF, ^cE7FFGrand Archgeneral^cFFFF, ^c0DFFLightguard Archer^cFFFF, and ^c0DFFLeafshield Angel^cFFFF plus 50 Allies Stones! One purchase only!</desc>
+		<asset_prefab>starter_deck</asset_prefab>
+		<bundle>35</bundle>
+		<background_prefab>3rdAnniversary_banner</background_prefab>
+		<background_bundle>136</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<show_list>1</show_list>
+		<!-- Stuff to give -->
+		<card id='21341' /> <!-- Sanguine Demon -->
+		<card id='21042' /> <!-- Archgeneral -->
+		<card id='21025' /> <!-- Lightguard -->
+		<card id='22147' /> <!-- Leafshield -->
+		<item id='104067' number='50' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1262</id>
+		<name>Allies Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFUncommon Allies^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+    	<asset_prefab>event_098_stonepack_02</asset_prefab>
+   		<bundle>263</bundle>
+    	<background_prefab>event_98_angelcombination_banner</background_prefab>
+    	<background_bundle>263</background_bundle>
+		<category>1</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104067' number='200' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1263</id>
+		<name>Quad Trumpeter Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFDivine Trumpeter^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id='25040' />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1264</id>
+		<name>Quad Savage Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFSavage Angel^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id='27041' />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1265</id>
+		<name>Super Dual Angel Bonus!</name>
+		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFAngel card, 200 Arcane Dust and 150 Inscription Powder! May be purchased 2 times!</desc>
+		<asset_prefab>angel_legendary_crystal</asset_prefab>
+		<bundle>49</bundle>
+		<!-- Stuff to give -->
+		<tokens>800</tokens>
+		<pack>5341</pack>
+		<item id='4001' number='150' />	<!-- Inscription Powder -->
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t50</price_point_id>
+	</package>
+
+	<package>
+		<id>1266</id>
+		<name>Tiamat Shard Bundle!</name>
+		<desc>Gives 330 Shards and a BONUS ^cE7FFTiamat^cFFFF card! May be purchased 4 times!</desc>
+		<priority>300</priority>
+		<!-- Stuff to give -->
+		<card id='6100' />
+		<tokens>330</tokens>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1267</id>
+		<name>Melkira Trove</name>
+		<desc>Gives 75 ^cE7FFMelkira Stone^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 50 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104077' number='75' />  <!-- Stone -->
+		<item id='2001' number='25' />  <!-- Arcane Fragment -->
+		<item id='1004' number='10' />  <!-- Energy +20 -->
+		<item id='4001' number='50' />  <!-- Inscription Powder -->
+		<sp>50</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1268</id>
+		<name>Melkira Large Trove</name>
+		<desc>Gives 200 ^cE7FFMelkira Stone^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 100 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104077' number='200' /> <!-- Stone -->
+		<item id='2001' number='50' />  <!-- Arcane Fragment -->
+		<item id='1004' number='15' />  <!-- Energy +20 -->
+		<item id='4001' number='100' /> <!-- Inscription Powder -->
+		<sp>100</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t40_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1269</id>
+		<name>Melkira Fortune Trove</name>
+		<desc>Gives 725 ^cE7FFMelkira Stone^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 300 Arcane Dust, and 250 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104077' number='725' /> <!-- Stone -->
+		<item id='2001' number='150' /> <!-- Arcane Fragment -->
+		<item id='1004' number='25' />  <!-- Energy +20 -->
+		<item id='4001' number='250' /> <!-- Inscription Powder -->
+		<sp>300</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t60_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1270</id>
+		<name>Blacksmith Friday Mega Shard Exclusive!</name>
+		<desc>Includes 125 ^cE7FFGendra, the Blacksmith^cFFFF stones, a ^c0DFFWinter Blacksmith^cFFFF, 500 Shards, 5 Energy Potions +50 and 5 Bounty Refill +10 for a limited time deal! May be purchased 4 times!</desc>
+		<background_prefab>event_84_embersmith_banner</background_prefab>
+		<background_bundle>235</background_bundle>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<item id='105626' number='125' /> <!-- Stone -->
+		<card id='5028' />
+		<tokens>500</tokens>
+		<item id='1024' number='5' /> <!-- Energy Potion +50 -->
+		<item id='1005' number='5' /> <!-- Bounty Refill +10 -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
 <!-- END BUNDLES BUNDLES END-->
 
 	<!-- ====================== -->
