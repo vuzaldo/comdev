@@ -501,7 +501,7 @@
 		<category>2</category>
 		<icon>rune_empty_legendary_LG</icon>
 		<bundle>34</bundle>
-		<desc>Creates your choice of one of four random Legendary Runes from the Main set when crafted: Health; Barrier All, Bolt All, Empower All, Enrage All, Heal All, Hex All, Weaken All; Armor, Berserk, Empower, Fervor, Poison, Scorch, Vengeance.</desc>
+		<desc>Choice of 1 of 4 random Legendary Runes from: Health; Barrier All, Bolt All, Empower All, Enrage All, Heal All, Hex All, Weaken All; Armor, Berserk, Empower, Fervor, Poison, Scorch, Vengeance.</desc>
 		<disable_multi_craft>1</disable_multi_craft>
 		<choice id='1'>
 			<rune_drop rarity='4' p='1' set='1'/>
@@ -521,14 +521,14 @@
 		<item_req id='2001' number='75'/> <!-- Arcane Fragment -->
 		<item_req id='2501' number='350'/> <!-- Bluefire Soul -->
 	</recipe>
-		
+
 	<recipe>
 		<id>2004</id>
 		<name>Legacy Legendary Rune</name>
 		<category>2</category>
 		<icon>rune_empty_legendary_LG</icon>
 		<bundle>34</bundle>
-		<desc>Creates your choice of one of four random Legendary Rune from the Legacy set: (Single target) Barrier, Bolt, Heal, Hex, Weaken; Corrosion, Daze, Frostbreath, Invisibility, Legion, Nullify, Siphon, Valor, Ward.</desc>
+		<desc>Choice of 1 of 4 random Legendary Runes from: (Single target) Barrier, Bolt, Heal, Hex, Weaken; Corrosion, Daze, Frostbreath, Invisibility, Legion, Nullify, Siphon, Valor, Ward.</desc>
 		<disable_multi_craft>1</disable_multi_craft>
 		<choice id='1'>
 			<rune_drop rarity='4' p='1' set='3'/>
