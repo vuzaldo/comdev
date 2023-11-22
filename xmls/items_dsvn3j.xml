@@ -6310,15 +6310,16 @@
     </item>
 
     <!-- 4001-4999 COMPONENTS START -->
-    <item>
-    	<id>4001</id>
-    	<name>Inscription Powder</name>
-    	<type>2</type>
-    	<icon>inscription_dust</icon>
-    	<bundle>17</bundle>
-    	<desc>Used for Runecrafting. Found during Missions.</desc>
-    	<usable>0</usable>
-    </item>
+	<item>
+		<id>4001</id>
+		<name>Inscription Powder</name>
+		<type>2</type>
+		<icon>inscription_dust</icon>
+		<bundle>17</bundle>
+		<desc>Combine 25 Powder to create a random Epic card from the Reward set. Also used for Runecrafting.</desc>
+		<consume>25</consume>
+		<give_pack>4</give_pack>
+	</item>
 
 	<item>
 		<id>4002</id>
