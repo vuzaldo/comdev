@@ -650,6 +650,7 @@ const autoSelectEventOptions = {
 	107: { tribe: 'Elemental', map: 'Conflux Convergence', flask: '2802' },
 	108: { tribe: 'Seafolk', map: 'Pharos Temple', flask: '2803' },
 	109: { tribe: 'Angel', map: 'Skyhaven Assault', flask: '2816' },
+	110: { tribe: 'Frog', map: 'Golden Crown Village', flask: '2817' },
 };
 
 function findSelectorOption(selector, option) {
