@@ -18878,43 +18878,43 @@
 	</event>
 
 		<!-- Begin Event 108 Seafolk BGE Bundle Sales -->
-		<event>
-			<id>3469</id>
-			<name>Tethys Trove</name>
-			<banner_prefab>Banner_GenericStore</banner_prefab>
-			<display_card id='4076' level='1' />
-			<bundle_package>1240</bundle_package>
-			<num_available>1</num_available>
-			<!-- Third Monday -->
-			<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
-			<end_duration>40320</end_duration> <!-- 28 Days -->
-		</event>
-		<event>
-			<id>3470</id>
-			<name>Tethys Large Trove</name>
-			<banner_prefab>Banner_GenericStore</banner_prefab>
-			<display_card id='4076' level='1' />
-			<!-- Must have purchased the following before it shows up -->
-			<purchased_event_req>3469</purchased_event_req>
-			<bundle_package>1241</bundle_package>
-			<num_available>1</num_available>
-			<!-- Third Monday -->
-			<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
-			<end_duration>40320</end_duration> <!-- 28 Days -->
-		</event>
-		<event>
-			<id>3471</id>
-			<name>Tethys Fortune Trove</name>
-			<banner_prefab>Banner_GenericStore</banner_prefab>
-			<display_card id='4076' level='1' />
-			<!-- Must have purchased the following before it shows up -->
-			<purchased_event_req>3470</purchased_event_req>
-			<bundle_package>1242</bundle_package>
-			<num_available>1</num_available>
-			<!-- Third Monday -->
-			<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
-			<end_duration>40320</end_duration> <!-- 28 Days -->
-		</event>
+	<event>
+		<id>3469</id>
+		<name>Tethys Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4076' level='1' />
+		<bundle_package>1240</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
+	<event>
+		<id>3470</id>
+		<name>Tethys Large Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4076' level='1' />
+		<!-- Must have purchased the following before it shows up -->
+		<purchased_event_req>3469</purchased_event_req>
+		<bundle_package>1241</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
+	<event>
+		<id>3471</id>
+		<name>Tethys Fortune Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4076' level='1' />
+		<!-- Must have purchased the following before it shows up -->
+		<purchased_event_req>3470</purchased_event_req>
+		<bundle_package>1242</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1698685200</start_time> <!-- Monday, 30 October 2023 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
 	<event>
 		<id>3472</id>
 		<name>Greater Dichotomy Flask Pack</name>
