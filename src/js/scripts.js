@@ -196,7 +196,7 @@ function filterInput(input, update = true) {
 	if (rarity == 3) {
 		propagateEpic(input, card);
 	}
-	if (rarity == 4) {
+	if (rarity == 4 && !input.id.includes('Dungeon')) {
 		propagateLegendary(input, card);
 	}
 	if (update) {
