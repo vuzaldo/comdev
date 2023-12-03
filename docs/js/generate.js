@@ -260,8 +260,8 @@ while (CARDS[newChamp]) newChamp++;
 while (CARDS[newEpic]) newEpic++;
 let newBGE = 167;
 while (BGES[newBGE]) newBGE++;
-let newFlask = 2801;
-while (ITEMS[newFlask]) newFlask++;
+let newFlask = 28170;
+while (ITEMS[newFlask]) newFlask += 10;
 
 const parameters = {}, previous = {};
 for (const template in editors) {
@@ -650,7 +650,7 @@ const autoSelectEventOptions = {
 	107: { tribe: 'Elemental', map: 'Conflux Convergence', flask: '2802' },
 	108: { tribe: 'Seafolk', map: 'Pharos Temple', flask: '2803' },
 	109: { tribe: 'Angel', map: 'Skyhaven Assault', flask: '2816' },
-	110: { tribe: 'Frog', map: 'Golden Crown Village', flask: '2817' },
+	110: { tribe: 'Frog', map: 'Golden Crown Village', flask: '28170' },
 };
 
 function findSelectorOption(selector, option) {
