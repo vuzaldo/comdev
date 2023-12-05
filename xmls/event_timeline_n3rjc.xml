@@ -46130,6 +46130,21 @@
 		<mission_req>64</mission_req>
 	</event>
 
+	<event>
+		<id>6110</id>
+		<name>Frog Toxic Barrage</name>
+		<desc>All Frogs gain Barrage equal to their base Attack, and Poisonbolt equal to 10% of their base Health. BGE effect is subject to change.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>172</bg_effect>
+		</effect>
+		<start_time>1701968400</start_time> <!-- Thursday, December 07, 2023 at 17:00:00 -->
+		<end_time>1706806800</end_time> <!-- Thursday, February 01, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
 	<!-- BGE END -->
 
 <!-- |||||||||||||||||||||||||||||||||||||||||||| -->
@@ -47381,6 +47396,21 @@
 		<campaign>4004</campaign>
 		<start_time>1701104400</start_time> <!-- Monday, 27 November 2023 -->
 		<end_duration>4320</end_duration>   <!-- 3 Days -->
+		<mission_req>64</mission_req>
+		<priority>1000</priority>
+		<hide_upcoming>1</hide_upcoming>
+	</event>
+	<event>
+		<id>9082</id>
+		<name>Classic Lightning Boss Llorona</name>
+		<desc>A time-limited boss node is available at Seastone Citadel.</desc>
+		<portrait>La_Llorona_Portrait</portrait>
+		<banner_prefab>generic_chance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<type>1</type>
+		<campaign>4005</campaign>
+		<start_time>1703523600</start_time> <!-- Monday, 25 December 2023 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
 		<mission_req>64</mission_req>
 		<priority>1000</priority>
 		<hide_upcoming>1</hide_upcoming>

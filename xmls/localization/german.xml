@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-	
-	<string>
-      <id>unit_type_11_name</id>
-      <value>Goblin</value>
-      <context>Unit type</context>
-   </string>
-   <string>
-      <id>unit_type_12_name</id>
-      <value>Seafolk</value>
-      <context>Unit type</context>
-   </string>
-   <string>
-      <id>unit_type_13_name</id>
-      <value>Insect</value>
-      <context>Unit type</context>
-   </string>
-    <string>
-      <id>skill_confuse_name</id>
-      <value>Confuse</value>
-      <context>Skill name/description on cards</context>
-	</string>
-    <string>
-      <id>skill_confuse_desc</id>
-      <value>Every {c} turns, inflicts Confuse on an Enemy creature, causing it to attack an adjacent ally creature.</value> 
-      <context>Skill name/description on cards</context>
-   </string>
    <string>
       <id>skill_0_name</id>
-      <value>Angreifen</value>
+      <value>Angriff</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_imbue_name</id>
+      <value>Verleihen</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_imbue_desc</id>
+      <value>Gibt einem verbündeten Wesen diese Fähigkeit.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_imbue_desc_all</id>
+      <value>Gibt allen verbündeten Wesen diese Fähigkeit.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_imbue_desc_faction</id>
+      <value>Gibt einem verbündeten Wesen der {y} diese Fähigkeit.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_imbue_desc_all_faction</id>
+      <value>Gibt allen verbündeten Wesen der {y} diese Fähigkeit.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -38,7 +37,22 @@
    </string>
    <string>
       <id>skill_enhance_desc</id>
-      <value>Verbessert die Fertigkeiteneffekte bei zufälligen verbündeten Wesen.</value>
+      <value>Verbessert die Fähigkeit bei einem zufälligen verbündeten Wesen.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_enhance_desc_all</id>
+      <value>Verbessert die Fähigkeit bei allen verbündeten Wesen.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_enhance_desc_faction</id>
+      <value>Verbessert die Fähigkeit bei einem zufälligen verbündeten Wesen der {y}.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_enhance_desc_all_faction</id>
+      <value>Verbessert die Fähigkeit bei allen verbündeten Wesen der {y}.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -48,7 +62,37 @@
    </string>
    <string>
       <id>skill_evade_desc</id>
-      <value>Umgeht gegnerische Fertigkeiten.</value>
+      <value>Umgeht gegnerische Fähigkeiten.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_confuse_name</id>
+      <value>Verwirren</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_confuse_desc</id>
+      <value>Verwirrt alle {c} Züge einen Gegner, der danach einen benachbarten Verbündeten angreift.</value> 
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_vampirism_name</id>
+      <value>Vampirismus</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_vampirism_desc</id>
+      <value>Verursacht jeden Zug Schaden beim gegenüberliegenden Wesen. Dieser Schaden kann nicht erhöht werden. Heilt sich dabei selbst.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_taunt_name</id>
+      <value>Spott</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_taunt_desc</id>
+      <value>Angriffe auf benachbarte Wesen werden stattdessen auf dieses Wesen gerichtet.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -58,7 +102,7 @@
    </string>
    <string>
       <id>skill_armored_desc</id>
-      <value>Verhindert Schaden von Angriffen.</value>
+      <value>Reduziert Schaden von Angriffen.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -72,6 +116,51 @@
       <context>Skill name/description on cards</context>
    </string>
    <string>
+      <id>skill_corrosive_name</id>
+      <value>Korrosion</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_corrosive_desc</id>
+      <value>Wenn dieses Wesen Angriffsschaden erleidet, reduziere den Angriffswert des Angreifers. Vergeht, sofern nicht im nächsten Zug erneut angewendet.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_valor_name</id>
+      <value>Heldenmut</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_valor_desc</id>
+      <value>Zu Beginn jedes Zuges, erhöhe eigenen Angriffswert falls das gegenüberliegende Wesen mehr Angriff hat.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_rally_name</id>
+      <value>Ermächtigen</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_rally_desc</id>
+      <value>Verstärkt den Angriff eines zufälligen verbündeten Wesens.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+	<string>
+		<id>skill_rally_desc_all</id>
+		<value>Verstärkt den Angriff aller verbündeten Wesen.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_rally_desc_faction</id>
+		<value>Verstärkt den Angriff eines zufälligen verbündeten Wesens der {y}.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_rally_desc_all_faction</id>
+		<value>Verstärkt den Angriff aller verbündeten Wesen der {y}.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+   <string>
       <id>skill_heal_name</id>
       <value>Heilen</value>
       <context>Skill name/description on cards</context>
@@ -81,6 +170,21 @@
       <value>Heilt ein zufälliges verbündetes Wesen.</value>
       <context>Skill name/description on cards</context>
    </string>
+   <string>
+		<id>skill_heal_desc_all</id>
+		<value>Heilt alle verbündeten Wesen.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_heal_desc_faction</id>
+		<value>Heilt ein zufälliges verbündetes Wesen der {y}.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_heal_desc_all_faction</id>
+		<value>Heilt alle verbündeten Wesen der {y}.</value>
+		<context>Skill name/description on cards</context>
+	</string>
    <string>
       <id>skill_protect_name</id>
       <value>Schild</value>
@@ -92,15 +196,50 @@
       <context>Skill name/description on cards</context>
    </string>
    <string>
-      <id>skill_rally_name</id>
-      <value>Ermächtigen</value>
-      <context>Skill name/description on cards</context>
-   </string>
+		<id>skill_protect_desc_all</id>
+		<value>Verringert den nächsten Schaden, den alle verbündeten Wesen erleiden werden.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_protect_desc_faction</id>
+		<value>Verringert den nächsten Schaden, den ein zufälliges verbündetes Wesen der {y} erleiden wird.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_protect_desc_all_faction</id>
+		<value>Verringert den nächsten Schaden, den alle verbündeten Wesen der {y} erleiden werden.</value>
+		<context>Skill name/description on cards</context>
+	</string>
    <string>
-      <id>skill_rally_desc</id>
-      <value>Verbessert den Angriff eines zufälligen verbündeten Wesens.</value>
+      <id>skill_legion_name</id>
+      <value>Legion</value>
       <context>Skill name/description on cards</context>
-   </string>
+    </string>
+    <string>
+      <id>skill_legion_desc</id>
+      <value>Ermächtigt verbündete Wesen neben diesem Wesen.</value>
+      <context>Skill name/description on cards</context>
+    </string>
+    <string>
+      <id>skill_legion_desc_faction</id>
+      <value>Ermächtigt verbündete {y}-Wesen neben diesem Wesen.</value>
+      <context>Skill name/description on cards</context>
+    </string>
+    <string>
+      <id>skill_fervor_name</id>
+      <value>Inbrunst</value>
+      <context>Skill name/description on cards</context>
+    </string>
+    <string>
+      <id>skill_fervor_desc</id>
+      <value>Ermächtigt dieses Wesen für jedes anliegende, verbündete Wesen.</value>
+      <context>Skill name/description on cards</context>
+    </string>
+    <string>
+      <id>skill_fervor_desc_faction</id>
+      <value>Ermächtigt dieses Wesen für jedes anliegende, verbündete Wesen der {y}.</value>
+      <context>Skill name/description on cards</context>
+    </string>
    <string>
       <id>skill_enfeeble_name</id>
       <value>Verhexen</value>
@@ -109,8 +248,13 @@
    <string>
       <id>skill_enfeeble_desc</id>
       <value>Erhöht den einem zufälligen gegnerischen Wesen zugefügten Schaden.</value>
-      <context>Skill name/description on cards</context>
+ <context>Skill name/description on cards</context>
    </string>
+	<string>
+		<id>skill_enfeeble_desc_all</id>
+		<value>Erhöht den allen gegnerischen Wesen zugefügten Schaden.</value>
+		<context>Skill name/description on cards</context>
+	</string>
    <string>
       <id>skill_strike_name</id>
       <value>Blitz</value>
@@ -119,6 +263,31 @@
    <string>
       <id>skill_strike_desc</id>
       <value>Fügt einem zufälligen gegnerischen Wesen Schaden zu.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+		<id>skill_strike_desc_all</id>
+		<value>Fügt allen gegnerischen Wesen Schaden zu.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_strike_desc_faction</id>
+		<value>Fügt einem zufälligen gegnerischen Wesen der {y} Schaden zu.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_strike_desc_all_faction</id>
+		<value>Fügt allen gegnerischen Wesen der {y} Schaden zu.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+   <string>
+      <id>skill_frost_name</id>
+      <value>Frostatem</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_frost_desc</id>
+      <value>Fügt dem gegenüberliegenden Wesen und dessen direkten Nachbarn Schaden zu.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -138,7 +307,12 @@
    </string>
    <string>
       <id>skill_jam_desc</id>
-      <value>Zufälliges gegnerisches Wesen greift im nächsten Zug entweder nicht an oder aktiviert keine Fähigkeiten. Aktiviert sich alle {c} Züge.</value>
+      <value>Zufälliges gegnerisches Wesen greift im nächsten Zug weder an, noch aktiviert es Fähigkeiten. Aktiviert sich alle {c} Züge.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_jam_desc_all</id>
+      <value>Alle gegnerischen Wesen greifen im nächsten Zug weder an, noch aktivieren sie Fähigkeiten. Aktiviert sich alle {c} Züge.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -151,6 +325,21 @@
       <value>Verringert den Angriffswert eines zufälligen gegnerischen Wesens.</value>
       <context>Skill name/description on cards</context>
    </string>
+	<string>
+		<id>skill_weaken_desc_all</id>
+		<value>Verringert den Angriffswert aller gegnerischen Wesen.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_weaken_desc_faction</id>
+		<value>Verringert den Angriffswert eines zufälligen gegnerischen Wesens der {y}.</value>
+		<context>Skill name/description on cards</context>
+	</string>
+	<string>
+		<id>skill_weaken_desc_all_faction</id>
+		<value>Verringert den Angriffswert aller gegnerischen Wesen der {y}.</value>
+		<context>Skill name/description on cards</context>
+	</string>
    <string>
       <id>skill_pierce_name</id>
       <value>Durchbohren</value>
@@ -158,7 +347,27 @@
    </string>
    <string>
       <id>skill_pierce_desc</id>
-      <value>Reduziert den Effekt von gegnerischer Panzerung oder Schilden.</value>
+      <value>Reduziert den Effekt von gegnerischer Panzerung oder Schilde.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_silence_name</id>
+      <value>Stillstellen</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_silence_desc</id>
+      <value>Wenn Angriffsschaden verursacht wird, setze alle Fähigkeiten des gegenüberligenden Wesens außer Kraft.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_nullify_name</id>
+      <value>Annullieren</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_nullify_desc</id>
+      <value>Wenn Angriffsschaden verursacht wird, verhindere diese Anzahl an Aktivierungen freundlicher Fähigkeiten auf dem gegenüberliegenden Wesen.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -188,7 +397,309 @@
    </string>
    <string>
       <id>skill_leech_desc</id>
-      <value>Wenn diese Karte Angriffsschaden verursacht, heilt sie sich.</value>
+      <value>Wenn dieses Wesen Angriffsschaden verursacht, heilt es sich.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_berserk_name</id>
+      <value>Berserk</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_berserk_desc</id>
+      <value>Wenn dieses Wesen Angriffsschaden verursacht, erhöht sich permanent der Angriffswert.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_fury_name</id>
+      <value>Maelstroms Zorn</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_fury_desc</id>
+      <value>Dieses Wesen hat Vergeltung und die Hälfte an Schleier und Wut.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_evadebarrier_name</id>
+      <value>Mystisches Schild</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_evadebarrier_desc</id>
+      <value>Gibt einem zufälligen verbündeten Wesen Schild und die Hälfte an Unsichtbarkeit.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_counterburn_name</id>
+      <value>Feuerhaut</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_counterburn_desc</id>
+      <value>Wenn dieses Wesen Angriffsschaden erleidet, versenge den Angreifer.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_weakenself_name</id>
+      <value>Schwäche Verbündeten</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_scorchbreath_name</id>
+      <value>Flammenatem</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_scorchbreath_desc</id>
+      <value>Fügt dem gegenüberliegenden Wesen und dessen direkten Nachbarn Versengen zu.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_enrage_name</id>
+      <value>Wut</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_enrage_desc</id>
+      <value>Gibt einem verbündeten Wesen Wut, welche den Angriffswert erhöht sobald es Angriffsschaden erleidet.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_enrage_desc_all</id>
+      <value>Gibt allen verbündeten Wesen Wut, welche die Angriffswerte erhöht sobald sie Angriffsschaden erleiden.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_enrage_desc_faction</id>
+      <value>Gibt einem verbündeten Wesen der {y} Wut, welche den Angriffswert erhöht sobald es Angriffsschaden erleidet.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_enrage_desc_all_faction</id>
+      <value>Gibt allen verbündeten Wesen der {y} Wut, welche die Angriffswerte erhöht sobald sie Angriffsschaden erleiden.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_ignite_name</id>
+      <value>Ignite</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_ignite_desc</id>
+      <value>Increases the Scorch value on a Scorched enemy creature, or deal Scorch damage to a random enemy creature</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_intensify_name</id>
+      <value>Intensify</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_intensify_desc</id>
+      <value>Increases the value of Scorch or Poison on an enemy creature</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_venom_name</id>
+      <value>Toxin</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_venom_desc</id>
+      <value>Wenn dieses Wesen Angriffsschaden verursacht, setze Toxin beim gegenüberliegenden Wesen ein. Verursacht Schaden am Ende des Zuges und erhöht erlittenen Schaden durch andere Fähigkeiten.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_barrage_name</id>
+      <value>Sperrfeuer</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_barrage_desc</id>
+      <value>Verursacht einzeln Schaden bei zufälligen gegnerischen Wesen. Wird nicht von Verhexen oder Toxin verstärkt.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_absorb_name</id>
+      <value>Schutz</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_absorb_desc</id>
+      <value>Reduziert jede Runde Schaden von Fähigkeiten und Statuseffekten.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_backlash_name</id>
+      <value>Rückschlag</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_backlash_desc</id>
+      <value>Nachdem dieses Wesen von einer gegnerischen Fähigkeit anvisiert wurde, vergelte mit Schaden.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_stasis_name</id>
+      <value>Schleier</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_stasis_desc</id>
+      <value>Reduziert erlittenen Schaden von allen Angriffen und Fähigkeiten solange in Verzögerung oder Starre.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_burnself_name</id>
+      <value>Scorch Self</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_burnself_desc</id>
+      <value>Deals stacking damage to this creature at end of turn. Wears off if not reapplied for a turn.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_jamself_name</id>
+      <value>Freeze Self</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_jamself_desc</id>
+      <value>This creature doesn't attack or activate abilities on its next turn. Activates every {c} turns.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_reanimate_name</id>
+      <value>Wiederbeleben</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_reanimate_desc</id>
+      <value>Verhindert einmalig den Tod dieses Wesens, heilt und entfernt alle Statuseffekte.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_heartseeker_name</id>
+      <value>Herzbohrer</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_heartseeker_desc</id>
+      <value>Wenn dieses Wesen Angriffsschaden verursacht, erleidet das gegnerische Wesen permanent erhöhten Angriffsschaden.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_regenerate_name</id>
+      <value>Regenerieren</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_regenerate_desc</id>
+      <value>Heilt sich selbst am Ende jedes Zuges.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_daze_name</id>
+      <value>Schwinden</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_daze_desc</id>
+      <value>Wenn dieses Wesen Angriffsschaden verursacht, reduziere Angriff des gegenüberliegenden Wesens.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_radiance_name</id>
+      <value>Ausstrahlung</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_radiance_desc</id>
+      <value>Ermächtigt benachbarte Wesen und erteilt die Hälfte an Schild.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_radiance_desc_faction</id>
+      <value>Ermächtigt benachbarte Wesen der {y} und erteilt die Hälfte an Schild.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_devour_name</id>
+      <value>Verzehren</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_devour_desc</id>
+      <value>Wenn dieses Wesen Angriffsschaden verursacht, erhöht dauerhaft Angriffskraft und heilt sich selbst.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_invigorate_name</id>
+      <value>Beleben</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_invigorate_desc</id>
+      <value>Heilt ein zufälligs verbündetes Wesen und erhöht einmalig, dauerhaft die maximale Gesundheit.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_invigorate_desc_all</id>
+      <value>Heilt alle verbündeten Wesen und erhöht einmalig, dauerhaft die maximale Gesundheit.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_invigorate_desc_faction</id>
+      <value>Heilt ein zufälliges verbündetes Wesen der {y} und erhöht einmalig, dauerhaft maximale Gesundheit.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_invigorate_desc_all_faction</id>
+      <value>Heilt alle verbündeten Wesen der {y} und erhöht einmalig, dauerhaft maximale Gesundheit.</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_swarm_name</id>
+      <value>Schwarm</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_swarm_desc</id>
+      <value>Wenn dieses Wesen Angriffsschaden verursacht, erhöhe dauerhaft den Angriffswert des aktiven Verbündeten mit der geringsten Angriffskraft.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_wingward_name</id>
+      <value>Beflügelter Schutz</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_wingward_desc</id>
+      <value>Gibt sich selbst und dem Verbündeten Wesen ganz links Schild und die Hälfte an Unsichtbarkeit.</value>
+	  <context>Skill name/description on cards</context>
+   </string>
+<!--Midas-->
+   <string>
+      <id>skill_magicfield_name</id>
+      <value>Anti-Magie Feld</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_magicfield_desc</id>
+      <value>Dieses Wesen ist immun gegen negative Effekte. Die positiven Effekte für das gegenüberliegende Wesen werden annulliert.</value>
+	  <context>Skill name/description on cards</context>
+   </string>     
+<!--Midas-->   
+   <string>
+      <id>skill_counterpoison_name</id>
+      <value>Gifthaut</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_counterpoison_desc</id>
+      <value>Wenn dieses Wesen Angriffsschaden erleidet, vergifte den Angreifer.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -208,7 +719,7 @@
    </string>
    <string>
       <id>unit_type_3_name</id>
-      <value>Wyld</value>
+      <value>Wild</value>
       <context>Unit type</context>
    </string>
    <string>
@@ -239,6 +750,46 @@
    <string>
       <id>unit_type_9_name</id>
       <value>Drache</value>
+      <context>Unit type</context>
+   </string>
+   <string>
+      <id>unit_type_10_name</id>
+      <value>Vogel</value>
+      <context>Unit type</context>
+   </string>
+   <string>
+      <id>unit_type_11_name</id>
+      <value>Goblin</value>
+      <context>Unit type</context>
+   </string>
+   <string>
+      <id>unit_type_12_name</id>
+      <value>Meeresvolk</value>
+      <context>Unit type</context>
+   </string>
+   <string>
+      <id>unit_type_13_name</id>
+      <value>Insekt</value>
+      <context>Unit type</context>
+   </string>
+   <string>
+      <id>unit_type_14_name</id>
+      <value>Bär</value>
+      <context>Unit type</context>
+   </string>
+   <string>
+      <id>unit_type_15_name</id>
+      <value>Marke</value>
+      <context>Unit type</context>
+   </string>
+   <string>
+      <id>unit_type_16_name</id>
+      <value>Mecha</value>
+      <context>Unit type</context>
+   </string>
+   <string>
+      <id>unit_type_17_name</id>
+      <value>Ritter</value>
       <context>Unit type</context>
    </string>
    <string>
@@ -9176,101 +9727,6 @@
     <content>title label</content>
   </string>
   <!-- August 21 Additions -->
-  <string>
-		<id>skill_enhance_desc_all</id>
-		<value>Verbessert die Fertigkeiteneffekte bei allen verbündeten Wesen.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_enhance_desc_faction</id>
-		<value>Verbessert die Fertigkeiteneffekte bei zufälligen verbündeten Wesen der {y}.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_enhance_desc_all_faction</id>
-		<value>Verbessert die Fertigkeiteneffekte bei allen verbündeten Wesen der {y}.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_heal_desc_all</id>
-		<value>Heilt alle verbündeten Wesen.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_heal_desc_faction</id>
-		<value>Heilt ein zufälliges verbündetes Wesen der {y}.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_heal_desc_all_faction</id>
-		<value>Heilt alle verbündeten Wesen der {y}.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_protect_desc_all</id>
-		<value>Verringert den nächsten Schaden, den alle verbündeten Wesen erleiden werden.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_protect_desc_faction</id>
-		<value>Verringert den nächsten Schaden, den ein zufälliges verbündetes Wesen der {y} erleiden wird.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_protect_desc_all_faction</id>
-		<value>Verringert den nächsten Schaden, den alle verbündeten Wesen der {y} erleiden werden.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_rally_desc_all</id>
-		<value>Verbessert den Angriff aller verbündeten Wesen.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_rally_desc_faction</id>
-		<value>Verbessert den Angriff eines zufälligen verbündeten Wesens der {y}.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_rally_desc_all_faction</id>
-		<value>Verbessert den Angriff aller verbündeten Wesen der {y}.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_enfeeble_desc_all</id>
-		<value>Erhöht den allen gegnerischen Wesen zugefügten Schaden.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_strike_desc_all</id>
-		<value>Fügt allen gegnerischen Sturmangriffswesen Schaden zu.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_strike_desc_faction</id>
-		<value>Fügt einem zufälligen gegnerischen Wesen der {y} Schaden zu.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_strike_desc_all_faction</id>
-		<value>Fügt allen gegnerischen Sturmangriffswesen der {y} Schaden zu.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_weaken_desc_all</id>
-		<value>Verringert den Angriffswert aller gegnerischen Wesen.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_weaken_desc_faction</id>
-		<value>Verringert den Angriffswert eines zufälligen gegnerischen Wesens der {y}.</value>
-		<context>Skill name/description on cards</context>
-	</string>
-	<string>
-		<id>skill_weaken_desc_all_faction</id>
-		<value>Verringert den Angriffswert aller gegnerischen Wesen der {y}.</value>
-		<context>Skill name/description on cards</context>
-	</string>
 	<string>
 		<id>unit_235_name</id>
 		<value>1. Kampagne</value>
@@ -10749,36 +11205,6 @@
   	</string>
   	<!-- September 21 Translations -->
   <string>
-    <id>skill_legion_name</id>
-    <value>Legion</value>
-    <context>Skill name/description on cards</context>
-  </string>
-  <string>
-    <id>skill_legion_desc</id>
-    <value>Ermächtigt verbündete Wesen neben diesem Wesen.</value>
-    <context>Skill name/description on cards</context>
-  </string>
-  <string>
-    <id>skill_legion_desc_faction</id>
-    <value>Ermächtigt verbündete {y}-Wesen neben diesem Wesen.</value>
-    <context>Skill name/description on cards</context>
-  </string>
-  <string>
-    <id>skill_fervor_name</id>
-    <value>Inbrunst</value>
-    <context>Skill name/description on cards</context>
-  </string>
-  <string>
-    <id>skill_fervor_desc</id>
-    <value>Ermächtigt dieses Wesen für jedes verbündete Wesen in dessen direkter Umgebung.</value>
-    <context>Skill name/description on cards</context>
-  </string>
-  <string>
-    <id>skill_fervor_desc_faction</id>
-    <value>Ermächtigt dieses Wesen für jedes verbündete {y}-Wesen in dessen direkter Umgebung.</value>
-    <context>Skill name/description on cards</context>
-  </string>
-  <string>
     <id>unit_2006_name</id>
     <value>Zhulong</value>
     <context>Card name/descriptions</context>
@@ -11690,7 +12116,7 @@
   </string>
   <string>
     <id>CLIENT_SKILL_DESC_ALL</id>
-    <value>{0} alle {1}{2}{3}</value>
+    <value>{0} alle{1}{2}{3}</value>
     <context />
   </string>
   <string>

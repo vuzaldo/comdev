@@ -8,9 +8,8 @@
 		<gold>10</gold>		<!-- gold gained for defeating a rank 1 player -->
 		<win>10</win>
 		<loss>0</loss>		<!-- points lost on defeat -->
-		<max_bounties>5</max_bounties>
+		<max_bounties>17</max_bounties>
 		<recharge_time>10</recharge_time>
-		<truncate_enemy_deck>3</truncate_enemy_deck>
 		<brawl_points>5</brawl_points>		<!-- how much is a player in this rank worth in a brawl -->
 	</rank>
 	<rank>
@@ -22,7 +21,6 @@
 		<win>12</win>
 		<loss>1</loss>
 		<recharge_time>12</recharge_time>
-		<truncate_enemy_deck>5</truncate_enemy_deck>
 		<brawl_points>10</brawl_points>
 	</rank>
 	<rank>
@@ -33,9 +31,8 @@
 		<gold>20</gold>
 		<win>14</win>
 		<loss>1</loss>
-		<max_bounties>6</max_bounties>
+		<max_bounties>18</max_bounties>
 		<recharge_time>15</recharge_time>
-		<truncate_enemy_deck>6</truncate_enemy_deck>
 		<brawl_points>15</brawl_points>
 	</rank>
 	<rank>
@@ -47,7 +44,6 @@
 		<win>17</win>
 		<loss>3</loss>
 		<recharge_time>20</recharge_time>
-		<truncate_enemy_deck>8</truncate_enemy_deck>
 		<brawl_points>25</brawl_points>
 	</rank>
 	<rank>
@@ -59,7 +55,6 @@
 		<win>20</win>
 		<loss>4</loss>
 		<recharge_time>25</recharge_time>
-		<truncate_enemy_deck>10</truncate_enemy_deck>
 		<brawl_points>35</brawl_points>
 	</rank>
 	<rank>
@@ -70,7 +65,7 @@
 		<gold>48</gold>
 		<win>25</win>
 		<loss>6</loss>
-		<max_bounties>7</max_bounties>
+		<max_bounties>19</max_bounties>
 		<recharge_time>30</recharge_time>
 		<brawl_points>50</brawl_points>
 	</rank>
@@ -93,7 +88,7 @@
 		<gold>63</gold>
 		<win>35</win>
 		<loss>12</loss>
-		<max_bounties>8</max_bounties>
+		<max_bounties>20</max_bounties>
 		<recharge_time>50</recharge_time>
 		<brawl_points>100</brawl_points>
 	</rank>

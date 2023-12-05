@@ -13309,6 +13309,223 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
+	<package>
+		<id>1271</id>
+		<name>Daffdal Trove</name>
+		<desc>Gives 75 ^cE7FFDaffdal Stone^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 50 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104078' number='75' />  <!-- Stone -->
+		<item id='2001' number='25' />  <!-- Arcane Fragment -->
+		<item id='1004' number='10' />  <!-- Energy +20 -->
+		<item id='4001' number='50' />  <!-- Inscription Powder -->
+		<sp>50</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1272</id>
+		<name>Daffdal Large Trove</name>
+		<desc>Gives 200 ^cE7FFDaffdal Stone^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 100 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104078' number='200' /> <!-- Stone -->
+		<item id='2001' number='50' />  <!-- Arcane Fragment -->
+		<item id='1004' number='15' />  <!-- Energy +20 -->
+		<item id='4001' number='100' /> <!-- Inscription Powder -->
+		<sp>100</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t40_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1273</id>
+		<name>Daffdal Fortune Trove</name>
+		<desc>Gives 725 ^cE7FFDaffdal Stone^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 300 Arcane Dust, and 250 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104078' number='725' /> <!-- Stone -->
+		<item id='2001' number='150' /> <!-- Arcane Fragment -->
+		<item id='1004' number='25' />  <!-- Energy +20 -->
+		<item id='4001' number='250' /> <!-- Inscription Powder -->
+		<sp>300</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t60_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1274</id>
+		<name>Caesar Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFCaesar, the Commander^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+    	<asset_prefab>event_093_stonepack_02</asset_prefab>
+   		<bundle>253</bundle>
+    	<background_prefab>event_93_minimenace_banner</background_prefab>
+    	<background_bundle>253</background_bundle>
+		<category>1</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104062' number='200' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1275</id>
+		<name>Atlatl Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFAtlatl, Forest Hunter^cFFFF! May only be purchased once!</desc>
+		<priority>400</priority>
+    	<asset_prefab>event_101_stonepack_02</asset_prefab>
+   		<bundle>269</bundle>
+    	<background_prefab>event_101_junglefrog_banner</background_prefab>
+    	<background_bundle>269</background_bundle>
+		<category>1</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104069' number='200' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1276</id>
+		<name>Mighty Allfather Flask Special</name>
+		<desc>Gives 100 Mighty Allfather Flasks. They contain Champion Stones for Allfather, the Shaper; Vasile, the Night Duke; Froggit, the Puppeteer or Mothmo, the Cryptid! May be purchased 4 times!</desc>
+		<asset_prefab>event_063_stonepack_02</asset_prefab>
+		<bundle>189</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
+		<num_available>4</num_available>
+		<!-- Stuff to give -->
+		<item id='2607' number='100' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1277</id>
+		<name>Quad Assassin Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFTreeblade Assassin^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id='26051' />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1278</id>
+		<name>Quad Webtoe Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFWebtoe Firefoot^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id='27157' />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1279</id>
+		<name>Frog Starter Set</name>
+		<desc>Power up your Frog deck! Contains 4 Quads: ^cE7FFLightning Leaper^cFFFF, ^cE7FFLilypad Muse^cFFFF, ^c0DFFRibbit Wayfarer^cFFFF, and ^c0DFFFrog Warmage^cFFFF plus 50 Froggit Stones! One purchase only!</desc>
+		<asset_prefab>starter_deck</asset_prefab>
+		<bundle>35</bundle>
+		<background_prefab>3rdAnniversary_banner</background_prefab>
+		<background_bundle>136</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<show_list>1</show_list>
+		<!-- Stuff to give -->
+		<card id='21643' /> <!-- Lightning Leaper -->
+		<card id='21043' /> <!-- Lilypad Muse -->
+		<card id='21028' /> <!-- Ribbit Wayfarer -->
+		<card id='22014' /> <!-- Frog Warmage -->
+		<item id='104032' number='50' />	<!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1280</id>
+		<name>Blasteye Shard Bundle!</name>
+		<desc>Gives 330 Shards and a BONUS ^cE7FFBlasteye Sentry^cFFFF card! May be purchased 4 times!</desc>
+		<priority>300</priority>
+		<!-- Stuff to give -->
+		<card id='6201' />
+		<tokens>330</tokens>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1281</id>
+		<name>Super Dual Frog Bonus!</name>
+		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFFrog card, 200 Arcane Dust and 150 Inscription Powder! May be purchased 2 times!</desc>
+		<asset_prefab>angel_legendary_crystal</asset_prefab>
+		<bundle>49</bundle>
+		<!-- Stuff to give -->
+		<tokens>800</tokens>
+		<pack>5346</pack>
+		<item id='4001' number='150' />	<!-- Inscription Powder -->
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t50</price_point_id>
+	</package>
+
+	<package>
+		<id>1282</id>
+		<name>Holiday Legendary Sale!</name>
+		<desc>Includes 220 Shards, 700 Arcane Dust, and a bonus random ^cE7FFLegendary ^cFFFFFrog card from Premium Set!  Mey be purchased 5 times!</desc>
+		<asset_prefab>event_011_crystal_legendary</asset_prefab>
+		<bundle>59</bundle>
+		<background_prefab>christmas_store_banner</background_prefab>
+		<background_bundle>80</background_bundle>
+		<priority>395</priority>
+		<show_list>1</show_list>
+		<!-- Stuff to give -->
+		<tokens>220</tokens>
+		<pack>3068</pack>
+		<sp>700</sp>
+		<!-- 3078 -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1283</id>
+		<name>Holiday Colossal Bundle!</name>
+		<desc>Includes 2500 Shards, a ^cE7FFLegendary ^cFFFFPack, 10 Bounty Refill +20, 800 Arcane Dust, 25 Energy Potions +50 a ^cE7FFLegendary Rune^cFFFF and more!</desc>
+		<asset_prefab>xmas_bundle_chest_colossal</asset_prefab>
+		<background_prefab>christmas_store_banner</background_prefab>
+		<bundle>80</bundle>
+		<priority>395</priority>
+		<show_list>1</show_list>
+		<!-- Stuff to give -->
+		<tokens>2500</tokens>
+		<pack>87</pack>
+		<item id='1005' number='25' /> <!-- Energy Potion +50 -->
+		<item id='1025' number='10' /> <!-- Bounty Refill +20 -->
+		<pack>13</pack>
+		<sp>800</sp>
+		<item id='2529' number='10' />  <!-- Hefty Mythical Flask -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t60</price_point_id>
+	</package>
 
 <!-- END BUNDLES BUNDLES END-->
 

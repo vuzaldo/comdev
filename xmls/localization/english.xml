@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-      <string>
+   <string>
       <id>skill_0_name</id>
       <value>Attack</value>
       <context>Skill name/description on cards</context>
@@ -29,7 +29,7 @@
       <id>skill_imbue_desc_all_faction</id>
       <value>Adds this Skill to all {y} allies.</value>
       <context>Skill name/description on cards</context>
-   </string>		
+   </string>
    <string>
       <id>skill_enhance_name</id>
       <value>Enhance</value>
@@ -70,7 +70,7 @@
       <value>Confuse</value>
       <context>Skill name/description on cards</context>
    </string>
-    <string>
+   <string>
       <id>skill_confuse_desc</id>
       <value>Every {c} turns, inflicts Confuse on an Enemy creature, causing it to attack an adjacent ally creature.</value> 
       <context>Skill name/description on cards</context>
@@ -78,6 +78,11 @@
    <string>
       <id>skill_vampirism_name</id>
       <value>Vampirism</value>
+      <context>Skill name/description on cards</context>
+   </string>
+   <string>
+      <id>skill_vampirism_desc</id>
+      <value>Deals damage to opposing creature, even while on delay. This damage cannot be increased. After dealing damage, heals self.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -335,7 +340,6 @@
       <value>Inflicts Weaken on all {y} enemies, reducing Attack.</value>
       <context>Skill name/description on cards</context>
    </string>
-   
    <string>
       <id>skill_pierce_name</id>
       <value>Pierce</value>
@@ -423,7 +427,7 @@
    </string>
    <string>
       <id>skill_evadebarrier_desc</id>
-      <value>Grants Barrier and half as much Invisibility to self and leftmost ally creature.</value>
+      <value>Grants Barrier and half as much Invisibility to random ally creature.</value>
       <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -503,7 +507,7 @@
    </string>
    <string>
       <id>skill_venom_desc</id>
-      <value>Creatures damaged by this card are afflicted with Venom, increasing damage dealt to it and dealing additional damage at the end of each turn</value>
+      <value>Creatures damaged by this card are afflicted with Venom, increasing damage dealt to it and dealing additional damage at the end of each turn.</value>
 	  <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -526,7 +530,6 @@
       <value>Prevents this much damage taken from Skills or Statuses each round.</value>
       <context>Skill name/description on cards</context>
    </string>
-
    <string>
       <id>skill_backlash_name</id>
       <value>Backlash</value>
@@ -547,7 +550,6 @@
       <value>Reduces damage taken from each Attack and Skill while on delay or Frozen.</value>
       <context>Skill name/description on cards</context>
    </string>
-
    <string>
       <id>skill_burnself_name</id>
       <value>Scorch Self</value>
@@ -585,7 +587,7 @@
    </string>
    <string>
       <id>skill_heartseeker_desc</id>
-      <value>Reduces damage taken from each Attack and Skill while on delay or Frozen.</value>
+      <value>Inflicts Heartseeker on the opposing creature, permanently increasing damage taken from Attacks.</value>
 	  <context>Skill name/description on cards</context>
    </string>
    <string>
@@ -608,7 +610,6 @@
       <value>After dealing Attack damage, inflicts Daze, reducing Attack.</value>
 	  <context>Skill name/description on cards</context>
    </string>
-
    <string>
       <id>skill_radiance_name</id>
       <value>Radiance</value>
@@ -701,7 +702,6 @@
       <value>When damaged by an attack, Poison the attacker.</value>
       <context>Skill name/description on cards</context>
    </string>
-
    <string>
       <id>unit_type_0_name</id>
       <value />

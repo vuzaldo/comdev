@@ -1900,4 +1900,24 @@
 		<card id='12030' level='1' order='4' />  <!-- Ebonfire Duelist -->
 	</event_box>
 
+	<event_box>
+		<id>6095</id>
+		<name>Frog Arena Chest</name>
+		<desc>Pull from a set of awesome reward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>  <!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id='20' order='1' />   <!-- Trophy -->
+		<card id='12107' level='1' order='2' />  <!-- Warborn Toad -->
+		<card id='12162' level='1' order='3' />  <!-- Scorchray Samurai -->
+		<card id='12182' level='1' order='4' />  <!-- Axolotl Riverguards -->
+	</event_box>
+
 </root>
