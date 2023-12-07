@@ -50,7 +50,7 @@
 		</skill>
  	-->
 
- 	<!-- =================================== -->
+	<!-- =================================== -->
 	<!-- ==== 101-500: Tribal Event BGE ==== -->
 	<!-- =================================== -->
 	<battleground>
@@ -60,8 +60,8 @@
 		<web_picture>filter_dragon_64.png</web_picture>
 		<icon>filter_dragon_64</icon>
 		<effect>
-		<!--	<skill id='heal' mult='0.25' all='1' y='9' /> -->
-		<add_skill id='regenerate' mult='0.25' base='health' y='9' />
+			<!--	<skill id='heal' mult='0.25' all='1' y='9' /> -->
+			<add_skill id="regenerate" mult="0.25" base="health" y="9"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -71,7 +71,7 @@
 		<web_picture>filter_elementals_64.png</web_picture>
 		<icon>filter_elementals_64</icon>
 		<effect>
-			<skill id='rally' x='2' all='1' y='5' />
+			<skill id="rally" x="2" all="1" y="5"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -81,7 +81,7 @@
 		<web_picture>filter_frog_64.png</web_picture>
 		<icon>filter_frog_64</icon>
 		<effect>
-			<skill id='protect' x='2' all='1' y='4' />
+			<skill id="protect" x="2" all="1" y="4"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -91,8 +91,8 @@
 		<web_picture>filter_iceshatter_64.png</web_picture>
 		<icon>filter_iceshatter_64</icon>
 		<effect>
-			<evolve_skill id='protect' s='protect_ice' />
-			<evolve_skill id='protect' s='protect_ice' all='1' />
+			<evolve_skill id="protect" s="protect_ice"/>
+			<evolve_skill id="protect" s="protect_ice" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -102,7 +102,7 @@
 		<web_picture>filter_undead_64.png</web_picture>
 		<icon>filter_undead_64</icon>
 		<effect>
-			<add_skill id='berserk' mult='0.15' base='health' y='7' />
+			<add_skill id="berserk" mult="0.15" base="health" y="7"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -112,8 +112,8 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<effect>
-			<add_skill id='legion' mult='0.5' base='attack' y='6' />
-			<skill id='displayEffect' trigger='onSkill' y='6' s='legion' >
+			<add_skill id="legion" mult="0.5" base="attack" y="6"/>
+			<skill id="displayEffect" trigger="onSkill" y="6" s="legion">
 				<projectile_effect>
 					<prefab>Legion_Projectile</prefab>
 					<delay>0</delay>
@@ -138,8 +138,8 @@
 		<icon>filter_elementals_64</icon>
 		<effect>
 			<card_type>99</card_type>
-			<skill id='enlarge' mult='0.75' all='1' y='5' />	<!-- mult is based on attack -->
-			<skill id='displayEffect' trigger='onSkill' y='99' s='enlarge' >
+			<skill id="enlarge" mult="0.75" all="1" y="5"/> <!-- mult is based on attack -->
+			<skill id="displayEffect" trigger="onSkill" y="99" s="enlarge">
 				<target_effect>
 					<prefab>Empower_Target_Elemental</prefab>
 					<delay>0.5</delay>
@@ -156,7 +156,7 @@
 		<web_picture>filter_frog_64.png</web_picture>
 		<icon>filter_frog_64</icon>
 		<effect>
-			<add_skill id='poisonstrike' mult='0.5' base='attack' y='4' />
+			<add_skill id="poisonstrike" mult="0.5" base="attack" y="4"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -165,7 +165,7 @@
 		<desc>The first time Avians activate, they permanently double their base Attack if the opposing card has more Attack.</desc>
 		<icon>filter_avian_64.png</icon>
 		<effect>
-			<add_skill id='valor' mult='1' base='attack' y='10' />
+			<add_skill id="valor" mult="1" base="attack" y="10"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -174,8 +174,8 @@
 		<desc>Insects gain a hardened carapace, gaining Armored value equal to 10% of their base Health, rounded up.</desc>
 		<icon>filter_insect_64.png</icon>
 		<effect>
-			<add_skill id='armored' mult='0.1' base='health' y='13' />
-			<skill id='displayEffect' trigger='onSkill' y='13' s='armored' >
+			<add_skill id="armored" mult="0.1" base="health" y="13"/>
+			<skill id="displayEffect" trigger="onSkill" y="13" s="armored">
 				<actor_effect>
 					<prefab>insect_armor</prefab>
 					<bundle_id>64</bundle_id>
@@ -192,8 +192,8 @@
 		<desc>When an Elemental is damaged by an attack, it deals Scorch damage to the attacker equal to 10% of the Elemental's base Health.</desc>
 		<icon>filter_elementals_64</icon>
 		<effect>
-			<add_skill id='counterburn' mult='0.1' base='health' y='5' />
-			<skill id='displayEffect' trigger='onSkill' s='counterburn' >
+			<add_skill id="counterburn" mult="0.1" base="health" y="5"/>
+			<skill id="displayEffect" trigger="onSkill" s="counterburn">
 				<target_effect>
 					<prefab>FireVengence_Reverse</prefab>
 					<prefab_enemy>FireVengence</prefab_enemy>
@@ -211,8 +211,8 @@
 		<desc>Each active Goblin throws a number of bombs equal to their base Attack at the start of each turn before other skills. Each bomb deals 1 damage and does not benefit from Hex or Venom.</desc>
 		<icon>filter_goblin_64</icon>
 		<effect>
-			<add_skill id='barrage' mult='1' base='attack' y='11' />
-			<skill id='displayEffect' trigger='onSkill' y='11' s='barrage' >
+			<add_skill id="barrage" mult="1" base="attack" y="11"/>
+			<skill id="displayEffect" trigger="onSkill" y="11" s="barrage">
 				<projectile_effect>
 					<prefab>goblinBombProjectile</prefab>
 					<bundle_id>75</bundle_id>
@@ -237,8 +237,8 @@
 		<desc>All Seafolk dive beneath the waves, gaining a Barrier each turn equal to 30% of their base Health while on delay.</desc>
 		<icon>filter_seafolk_64</icon>
 		<effect>
-			<skill id='protect_seafolk' mult='0.3' base='health' all='1' y='12' />
-			<skill id='displayEffect' trigger='onSkillDelay' s='protect_seafolk' >
+			<skill id="protect_seafolk" mult="0.3" base="health" all="1" y="12"/>
+			<skill id="displayEffect" trigger="onSkillDelay" s="protect_seafolk">
 				<target_effect>
 					<prefab>submerge_fadecloth_delay</prefab>
 					<bundle_id>82</bundle_id>
@@ -252,7 +252,7 @@
 					<duration>0.5</duration>
 				</projectile_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkill' s='protect_seafolk' >
+			<skill id="displayEffect" trigger="onSkill" s="protect_seafolk">
 				<target_effect>
 					<prefab>submerge_fadecloth</prefab>
 					<bundle_id>82</bundle_id>
@@ -266,7 +266,7 @@
 					<duration>0.5</duration>
 				</projectile_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillHit' s='protect_seafolk' >
+			<skill id="displayEffect" trigger="onSkillHit" s="protect_seafolk">
 				<actor_effect>
 					<prefab>submerge_barrier</prefab>
 					<bundle_id>82</bundle_id>
@@ -274,7 +274,7 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillBreak' s='protect_seafolk' >
+			<skill id="displayEffect" trigger="onSkillBreak" s="protect_seafolk">
 				<actor_effect>
 					<prefab>submerge_break</prefab>
 					<bundle_id>82</bundle_id>
@@ -291,8 +291,8 @@
 		<icon>filter_avian_64.png</icon>
 		<effect>
 			<!-- <add_skill id='mark' mult='0.3' base='attack' y='10' /> -->
-			<add_skill id='mark' mult='0.15' base='health' y='10' />
-			<skill id='displayEffect' trigger='onSkill' y='10' s='mark' >
+			<add_skill id="mark" mult="0.15" base="health" y="10"/>
+			<skill id="displayEffect" trigger="onSkill" y="10" s="mark">
 				<target_effect>
 					<prefab>EagleEye</prefab>
 					<bundle_id>84</bundle_id>
@@ -315,21 +315,21 @@
 		<desc>When an Undead dies it creates an Unearthed Skeleton token creature with 50% Attack and Health of the Undead that died. The token has Invisibility and Berserk values based on its rarity.</desc>
 		<icon>filter_undead_64.png</icon>
 		<effect>
-		    <add_skill id='unearth' mult='0.5' rarity='1' y='7' card='607' level='3' />
-		    <add_skill id='unearth' mult='0.5' rarity='2' y='7' card='608' level='4' />
-		    <add_skill id='unearth' mult='0.5' rarity='3' y='7' card='609' level='5' />
-		    <add_skill id='unearth' mult='0.5' rarity='4' y='7' card='610' level='6' />
-		    <add_skill id='unearth' mult='0.5' rarity='5' y='7' card='611' level='7' />
-			<skill id='displayEffect' trigger='onSkill' y='7' s='unearth' >
-                <target_effect>
-                    <prefab>unearth_actor</prefab>
-                    <bundle_id>87</bundle_id>
-                    <delay>0</delay>
-                    <duration>3</duration>
-                    <!-- <shake>true</shake> -->
-                </target_effect>
-            </skill>
-         </effect>
+			<add_skill id="unearth" mult="0.5" rarity="1" y="7" card="607" level="3"/>
+			<add_skill id="unearth" mult="0.5" rarity="2" y="7" card="608" level="4"/>
+			<add_skill id="unearth" mult="0.5" rarity="3" y="7" card="609" level="5"/>
+			<add_skill id="unearth" mult="0.5" rarity="4" y="7" card="610" level="6"/>
+			<add_skill id="unearth" mult="0.5" rarity="5" y="7" card="611" level="7"/>
+			<skill id="displayEffect" trigger="onSkill" y="7" s="unearth">
+				<target_effect>
+					<prefab>unearth_actor</prefab>
+					<bundle_id>87</bundle_id>
+					<delay>0</delay>
+					<duration>3</duration>
+					<!-- <shake>true</shake> -->
+				</target_effect>
+			</skill>
+		</effect>
 	</battleground>
 	<battleground>
 		<id>116</id>
@@ -342,9 +342,9 @@
 			<!-- <on_play>
 	            <skill id='enlarge' mult='1' y='5' />
 	        </on_play> -->
-	        <add_skill id='enlarge' mult='0.75' base='attack' y='5' />
+			<add_skill id="enlarge" mult="0.75" base="attack" y="5"/>
 			<!-- <skill id='displayEffect' trigger='onSkill' y='99' s='enlarge' > -->
-			<skill id='displayEffect' trigger='onSkill' s='enlarge' >
+			<skill id="displayEffect" trigger="onSkill" s="enlarge">
 				<target_effect>
 					<prefab>Empower_Target_Elemental</prefab>
 					<delay>0.5</delay>
@@ -360,7 +360,7 @@
 		<desc>Insects gain Venom equal to 10% of their Health. Creatures damaged by Insects are inflicted with Venom, taking damage at the end of their turn and taking additional damage from attacks and skills.</desc>
 		<icon>filter_insect_64.png</icon>
 		<effect>
-			<add_skill id='venom' mult='0.1' base='health' y='13' />
+			<add_skill id="venom" mult="0.1" base="health" y="13"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -369,8 +369,8 @@
 		<desc>All Mechas have upgraded their protective protocols, gaining a Barrier equal to their base Attack each time they deal Attack damage.</desc>
 		<icon>filter_mech_64</icon>
 		<effect>
-			<add_skill id='reinforce' mult='1' base='attack' all='1' y='16' />
-			<skill id='displayEffect' trigger='onSkill' s='reinforce' >
+			<add_skill id="reinforce" mult="1" base="attack" all="1" y="16"/>
+			<skill id="displayEffect" trigger="onSkill" s="reinforce">
 				<target_effect>
 					<prefab>ReinforceActive</prefab>
 					<bundle_id>105</bundle_id>
@@ -379,7 +379,7 @@
 					<sound>shield</sound>
 				</target_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillHit' s='reinforce' >
+			<skill id="displayEffect" trigger="onSkillHit" s="reinforce">
 				<actor_effect>
 					<prefab>ReinforceActive</prefab>
 					<bundle_id>105</bundle_id>
@@ -387,7 +387,7 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillBreak' s='reinforce' >
+			<skill id="displayEffect" trigger="onSkillBreak" s="reinforce">
 				<actor_effect>
 					<prefab>ReinforceBreak</prefab>
 					<bundle_id>105</bundle_id>
@@ -405,8 +405,8 @@
 		<icon>filter_elementals_64</icon>
 		<effect>
 			<card_type>99</card_type>
-			<skill id='enlarge' mult='0.5' all='1' yy='1,5' />	<!-- mult is based on attack -->
-			<skill id='displayEffect' trigger='onSkill' y='99' s='enlarge' >
+			<skill id="enlarge" mult="0.5" all="1" yy="1,5"/> <!-- mult is based on attack -->
+			<skill id="displayEffect" trigger="onSkill" y="99" s="enlarge">
 				<target_effect>
 					<prefab>Empower_Target_Elemental</prefab>
 					<delay>0.5</delay>
@@ -414,8 +414,8 @@
 					<shake>true</shake>
 				</target_effect>
 			</skill>
-			<add_skill id='counter' mult='0.5' base='attack' all='1' yy='2,5' />
-			<skill id='displayEffect' trigger='onSkill' yy='2,5' s='counter' >
+			<add_skill id="counter" mult="0.5" base="attack" all="1" yy="2,5"/>
+			<skill id="displayEffect" trigger="onSkill" yy="2,5" s="counter">
 				<actor_effect>
 					<prefab>elemental_BGE_chaos</prefab>
 					<bundle_id>96</bundle_id>
@@ -423,8 +423,8 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<scale_health base='health' mult='0.25' yy='3,5' />
-			<skill id='displayEffect' trigger='onPlay' yy='3,5' >
+			<scale_health base="health" mult="0.25" yy="3,5"/>
+			<skill id="displayEffect" trigger="onPlay" yy="3,5">
 				<actor_effect>
 					<prefab>elemental_BGE_wyld</prefab>
 					<bundle_id>96</bundle_id>
@@ -440,7 +440,7 @@
 		<desc>Dragons gain Scorch equal to 20% of their base Health.</desc>
 		<icon>filter_dragon_64.png</icon>
 		<effect>
-			<add_skill id='burn' mult='0.2' base='health' y='9' />
+			<add_skill id="burn" mult="0.2" base="health" y="9"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -450,8 +450,8 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<effect>
-			<add_skill id='legion' mult='0.15' base='health' y='6' />
-			<skill id='displayEffect' trigger='onSkill' y='6' s='legion' >
+			<add_skill id="legion" mult="0.15" base="health" y="6"/>
+			<skill id="displayEffect" trigger="onSkill" y="6" s="legion">
 				<projectile_effect>
 					<prefab>Legion_Projectile</prefab>
 					<delay>0</delay>
@@ -474,8 +474,8 @@
 		<desc>All Mechas have upgraded their protective protocols, gaining Ward equal to 3 plus 10% of their base Health.</desc>
 		<icon>filter_mech_64</icon>
 		<effect>
-			<add_skill id='absorb_mecha' mult='0.1' base='health' x='3' all='1' y='16' />
-			<skill id='displayEffect' trigger='onSkill' s='absorb_mecha' >
+			<add_skill id="absorb_mecha" mult="0.1" base="health" x="3" all="1" y="16"/>
+			<skill id="displayEffect" trigger="onSkill" s="absorb_mecha">
 				<target_effect>
 					<prefab>ReinforceActive</prefab>
 					<bundle_id>107</bundle_id>
@@ -492,8 +492,8 @@
 		<desc>Aether have their Attack and Health increased by 25% of the base.</desc>
 		<icon>filter_aether_64</icon>
 		<effect>
-			<skill id='enlarge' mult='0.25' all='1' y='1' />	<!-- mult is based on attack -->
-			<scale_health base='health' mult='0.25' yy='1' />
+			<skill id="enlarge" mult="0.25" all="1" y="1"/> <!-- mult is based on attack -->
+			<scale_health base="health" mult="0.25" yy="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -502,8 +502,8 @@
 		<desc>Chaos have their Attack and Health increased by 25% of the base.</desc>
 		<icon>filter_chaos_64</icon>
 		<effect>
-			<skill id='enlarge' mult='0.25' all='1' y='2' />	<!-- mult is based on attack -->
-			<scale_health base='health' mult='0.25' yy='2' />
+			<skill id="enlarge" mult="0.25" all="1" y="2"/> <!-- mult is based on attack -->
+			<scale_health base="health" mult="0.25" yy="2"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -512,8 +512,8 @@
 		<desc>Wyld have their Attack and Health increased by 25% of the base.</desc>
 		<icon>filter_wyld_64</icon>
 		<effect>
-			<skill id='enlarge' mult='0.25' all='1' y='3' />	<!-- mult is based on attack -->
-			<scale_health base='health' mult='0.25' yy='3' />
+			<skill id="enlarge" mult="0.25" all="1" y="3"/> <!-- mult is based on attack -->
+			<scale_health base="health" mult="0.25" yy="3"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -524,8 +524,8 @@
 		<icon>filter_seafolk_64</icon>
 		<effect>
 			<!-- <skill id='enlarge' mult='0.2' base='health' all='1' y='12' /> -->
-			<scale_attack base='health' mult='0.15' yy='12' />
-			<skill id='displayEffect' trigger='onPlay' yy='12' >
+			<scale_attack base="health" mult="0.15" yy="12"/>
+			<skill id="displayEffect" trigger="onPlay" yy="12">
 				<actor_effect>
 					<prefab>WaterEmpower</prefab>
 					<bundle_id>96</bundle_id>
@@ -541,7 +541,7 @@
 		<desc>Insects gain Venom equal to 1 plus 15% of their base Health. Creatures affected by Venom take damage at the end of the turn, and take additional damage from attacks and skills.</desc>
 		<icon>filter_insect_64.png</icon>
 		<effect>
-			<add_skill id='venom' mult='0.15' base='health' x='1' y='13' />
+			<add_skill id="venom" mult="0.15" base="health" x="1" y="13"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -550,8 +550,8 @@
 		<desc>When a Frog is damaged by an attack, it deals Poison damage to the attacker equal to 5 plus 10% of the Frog's base Health.</desc>
 		<icon>filter_frog_64</icon>
 		<effect>
-			<add_skill id='counterpoison' mult='0.1' base='health' x='5' y='4' />
-			<skill id='displayEffect' trigger='onSkill' s='counterpoison' >
+			<add_skill id="counterpoison" mult="0.1" base="health" x="5" y="4"/>
+			<skill id="displayEffect" trigger="onSkill" s="counterpoison">
 				<target_effect>
 					<prefab>PoisonHide</prefab>
 					<bundle_id>96</bundle_id>
@@ -568,7 +568,7 @@
 		<desc>After dealing Attack damage, permanently increases Attack of the lowest Attack active non-tower ally creature by 20% of the Attacker's base Health.</desc>
 		<icon>filter_insect_64.png</icon>
 		<effect>
-			<add_skill id='swarm' mult='0.2' base='health' y='13' />
+			<add_skill id="swarm" mult="0.2" base="health" y="13"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -577,18 +577,18 @@
 		<desc>Deals damage to opposing creatures and then heals self, even while on delay. Damage and heal are equal to 3 + 5% of the card's base Health. This damage cannot be increased.</desc>
 		<icon>filter_undead_64.png</icon>
 		<effect>
-			<add_skill id='vampirism' mult='0.05' base='health' x='3' y='7' />
+			<add_skill id="vampirism" mult="0.05" base="health" x="3" y="7"/>
 		</effect>
 	</battleground>
 	<battleground>
 		<id>131</id>
-		<name>Lily &#38; Spear Formation</name>
+		<name>Lily &amp; Spear Formation</name>
 		<desc>Frogs deal extra damage on their first attack each turn equal to 25% of their base Health and gain Pierce equal to their base Attack.</desc>
 		<icon>filter_frog_64.png</icon>
 		<effect>
-			<add_skill id='bash' mult='0.25' base='health' y='4' />
-			<add_skill id='pierce' mult='1' base='attack' y='4' />
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="bash" mult="0.25" base="health" y="4"/>
+			<add_skill id="pierce" mult="1" base="attack" y="4"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect>
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -605,19 +605,19 @@
 		<desc>Dragons of 0-2 Delay gain Scorch equal to 20% of their base Health. Dragons of 3-4 Delay gain Regenerate equal to 10% of their base Health plus 4.</desc>
 		<icon>filter_dragon_64.png</icon>
 		<effect>
-			<add_skill id='burn' mult='0.2' base='health' y='9' delay='0,1,2' />
-			<add_skill id='regenerate' mult='0.1' x='4' base='health' y='9' delay='3,4' />
+			<add_skill id="burn" mult="0.2" base="health" y="9" delay="0,1,2"/>
+			<add_skill id="regenerate" mult="0.1" x="4" base="health" y="9" delay="3,4"/>
 		</effect>
 	</battleground>
 	<battleground>
 		<id>133</id>
 		<name>Elemental Discordance</name>
-		<desc>Aether gains Barrier 4+15%, Chaos gains Scorch 20% and Wyld deal extra damage on their first attack each turn equal to 30%. Void gets a fixed 4 of Venom, 9 Siphon. All % are based on base health. </desc>
+		<desc>Aether gains Barrier 4+15%, Chaos gains Scorch 20% and Wyld deal extra damage on their first attack each turn equal to 30%. Void gets a fixed 4 of Venom, 9 Siphon. All % are based on base health.</desc>
 		<web_picture>filter_elementals_64.png</web_picture>
 		<icon>filter_elementals_64</icon>
 		<effect>
-			<skill id='protect' ignore_nullify='1' mult='0.15' x='4' all='1' base='health' yy='1,5'/>
-			<skill id='displayEffect' trigger='onSkill' s='protect' >
+			<skill id="protect" ignore_nullify="1" mult="0.15" x="4" all="1" base="health" yy="1,5"/>
+			<skill id="displayEffect" trigger="onSkill" s="protect">
 				<target_effect>
 					<prefab>submerge_fadecloth</prefab>
 					<bundle_id>82</bundle_id>
@@ -631,7 +631,7 @@
 					<duration>0.5</duration>
 				</projectile_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillHit' s='protect' >
+			<skill id="displayEffect" trigger="onSkillHit" s="protect">
 				<actor_effect>
 					<prefab>submerge_barrier</prefab>
 					<bundle_id>82</bundle_id>
@@ -639,7 +639,7 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillBreak' s='protect' >
+			<skill id="displayEffect" trigger="onSkillBreak" s="protect">
 				<actor_effect>
 					<prefab>submerge_break</prefab>
 					<bundle_id>82</bundle_id>
@@ -647,9 +647,9 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<add_skill id='burn' mult='0.20' all='1' base='health' yy='2,5'/>
-			<add_skill id='bash' mult='0.30' all='1' base='health' yy='3,5'/>
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="burn" mult="0.20" all="1" base="health" yy="2,5"/>
+			<add_skill id="bash" mult="0.30" all="1" base="health" yy="3,5"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect>
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -658,8 +658,8 @@
 					<sound>shield</sound>
 				</target_effect>
 			</skill>
-			<add_skill id='regenerate' mult='0.15' base='health' y='8,5' delay='3,4' />
-			<add_skill id='leech' x='9' y='8,5' delay='0,1,2' />
+			<add_skill id="regenerate" mult="0.15" base="health" y="8,5" delay="3,4"/>
+			<add_skill id="leech" x="9" y="8,5" delay="0,1,2"/>
 		</effect>
 	</battleground>
 
@@ -669,8 +669,8 @@
 		<desc>Insects gain Armor equal to 10% of their base Health, and Regenerate equal to 10% of their base Health.</desc>
 		<icon>filter_insect_64.png</icon>
 		<effect>
-			<add_skill id='regenerate' mult='0.1' base='health' y='13' />
-			<add_skill id='armored' mult='0.1' base='health' y='13' />
+			<add_skill id="regenerate" mult="0.1" base="health" y="13"/>
+			<add_skill id="armored" mult="0.1" base="health" y="13"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -680,8 +680,8 @@
 		<icon>bucket_128</icon>
 		<effect>
 			<!-- Angelic Assault-->
-			<add_skill id='legion' mult='0.15' base='health' y='6' />
-			<skill id='displayEffect' trigger='onSkill' y='6' s='legion' >
+			<add_skill id="legion" mult="0.15" base="health" y="6"/>
+			<skill id="displayEffect" trigger="onSkill" y="6" s="legion">
 				<projectile_effect>
 					<prefab>Legion_Projectile</prefab>
 					<delay>0</delay>
@@ -698,8 +698,8 @@
 			</skill>
 
 			<!-- Eyes in the Sky -->
-			<add_skill id='mark' mult='0.15' base='health' y='10' />
-			<skill id='displayEffect' trigger='onSkill' y='10' s='mark' >
+			<add_skill id="mark" mult="0.15" base="health" y="10"/>
+			<skill id="displayEffect" trigger="onSkill" y="10" s="mark">
 				<target_effect>
 					<prefab>EagleEye</prefab>
 					<bundle_id>84</bundle_id>
@@ -716,12 +716,12 @@
 			</skill>
 
 			<!-- Day of Dragons -->
-			<add_skill id='burn' mult='0.2' base='health' y='9' delay='0,1,2' />
-			<add_skill id='regenerate' mult='0.1' x='4' base='health' y='9' delay='3,4' />
+			<add_skill id="burn" mult="0.2" base="health" y="9" delay="0,1,2"/>
+			<add_skill id="regenerate" mult="0.1" x="4" base="health" y="9" delay="3,4"/>
 
 			<!-- Elemental Discordance -->
-			<skill id='protect' ignore_nullify='1' mult='0.1' x='4' all='1' base='health' yy='1,5'/>
-			<skill id='displayEffect' trigger='onSkill' s='protect' >
+			<skill id="protect" ignore_nullify="1" mult="0.1" x="4" all="1" base="health" yy="1,5"/>
+			<skill id="displayEffect" trigger="onSkill" s="protect">
 				<target_effect>
 					<prefab>submerge_fadecloth</prefab>
 					<bundle_id>82</bundle_id>
@@ -735,7 +735,7 @@
 					<duration>0.5</duration>
 				</projectile_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillHit' s='protect' >
+			<skill id="displayEffect" trigger="onSkillHit" s="protect">
 				<actor_effect>
 					<prefab>submerge_barrier</prefab>
 					<bundle_id>82</bundle_id>
@@ -743,7 +743,7 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillBreak' s='protect' >
+			<skill id="displayEffect" trigger="onSkillBreak" s="protect">
 				<actor_effect>
 					<prefab>submerge_break</prefab>
 					<bundle_id>82</bundle_id>
@@ -751,9 +751,9 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<add_skill id='burn' mult='0.75' all='1' base='attack' yy='2,5'/>
-			<add_skill id='bash' mult='0.25' all='1' base='health' yy='3,5'/>
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="burn" mult="0.75" all="1" base="attack" yy="2,5"/>
+			<add_skill id="bash" mult="0.25" all="1" base="health" yy="3,5"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect>
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -764,14 +764,14 @@
 			</skill>
 
 			<!-- Poisonbolt Evolution -->
-			<add_skill id='poisonstrike' mult='0.5' base='attack' y='4' />
+			<add_skill id="poisonstrike" mult="0.5" base="attack" y="4"/>
 
 			<!-- Undead Vampirism -->
-			<add_skill id='vampirism' mult='0.05' base='health' x='3' y='7' />
+			<add_skill id="vampirism" mult="0.05" base="health" x="3" y="7"/>
 
 			<!-- Goblin Barrage -->
-			<add_skill id='barrage' mult='1' base='attack' y='11' />
-			<skill id='displayEffect' trigger='onSkill' y='11' s='barrage' >
+			<add_skill id="barrage" mult="1" base="attack" y="11"/>
+			<skill id="displayEffect" trigger="onSkill" y="11" s="barrage">
 				<projectile_effect>
 					<prefab>goblinBombProjectile</prefab>
 					<bundle_id>75</bundle_id>
@@ -790,8 +790,8 @@
 			</skill>
 
 			<!-- Brine Edge -->
-			<scale_attack base='health' mult='0.15' yy='12' />
-			<skill id='displayEffect' trigger='onPlay' yy='12' >
+			<scale_attack base="health" mult="0.15" yy="12"/>
+			<skill id="displayEffect" trigger="onPlay" yy="12">
 				<actor_effect>
 					<prefab>WaterEmpower</prefab>
 					<bundle_id>96</bundle_id>
@@ -801,8 +801,8 @@
 			</skill>
 
 			<!-- Hardened Carapace -->
-			<add_skill id='armored' mult='0.1' base='health' y='13' />
-			<skill id='displayEffect' trigger='onSkill' y='13' s='armored' >
+			<add_skill id="armored" mult="0.1" base="health" y="13"/>
+			<skill id="displayEffect" trigger="onSkill" y="13" s="armored">
 				<actor_effect>
 					<prefab>insect_armor</prefab>
 					<bundle_id>64</bundle_id>
@@ -812,8 +812,8 @@
 			</skill>
 
 			<!-- Energy Warding -->
-			<add_skill id='absorb_mecha' mult='0.1' base='health' x='3' all='1' y='16' />
-			<skill id='displayEffect' trigger='onSkill' s='absorb_mecha' >
+			<add_skill id="absorb_mecha" mult="0.1" base="health" x="3" all="1" y="16"/>
+			<skill id="displayEffect" trigger="onSkill" s="absorb_mecha">
 				<target_effect>
 					<prefab>ReinforceActive</prefab>
 					<bundle_id>107</bundle_id>
@@ -831,8 +831,8 @@
 		<desc>Avian of 0-2 delay deal extra damage on their first attack each turn equal to 40% of their base Attack. Avians of 3-4 delay gain Shroud equal to 10% +2 of their base Health.</desc>
 		<icon>filter_avian_64.png</icon>
 		<effect>
-			<add_skill id='bash' mult='0.40' base='attack' y='10' delay='0,1,2'/>
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="bash" mult="0.40" base="attack" y="10" delay="0,1,2"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect>
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -841,7 +841,7 @@
 					<sound>shield</sound>
 				</target_effect>
 			</skill>
-			<add_skill id='stasis' mult='0.1' x='2' base='health' y='10' delay='3,4' />
+			<add_skill id="stasis" mult="0.1" x="2" base="health" y="10" delay="3,4"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -851,7 +851,7 @@
 		<icon>filter_mech_64</icon>
 		<effect>
 			<!-- <skill id='enlarge' mult='0.2' base='health' all='1' y='12' /> -->
-			<scale_attack base='health' mult='0.15' yy='16' />
+			<scale_attack base="health" mult="0.15" yy="16"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -860,9 +860,9 @@
 		<desc>Dragons of 0-2 delay gain Hex equal to 20% of their base Health. Dragons of 3-4 delay gain Weaken equal to 30% of their base Health, and gain Vengeance 8.</desc>
 		<icon>filter_dragon_64.png</icon>
 		<effect>
-			<add_skill id='enfeeblebge' mult='0.20' base='health' y='9' delay='0,1,2'/>
-			<add_skill id='weakenbge' mult='0.30' base='health' y='9' delay='3,4' />
-			<add_skill id='counter' x='8' y='9' delay='3,4' />
+			<add_skill id="enfeeblebge" mult="0.20" base="health" y="9" delay="0,1,2"/>
+			<add_skill id="weakenbge" mult="0.30" base="health" y="9" delay="3,4"/>
+			<add_skill id="counter" x="8" y="9" delay="3,4"/>
 		</effect>
 	</battleground>
 
@@ -873,21 +873,21 @@
 		<desc>Elementals gain skills based on faction! Aether gain Regenerate, Chaos gain Emberhide, and Wyld gain Corrosive. Skill values are 5 + the card's delay cost.</desc>
 		<icon>filter_elementals_64</icon>
 		<effect>
-			<add_skill id='regenerate' x='5' yy='1,5' delay='0'/>
-			<add_skill id='regenerate' x='6' yy='1,5' delay='1'/>
-			<add_skill id='regenerate' x='7' yy='1,5' delay='2'/>
-			<add_skill id='regenerate' x='8' yy='1,5' delay='3'/>
-			<add_skill id='regenerate' x='9' yy='1,5' delay='4'/>
-			<add_skill id='counterburn' x='5' yy='2,5' delay='0'/>
-			<add_skill id='counterburn' x='6' yy='2,5' delay='1'/>
-			<add_skill id='counterburn' x='7' yy='2,5' delay='2'/>
-			<add_skill id='counterburn' x='8' yy='2,5' delay='3'/>
-			<add_skill id='counterburn' x='9' yy='2,5' delay='4'/>
-			<add_skill id='corrosive' x='5' yy='3,5' delay='0'/>
-			<add_skill id='corrosive' x='6' yy='3,5' delay='1'/>
-			<add_skill id='corrosive' x='7' yy='3,5' delay='2'/>
-			<add_skill id='corrosive' x='8' yy='3,5' delay='3'/>
-			<add_skill id='corrosive' x='9' yy='3,5' delay='4'/>
+			<add_skill id="regenerate" x="5" yy="1,5" delay="0"/>
+			<add_skill id="regenerate" x="6" yy="1,5" delay="1"/>
+			<add_skill id="regenerate" x="7" yy="1,5" delay="2"/>
+			<add_skill id="regenerate" x="8" yy="1,5" delay="3"/>
+			<add_skill id="regenerate" x="9" yy="1,5" delay="4"/>
+			<add_skill id="counterburn" x="5" yy="2,5" delay="0"/>
+			<add_skill id="counterburn" x="6" yy="2,5" delay="1"/>
+			<add_skill id="counterburn" x="7" yy="2,5" delay="2"/>
+			<add_skill id="counterburn" x="8" yy="2,5" delay="3"/>
+			<add_skill id="counterburn" x="9" yy="2,5" delay="4"/>
+			<add_skill id="corrosive" x="5" yy="3,5" delay="0"/>
+			<add_skill id="corrosive" x="6" yy="3,5" delay="1"/>
+			<add_skill id="corrosive" x="7" yy="3,5" delay="2"/>
+			<add_skill id="corrosive" x="8" yy="3,5" delay="3"/>
+			<add_skill id="corrosive" x="9" yy="3,5" delay="4"/>
 		</effect>
 	</battleground>
 
@@ -897,12 +897,12 @@
 		<desc>Mechas gain base Ward 3 and other abilities based on faction! Aether also gain Legion 3, Chaos gain Barrage 4, and Wyld gain Venom 3. They add their delay cost to all these values.</desc>
 		<icon>filter_mech_64</icon>
 		<effect>
-			<add_skill id='absorb_mecha' x='3' all='1' y='16' delay='0' />
-			<add_skill id='absorb_mecha' x='4' all='1' y='16' delay='1' />
-			<add_skill id='absorb_mecha' x='5' all='1' y='16' delay='2' />
-			<add_skill id='absorb_mecha' x='6' all='1' y='16' delay='3' />
-			<add_skill id='absorb_mecha' x='7' all='1' y='16' delay='4' />
-			<skill id='displayEffect' trigger='onSkill' s='absorb_mecha' >
+			<add_skill id="absorb_mecha" x="3" all="1" y="16" delay="0"/>
+			<add_skill id="absorb_mecha" x="4" all="1" y="16" delay="1"/>
+			<add_skill id="absorb_mecha" x="5" all="1" y="16" delay="2"/>
+			<add_skill id="absorb_mecha" x="6" all="1" y="16" delay="3"/>
+			<add_skill id="absorb_mecha" x="7" all="1" y="16" delay="4"/>
+			<skill id="displayEffect" trigger="onSkill" s="absorb_mecha">
 				<target_effect>
 					<prefab>ReinforceActive</prefab>
 					<bundle_id>107</bundle_id>
@@ -911,24 +911,24 @@
 					<sound>shield</sound>
 				</target_effect>
 			</skill>
-			<add_skill id='legion' x='3' yy='1,16' delay='0'/>
-			<add_skill id='legion' x='4' yy='1,16' delay='1'/>
-			<add_skill id='legion' x='5' yy='1,16' delay='2'/>
-			<add_skill id='legion' x='6' yy='1,16' delay='3'/>
-			<add_skill id='legion' x='7' yy='1,16' delay='4'/>
-			<add_skill id='barrage' x='4' yy='2,16' delay='0'/>
-			<add_skill id='barrage' x='5' yy='2,16' delay='1'/>
-			<add_skill id='barrage' x='6' yy='2,16' delay='2'/>
-			<add_skill id='barrage' x='7' yy='2,16' delay='3'/>
-			<add_skill id='barrage' x='8' yy='2,16' delay='4'/>
-			<add_skill id='venom' x='3' yy='3,16' delay='0'/>
-			<add_skill id='venom' x='4' yy='3,16' delay='1'/>
-			<add_skill id='venom' x='5' yy='3,16' delay='2'/>
-			<add_skill id='venom' x='6' yy='3,16' delay='3'/>
-			<add_skill id='venom' x='7' yy='3,16' delay='4'/>
-			<add_skill id='legion' x='5' yy='0,16' delay='2'/> <!-- for Viracocha -->
-			<add_skill id='barrage' x='6' yy='0,16' delay='2'/> <!-- for Viracocha -->
-			<add_skill id='venom' x='5' yy='0,16' delay='2'/> <!-- for Viracocha -->
+			<add_skill id="legion" x="3" yy="1,16" delay="0"/>
+			<add_skill id="legion" x="4" yy="1,16" delay="1"/>
+			<add_skill id="legion" x="5" yy="1,16" delay="2"/>
+			<add_skill id="legion" x="6" yy="1,16" delay="3"/>
+			<add_skill id="legion" x="7" yy="1,16" delay="4"/>
+			<add_skill id="barrage" x="4" yy="2,16" delay="0"/>
+			<add_skill id="barrage" x="5" yy="2,16" delay="1"/>
+			<add_skill id="barrage" x="6" yy="2,16" delay="2"/>
+			<add_skill id="barrage" x="7" yy="2,16" delay="3"/>
+			<add_skill id="barrage" x="8" yy="2,16" delay="4"/>
+			<add_skill id="venom" x="3" yy="3,16" delay="0"/>
+			<add_skill id="venom" x="4" yy="3,16" delay="1"/>
+			<add_skill id="venom" x="5" yy="3,16" delay="2"/>
+			<add_skill id="venom" x="6" yy="3,16" delay="3"/>
+			<add_skill id="venom" x="7" yy="3,16" delay="4"/>
+			<add_skill id="legion" x="5" yy="0,16" delay="2"/> <!-- for Viracocha -->
+			<add_skill id="barrage" x="6" yy="0,16" delay="2"/> <!-- for Viracocha -->
+			<add_skill id="venom" x="5" yy="0,16" delay="2"/> <!-- for Viracocha -->
 
 		</effect>
 	</battleground>
@@ -939,11 +939,11 @@
 		<desc>Dragons gain skills based on their Delay (D)! 0D gain Scorch 4, 1D gain Scorch 5, 2D gain Scorch 6, 3D gain Regenerate 8, and 4D gain Regenerate 9.</desc>
 		<icon>filter_dragon_64.png</icon>
 		<effect>
-			<add_skill id='burn' x='4' y='9' delay='0'/>
-			<add_skill id='burn' x='5' y='9' delay='1'/>
-			<add_skill id='burn' x='6' y='9' delay='2'/>
-			<add_skill id='regenerate' x='8' y='9' delay='3'/>
-			<add_skill id='regenerate' x='9' y='9' delay='4'/>
+			<add_skill id="burn" x="4" y="9" delay="0"/>
+			<add_skill id="burn" x="5" y="9" delay="1"/>
+			<add_skill id="burn" x="6" y="9" delay="2"/>
+			<add_skill id="regenerate" x="8" y="9" delay="3"/>
+			<add_skill id="regenerate" x="9" y="9" delay="4"/>
 		</effect>
 	</battleground>
 	
@@ -953,11 +953,11 @@
 		<desc>Insects gain skills based on their Delay (D)! 0D gain Berserk 3, 1D Berserk 4, 2D Berserk 5, 3D Armor 5, 4D Armor 6.</desc>
 		<icon>filter_insect_64.png</icon>
 		<effect>
-			<add_skill id='berserk' x='3' y='13' delay='0'/>
-			<add_skill id='berserk' x='4' y='13' delay='1'/>
-			<add_skill id='berserk' x='5' y='13' delay='2'/>
-			<add_skill id='armored' x='5' y='13' delay='3'/>
-			<add_skill id='armored' x='6' y='13' delay='4'/>
+			<add_skill id="berserk" x="3" y="13" delay="0"/>
+			<add_skill id="berserk" x="4" y="13" delay="1"/>
+			<add_skill id="berserk" x="5" y="13" delay="2"/>
+			<add_skill id="armored" x="5" y="13" delay="3"/>
+			<add_skill id="armored" x="6" y="13" delay="4"/>
 		</effect>
 	</battleground>
 
@@ -968,8 +968,8 @@
 		<desc>All Seafolk gain barrier equal to 20% of their base health. Delay 0-2 Seafolk also deal bonus damage in their first attack equal to 10% of their base health and pierce equal to their base attack.</desc>
 		<icon>filter_seafolk_64</icon>
 		<effect>
-			<skill id='protect' ignore_nullify='1' mult='0.2' all='1' base='health' y='12' delay='3,4'/>
-			<skill id='displayEffect' trigger='onSkill' s='protect' >
+			<skill id="protect" ignore_nullify="1" mult="0.2" all="1" base="health" y="12" delay="3,4"/>
+			<skill id="displayEffect" trigger="onSkill" s="protect">
 				<target_effect>
 					<prefab>submerge_fadecloth</prefab>
 					<bundle_id>82</bundle_id>
@@ -983,7 +983,7 @@
 					<duration>0.5</duration>
 				</projectile_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillHit' s='protect' >
+			<skill id="displayEffect" trigger="onSkillHit" s="protect">
 				<actor_effect>
 					<prefab>submerge_barrier</prefab>
 					<bundle_id>82</bundle_id>
@@ -991,7 +991,7 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillBreak' s='protect' >
+			<skill id="displayEffect" trigger="onSkillBreak" s="protect">
 				<actor_effect>
 					<prefab>submerge_break</prefab>
 					<bundle_id>82</bundle_id>
@@ -999,9 +999,9 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<add_skill id='bash' mult='0.10' all='1' base='health' y='12' delay='0,1,2'/>
-			<add_skill id='pierce' mult='1' base='attack' y='12' delay='0,1,2' />		
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="bash" mult="0.10" all="1" base="health" y="12" delay="0,1,2"/>
+			<add_skill id="pierce" mult="1" base="attack" y="12" delay="0,1,2"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect>
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -1020,8 +1020,8 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<effect>
-			<add_skill id='legion' mult='0.15' base='health' y='6' delay='0,1,2' />
-			<skill id='displayEffect' trigger='onSkill' y='6' s='legion' >
+			<add_skill id="legion" mult="0.15" base="health" y="6" delay="0,1,2"/>
+			<skill id="displayEffect" trigger="onSkill" y="6" s="legion">
 				<projectile_effect>
 					<prefab>Legion_Projectile</prefab>
 					<delay>0</delay>
@@ -1036,9 +1036,9 @@
 					<shake>true</shake>
 				</target_effect>
 			</skill>
-			<add_skill id='evade' x='2' y='6' />
-			<add_skill id='counterburn' x='4' y='6' delay='3'/>
-			<add_skill id='counterburn' x='6' y='6' delay='4'/>
+			<add_skill id="evade" x="2" y="6"/>
+			<add_skill id="counterburn" x="4" y="6" delay="3"/>
+			<add_skill id="counterburn" x="6" y="6" delay="4"/>
 		</effect>
 	</battleground>
 
@@ -1048,27 +1048,27 @@
 		<desc>Mechas gain base Regenerate and Ward equal to 15% of their base health and other abilities based on Delay! D0-2 gains Venom 3+Delay, while D3 and 4 get Poisonhide 7 and 9. Viracocha gains both bonuses.</desc>
 		<icon>filter_mech_64</icon>
 		<effect>
-			<add_skill id='regenerate' mult='0.15' base='health' y='16'/>
-			<add_skill id='absorb' mult='0.15' base='health' y='16'/>
-			<add_skill id='venom' x='3' y='16' delay='0'/>
-			<add_skill id='venom' x='4' y='16' delay='1'/>
-			<add_skill id='venom' x='5' y='16' delay='2'/>
-			<add_skill id='counterpoison' x='7' y='16' delay='3'/>
-			<add_skill id='counterpoison' x='9' y='16' delay='4'/>
-			<add_skill id='counterpoison' x='7' yy='0,16' delay='2'/> <!-- for Viracocha -->
+			<add_skill id="regenerate" mult="0.15" base="health" y="16"/>
+			<add_skill id="absorb" mult="0.15" base="health" y="16"/>
+			<add_skill id="venom" x="3" y="16" delay="0"/>
+			<add_skill id="venom" x="4" y="16" delay="1"/>
+			<add_skill id="venom" x="5" y="16" delay="2"/>
+			<add_skill id="counterpoison" x="7" y="16" delay="3"/>
+			<add_skill id="counterpoison" x="9" y="16" delay="4"/>
+			<add_skill id="counterpoison" x="7" yy="0,16" delay="2"/> <!-- for Viracocha -->
 		</effect>
 	</battleground>
 
 	<battleground>
 		<id>146</id>
-		<name>Lily &#38; Vampiric Spear Formation</name>
+		<name>Lily &amp; Vampiric Spear Formation</name>
 		<desc>Frogs deal extra damage on their first attack each turn equal to 25% of their base Health, while also gaining Pierce and Siphon equal to their base Attack.</desc>
 		<icon>filter_frog_64.png</icon>
 		<effect>
-			<add_skill id='bash' mult='0.25' base='health' y='4' />
-			<add_skill id='pierce' mult='1' base='attack' y='4' />
-			<add_skill id='leech' mult='1' base='attack' y='4' />
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="bash" mult="0.25" base="health" y="4"/>
+			<add_skill id="pierce" mult="1" base="attack" y="4"/>
+			<add_skill id="leech" mult="1" base="attack" y="4"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect>
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -1086,9 +1086,9 @@
 		<desc>Active goblins throw bombs equal to their base Attack at the start of each turn. Each bomb deals 1 damage and does not benefit from Hex or Venom. They also regenerate 15% of their base health.</desc>
 		<icon>filter_goblin_64</icon>
 		<effect>
-			<add_skill id='regenerate' mult='0.15' base='health' y='11'/>
-			<add_skill id='barrage' mult='1' base='attack' y='11' />
-			<skill id='displayEffect' trigger='onSkill' y='11' s='barrage' >
+			<add_skill id="regenerate" mult="0.15" base="health" y="11"/>
+			<add_skill id="barrage" mult="1" base="attack" y="11"/>
+			<skill id="displayEffect" trigger="onSkill" y="11" s="barrage">
 				<projectile_effect>
 					<prefab>goblinBombProjectile</prefab>
 					<bundle_id>75</bundle_id>
@@ -1114,22 +1114,22 @@
 		<desc>Seafolk gain base Ward and other skills based on Delay! D0-2 gain Frostbreath and D3-4 Armored. Values gained on each skill are based on base health! Ward and Armor 10%, while Frostbreath is 15%.</desc>
 		<icon>filter_seafolk_64</icon>
 		<effect>
-			<add_skill id='absorb' mult='0.10' base='health' y='12'/>
-			<add_skill id='frost' mult='0.15' base='health' y='12' delay='0,1,2'/>
-			<add_skill id='armored' mult='0.10' base='health' y='12' delay='3,4'/>
+			<add_skill id="absorb" mult="0.10" base="health" y="12"/>
+			<add_skill id="frost" mult="0.15" base="health" y="12" delay="0,1,2"/>
+			<add_skill id="armored" mult="0.10" base="health" y="12" delay="3,4"/>
 		</effect>
 	</battleground>
 
-  <battleground>
-    <id>149</id>
-    <name>Zenith of Dragons</name>
-    <desc>Dragons of 0-2 Delay gain Scorch equal to 25% of their base Health. Dragons of 3-4 Delay gain Regenerate equal to 15% of their base Health plus 4.</desc>
-    <icon>filter_dragon_64.png</icon>
-    <effect>
-      <add_skill id='burn' mult='0.25' base='health' y='9' delay='0,1,2' />
-      <add_skill id='regenerate' mult='0.15' x='4' base='health' y='9' delay='3,4' />
-    </effect>
-  </battleground>
+	<battleground>
+		<id>149</id>
+		<name>Zenith of Dragons</name>
+		<desc>Dragons of 0-2 Delay gain Scorch equal to 25% of their base Health. Dragons of 3-4 Delay gain Regenerate equal to 15% of their base Health plus 4.</desc>
+		<icon>filter_dragon_64.png</icon>
+		<effect>
+			<add_skill id="burn" mult="0.25" base="health" y="9" delay="0,1,2"/>
+			<add_skill id="regenerate" mult="0.15" x="4" base="health" y="9" delay="3,4"/>
+		</effect>
+	</battleground>
 
 	<battleground>
 		<id>150</id>
@@ -1138,8 +1138,8 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<effect>
-			<add_skill id='legion' mult='0.10' base='health' y='6' />
-			<skill id='displayEffect' trigger='onSkill' y='6' s='legion' >
+			<add_skill id="legion" mult="0.10" base="health" y="6"/>
+			<skill id="displayEffect" trigger="onSkill" y="6" s="legion">
 				<projectile_effect>
 					<prefab>Legion_Projectile</prefab>
 					<delay>0</delay>
@@ -1154,7 +1154,7 @@
 					<shake>true</shake>
 				</target_effect>
 			</skill>
-			<add_skill id='fervor' mult='0.10' base='health' y='6'/>
+			<add_skill id="fervor" mult="0.10" base="health" y="6"/>
 		</effect>
 	</battleground>
 
@@ -1165,8 +1165,8 @@
 		<icon>filter_avian_64.png</icon>
 		<effect>
 			<!-- <add_skill id='mark' mult='0.3' base='attack' y='10' /> -->
-			<add_skill id='mark' mult='0.15' base='health' y='10' />
-			<skill id='displayEffect' trigger='onSkill' y='10' s='mark' >
+			<add_skill id="mark" mult="0.15" base="health" y="10"/>
+			<skill id="displayEffect" trigger="onSkill" y="10" s="mark">
 				<target_effect>
 					<prefab>EagleEye</prefab>
 					<bundle_id>84</bundle_id>
@@ -1181,59 +1181,59 @@
 					<duration>3</duration>
 				</actor_effect>
 			</skill>
-			<add_skill id='weakenbge' mult='0.15' base='health' y='10' delay='0,1,2' />
-			<add_skill id='stasis' mult='0.10' base='health' y='10' delay='3,4' />
+			<add_skill id="weakenbge" mult="0.15" base="health" y="10" delay="0,1,2"/>
+			<add_skill id="stasis" mult="0.10" base="health" y="10" delay="3,4"/>
 		</effect>
 	</battleground>
 
-  <battleground>
-    <id>152</id>
-    <name>Void Alignment</name>
-    <desc>The Void is here once again. Void cards gain Regen and Nullify equal to 20% of their base health</desc>
-    <icon>event_53_BGE_64</icon>
-	<icon_bundle>110</icon_bundle>
-    <effect>
-      <add_skill id='regenerate' mult='0.20' base='health' y='9' />
-      <add_skill id='nullify' mult='0.20' base='health' y='9' />
-    </effect>
-  </battleground>
+	<battleground>
+		<id>152</id>
+		<name>Void Alignment</name>
+		<desc>The Void is here once again. Void cards gain Regen and Nullify equal to 20% of their base health</desc>
+		<icon>event_53_BGE_64</icon>
+		<icon_bundle>110</icon_bundle>
+		<effect>
+			<add_skill id="regenerate" mult="0.20" base="health" y="9"/>
+			<add_skill id="nullify" mult="0.20" base="health" y="9"/>
+		</effect>
+	</battleground>
 
-<battleground>
-	<id>153</id>
-	<name>Unstoppable Swarm</name>
-	<desc>Insects gain Invisibility 3 and Swarm: After damaging, permanently increase attack of the weakest active ally creature by 20% of Attacker's base HP. Delay 3-4 get Poisonhide equal to 20% of base HP.</desc>
-	<icon>filter_insect_64.png</icon>
-	<effect>
-		<add_skill id='swarm' mult='0.2' base='health' y='13' />
-		<add_skill id='evade' mult='0.2' base='health' y='13' />
-		<add_skill id='counterpoison' mult='0.2' base='health' y='13' delay='3,4' />
-	</effect>
-</battleground>
+	<battleground>
+		<id>153</id>
+		<name>Unstoppable Swarm</name>
+		<desc>Insects gain Invisibility 3 and Swarm: After damaging, permanently increase attack of the weakest active ally creature by 20% of Attacker's base HP. Delay 3-4 get Poisonhide equal to 20% of base HP.</desc>
+		<icon>filter_insect_64.png</icon>
+		<effect>
+			<add_skill id="swarm" mult="0.2" base="health" y="13"/>
+			<add_skill id="evade" mult="0.2" base="health" y="13"/>
+			<add_skill id="counterpoison" mult="0.2" base="health" y="13" delay="3,4"/>
+		</effect>
+	</battleground>
 
-<battleground>
-	<id>154</id>
-	<name>Counterblast Swarm</name>
-	<desc>Insects gain Backlash 2 and Swarm: After damaging, permanently increase attack of the weakest active ally creature by 15% of Attacker's base HP. Delay 3-4 get Poisonhide equal to 20% of base HP.</desc>
-	<icon>filter_insect_64.png</icon>
-	<effect>
-		<add_skill id='swarm' mult='0.15' base='health' y='13' />
-		<add_skill id='backlash' x='2' y='13'/>
-		<add_skill id='counterpoison' mult='0.2' base='health' y='13' delay='3,4' />
-	</effect>
-</battleground>
+	<battleground>
+		<id>154</id>
+		<name>Counterblast Swarm</name>
+		<desc>Insects gain Backlash 2 and Swarm: After damaging, permanently increase attack of the weakest active ally creature by 15% of Attacker's base HP. Delay 3-4 get Poisonhide equal to 20% of base HP.</desc>
+		<icon>filter_insect_64.png</icon>
+		<effect>
+			<add_skill id="swarm" mult="0.15" base="health" y="13"/>
+			<add_skill id="backlash" x="2" y="13"/>
+			<add_skill id="counterpoison" mult="0.2" base="health" y="13" delay="3,4"/>
+		</effect>
+	</battleground>
 
-<battleground>
+	<battleground>
 		<id>155</id>
 		<name>Reinforced Undead Vampirism</name>
 		<desc>All undeads receive Vampirism to 5% + 3. 0-2 delay also gain armor equal to 10%. All values based on Health</desc>
 		<icon>filter_undead_64.png</icon>
 		<effect>
-			<add_skill id='vampirism' mult='0.05' base='health' x='3' y='7' />
-			<add_skill id='armored' mult='0.10' base='health' y='7' delay='0,1,2'/>
+			<add_skill id="vampirism" mult="0.05" base="health" x="3" y="7"/>
+			<add_skill id="armored" mult="0.10" base="health" y="7" delay="0,1,2"/>
 		</effect>
-</battleground>
+	</battleground>
 
-<!--<battleground>
+	<!--<battleground>
 		<id>156</id>
 		<name>Elemental Disruption</name>
 		<desc>Aether gains Vengeance 15%, Chaos gains Scorch 20%, Wyld deal extra damage on their first attack each turn equal to 30% and Void gains Regenerate %15. All % are based on base health.</desc>
@@ -1250,15 +1250,15 @@
 			<add_skill id='regenerate' mult='0.15' base='health' y='8,5'/>
 		</effect>
 	</battleground>-->
-<battleground>
+	<battleground>
 		<id>156</id>
 		<name>Elemental Disruption</name>
 		<desc>Aether gains Barrier 4+15%, Chaos gains Scorch 20%, Wyld deal extra damage on their first attack each turn equal to 30% and Void gets 20% regeneration. All % are based on base health.</desc>
 		<web_picture>filter_elementals_64.png</web_picture>
 		<icon>filter_elementals_64</icon>
 		<effect>
-			<skill id='protect' ignore_nullify='1' mult='0.15' x='4' all='1' base='health' yy='1,5'/>
-			<skill id='displayEffect' trigger='onSkill' s='protect' >
+			<skill id="protect" ignore_nullify="1" mult="0.15" x="4" all="1" base="health" yy="1,5"/>
+			<skill id="displayEffect" trigger="onSkill" s="protect">
 				<target_effect>
 					<prefab>submerge_fadecloth</prefab>
 					<bundle_id>82</bundle_id>
@@ -1272,7 +1272,7 @@
 					<duration>0.5</duration>
 				</projectile_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillHit' s='protect' >
+			<skill id="displayEffect" trigger="onSkillHit" s="protect">
 				<actor_effect>
 					<prefab>submerge_barrier</prefab>
 					<bundle_id>82</bundle_id>
@@ -1280,7 +1280,7 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillBreak' s='protect' >
+			<skill id="displayEffect" trigger="onSkillBreak" s="protect">
 				<actor_effect>
 					<prefab>submerge_break</prefab>
 					<bundle_id>82</bundle_id>
@@ -1288,9 +1288,9 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<add_skill id='burn' mult='0.20' all='1' base='health' yy='2,5'/>
-			<add_skill id='bash' mult='0.30' all='1' base='health' yy='3,5'/>
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="burn" mult="0.20" all="1" base="health" yy="2,5"/>
+			<add_skill id="bash" mult="0.30" all="1" base="health" yy="3,5"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect>
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -1299,7 +1299,7 @@
 					<sound>shield</sound>
 				</target_effect>
 			</skill>
-			<add_skill id='regenerate' mult='0.2' base='health' y='8,5'/>
+			<add_skill id="regenerate" mult="0.2" base="health" y="8,5"/>
 		</effect>
 	</battleground>
 
@@ -1309,13 +1309,13 @@
 		<desc>Mechas gain Ward equal to 15% of their base health and other abilities based on Delay! D0-2 gains Venom 3+Delay, while D3 and 4 get Poisonhide 7 and 9. Viracocha gains both bonuses.</desc>
 		<icon>filter_mech_64</icon>
 		<effect>
-			<add_skill id='absorb' mult='0.15' base='health' y='16'/>
-			<add_skill id='venom' x='3' y='16' delay='0'/>
-			<add_skill id='venom' x='4' y='16' delay='1'/>
-			<add_skill id='venom' x='5' y='16' delay='2'/>
-			<add_skill id='counterpoison' x='7' y='16' delay='3'/>
-			<add_skill id='counterpoison' x='9' y='16' delay='4'/>
-			<add_skill id='counterpoison' x='7' yy='0,16' delay='2'/> <!-- for Viracocha -->
+			<add_skill id="absorb" mult="0.15" base="health" y="16"/>
+			<add_skill id="venom" x="3" y="16" delay="0"/>
+			<add_skill id="venom" x="4" y="16" delay="1"/>
+			<add_skill id="venom" x="5" y="16" delay="2"/>
+			<add_skill id="counterpoison" x="7" y="16" delay="3"/>
+			<add_skill id="counterpoison" x="9" y="16" delay="4"/>
+			<add_skill id="counterpoison" x="7" yy="0,16" delay="2"/> <!-- for Viracocha -->
 		</effect>
 	</battleground>
 	
@@ -1325,9 +1325,9 @@
 		<desc>Seafolk gain Regenerate and other skills based on Delay! D0-2 gain Frostbreath and D3-4 Armor. Values gained on each skill are equal to 10% of base health!</desc>
 		<icon>filter_seafolk_64</icon>
 		<effect>
-			<add_skill id='regenerate' mult='0.10' base='health' y='12'/>
-			<add_skill id='frost' mult='0.10' base='health' y='12' delay='0,1,2'/>
-			<add_skill id='armored' mult='0.10' base='health' y='12' delay='3,4'/>
+			<add_skill id="regenerate" mult="0.10" base="health" y="12"/>
+			<add_skill id="frost" mult="0.10" base="health" y="12" delay="0,1,2"/>
+			<add_skill id="armored" mult="0.10" base="health" y="12" delay="3,4"/>
 		</effect>
 	</battleground>
 	
@@ -1337,10 +1337,10 @@
 		<desc>All goblins gain barrage equal to their base attack, 0-2 Delay goblins gain 15% siphon and 3-4 delay goblins gain 15% ward. Values gained on each skill are based on base health.</desc>
 		<icon>filter_goblin_64</icon>
 		<effect>
-			<add_skill id='leech' mult='0.15' base='health' y='11' delay='0,1,2'/>
-			<add_skill id='absorb' mult='0.15' base='health' y='11' delay='3,4'/>
-			<add_skill id='barrage' mult='1' base='attack' y='11' />
-			<skill id='displayEffect' trigger='onSkill' y='11' s='barrage' >
+			<add_skill id="leech" mult="0.15" base="health" y="11" delay="0,1,2"/>
+			<add_skill id="absorb" mult="0.15" base="health" y="11" delay="3,4"/>
+			<add_skill id="barrage" mult="1" base="attack" y="11"/>
+			<skill id="displayEffect" trigger="onSkill" y="11" s="barrage">
 				<projectile_effect>
 					<prefab>goblinBombProjectile</prefab>
 					<bundle_id>75</bundle_id>
@@ -1366,8 +1366,8 @@
 		<desc>Angels gain barrier 2+15%, 0-2 delay angels gain 10% legion and 3-4 delay angels gain 10% weaken. 0-2 delay voids gain 3+10% Siphon and 3-4 delay voids gain 3+10% Regenerate. Values based on HP!</desc>
 		<icon>filter_void_64</icon>
 		<effect>
-		<skill id='protect' ignore_nullify='1' mult='0.15' x='2' all='1' base='health' yy='6'/>
-			<skill id='displayEffect' trigger='onSkill' s='protect' >
+			<skill id="protect" ignore_nullify="1" mult="0.15" x="2" all="1" base="health" yy="6"/>
+			<skill id="displayEffect" trigger="onSkill" s="protect">
 				<target_effect>
 					<prefab>submerge_fadecloth</prefab>
 					<bundle_id>82</bundle_id>
@@ -1381,7 +1381,7 @@
 					<duration>0.5</duration>
 				</projectile_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillHit' s='protect' >
+			<skill id="displayEffect" trigger="onSkillHit" s="protect">
 				<actor_effect>
 					<prefab>submerge_barrier</prefab>
 					<bundle_id>82</bundle_id>
@@ -1389,7 +1389,7 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillBreak' s='protect' >
+			<skill id="displayEffect" trigger="onSkillBreak" s="protect">
 				<actor_effect>
 					<prefab>submerge_break</prefab>
 					<bundle_id>82</bundle_id>
@@ -1397,8 +1397,8 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<add_skill id='legion' mult='0.10' base='health' y='6' delay='0,1,2'/>
-			<skill id='displayEffect' trigger='onSkill' y='6' s='legion' >
+			<add_skill id="legion" mult="0.10" base="health" y="6" delay="0,1,2"/>
+			<skill id="displayEffect" trigger="onSkill" y="6" s="legion">
 				<projectile_effect>
 					<prefab>Legion_Projectile</prefab>
 					<delay>0</delay>
@@ -1413,9 +1413,9 @@
 					<shake>true</shake>
 				</target_effect>
 			</skill>
-			<add_skill id='weakenbge' mult='0.10' base='health' y='6' delay='3,4'/>
-			<add_skill id='leech' mult='0.10' x='3' base='health' y='8' delay='0,1,2'/>
-			<add_skill id='regenerate' mult='0.10' x='3' base='health' y='8' delay='3,4'/>
+			<add_skill id="weakenbge" mult="0.10" base="health" y="6" delay="3,4"/>
+			<add_skill id="leech" mult="0.10" x="3" base="health" y="8" delay="0,1,2"/>
+			<add_skill id="regenerate" mult="0.10" x="3" base="health" y="8" delay="3,4"/>
 		</effect>
 	</battleground>
 
@@ -1425,8 +1425,8 @@
 		<desc>All Angels gain barrier 2+15%, 0-2 Delay angel 10% legion and 3-4 delay angel 10% weaken. Values gained on each skill are based on base health!.</desc>
 		<icon>filter_angel_64</icon>
 		<effect>
-			<skill id='protect' ignore_nullify='1' mult='0.15' x='2' all='1' base='health' yy='6'/>
-			<skill id='displayEffect' trigger='onSkill' s='protect' >
+			<skill id="protect" ignore_nullify="1" mult="0.15" x="2" all="1" base="health" yy="6"/>
+			<skill id="displayEffect" trigger="onSkill" s="protect">
 				<target_effect>
 					<prefab>submerge_fadecloth</prefab>
 					<bundle_id>82</bundle_id>
@@ -1440,7 +1440,7 @@
 					<duration>0.5</duration>
 				</projectile_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillHit' s='protect' >
+			<skill id="displayEffect" trigger="onSkillHit" s="protect">
 				<actor_effect>
 					<prefab>submerge_barrier</prefab>
 					<bundle_id>82</bundle_id>
@@ -1448,7 +1448,7 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkillBreak' s='protect' >
+			<skill id="displayEffect" trigger="onSkillBreak" s="protect">
 				<actor_effect>
 					<prefab>submerge_break</prefab>
 					<bundle_id>82</bundle_id>
@@ -1456,8 +1456,8 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<add_skill id='legion' mult='0.10' base='health' y='6' delay='0,1,2'/>
-			<skill id='displayEffect' trigger='onSkill' y='6' s='legion' >
+			<add_skill id="legion" mult="0.10" base="health" y="6" delay="0,1,2"/>
+			<skill id="displayEffect" trigger="onSkill" y="6" s="legion">
 				<projectile_effect>
 					<prefab>Legion_Projectile</prefab>
 					<delay>0</delay>
@@ -1472,7 +1472,7 @@
 					<shake>true</shake>
 				</target_effect>
 			</skill>
-			<add_skill id='weakenbge' mult='0.10' base='health' y='6' delay='3,4'/>
+			<add_skill id="weakenbge" mult="0.10" base="health" y="6" delay="3,4"/>
 		</effect>
 	</battleground>
 
@@ -1482,10 +1482,10 @@
 		<desc>0-2 Delay Insects gain 2+10% venom and 3+20% Pierce and 3-4 delay Insect gain 2+10% corrosive and 2+7% vengeance. Values gained on each skill are based on base health!.</desc>
 		<icon>filter_insect_64.png</icon>
 		<effect>
-			<add_skill id='venom' mult='0.10' x='2' base='health' y='13' delay='0,1,2'/>
-			<add_skill id='pierce' mult='0.20' x='3' base='health' y='13' delay='0,1,2'/>
-			<add_skill id='corrosive' x='2' mult='0.10' base='health' yy='13' delay='3,4'/>
-			<add_skill id='counter' x='2' mult='0.07' base='health' y='13' delay='3,4' />
+			<add_skill id="venom" mult="0.10" x="2" base="health" y="13" delay="0,1,2"/>
+			<add_skill id="pierce" mult="0.20" x="3" base="health" y="13" delay="0,1,2"/>
+			<add_skill id="corrosive" x="2" mult="0.10" base="health" yy="13" delay="3,4"/>
+			<add_skill id="counter" x="2" mult="0.07" base="health" y="13" delay="3,4"/>
 
 		</effect>
 	</battleground>
@@ -1496,22 +1496,22 @@
 		<desc>All Dragons gain invisibility equal to 3, 0-2 Delay Dragons gain 2 plus 10% scorch and 3-4 delay Dragons gain 15% Emberhide. Values gained on each skill are based on base health.</desc>
 		<icon>filter_dragon_64.png</icon>
 		<effect>
-			<add_skill id='evade' x='3' y='9' />
-			<add_skill id='burn' x='2' mult='0.1' base='health' y='9' delay='0,1,2' />
-			<add_skill id='counterburn' mult='0.15' base='health' y='9' delay='3,4'/>
+			<add_skill id="evade" x="3" y="9"/>
+			<add_skill id="burn" x="2" mult="0.1" base="health" y="9" delay="0,1,2"/>
+			<add_skill id="counterburn" mult="0.15" base="health" y="9" delay="3,4"/>
 		</effect>
 	</battleground>
 
 	<battleground>
 		<id>164</id>
-		<name>Lily &#38; Vampiric Spear Formation Reinforced</name>
+		<name>Lily &amp; Vampiric Spear Formation Reinforced</name>
 		<desc>Frogs deal extra damage on their first attack each turn equal to 25% of their base Health, while also gaining Pierce equal to their base Attack and Siphon as 3 plus their Attack.</desc>
 		<icon>filter_frog_64.png</icon>
 		<effect>
-			<add_skill id='bash' mult='0.25' base='health' y='4' />
-			<add_skill id='pierce' mult='1' base='attack' y='4' />
-			<add_skill id='leech' x="3" mult='1' base='attack' y='4' />
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="bash" mult="0.25" base="health" y="4"/>
+			<add_skill id="pierce" mult="1" base="attack" y="4"/>
+			<add_skill id="leech" x="3" mult="1" base="attack" y="4"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect>
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -1529,13 +1529,13 @@
 		<desc>All Avians gain 2+delay Vengeance. Avian of 0-2 delay deal extra damage on their first attack each turn equal to 40% of their base Attack. Avians of 3-4 delay gain Shroud equal to 10% +2 of their base Health.</desc>
 		<icon>filter_avian_64.png</icon>
 		<effect>
-			<add_skill id='counter' x='2'  y='10' delay='0' />
-			<add_skill id='counter' x='3'  y='10' delay='1' />
-			<add_skill id='counter' x='4'  y='10' delay='2' />
-			<add_skill id='counter' x='5'  y='10' delay='3' />
-			<add_skill id='counter' x='6'  y='10' delay='4' />
-			<add_skill id='bash' mult='0.40' base='attack' y='10' delay='0,1,2'/>
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="counter" x="2" y="10" delay="0"/>
+			<add_skill id="counter" x="3" y="10" delay="1"/>
+			<add_skill id="counter" x="4" y="10" delay="2"/>
+			<add_skill id="counter" x="5" y="10" delay="3"/>
+			<add_skill id="counter" x="6" y="10" delay="4"/>
+			<add_skill id="bash" mult="0.40" base="attack" y="10" delay="0,1,2"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect>
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -1544,23 +1544,23 @@
 					<sound>shield</sound>
 				</target_effect>
 			</skill>
-			<add_skill id='stasis' mult='0.1' x='2' base='health' y='10' delay='3,4' />
+			<add_skill id="stasis" mult="0.1" x="2" base="health" y="10" delay="3,4"/>
 		</effect>
 	</battleground>
 
 	<battleground>
 		<id>166</id>
-		<name>Steel&apos;s Edge V2.0</name>
+		<name>Steel's Edge V2.0</name>
 		<desc>All Mechas gain base Ward 3 + Delay, and increase their Attack by 15% of their base Health.</desc>
 		<icon>filter_mech_64</icon>
 		<effect>
 			<!-- <skill id='enlarge' mult='0.2' base='health' all='1' y='12' /> -->
-			<add_skill id='absorb_mecha' x='3' all='1' y='16' delay='0' />
-			<add_skill id='absorb_mecha' x='4' all='1' y='16' delay='1' />
-			<add_skill id='absorb_mecha' x='5' all='1' y='16' delay='2' />
-			<add_skill id='absorb_mecha' x='6' all='1' y='16' delay='3' />
-			<add_skill id='absorb_mecha' x='7' all='1' y='16' delay='4' />
-			<skill id='displayEffect' trigger='onSkill' s='absorb_mecha' >
+			<add_skill id="absorb_mecha" x="3" all="1" y="16" delay="0"/>
+			<add_skill id="absorb_mecha" x="4" all="1" y="16" delay="1"/>
+			<add_skill id="absorb_mecha" x="5" all="1" y="16" delay="2"/>
+			<add_skill id="absorb_mecha" x="6" all="1" y="16" delay="3"/>
+			<add_skill id="absorb_mecha" x="7" all="1" y="16" delay="4"/>
+			<skill id="displayEffect" trigger="onSkill" s="absorb_mecha">
 				<target_effect>
 					<prefab>ReinforceActive</prefab>
 					<bundle_id>107</bundle_id>
@@ -1569,7 +1569,7 @@
 					<sound>shield</sound>
 				</target_effect>
 			</skill>
-			<scale_attack base='health' mult='0.15' yy='16' />
+			<scale_attack base="health" mult="0.15" yy="16"/>
 		</effect>
 	</battleground>
 
@@ -1579,8 +1579,8 @@
 		<desc>All Insects gain extra Health equal to 10% of their base Health and Swarm equal to 15% of their base health. After dealing Attack damage, Swarm permanently increases the Attack of the weakest ally.</desc>
 		<icon>filter_insect_64.png</icon>
 		<effect>
-			<scale_health base='health' mult='0.10' yy='13' />
-			<add_skill id='swarm' mult='0.15' base='health' y='13' />
+			<scale_health base="health" mult="0.10" yy="13"/>
+			<add_skill id="swarm" mult="0.15" base="health" y="13"/>
 		</effect>
 	</battleground>
 
@@ -1590,24 +1590,24 @@
 		<desc>All Goblins gain 10% Armor. Aether gain 7% + Delay Frostbreath, Chaos gain 20% + Delay Barrage, Wyld gain 10% + delay Venom, Void gain Siphon equal to base Attack. Values are based on base health.</desc>
 		<icon>filter_goblin_64</icon>
 		<effect>
-			<add_skill id='armored' mult='0.1' base='health' y='11'/>
-			<add_skill id='frost' mult='0.07' base='health' yy='1,11' delay='0'/>
-			<add_skill id='frost' mult='0.07' base='health' x='1' yy='1,11' delay='1'/>
-			<add_skill id='frost' mult='0.07' base='health' x='2' yy='1,11' delay='2'/>
-			<add_skill id='frost' mult='0.07' base='health' x='3' yy='1,11' delay='3'/>
-			<add_skill id='frost' mult='0.07' base='health' x='4' yy='1,11' delay='4'/>
-			<add_skill id='barrage' mult='0.20' base='health' yy='2,11' delay='0'/>
-			<add_skill id='barrage' mult='0.20' base='health' x='1' yy='2,11' delay='1'/>
-			<add_skill id='barrage' mult='0.20' base='health' x='2' yy='2,11' delay='2'/>
-			<add_skill id='barrage' mult='0.20' base='health' x='3' yy='2,11' delay='3'/>
-			<add_skill id='barrage' mult='0.20' base='health' x='4' yy='2,11' delay='4'/>
-			<add_skill id='venom' mult='0.10' base='health' yy='3,11' delay='0'/>
-			<add_skill id='venom' mult='0.10' base='health' x='1' yy='3,11' delay='1'/>
-			<add_skill id='venom' mult='0.10' base='health' x='2' yy='3,11' delay='2'/>
-			<add_skill id='venom' mult='0.10' base='health' x='3' yy='3,11' delay='3'/>
-			<add_skill id='venom' mult='0.10' base='health' x='4' yy='3,11' delay='4'/>
-			<add_skill id='leech' mult='1' base='attack' yy='8,11'/>
-			<skill id='displayEffect' trigger='onSkill' yy='2,11' s='barrage' >
+			<add_skill id="armored" mult="0.1" base="health" y="11"/>
+			<add_skill id="frost" mult="0.07" base="health" yy="1,11" delay="0"/>
+			<add_skill id="frost" mult="0.07" base="health" x="1" yy="1,11" delay="1"/>
+			<add_skill id="frost" mult="0.07" base="health" x="2" yy="1,11" delay="2"/>
+			<add_skill id="frost" mult="0.07" base="health" x="3" yy="1,11" delay="3"/>
+			<add_skill id="frost" mult="0.07" base="health" x="4" yy="1,11" delay="4"/>
+			<add_skill id="barrage" mult="0.20" base="health" yy="2,11" delay="0"/>
+			<add_skill id="barrage" mult="0.20" base="health" x="1" yy="2,11" delay="1"/>
+			<add_skill id="barrage" mult="0.20" base="health" x="2" yy="2,11" delay="2"/>
+			<add_skill id="barrage" mult="0.20" base="health" x="3" yy="2,11" delay="3"/>
+			<add_skill id="barrage" mult="0.20" base="health" x="4" yy="2,11" delay="4"/>
+			<add_skill id="venom" mult="0.10" base="health" yy="3,11" delay="0"/>
+			<add_skill id="venom" mult="0.10" base="health" x="1" yy="3,11" delay="1"/>
+			<add_skill id="venom" mult="0.10" base="health" x="2" yy="3,11" delay="2"/>
+			<add_skill id="venom" mult="0.10" base="health" x="3" yy="3,11" delay="3"/>
+			<add_skill id="venom" mult="0.10" base="health" x="4" yy="3,11" delay="4"/>
+			<add_skill id="leech" mult="1" base="attack" yy="8,11"/>
+			<skill id="displayEffect" trigger="onSkill" yy="2,11" s="barrage">
 				<projectile_effect>
 					<prefab>goblinBombProjectile</prefab>
 					<bundle_id>75</bundle_id>
@@ -1633,11 +1633,11 @@
 		<desc>All Elementals are Enraged for 7% health. 0-2D Elementals gain Weaken and Pierce equal to 15% base health. 3-4D Elementals gain Shroud and Vengeance for 10% base health.</desc>
 		<icon>filter_elementals_64</icon>
 		<effect>
-			<add_skill id='weakenbge' mult='0.15' base='health' y='5' delay='0,1,2' />
-			<add_skill id='pierce' mult='0.15' base='health' y='5' delay='0,1,2' />
-			<add_skill id='stasis' mult='0.10' base='health' y='5' delay='3,4' />
-			<add_skill id='counter' mult='0.10' base='health' y='5' delay='3,4' />
-			<skill id='enrage' ignore_nullify='1' mult='0.07' all='1' base='health' y='5' />
+			<add_skill id="weakenbge" mult="0.15" base="health" y="5" delay="0,1,2"/>
+			<add_skill id="pierce" mult="0.15" base="health" y="5" delay="0,1,2"/>
+			<add_skill id="stasis" mult="0.10" base="health" y="5" delay="3,4"/>
+			<add_skill id="counter" mult="0.10" base="health" y="5" delay="3,4"/>
+			<skill id="enrage" ignore_nullify="1" mult="0.07" all="1" base="health" y="5"/>
 		</effect>
 	</battleground>
 
@@ -1647,21 +1647,21 @@
 		<desc>All Seafolk gain Mark equal to 15% base health. 3-4D Seafolk also gain Regenerate for 15% base health.</desc>
 		<icon>filter_seafolk_64</icon>
 		<effect>
-			<add_skill id='regenerate' mult='0.15' base='health' y='12' delay='3,4' />
-			<add_skill id='mark' mult='0.15' base='health' y='12' />
-			<skill id='displayEffect' trigger='onSkill' y='12' s='mark' >
-			<target_effect>
-				<prefab>EagleEye</prefab>
-				<bundle_id>84</bundle_id>
-				<delay>0</delay>
-				<duration>3</duration>
-			</target_effect>
-			<actor_effect>
-				<prefab>EagleEye</prefab>
-				<bundle_id>84</bundle_id>
-				<delay>0</delay>
-				<duration>3</duration>
-			</actor_effect>
+			<add_skill id="regenerate" mult="0.15" base="health" y="12" delay="3,4"/>
+			<add_skill id="mark" mult="0.15" base="health" y="12"/>
+			<skill id="displayEffect" trigger="onSkill" y="12" s="mark">
+				<target_effect>
+					<prefab>EagleEye</prefab>
+					<bundle_id>84</bundle_id>
+					<delay>0</delay>
+					<duration>3</duration>
+				</target_effect>
+				<actor_effect>
+					<prefab>EagleEye</prefab>
+					<bundle_id>84</bundle_id>
+					<delay>0</delay>
+					<duration>3</duration>
+				</actor_effect>
 			</skill>
 		</effect>
 	</battleground>
@@ -1677,27 +1677,29 @@
 			<add_skill id="unearth" mult="0.75" rarity="3" y="6" card="612" level="5"/>
 			<add_skill id="unearth" mult="0.75" rarity="4" y="6" card="613" level="6"/>
 			<add_skill id="unearth" mult="0.75" rarity="5" y="6" card="614" level="7"/>
-			<add_skill id="vampirism" mult="0.05" base="health" x="2" y="6" />
+			<add_skill id="vampirism" mult="0.05" base="health" x="2" y="6"/>
 			<!-- <skill id="displayEffect" trigger="onSkill" y="6" s="unearth"> -->
-				<!-- <target_effect> -->
-					<!-- <prefab>unearth_actor</prefab>q -->
-					<!-- <bundle_id>87</bundle_id> -->
-					<!-- <delay>0</delay> -->
-					<!-- <duration>3</duration> -->
-				<!-- </target_effect> -->
+			<!-- <target_effect> -->
+			<!-- <prefab>unearth_actor</prefab>q -->
+			<!-- <bundle_id>87</bundle_id> -->
+			<!-- <delay>0</delay> -->
+			<!-- <duration>3</duration> -->
+			<!-- </target_effect> -->
 			<!-- </skill> -->
 		</effect>
 	</battleground>
+
 	<battleground>
 		<id>172</id>
 		<name>Frog Toxic Barrage</name>
-		<desc>All Frogs gain Barrage equal to their base Attack, and Poisonbolt equal to 10% of their base Health. BGE effect is subject to change.</desc>
+		<desc>All Frogs gain Barrage equal to 30% of their base Health, and Poisonbolt equal to 20% of their base Health.</desc>
 		<icon>filter_frog_64</icon>
 		<effect>
-			<add_skill id="barrage" mult="1" base="attack" y="4"/>
-			<add_skill id="poisonstrike" mult="0.1" base="health" y="4"/>
+			<add_skill id="barrage" mult="0.3" base="health" y="4"/>
+			<add_skill id="poisonstrike" mult="0.2" base="health" y="4"/>
 		</effect>
 	</battleground>
+
 
 
 	<!-- ================================= -->
@@ -1710,23 +1712,23 @@
 		<web_picture>filter_tower_64.png</web_picture>
 		<icon>filter_tower_64</icon>
 		<effect>
-			<starting_card id='601' level='1' pvp_rank='2' />
-			<starting_card id='601' level='2' pvp_rank='3' />
-			<starting_card id='601' level='3' pvp_rank='4' />
-			<starting_card id='601' level='4' pvp_rank='5' />
-			<starting_card id='601' level='5' pvp_rank='6' />
-			<starting_card id='601' level='6' pvp_rank='7' />
-			<starting_card id='601' level='7' pvp_rank='8' />
-			<starting_card id='601' level='8' pvp_rank='9' />
-			<starting_card id='601' level='9' pvp_rank='10' />
-			<starting_card id='601' level='10' pvp_rank='11' />
-			<starting_card id='601' level='11' pvp_rank='12' />
-			<starting_card id='601' level='12' pvp_rank='13' />
-			<starting_card id='601' level='13' pvp_rank='14' />
-			<starting_card id='601' level='14' pvp_rank='15' />
-			<starting_card id='601' level='15' pvp_rank='16' />
-			<starting_card id='601' level='16' pvp_rank='17' />
-			<starting_card id='601' level='17' pvp_rank='18' />
+			<starting_card id="601" level="1" pvp_rank="2"/>
+			<starting_card id="601" level="2" pvp_rank="3"/>
+			<starting_card id="601" level="3" pvp_rank="4"/>
+			<starting_card id="601" level="4" pvp_rank="5"/>
+			<starting_card id="601" level="5" pvp_rank="6"/>
+			<starting_card id="601" level="6" pvp_rank="7"/>
+			<starting_card id="601" level="7" pvp_rank="8"/>
+			<starting_card id="601" level="8" pvp_rank="9"/>
+			<starting_card id="601" level="9" pvp_rank="10"/>
+			<starting_card id="601" level="10" pvp_rank="11"/>
+			<starting_card id="601" level="11" pvp_rank="12"/>
+			<starting_card id="601" level="12" pvp_rank="13"/>
+			<starting_card id="601" level="13" pvp_rank="14"/>
+			<starting_card id="601" level="14" pvp_rank="15"/>
+			<starting_card id="601" level="15" pvp_rank="16"/>
+			<starting_card id="601" level="16" pvp_rank="17"/>
+			<starting_card id="601" level="17" pvp_rank="18"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1736,23 +1738,23 @@
 		<web_picture>filter_tower_64.png</web_picture>
 		<icon>filter_tower_64</icon>
 		<effect>
-			<starting_card id='602' level='1' pvp_rank='2' />
-			<starting_card id='602' level='2' pvp_rank='3' />
-			<starting_card id='602' level='3' pvp_rank='4' />
-			<starting_card id='602' level='4' pvp_rank='5' />
-			<starting_card id='602' level='5' pvp_rank='6' />
-			<starting_card id='602' level='6' pvp_rank='7' />
-			<starting_card id='602' level='7' pvp_rank='8' />
-			<starting_card id='602' level='8' pvp_rank='9' />
-			<starting_card id='602' level='9' pvp_rank='10' />
-			<starting_card id='602' level='10' pvp_rank='11' />
-			<starting_card id='602' level='11' pvp_rank='12' />
-			<starting_card id='602' level='12' pvp_rank='13' />
-			<starting_card id='602' level='13' pvp_rank='14' />
-			<starting_card id='602' level='14' pvp_rank='15' />
-			<starting_card id='602' level='15' pvp_rank='16' />
-			<starting_card id='602' level='16' pvp_rank='17' />
-			<starting_card id='602' level='17' pvp_rank='18' />
+			<starting_card id="602" level="1" pvp_rank="2"/>
+			<starting_card id="602" level="2" pvp_rank="3"/>
+			<starting_card id="602" level="3" pvp_rank="4"/>
+			<starting_card id="602" level="4" pvp_rank="5"/>
+			<starting_card id="602" level="5" pvp_rank="6"/>
+			<starting_card id="602" level="6" pvp_rank="7"/>
+			<starting_card id="602" level="7" pvp_rank="8"/>
+			<starting_card id="602" level="8" pvp_rank="9"/>
+			<starting_card id="602" level="9" pvp_rank="10"/>
+			<starting_card id="602" level="10" pvp_rank="11"/>
+			<starting_card id="602" level="11" pvp_rank="12"/>
+			<starting_card id="602" level="12" pvp_rank="13"/>
+			<starting_card id="602" level="13" pvp_rank="14"/>
+			<starting_card id="602" level="14" pvp_rank="15"/>
+			<starting_card id="602" level="15" pvp_rank="16"/>
+			<starting_card id="602" level="16" pvp_rank="17"/>
+			<starting_card id="602" level="17" pvp_rank="18"/>
 		</effect>
 	</battleground>
 
@@ -1781,8 +1783,8 @@
 		<scale_with_level>1</scale_with_level> <!-- Boolean -->
 		<starting_level>26</starting_level> <!-- Starting Raid Level -->
 		<effect>
-			<skill id='heal' x='1.1' all='1' />
-			<skill id='rally' x='0.6' all='1' />
+			<skill id="heal" x="1.1" all="1"/>
+			<skill id="rally" x="0.6" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1794,8 +1796,8 @@
 		<scale_with_level>1</scale_with_level> <!-- Boolean -->
 		<starting_level>26</starting_level> <!-- Starting Raid Level -->
 		<effect>
-			<skill id='heal' x='1.2' all='1' />
-			<skill id='rally' x='0.7' all='1' />
+			<skill id="heal" x="1.2" all="1"/>
+			<skill id="rally" x="0.7" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1808,8 +1810,8 @@
 		<scale_with_level>1</scale_with_level> <!-- Boolean -->
 		<starting_level>26</starting_level> <!-- Starting Raid Level -->
 		<effect>
-			<skill id='heal' x='1.1' all='1' />
-			<skill id='rally' x='0.6' all='1' />
+			<skill id="heal" x="1.1" all="1"/>
+			<skill id="rally" x="0.6" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1820,23 +1822,23 @@
 		<icon>tree_of_life_64</icon>
 		<icon_bundle>31</icon_bundle>
 		<effect>
-			<starting_card id='603' level='2' pvp_rank='2' />
-			<starting_card id='603' level='3' pvp_rank='3' />
-			<starting_card id='603' level='4' pvp_rank='4' />
-			<starting_card id='603' level='5' pvp_rank='5' />
-			<starting_card id='603' level='6' pvp_rank='6' />
-			<starting_card id='603' level='7' pvp_rank='7' />
-			<starting_card id='603' level='8' pvp_rank='8' />
-			<starting_card id='603' level='9' pvp_rank='9' />
-			<starting_card id='603' level='10' pvp_rank='10' />
-			<starting_card id='603' level='11' pvp_rank='11' />
-			<starting_card id='603' level='12' pvp_rank='12' />
-			<starting_card id='603' level='13' pvp_rank='13' />
-			<starting_card id='603' level='14' pvp_rank='14' />
-			<starting_card id='603' level='15' pvp_rank='15' />
-			<starting_card id='603' level='16' pvp_rank='16' />
-			<starting_card id='603' level='17' pvp_rank='17' />
-			<starting_card id='603' level='18' pvp_rank='18' />
+			<starting_card id="603" level="2" pvp_rank="2"/>
+			<starting_card id="603" level="3" pvp_rank="3"/>
+			<starting_card id="603" level="4" pvp_rank="4"/>
+			<starting_card id="603" level="5" pvp_rank="5"/>
+			<starting_card id="603" level="6" pvp_rank="6"/>
+			<starting_card id="603" level="7" pvp_rank="7"/>
+			<starting_card id="603" level="8" pvp_rank="8"/>
+			<starting_card id="603" level="9" pvp_rank="9"/>
+			<starting_card id="603" level="10" pvp_rank="10"/>
+			<starting_card id="603" level="11" pvp_rank="11"/>
+			<starting_card id="603" level="12" pvp_rank="12"/>
+			<starting_card id="603" level="13" pvp_rank="13"/>
+			<starting_card id="603" level="14" pvp_rank="14"/>
+			<starting_card id="603" level="15" pvp_rank="15"/>
+			<starting_card id="603" level="16" pvp_rank="16"/>
+			<starting_card id="603" level="17" pvp_rank="17"/>
+			<starting_card id="603" level="18" pvp_rank="18"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1848,8 +1850,8 @@
 			<!--
 			target_deck: opponent OR self
 			-->
-			<trap_card id='604' base='attack' mult='0.5' target_deck='opponent' y='5' />
-			<skill id='displayEffect' trigger='onTrap' >
+			<trap_card id="604" base="attack" mult="0.5" target_deck="opponent" y="5"/>
+			<skill id="displayEffect" trigger="onTrap">
 				<actor_effect>
 					<prefab>elementalStorm</prefab>
 					<bundle_id>0</bundle_id>
@@ -1858,7 +1860,7 @@
 					<sound>card_drop</sound>
 				</actor_effect>
 			</skill>
-			<skill id='displayEffect' trigger='onSkill' y='999' s='weakenself' >
+			<skill id="displayEffect" trigger="onSkill" y="999" s="weakenself">
 				<target_effect>
 					<prefab>waveBlast</prefab>
 					<bundle_id>0</bundle_id>
@@ -1875,7 +1877,7 @@
 		<icon>thunderbolt_64</icon>
 		<icon_bundle>31</icon_bundle>
 		<effect>
-			<skill id='enhance' s='strike' mult='0.5' all='1' />
+			<skill id="enhance" s="strike" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1885,23 +1887,23 @@
 		<web_picture>filter_tower_64.png</web_picture>
 		<icon>filter_tower_64</icon>
 		<effect>
-			<starting_card id='605' level='1' pvp_rank='2' />
-			<starting_card id='605' level='2' pvp_rank='3' />
-			<starting_card id='605' level='3' pvp_rank='4' />
-			<starting_card id='605' level='4' pvp_rank='5' />
-			<starting_card id='605' level='5' pvp_rank='6' />
-			<starting_card id='605' level='6' pvp_rank='7' />
-			<starting_card id='605' level='7' pvp_rank='8' />
-			<starting_card id='605' level='8' pvp_rank='9' />
-			<starting_card id='605' level='9' pvp_rank='10' />
-			<starting_card id='605' level='10' pvp_rank='11' />
-			<starting_card id='605' level='11' pvp_rank='12' />
-			<starting_card id='605' level='12' pvp_rank='13' />
-			<starting_card id='605' level='13' pvp_rank='14' />
-			<starting_card id='606' level='1' pvp_rank='15' />
-			<starting_card id='606' level='2' pvp_rank='16' />
-			<starting_card id='606' level='3' pvp_rank='17' />
-			<starting_card id='606' level='4' pvp_rank='18' />
+			<starting_card id="605" level="1" pvp_rank="2"/>
+			<starting_card id="605" level="2" pvp_rank="3"/>
+			<starting_card id="605" level="3" pvp_rank="4"/>
+			<starting_card id="605" level="4" pvp_rank="5"/>
+			<starting_card id="605" level="5" pvp_rank="6"/>
+			<starting_card id="605" level="6" pvp_rank="7"/>
+			<starting_card id="605" level="7" pvp_rank="8"/>
+			<starting_card id="605" level="8" pvp_rank="9"/>
+			<starting_card id="605" level="9" pvp_rank="10"/>
+			<starting_card id="605" level="10" pvp_rank="11"/>
+			<starting_card id="605" level="11" pvp_rank="12"/>
+			<starting_card id="605" level="12" pvp_rank="13"/>
+			<starting_card id="605" level="13" pvp_rank="14"/>
+			<starting_card id="606" level="1" pvp_rank="15"/>
+			<starting_card id="606" level="2" pvp_rank="16"/>
+			<starting_card id="606" level="3" pvp_rank="17"/>
+			<starting_card id="606" level="4" pvp_rank="18"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1914,8 +1916,8 @@
 		<scale_with_level>1</scale_with_level> <!-- Boolean -->
 		<starting_level>100</starting_level> <!-- Starting Raid Level -->
 		<effect>
-			<skill id='heal' x='0.2' all='1' />
-			<skill id='rally' x='0.2' all='1' />
+			<skill id="heal" x="0.2" all="1"/>
+			<skill id="rally" x="0.2" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1925,7 +1927,7 @@
 		<icon>Barrier_BGE_64</icon>
 		<icon_bundle>69</icon_bundle>
 		<effect>
-			<skill id='enhance' s='protect' mult='0.5' all='1' />
+			<skill id="enhance" s="protect" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1935,23 +1937,23 @@
 		<web_picture>filter_tower_64.png</web_picture>
 		<icon>filter_tower_64</icon>
 		<effect>
-			<starting_card id='601' level='1' pvp_rank='2' />
-			<starting_card id='601' level='2' pvp_rank='3' />
-			<starting_card id='601' level='3' pvp_rank='4' />
-			<starting_card id='601' level='4' pvp_rank='5' />
-			<starting_card id='601' level='5' pvp_rank='6' />
-			<starting_card id='601' level='6' pvp_rank='7' />
-			<starting_card id='601' level='7' pvp_rank='8' />
-			<starting_card id='601' level='8' pvp_rank='9' />
-			<starting_card id='601' level='9' pvp_rank='10' />
-			<starting_card id='601' level='10' pvp_rank='11' />
-			<starting_card id='601' level='11' pvp_rank='12' />
-			<starting_card id='601' level='12' pvp_rank='13' />
-			<starting_card id='601' level='13' pvp_rank='14' />
-			<starting_card id='601' level='14' pvp_rank='15' />
-			<starting_card id='601' level='15' pvp_rank='16' />
-			<starting_card id='601' level='16' pvp_rank='17' />
-			<starting_card id='601' level='17' pvp_rank='18' />
+			<starting_card id="601" level="1" pvp_rank="2"/>
+			<starting_card id="601" level="2" pvp_rank="3"/>
+			<starting_card id="601" level="3" pvp_rank="4"/>
+			<starting_card id="601" level="4" pvp_rank="5"/>
+			<starting_card id="601" level="5" pvp_rank="6"/>
+			<starting_card id="601" level="6" pvp_rank="7"/>
+			<starting_card id="601" level="7" pvp_rank="8"/>
+			<starting_card id="601" level="8" pvp_rank="9"/>
+			<starting_card id="601" level="9" pvp_rank="10"/>
+			<starting_card id="601" level="10" pvp_rank="11"/>
+			<starting_card id="601" level="11" pvp_rank="12"/>
+			<starting_card id="601" level="12" pvp_rank="13"/>
+			<starting_card id="601" level="13" pvp_rank="14"/>
+			<starting_card id="601" level="14" pvp_rank="15"/>
+			<starting_card id="601" level="15" pvp_rank="16"/>
+			<starting_card id="601" level="16" pvp_rank="17"/>
+			<starting_card id="601" level="17" pvp_rank="18"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1961,7 +1963,7 @@
 		<icon>firestarter_64</icon>
 		<icon_bundle>75</icon_bundle>
 		<effect>
-			<skill id='enhance' s='burn' mult='0.5' all='1' />
+			<skill id="enhance" s="burn" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1971,8 +1973,8 @@
 		<icon>arenaBGE_64.png</icon>
 		<icon_bundle>31</icon_bundle>
 		<effect>
-			<on_play first_play='1' attacker='1'>
-				<add_skill id='slow' x='1' />
+			<on_play first_play="1" attacker="1">
+				<add_skill id="slow" x="1"/>
 			</on_play>
 		</effect>
 	</battleground>
@@ -1984,7 +1986,7 @@
 		<icon>Barrier_BGE_64</icon>
 		<icon_bundle>69</icon_bundle>
 		<effect>
-			<skill id='protect' mult='0.20' all='1' y='4' />
+			<skill id="protect" mult="0.20" all="1" y="4"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -1994,7 +1996,7 @@
 		<icon>Hex_BGE_64</icon>
 		<icon_bundle>82</icon_bundle>
 		<effect>
-			<skill id='enhance' s='enfeeble' mult='0.5' all='1' />
+			<skill id="enhance" s="enfeeble" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2004,7 +2006,7 @@
 		<icon>armor_BGE_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<effect>
-			<skill id='enhance' s='armored' mult='0.5' all='1' />
+			<skill id="enhance" s="armored" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2017,8 +2019,8 @@
 		<scale_with_level>1</scale_with_level> <!-- Boolean -->
 		<starting_level>26</starting_level> <!-- Starting Raid Level -->
 		<effect>
-			<skill id='heal' x='1.2' all='1' />
-			<skill id='rally' x='0.7' all='1' />
+			<skill id="heal" x="1.2" all="1"/>
+			<skill id="rally" x="0.7" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2028,7 +2030,7 @@
 		<icon>corrosive_BGE_64</icon>
 		<icon_bundle>103</icon_bundle>
 		<effect>
-			<skill id='enhance' s='corrosive' mult='0.5' all='1' />
+			<skill id="enhance" s="corrosive" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2038,7 +2040,7 @@
 		<icon>frostbreath_BGE_64</icon>
 		<icon_bundle>103</icon_bundle>
 		<effect>
-			<skill id='enhance' s='frost' mult='0.5' all='1' />
+			<skill id="enhance" s="frost" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2048,8 +2050,8 @@
 		<icon>arenaBGE_64.png</icon>
 		<icon_bundle>31</icon_bundle>
 		<effect>
-			<on_play first_play='1' attacker='1'>
-				<add_skill id='slow' x='2' />
+			<on_play first_play="1" attacker="1">
+				<add_skill id="slow" x="2"/>
 			</on_play>
 		</effect>
 	</battleground>
@@ -2060,7 +2062,7 @@
 		<icon>empower_BGE_64</icon>
 		<icon_bundle>96</icon_bundle>
 		<effect>
-			<skill id='enhance' s='rally' mult='0.5' all='1' />
+			<skill id="enhance" s="rally" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2070,7 +2072,7 @@
 		<icon>Vengence_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='counter' mult='0.5' all='1' />
+			<skill id="enhance" s="counter" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2080,7 +2082,7 @@
 		<icon>Berserk_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='berserk' mult='0.5' all='1' />
+			<skill id="enhance" s="berserk" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2090,7 +2092,7 @@
 		<icon>Vanishing_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='evade' x='99' all='1' />
+			<add_skill id="evade" x="99" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2100,7 +2102,7 @@
 		<icon>thunderbolt_64</icon>
 		<icon_bundle>31</icon_bundle>
 		<effect>
-			<add_skill id='strike' x='5' y='9' all='1' />
+			<add_skill id="strike" x="5" y="9" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2110,7 +2112,7 @@
 		<icon>99Armor_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='armored' x='99' all='1' />
+			<add_skill id="armored" x="99" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2120,7 +2122,7 @@
 		<icon>Scorch_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='burn' mult='0.1' base='health' />
+			<add_skill id="burn" mult="0.1" base="health"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2130,7 +2132,7 @@
 		<icon>Nullify_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='nullify' x='99' all='1' />
+			<add_skill id="nullify" x="99" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2140,7 +2142,7 @@
 		<icon>Corrosive_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='corrosive' x='99' all='1' />
+			<add_skill id="corrosive" x="99" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2150,17 +2152,17 @@
 		<icon>Ward99_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='absorb' x='99' all='1' />
+			<add_skill id="absorb" x="99" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
 		<id>532</id>
 		<name>Furious Soul</name>
 		<desc>All cards get Enraged equal to 20% of their base Health.</desc>
-		<icon>Enraged_BGE_100</icon>	<!-- actually _64 -->
+		<icon>Enraged_BGE_100</icon> <!-- actually _64 -->
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enrage' mult='0.2' all='1' />
+			<skill id="enrage" mult="0.2" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2170,8 +2172,8 @@
 		<icon>Barrage_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='barrage' mult='1' base='attack' />
-			<skill id='displayEffect' trigger='onSkill' s='barrage' >
+			<add_skill id="barrage" mult="1" base="attack"/>
+			<skill id="displayEffect" trigger="onSkill" s="barrage">
 				<projectile_effect>
 					<prefab>goblinBombProjectile</prefab>
 					<bundle_id>75</bundle_id>
@@ -2207,7 +2209,7 @@
 		<icon>1Delay_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<stat cost='1' />
+			<stat cost="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2218,8 +2220,8 @@
 		<icon_bundle>110</icon_bundle>
 		<effect>
 			<card_type>99</card_type>
-			<skill id='enlarge' mult='0.5' all='1' y='1' />	<!-- mult is based on attack -->
-			<skill id='displayEffect' trigger='onSkill' y='99' s='enlarge' >
+			<skill id="enlarge" mult="0.5" all="1" y="1"/> <!-- mult is based on attack -->
+			<skill id="displayEffect" trigger="onSkill" y="99" s="enlarge">
 				<target_effect>
 					<prefab>Empower_Target_Elemental</prefab>
 					<delay>0.5</delay>
@@ -2227,8 +2229,8 @@
 					<shake>true</shake>
 				</target_effect>
 			</skill>
-			<add_skill id='counter' mult='0.5' base='attack' all='1' yy='2' />
-			<skill id='displayEffect' trigger='onSkill' y='2' s='counter' >
+			<add_skill id="counter" mult="0.5" base="attack" all="1" yy="2"/>
+			<skill id="displayEffect" trigger="onSkill" y="2" s="counter">
 				<actor_effect>
 					<prefab>elemental_BGE_chaos</prefab>
 					<bundle_id>96</bundle_id>
@@ -2236,8 +2238,8 @@
 					<delay>0</delay>
 				</actor_effect>
 			</skill>
-			<scale_health base='health' mult='0.25' yy='3' />
-			<skill id='displayEffect' trigger='onPlay' y='3' >
+			<scale_health base="health" mult="0.25" yy="3"/>
+			<skill id="displayEffect" trigger="onPlay" y="3">
 				<actor_effect>
 					<prefab>elemental_BGE_wyld</prefab>
 					<bundle_id>96</bundle_id>
@@ -2254,7 +2256,7 @@
 		<icon>Emberhide_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='counterburn' mult='0.5' all='1' />
+			<skill id="enhance" s="counterburn" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2264,7 +2266,7 @@
 		<icon>Scorchbreath_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='scorchbreath' mult='0.5' all='1' />
+			<skill id="enhance" s="scorchbreath" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2274,7 +2276,7 @@
 		<icon>Legion_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='legion' mult='0.5' all='1' />
+			<skill id="enhance" s="legion" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2284,7 +2286,7 @@
 		<icon>Weaken_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='weaken' mult='0.5' all='1' />
+			<skill id="enhance" s="weaken" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2294,9 +2296,9 @@
 		<icon>Poison_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='poison' mult='0.5' all='1' />
-			<skill id='enhance' s='counterpoison' mult='0.5' all='1' />
-			<skill id='enhance' s='poisonstrike' mult='0.5' all='1' />
+			<skill id="enhance" s="poison" mult="0.5" all="1"/>
+			<skill id="enhance" s="counterpoison" mult="0.5" all="1"/>
+			<skill id="enhance" s="poisonstrike" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2306,7 +2308,7 @@
 		<icon>Pierce_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='pierce' mult='0.5' all='1' />
+			<skill id="enhance" s="pierce" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2316,7 +2318,7 @@
 		<icon>Heal_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='heal' mult='0.5' all='1' />
+			<skill id="enhance" s="heal" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2326,7 +2328,7 @@
 		<icon>Regenerate_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='regenerate' mult='0.5' all='1' />
+			<skill id="enhance" s="regenerate" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2336,7 +2338,7 @@
 		<icon>Siphon_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='leech' mult='0.5' all='1' />
+			<skill id="enhance" s="leech" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2346,24 +2348,24 @@
 		<icon>Common_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enlarge' mult='5' all='1' z='1' />	<!-- mult is based on attack -->
-			<scale_health base='health' mult='5' rarity='1' />
+			<skill id="enlarge" mult="5" all="1" z="1"/> <!-- mult is based on attack -->
+			<scale_health base="health" mult="5" rarity="1"/>
 
-			<skill id='enhance' s='armored' z='1' mult='5' all='1' />
-			<skill id='enhance' s='counter' z='1' mult='5' all='1' />
-			<skill id='enhance' s='evade' z='1' mult='5' all='1' />
-			<skill id='enhance' s='leech' z='1' mult='5' all='1' />
-			<skill id='enhance' s='pierce' z='1' mult='5' all='1' />
-			<skill id='enhance' s='burn' z='1' mult='5' all='1' />
-			<skill id='enhance' s='poison' z='1' mult='5' all='1' />
-			<skill id='enhance' s='heal' z='1' mult='5' all='1' />
-			<skill id='enhance' s='strike' z='1' mult='5' all='1' />
-			<skill id='enhance' s='weaken' z='1' mult='5' all='1' />
-			<skill id='enhance' s='protect' z='1' mult='5' all='1' />
-			<skill id='enhance' s='rally' z='1' mult='5' all='1' />
-			<skill id='enhance' s='berserk' z='1' mult='5' all='1' />
-			<skill id='enhance' s='absorb' z='1' mult='5' all='1' />
-			<skill id='enhance' s='counterburn' z='1' mult='5' all='1' />
+			<skill id="enhance" s="armored" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="counter" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="evade" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="leech" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="pierce" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="burn" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="poison" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="heal" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="strike" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="weaken" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="protect" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="rally" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="berserk" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="absorb" z="1" mult="5" all="1"/>
+			<skill id="enhance" s="counterburn" z="1" mult="5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2373,26 +2375,26 @@
 		<icon>Common_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='barrage' mult='4' base='attack' all='1' rarity='1' />	<!-- mult is based on attack -->
-			<scale_health base='health' mult='4' rarity='1' />
+			<add_skill id="barrage" mult="4" base="attack" all="1" rarity="1"/> <!-- mult is based on attack -->
+			<scale_health base="health" mult="4" rarity="1"/>
 
-			<skill id='enhance' s='armored' z='1' mult='4' all='1' />
-			<skill id='enhance' s='counter' z='1' mult='4' all='1' />
-			<skill id='enhance' s='evade' z='1' mult='4' all='1' />
-			<skill id='enhance' s='leech' z='1' mult='4' all='1' />
-			<skill id='enhance' s='pierce' z='1' mult='4' all='1' />
-			<skill id='enhance' s='burn' z='1' mult='4' all='1' />
-			<skill id='enhance' s='poison' z='1' mult='4' all='1' />
-			<skill id='enhance' s='heal' z='1' mult='4' all='1' />
-			<skill id='enhance' s='strike' z='1' mult='4' all='1' />
-			<skill id='enhance' s='weaken' z='1' mult='4' all='1' />
-			<skill id='enhance' s='protect' z='1' mult='4' all='1' />
-			<skill id='enhance' s='rally' z='1' mult='4' all='1' />
-			<skill id='enhance' s='berserk' z='1' mult='4' all='1' />
-			<skill id='enhance' s='absorb' z='1' mult='4' all='1' />
-			<skill id='enhance' s='counterburn' z='1' mult='4' all='1' />
+			<skill id="enhance" s="armored" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="counter" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="evade" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="leech" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="pierce" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="burn" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="poison" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="heal" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="strike" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="weaken" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="protect" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="rally" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="berserk" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="absorb" z="1" mult="4" all="1"/>
+			<skill id="enhance" s="counterburn" z="1" mult="4" all="1"/>
 
-			<skill id='displayEffect' trigger='onSkill' s='barrage' >
+			<skill id="displayEffect" trigger="onSkill" s="barrage">
 				<projectile_effect>
 					<prefab>Firework_Projectile</prefab>
 					<bundle_id>96</bundle_id>
@@ -2415,42 +2417,42 @@
 		<id>548</id>
 		<name>Gigantic Clash</name>
 		<desc>All cards have their base Attack and base Health doubled.</desc>
-		<icon>Enraged_BGE_100</icon>	<!-- actually _64 -->
+		<icon>Enraged_BGE_100</icon> <!-- actually _64 -->
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<scale_attack base='attack' mult='1' y='0' />
-			<scale_attack base='attack' mult='1' y='1' />
-			<scale_attack base='attack' mult='1' y='2' />
-			<scale_attack base='attack' mult='1' y='3' />
-			<scale_attack base='attack' mult='1' y='8' />
-			<scale_health base='health' mult='1' y='0' />
-			<scale_health base='health' mult='1' y='1' />
-			<scale_health base='health' mult='1' y='2' />
-			<scale_health base='health' mult='1' y='3' />
-			<scale_health base='health' mult='1' y='8' />
+			<scale_attack base="attack" mult="1" y="0"/>
+			<scale_attack base="attack" mult="1" y="1"/>
+			<scale_attack base="attack" mult="1" y="2"/>
+			<scale_attack base="attack" mult="1" y="3"/>
+			<scale_attack base="attack" mult="1" y="8"/>
+			<scale_health base="health" mult="1" y="0"/>
+			<scale_health base="health" mult="1" y="1"/>
+			<scale_health base="health" mult="1" y="2"/>
+			<scale_health base="health" mult="1" y="3"/>
+			<scale_health base="health" mult="1" y="8"/>
 		</effect>
 	</battleground>
-	<battleground> <!--CHECK EVERYTHING -->
+	<battleground><!--CHECK EVERYTHING -->
 		<id>549</id>
 		<name>Unlife Clash</name>
 		<desc>When a card dies it creates an Unearthed Skeleton token creature with 50% Attack and Health of the unit that died. The token has Invisibility and Berserk values based on its rarity.</desc>
 		<icon>filter_undead_64.png</icon>
 		<effect>
-				<add_skill id='unearth' mult='0.5' rarity='1' card='607' level='3' />
-				<add_skill id='unearth' mult='0.5' rarity='2' card='608' level='4' />
-				<add_skill id='unearth' mult='0.5' rarity='3' card='609' level='5' />
-				<add_skill id='unearth' mult='0.5' rarity='4' card='610' level='6' />
-				<add_skill id='unearth' mult='0.5' rarity='5' card='611' level='7' />
-			<skill id='displayEffect' trigger='onSkill' s='unearth' >
-								<target_effect>
-										<prefab>unearth_actor</prefab>
-										<bundle_id>87</bundle_id>
-										<delay>0</delay>
-										<duration>3</duration>
-										<!-- <shake>true</shake> -->
-								</target_effect>
-						</skill>
-				 </effect>
+			<add_skill id="unearth" mult="0.5" rarity="1" card="607" level="3"/>
+			<add_skill id="unearth" mult="0.5" rarity="2" card="608" level="4"/>
+			<add_skill id="unearth" mult="0.5" rarity="3" card="609" level="5"/>
+			<add_skill id="unearth" mult="0.5" rarity="4" card="610" level="6"/>
+			<add_skill id="unearth" mult="0.5" rarity="5" card="611" level="7"/>
+			<skill id="displayEffect" trigger="onSkill" s="unearth">
+				<target_effect>
+					<prefab>unearth_actor</prefab>
+					<bundle_id>87</bundle_id>
+					<delay>0</delay>
+					<duration>3</duration>
+					<!-- <shake>true</shake> -->
+				</target_effect>
+			</skill>
+		</effect>
 	</battleground>
 	<battleground>
 		<id>550</id>
@@ -2459,7 +2461,7 @@
 		<icon>Stasis_BGE_64</icon> <!-- REVISAR -->
 		<icon_bundle>110</icon_bundle> <!-- REVISAR -->
 		<effect>
-			<add_skill id='stasis' x='99' all='1' />
+			<add_skill id="stasis" x="99" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2469,9 +2471,9 @@
 		<icon>Vengence_BGE_64</icon> <!-- REVISAR -->
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='backlash' mult='0.5' all='1' />
-			<skill id='enhance' s='counterburn' mult='0.5' all='1' />
-			<skill id='enhance' s='counter' mult='0.5' all='1' />
+			<skill id="enhance" s="backlash" mult="0.5" all="1"/>
+			<skill id="enhance" s="counterburn" mult="0.5" all="1"/>
+			<skill id="enhance" s="counter" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2480,9 +2482,9 @@
 		<desc>Frogs and Seafolk deal extra damage on their first attack each turn equal to 25% of their base Health.</desc>
 		<icon>filter_frog_64.png</icon> <!-- REVISAR -->
 		<effect>
-			<add_skill id='bash' mult='0.25' base='health' y='4' all='1'/>
-			<add_skill id='bash' mult='0.25' base='health' y='12' all='1'/>
-			<skill id='displayEffect' trigger='onSkill' s='bash' >
+			<add_skill id="bash" mult="0.25" base="health" y="4" all="1"/>
+			<add_skill id="bash" mult="0.25" base="health" y="12" all="1"/>
+			<skill id="displayEffect" trigger="onSkill" s="bash">
 				<target_effect> <!-- REVISAR -->
 					<prefab>frogbge_Target</prefab>
 					<bundle_id>96</bundle_id>
@@ -2500,7 +2502,7 @@
 		<icon>Flurry_BGE_64</icon> <!-- REVISAR -->
 		<icon_bundle>110</icon_bundle> <!-- REVISAR -->
 		<effect>
-			<add_skill id='flurry' x='1' all='1' />
+			<add_skill id="flurry" x="1" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2510,10 +2512,10 @@
 		<icon>thunderbolt_64</icon>
 		<icon_bundle>31</icon_bundle>
 		<effect>
-			<skill id='enhance' s='strike' mult='1' all='1' />
-			<skill id='enhance' s='frost' mult='1' all='1' />
-			<skill id='enhance' s='enfeeble' mult='1' all='1' />
-			<scale_health base='health' mult='0.5' all='1'/>
+			<skill id="enhance" s="strike" mult="1" all="1"/>
+			<skill id="enhance" s="frost" mult="1" all="1"/>
+			<skill id="enhance" s="enfeeble" mult="1" all="1"/>
+			<scale_health base="health" mult="0.5" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2523,11 +2525,11 @@
 		<icon>Poison_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<skill id='enhance' s='burn' mult='1' all='1' />
-			<skill id='enhance' s='scorchbreath' mult='1' all='1' />
-			<skill id='enhance' s='poison' mult='1' all='1' />
-			<skill id='enhance' s='counterburn' mult='1' all='1' />
-			<scale_health base='health' mult='1' all='1'/>
+			<skill id="enhance" s="burn" mult="1" all="1"/>
+			<skill id="enhance" s="scorchbreath" mult="1" all="1"/>
+			<skill id="enhance" s="poison" mult="1" all="1"/>
+			<skill id="enhance" s="counterburn" mult="1" all="1"/>
+			<scale_health base="health" mult="1" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2537,8 +2539,8 @@
 		<icon>Barrage_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='barrage' mult='0.5' base='health' all='1'/>
-			<skill id='displayEffect' trigger='onSkill' s='barrage' >
+			<add_skill id="barrage" mult="0.5" base="health" all="1"/>
+			<skill id="displayEffect" trigger="onSkill" s="barrage">
 				<projectile_effect>
 					<prefab>goblinBombProjectile</prefab>
 					<bundle_id>75</bundle_id>
@@ -2564,35 +2566,35 @@
 		<desc>All Epic cards have their Attack, Health, and all Skills multiplied by 2! Freeze and Dualstrike are not affected.</desc>
 		<icon>Epic_Card_Icon</icon>
 		<effect>
-			<skill id='enlarge' mult='1' all='1' z='3' />	<!-- mult is based on attack -->
-			<scale_health base='health' mult='1' rarity='3' />
+			<skill id="enlarge" mult="1" all="1" z="3"/> <!-- mult is based on attack -->
+			<scale_health base="health" mult="1" rarity="3"/>
 
-			<skill id='enhance' s='armored' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='counter' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='evade' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='leech' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='pierce' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='burn' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='poison' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='heal' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='strike' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='weaken' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='protect' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='rally' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='berserk' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='absorb' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='counterburn' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='enrage' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='regenerate' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='valor' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='daze' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='backlash' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='frost' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='stasis' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='corrosive' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='legion' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='fervor' z='3' mult='1' all='1' ignore_nullify='1' />
-			<skill id='enhance' s='enfeeble' z='3' mult='1' all='1' ignore_nullify='1' />
+			<skill id="enhance" s="armored" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="counter" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="evade" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="leech" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="pierce" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="burn" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="poison" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="heal" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="strike" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="weaken" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="protect" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="rally" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="berserk" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="absorb" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="counterburn" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="enrage" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="regenerate" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="valor" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="daze" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="backlash" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="frost" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="stasis" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="corrosive" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="legion" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="fervor" z="3" mult="1" all="1" ignore_nullify="1"/>
+			<skill id="enhance" s="enfeeble" z="3" mult="1" all="1" ignore_nullify="1"/>
 		</effect>
 	</battleground>
 
@@ -2603,7 +2605,7 @@
 		<icon>armor_BGE_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<effect>
-			<add_skill id='armored' x='25' all='1' />
+			<add_skill id="armored" x="25" all="1"/>
 		</effect>
 	</battleground>
 
@@ -2614,7 +2616,7 @@
 		<icon>Poison_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='poison' x='99' all='1' />
+			<add_skill id="poison" x="99" all="1"/>
 		</effect>
 	</battleground>
 
@@ -2625,7 +2627,7 @@
 		<icon>Ward99_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='absorb' x='25' all='1' />
+			<add_skill id="absorb" x="25" all="1"/>
 		</effect>
 	</battleground>
 
@@ -2636,7 +2638,7 @@
 		<icon>Weaken_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='daze' x='15' all='1' />
+			<add_skill id="daze" x="15" all="1"/>
 		</effect>
 	</battleground>
 
@@ -2647,7 +2649,7 @@
 		<icon>Berserk_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='valor' x='15' all='1' />
+			<add_skill id="valor" x="15" all="1"/>
 		</effect>
 	</battleground>
 
@@ -2658,7 +2660,7 @@
 		<icon>Regenerate_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='regenerate' x='99' all='1' />
+			<add_skill id="regenerate" x="99" all="1"/>
 		</effect>
 	</battleground>
 
@@ -2669,7 +2671,7 @@
 		<icon>Berserk_BGE_64</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<add_skill id='berserk' x='10' all='1' />
+			<add_skill id="berserk" x="10" all="1"/>
 		</effect>
 	</battleground>
 
@@ -2680,23 +2682,23 @@
 		<web_picture>filter_tower_64.png</web_picture>
 		<icon>filter_tower_64</icon>
 		<effect>
-			<starting_card id="615" level="1" pvp_rank="2" />
-			<starting_card id="615" level="2" pvp_rank="3" />
-			<starting_card id="615" level="3" pvp_rank="4" />
-			<starting_card id="615" level="4" pvp_rank="5" />
-			<starting_card id="615" level="5" pvp_rank="6" />
-			<starting_card id="615" level="6" pvp_rank="7" />
-			<starting_card id="615" level="7" pvp_rank="8" />
-			<starting_card id="615" level="8" pvp_rank="9" />
-			<starting_card id="615" level="9" pvp_rank="10" />
-			<starting_card id="615" level="10" pvp_rank="11" />
-			<starting_card id="615" level="11" pvp_rank="12" />
-			<starting_card id="615" level="12" pvp_rank="13" />
-			<starting_card id="615" level="13" pvp_rank="14" />
-			<starting_card id="615" level="14" pvp_rank="15" />
-			<starting_card id="615" level="15" pvp_rank="16" />
-			<starting_card id="615" level="16" pvp_rank="17" />
-			<starting_card id="615" level="17" pvp_rank="18" />
+			<starting_card id="615" level="1" pvp_rank="2"/>
+			<starting_card id="615" level="2" pvp_rank="3"/>
+			<starting_card id="615" level="3" pvp_rank="4"/>
+			<starting_card id="615" level="4" pvp_rank="5"/>
+			<starting_card id="615" level="5" pvp_rank="6"/>
+			<starting_card id="615" level="6" pvp_rank="7"/>
+			<starting_card id="615" level="7" pvp_rank="8"/>
+			<starting_card id="615" level="8" pvp_rank="9"/>
+			<starting_card id="615" level="9" pvp_rank="10"/>
+			<starting_card id="615" level="10" pvp_rank="11"/>
+			<starting_card id="615" level="11" pvp_rank="12"/>
+			<starting_card id="615" level="12" pvp_rank="13"/>
+			<starting_card id="615" level="13" pvp_rank="14"/>
+			<starting_card id="615" level="14" pvp_rank="15"/>
+			<starting_card id="615" level="15" pvp_rank="16"/>
+			<starting_card id="615" level="16" pvp_rank="17"/>
+			<starting_card id="615" level="17" pvp_rank="18"/>
 		</effect>
 	</battleground>
 
@@ -2707,10 +2709,10 @@
 		<id>1001</id>
 		<name>Primal Mending</name>
 		<desc>Your creatures get healed for 2 every turn in battle.</desc>
-    	<icon>healTotem_BGE_64</icon>
+		<icon>healTotem_BGE_64</icon>
 		<icon_bundle>73</icon_bundle>
 		<effect>
-			<skill id='heal' x='2' all='1' />
+			<skill id="heal" x="2" all="1"/>
 		</effect>
 	</battleground>
 	<battleground>
@@ -2719,7 +2721,7 @@
 		<desc>All ally Frogs gain the Protection of the Watcher, reducing damage taken by 2.</desc>
 		<web_picture>filter_frog_64.png</web_picture>
 		<effect>
-			<skill id='protect' x='2' all='1' y='4' />
+			<skill id="protect" x="2" all="1" y="4"/>
 		</effect>
 	</battleground>
 
@@ -2733,11 +2735,11 @@
 		<desc>Scylla empowers her minions, increasing their stats with each Mastery level!</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
@@ -2747,11 +2749,11 @@
 		<desc>Enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.0025' />
+			<scale_attributes base_mult="0.1" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -2761,11 +2763,11 @@
 		<desc>Enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.15' mult='0.0025' />
+			<scale_attributes base_mult="0.15" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -2775,11 +2777,11 @@
 		<desc>Enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
@@ -2790,11 +2792,11 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.0025' />
+			<scale_attributes base_mult="0.1" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -2805,10 +2807,10 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.4' mult='0.016' />
+			<scale_attributes base_mult="0.4" mult="0.016"/>
 		</effect>
 	</battleground>
 
@@ -2819,11 +2821,11 @@
 		<web_picture>filter_undead_64.png</web_picture>
 		<icon>filter_undead_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.13' mult='0.0025' />
+			<scale_attributes base_mult="0.13" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -2834,11 +2836,11 @@
 		<web_picture>filter_undead_64.png</web_picture>
 		<icon>filter_undead_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.04' />
+			<scale_attributes base_mult="0.1" mult="0.04"/>
 		</effect>
 	</battleground>
 
@@ -2849,11 +2851,11 @@
 		<icon>devtools_128</icon>
 		<icon_bundle>52</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>6</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>6</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
@@ -2864,11 +2866,11 @@
 		<web_picture>filter_dragon_64.png</web_picture>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -2879,10 +2881,10 @@
 		<web_picture>filter_dragon_64.png</web_picture>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -2893,11 +2895,11 @@
 		<web_picture>filter_dragon_64.png</web_picture>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.13' mult='0.0025' />
+			<scale_attributes base_mult="0.13" mult="0.0025"/>
 			<!-- <scale_attributes base_mult='0.01' mult='0.025' /> -->
 		</effect>
 	</battleground>
@@ -2909,11 +2911,11 @@
 		<web_picture>filter_dragon_64.png</web_picture>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.04' />
+			<scale_attributes base_mult="0.1" mult="0.04"/>
 		</effect>
 	</battleground>
 
@@ -2923,11 +2925,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -2940,10 +2942,10 @@
 		<web_picture>filter_dragon_64.png</web_picture>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>7</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>7</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -2955,10 +2957,10 @@
 		<desc>The Enraged Assassin fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -2970,11 +2972,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -2984,11 +2986,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_goblin_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.03' />
+			<scale_attributes base_mult="0.2" mult="0.03"/>
 		</effect>
 	</battleground>
 
@@ -3000,11 +3002,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3017,10 +3019,10 @@
 		<desc>Xerkahn, the Avenger fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3032,11 +3034,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3046,11 +3048,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.03' />
+			<scale_attributes base_mult="0.2" mult="0.03"/>
 		</effect>
 	</battleground>
 
@@ -3062,11 +3064,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_mech_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3078,10 +3080,10 @@
 		<desc>Fireshard's Giant fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_mech_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.25' mult='0.03' />
+			<scale_attributes base_mult="0.25" mult="0.03"/>
 		</effect>
 	</battleground>
 
@@ -3093,11 +3095,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_mech_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3107,11 +3109,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_mech_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.03' />
+			<scale_attributes base_mult="0.1" mult="0.03"/>
 		</effect>
 	</battleground>
 
@@ -3123,10 +3125,10 @@
 		<desc>Viracocha, Titan Aspirer fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_mech_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>7</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>7</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3138,11 +3140,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_avian_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3154,10 +3156,10 @@
 		<desc>Hero's Blessed, Yakov fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_avian_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.03' />
+			<scale_attributes base_mult="0.2" mult="0.03"/>
 		</effect>
 	</battleground>
 
@@ -3170,11 +3172,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_avian_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3185,11 +3187,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_avian_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
@@ -3202,11 +3204,11 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3219,10 +3221,10 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.03' />
+			<scale_attributes base_mult="0.2" mult="0.03"/>
 		</effect>
 	</battleground>
 
@@ -3235,11 +3237,11 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3250,11 +3252,11 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3267,11 +3269,11 @@
 		<icon>filter_goblin_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3284,10 +3286,10 @@
 		<icon>filter_goblin_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3298,11 +3300,11 @@
 		<icon>filter_goblin_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3313,11 +3315,11 @@
 		<icon>filter_goblin_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3329,11 +3331,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3345,10 +3347,10 @@
 		<desc>Typheous, Ship Devourer fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.25' mult='0.01' />
+			<scale_attributes base_mult="0.25" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3358,11 +3360,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3372,11 +3374,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3388,11 +3390,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3404,10 +3406,10 @@
 		<desc>Kachina, Transcended fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.25' mult='0.01' />
+			<scale_attributes base_mult="0.25" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3419,11 +3421,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3433,11 +3435,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3449,11 +3451,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3465,10 +3467,10 @@
 		<desc>Tanit, First Dreamer fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_avian_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3480,10 +3482,10 @@
 		<desc>Agonized Amarok fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3495,11 +3497,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3509,11 +3511,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3525,11 +3527,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3541,10 +3543,10 @@
 		<desc>Teroxis the Steadfast fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3556,11 +3558,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3570,11 +3572,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3587,11 +3589,11 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3604,10 +3606,10 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3620,11 +3622,11 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3635,11 +3637,11 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3651,11 +3653,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3667,10 +3669,10 @@
 		<desc>Corrupted Merman fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3682,11 +3684,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3696,11 +3698,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_seafolk_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3712,11 +3714,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3728,10 +3730,10 @@
 		<desc>Agatha, Forgettable Elder fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3744,10 +3746,10 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3759,10 +3761,10 @@
 		<desc>Ebonclaw, Silencer fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3774,11 +3776,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3788,11 +3790,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3804,11 +3806,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3820,10 +3822,10 @@
 		<desc>Frog Defense fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3835,11 +3837,11 @@
 		<desc>Frog Defense fights harder with each passing Mastery level, increasing cards' stats!</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3849,27 +3851,27 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
-  <!-- Campaign Event 18 weeks 1-4 -->
-  <!-- Universal EBGE weeks 1-4 Setup -->
-  <battleground>
-    <id>2075</id>
-    <name>Enemy Anthem</name>
-    <desc>Non-token enemies become stronger with each passing Mastery level.</desc>
-    <icon>filter_dragon_64</icon>
-    <enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+	<!-- Campaign Event 18 weeks 1-4 -->
+	<!-- Universal EBGE weeks 1-4 Setup -->
+	<battleground>
+		<id>2075</id>
+		<name>Enemy Anthem</name>
+		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
+		<icon>filter_dragon_64</icon>
+		<enemy_only>1</enemy_only>
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3880,10 +3882,10 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_avian_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.2' mult='0.01' />
+			<scale_attributes base_mult="0.2" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3894,11 +3896,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_avian_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3908,27 +3910,27 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_avian_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 19 weeks 1-4 -->
-  <!-- Universal EBGE weeks 1-4 Setup -->
-  <battleground>
-    <id>2079</id>
-    <name>Chorus of Thunder</name>
-    <desc>Non-token enemies become stronger with each passing Mastery level.</desc>
-    <icon>filter_elementals_64</icon>
-    <enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+	<!-- Universal EBGE weeks 1-4 Setup -->
+	<battleground>
+		<id>2079</id>
+		<name>Chorus of Thunder</name>
+		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
+		<icon>filter_elementals_64</icon>
+		<enemy_only>1</enemy_only>
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3939,10 +3941,10 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3953,11 +3955,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -3967,28 +3969,28 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 20 weeks 1-4 -->
-  <!-- Universal EBGE weeks 1-4 Setup -->
-  <battleground>
-    <id>2083</id>
+	<!-- Universal EBGE weeks 1-4 Setup -->
+	<battleground>
+		<id>2083</id>
 		<name>Requiem of the Relentless</name>
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<web_picture>filter_undead_64.png</web_picture>
 		<icon>filter_undead_64</icon>
-    <enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<enemy_only>1</enemy_only>
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -3999,10 +4001,10 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_undead_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4013,11 +4015,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_undead_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4027,28 +4029,28 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_undead_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 21 weeks 1-4 -->
-  <!-- Universal EBGE weeks 1-4 Setup -->
-  <battleground>
-    <id>2087</id>
+	<!-- Universal EBGE weeks 1-4 Setup -->
+	<battleground>
+		<id>2087</id>
 		<name>Celestial Duet</name>
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
-    <enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<enemy_only>1</enemy_only>
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -4060,10 +4062,10 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4074,11 +4076,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4088,27 +4090,27 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_insect_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 22 weeks 1-4 -->
-  <!-- Universal EBGE weeks 1-4 Setup -->
-  <battleground>
-    <id>2091</id>
+	<!-- Universal EBGE weeks 1-4 Setup -->
+	<battleground>
+		<id>2091</id>
 		<name>Chorus of Fire</name>
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_dragon_64</icon>
-    <enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<enemy_only>1</enemy_only>
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -4119,10 +4121,10 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4133,11 +4135,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4147,27 +4149,27 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 23 weeks 1-4 -->
-  <!-- Universal EBGE weeks 1-4 Setup -->
-  <battleground>
-    <id>2095</id>
+	<!-- Universal EBGE weeks 1-4 Setup -->
+	<battleground>
+		<id>2095</id>
 		<name>Enemy Anthem</name>
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_avian_64.png</icon>
-    	<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<enemy_only>1</enemy_only>
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -4178,10 +4180,10 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_avian_64.png</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4192,11 +4194,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4206,28 +4208,28 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 24 weeks 1-4 -->
-  <!-- Universal EBGE weeks 1-4 Setup -->
-  <battleground>
-    <id>2099</id>
+	<!-- Universal EBGE weeks 1-4 Setup -->
+	<battleground>
+		<id>2099</id>
 		<name>Undead Anthem</name>
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<web_picture>filter_undead_64.png</web_picture>
 		<icon>filter_undead_64</icon>
-    	<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<enemy_only>1</enemy_only>
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -4238,10 +4240,10 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_undead_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4252,11 +4254,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_mech_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4266,28 +4268,28 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_mech_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 25 weeks 1-4 -->
-  <!-- Universal EBGE weeks 1-4 Setup -->
-  <battleground>
-    <id>2103</id>
+	<!-- Universal EBGE weeks 1-4 Setup -->
+	<battleground>
+		<id>2103</id>
 		<name>Enemy Anthem</name>
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_goblin_64</icon>
 		<icon_bundle>87</icon_bundle>
-    	<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<enemy_only>1</enemy_only>
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -4298,10 +4300,10 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_goblin_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4312,11 +4314,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4326,16 +4328,16 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_dragon_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 26 weeks 1-4 -->
-  <!-- Universal EBGE weeks 1-4 Setup -->
+	<!-- Universal EBGE weeks 1-4 Setup -->
 	<battleground>
 		<id>2107</id>
 		<name>Melancholy Symphony</name>
@@ -4343,11 +4345,11 @@
 		<icon>filter_seafolk_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -4359,10 +4361,10 @@
 		<icon>filter_seafolk_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4374,11 +4376,11 @@
 		<icon>filter_avian_64.png</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4389,16 +4391,16 @@
 		<icon>filter_avian_64.png</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 27 weeks 1-4 -->
- 	<!-- Universal EBGE weeks 1-4 Setup -->
+	<!-- Universal EBGE weeks 1-4 Setup -->
 	<battleground>
 		<id>2111</id>
 		<name>Celestial Duet</name>
@@ -4406,11 +4408,11 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -4422,10 +4424,10 @@
 		<icon>filter_angel2_64</icon>
 		<icon_bundle>87</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4436,11 +4438,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4450,27 +4452,27 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_frog_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
 	<!-- Campaign Event 28 weeks 1-4 -->
- 	<!-- Universal EBGE weeks 1-4 Setup -->
+	<!-- Universal EBGE weeks 1-4 Setup -->
 	<battleground>
 		<id>2115</id>
-		<name>Elemental Funk </name>
+		<name>Elemental Funk</name>
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>5</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>5</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.008' mult='0.0025' />
+			<scale_attributes base_mult="0.008" mult="0.0025"/>
 		</effect>
 	</battleground>
 
@@ -4481,25 +4483,25 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_elementals_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.3' mult='0.01' />
+			<scale_attributes base_mult="0.3" mult="0.01"/>
 		</effect>
 	</battleground>
 	
 	<!-- Campaign Event 27 weeks 5-8 -->
-		<battleground>
+	<battleground>
 		<id>2117</id>
 		<name>Power Coil Bachata</name>
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_mech_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.01' />
+			<scale_attributes base_mult="0.1" mult="0.01"/>
 		</effect>
 	</battleground>
 
@@ -4509,11 +4511,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_mech_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>        <!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 
@@ -4525,11 +4527,11 @@
 		<icon>bge_Smoldering_Ember_icon</icon>
 		<icon_bundle>197</icon_bundle>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>				<!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.1' mult='0.05' />
+			<scale_attributes base_mult="0.1" mult="0.05"/>
 		</effect>
 	</battleground>
 	
@@ -4540,11 +4542,11 @@
 		<desc>Non-token enemies become stronger with each passing Mastery level.</desc>
 		<icon>filter_void_64</icon>
 		<enemy_only>1</enemy_only>
-		<scale_with_level>1</scale_with_level>	<!-- Boolean -->
-		<starting_level>0</starting_level>		<!-- Starting Mastery Level -->
-		<max_level>7</max_level>				<!-- Max Mastery Level -->
+		<scale_with_level>1</scale_with_level> <!-- Boolean -->
+		<starting_level>0</starting_level> <!-- Starting Mastery Level -->
+		<max_level>7</max_level> <!-- Max Mastery Level -->
 		<effect>
-			<scale_attributes base_mult='0.08' mult='0.06' />
+			<scale_attributes base_mult="0.08" mult="0.06"/>
 		</effect>
 	</battleground>
 	
@@ -4556,8 +4558,8 @@
 		<icon>sparkler_BGE</icon>
 		<icon_bundle>110</icon_bundle>
 		<effect>
-			<on_play first_play='1' defender='1'>
-				<add_skill id='haste' x='1'/>
+			<on_play first_play="1" defender="1">
+				<add_skill id="haste" x="1"/>
 			</on_play>
 		</effect>
 	</battleground>
@@ -4569,11 +4571,11 @@
 		<desc>All non-Epic cards have their attributes greatly reduced.</desc>
 		<icon>Epic_Card_Icon</icon>
 		<effect>
-			<on_play attacker='1'>
-				<skill id='ambush' base='health' mult='0.99' rarity='1' />
-				<skill id='ambush' base='health' mult='0.99' rarity='2' />
-				<skill id='ambush' base='health' mult='0.99' rarity='4' />
-				<skill id='ambush' base='health' mult='0.99' rarity='5' />
+			<on_play attacker="1">
+				<skill id="ambush" base="health" mult="0.99" rarity="1"/>
+				<skill id="ambush" base="health" mult="0.99" rarity="2"/>
+				<skill id="ambush" base="health" mult="0.99" rarity="4"/>
+				<skill id="ambush" base="health" mult="0.99" rarity="5"/>
 			</on_play>
 		</effect>
 	</battleground>
@@ -4590,8 +4592,8 @@
 		<icon>arenaBGE_64.png</icon>
 		<icon_bundle>31</icon_bundle>
 		<effect>
-			<on_play first_play='1' attacker='1'>
-				<add_skill id='slow' x='2' />
+			<on_play first_play="1" attacker="1">
+				<add_skill id="slow" x="2"/>
 			</on_play>
 		</effect>
 	</battleground>
@@ -4603,11 +4605,11 @@
 		<icon>arenaBGE_64.png</icon>
 		<icon_bundle>31</icon_bundle>
 		<effect>
-			<on_play index='1' attacker='1'>
-				<add_skill id='slow' x='1' />
+			<on_play index="1" attacker="1">
+				<add_skill id="slow" x="1"/>
 			</on_play>
-			<on_play index='2' attacker='1'>
-				<add_skill id='slow' x='1' />
+			<on_play index="2" attacker="1">
+				<add_skill id="slow" x="1"/>
 			</on_play>
 		</effect>
 	</battleground>
@@ -4619,11 +4621,11 @@
 		<icon>arenaBGE_64.png</icon>
 		<icon_bundle>31</icon_bundle>
 		<effect>
-			<on_play first_play='1' attacker='1'>
-				<add_skill id='slow' x='1' />
+			<on_play first_play="1" attacker="1">
+				<add_skill id="slow" x="1"/>
 			</on_play>
-			<on_play first_play='1' defender='1'>
-				<add_skill id='haste' x='1' />
+			<on_play first_play="1" defender="1">
+				<add_skill id="haste" x="1"/>
 			</on_play>
 		</effect>
 	</battleground>
@@ -4636,7 +4638,7 @@
 		<id>6001</id>
 		<name>Global VFX</name>
 		<effect>
-			<skill id='displayEffect' trigger='onSkill' s='counterburn' >
+			<skill id="displayEffect" trigger="onSkill" s="counterburn">
 				<target_effect>
 					<prefab>FireVengence_Reverse</prefab>
 					<prefab_enemy>FireVengence</prefab_enemy>
