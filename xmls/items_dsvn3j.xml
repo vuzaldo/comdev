@@ -5003,18 +5003,18 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Frog Reward Champion Stones</desc>
-		<create_choice id="1">
+		<choice id="1">
 				<item id="28171" quantity="1"/> <!-- Wyld 1D -->
-		</create_choice>
-		<create_choice id="2">
+		</choice>
+		<choice id="2">
 				<item id="28172" quantity="1"/> <!-- Wyld 2D -->
-		</create_choice>
-		<create_choice id="3">
+		</choice>
+		<choice id="3">
 				<item id="28173" quantity="1"/> <!-- Aether and Wyld 3D -->
-		</create_choice>
-		<create_choice id="4">
+		</choice>
+		<choice id="4">
 				<item id="28174" quantity="1"/> <!-- Chaos and Void -->
-		</create_choice>
+		</choice>
 	</item>
 	
 	<!-- Flasks within Super Flask -->
@@ -5024,18 +5024,18 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Plyn, Omy, Atlatl Stones; OR revert back to Super Flask</desc>
-		<create_choice id="1">
+		<choice id="1">
 				<item id="104021" quantity="1"/> <!-- Plyn -->
-		</create_choice>
-		<create_choice id="2">
+		</choice>
+		<choice id="2">
 				<item id="104042" quantity="1"/> <!-- Omy -->
-		</create_choice>
-		<create_choice id="3">
+		</choice>
+		<choice id="3">
 				<item id="104069" quantity="1"/> <!-- Atlatl -->
-		</create_choice>
-		<create_choice id="4">
+		</choice>
+		<choice id="4">
 				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
-		</create_choice>
+		</choice>
 	</item>
 	<item>
 		<id>28172</id> <!-- Note ID numbering convention for flask within flask -->
@@ -5043,15 +5043,15 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Cellia, Veric Stones; OR revert back to Super Flask</desc>
-		<create_choice id="1">
+		<choice id="1">
 				<item id="104053" quantity="1"/> <!-- Cellia -->
-		</create_choice>
-		<create_choice id="2">
+		</choice>
+		<choice id="2">
 				<item id="104061" quantity="1"/> <!-- Veric -->
-		</create_choice>
-		<create_choice id="3">
+		</choice>
+		<choice id="3">
 				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
-		</create_choice>
+		</choice>
 	</item>
 	<item>
 		<id>28173</id> <!-- Note ID numbering convention for flask within flask -->
@@ -5059,15 +5059,15 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Kachina, Korg Stones; OR revert back to Super Flask</desc>
-		<create_choice id="1">
+		<choice id="1">
 				<item id="104009" quantity="1"/> <!-- Kachina -->
-		</create_choice>
-		<create_choice id="2">
+		</choice>
+		<choice id="2">
 				<item id="104045" quantity="1"/> <!-- Korg -->
-		</create_choice>
-		<create_choice id="3">
+		</choice>
+		<choice id="3">
 				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
-		</create_choice>
+		</choice>
 	</item>
 	<item>
 		<id>28174</id> <!-- Note ID numbering convention for flask within flask -->
@@ -5075,18 +5075,18 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Froggit, Vasile, Caesar Stones; OR revert back to Super Flask</desc>
-		<create_choice id="1">
+		<choice id="1">
 				<item id="104032" quantity="1"/> <!-- Froggit -->
-		</create_choice>
-		<create_choice id="2">
+		</choice>
+		<choice id="2">
 				<item id="104035" quantity="1"/> <!-- Vasile -->
-		</create_choice>
-		<create_choice id="3">
+		</choice>
+		<choice id="3">
 				<item id="104062" quantity="1"/> <!-- Caesar -->
-		</create_choice>
-		<create_choice id="4">
+		</choice>
+		<choice id="4">
 				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
-		</create_choice>
+		</choice>
 	</item>
 
 	<!--  WARNING NOTE: ID 2701 is already taken and 2701-2800 is currently reserved for battleground items. 2801-3000 is currently unused -->
