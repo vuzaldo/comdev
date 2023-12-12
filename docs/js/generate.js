@@ -175,7 +175,8 @@ function generate() {
 	if (!eventBGE) return;
 	generateBGE();
 	generateInput('rewardChamp', newChamp);
-	generateInput('rewardFlask', options?.flask ? options.flask : newFlask, filterItem);
+	const flask = eventTribeId ? 2813 + parseInt(eventTribeId) + '0' : newFlask;
+	generateInput('rewardFlask', options?.flask ? options.flask : flask, filterItem);
 	const legendaries = generateCardList(standardLegendaries, 3, false);
 	generateInput('Legendary1', legendaries[0]);
 	generateInput('Legendary3', legendaries[2] ? legendaries[2] : legendaries[0]);
