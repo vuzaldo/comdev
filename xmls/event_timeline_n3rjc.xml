@@ -46657,6 +46657,21 @@
 		<mission_req>64</mission_req>
 	</event>
 
+	<event>
+		<id>6111</id>
+		<name>Aegis of Dragons</name>
+		<desc>All Dragons gain base Ward 3 + Delay, and extra Health equal to 10% of their base Health. BGE subject to change.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>173</bg_effect>
+		</effect>
+		<start_time>1704387600</start_time> <!-- Thursday, January 04, 2024 at 17:00:00 -->
+		<end_time>1709226000</end_time> <!-- Thursday, February 29, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
 	<!-- BGE END -->
 
 	<!-- |||||||||||||||||||||||||||||||||||||||||||| -->
