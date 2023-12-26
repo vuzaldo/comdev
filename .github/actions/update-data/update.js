@@ -57,6 +57,7 @@ other = [
 	"achievements",
 	"assetbundles",
 	"battleground_effects",
+	"cards_dev_km86x",
 	"config",
 	"daily_login_bonus_fjh32sd",
 	"guide",
