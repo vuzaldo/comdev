@@ -31048,5 +31048,278 @@
 		<card id='7281' count='4' order='10' /> <!-- Legendary Leadtrap -->
 		<priority>500</priority>
 	</event_box>
+<!-- CHAMPION PACK 1 -->
+<event_box>
+	<id>2718</id>
+	<name>Asim Champion Pack</name>
+	<desc>Each pull grants 10-15 ^cE7FFAsim Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFAsim, the Lorekeeper^cFFFF Champion card!</desc>
+	<asset_prefab>event_88_lorekeepergod_championpack</asset_prefab>
+	<background_prefab>event_88_lorekeepergod_banner</background_prefab>
+	<bundle>243</bundle>
+	<hc_cost>60</hc_cost>
+	<start_index>0</start_index>
+	<chance_pack>1</chance_pack>
+	<priority>200</priority>
+	<card id='5097' order='1' /> <!-- Legendary Sierra -->
+	<card id='6240' order='2' /> <!-- Legendary Gloomscale Wyrm -->
+	<card id='7270' order='3' /> <!-- Legendary Elarian Hydra -->
+	<card id='5010' order='4' /> <!-- Epic -->
+	<card id='6061' order='5' /> <!-- Epic -->
+	<card id='6131' order='6' /> <!-- Epic -->
+	<card id='7061' order='7' /> <!-- Epic -->
+	<card id='6010' order='8' /> <!-- Epic -->
+	<card id='7010' order='9' /> <!-- Epic -->
+
+	<champion_bonus_item id='105630' />
+
+	<box_discount>
+		<name>x10 Pulls!</name>
+		<box_discount_id>1</box_discount_id>
+		<unlimited>1</unlimited>
+		<desc>Select this option to do 10 pulls at a single time!</desc>
+		<hc_cost>600</hc_cost>
+		<cards>
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+		</cards>
+	</box_discount>
+</event_box>
+<!-- CHAMPION PACK 3 -->
+<event_box>
+	<id>2719</id>
+	<name>Darkon Champion Pack</name> <!-- UPDATE DESC -->
+	<desc>Each pull grants 10-15 ^cE7FFDarkon Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFDarkon, the Deep Horror^cFFFF Champion card!</desc>
+	<asset_prefab>event_88_deepdragon_championpack</asset_prefab>
+	<background_prefab>event_88_deepdragon_banner</background_prefab>
+	<bundle>243</bundle>
+	<hc_cost>60</hc_cost>
+	<start_index>0</start_index>
+	<chance_pack>1</chance_pack>
+	<priority>200</priority>
+	<card id='5187' order='1' /> <!-- Legendary Star Shooter -->
+	<card id='7217' order='2' /> <!-- Legendary Amrita -->
+	<card id='5290' order='3' /> <!-- Legendary Ex Machina -->
+	<card id='5010' order='4' /> <!-- Epic -->
+	<card id='6097' order='5' /> <!-- Epic -->
+	<card id='5025' order='6' /> <!-- Epic -->
+	<card id='6063' order='7' /> <!-- Epic -->
+	<card id='5093' order='8' /> <!-- Epic -->
+	<card id='7062' order='9' /> <!-- Epic -->
+
+	<champion_bonus_item id='106619' />
+
+	<box_discount>
+		<name>x10 Pulls!</name>
+		<box_discount_id>1</box_discount_id>
+		<unlimited>1</unlimited>
+		<desc>Select this option to do 10 pulls at a single time!</desc>
+		<hc_cost>600</hc_cost>
+		<cards>
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+		</cards>
+	</box_discount>
+</event_box>
+<!-- CHANCE PACK 4 -->
+<event_box>
+	<id>2720</id>
+	<name>Shields Up! Chance Pack</name> <!-- UPDATE DESC -->
+	<desc>Pull from an assortment of amazing Shrouded Dragons!  Barrage?  What Barrage?  These dragons featuring the Shroud skill barely notice!!</desc>
+	<asset_prefab>event_044_chance_flyingmountaindragon</asset_prefab>
+	<background_prefab>event_044_banner_flyingmountaindragon</background_prefab>
+	<bundle>144</bundle>
+	<hc_cost>60</hc_cost>
+	<start_index>0</start_index>
+	<chance_pack>1</chance_pack>
+	<card id='7216' order='1' /> <!-- Legendary Shalefang -->
+	<card id='6239' order='2' /> <!-- Legendary Draffin -->
+	<card id='7283' order='3' /> <!-- Legendary Wybat -->
+	<card id='5242' order='4' /> <!-- Legendary Gigantidactyl -->
+	<card id='6010' order='5' /> <!-- Epic -->
+	<card id='6096' order='6' /> <!-- Epic -->
+	<card id='7129' order='7' /> <!-- Epic -->
+	<card id='5024' order='8' /> <!-- Epic -->
+	<card id='5130' order='9' /> <!-- Epic -->
+	<card id='7024' order='10' /> <!-- Epic -->
+	<box_discount>
+		<box_discount_id>1</box_discount_id>
+		<name>Scout's Deal</name>
+		<desc>Four cards at once for a low price! Limit one per chance pack.</desc>
+		<hc_cost>120</hc_cost>
+		<cards>
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3'/>
+		</cards>
+	</box_discount>
+	<box_discount>
+		<box_discount_id>2</box_discount_id>
+		<name>Adventurer's Deal</name>
+		<desc>Ten cards at once with two guaranteed Legendary cards! Limit one per chance pack.</desc>
+		<hc_cost>400</hc_cost>
+		<cards>
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='4' />
+			<card min_rarity='4' />
+		</cards>
+	</box_discount>
+</event_box>
+<!-- CHAMPION PACK 5 -->
+<event_box>
+	<id>2721</id>
+	<name>Howaito Champion Pack</name> <!-- UPDATE DESC -->
+	<desc>Each pull grants 10-15 ^cE7FFDual Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFHowaito and Kuroilong^cFFFF Champion card!</desc>
+	<asset_prefab>event_100_yingyang_championpack</asset_prefab>
+	<background_prefab>event_100_yingyang_banner</background_prefab>
+	<bundle>267</bundle>
+	<hc_cost>60</hc_cost>
+	<start_index>0</start_index>
+	<chance_pack>1</chance_pack>
+	<priority>200</priority>
+	<card id='6095' order='1' /> <!-- Legendary Gearchrome -->
+	<card id='5299' order='2' /> <!-- Legendary Rainbow Five -->
+	<card id='7243' order='3' /> <!-- Legendary Moonscale Howler -->
+	<card id='6097' order='4' /> <!-- Epic -->
+	<card id='5096' order='5' /> <!-- Epic -->
+	<card id='6061' order='6' /> <!-- Epic -->
+	<card id='6129' order='7' /> <!-- Epic -->
+	<card id='7093' order='8' /> <!-- Epic -->
+	<card id='5062' order='9' /> <!-- Epic -->
+
+	<champion_bonus_item id='105641' />
+
+	<box_discount>
+		<name>x10 Pulls!</name>
+		<box_discount_id>1</box_discount_id>
+		<unlimited>1</unlimited>
+		<desc>Select this option to do 10 pulls at a single time!</desc>
+		<hc_cost>600</hc_cost>
+		<cards>
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+		</cards>
+	</box_discount>
+</event_box>
+<!-- CHAMPION PACK 6 -->
+<event_box>
+	<id>2722</id>
+	<name>Tylong Champion Pack</name> <!-- UPDATE DESC -->
+	<desc>Each pull grants 10-15 ^cE7FFTylong Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFTylong, Old Warrior^cFFFF Champion card!</desc>
+	<asset_prefab>event_069_tigerlung</asset_prefab>
+	<background_prefab>event_069_banner_tigerlung</background_prefab>
+	<bundle>203</bundle>
+	<hc_cost>60</hc_cost>
+	<start_index>0</start_index>
+	<chance_pack>1</chance_pack>
+	<priority>200</priority>
+	<card id='7187' order='1' /> <!-- Legendary Darkwood Hydra -->
+	<card id='5026' order='2' /> <!-- Legendary Frostfire Wyrm -->
+	<card id='7215' order='3' /> <!-- Legendary Forgewing -->
+	<card id='5062' order='4' /> <!-- Epic -->
+	<card id='7128' order='5' /> <!-- Epic -->
+	<card id='7062' order='6' /> <!-- Epic -->
+	<card id='5127' order='7' /> <!-- Epic -->
+	<card id='6010' order='8' /> <!-- Epic -->
+	<card id='6129' order='9' /> <!-- Epic -->
+
+	<champion_bonus_item id='107614' />
+
+	<box_discount>
+		<name>x10 Pulls!</name>
+		<box_discount_id>1</box_discount_id>
+		<unlimited>1</unlimited>
+		<desc>Select this option to do 10 pulls at a single time!</desc>
+		<hc_cost>600</hc_cost>
+		<cards>
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+		</cards>
+	</box_discount>
+</event_box>
+<!-- CHAMPION PACK 7 -->
+<event_box>
+	<id>2723</id>
+	<name>Nayaara Champion Pack</name> <!-- UPDATE DESC -->
+	<desc>Each pull grants 10-15 ^cE7FFNayaara Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFNayaara, the Airlight^cFFFF Champion card!</desc>
+	<asset_prefab>event_076_bravelongma</asset_prefab>
+	<background_prefab>event_076_banner_bravelongma</background_prefab>
+	<bundle>219</bundle>
+	<hc_cost>60</hc_cost>
+	<start_index>0</start_index>
+	<chance_pack>1</chance_pack>
+	<priority>200</priority>
+	<card id='6128' order='1' /> <!-- Legendary Grimhunt Brood -->
+	<card id='5008' order='2' /> <!-- Legendary Hailstone -->
+	<card id='6023' order='3' /> <!-- Legendary Broodmother -->
+	<card id='7095' order='4' /> <!-- Epic -->
+	<card id='5025' order='5' /> <!-- Epic -->
+	<card id='5127' order='6' /> <!-- Epic -->
+	<card id='6096' order='7' /> <!-- Epic -->
+	<card id='7093' order='8' /> <!-- Epic -->
+	<card id='5096' order='9' /> <!-- Epic -->
+
+	<champion_bonus_item id='105621' />
+
+	<box_discount>
+		<name>x10 Pulls!</name>
+		<box_discount_id>1</box_discount_id>
+		<unlimited>1</unlimited>
+		<desc>Select this option to do 10 pulls at a single time!</desc>
+		<hc_cost>600</hc_cost>
+		<cards>
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+			<card min_rarity='3' />
+		</cards>
+	</box_discount>
+</event_box>
+
 
 </root>

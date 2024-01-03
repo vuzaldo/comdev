@@ -546,16 +546,16 @@
 		<desc>A choice of either a random premium Quad Legendary card, a random Tribe Health rune, or 500 Stones for a random Champion.</desc>
 		<duration>43200</duration> <!-- Lasts 30 days -->
 		<choice id="1">
-			<pack>3108</pack> <!-- Random Premium Quad Legendary -->
+			<item id="533" quantity="1"/> <!-- Random Premium Quad Legendary -->
 		</choice>
 		<choice id="2">
-			<pack>80</pack> <!-- Random Tribe Health Rune -->
+			<item id="534" quantity="1"/> <!-- Random Tribe Health Rune -->
 		</choice>
 		<choice id="3">
-			<pack>98</pack> <!-- 500 Stones for Random Reward Champion -->
+			<item id="535" quantity="1"/> <!-- 500 Stones for Random Reward Champion -->
 		</choice>
 		<choice id="4">
-			<pack>99</pack> <!-- 500 Stones for Random Premium Champion -->
+			<item id="536" quantity="1"/> <!-- 500 Stones for Random Premium Champion -->
 		</choice>
 	</item>
 	<item>
@@ -576,6 +576,43 @@
 			<pack>99</pack> <!-- 500 Stones for Random Premium Champion -->
 		</choice>
 	</item>
+
+	<item>
+		<id>533</id>
+		<name>Random Premium Quad Legendary</name>
+		<icon>icon_card_legendary</icon>
+		<desc>Contains a random Quad Legendary card from Premium Set!</desc>
+		<give_pack>3108</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>534</id>
+		<name>Random Tribe Health Rune</name>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Contains a random Tribe Rune of Health.</desc>
+		<give_pack>80</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>535</id>
+		<name>Random Reward Champion Stones</name>
+		<icon>championStone_epic</icon>
+		<bundle>58</bundle>
+		<desc>Contains 500 Stones for a random Champion from the Reward Champion set.</desc>
+		<give_pack>98</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>536</id>
+		<name>Random Premium Champion Stones</name>
+		<icon>championStone_epic</icon>
+		<bundle>58</bundle>
+		<desc>Contains 500 Stones for a random Champion from the Premium Champion set.</desc>
+		<give_pack>99</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+
 
 	<!-- 1001-2000 CONSUMABLES START -->
 	<!-- Energy Refills -->
@@ -7158,14 +7195,14 @@
 		<type>2</type>
 		<icon>inscription_dust</icon>
 		<bundle>17</bundle>
-		<desc>Combine 25 Powder to create a random Epic card from the Reward set. Also used for Runecrafting.</desc>
+		<desc>Combine 25 Powder to create a random card from the Reward set. Also used for Runecrafting.</desc>
 		<consume>25</consume>
 		<give_pack>4</give_pack>
 	</item>
 
 	<item>
 		<id>4002</id>
-		<name>Universal Solvent</name>
+		<name>Universal Extract</name>
 		<type>2</type>
 		<icon>arcane_vapor</icon>
 		<bundle>17</bundle>

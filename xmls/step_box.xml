@@ -8919,4 +8919,250 @@
 			<sp>350</sp>
 		</tier>
 	</step_box>
+	<step_box>
+		<id>7072</id>
+		<name>Mirrorwing Step Box</name>
+		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFMirrorwing Avenger^cFFFF card!</desc>
+		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
+		<asset_prefab>event_062_mirrorwing</asset_prefab>
+		<background_prefab>event_062_banner_mirrorwing</background_prefab>
+		<bundle>186</bundle>
+		<asset_prefab_box name='genericBox' bundle='35' />
+		<bg_picture name='Dragon_Mirror_Wing_B' bundle='187' />
+		<step_box>1</step_box>
+		<priority>800</priority>
+		<box>
+			<start_index>0</start_index>
+			<card id='5268' order='1' chase='1' /> <!-- Chase indicated it should be shown on box cover Mirrorwing -->
+			<card id='6289' order='2' /> <!-- Legendary Scalixer -->
+			<card id='7282' order='3' /> <!-- Legendary Monster Keeper -->
+			<card id='7214' order='4' /> <!-- Legendary Furystorm Reckoner -->
+			<card id='6131' order='5' /> <!-- Epic -->
+			<card id='5024' order='6' /> <!-- Epic -->
+			<card id='7129' order='7' /> <!-- Epic -->
+			<card id='7095' order='8' /> <!-- Epic -->
+			<card id='7010' order='9' /> <!-- Epic -->
+			<card id='6063' order='10' /> <!-- Epic -->
+		</box>
+
+		<tier>
+			<id>1</id>
+			<hc_cost>20</hc_cost>
+			<cards>
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>20</sp>
+		</tier>
+		<tier>
+			<id>2</id>
+			<hc_cost>50</hc_cost>
+			<cards>
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>40</sp>
+		</tier>
+		<tier>
+			<id>3</id>
+			<hc_cost>95</hc_cost>
+			<desc>Two Epic+ at Step 3!</desc>
+			<cards>
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>80</sp>
+		</tier>
+		<tier>
+			<id>4</id>
+			<hc_cost>170</hc_cost>
+			<desc>Guaranteed Legendary at Step 4!</desc>
+			<cards>
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>120</sp>
+		</tier>
+		<tier>
+			<id>5</id>
+			<hc_cost>240</hc_cost>
+			<desc>Mirrorwing Avenger at Step 5!</desc>
+			<cards>
+				<card min_rarity='4' max_rarity='4' id='5268' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>160</sp>
+		</tier>
+		<tier>
+			<id>6</id>
+			<hc_cost>350</hc_cost>
+			<cards>
+				<card min_rarity='4' max_rarity='4' id='5268' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>200</sp>
+		</tier>
+		<tier>
+			<id>7</id>
+			<hc_cost>450</hc_cost>
+			<cards>
+				<card min_rarity='4' max_rarity='4' id='5268' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>260</sp>
+		</tier>
+		<tier>
+			<id>8</id>
+			<hc_cost>750</hc_cost>
+			<desc>Five Legendaries at Step 8!</desc>
+			<cards>
+				<card min_rarity='4' max_rarity='4' id='5268' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>350</sp>
+		</tier>
+	</step_box>
+	<step_box>
+		<id>7073</id>
+		<name>Thunderfist Step Box</name>
+		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFThunderfist Rex^cFFFF card!</desc>
+		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
+		<asset_prefab>event_012_chance_chest_w3</asset_prefab>
+		<background_prefab>event_012_banner_chance_w3</background_prefab>
+		<bundle>62</bundle>
+		<asset_prefab_box name='genericBox' bundle='35' />
+		<bg_picture name='Legendary_Lightning_Fist_Dragon_B' bundle='63' />
+		<step_box>1</step_box>
+		<priority>800</priority>
+		<box>
+			<start_index>0</start_index>
+			<card id='5061' order='1' chase='1' /> <!-- Chase indicated it should be shown on box cover Thunderfist Rex -->
+			<card id='6009' order='2' /> <!-- Legendary card Ravaging Dragon -->
+			<card id='7032' order='3' /> <!-- Legendary card Nidhogg -->
+			<card id='6060' order='4' /> <!-- Legendary card Pudgytusk -->
+			<card id='7024' order='5' />
+			<card id='7061' order='6' />
+			<card id='6096' order='7' />
+			<card id='7128' order='8' />
+			<card id='5093' order='9' />
+			<card id='5130' order='10' />
+		</box>
+
+		<tier>
+			<id>1</id>
+			<hc_cost>20</hc_cost>
+			<cards>
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>20</sp>
+		</tier>
+		<tier>
+			<id>2</id>
+			<hc_cost>50</hc_cost>
+			<cards>
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>40</sp>
+		</tier>
+		<tier>
+			<id>3</id>
+			<hc_cost>95</hc_cost>
+			<desc>Two Epic+ at Step 3!</desc>
+			<cards>
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>80</sp>
+		</tier>
+		<tier>
+			<id>4</id>
+			<hc_cost>170</hc_cost>
+			<desc>Guaranteed Legendary at Step 4!</desc>
+			<cards>
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>120</sp>
+		</tier>
+		<tier>
+			<id>5</id>
+			<hc_cost>240</hc_cost>
+			<desc>Thunderfist Rex at Step 5!</desc>
+			<cards>
+				<card min_rarity='4' max_rarity='4' id='5061' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>160</sp>
+		</tier>
+		<tier>
+			<id>6</id>
+			<hc_cost>350</hc_cost>
+			<cards>
+				<card min_rarity='4' max_rarity='4' id='5061' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>200</sp>
+		</tier>
+		<tier>
+			<id>7</id>
+			<hc_cost>450</hc_cost>
+			<cards>
+				<card min_rarity='4' max_rarity='4' id='5061' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>260</sp>
+		</tier>
+		<tier>
+			<id>8</id>
+			<hc_cost>750</hc_cost>
+			<desc>Five Legendaries at Step 8!</desc>
+			<cards>
+				<card min_rarity='4' max_rarity='4' id='5061' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='4' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity='3' max_rarity='4' />
+			</cards>
+			<sp>350</sp>
+		</tier>
+	</step_box>
+
+
 </root>
