@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<warning>
+		<id>1</id>
+		<text>That achievement is not ready to be completed.</text>
+	</warning>
+	<warning>
+		<id>2</id>
+		<text>Please wait a moment.</text>
+	</warning>
+	<warning>
+		<id>3</id>
+		<text>That chat room does not exist.</text>
+	</warning>
+	<warning>
+		<id>4</id>
+		<text>Failed to load battle.</text>
+	</warning>
+	<warning>
+		<id>5</id>
+		<text>It is not your turn in this battle.</text>
+	</warning>
+	<warning>
+		<id>6</id>
+		<text>You cannot edit this deck.</text>
+	</warning>
+	<warning>
+		<id>7</id>
+		<text>You cannot make an empty deck your active deck.</text>
+	</warning>
+	<warning>
+		<id>8</id>
+		<text>You cannot make an empty deck your defense deck.</text>
+	</warning>
+	<warning>
+		<id>9</id>
+		<text>Please try that again in a moment.</text>
+	</warning>
+	<warning>
+		<id>10</id>
+		<text>Could not read cards.</text>
+	</warning>
+	<warning>
+		<id>11</id>
+		<text>That is not a valid deck.</text>
+	</warning>
+	<warning>
+		<id>12</id>
+		<text>You do not have that Hero.</text>
+	</warning>
+	<warning>
+		<id>13</id>
+		<text>That is not a valid Commander.</text>
+	</warning>
+	<warning>
+		<id>14</id>
+		<text>You do not have that card.</text>
+	</warning>
+	<warning>
+		<id>15</id>
+		<text>You cannot edit this squad.</text>
+	</warning>
+	<warning>
+		<id>16</id>
+		<text>You do not have that Commander.</text>
+	</warning>
+	<warning>
+		<id>17</id>
+		<text>This box is not available.</text>
+	</warning>
+	<warning>
+		<id>18</id>
+		<text>You cannot claim any rewards for this event.</text>
+	</warning>
+	<warning>
+		<id>19</id>
+		<text>You cannot currently claim rewards for this event.</text>
+	</warning>
+	<warning>
+		<id>20</id>
+		<text>You have already claimed rewards for this event.</text>
+	</warning>
+	<warning>
+		<id>21</id>
+		<text>You did not qualify for any rewards this event.</text>
+	</warning>
+	<!--
+	<warning>
+		<id>22</id>
+		<text>The Armory is already working on a project.</text>
+	</warning>
+	 -->
+	<warning>
+		<id>23</id>
+		<text>That is an invalid project.</text>
+	</warning>
+	<warning>
+		<id>24</id>
+		<text>You must use different units for the fusion.</text>
+	</warning>
+	<warning>
+		<id>25</id>
+		<text>You do not have enough {0} for this project.</text>
+	</warning>
+	<warning>
+		<id>26</id>
+		<text>Those are not valid units for this project.</text>
+	</warning>
+	<warning>
+		<id>27</id>
+		<text>That is not the correct unit for this project.</text>
+	</warning>
+	<warning>
+		<id>28</id>
+		<text>{0} must be at Level {1} for this project.</text>
+	</warning>
+	<warning>
+		<id>29</id>
+		<text>Wait a moment to try again.</text>
+	</warning>
+	<warning>
+		<id>30</id>
+		<text>You are already in a guild.</text>
+	</warning>
+	<warning>
+		<id>31</id>
+		<text>You must be at least Level {0} to create a guild.</text>
+	</warning>
+	<warning>
+		<id>32</id>
+		<text>That guild name is already in use.</text>
+	</warning>
+	<warning>
+		<id>33</id>
+		<text>That is not a valid guild name.</text>
+	</warning>
+	<warning>
+		<id>34</id>
+		<text>Creating a guild will cost {0} Gold.</text>
+	</warning>
+	<warning>
+		<id>35</id>
+		<text>You cannot promote that player.</text>
+	</warning>
+	<warning>
+		<id>36</id>
+		<text>You cannot demote that player.</text>
+	</warning>
+	<warning>
+		<id>37</id>
+		<text>You are not in a guild.</text>
+	</warning>
+	<warning>
+		<id>38</id>
+		<text>You cannot promote or demote unless you are the leader.</text>
+	</warning>
+	<warning>
+		<id>39</id>
+		<text>That is not a valid player.</text>
+	</warning>
+	<warning>
+		<id>40</id>
+		<text>You cannot promote or demote yourself.</text>
+	</warning>
+	<warning>
+		<id>41</id>
+		<text>You are not in the same guild as that player.</text>
+	</warning>
+	<warning>
+		<id>42</id>
+		<text>You cannot set the guild message if not in a guild.</text>
+	</warning>
+	<warning>
+		<id>43</id>
+		<text>Only guild leaders can set the guild message.</text>
+	</warning>
+	<warning>
+		<id>44</id>
+		<text>That guild message is too long.</text>
+	</warning>
+	<warning>
+		<id>45</id>
+		<text>You must be a guild leader.</text>
+	</warning>
+	<warning>
+		<id>46</id>
+		<text>That status is not valid.</text>
+	</warning>
+	<warning>
+		<id>47</id>
+		<text>That rating is not valid.</text>
+	</warning>
+	<warning>
+		<id>48</id>
+		<text>You must be in a guild to invite someone.</text>
+	</warning>
+	<warning>
+		<id>49</id>
+		<text>That user is already in a guild.</text>
+	</warning>
+	<warning>
+		<id>50</id>
+		<text>That user is already invited to this guild.</text>
+	</warning>
+	<warning>
+		<id>51</id>
+		<text>Only leaders can send guild invites.</text>
+	</warning>
+	<warning>
+		<id>52</id>
+		<text>You must be in a guild.</text>
+	</warning>
+	<warning>
+		<id>53</id>
+		<text>Only leaders can revoke guild invites.</text>
+	</warning>
+	<warning>
+		<id>54</id>
+		<text>You cannot revoke an invite to someone who is not invited.</text>
+	</warning>
+	<warning>
+		<id>55</id>
+		<text>You cannot reject an invitation to that guild.</text>
+	</warning>
+	<warning>
+		<id>56</id>
+		<text>You cannot accept an invitation to that guild.</text>
+	</warning>
+	<warning>
+		<id>57</id>
+		<text>You cannot accept an invite while in a guild.</text>
+	</warning>
+	<warning>
+		<id>58</id>
+		<text>This guild would have too many members if you accepted.</text>
+	</warning>
+	<warning>
+		<id>59</id>
+		<text>That is not a valid guild.</text>
+	</warning>
+	<warning>
+		<id>60</id>
+		<text>That guild is not open for recruitment.</text>
+	</warning>
+	<warning>
+		<id>61</id>
+		<text>You are under the guild's minimum rating requirement.</text>
+	</warning>
+	<warning>
+		<id>62</id>
+		<text>This guild is already at max members.</text>
+	</warning>
+	<warning>
+		<id>63</id>
+		<text>You cannot leave a guild if you are not in one.</text>
+	</warning>
+	<warning>
+		<id>64</id>
+		<text>You cannot leave during a guild event.</text>
+	</warning>
+	<warning>
+		<id>65</id>
+		<text>You must promote another leader before leaving this guild.</text>
+	</warning>
+	<warning>
+		<id>66</id>
+		<text>You cannot kick this person from a guild if they are not in one.</text>
+	</warning>
+	<warning>
+		<id>67</id>
+		<text>You cannot kick this person during a guild event.</text>
+	</warning>
+	<warning>
+		<id>68</id>
+		<text>You cannot kick yourself from a guild.</text>
+	</warning>
+	<warning>
+		<id>69</id>
+		<text>You cannot kick from a guild if you are not in one.</text>
+	</warning>
+	<warning>
+		<id>70</id>
+		<text>You cannot kick members unless you are the leader.</text>
+	</warning>
+	<warning>
+		<id>71</id>
+		<text>You cannot kick members of other guild.</text>
+	</warning>
+	<warning>
+		<id>72</id>
+		<text>You cannot vote for a guild leader while not in a guild.</text>
+	</warning>
+	<warning>
+		<id>73</id>
+		<text>You cannot vote for the leader of another guild.</text>
+	</warning>
+	<warning>
+		<id>74</id>
+		<text>You cannot promote to a leader if not in a guild.</text>
+	</warning>
+	<warning>
+		<id>75</id>
+		<text>You cannot promote to a leader unless you are the leader.</text>
+	</warning>
+	<warning>
+		<id>76</id>
+		<text>You cannot promote the leader of another guild.</text>
+	</warning>
+	<warning>
+		<id>77</id>
+		<text>You cannot claim leadership if not in a guild.</text>
+	</warning>
+	<warning>
+		<id>78</id>
+		<text>You cannot claim leadership if you are the leader.</text>
+	</warning>
+	<warning>
+		<id>79</id>
+		<text>You do not have enough votes to become leader.</text>
+	</warning>
+	<warning>
+		<id>80</id>
+		<text>That Hero does not exist.</text>
+	</warning>
+	<warning>
+		<id>81</id>
+		<text>You must be Bounty Hunter Rank {0} to unlock that Hero.</text>
+	</warning>
+	<warning>
+		<id>82</id>
+		<text>That Hero costs {0} Gold.</text>
+	</warning>
+	<warning>
+		<id>83</id>
+		<text>Please try again in a moment.</text>
+	</warning>
+	<warning>
+		<id>84</id>
+		<text>That is an invalid item.</text>
+	</warning>
+	<warning>
+		<id>85</id>
+		<text>You do not have that item.</text>
+	</warning>
+	<warning>
+		<id>86</id>
+		<text>Your energy is already full.</text>
+	</warning>
+	<warning>
+		<id>87</id>
+		<text>The store items have been updated.</text>
+	</warning>
+	<warning>
+		<id>88</id>
+		<text>That store item is invalid.</text>
+	</warning>
+	<warning>
+		<id>89</id>
+		<text>The store item pricing has been updated.</text>
+	</warning>
+	<warning>
+		<id>90</id>
+		<text>You cannot afford this item.</text>
+	</warning>
+	<warning>
+		<id>91</id>
+		<text>You need an additional {0} {1} to buy this item.</text>
+	</warning>
+	<warning>
+		<id>92</id>
+		<text>You cannot hold any more cards! Vaporize some to make more room in your Inventory.</text>
+	</warning>
+	<warning>
+		<id>93</id>
+		<text>That user does not exist.</text>
+	</warning>
+	<warning>
+		<id>94</id>
+		<text>You cannot get that amount.</text>
+	</warning>
+	<warning>
+		<id>95</id>
+		<text>You do not have enough {0}</text>
+	</warning>
+	<warning>
+		<id>96</id>
+		<text>This mission does not exist.</text>
+	</warning>
+	<warning>
+		<id>97</id>
+		<text>This mission is inactive.</text>
+	</warning>
+	<warning>
+		<id>98</id>
+		<text>You have not completed the requirements for this mission.</text>
+	</warning>
+	<warning>
+		<id>99</id>
+		<text>You do not have enough energy to do that mission.</text>
+	</warning>
+	<warning>
+		<id>100</id>
+		<text>Cannot verify purchases for that platform.</text>
+	</warning>
+	<warning>
+		<id>101</id>
+		<text>Please wait, we are already confirming a purchase for you.</text>
+	</warning>
+	<warning>
+		<id>102</id>
+		<text>Failed to confirm purchase.</text>
+	</warning>
+	<warning>
+		<id>103</id>
+		<text>This purchase has already been confirmed.</text>
+	</warning>
+	<warning>
+		<id>104</id>
+		<text>Cannot confirm this purchase.</text>
+	</warning>
+	<!--
+	<warning>
+		<id>105</id>
+		<text>You must increase your league rank.</text>
+	</warning>
+	 -->
+	<warning>
+		<id>106</id>
+		<text>You are at the maximum of {0} scrap.</text>
+	</warning>
+	<warning>
+		<id>107</id>
+		<text>Vaporizing these cards would put you over the maximum amount of {0} Arcane Dust.</text>
+	</warning>
+	<warning>
+		<id>108</id>
+		<text>You are at the maximum of {0} Arcane Dust.</text>
+	</warning>
+	<warning>
+		<id>109</id>
+		<text>You cannot salvage a card you do not have.</text>
+	</warning>
+	<warning>
+		<id>110</id>
+		<text>You cannot salvage this unit.</text>
+	</warning>
+	<!--
+	<warning>
+		<id>111</id>
+		<text>You must remove that unit from its squad to salvage it.</text>
+	</warning>
+	-->
+	<warning>
+		<id>112</id>
+		<text>That {0} is already at the maximum level.</text>
+	</warning>
+	<warning>
+		<id>113</id>
+		<text>You are already upgrading a unit.</text>
+	</warning>
+	<warning>
+		<id>114</id>
+		<text>You do not have enough Dust for that.</text>
+	</warning>
+	<warning>
+		<id>115</id>
+		<text>You have already chosen your starter pack.</text>
+	</warning>
+	<warning>
+		<id>116</id>
+		<text>This is not a valid starter pack.</text>
+	</warning>
+	<warning>
+		<id>117</id>
+		<text>You cannot receive an upgrade that doesn't exist.</text>
+	</warning>
+	<warning>
+		<id>118</id>
+		<text>Buying additional Deck Slots is currently disabled.</text>
+	</warning>
+	<warning>
+		<id>119</id>
+		<text>You cannot receive an upgrade you already own.</text>
+	</warning>
+	<warning>
+		<id>120</id>
+		<text>You do not have the required upgrade to receive this upgrade.</text>
+	</warning>
+	<warning>
+		<id>121</id>
+		<text>No target player.</text>
+	</warning>
+	<warning>
+		<id>122</id>
+		<text>That name is already taken.</text>
+	</warning>
+	<warning>
+		<id>123</id>
+		<text>You cannot change your name at this time.</text>
+	</warning>
+	<warning>
+		<id>124</id>
+		<text>You cannot kick this person during a guild event until they have claimed their rewards.</text>
+	</warning>
+	<warning>
+		<id>125</id>
+		<text>You must have {0} {1} to use this item.</text>
+	</warning>
+	<warning>
+		<id>126</id>
+		<text>You have too many bounties to add more. Complete some bounties first!</text>
+	</warning>
+	<warning>
+		<id>127</id>
+		<text>You cannot use that item yet.</text>
+	</warning>
+	<warning>
+		<id>128</id>
+		<text>You must have a fully leveled {0} to use this item.</text>
+	</warning>
+	<warning>
+		<id>129</id>
+		<text>You must have {0} Gold.</text>
+	</warning>
+	<warning>
+		<id>130</id>
+		<text>You cannot have more than 3 Mythic cards in your deck.</text>
+	</warning>
+	<warning>
+		<id>131</id>
+		<text>Validation failed.</text>
+	</warning>
+	<warning>
+		<id>132</id>
+		<text>Request expired. Make sure your system's clock is up to date.</text>
+	</warning>
+	<tip>
+		<id>1</id>
+		<text>Tip: Use your Arcane Dust to upgrade your cards!</text>
+	</tip>
+	<tip>
+		<id>2</id>
+		<text>Tip: Spend your gold to buy Spellstones in the Store!</text>
+	</tip>
+	<tip>
+		<id>3</id>
+		<text>Tip: Earn more rewards by completing Bounties!</text>
+	</tip>
+	
+	<ranking>
+		<id>1</id>
+		<text>Top Bounty Hunters</text>
+	</ranking>
+	<ranking>
+		<id>2</id>
+		<text>Bounty Rank</text>
+	</ranking>
+	<ranking>
+		<id>3</id>
+		<text>Rankings update every {0}m</text>
+	</ranking>
+	<ranking>
+		<id>4</id>
+		<text>Bounty Hunter Rankings</text>
+	</ranking>
+	<ranking>
+		<id>5</id>
+		<text>Rank</text>
+	</ranking>
+	<ranking>
+		<id>6</id>
+		<text>W</text>
+	</ranking>
+	<ranking>
+		<id>7</id>
+		<text>L</text>
+	</ranking>
+	<ranking>
+		<id>8</id>
+		<text>Top Arena Players</text>
+	</ranking>
+	<ranking>
+		<id>9</id>
+		<text>Player Name</text>
+	</ranking>
+	<ranking>
+		<id>10</id>
+		<text>Most Stars Earned in Arena</text>
+	</ranking>
+	<ranking>
+		<id>11</id>
+		<text>Total Stars</text>
+	</ranking>
+	<ranking>
+		<id>12</id>
+		<text>Top Ranked in Arena</text>
+	</ranking>
+	<ranking>
+		<id>13</id>
+		<text>Rating</text>
+	</ranking>
+</root>

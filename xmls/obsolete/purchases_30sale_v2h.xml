@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!-- mb_provide_type of 1 is iOS -->
+	<identifier>
+		<id>1</id>
+		<name>Small Pack of Shards +30%!</name>
+		<mb_provider_type>1</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.t05_hard</product_id>
+		<short_name>t05_hard</short_name>
+		<tokens>65</tokens>
+		<desc>65 Shards</desc>
+		<expected_gross>4.99</expected_gross>
+		<expected_net>3.5</expected_net>
+		<discount>30% More!</discount>
+		<icon>shard_package_1</icon>
+		<!-- <web_picture>graphic_newbuyerpackage2.png</web_picture> -->
+		<priority>10</priority>
+	</identifier>
+	<identifier>
+		<id>2</id>
+		<name>Pack of Shards +30%!</name>
+		<mb_provider_type>1</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.t10_hard</product_id>
+		<short_name>t10_hard_hard</short_name>
+		<tokens>135</tokens>
+		<desc>135 Shards</desc>
+		<expected_gross>9.99</expected_gross>
+		<expected_net>7</expected_net>
+		<discount>35% More!</discount>
+		<icon>shard_package_2</icon>
+		<priority>6</priority>
+	</identifier>
+	<identifier>
+		<id>3</id>
+		<name>Case of Shards +30%!</name>
+		<mb_provider_type>1</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.t20_hard</product_id>
+		<short_name>t20_hard_hard</short_name>
+		<tokens>280</tokens>
+		<desc>280 Shards</desc>
+		<expected_gross>19.99</expected_gross>
+		<expected_net>14</expected_net>
+		<discount>40% More!</discount>
+		<icon>shard_package_3</icon>
+		<priority>9</priority>
+	</identifier>
+	<identifier>
+		<id>4</id>
+		<name>Box of Shards +30%!</name>
+		<mb_provider_type>1</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.t50_hard</product_id>
+		<short_name>t50_hard</short_name>
+		<tokens>750</tokens>
+		<desc>750 Shards</desc>
+		<expected_gross>49.99</expected_gross>
+		<expected_net>35</expected_net>
+		<icon>shard_package_4</icon>
+		<discount>50% More!</discount>
+		<priority>7</priority>
+	</identifier>
+	<identifier>
+		<id>5</id>
+		<name>Crate of Shards +30%!</name>
+		<mb_provider_type>1</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.t60_hard</product_id>
+		<short_name>t60_hard</short_name>
+		<tokens>1700</tokens>
+		<desc>1700 Shards</desc>
+		<expected_gross>99.99</expected_gross>
+		<expected_net>70</expected_net>
+		<icon>shard_package_5</icon>
+		<discount>70% More!</discount>
+		<priority>8</priority>
+	</identifier>
+
+	<!-- mb_provide_type of 2 is Android -->
+	<identifier>
+		<id>101</id>
+		<name>Small Pack of Shards +30%!</name>
+		<mb_provider_type>2</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.google.t05_hard</product_id>
+		<short_name>t05_hard</short_name>
+		<tokens>65</tokens>
+		<desc>65 Shards</desc>
+		<expected_gross>4.99</expected_gross>
+		<expected_net>3.5</expected_net>
+		<discount>30% More!</discount>
+		<icon>shard_package_1</icon>
+		<priority>10</priority>
+	</identifier>
+	<identifier>
+		<id>102</id>
+		<name>Pack of Shards +30%!</name>
+		<mb_provider_type>2</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.google.t10_hard</product_id>
+		<short_name>t10_hard_hard</short_name>
+		<tokens>135</tokens>
+		<desc>135 Shards</desc>
+		<expected_gross>9.99</expected_gross>
+		<expected_net>7</expected_net>
+		<discount>35% More!</discount>
+		<icon>shard_package_2</icon>
+		<priority>6</priority>
+	</identifier>
+	<identifier>
+		<id>103</id>
+		<name>Case of Shards +30%!</name>
+		<mb_provider_type>2</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.google.t20_hard</product_id>
+		<short_name>t20_hard_hard</short_name>
+		<tokens>280</tokens>
+		<desc>280 Shards</desc>
+		<expected_gross>19.99</expected_gross>
+		<expected_net>14</expected_net>
+		<discount>40% More!</discount>
+		<icon>shard_package_3</icon>
+		<priority>9</priority>
+	</identifier>
+	<identifier>
+		<id>104</id>
+		<name>Box of Shards +30%!</name>
+		<mb_provider_type>2</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.google.t50_hard</product_id>
+		<short_name>t50_hard</short_name>
+		<tokens>750</tokens>
+		<desc>750 Shards</desc>
+		<expected_gross>49.99</expected_gross>
+		<expected_net>35</expected_net>
+		<icon>shard_package_5</icon>
+		<discount>50% More!</discount>
+		<priority>7</priority>
+	</identifier>
+	<identifier>
+		<id>105</id>
+		<name>Crate of Shards+30%!</name>
+		<mb_provider_type>2</mb_provider_type>
+		<product_id>com.kongregate.mobile.spellstone.google.t60_hard</product_id>
+		<short_name>t60_hard</short_name>
+		<tokens>1700</tokens>
+		<desc>1700 Shards</desc>
+		<expected_gross>99.99</expected_gross>
+		<expected_net>70</expected_net>
+		<icon>shard_package_6</icon>
+		<discount>70% More!</discount>
+		<priority>8</priority>
+	</identifier>
+
+	<!-- mb_provide_type of 4 is Web -->
+	<identifier>
+		<id>301</id>
+		<name>Small Pack of Shards +30%!</name>
+		<mb_provider_type>4</mb_provider_type>
+		<product_id>kong_t05</product_id>
+		<currency_type>KRED</currency_type>
+		<short_name>t05_hard</short_name>
+		<tokens>65</tokens>
+		<expected_gross>4.99</expected_gross>
+		<expected_net>3.5</expected_net>
+		<display_price>50</display_price>
+		<bonus_amount>15</bonus_amount>
+		<discount>30% More!</discount>
+		<icon>shard_package_1</icon>
+		<priority>10</priority>
+	</identifier>
+	<identifier>
+		<id>302</id>
+		<name>Pack of Shards +30%!</name>
+		<mb_provider_type>4</mb_provider_type>
+		<product_id>kong_t10</product_id>
+		<currency_type>KRED</currency_type>
+		<short_name>t10_hard</short_name>
+		<tokens>135</tokens>
+		<expected_gross>9.99</expected_gross>
+		<expected_net>7</expected_net>
+		<display_price>110</display_price>
+		<bonus_amount>35</bonus_amount>
+		<discount>35% More!</discount>
+		<icon>shard_package_2</icon>
+		<priority>6</priority>
+	</identifier>
+	<identifier>
+		<id>303</id>
+		<name>Case of Shards +30%!</name>
+		<mb_provider_type>4</mb_provider_type>
+		<product_id>kong_t20</product_id>
+		<currency_type>KRED</currency_type>
+		<short_name>t20_hard</short_name>
+		<tokens>280</tokens>
+		<expected_gross>19.99</expected_gross>
+		<expected_net>14</expected_net>
+		<display_price>225</display_price>
+		<bonus_amount>80</bonus_amount>
+		<discount>40% More!</discount>
+		<icon>shard_package_3</icon>
+		<priority>9</priority>
+	</identifier>
+	<identifier>
+		<id>304</id>
+		<name>Box of Shards +30%!</name>
+		<mb_provider_type>4</mb_provider_type>
+		<product_id>kong_t50</product_id>
+		<currency_type>KRED</currency_type>
+		<short_name>t50_hard</short_name>
+		<tokens>750</tokens>
+		<expected_gross>49.99</expected_gross>
+		<expected_net>35</expected_net>
+		<display_price>565</display_price>
+		<bonus_amount>250</bonus_amount>
+		<discount>50% More!</discount>
+		<icon>shard_package_5</icon>
+		<priority>7</priority>
+	</identifier>
+	<identifier>
+		<id>305</id>
+		<name>Crate of Shards +30%!</name>
+		<mb_provider_type>4</mb_provider_type>
+		<product_id>kong_t60</product_id>
+		<currency_type>KRED</currency_type>
+		<short_name>t60_hard</short_name>
+		<tokens>1700</tokens>
+		<expected_gross>99.99</expected_gross>
+		<expected_net>70</expected_net>
+		<display_price>1150</display_price>
+		<bonus_amount>700</bonus_amount>
+		<discount>70% More!</discount>
+		<icon>shard_package_6</icon>
+		<priority>8</priority>
+	</identifier>
+
+	<!-- mb_provide_type of 5 is Steam -->
+	<identifier>
+		<id>401</id>
+		<name>Small Pack of Shards +30%!</name>
+		<mb_provider_type>5</mb_provider_type>
+		<product_id>1</product_id>
+		<short_name>t05_hard</short_name>
+		<tokens>65</tokens>
+		<expected_gross>4.99</expected_gross>
+		<expected_net>3.5</expected_net>
+		<display_price>50</display_price>
+		<display_price_string>$4.99</display_price_string>
+		<discount>30% More!</discount>
+		<icon>shard_package_1</icon>
+		<priority>10</priority>
+	</identifier>
+	<identifier>
+		<id>402</id>
+		<name>Pack of Shards +30%!</name>
+		<mb_provider_type>5</mb_provider_type>
+		<product_id>2</product_id>
+		<short_name>t10_hard</short_name>
+		<tokens>135</tokens>
+		<expected_gross>9.99</expected_gross>
+		<expected_net>7</expected_net>
+		<display_price>110</display_price>
+		<display_price_string>$9.99</display_price_string>
+		<discount>35% More!</discount>
+		<bonus_amount>5</bonus_amount>
+		<icon>shard_package_2</icon>
+		<priority>6</priority>
+	</identifier>
+	<identifier>
+		<id>403</id>
+		<name>Case of Shards +30%!</name>
+		<mb_provider_type>5</mb_provider_type>
+		<product_id>3</product_id>
+		<short_name>t20_hard</short_name>
+		<tokens>280</tokens>
+		<expected_gross>19.99</expected_gross>
+		<expected_net>14</expected_net>
+		<display_price>225</display_price>
+		<display_price_string>$19.99</display_price_string>
+		<bonus_amount>20</bonus_amount>
+		<discount>40% More!</discount>
+		<icon>shard_package_3</icon>
+		<priority>9</priority>
+	</identifier>
+	<identifier>
+		<id>404</id>
+		<name>Box of Shards +30%!</name>
+		<mb_provider_type>5</mb_provider_type>
+		<product_id>4</product_id>
+		<short_name>t50_hard</short_name>
+		<tokens>750</tokens>
+		<expected_gross>49.99</expected_gross>
+		<expected_net>35</expected_net>
+		<display_price>565</display_price>
+		<display_price_string>$49.99</display_price_string>
+		<bonus_amount>250</bonus_amount>
+		<discount>50% More!</discount>
+		<icon>shard_package_5</icon>
+		<priority>7</priority>
+	</identifier>
+	<identifier>
+		<id>405</id>
+		<name>Crate of Shards +30%!</name>
+		<mb_provider_type>5</mb_provider_type>
+		<product_id>5</product_id>
+		<short_name>t60_hard</short_name>
+		<tokens>1700</tokens>
+		<expected_gross>99.99</expected_gross>
+		<expected_net>70</expected_net>
+		<display_price>1150</display_price>
+		<display_price_string>$99.99</display_price_string>
+		<bonus_amount>700</bonus_amount>
+		<discount>70% More!</discount>
+		<icon>shard_package_6</icon>
+		<priority>8</priority>
+	</identifier>
+</root>

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+	<!-- <card_req id='2001' number='1' level='1' /> -->
+	<!-- <item_req id='2001' number='1' /> -->
+	<!-- <unlock_req item_id='#' /> -->
+	<!-- <item_req id='gold' number='#' /> -->
+
+	<mythic_info>
+		<id>1</id>
+		<name>Atlas, the Ancient</name>
+		<card id="2016" level="7" />
+		<asset name="wyldguardian" bundle="27" />
+		
+		<guide>
+			<step>
+				<id>1</id>
+				<desc>Complete all missions on The Void map.</desc>
+				<mission_req>244</mission_req>
+				<view type="map" id="4" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>2</id>
+				<desc>Collect Atlas' Spellstone by completing 'The Ground Quakes...' campaign.</desc>
+				<item_req id="2503" number="1" />
+				<view type="campaign" id="3000" />
+				<progress_weight>20</progress_weight>
+			</step>
+			<step>
+				<id>3</id>
+				<desc>Collect 9 Titan Cores from 'The Ground Quakes...', 'The Wind Stirs...', and 'The Heat Rises...' campaign.</desc>
+				<item_req id="2506" number="9" />
+				<view type="campaign" id="3000" />
+				<progress_weight>60</progress_weight>
+			</step>
+			<step>
+				<id>4</id>
+				<desc>Craft Atlas using the crafting table.</desc>
+				<!-- If any one of these cards are acquired, complete this step. -->
+				<card_req_set>
+				    <card_req id="2016" />
+				    <card_req id="2017" />
+				    <card_req id="2018" />
+				</card_req_set>
+				<view type="crafting" />
+				<progress_weight>10</progress_weight>
+				<!-- Load progress bar to this point until you pass it -->
+				<progress_checkpoint>1</progress_checkpoint> 
+			</step>
+			<!-- <step>
+				<id>5</id>
+				<condition>
+					If this card has not been obtained, show this. Otherwise skip this step.
+					<card_req id="2016" />
+				</condition>
+				<desc>Complete the campaign 'This is the Final Battle'.</desc>
+				<mission_req>5594</mission_req>
+				<view type="campaign" id="1127" />
+				<progress_weight>10</progress_weight>
+			</step> -->
+			<step>
+				<id>5</id>
+				<condition>
+					<!-- If this card has not been obtained, show this. Otherwise skip this step. -->
+					<card_req id="2016" />
+				</condition>
+				<desc>Collect 9 additional Titan Cores from the campaign 'Reality Distorts...' or 'The Soul Transcends...' in order to craft Atlas.</desc>
+				<card_req id="2016" />
+				<view type="campaign" id="3009" />
+				<progress_weight>30</progress_weight>
+			</step>
+			<step>
+				<id>6</id>
+				<desc>You have added the full strength of Atlas to your forces.</desc>
+				<progress_weight>0</progress_weight>
+			</step>
+		</guide>
+	</mythic_info>
+	
+	
+	<mythic_info>
+		<id>2</id>
+		<name>Solaron, the Origin</name>
+		<card id="2017" level="7" />
+		<asset name="aetherguardian" bundle="27"/>
+
+		<guide>
+			<step>
+				<id>1</id>
+				<desc>Complete all missions on The Void map.</desc>
+				<mission_req>244</mission_req>
+				<view type="map" id="4" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>2</id>
+				<desc>Collect Solaron's Spellstone by completing 'The Wind Stirs...' campaign.</desc>
+				<item_req id="2504" number="1" />
+				<view type="campaign" id="3001" />
+				<progress_weight>20</progress_weight>
+			</step>
+			<step>
+				<id>3</id>
+				<desc>Collect 9 Titan Cores from 'The Ground Quakes...', 'The Wind Stirs...', and 'The Heat Rises...' campaign.</desc>
+				<item_req id="2506" number="9" />
+				<view type="campaign" id="3001" />
+				<progress_weight>60</progress_weight>
+			</step>
+			<step>
+				<id>4</id>
+				<desc>Craft Solaron using the crafting table.</desc>
+				<!-- If any one of these cards are acquired, complete this step. -->
+				<card_req_set>
+				    <card_req id="2016" />
+				    <card_req id="2017" />
+				    <card_req id="2018" />
+				</card_req_set>
+				<view type="crafting" />
+				<progress_weight>10</progress_weight>
+				<!-- Load progress bar to this point until you pass it -->
+				<progress_checkpoint>1</progress_checkpoint> 
+			</step>
+			<!-- <step>
+				<id>5</id>
+				<condition>
+					If this card has not been obtained, show this. Otherwise skip this step.
+					<card_req id="2017" />
+				</condition>
+				<desc>Complete the campaign 'This is the Final Battle'.</desc>
+				<mission_req>5594</mission_req>
+				<view type="campaign" id="1127" />
+				<progress_weight>10</progress_weight>
+			</step> -->
+			<step>
+				<id>5</id>
+				<condition>
+					<!-- If this card has not been obtained, show this. Otherwise skip this step. -->
+					<card_req id="2017" />
+				</condition>
+				<desc>Collect 9 additional Titan Cores from the campaign 'Reality Distorts...' or 'The Soul Transcends...' in order to craft Solaron.</desc>
+				<card_req id="2017" />
+				<view type="campaign" id="3009" />
+				<progress_weight>30</progress_weight>
+			</step>
+			<!-- <step>
+				<id>6</id>
+				<condition>
+					If this card has not been obtained, show this. Otherwise skip this step.
+					<card_req id="2017" />
+				</condition>
+				<desc>Craft Solaron using the crafting table.</desc>
+				<card_req id="2017" />
+				<view type="crafting" />
+				<progress_weight>10</progress_weight>
+			</step> -->
+			<step>
+				<id>6</id>
+				<desc>You have added the full strength of Solaron to your forces.</desc>
+				<progress_weight>0</progress_weight>
+			</step>
+		</guide>
+	</mythic_info>
+	
+	
+	<mythic_info>
+		<id>3</id>
+		<name>Vulcanos, the Forge</name>
+		<card id="2018" level="7" />
+		<asset name="chaosguardian" bundle="27"/>
+		
+		<guide>
+			<step>
+				<id>1</id>
+				<desc>Complete all missions on The Void map.</desc>
+				<mission_req>244</mission_req>
+				<view type="map" id="4" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>2</id>
+				<desc>Collect Vulcanos' Spellstone by completing 'The Heat Rises...' campaign.</desc>
+				<item_req id="2505" number="1" />
+				<view type="campaign" id="3002" />
+				<progress_weight>20</progress_weight>
+			</step>
+			<step>
+				<id>3</id>
+				<desc>Collect 9 Titan Cores from 'The Ground Quakes...', 'The Wind Stirs...', and 'The Heat Rises...' campaign.</desc>
+				<item_req id="2506" number="9" />
+				<view type="campaign" id="3002" />
+				<progress_weight>60</progress_weight>
+				<!-- Load progress bar to this point until you pass it -->
+				<progress_checkpoint>1</progress_checkpoint> 
+			</step>
+			<step>
+				<id>4</id>
+				<desc>Craft Vulcanos using the crafting table.</desc>
+				<!-- If any one of these cards are acquired, complete this step. -->
+				<card_req_set>
+				    <card_req id="2016" />
+				    <card_req id="2017" />
+				    <card_req id="2018" />
+				</card_req_set>
+				<view type="crafting" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>5</id>
+				<condition>
+					<!-- If this card has not been obtained, show this. Otherwise skip this step. -->
+					<card_req id="2018" />
+				</condition>
+				<desc>Collect 9 additional Titan Cores from the campaign 'Reality Distorts...' or 'The Soul Transcends...' in order to craft Vulcanos.</desc>
+				<card_req id="2018" />
+				<view type="campaign" id="3009" />
+				<progress_weight>30</progress_weight>
+			</step>
+			<!-- <step>
+				<id>6</id>
+				<condition>
+					If this card has not been obtained, show this. Otherwise skip this step.
+					<card_req id="2018" />
+				</condition>
+				<desc>Craft Vulcanos using the crafting table.</desc>
+				<card_req id="2018" />
+				<view type="crafting" />
+				<progress_weight>10</progress_weight>
+			</step> -->
+			<step>
+				<id>6</id>
+				<desc>You have added the full strength of Vulcanos to your forces.</desc>
+				<progress_weight>0</progress_weight>
+			</step>
+		</guide>
+	</mythic_info>
+	
+	
+	<mythic_info>
+		<id>4</id>
+		<name>Narix, Dragonlord</name>
+		<card id="2039" level="7" />
+		<asset name="narix" bundle="55" />
+		
+		<guide>
+			<step>
+				<id>1</id>
+				<desc>Purchase the Mysterious Egg from the store.</desc>
+				<card_req id="2035" />
+				<view type="store" id="93" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>2</id>
+				<desc>Gather 10 Embersouls to fuse with the Mysterious Egg. You can collect Embersouls by completing missions on the Seastone Citadel map.</desc>
+				<card_req id="2035" />
+				<item_req id="2515" number="10" />
+				<view type="map" id="6" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>3</id>
+				<desc>Fuse the Mysterious Egg with 10 Embersouls.</desc>
+				<card_req id="2036" />
+				<view type="upgrade" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>4</id>
+				<desc>Gather 50 Embersouls to fuse with Narix, Dragon Whelp. You can collect Embersouls by completing missions on the Seastone Citadel map.</desc>
+				<card_req id="2036" />
+				<item_req id="2515" number="50" />
+				<view type="map" id="6" />
+				<progress_weight>15</progress_weight>
+			</step>
+			<step>
+				<id>5</id>
+				<desc>Fuse Narix, Dragon Whelp with 50 Embersouls.</desc>
+				<card_req id="2037" />
+				<view type="upgrade" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>6</id>
+				<desc>Gather 250 Embersouls to fuse with Narix, the Defiant. You can collect Embersouls by completing missions on the Seastone Citadel map.</desc>
+				<card_req id="2037" />
+				<item_req id="2515" number="250" />
+				<view type="map" id="6" />
+				<progress_weight>25</progress_weight>
+			</step>
+			<step>
+				<id>7</id>
+				<desc>Fuse Narix, the Defiant with 250 Embersouls.</desc>
+				<card_req id="2038" />
+				<view type="upgrade" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>8</id>
+				<desc>Gather 1000 Embersouls to fuse with Narix, the Tyrant. You can collect Embersouls by completing missions on the Seastone Citadel map.</desc>
+				<card_req id="2038" />
+				<item_req id="2515" number="1000" />
+				<view type="map" id="6" />
+				<progress_weight>30</progress_weight>
+			</step>
+			<step>
+				<id>9</id>
+				<desc>Fuse Narix, the Tyrant with 1000 Embersouls.</desc>
+				<card_req id="2039" />
+				<view type="upgrade" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>10</id>
+				<desc>You have added the full strength of Narix to your forces.</desc>
+			</step>
+			<progress_weight>0</progress_weight>
+		</guide>
+	</mythic_info>
+	
+	
+	<mythic_info>
+		<id>5</id>
+		<name>Scylla, Sea's Torment</name>
+		<card id="2074" level="7" />
+		<asset name="Portrait_Mythic_Seafolk" bundle="86"/>
+		
+		<guide>
+			<step>
+				<id>1</id>
+				<desc>Collect Scylla's Pearl Focus by completing 'The Tide Swells' campaign on Mastery 7.</desc>
+				<item_req id="2523" number="1" />
+				<view type="campaign" id="1111" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>2</id>
+				<desc>Gather 50 Brinesouls to craft with Scylla's Pearl Focus. You can collect Brinesouls by completing missions on the Duskwillow map.</desc>
+				<item_req id="2523" number="1" />
+				<item_req id="2522" number="50" />
+				<view type="map" id="7" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>3</id>
+				<desc>Craft Scylla's Pearl Focus with 50 Brinesouls.</desc>
+				<card_req id="2072" />
+				<view type="crafting" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>4</id>
+				<desc>Gather 250 Brinesouls to fuse with Scylla, Deep Queen. You can collect Brinesouls by completing missions on the Duskwillow map.</desc>
+				<card_req id="2072" />
+				<item_req id="2522" number="250" />
+				<view type="map" id="7" />
+				<progress_weight>50</progress_weight>
+			</step>
+			<step>
+				<id>5</id>
+				<desc>Fuse Scylla, Deep Queen with 250 Brinesouls.</desc>
+				<card_req id="2073" />
+				<view type="upgrade" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>6</id>
+				<desc>Gather 1000 Brinesouls to fuse with Scylla, Smuggler's End. You can collect Brinesouls by completing missions on the Duskwillow map.</desc>
+				<card_req id="2073" />
+				<item_req id="2522" number="1000" />
+				<view type="map" id="7" />
+				<progress_weight>100</progress_weight>
+			</step>
+			<step>
+				<id>7</id>
+				<desc>Fuse Scylla, Smuggler's End with 1000 Brinesouls. You can collect Brinesouls by completing missions on the Duskwillow map.</desc>
+				<card_req id="2074" />
+				<view type="upgrade" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>8</id>
+				<desc>You have added the full strength of Scylla to your forces.</desc>
+				<progress_weight>0</progress_weight>
+			</step>
+		</guide>
+	</mythic_info>
+	
+	<mythic_info>
+		<id>6</id>
+		<name>Verus, the Galeheart</name>
+		<card id="2094" level="7" />
+		<asset name="Portrait_Mythic_Avian" bundle="27"/>
+		
+		<guide>
+			<step>
+				<id>1</id>
+				<desc>Collect the Windsoul Focus by reaching Silver Division in the Arena.</desc>
+				<item_req id="2525" number="1" />
+				<view type="arena" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>2</id>
+				<desc>Gather 1000 Windsouls to craft with the Windsoul Focus. You can collect Windsouls by opening Arena Chests won in the Arena.</desc>
+				<item_req id="2525" number="1" />
+				<item_req id="2524" number="1000" />
+				<view type="arena" />               
+				<progress_weight>20</progress_weight>
+			</step>
+			<step>
+				<id>3</id>
+				<desc>Craft Verus, Arena Champion using the crafting table. You can collect Windsouls by opening Arena Chests won in the Arena.</desc>
+				<card_req id="2092" />
+				<view type="crafting" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>4</id>
+				<desc>Gather 2500 Windsouls to fuse with Verus, Arena Champion. You can collect Windsouls by opening Arena Chests won in the Arena.</desc>
+				<card_req id="2092" />
+				<item_req id="2524" number="2500" />
+				<view type="arena" />               
+				<progress_weight>50</progress_weight>
+			</step>
+			<step>
+				<id>5</id>
+				<desc>Fuse Verus, Arena Champion with 2500 Windsouls. You can collect Windsouls by opening Arena Chests won in the Arena.</desc>
+				<card_req id="2093" />
+				<view type="upgrade" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>6</id>
+				<desc>Gather 5000 Windsouls to fuse with Verus, the Wind Dancer. You can collect Windsouls by opening Arena Chests won in the Arena.</desc>
+				<card_req id="2093" />
+				<item_req id="2524" number="5000" />
+				<view type="arena" />               
+				<progress_weight>100</progress_weight>
+			</step>
+			<step>
+				<id>7</id>
+				<desc>Fuse Verus, the Wind Dancer with 5000 Windsouls. You can collect Windsouls by opening Arena Chests won in the Arena.</desc>
+				<card_req id="2094" />
+				<view type="upgrade" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>8</id>
+				<desc>You have added the full strength of Verus to your forces.</desc>
+				<progress_weight>0</progress_weight>
+			</step>
+		</guide>
+	</mythic_info>
+	 
+	<mythic_info>
+		<id>7</id>
+		<name>Mortagan, Grave General</name>
+		<card id="2158" level="7" />
+		<asset name="Portrait_mythic_undead" bundle="160"/>
+		<guide>
+			<step>
+				<id>1</id>
+				<desc>Complete the following campaigns: 'The Ground Quakes...', 'The Wind Stirs...', and 'The Heat Rises...' </desc>
+				<view type="campaign" id="3002" />
+				<progress_weight>25</progress_weight>
+				<progress_checkpoint>1</progress_checkpoint> 
+			</step>
+			<step>
+				<id>2</id>
+				<desc>Collect Mortagan's Recipe by completing 'A Miracle Awakens' campaign in Golden Crown Village.</desc>
+				<item_req id="8017" number="1" />
+				<view type="campaign" id="3012" />
+				<progress_weight>25</progress_weight>
+			</step>
+			<step>
+				<id>3</id>
+				<desc>Collect Mortagan's Spellstone by completing 'A Dream Fades' campaign in Gladius Arena.</desc>
+				<item_req id="2532" number="1" />
+				<view type="campaign" id="3013" />
+				<progress_weight>25</progress_weight>
+			</step>
+			<step>
+				<id>4</id>
+				<desc>Collect Mortagan's Core by completing 'A Bond Strengthens' campaign in Distorted Beetleton.</desc>
+				<item_req id="2533" number="1" />
+				<view type="campaign" id="3014" />
+				<progress_weight>25</progress_weight>
+			</step>
+			<step>
+				<id>5</id>
+				<desc>You have added the full strength of Mortagan to your forces.</desc>
+				<progress_weight>0</progress_weight>
+			</step>
+		</guide>
+	</mythic_info>
+
+	<!--<mythic_info>
+		<id>8</id>
+		<name>Midas Ultima, The Disruptor. </name>
+		<card id="30005" level="7" />
+		<asset name="Portrait_mythic_mecha" bundle="160"/>
+
+		<guide>
+			<step>
+				<id>1</id>
+				<desc>Collect Scylla's Pearl Focus by completing 'The Tide Swells' campaign on Mastery 7.</desc>
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>2</id>
+				<desc>Gather 50 Brinesouls to craft with Scylla's Pearl Focus. You can collect Brinesouls by completing missions on the Duskwillow map.</desc>
+				 <item_req id="2523" number="1" /> No va
+				<item_req id="2522" number="50" />
+				<view type="map" id="7" />
+				<progress_weight>10</progress_weight>
+			</step>
+			<step>
+				<id>3</id>
+				<desc>Craft Scylla's Pearl Focus with 50 Brinesouls.</desc>
+				<card_req id="2072" />
+				<view type="crafting" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>4</id>
+				<desc>Gather 250 Brinesouls to fuse with Scylla, Deep Queen. You can collect Brinesouls by completing missions on the Duskwillow map.</desc>
+				<card_req id="2072" />
+				<item_req id="2522" number="250" />
+				<view type="map" id="7" />
+				<progress_weight>50</progress_weight>
+			</step>
+			<step>
+				<id>5</id>
+				<desc>Fuse Scylla, Deep Queen with 250 Brinesouls.</desc>
+				<card_req id="2073" />
+				<view type="upgrade" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>6</id>
+				<desc>Gather 1000 Brinesouls to fuse with Scylla, Smuggler's End. You can collect Brinesouls by completing missions on the Duskwillow map.</desc>
+				<card_req id="2073" />
+				<item_req id="2522" number="1000" />
+				<view type="map" id="7" />
+				<progress_weight>100</progress_weight>
+			</step>
+			<step>
+				<id>7</id>
+				<desc>Fuse Scylla, Smuggler's End with 1000 Brinesouls. You can collect Brinesouls by completing missions on the Duskwillow map.</desc>
+				<card_req id="2074" />
+				<view type="upgrade" />
+				<progress_weight>5</progress_weight>
+			</step>
+			<step>
+				<id>8</id>
+				<desc>You have added the full strength of Scylla to your forces.</desc>
+				<progress_weight>0</progress_weight>
+			</step>
+		</guide>
+	</mythic_info> -->
+
+  <!-- <mythic_info>
+		<id>6</id>
+		<name>Ricky, Master of Engineers</name>
+		<card id="2039" level="7" />
+		<asset name="aprilchicken" bundle="52"/>
+		
+		<guide>
+			<step>
+				<id>1</id>
+				<desc>Collect a bunch of stuff!</desc>
+				<item_req id="3017" number="500" />
+				<item_req id="101" number="1" />
+				<item_req id="102" number="1" />
+				<item_req id="103" number="1" />
+				<item_req id="6" number="1000" />
+				<item_req id="3014" number="100" />
+				<view type="campaign" id="1111" />
+				<progress_weight>50</progress_weight>
+			</step>
+			<step>
+				<id>2</id>
+				<desc>Craft Ricky, Master of Engineers using the crafting table. You can collect Brinesouls by completing missions on the Duskwillow map.</desc>
+				<card_req id="2072" />
+				<view type="map" id="6" />
+				<progress_weight>50</progress_weight>
+			</step>
+			<step>
+				<id>5</id>
+				<desc>You have added the full strength of Ricky to your development team.</desc>
+				<progress_weight>0</progress_weight>
+			</step>
+		</guide>
+	</mythic_info> -->
+	
+
+</root>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>	
+	<!-- 
+	Store Item Types:
+	Type #	What it is			What value is			Notes
+	__________________________________________________________
+	1		+Energy Cap			Added value				
+	2		+Deck Slots			Added value				
+	3		+Energy Recharge	Multiplier for speed	Not implemented
+	4		+Stamina Cap		Added value
+	5		+Cards Cap			Added value
+	6		+Salvage Cap		Added value
+	 -->
+	 
+	<upgrade_type>
+		<id>1</id>
+		<picture>energy_upgrade_1</picture>
+	</upgrade_type>
+	<upgrade_type>
+		<id>2</id>
+	</upgrade_type>
+	<upgrade_type>
+		<id>3</id>
+		<picture>energy_upgrade_2</picture>
+	</upgrade_type>
+	<upgrade_type>
+		<id>5</id>
+		<picture>graphic_buydeckslot</picture>
+		<web_picture>graphic_buydeckslot.png</web_picture>
+	</upgrade_type>
+	
+	<!-- Type 1 is extra energy cap -->
+	<!-- 
+	<upgrade> 
+		<id>1</id>
+		<name>+50 Max Energy</name>
+		<wb_cost>250</wb_cost>
+		<type>1</type>
+		<value>50</value>
+		<desc>This upgrade will give you an additional 50 maximum energy.</desc>
+	</upgrade>
+	<upgrade>
+		<id>2</id>
+		<name>+50 Max Energy</name>
+		<upgrade_req>1</upgrade_req>
+		<wb_cost>500</wb_cost>
+		<type>1</type>
+		<value>50</value>
+		<desc>This upgrade will give you an additional 50 maximum energy.</desc>
+	</upgrade>
+	<upgrade>
+		<id>51</id>
+		<name>+100 Max Energy</name>
+		<upgrade_req>2</upgrade_req>
+		<wb_cost>95</wb_cost>
+		<type>1</type>
+		<value>100</value>
+		<desc>This upgrade will give you an additional 100 maximum energy.</desc>
+	</upgrade>
+	<upgrade>
+		<id>52</id>
+		<name>+200 Max Energy</name>
+		<upgrade_req>51</upgrade_req>
+		<wb_cost>150</wb_cost>
+		<type>1</type>
+		<value>200</value>
+		<desc>This upgrade will give you an additional 200 maximum energy.</desc>
+	</upgrade>
+	<upgrade>
+		<id>53</id>
+		<name>+200 Max Energy</name>
+		<upgrade_req>52</upgrade_req>
+		<wb_cost>150</wb_cost>
+		<type>1</type>
+		<value>200</value>
+		<desc>This upgrade will give you an additional 200 maximum energy.</desc>
+	</upgrade> -->
+	
+	<!-- Type 2 is extra deck slots -->
+	<!--
+	<upgrade> 
+		<id>101</id>
+		<name>Extra Deck Slot</name>
+		<wb_cost>15</wb_cost>
+		<type>2</type>
+		<value>1</value>
+		<desc>This upgrade will give you an additional deck slot.</desc>
+	</upgrade>
+	<upgrade>
+		<id>102</id>
+		<name>Extra Deck Slot</name>
+		<upgrade_req>101</upgrade_req>
+		<wb_cost>30</wb_cost>
+		<type>2</type>
+		<value>1</value>
+		<desc>This upgrade will give you an additional deck slot.</desc>
+	</upgrade>
+	<upgrade>
+		<id>151</id>
+		<name>Extra Deck Slot</name>
+		<upgrade_req>102</upgrade_req>
+		<wb_cost>50</wb_cost>
+		<type>2</type>
+		<value>1</value>
+		<desc>This upgrade will give you an additional deck slot.</desc>
+	</upgrade>
+	<upgrade>
+		<id>152</id>
+		<name>Extra Deck Slot</name>
+		<upgrade_req>151</upgrade_req>
+		<wb_cost>75</wb_cost>
+		<type>2</type>
+		<value>1</value>
+		<desc>This upgrade will give you an additional deck slot.</desc>
+	</upgrade>
+	<upgrade>
+		<id>153</id>
+		<name>Extra Deck Slot</name>
+		<upgrade_req>152</upgrade_req>
+		<wb_cost>125</wb_cost>
+		<type>2</type>
+		<value>1</value>
+		<desc>This upgrade will give you an additional deck slot.</desc>
+	</upgrade> -->
+	
+	<!-- Type 3 is energy recharge -->
+	<!-- 	
+	<upgrade>
+		<id>300</id>
+		<name>+10 Card Slots</name>
+		<gold_cost>1000</gold_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>301</id>
+		<name>+10 Card Slots</name>
+		<gold_cost>5000</gold_cost>
+		<upgrade_req>300</upgrade_req>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>302</id>
+		<name>+10 Card Slots</name>
+		<gold_cost>10000</gold_cost>
+		<upgrade_req>301</upgrade_req>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>303</id>
+		<name>+10 Card Slots</name>
+		<gold_cost>15000</gold_cost>
+		<upgrade_req>302</upgrade_req>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>351</id>
+		<name>+10 Card Slots</name>
+		<wb_cost>10</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>352</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>351</upgrade_req>
+		<wb_cost>15</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>353</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>352</upgrade_req>
+		<wb_cost>20</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>354</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>353</upgrade_req>
+		<wb_cost>25</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>355</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>354</upgrade_req>
+		<wb_cost>30</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>356</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>355</upgrade_req>
+		<wb_cost>35</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>357</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>356</upgrade_req>
+		<wb_cost>40</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>358</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>357</upgrade_req>
+		<wb_cost>45</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>359</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>358</upgrade_req>
+		<wb_cost>50</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>360</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>359</upgrade_req>
+		<wb_cost>55</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>361</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>360</upgrade_req>
+		<wb_cost>60</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>362</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>361</upgrade_req>
+		<wb_cost>65</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade>
+	<upgrade>
+		<id>363</id>
+		<name>+10 Card Slots</name>
+		<upgrade_req>362</upgrade_req>
+		<wb_cost>70</wb_cost>
+		<type>5</type>
+		<value>10</value>
+		<desc>This upgrade will give you an additional 10 card inventory slots.</desc>
+	</upgrade> -->
+</root>

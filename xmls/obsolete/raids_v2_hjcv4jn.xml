@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<raid>
+		<id>1</id>
+		<name>TEST</name>
+	</raid>
+	
+	<raid>
+		<id>1</id>
+		<name>Frostbite, Raid Baddie</name>
+		<desc>Some description</desc>
+		<commander>1000</commander>
+		<cooldown_time>168</cooldown_time>	<!-- 7 days -->
+		<health>10000</health>
+		<deck>	<!-- primary cards that are in the deck. leveling happens automatically -->
+			<card id='1001' />
+			<card id='1005' />
+			<card id='1003' />
+			<card id='1008' />
+		</deck>
+		
+		<plays>	<!-- special cards that are played at at specific times -->
+			<play id='5001' x='0.25' turn='3' />		<!-- BGE card sets Power Boost to 25% on turn 3 -->
+			<play id='5001' x='0.5' turn='7' />		<!-- BGE card sets Power Boost to 50% on turn 7 -->
+			<play id='5001' x='0.75' turn='10' />	<!-- BGE card sets Power Boost to 75% on turn 10 -->
+			<play id='6001' x='5' turn='12' />		<!-- Reinforce card plays 5 more cards on turn 20 -->
+			<play id='5001' x='1' turn='15' />		<!-- BGE card sets Power Boost to 100% on turn 15 -->
+			<play id='6001' x='10' turn='20' />		<!-- Reinforce card plays 10 more cards on turn 20 -->
+		</plays>
+		<raid_rewards>
+			<card id='2' />
+			<card id='3' />
+			<card id='4' />
+		</raid_rewards>
+	</raid>
+</root>

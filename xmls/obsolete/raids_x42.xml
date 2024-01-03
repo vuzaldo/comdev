@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<default_deck_config>
+		<step>
+			<max_level>2</max_level>
+			<levels_per_shift>0</levels_per_shift>
+		</step>
+		<step>
+			<max_level>12</max_level>
+			<levels_per_shift>2</levels_per_shift>
+		</step>
+		<step>
+			<max_level>16</max_level>
+			<levels_per_shift>1</levels_per_shift>
+		</step>
+	</default_deck_config>
+	
+	<default_sp_config>
+		<step>
+			<level>1</level>
+			<sp>0</sp>
+		</step>
+		<step>
+			<level>2</level>
+			<sp>6</sp>
+		</step>
+	</default_sp_config>
+	
+	<raid>
+		<id>1</id>
+		<name>Test1</name>
+		<desc>Some description</desc>
+		<banner>GoldPack</banner>
+		<picture>GoldPack</picture>
+		<commander>1000</commander>
+		<begin_time>1364226921</begin_time>
+		<end_time>1364426921</end_time>
+		<deck>
+			<card id='1' order='1' />
+			<card id='1' order='2' />
+			<card id='1' order='3' />
+			<card id='1' order='4' />
+			<card id='1' order='5' />
+			<card id='1' order='6' />
+			<card id='1' order='7' />
+			<card id='1' order='8' />
+			<card id='1' order='9' />
+			<card id='1' order='10' />
+			<card id='1' order='11' />
+			<card id='1' order='12' />
+			<card id='1' order='13' />
+			<card id='1' order='14' />
+			<card id='1' order='15' />
+			<card id='1' order='16' />
+			<card id='1' order='17' />
+			<card id='1' order='18' />
+			<card id='1' order='19' />
+			<card id='1' order='20' />
+		</deck>
+		<raid_rewards>
+			<tier level='1' card_id='2' gold_cost='100' />
+			<tier level='2' card_id='3' gold_cost='100' />
+		</raid_rewards>
+	</raid>
+	<raid>
+		<id>2</id>
+		<name>Test2</name>
+		<desc>Some description</desc>
+		<banner>GoldPack</banner>
+		<picture>GoldPack</picture>
+		<commander>1001</commander>
+		<begin_time>1364426921</begin_time>
+		<end_time>1364626921</end_time>
+		<deck_config>
+			<step>
+				<min_level>0</min_level>
+				<levels_per_shift>2</levels_per_shift>
+			</step>
+			<step>
+				<min_level>13</min_level>
+				<levels_per_shift>1</levels_per_shift>
+			</step>
+		</deck_config>
+		<sp_config>
+			<step>
+				<level>1</level>
+				<sp>0</sp>
+			</step>
+			<step>
+				<level>2</level>
+				<sp>6</sp>
+			</step>
+		</sp_config>
+		<deck>
+			<card id='1' order='1' />
+			<card id='1' order='2' />
+			<card id='1' order='3' />
+			<card id='1' order='4' />
+			<card id='1' order='5' />
+			<card id='1' order='6' />
+			<card id='1' order='7' />
+			<card id='1' order='8' />
+			<card id='1' order='9' />
+			<card id='1' order='10' />
+			<card id='1' order='11' />
+			<card id='1' order='12' />
+			<card id='1' order='13' />
+			<card id='1' order='14' />
+			<card id='1' order='15' />
+			<card id='1' order='16' />
+			<card id='1' order='17' />
+			<card id='1' order='18' />
+			<card id='1' order='19' />
+			<card id='1' order='20' />
+		</deck>
+		<raid_rewards>
+			<tier level='2' card_id='3' gold_cost='100' />
+			<tier level='4' card_id='4' gold_cost='100' />
+		</raid_rewards>
+	</raid>
+</root>
