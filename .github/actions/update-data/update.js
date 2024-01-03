@@ -62,11 +62,15 @@ other = [
 	"daily_login_bonus_fjh32sd",
 	"guide",
 	"guilds",
+	"heroes_xfkj2",
 	"hunting_da90x",
 	"levels",
+	"mythic_hall_hxcj8",
+	"purchases_n38",
 	"recipes_mj8d",
 	"tutorial1",
-	"vip_levels"
+	"vip_levels",
+	"warnings"
 	]
 
 localization = [
@@ -83,11 +87,17 @@ localization = [
 	]
 
 obsolete = [
+	"account_upgrades",
 	"arena",
 	"cards",
 	"event_timeline_wars",
 	"events",
-	"passive_missions"
+	"passive_missions",
+	"purchases_30sale_v2h",
+	"raids_v2_hjcv4jn",
+	"raids_x42",
+	"steam_dlc",
+	"updates"
 	]
 
 files = cards.concat(events).concat(maps).concat(store) // required BGE cycle
