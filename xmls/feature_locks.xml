@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <root>
 	<!-- ========================= -->
 	<!-- ===== CORE FEATURES ===== -->
@@ -7,52 +6,52 @@
 	
 	<feature_lock>
 		<id>edit</id>
-		<mission_req>11</mission_req>	<!-- starts unlocked (effectively) -->
+		<mission_req>11</mission_req> <!-- starts unlocked (effectively) -->
 		<!-- <cards_req>16</cards_req> --> <!-- 16+ cards owned -->
 	</feature_lock>
 	<feature_lock>
 		<id>quest</id>
-		<mission_req>12</mission_req>	<!-- 12 -->
+		<mission_req>12</mission_req> <!-- 12 -->
 	</feature_lock>
 	<feature_lock>
 		<id>store</id>
-		<mission_req>13</mission_req> 	<!-- 13 -->
+		<mission_req>13</mission_req> <!-- 13 -->
 	</feature_lock>
 	<feature_lock>
 		<id>upgrade</id>
-		<mission_req>24</mission_req> 	<!-- 24 -->
+		<mission_req>24</mission_req> <!-- 24 -->
 	</feature_lock>
 	<feature_lock>
 		<id>fusion</id>
-		<mission_req>24</mission_req> 	<!-- 24 -->
+		<mission_req>24</mission_req> <!-- 24 -->
 	</feature_lock>
 	<feature_lock>
 		<id>guilds</id>
-		<mission_req>24</mission_req> 	<!-- 24 -->
+		<mission_req>24</mission_req> <!-- 24 -->
 	</feature_lock>
 	<feature_lock>
-		<id>dailybonus</id>	
-		<mission_req>21</mission_req> 	<!-- 21 -->
+		<id>dailybonus</id>
+		<mission_req>21</mission_req> <!-- 21 -->
 	</feature_lock>
 	<feature_lock>
 		<id>pvp</id>
-		<mission_req>54</mission_req> 	<!-- 54 -->
+		<mission_req>54</mission_req> <!-- 54 -->
 	</feature_lock>
 	<feature_lock>
 		<id>heroes</id>
-		<mission_req>44</mission_req> 	<!-- 44 -->
+		<mission_req>44</mission_req> <!-- 44 -->
 	</feature_lock>
 	<feature_lock>
 		<id>vip_system</id>
-		<mission_req>64</mission_req> 	<!-- 64 -->
+		<mission_req>64</mission_req> <!-- 64 -->
 	</feature_lock>
 	<feature_lock>
 		<id>runes</id>
-		<mission_req>244</mission_req>	<!-- 244 -->
+		<mission_req>244</mission_req> <!-- 244 -->
 	</feature_lock>
 	<feature_lock>
 		<id>bulkraresalvage</id>
-		<mission_req>244</mission_req>	<!-- 244 -->
+		<mission_req>244</mission_req> <!-- 244 -->
 	</feature_lock>
 	<feature_lock>
 		<id>salvage</id>
@@ -60,11 +59,11 @@
 	</feature_lock>
 	<feature_lock>
 		<id>cardbuyback</id>
-		<mission_req>244</mission_req>	<!-- 244 -->
+		<mission_req>244</mission_req> <!-- 244 -->
 	</feature_lock>
 	<feature_lock>
 		<id>crafting</id>
-		<mission_req>244</mission_req>	<!-- 244 -->
+		<mission_req>244</mission_req> <!-- 244 -->
 	</feature_lock>
 	<feature_lock>
 		<id>livepvp</id>
@@ -72,7 +71,7 @@
 	</feature_lock>
 	<feature_lock>
 		<id>challenges</id>
-		<mission_req>64</mission_req>	<!-- 64 -->
+		<mission_req>64</mission_req> <!-- 64 -->
 	</feature_lock>
 	
 
@@ -82,40 +81,40 @@
 	
 	<feature_lock>
 		<id>guildlivepvp</id>
-		<mission_req>11</mission_req> 	<!-- 11 -->
+		<mission_req>11</mission_req> <!-- 11 -->
 	</feature_lock>
 	<feature_lock>
 		<id>mythic</id>
-		<mission_req>11</mission_req> 	<!-- 11 -->
+		<mission_req>11</mission_req> <!-- 11 -->
 	</feature_lock>
 	<feature_lock>
 		<id>blackmarket</id>
-		<mission_req>11</mission_req> 	<!-- 11 -->
+		<mission_req>11</mission_req> <!-- 11 -->
 	</feature_lock>
 	<feature_lock>
 		<id>heroupgrades</id>
-		<mission_req>11</mission_req> 	<!-- 11 -->
+		<mission_req>11</mission_req> <!-- 11 -->
 	</feature_lock>
 	<feature_lock>
 		<id>mythichall</id>
-		<mission_req>244</mission_req> 	<!-- 244 -->
+		<mission_req>244</mission_req> <!-- 244 -->
 	</feature_lock>
 	<feature_lock>
 		<id>maxupgrade</id>
-		<vip_req>4</vip_req> 			<!-- 4 -->
+		<mission_req>24</mission_req> <!-- 24 -->
 	</feature_lock>
 
 	<feature_lock>
 		<id>kongcrosspromo</id>
-		<mission_req>11</mission_req> 	<!-- -1 -->
+		<mission_req>11</mission_req> <!-- -1 -->
 	</feature_lock>
 	<feature_lock>
 		<id>auto_battle</id>
-		<level_req>20</level_req>		<!-- 20 -->
+		<level_req>20</level_req> <!-- 20 -->
 	</feature_lock>
 	<feature_lock>
 		<id>auto_battle_event</id>
-		<level_req>20</level_req>		<!-- 20 -->
+		<level_req>20</level_req> <!-- 20 -->
 	</feature_lock>
 	
 
@@ -125,15 +124,15 @@
 
 	<feature_lock>
 		<id>combatspeed</id>
-		<mission_req>44</mission_req> 	<!-- 44 -->
+		<mission_req>14</mission_req> <!-- 14 -->
 	</feature_lock>
 	<feature_lock>
 		<id>skip</id>
-		<mission_req>64</mission_req> 	<!-- 64 -->
+		<mission_req>34</mission_req> <!-- 34 -->
 	</feature_lock>
 	<feature_lock>
 		<id>autoplay</id>
-		<mission_req>104</mission_req> <!-- 104 -->
+		<mission_req>54</mission_req> <!-- 54 -->
 	</feature_lock>
 	
 	
