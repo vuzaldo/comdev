@@ -90,6 +90,7 @@ localization = [
 obsolete = [
 	"account_upgrades",
 	"arena",
+	"bonus_hg6",
 	"cards",
 	"event_timeline_wars",
 	"events",
