@@ -60,6 +60,7 @@ other = [
 	"cards_dev_km86x",
 	"config",
 	"daily_login_bonus_fjh32sd",
+	"feature_locks",
 	"guide",
 	"guilds",
 	"heroes_xfkj2",
