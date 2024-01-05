@@ -468,30 +468,22 @@
 			</step>
 			<step>
 				<id>2</id>
-				<desc>Collect Mortagan's Recipe by completing 'A Miracle Awakens' campaign in Golden Crown Village.</desc>
+				<desc>Collect Mortagan's Recipe by completing 'A Miracle Awakens' campaign.</desc>
 				<item_req id="8017" number="1"/>
 				<view type="campaign" id="3012"/>
 				<progress_weight>25</progress_weight>
 			</step>
 			<step>
 				<id>3</id>
-				<condition>
-					<!-- If this card has not been obtained, show this. Otherwise skip this step. -->
-					<card_req id="2158"/>
-				</condition>
-				<desc>Collect Mortagan's Spellstone by completing 'A Dream Fades' campaign in Gladius Arena.</desc>
-				<item_req id="2532" number="1"/>
+				<desc>Collect Mortagan's Spellstone by completing 'A Dream Fades' campaign.</desc>
+				<mission_req>6178</mission_req>
 				<view type="campaign" id="3013"/>
 				<progress_weight>25</progress_weight>
 			</step>
 			<step>
 				<id>4</id>
-				<condition>
-					<!-- If this card has not been obtained, show this. Otherwise skip this step. -->
-					<card_req id="2158"/>
-				</condition>
-				<desc>Collect Mortagan's Core by completing 'A Bond Strengthens' campaign in Distorted Beetleton.</desc>
-				<item_req id="2533" number="1"/>
+				<desc>Collect Mortagan's Core by completing 'A Bond Strengthens' campaign, and fuse Mortagan.</desc>
+				<card_req id="2158"/>
 				<view type="campaign" id="3014"/>
 				<progress_weight>25</progress_weight>
 			</step>
