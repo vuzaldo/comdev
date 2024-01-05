@@ -545,18 +545,18 @@
 		<icon>package</icon>
 		<desc>A choice of either a random premium Quad Legendary card, a random Tribe Health rune, or 500 Stones for a random Champion.</desc>
 		<duration>43200</duration> <!-- Lasts 30 days -->
-		<create_choice id="1">
-			<pack>3108</pack> <!-- Random Premium Quad Legendary -->
-		</create_choice>
-		<create_choice id="2">
-			<pack>80</pack> <!-- Random Tribe Health Rune -->
-		</create_choice>
-		<create_choice id="3">
-			<pack>98</pack> <!-- 500 Stones for Random Reward Champion -->
-		</create_choice>
-		<create_choice id="4">
-			<pack>99</pack> <!-- 500 Stones for Random Premium Champion -->
-		</create_choice>
+		<choice id="1">
+			<item id="533" quantity="1"/> <!-- Random Premium Quad Legendary -->
+		</choice>
+		<choice id="2">
+			<item id="534" quantity="1"/> <!-- Random Tribe Health Rune -->
+		</choice>
+		<choice id="3">
+			<item id="535" quantity="1"/> <!-- 500 Stones for Random Reward Champion -->
+		</choice>
+		<choice id="4">
+			<item id="536" quantity="1"/> <!-- 500 Stones for Random Premium Champion -->
+		</choice>
 	</item>
 	<item>
 		<id>532</id>
@@ -576,6 +576,43 @@
 			<pack>99</pack> <!-- 500 Stones for Random Premium Champion -->
 		</choice>
 	</item>
+
+	<item>
+		<id>533</id>
+		<name>Random Premium Quad Legendary</name>
+		<icon>icon_card_legendary</icon>
+		<desc>Contains a random Quad Legendary card from Premium Set!</desc>
+		<give_pack>3108</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>534</id>
+		<name>Random Tribe Health Rune</name>
+		<icon>rune_rejuvenate_legendary</icon>
+		<bundle>34</bundle>
+		<desc>Contains a random Tribe Rune of Health.</desc>
+		<give_pack>80</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>535</id>
+		<name>Random Reward Champion Stones</name>
+		<icon>championStone_epic</icon>
+		<bundle>58</bundle>
+		<desc>Contains 500 Stones for a random Champion from the Reward Champion set.</desc>
+		<give_pack>98</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>536</id>
+		<name>Random Premium Champion Stones</name>
+		<icon>championStone_epic</icon>
+		<bundle>58</bundle>
+		<desc>Contains 500 Stones for a random Champion from the Premium Champion set.</desc>
+		<give_pack>99</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+
 
 	<!-- 1001-2000 CONSUMABLES START -->
 	<!-- Energy Refills -->
@@ -2473,9 +2510,9 @@
 			<item id="107612" quantity="1"/> <!-- Tzopilotl -->
 		</choice>
 	</item>
-
+	
 	<!-- END Premium Flasks Gen 3 (continue Reward Flasks from here)-->
-
+	
 	<item>
 		<id>2601</id>
 		<name>Ambusher Omy Flask</name>
@@ -2514,7 +2551,7 @@
 			<item id="104025" quantity="1"/> <!-- Quageye -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2603</id>
 		<name>Tarragon Flask</name>
@@ -2534,7 +2571,7 @@
 			<item id="104038" quantity="1"/> <!-- Kalyt -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2604</id>
 		<name>Beetleton Flask</name>
@@ -2551,7 +2588,7 @@
 			<item id="104030" quantity="1"/> <!-- Mothmo -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2605</id>
 		<name>Goblin Stronghold Flask</name>
@@ -2571,7 +2608,7 @@
 			<item id="104037" quantity="1"/> <!-- Nuvis -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2606</id>
 		<name>Celestial Vault Flask</name>
@@ -2591,7 +2628,7 @@
 			<item id="104040" quantity="1"/> <!-- Iphelia -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2607</id>
 		<name>Mighty Allfather Flask</name>
@@ -2611,7 +2648,7 @@
 			<item id="104030" quantity="1"/> <!-- Mothmo -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2608</id>
 		<name>Titan Allfather Flask</name>
@@ -2631,7 +2668,7 @@
 			<item id="104031" quantity="1"/> <!-- Sparky -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2609</id>
 		<name>Binder Viracocha Flask</name>
@@ -2651,7 +2688,7 @@
 			<item id="104026" quantity="1"/> <!-- Spikes -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2610</id>
 		<name>Conflux Viracocha Flask</name>
@@ -2671,7 +2708,7 @@
 			<item id="104020" quantity="1"/> <!-- Sound -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2611</id>
 		<name>Noxious Korg Flask</name>
@@ -2691,7 +2728,7 @@
 			<item id="104026" quantity="1"/> <!-- Spikes -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2612</id>
 		<name>Vile Korg Flask</name>
@@ -2711,7 +2748,7 @@
 			<item id="104013" quantity="1"/> <!-- Teroxis -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2613</id>
 		<name>Red Valley Flask</name>
@@ -2913,7 +2950,7 @@
 			<item id="104018" quantity="1"/> <!-- Kensho -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2623</id>
 		<name>Bomber Clockoo Flask</name>
@@ -2973,7 +3010,7 @@
 			<item id="104048" quantity="1"/> <!-- Clockoo -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2626</id>
 		<name>Healed Dawnglow Flask</name>
@@ -3133,7 +3170,7 @@
 			<item id="104016" quantity="1"/> <!-- Daknak -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2634</id>
 		<name>The Abyss Flask</name>
@@ -3173,8 +3210,8 @@
 			<item id="104039" quantity="1"/> <!-- Lairel -->
 		</choice>
 	</item>
-
-
+	
+	
 
 	<!-- Premium Flasks Gen 5 -->
 
@@ -3238,7 +3275,7 @@
 	</item>
 
 	<!-- END Premium Flasks Gen 5 (continue Reward Flasks from here)-->
-
+	
 	<item>
 		<id>2639</id>
 		<name>Tarragon Traverse Flask</name>
@@ -3318,7 +3355,7 @@
 			<item id="104046" quantity="1"/> <!-- Agatha -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2643</id>
 		<name>Mighty Shadomeka Flask</name>
@@ -3338,7 +3375,7 @@
 			<item id="104041" quantity="1"/> <!-- Leyla, Queen of Skyhaven -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2644</id>
 		<name>Forceful Shadomeka Flask</name>
@@ -3358,7 +3395,7 @@
 			<item id="104032" quantity="1"/> <!-- Froggit, the Puppeteer -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2645</id>
 		<name>Noble Cellia Flask</name>
@@ -3378,7 +3415,7 @@
 			<item id="104026" quantity="1"/> <!-- Spikes, the Warmonger -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2646</id>
 		<name>Illustrious Cellia Flask</name>
@@ -3398,7 +3435,7 @@
 			<item id="104016" quantity="1"/> <!-- Daknak Darkblade -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2647</id>
 		<name>Prominent Reks Flask</name>
@@ -3418,7 +3455,7 @@
 			<item id="104030" quantity="1"/> <!-- Mothmo, the Cryptid -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2648</id>
 		<name>Superior Reks Flask</name>
@@ -3438,7 +3475,7 @@
 			<item id="104029" quantity="1"/> <!-- Cyno, Arbiter of Souls -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2649</id>
 		<name>Chilling Frostfire Flask</name>
@@ -3458,7 +3495,7 @@
 			<item id="104017" quantity="1"/> <!-- King Proteus -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2650</id>
 		<name>Conflicted Frostfire Flask</name>
@@ -3478,7 +3515,7 @@
 			<item id="104014" quantity="1"/> <!-- Ralgan Ironpaw -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2651</id>
 		<name>Deep Moklam Flask</name>
@@ -3498,7 +3535,7 @@
 			<item id="104022" quantity="1"/> <!-- Bluefire, Void Incarnate -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2652</id>
 		<name>Colossal Moklam Flask</name>
@@ -3518,7 +3555,7 @@
 			<item id="104011" quantity="1"/> <!-- Emerald Amarok -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2653</id>
 		<name>Roaring Predonyx Flask</name>
@@ -3538,7 +3575,7 @@
 			<item id="104042" quantity="1"/> <!-- Hidden Omy -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2654</id>
 		<name>Wilderness Predonyx Flask</name>
@@ -3558,7 +3595,7 @@
 			<item id="104009" quantity="1"/> <!-- Kachina, the Dreamer -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2655</id>
 		<name>Duskwillow Rebuilt Flask</name>
@@ -3578,7 +3615,7 @@
 			<item id="104012" quantity="1"/> <!-- Cordelia the Twinblade -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2656</id>
 		<name>Fury Alyel Flask</name>
@@ -3598,7 +3635,7 @@
 			<item id="104018" quantity="1"/> <!-- Kensho, the Aeromaster -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2657</id>
 		<name>Righteous Alyel Flask</name>
@@ -3618,7 +3655,7 @@
 			<item id="104036" quantity="1"/> <!-- Leroux, the Macabre -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2658</id>
 		<name>Sneaky Ashanti Flask</name>
@@ -3638,7 +3675,7 @@
 			<item id="104047" quantity="1"/> <!-- Ark and the Goatapult -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2659</id>
 		<name>Striking Ashanti Flask</name>
@@ -3658,7 +3695,7 @@
 			<item id="104050" quantity="1"/> <!-- Illu, Mirage of the Sea -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2660</id>
 		<name>Enchanted Yaritza Flask</name>
@@ -3678,7 +3715,7 @@
 			<item id="104045" quantity="1"/> <!-- Korg, the Last Touch -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2661</id>
 		<name>Protective Yaritza Flask</name>
@@ -3698,7 +3735,7 @@
 			<item id="104043" quantity="1"/> <!-- Allfather, the Shaper -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2662</id>
 		<name>Skyhaven Assault Flask</name>
@@ -3718,7 +3755,7 @@
 			<item id="104042" quantity="1"/> <!-- Hidden Omy -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2663</id>
 		<name>Void Plane Flask</name>
@@ -3738,7 +3775,7 @@
 			<item id="104043" quantity="1"/> <!-- Allfather, the Shaper -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2664</id>
 		<name>Salt Wastes Flask</name>
@@ -3758,7 +3795,7 @@
 			<item id="104024" quantity="1"/> <!-- The Coalheart Widow -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2665</id>
 		<name>Duskwillow Flask</name>
@@ -3778,7 +3815,7 @@
 			<item id="104049" quantity="1"/> <!-- Morty Ahab, Seaturned -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2666</id>
 		<name>Undying Veric Flask</name>
@@ -3798,7 +3835,7 @@
 			<item id="104038" quantity="1"/> <!-- Kalyt, the Last Word  -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2667</id>
 		<name>Vicious Veric Flask</name>
@@ -3818,7 +3855,7 @@
 			<item id="104052" quantity="1"/> <!-- Shadomeka -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2668</id>
 		<name>Corrupting Caesar Flask</name>
@@ -3838,7 +3875,7 @@
 			<item id="104009" quantity="1"/> <!-- Kachina, the Dreamer -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2669</id>
 		<name>Crazy Caesar Flask</name>
@@ -3858,7 +3895,7 @@
 			<item id="104040" quantity="1"/> <!-- Iphelia, Voice of Pain -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2670</id>
 		<name>Vindictive Viir Flask</name>
@@ -3878,7 +3915,7 @@
 			<item id="104055" quantity="1"/> <!-- Frostfire, the Corrupted -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2671</id>
 		<name>Vengeful Viir Flask</name>
@@ -3898,7 +3935,7 @@
 			<item id="104051" quantity="1"/> <!-- Freya, the Landbinder -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2672</id>
 		<name>Golden Flask</name>
@@ -3918,7 +3955,7 @@
 			<item id="104047" quantity="1"/> <!-- Ark and the Goatapult -->
 		</choice>
 	</item>
-
+	
 	<item>
 		<id>2673</id>
 		<name>Void Invasion Flask</name>
@@ -4329,7 +4366,7 @@
 			<item id="105636" quantity="1"/> <!-- Almet -->
 		</choice>
 	</item>
-
+		
 	<item>
 		<id>2693</id>
 		<name>Aether Justice Flask</name>
@@ -4494,7 +4531,7 @@
 			<item id="104066" quantity="1"/> <!-- Krampus -->
 		</choice>
 	</item>
-
+	
 	<!-- Second Reward Flask with the other goblin reward champs -->
 	<item>
 		<id>2801</id> <!-- Need to avoid 2701-2800 reserved for Battleground Effect Items -->
@@ -4538,7 +4575,7 @@
 			<item id="28024" quantity="1"/> <!-- Wyld and Void -->
 		</choice>
 	</item>
-
+	
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28021</id> <!-- Note ID numbering convention for flask within flask -->
@@ -4633,7 +4670,7 @@
 			<item id="28033" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
-
+	
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28031</id> <!-- Note ID numbering convention for flask within flask -->
@@ -4938,7 +4975,7 @@
 			<item id="28163" quantity="1"/> <!-- Chaos and Factionless -->
 		</choice>
 	</item>
-
+	
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28161</id> <!-- Note ID numbering convention for flask within flask -->
@@ -5372,7 +5409,7 @@
 			<item id="28223" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
-
+		
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28221</id> <!-- Note ID numbering convention for flask within flask -->
@@ -5393,8 +5430,6 @@
 			<item id="104068" quantity="1"/> <!-- Spark -->
 		</choice>
 	</item>
-
-
 	<item>
 		<id>28222</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Lok'thor, Kalyt, Frostfire Dragon Flask</name>
@@ -5452,7 +5487,7 @@
 			<item id="28233" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
-
+		
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28231</id> <!-- Note ID numbering convention for flask within flask -->
@@ -5527,7 +5562,7 @@
 			<item id="28243" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
-
+		
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28241</id> <!-- Note ID numbering convention for flask within flask -->
@@ -5602,7 +5637,7 @@
 			<item id="28253" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
-
+		
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28251</id> <!-- Note ID numbering convention for flask within flask -->
@@ -5677,7 +5712,7 @@
 			<item id="28263" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
-
+		
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28261</id> <!-- Note ID numbering convention for flask within flask -->
@@ -5754,7 +5789,7 @@
 			<item id="28294" quantity="1"/> <!-- Wyld and Factionless -->
 		</choice>
 	</item>
-
+		
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28291</id> <!-- Note ID numbering convention for flask within flask -->
@@ -7160,14 +7195,14 @@
 		<type>2</type>
 		<icon>inscription_dust</icon>
 		<bundle>17</bundle>
-		<desc>Combine 25 Powder to create a random Epic card from the Reward set. Also used for Runecrafting.</desc>
+		<desc>Combine 25 Powder to create a random card from the Reward set. Also used for Runecrafting.</desc>
 		<consume>25</consume>
 		<give_pack>4</give_pack>
 	</item>
 
 	<item>
 		<id>4002</id>
-		<name>Universal Solvent</name>
+		<name>Universal Extract</name>
 		<type>2</type>
 		<icon>arcane_vapor</icon>
 		<bundle>17</bundle>
@@ -8796,7 +8831,7 @@
 
 
 	<!-- 7001 - 8000 Card Fragments -->
-
+	
 	<!-- Start of Fragment Block Comment.  Commenting out all card fragments.  To restore, replace all XXX with exclamation dash dash
 	 and all YY with dash dash.  Then remove this comment from above ID 7001 and below ID 7301.
 
@@ -11780,7 +11815,7 @@
 			<consume>1000</consume>
 			<give_card id="5290" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7272</id>
 			<name>Spellhoarder Fragment</name>
@@ -11791,7 +11826,7 @@
 			<consume>1000</consume>
 			<give_card id="5291" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7273</id>
 			<name>Miteark Fragment</name>
@@ -11802,7 +11837,7 @@
 			<consume>1000</consume>
 			<give_card id="6291" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7274</id>
 			<name>Gobbat Fragment</name>
@@ -11813,7 +11848,7 @@
 			<consume>1000</consume>
 			<give_card id="7291" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7275</id>
 			<name>Golden Fragment</name>
@@ -11824,7 +11859,7 @@
 			<consume>1000</consume>
 			<give_card id="7293" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7276</id>
 			<name>Nightbreaker Fragment</name>
@@ -11945,7 +11980,7 @@
 			<consume>1000</consume>
 			<give_card id="7298" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7287</id>
 			<name>Troll Chaser Fragment</name>
@@ -11956,7 +11991,7 @@
 			<consume>1000</consume>
 			<give_card id="7299" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7288</id>
 			<name>Vlad Fragment</name>
@@ -11967,7 +12002,7 @@
 			<consume>1000</consume>
 			<give_card id="6301" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7289</id>
 			<name>Spitter Fragment</name>
@@ -11978,7 +12013,7 @@
 			<consume>1000</consume>
 			<give_card id="7302" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7290</id>
 			<name>Starfall Fragment</name>
@@ -11989,7 +12024,7 @@
 			<consume>1000</consume>
 			<give_card id="5301" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7291</id>
 			<name>Pumpkinbot Fragment</name>
@@ -12000,7 +12035,7 @@
 			<consume>1000</consume>
 			<give_card id="7304" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7292</id>
 			<name>Morkan Fragment</name>
@@ -12011,7 +12046,7 @@
 			<consume>1000</consume>
 			<give_card id="7306" level="1" />
 	</item>
-
+	
 	<item>
 			<id>7293</id>
 			<name>Commando Fragment</name>
