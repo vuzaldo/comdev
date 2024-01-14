@@ -440,6 +440,8 @@ function updateParameters() {
 }
 
 
+FACTIONS.forEach(f => f.name == 'Bear' && (f.name = 'Beast') && (f.hidden = 0)); // Enable Beast tribe before XML update
+
 const tribes = FACTIONS.filter(f => !f.hidden && f.tribe == 1);
 tribes.sort((a, b) => a.name.localeCompare(b.name));
 const selectTribe = document.getElementById('selectTribe');
