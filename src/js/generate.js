@@ -217,6 +217,11 @@ function overrideTemplate(template, generated) {
 		generated = generated.replace('arena_box_banner', 'event_006_banner_chance_w1');
 		generated = generated.replace('bundle>76<', 'bundle>39<');
 	}
+	if (template == 'event_timeline_clash' && parameters[template]['TOWER_TYPE'] == 'The Arena') {
+		const description = 'All enemies start with a The Arena card in play!';
+		const newDescription = 'Two additional Delay are added to the first card played in a battle.';
+		generated = generated.replace(description, newDescription);
+	}
 	return generated;
 }
 
