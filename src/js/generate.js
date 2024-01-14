@@ -101,6 +101,11 @@ function shuffleArray(array) {
 	}
 }
 
+// Temporary override of beast cards before XML update
+const beastIDs = [1642, 2184, 6080, 6052, 4025, 4071, 4063, 1007, 1000, 1602, 1605, 1011, 1314, 1615, 1616, 1033, 1635, 1641, 1343, 1625, 1626, 2058, 2192, 2021, 2120, 2188, 2023, 2054, 2019, 2220, 2089, 2022, 5000, 5163, 5164, 5030, 5212, 5293, 5036, 6030, 6134, 6060, 6205, 6159, 6259, 7161, 7119, 7035, 7002, 7118, 7291, 7071, 7255, 7088, 7070, 7085, 7072, 7164, 7009, 7031, 7122, 7047, 7038, 7125, 7034, 7236, 7116, 7168, 7011, 7024, 5272, 5275, 5181, 5027, 5281, 6039, 6204, 6287, 6251, 7264, 7277, 7037, 7209, 7079, 7283, 7143, 7219, 7027, 7250, 7032, 7243, 7627, 7623, 7601, 7613, 4029, 4072, 4027, 4011, 4050, 4014, 1027, 1632, 2172, 2029, 2000, 2138, 2193, 2201, 5081, 5134, 5284, 6009, 6019, 6150, 7061, 6161, 6221, 7076, 6226, 7015, 7124, 6297, 5061, 7206, 7212, 7278, 5260, 7297, 7300, 4001, 5643, 7614, 7618];
+beastIDs.forEach(b => Array.isArray(CARDS[b].sub_type) ? CARDS[b].sub_type.push('14') : CARDS[b].sub_type = [CARDS[b].sub_type, '14']);
+CARDS[494] = { id: 494, name: 'General Karlson', card_type: 1, rarity: 4 };
+
 let commanders = Object.values(CARDS).filter(c => c.card_type == 1 && c.id > 100); // exclude player commanders
 commanders = commanders.filter(c => !c.name.includes('Lightning Boss') && !c.name.includes('Party')); // exclude LBN and anniversary commanders
 console.log(`${commanders.length} commanders`);
@@ -145,7 +150,7 @@ function generateInput(elementId, newValue, filter = filterInput) {
 function generateBGE() {
 	const bges = Object.keys(BGES).filter(id => id < newBGE && BGES[id].tribe == eventBGE);
 	shuffleArray(bges);
-	generateInput('bgeId', bges[0], filterBge);
+	generateInput('bgeId', bges[0] ? bges[0] : newBGE, filterBge);
 }
 function generateDungeon(update = true) {
 	const start = generateCardList(epicCommanders, 3);
@@ -179,10 +184,10 @@ function generate() {
 	generateInput('rewardFlask', options?.flask ? options.flask : flask, filterItem);
 	const legendaries = generateCardList(standardLegendaries, 3, false);
 	generateInput('Legendary1', legendaries[0]);
-	generateInput('Legendary3', legendaries[2] ? legendaries[2] : legendaries[0]);
 	generateInput('Legendary2', legendaries[1]);
+	generateInput('Legendary3', legendaries[2] ? legendaries[2] : legendaries[0]);
 	// generateInput('rewardLegendary', generateCardList(rewardLegendaries, 1)[0]);
-	const epics = generateCardList(rewardEpics, 3);
+	const epics = generateCardList(rewardEpics, 3, false);
 	generateInput('rewardEpic1', epics[0]);
 	generateInput('rewardEpic2', epics[1]);
 	generateInput('rewardEpic3', epics[2]);
@@ -206,6 +211,15 @@ function generate() {
 }
 
 
+function overrideTemplate(template, generated) {
+	if (eventBGE == 'Beast' && (template == 'reward_box' || template.endsWith('_AC'))) {
+		generated = generated.replace('beast_arena_box', 'event_006_chance_chest_w1');
+		generated = generated.replace('arena_box_banner', 'event_006_banner_chance_w1');
+		generated = generated.replace('bundle>76<', 'bundle>39<');
+	}
+	return generated;
+}
+
 function escapeXML(text) {
 	return text.replace(/[<>&'"]/g, function(char) {
 		switch (char) {
@@ -228,6 +242,7 @@ function updateEditor(template) {
 		value = skipEscape(param) ? value : escapeXML(value);
 		generated = generated.replace(paramRegex, value);
 	}
+	generated = overrideTemplate(template, generated);
 	if (generated != previous[template]) {
 		// console.log('Updating editor:', template);
 		const scrollInfo = editors[template].getScrollInfo();
@@ -368,7 +383,7 @@ function updateParameters() {
 	parameters[template]['STONES_MILESTONE_2'] = scaleStones(150, scaleQuantity);
 	eventTribeId && (parameters[template]['EVENT_TRIBE_ID'] = eventTribeId);
 	const tribeRuneId = { 'Angel': 5501, 'Elemental': 5502, 'Undead': 5503, 'Goblin': 5504, 'Dragon': 5505,
-							'Seafolk': 5506, 'Avian': 5507, 'Frog': 5508, 'Mecha': 5509, 'Insect': 5510 }
+							'Seafolk': 5506, 'Avian': 5507, 'Frog': 5508, 'Mecha': 5509, 'Insect': 5510, 'Beast': 5511 }
 	eventBGE && (parameters[template]['TRIBE_RUNE_ID'] = tribeRuneId[eventBGE]);
 	let commander = 1;
 	for (const [phase, commanders] of [['STARTING', 3], ['MIDDLE', 4], ['FINAL', 2]]) {
