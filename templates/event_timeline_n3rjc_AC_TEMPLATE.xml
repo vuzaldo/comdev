@@ -1,3 +1,4 @@
+	<!-- Arena Chest -->
 	<event>
 		<id>{EVENT_ID}</id>
 		<name>{EVENT_BGE} Arena Chest</name>
@@ -10,6 +11,7 @@
 		<hide_news>1</hide_news>
 		<priority>-40</priority>
 		<event_box>{BOX_ID}</event_box>
+		<!-- First Thursday -->
 		<start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} -->
 		<end_duration>40320</end_duration>  <!-- 40320 | 28 Days -->
 		<mission_req>64</mission_req>
