@@ -3863,7 +3863,7 @@
 			<skill id="frost" x="9"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4044</id>
 		<card_type>2</card_type>
@@ -3938,7 +3938,7 @@
 			<skill id="protect" all="1" y="1" x="9"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4045</id>
 		<card_type>2</card_type>
@@ -4024,7 +4024,7 @@
 			<skill id="enrage" all="1" x="8"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4046</id>
 		<card_type>2</card_type>
@@ -4114,7 +4114,7 @@
 			<skill id="flurry" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4047</id>
 		<card_type>2</card_type>
@@ -4201,7 +4201,7 @@
 			<skill id="poisonstrike" x="10"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4048</id>
 		<card_type>2</card_type>
@@ -4289,7 +4289,7 @@
 			<skill id="barrage" x="10"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4049</id>
 		<card_type>2</card_type>
@@ -4648,7 +4648,7 @@
 			<skill id="weaken" all="1" x="8"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4053</id>
 		<card_type>2</card_type>
@@ -4822,7 +4822,7 @@
 			<skill id="weaken" all="1" x="5"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4055</id>
 		<card_type>2</card_type>
@@ -5344,7 +5344,7 @@
 			<skill id="burn" x="9"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4061</id>
 		<card_type>2</card_type>
@@ -5597,7 +5597,7 @@
 			<skill id="confuse" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4064</id>
 		<card_type>2</card_type>
@@ -5685,7 +5685,7 @@
 			<skill id="burn" x="8"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4065</id>
 		<card_type>2</card_type>
@@ -5767,7 +5767,7 @@
 			<skill id="confuse" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>4066</id>
 		<card_type>2</card_type>
@@ -7012,6 +7012,59 @@
 			<skill id="backlash" x="7"/>
 			<skill id="counterburn" x="10"/>
 		</upgrade>
+	</unit>
+
+	<unit>
+		<id>4080</id>
+		<card_type>2</card_type>
+		<name>Unnamed Champ</name>
+		<set>5000</set>
+		<shard_card>1</shard_card>
+		<cannot_salvage>1</cannot_salvage>
+		<picture>Dragon_Lion_Wyvern_B</picture>
+		<asset_bundle>187</asset_bundle>
+		<hidden_until_time>1706806800</hidden_until_time>
+		<item_name>Unnamed Stone</item_name>
+		<item_desc>Collect Unnamed Stones!</item_desc>
+		<item_icon>championStone_epic</item_icon>
+		<item_bundle_id>58</item_bundle_id>
+		<item_overflow_item_id>104003</item_overflow_item_id>
+		<type>2</type>
+		<sub_type>9</sub_type>
+		<attack>1</attack>
+		<health>1</health>
+		<cost>0</cost>
+		<rarity>4</rarity>
+		<upgrade>
+			<level>2</level>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+		</upgrade>
+		<upgrade>
+			<level>7</level>
+		</upgrade>
+		<upgrade>
+			<level>8</level>
+		</upgrade>
+		<upgrade>
+			<level>9</level>
+		</upgrade>
+		<upgrade>
+			<level>10</level>
+			<attack>1</attack>
+			<health>1</health>
+		</upgrade>
+		<desc>Nothing to see here.</desc>
 	</unit>
 
 	<!-- Reward End -->
@@ -8787,7 +8840,7 @@
 			<skill id="poison" x="12"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5620</id>
 		<card_type>2</card_type>
@@ -8873,7 +8926,7 @@
 			<skill id="enrage" x="8" y="16" all="1"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5621</id>
 		<card_type>2</card_type>
@@ -8958,7 +9011,7 @@
 			<skill id="frost" x="7"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5622</id>
 		<card_type>2</card_type>
@@ -9206,7 +9259,7 @@
 			<skill id="counter" x="13"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5625</id>
 		<card_type>2</card_type>
@@ -9381,7 +9434,7 @@
 			<skill id="flurry" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5627</id>
 		<card_type>2</card_type>
@@ -9631,7 +9684,7 @@
 			<skill id="jam" c="3"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5630</id>
 		<card_type>2</card_type>
@@ -9716,7 +9769,7 @@
 			<skill id="jam" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5631</id>
 		<card_type>2</card_type>
@@ -9885,7 +9938,7 @@
 			<skill id="jam" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5633</id>
 		<card_type>2</card_type>
@@ -9965,7 +10018,7 @@
 			<skill id="jam" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5634</id>
 		<card_type>2</card_type>
@@ -10052,7 +10105,7 @@
 			<skill id="frost" x="6"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5635</id>
 		<card_type>2</card_type>
@@ -10135,7 +10188,7 @@
 			<skill id="frost" x="7"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5636</id>
 		<card_type>2</card_type>
@@ -10222,7 +10275,7 @@
 			<skill id="corrosive" x="10"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5637</id>
 		<card_type>2</card_type>
@@ -10310,7 +10363,7 @@
 			<skill id="frost" x="8"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5638</id>
 		<card_type>2</card_type>
@@ -10815,7 +10868,7 @@
 			<skill id="flurry" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>5644</id>
 		<card_type>2</card_type>
@@ -11072,7 +11125,7 @@
 			<skill id="jam" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<!-- === AETHER END === -->
 
 	<!-- =============================== -->
@@ -11970,7 +12023,7 @@
 			<skill id="leech" x="12"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6610</id>
 		<card_type>2</card_type>
@@ -12045,7 +12098,7 @@
 			<skill id="flurry" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6611</id>
 		<card_type>2</card_type>
@@ -12135,7 +12188,7 @@
 			<skill id="flurry" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6612</id>
 		<card_type>2</card_type>
@@ -12222,7 +12275,7 @@
 			<skill id="protect" x="8" y="11" all="1"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6613</id>
 		<card_type>2</card_type>
@@ -12302,7 +12355,7 @@
 			<skill id="fervor" x="5" y="10"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6614</id>
 		<card_type>2</card_type>
@@ -12487,7 +12540,7 @@
 			<skill id="enrage" x="8" all="1"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6616</id>
 		<card_type>2</card_type>
@@ -12772,7 +12825,7 @@
 			<skill id="poisonstrike" x="9"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6619</id>
 		<card_type>2</card_type>
@@ -12863,7 +12916,7 @@
 			<skill id="enrage" x="10" all="1"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6620</id>
 		<card_type>2</card_type>
@@ -12948,7 +13001,7 @@
 			<skill id="leech" x="15"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6621</id>
 		<card_type>2</card_type>
@@ -13037,7 +13090,7 @@
 			<skill id="burn" x="8"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6622</id>
 		<card_type>2</card_type>
@@ -13126,7 +13179,7 @@
 			<skill id="strike" all="1" x="9"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6623</id>
 		<card_type>2</card_type>
@@ -13209,7 +13262,7 @@
 			<skill id="valor" x="13"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6624</id>
 		<card_type>2</card_type>
@@ -13291,7 +13344,7 @@
 			<skill id="flurry" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6625</id>
 		<card_type>2</card_type>
@@ -13376,7 +13429,7 @@
 			<skill id="confuse" c="3"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6626</id>
 		<card_type>2</card_type>
@@ -13465,7 +13518,7 @@
 			<skill id="strike" all="1" x="6"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6627</id>
 		<card_type>2</card_type>
@@ -13807,7 +13860,7 @@
 			<skill id="poison" x="14"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6631</id>
 		<card_type>2</card_type>
@@ -13894,7 +13947,7 @@
 			<skill id="flurry" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>6632</id>
 		<card_type>2</card_type>
@@ -15710,7 +15763,7 @@
 			<skill id="enrage" all="1" x="8"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>7619</id>
 		<card_type>2</card_type>
@@ -15798,7 +15851,7 @@
 			<skill id="berserk" x="6"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>7620</id>
 		<card_type>2</card_type>
@@ -15887,7 +15940,7 @@
 			<skill id="nullify" x="5"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>7621</id>
 		<card_type>2</card_type>
@@ -16059,7 +16112,7 @@
 			<skill id="fervor" x="7" y="7"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>7623</id>
 		<card_type>2</card_type>
@@ -16144,7 +16197,7 @@
 			<skill id="poison" x="12"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>7624</id>
 		<card_type>2</card_type>
@@ -16229,7 +16282,7 @@
 			<skill id="flurry" c="2"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>7625</id>
 		<card_type>2</card_type>
@@ -16310,7 +16363,7 @@
 			<skill id="fervor" x="6" y="5"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>7626</id>
 		<card_type>2</card_type>
@@ -16395,7 +16448,7 @@
 			<skill id="weaken" x="6" all="1"/>
 		</upgrade>
 	</unit>
-	
+
 	<unit>
 		<id>7627</id>
 		<card_type>2</card_type>

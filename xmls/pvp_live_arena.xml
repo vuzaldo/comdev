@@ -3,7 +3,7 @@
 	
 	<!-- Config vars -->
 	<config>
-		<reward_slots>4</reward_slots>
+		<reward_slots>6</reward_slots>
 		<points_icon>111</points_icon>
 		<points_icon_bundle>111</points_icon_bundle>
 		<prefab>111</prefab>
@@ -29,8 +29,8 @@
 		<win>10</win>
 		<loss>0</loss>		<!-- points lost on defeat -->
 		<chest_reward>
-			<chest id='1' p='0.91' />
-			<chest id='2' p='0.3' />
+			<chest id="1" p="0.91"/>
+			<chest id="2" p="0.3"/>
 		</chest_reward>
 	</rank>
 
@@ -41,13 +41,13 @@
 		<name>Bronze III</name>
 		<level_string>III</level_string>
 		<min_rating>0</min_rating>
-		<icon name="badge_01" bundle='31' />
+		<icon name="badge_01" bundle="31"/>
 		<tier_color>CC6633</tier_color>
 		<priority>1</priority>
 		<chests>
-			<chest id='3' p='0.88' />
-			<chest id='4' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='5' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="3" p="0.88"/>
+			<chest id="4" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="5" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -55,13 +55,13 @@
 		<name>Bronze II</name>
 		<level_string>II</level_string>
 		<min_rating>250</min_rating>
-		<icon name="badge_01" bundle='31' />
+		<icon name="badge_01" bundle="31"/>
 		<tier_color>CC6633</tier_color>
 		<priority>2</priority>
 		<chests>
-			<chest id='3' p='0.88' />
-			<chest id='4' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='5' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="3" p="0.88"/>
+			<chest id="4" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="5" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -69,13 +69,13 @@
 		<name>Bronze I</name>
 		<level_string>I</level_string>
 		<min_rating>500</min_rating>
-		<icon name="badge_01" bundle='31' />
+		<icon name="badge_01" bundle="31"/>
 		<tier_color>CC6633</tier_color>
 		<priority>3</priority>
 		<chests>
-			<chest id='3' p='0.88' />
-			<chest id='4' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='5' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="3" p="0.88"/>
+			<chest id="4" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="5" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -83,13 +83,13 @@
 		<name>Silver III</name>
 		<level_string>III</level_string>
 		<min_rating>800</min_rating>
-		<icon name='badge_02' bundle='31' />
+		<icon name="badge_02" bundle="31"/>
 		<tier_color>CCCCCC</tier_color>
 		<priority>4</priority>
 		<chests>
-			<chest id='4' p='0.88' />
-			<chest id='5' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='6' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="4" p="0.88"/>
+			<chest id="5" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="6" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -97,13 +97,13 @@
 		<name>Silver II</name>
 		<level_string>II</level_string>
 		<min_rating>1000</min_rating>
-		<icon name='badge_02' bundle='31' />
+		<icon name="badge_02" bundle="31"/>
 		<tier_color>CCCCCC</tier_color>
 		<priority>5</priority>
 		<chests>
-			<chest id='4' p='0.88' />
-			<chest id='5' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='6' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="4" p="0.88"/>
+			<chest id="5" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="6" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -111,13 +111,13 @@
 		<name>Silver I</name>
 		<level_string>I</level_string>
 		<min_rating>1200</min_rating>
-		<icon name='badge_02' bundle='31' />
+		<icon name="badge_02" bundle="31"/>
 		<tier_color>CCCCCC</tier_color>
 		<priority>6</priority>
 		<chests>
-			<chest id='4' p='0.88' />
-			<chest id='5' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='6' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="4" p="0.88"/>
+			<chest id="5" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="6" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -125,13 +125,13 @@
 		<name>Gold III</name>
 		<level_string>III</level_string>
 		<min_rating>1400</min_rating>
-		<icon name='badge_03' bundle='31' />
+		<icon name="badge_03" bundle="31"/>
 		<tier_color>CC9933</tier_color>
 		<priority>7</priority>
 		<chests>
-			<chest id='5' p='0.88' />
-			<chest id='6' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='8' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="5" p="0.88"/>
+			<chest id="6" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="8" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -139,13 +139,13 @@
 		<name>Gold II</name>
 		<level_string>II</level_string>
 		<min_rating>1600</min_rating>
-		<icon name='badge_03' bundle='31' />
+		<icon name="badge_03" bundle="31"/>
 		<tier_color>CC9933</tier_color>
 		<priority>8</priority>
 		<chests>
-			<chest id='5' p='0.88' />
-			<chest id='6' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='8' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="5" p="0.88"/>
+			<chest id="6" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="8" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -153,13 +153,13 @@
 		<name>Gold I</name>
 		<level_string>I</level_string>
 		<min_rating>1700</min_rating>
-		<icon name='badge_03' bundle='31' />
+		<icon name="badge_03" bundle="31"/>
 		<tier_color>CC9933</tier_color>
 		<priority>9</priority>
 		<chests>
-			<chest id='5' p='0.88' />
-			<chest id='6' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='8' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="5" p="0.88"/>
+			<chest id="6" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="8" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -167,13 +167,13 @@
 		<name>Platinum III</name>
 		<level_string>III</level_string>
 		<min_rating>1800</min_rating>
-		<icon name='badge_04' bundle='31' />
+		<icon name="badge_04" bundle="31"/>
 		<tier_color>E5E4E2</tier_color>
 		<priority>10</priority>
 		<chests>
-			<chest id='6' p='0.88' />
-			<chest id='8' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='7' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="6" p="0.88"/>
+			<chest id="8" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="7" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -181,13 +181,13 @@
 		<name>Platinum II</name>
 		<level_string>II</level_string>
 		<min_rating>1900</min_rating>
-		<icon name='badge_04' bundle='31' />
+		<icon name="badge_04" bundle="31"/>
 		<tier_color>E5E4E2</tier_color>
 		<priority>11</priority>
 		<chests>
-			<chest id='6' p='0.88' />
-			<chest id='8' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='7' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="6" p="0.88"/>
+			<chest id="8" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="7" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
@@ -195,26 +195,26 @@
 		<name>Platinum I</name>
 		<level_string>I</level_string>
 		<min_rating>2000</min_rating>
-		<icon name='badge_04' bundle='31' />
+		<icon name="badge_04" bundle="31"/>
 		<tier_color>E5E4E2</tier_color>
 		<priority>12</priority>
 		<chests>
-			<chest id='6' p='0.88'  />
-			<chest id='8' p='0.10' n='10' drop_type='4' drop_id='1' />
-			<chest id='7' p='0.02' n='50' drop_type='4' drop_id='2' />
+			<chest id="6" p="0.88"/>
+			<chest id="8" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="7" p="0.02" n="50" drop_type="4" drop_id="2"/>
 		</chests>
 	</rating_tier>
 	<rating_tier>
 		<id>13</id>
 		<name>Ruby</name>
-		<level_string></level_string>
+		<level_string/>
 		<min_rating>99999999</min_rating>
-		<icon name='badge_05' bundle='31' />
+		<icon name="badge_05" bundle="31"/>
 		<tier_color>9B111E</tier_color>
 		<priority>13</priority>
 		<chests>
-			<chest id='8' p='0.90'  />
-			<chest id='7' p='0.10' n='10' drop_type='4' drop_id='1' />
+			<chest id="8" p="0.90"/>
+			<chest id="7" p="0.10" n="10" drop_type="4" drop_id="1"/>
 		</chests>
 	</rating_tier>
 	
@@ -232,7 +232,7 @@
 			<gold>10</gold>
 			<pack>1</pack>
 			<pack>84</pack>
-			<item id='5' min_number='10' max_number='17'/>
+			<item id="5" min_number="10" max_number="17"/>
 		</rewards>
 	</chest>
 	<chest>
@@ -245,7 +245,7 @@
 		<rewards>
 			<pack>2</pack>
 			<pack>85</pack>
-			<item id='5' min_number='30' max_number='45'/>
+			<item id="5" min_number="30" max_number="45"/>
 		</rewards>
 	</chest> 
 	
@@ -258,8 +258,8 @@
 		<bundle>31</bundle>
 		<rewards>
 			<pack>4101</pack>
-			<item id='5' min_number='20' max_number='40'/>
-			<item id='2524' min_number='1' max_number='3'/>
+			<item id="5" min_number="20" max_number="40"/>
+			<item id="2524" min_number="1" max_number="3"/>
 		</rewards>
 	</chest>
 	<chest>
@@ -270,8 +270,8 @@
 		<bundle>31</bundle>
 		<rewards>
 			<pack>4102</pack>
-			<item id='5' min_number='30' max_number='50'/>
-			<item id='2524' min_number='2' max_number='5'/>
+			<item id="5" min_number="30" max_number="50"/>
+			<item id="2524" min_number="2" max_number="5"/>
 		</rewards>
 	</chest>
 	<chest>
@@ -282,8 +282,8 @@
 		<bundle>31</bundle>
 		<rewards>
 			<pack>4103</pack>
-			<item id='5' min_number='40' max_number='60'/>
-			<item id='2524' min_number='4' max_number='6'/>
+			<item id="5" min_number="40" max_number="60"/>
+			<item id="2524" min_number="4" max_number="6"/>
 		</rewards>
 	</chest>
 	<chest>
@@ -294,8 +294,8 @@
 		<bundle>31</bundle>
 		<rewards>
 			<pack>4104</pack>
-			<item id='5' min_number='50' max_number='70'/>
-			<item id='2524' min_number='6' max_number='10'/>
+			<item id="5" min_number="50" max_number="70"/>
+			<item id="2524" min_number="6" max_number="10"/>
 		</rewards>
 	</chest>
 	<chest>
@@ -306,8 +306,8 @@
 		<bundle>31</bundle>
 		<rewards>
 			<pack>4106</pack>
-			<item id='5' min_number='70' max_number='100'/>
-			<item id='2524' min_number='12' max_number='15'/>
+			<item id="5" min_number="70" max_number="100"/>
+			<item id="2524" min_number="12" max_number="15"/>
 		</rewards>
 	</chest>
 	<chest>
@@ -318,8 +318,8 @@
 		<bundle>31</bundle>
 		<rewards>
 			<pack>4105</pack>
-			<item id='5' min_number='100' max_number='600'/>
-			<item id='2524' min_number='25' max_number='50'/>
+			<item id="5" min_number="100" max_number="600"/>
+			<item id="2524" min_number="25" max_number="50"/>
 		</rewards>
 	</chest>
 	

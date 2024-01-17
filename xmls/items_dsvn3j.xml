@@ -5156,13 +5156,13 @@
 			<item id="28181" quantity="1"/> <!-- Aether 1D and 2D -->
 		</choice>
 		<choice id="2">
-			<item id="28182" quantity="1"/> <!-- Aether 3D and 4D -->
+			<item id="28182" quantity="1"/> <!-- Aether and Void 3D and 4D -->
 		</choice>
 		<choice id="3">
-			<item id="28183" quantity="1"/> <!-- Chaos -->
+			<item id="28183" quantity="1"/> <!-- Chaos not Tethys -->
 		</choice>
 		<choice id="4">
-			<item id="28184" quantity="1"/> <!-- Wyld and Void -->
+			<item id="28184" quantity="1"/> <!-- Wyld and Tethys -->
 		</choice>
 	</item>
 
@@ -5191,7 +5191,7 @@
 		<name>Sound of Death, Allfather Elemental Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Sound of Death, Allfather Stones; OR revert</desc>
+		<desc>Consume to get your choice of Sound of Death, Allfather, K'luum Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -5200,6 +5200,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104043" quantity="1"/> <!-- Allfather -->
+		</choice>
+		<choice id="4">
+			<item id="104075" quantity="1"/> <!-- K'luum -->
 		</choice>
 	</item>
 	<item>
@@ -5226,7 +5229,7 @@
 		<name>Amarok, Quageye, Viir Elemental Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Amarok, Quageye, Viir Stones; OR revert</desc>
+		<desc>Consume to get your choice of Amarok, Quageye, Tethys Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -5237,7 +5240,7 @@
 			<item id="104025" quantity="1"/> <!-- Quageye -->
 		</choice>
 		<choice id="4">
-			<item id="104063" quantity="1"/> <!-- Viir -->
+			<item id="104076" quantity="1"/> <!-- Tethys -->
 		</choice>
 	</item>
 
@@ -5250,10 +5253,10 @@
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Angel Reward Champion Stones</desc>
 		<choice id="1">
-			<item id="28191" quantity="1"/> <!-- Aether and Wyld 1D and 2D -->
+			<item id="28191" quantity="1"/> <!-- Aether 1D -->
 		</choice>
 		<choice id="2">
-			<item id="28192" quantity="1"/> <!-- Aether 3D and 4D -->
+			<item id="28192" quantity="1"/> <!-- Aether and Wyld 2D, 3D and 4D -->
 		</choice>
 		<choice id="3">
 			<item id="28193" quantity="1"/> <!-- Chaos and Factionless -->
@@ -5266,7 +5269,7 @@
 		<name>Razi, Leyla, Freya Angel Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Razi, Leyla, Freya Stones; OR revert</desc>
+		<desc>Consume to get your choice of Razi, Leyla, Melkira Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28190" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -5277,7 +5280,7 @@
 			<item id="104041" quantity="1"/> <!-- Leyla -->
 		</choice>
 		<choice id="4">
-			<item id="104051" quantity="1"/> <!-- Freya -->
+			<item id="104077" quantity="1"/> <!-- Melkira -->
 		</choice>
 	</item>
 	<item>
@@ -5285,7 +5288,7 @@
 		<name>Kachina, Cyno Angel Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Kachina, Cyno Stones; OR revert</desc>
+		<desc>Consume to get your choice of Kachina, Cyno, Freya Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28190" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -5294,6 +5297,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104029" quantity="1"/> <!-- Cyno -->
+		</choice>
+		<choice id="4">
+			<item id="104051" quantity="1"/> <!-- Freya -->
 		</choice>
 	</item>
 	<item>
@@ -5357,10 +5363,10 @@
 	</item>
 	<item>
 		<id>28202</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Cordelia, Foxfire, Vasile Undead Flask</name>
+		<name>Cordelia, Vasile Undead Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Cordelia, Foxfire, Vasile Stones; OR revert</desc>
+		<desc>Consume to get your choice of Cordelia, Vasile Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28200" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -5368,9 +5374,6 @@
 			<item id="104001" quantity="1"/> <!-- Cordelia -->
 		</choice>
 		<choice id="3">
-			<item id="104012" quantity="1"/> <!-- Foxfire -->
-		</choice>
-		<choice id="4">
 			<item id="104035" quantity="1"/> <!-- Vasile -->
 		</choice>
 	</item>
@@ -5631,7 +5634,7 @@
 			<item id="28251" quantity="1"/> <!-- Aether and Void 2D -->
 		</choice>
 		<choice id="2">
-			<item id="28252" quantity="1"/> <!-- Aether 3D and 4D -->
+			<item id="28252" quantity="1"/> <!-- Aether and Chaos 3D and 4D -->
 		</choice>
 		<choice id="3">
 			<item id="28253" quantity="1"/> <!-- Wyld -->
@@ -5663,7 +5666,7 @@
 		<name>Lairel, Morty Ahab Seafolk Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Lairel, Morty Ahab Stones; OR revert</desc>
+		<desc>Consume to get your choice of Lairel, Morty Ahab, Tethys Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28250" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -5672,6 +5675,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104049" quantity="1"/> <!-- Morty Ahab -->
+		</choice>
+		<choice id="4">
+			<item id="104076" quantity="1"/> <!-- Tethys -->
 		</choice>
 	</item>
 	<item>
@@ -5729,7 +5735,7 @@
 		<choice id="3">
 			<item id="104060" quantity="1"/> <!-- Yaritza -->
 		</choice>
-		<choice id="3">
+		<choice id="4">
 			<item id="105640" quantity="1"/> <!-- Kattoraki -->
 		</choice>
 	</item>
@@ -5767,6 +5773,98 @@
 	</item>
 
 	<!-- Beast -->
+
+	<item>
+		<id>28270</id>
+		<name>Beast Super Flask</name>
+		<icon>essence_of_gold</icon>
+		<bundle>58</bundle>
+		<desc>A flask of flasks containing all previous Beast Reward Champion Stones</desc>
+		<choice id="1">
+			<item id="28271" quantity="1"/> <!-- Chaos 2D -->
+		</choice>
+		<choice id="2">
+			<item id="28272" quantity="1"/> <!-- Aether and Chaos 3D and 4D -->
+		</choice>
+		<choice id="3">
+			<item id="28273" quantity="1"/> <!-- Wyld 2D -->
+		</choice>
+		<choice id="4">
+			<item id="28274" quantity="1"/> <!-- Void and Wyld 3D -->
+		</choice>
+	</item>
+		
+	<!-- Flasks within Super Flask -->
+	<item>
+		<id>28271</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Foxfire, Mechau Beast Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Foxfire, Mechau Stones; OR revert</desc>
+		<choice id="1">
+			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="104001" quantity="1"/> <!-- Foxfire -->
+		</choice>
+		<choice id="3">
+			<item id="104072" quantity="1"/> <!-- Mechau -->
+		</choice>
+	</item>
+	<item>
+		<id>28272</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Umbu, Cyno, Naglar Beast Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Umbu, Cyno, Naglar Stones; OR revert</desc>
+		<choice id="1">
+			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="104027" quantity="1"/> <!-- Umbu -->
+		</choice>
+		<choice id="3">
+			<item id="104029" quantity="1"/> <!-- Cyno -->
+		</choice>
+		<choice id="4">
+			<item id="104071" quantity="1"/> <!-- Naglar -->
+		</choice>
+	</item>
+	<item>
+		<id>28273</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Ralgan, Illu Beast Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Ralgan, Illu Stones; OR revert</desc>
+		<choice id="1">
+			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="104014" quantity="1"/> <!-- Ralgan -->
+		</choice>
+		<choice id="3">
+			<item id="104050" quantity="1"/> <!-- Illu -->
+		</choice>
+	</item>
+	<item>
+		<id>28274</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Amarok, Quageye, Viir Beast Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Amarok, Quageye, Viir Stones; OR revert</desc>
+		<choice id="1">
+			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="104011" quantity="1"/> <!-- Amarok -->
+		</choice>
+		<choice id="3">
+			<item id="104025" quantity="1"/> <!-- Quageye -->
+		</choice>
+		<choice id="3">
+			<item id="104063" quantity="1"/> <!-- Viir -->
+		</choice>
+	</item>
 
 	<!-- Mecha -->
 
@@ -5834,7 +5932,7 @@
 		<name>LOCO-5000, Shadomeka, Naglar Mecha Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of LOCO-5000, Shadomeka, Naglar Stones; OR revert</desc>
+		<desc>Consume to get your choice of LOCO-5000, Shadomeka Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28290" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -5844,26 +5942,20 @@
 		<choice id="3">
 			<item id="104052" quantity="1"/> <!-- Shadomeka -->
 		</choice>
-		<choice id="4">
-			<item id="104071" quantity="1"/> <!-- Naglar -->
-		</choice>
 	</item>
 	<item>
 		<id>28294</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Ralgan, Viracocha, Sivun Mecha Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Ralgan, Viracocha, Sivun Stones; OR revert</desc>
+		<desc>Consume to get your choice of Viracocha, Sivun Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28290" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104014" quantity="1"/> <!-- Ralgan -->
-		</choice>
-		<choice id="3">
 			<item id="104044" quantity="1"/> <!-- Viracocha -->
 		</choice>
-		<choice id="4">
+		<choice id="3">
 			<item id="104074" quantity="1"/> <!-- Sivun -->
 		</choice>
 	</item>
