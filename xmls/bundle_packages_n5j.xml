@@ -13763,6 +13763,182 @@
 		<price_point_id>t50</price_point_id>
 	</package>
 
+	<package>
+		<id>1328</id>
+		<name>Super Dual Beast Bonus!</name>
+		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFBeast card, 200 Arcane Dust and 150 Inscription Powder! May be purchased 4 times!</desc>
+		<asset_prefab>chaos_crystal</asset_prefab>
+		<bundle>30</bundle>
+		<!-- Stuff to give -->
+		<tokens>800</tokens>
+		<pack>5361</pack>
+		<item id="4001" number="150" />	<!-- Inscription Powder -->
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t50</price_point_id>
+	</package>
+
+	<package>
+		<id>1329</id>
+		<name>Arezzo Trove</name>
+		<desc>Gives 75 ^cE7FFArezzo Stone^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 50 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id="104080" number="75" /> <!-- Stone -->
+		<item id="2001" number="25" /> <!-- Arcane Fragment -->
+		<item id="1004" number="10" /> <!-- Energy +20 -->
+		<item id="4001" number="50" /> <!-- Inscription Powder -->
+		<sp>50</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1330</id>
+		<name>Arezzo Large Trove</name>
+		<desc>Gives 200 ^cE7FFArezzo Stone^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 100 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id="104080" number="200" /> <!-- Stone -->
+		<item id="2001" number="50" /> <!-- Arcane Fragment -->
+		<item id="1004" number="15" /> <!-- Energy +20 -->
+		<item id="4001" number="100" /> <!-- Inscription Powder -->
+		<sp>100</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t40_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1331</id>
+		<name>Arezzo Fortune Trove</name>
+		<desc>Gives 725 ^cE7FFArezzo Stone^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 300 Arcane Dust, and 250 Inscription Powder! May be purchased twice!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<!-- Stuff to give -->
+		<item id="104080" number="725" /> <!-- Stone -->
+		<item id="2001" number="150" /> <!-- Arcane Fragment -->
+		<item id="1004" number="25" /> <!-- Energy +20 -->
+		<item id="4001" number="250" /> <!-- Inscription Powder -->
+		<sp>300</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t60_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1332</id>
+		<name>Arezzo Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFArezzo, the Chimera^cFFFF! May be purchased twice!</desc>
+		<priority>400</priority>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<category>1</category>
+		<!-- Stuff to give -->
+		<item id="104080" number="200" /> <!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1333</id>
+		<name>Blazing Bluefire Flask Special</name>
+		<desc>Gives 100 Blazing Bluefire Flasks. They contain Champion Stones for Foxfire; Kachina, the Dreamer; Teroxis, King of Stones; or Bluefire, Void Incarnate! May be purchased 8 times!</desc>
+		<asset_prefab>event_032_stonepack_02_foxfire</asset_prefab>
+		<bundle>113</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id="2553" number="100" />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1334</id>
+		<name>Beast Starter Set</name>
+		<desc>Power up your Beast deck! Contains 4 Quads: ^cE7FFBlazehorn^cFFFF, ^cE7FFRhythm of the Wyld^cFFFF, ^c0DFFClawkin Elite^cFFFF, and ^c0DFFSnowstep Strider^cFFFF plus 50 Foxfire Stones! One purchase only!</desc>
+		<asset_prefab>starter_deck</asset_prefab>
+		<bundle>35</bundle>
+		<background_prefab>3rdAnniversary_banner</background_prefab>
+		<background_bundle>136</background_bundle>
+		<category>2</category>
+		<show_list>1</show_list>
+		<!-- Stuff to give -->
+		<card id="21343" /> <!-- Blazehorn -->
+		<card id="21641" /> <!-- Rhythm of the Wyld -->
+		<card id="21625" /> <!-- Clawkin Elite -->
+		<card id="22021" /> <!-- Snowstep Strider -->
+		<item id="104001" number="50" /> <!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10_monthly</price_point_id>
+	</package>
+
+	<package>
+		<id>1335</id>
+		<name>Walker Frototype Shard Bundle!</name>
+		<desc>Gives 330 Shards and a BONUS ^cE7FFWalker Frototype^cFFFF card! May be purchased 8 times!</desc>
+		<priority>300</priority>
+		<!-- Stuff to give -->
+		<card id="6271" />
+		<tokens>330</tokens>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1336</id>
+		<name>Riders Champion Guild Bundle</name>
+		<desc>Purchase 700 Shards. You and everyone in your guild receives 100 ^cE7FFRider Stones^cFFFF!</desc>
+		<asset_prefab>legendary_crystal_guild</asset_prefab>
+		<bundle>30</bundle>
+		<background_prefab>event_97_beastriders_banner</background_prefab>
+		<background_bundle>261</background_bundle>
+		<priority>300</priority>
+		<num_available>40</num_available>
+		<!-- Stuff to give -->
+		<tokens>700</tokens>
+		<item id="107627" number="100" />
+		<guild_bonus>
+			<duration>259200</duration>
+			<item id="107627" number="100" />
+		</guild_bonus>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t50</price_point_id>
+	</package>
+
+	<package>
+		<id>1337</id>
+		<name>Quad Wolf Queen Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFWolf Queen^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id="27011" />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1338</id>
+		<name>Quad Fathom Dino Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFFathom Dino^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id="26150" />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
 <!-- END BUNDLES BUNDLES END-->
 
 	<!-- ====================== -->
