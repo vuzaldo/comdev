@@ -4561,6 +4561,7 @@
 		<name>Conflux Convergence Super Flask</name>
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>A flask of flasks containing all previous Elemental Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28021" quantity="1"/> <!-- Aether 1D and 2D -->
@@ -4582,6 +4583,7 @@
 		<name>Fast Aether Elemental Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Kensho, Maki or Yaritza Stones; or revert</desc>
 		<choice id="1">
 			<item id="104018" quantity="1"/> <!-- Kensho -->
@@ -4601,6 +4603,7 @@
 		<name>Slow Aether Elemental Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Sound of Death or Allfather Stones; or revert</desc>
 		<choice id="1">
 			<item id="104020" quantity="1"/> <!-- Sound of Death -->
@@ -4617,6 +4620,7 @@
 		<name>Chaos Elemental Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Foxfire, Coalheart or Frostfire Stones; or revert</desc>
 		<choice id="1">
 			<item id="104001" quantity="1"/> <!-- Foxfire -->
@@ -4636,6 +4640,7 @@
 		<name>Wyld and Void Elemental Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Amarok, Quageye or Viir Stones; or revert</desc>
 		<choice id="1">
 			<item id="104011" quantity="1"/> <!-- Amarok -->
@@ -4659,6 +4664,7 @@
 		<name>Pharos Temple Super Flask</name>
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>A flask of flasks containing all previous Seafolk Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28031" quantity="1"/> <!-- Aether and Void 2D -->
@@ -4677,6 +4683,7 @@
 		<name>Fast Aether &amp; Void Seafolk Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Typheous, Eichiro or Lerna Stones; or revert</desc>
 		<choice id="1">
 			<item id="104007" quantity="1"/> <!-- Typheous -->
@@ -4696,6 +4703,7 @@
 		<name>Slow Aether Seafolk Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Lairel or Morty Ahab Stones; or revert</desc>
 		<choice id="1">
 			<item id="104039" quantity="1"/> <!-- Lairel -->
@@ -4712,6 +4720,7 @@
 		<name>Wyld Seafolk Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Proteus, Illu or Moklam Stones; or revert</desc>
 		<choice id="1">
 			<item id="104017" quantity="1"/> <!-- Proteus -->
@@ -4964,6 +4973,7 @@
 		<name>Skyhaven Assault Super Flask</name>
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>A flask of flasks containing all previous Angel Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28161" quantity="1"/> <!-- Aether and Wyld 1D and 2D -->
@@ -4982,6 +4992,7 @@
 		<name>Fast Aether &amp; Wyld Angel Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Razi, Leyla or Freya Stones; or revert</desc>
 		<choice id="1">
 			<item id="104002" quantity="1"/> <!-- Razi -->
@@ -5001,6 +5012,7 @@
 		<name>Slow Aether Angel Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Kachina or Cyno Stones; or revert</desc>
 		<choice id="1">
 			<item id="104009" quantity="1"/> <!-- Kachina -->
@@ -5017,6 +5029,7 @@
 		<name>Chaos and Factionless Angel Mini Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
+		<duration>43200</duration> <!-- Lasts 30 days -->
 		<desc>Consume to get your choice of Batara, Alyel or Allies Stones; or revert</desc>
 		<choice id="1">
 			<item id="104015" quantity="1"/> <!-- Batara -->
@@ -5029,6 +5042,206 @@
 		</choice>
 		<choice id="4">
 			<item id="2816" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2830</id>
+		<name>Infinite K'luum Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Lerna, the Mutated; Vindicator Batara; Agatha, Myth Warden; or K'luum, the Unbound Void</desc>
+		<choice id="1">
+			<item id="104065" quantity="1"/> <!-- Lerna -->
+		</choice>
+		<choice id="2">
+			<item id="104015" quantity="1"/> <!-- Batara -->
+		</choice>
+		<choice id="3">
+			<item id="104046" quantity="1"/> <!-- Agatha -->
+		</choice>
+		<choice id="4">
+			<item id="104075" quantity="1"/> <!-- K'luum -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2831</id>
+		<name>Barren K'luum Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Kensho, the Aeromaster; Frostfire, the Corrupted; Rhynio Sun Warrior; or K'luum, the Unbound Void</desc>
+		<choice id="1">
+			<item id="104018" quantity="1"/> <!-- Kensho -->
+		</choice>
+		<choice id="2">
+			<item id="104055" quantity="1"/> <!-- Frostfire -->
+		</choice>
+		<choice id="3">
+			<item id="104008" quantity="1"/> <!-- Rhynio -->
+		</choice>
+		<choice id="4">
+			<item id="104075" quantity="1"/> <!-- K'luum -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2832</id>
+		<name>Cyclonic Tethys Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Foxfire; Krampus, the Imposter; Mothmo, the Cryptid; or Tethys, the Watershaper</desc>
+		<choice id="1">
+			<item id="104001" quantity="1"/> <!-- Foxfire -->
+		</choice>
+		<choice id="2">
+			<item id="104066" quantity="1"/> <!-- Krampus -->
+		</choice>
+		<choice id="3">
+			<item id="104030" quantity="1"/> <!-- Mothmo -->
+		</choice>
+		<choice id="4">
+			<item id="104076" quantity="1"/> <!-- Tethys -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2833</id>
+		<name>Fanatical Tethys Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Lok'Thor, the Reborn; Spikes, the Warmonger; Froggit, the Puppeteer; or Tethys, the Watershaper</desc>
+		<choice id="1">
+			<item id="104004" quantity="1"/> <!-- Lok'thor -->
+		</choice>
+		<choice id="2">
+			<item id="104026" quantity="1"/> <!-- Spikes -->
+		</choice>
+		<choice id="3">
+			<item id="104032" quantity="1"/> <!-- Froggit -->
+		</choice>
+		<choice id="4">
+			<item id="104076" quantity="1"/> <!-- Tethys -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2834</id>
+		<name>Holy Melkira Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Paloma, Spear Knight; Typhoeus, Storm Father; Formos Ebonclaw; or Archangel Melkira</desc>
+		<choice id="1">
+			<item id="104023" quantity="1"/> <!-- Paloma -->
+		</choice>
+		<choice id="2">
+			<item id="104007" quantity="1"/> <!-- Typhoeus -->
+		</choice>
+		<choice id="3">
+			<item id="104019" quantity="1"/> <!-- Formos -->
+		</choice>
+		<choice id="4">
+			<item id="104077" quantity="1"/> <!-- Melkira -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2835</id>
+		<name>Guardian Melkira Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Kattoraki, the Sword Savior; Morty Ahab, Seaturned; Ralgan Ironpaw; or Archangel Melkira</desc>
+		<choice id="1">
+			<item id="105640" quantity="1"/> <!-- Kattoraki -->
+		</choice>
+		<choice id="2">
+			<item id="104049" quantity="1"/> <!-- Ahab -->
+		</choice>
+		<choice id="3">
+			<item id="104014" quantity="1"/> <!-- Ralgan -->
+		</choice>
+		<choice id="4">
+			<item id="104077" quantity="1"/> <!-- Melkira -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2836</id>
+		<name>Billowing Daffdal Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Cyno, Arbiter of Souls; Quageye, the Masher; Noctrus Flintclaw; or Daffdal, the Lamp Keeper</desc>
+		<choice id="1">
+			<item id="104029" quantity="1"/> <!-- Cyno -->
+		</choice>
+		<choice id="2">
+			<item id="104025" quantity="1"/> <!-- Quageye -->
+		</choice>
+		<choice id="3">
+			<item id="104000" quantity="1"/> <!-- Noctrus -->
+		</choice>
+		<choice id="4">
+			<item id="104078" quantity="1"/> <!-- Daffdal -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2837</id>
+		<name>Aromatic Daffdal Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Balt, Raptor's Captain; Viracocha; Pirate Hunter Eichiro; or Daffdal, the Lamp Keeper</desc>
+		<choice id="1">
+			<item id="104033" quantity="1"/> <!-- Balt -->
+		</choice>
+		<choice id="2">
+			<item id="104044" quantity="1"/> <!-- Viracocha -->
+		</choice>
+		<choice id="3">
+			<item id="104028" quantity="1"/> <!-- Eichiro -->
+		</choice>
+		<choice id="4">
+			<item id="104078" quantity="1"/> <!-- Daffdal -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2838</id>
+		<name>Nurturing Yanlong Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Uncommon Allies; Cellia, Heir of War; LOCO-5000; or Yanlong, the Matron</desc>
+		<choice id="1">
+			<item id="104067" quantity="1"/> <!-- Allies -->
+		</choice>
+		<choice id="2">
+			<item id="104053" quantity="1"/> <!-- Cellia -->
+		</choice>
+		<choice id="3">
+			<item id="104006" quantity="1"/> <!-- LOCO -->
+		</choice>
+		<choice id="4">
+			<item id="104079" quantity="1"/> <!-- Yanlong -->
+		</choice>
+	</item>
+
+	<item>
+		<id>2839</id>
+		<name>Devoted Yanlong Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Champion Stones for Daknak Darkblade; Bluefire, Void Incarnate; Atlatl, Forest Hunter; or Yanlong, the Matron</desc>
+		<choice id="1">
+			<item id="104016" quantity="1"/> <!-- Daknak -->
+		</choice>
+		<choice id="2">
+			<item id="104022" quantity="1"/> <!-- Bluefire -->
+		</choice>
+		<choice id="3">
+			<item id="104069" quantity="1"/> <!-- Atlatl -->
+		</choice>
+		<choice id="4">
+			<item id="104079" quantity="1"/> <!-- Yanlong -->
 		</choice>
 	</item>
 
@@ -5861,7 +6074,7 @@
 		<choice id="3">
 			<item id="104025" quantity="1"/> <!-- Quageye -->
 		</choice>
-		<choice id="3">
+		<choice id="4">
 			<item id="104063" quantity="1"/> <!-- Viir -->
 		</choice>
 	</item>

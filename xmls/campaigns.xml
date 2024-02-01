@@ -6335,8 +6335,8 @@
 	<campaign>
 		<id>1177</id>
 		<name>Golden Leaves</name>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="24" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="24" level="1"/> -->
 		<locked_start_time>1532624400</locked_start_time>	<!-- Thu, July 26 2018 17:00:00 -->
 		<location_id>17</location_id>
 		<x>210</x>
@@ -6361,8 +6361,8 @@
 	<campaign>
 		<id>1178</id>
 		<name>Crash Site</name>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="24" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="24" level="1"/> -->
 		<locked_start_time>1532624400</locked_start_time>	<!-- Thu, July 26 2018 17:00:00 -->
 		<location_id>17</location_id>
 		<x>370</x>
@@ -6397,8 +6397,8 @@
 	<campaign>
 		<id>1179</id>
 		<name>Village Center</name>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="1178" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1178" level="1"/> -->
 		<locked_start_time>1533834000</locked_start_time> <!-- Thu, Aug 09 2018 17:00:00 -->
 		<battleground_id>2044</battleground_id>
 		<location_id>17</location_id>
@@ -6438,8 +6438,8 @@
 		<name>Dream Awakened</name>
 		<type>2</type>
 		<icon id="gem_Boss_LG" bundle="0"/>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="1178" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1178" level="1"/> -->
 		<locked_start_time>1533834000</locked_start_time> <!-- Thu, Aug 09 2018 17:00:00 -->
 		<battleground_id>2045</battleground_id>
 		<location_id>17</location_id>
@@ -6471,8 +6471,8 @@
 	<campaign>
 		<id>1181</id>
 		<name>Village Outskirts</name>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="1179" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1179" level="1"/> -->
 		<locked_start_time>1535043600</locked_start_time> <!-- Thu, Aug 23 2018 17:00:00 -->
 		<battleground_id>2046</battleground_id>
 		<location_id>17</location_id>
@@ -6509,8 +6509,8 @@
 	<campaign>
 		<id>1182</id>
 		<name>The Dream's Depths</name>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="1181" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1181" level="1"/> -->
 		<locked_start_time>1536253200</locked_start_time> <!-- Thu, Sept 06 2018 17:00:00 -->
 		<battleground_id>2047</battleground_id>
 		<location_id>17</location_id>
@@ -11391,8 +11391,8 @@
 		<id>1334</id>
 		<name>Void Activity</name>
 		<icon id="node_gem_yellow" bundle="15"/>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="36" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="36" level="1"/> -->
 		<locked_start_time>1670518800</locked_start_time> <!-- Thursday, 8 December 2022 17:00:00	 	  -->
 		<battleground_id>2119</battleground_id>
 		<location_id>17</location_id>
@@ -11424,8 +11424,8 @@
 		<id>1335</id>
 		<name>The Teleporter</name>
 		<icon id="node_gem_yellow" bundle="15"/>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="1334" level="1"/>
+		<hidden>1</hidden>
+		<!-- <campaign_req id="1334" level="1"/> -->
 		<locked_start_time>1671728400</locked_start_time> <!-- Thursday, 22 December 2022 17:00:00 -->
 		<battleground_id>2119</battleground_id>
 		<location_id>17</location_id>
@@ -12126,13 +12126,13 @@
 			<mission_id>7151</mission_id>
 		</missions>
 		<rewards>
-			<item level="1" id="2802" number="50"/>  <!-- New Conflux Convergence Super Flask in items_dsvn3j.xml -->
+			<item level="1" id="28180" number="50"/>  <!-- Elemental Super Flask -->
 			<card level="2" id="2009"/> <!-- Sapling -->
 			<card level="3" id="2010"/> <!-- Silver Wind -->
 			<card level="4" id="2057"/> <!-- Twister -->
 			<card level="5" id="2007"/> <!-- Platinum Golum Reward Legendary -->
 			<card level="6" id="2007"/> <!-- Platinum Golum Reward Legendary -->
-			<item level="7" id="2802" number="150"/>  <!-- New Conflux Convergence Super Flask in items_dsvn3j.xml -->
+			<item level="7" id="28180" number="150"/>  <!-- Elemental Super Flask -->
 		</rewards>
 		<find_item id="3128" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
 		<ignore_energy_reduction_until>1697130000</ignore_energy_reduction_until> <!-- Thursday, 12 October 2023 at 17:00:00 -->
@@ -12159,13 +12159,13 @@
 			<mission_id>7157</mission_id>
 		</missions>
 		<rewards>
-			<item level="1" id="2802" number="50"/>  <!-- New Conflux Convergence Super Flask in items_dsvn3j.xml -->
+			<item level="1" id="28180" number="50"/>  <!-- Elemental Super Flask -->
 			<card level="2" id="2009"/> <!-- Sapling -->
 			<card level="3" id="2010"/> <!-- Silver Wind -->
 			<card level="4" id="2057"/> <!-- Twister -->
 			<card level="5" id="2007"/> <!-- Platinum Golum Reward Legendary -->
 			<card level="6" id="2007"/> <!-- Platinum Golum Reward Legendary -->
-			<item level="7" id="2802" number="150"/>  <!-- New Conflux Convergence Super Flask in items_dsvn3j.xml -->
+			<item level="7" id="28180" number="150"/>  <!-- Elemental Super Flask -->
 		</rewards>
 		<find_item id="3128" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
 		<ignore_energy_reduction_until>1697130000</ignore_energy_reduction_until> <!-- Thursday, 12 October 2023 at 17:00:00 -->
@@ -12194,13 +12194,13 @@
 			<mission_id>7163</mission_id>
 		</missions>
 		<rewards>
-			<item level="1" id="2803" number="50"/> <!-- Pharos Temple Super Flask -->
+			<item level="1" id="28250" number="50"/>  <!-- Seafolk Super Flask -->
 			<item level="2" id="18" number="500"/> <!-- Legendary Pack Fragments -->
 			<card level="3" id="2135"/> <!-- Primitive Crustavian -->
 			<card level="4" id="2175"/> <!-- Star of the Red Sea -->
 			<card level="5" id="2026"/> <!-- Lazarus -->
 			<card level="6" id="2026"/> <!-- Lazarus -->
-			<item level="7" id="2803" number="150"/> <!-- Pharos Temple Super Flask -->
+			<item level="7" id="28250" number="150"/>  <!-- Seafolk Super Flask -->
 		</rewards>
 		<find_item id="3059" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
 		<ignore_energy_reduction_until>1699549200</ignore_energy_reduction_until> <!-- Thursday, 09 November 2023 at 17:00:00 -->
@@ -12227,13 +12227,13 @@
 			<mission_id>7169</mission_id>
 		</missions>
 		<rewards>
-			<item level="1" id="2803" number="50"/> <!-- Pharos Temple Super Flask -->
+			<item level="1" id="28250" number="50"/>  <!-- Seafolk Super Flask -->
 			<item level="2" id="18" number="500"/> <!-- Legendary Pack Fragments -->
 			<card level="3" id="2135"/> <!-- Primitive Crustavian -->
 			<card level="4" id="2175"/> <!-- Star of the Red Sea -->
 			<card level="5" id="2026"/> <!-- Lazarus -->
 			<card level="6" id="2026"/> <!-- Lazarus -->
-			<item level="7" id="2803" number="150"/> <!-- Pharos Temple Super Flask -->
+			<item level="7" id="28250" number="150"/>  <!-- Seafolk Super Flask -->
 		</rewards>
 		<find_item id="3059" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
 		<ignore_energy_reduction_until>1699549200</ignore_energy_reduction_until> <!-- Thursday, 09 November 2023 at 17:00:00 -->
@@ -12262,13 +12262,13 @@
 			<mission_id>7175</mission_id>
 		</missions>
 		<rewards>
-			<item level="1" id="2816" number="50"/> <!-- Skyhaven Assault Super Flask -->
+			<item level="1" id="28190" number="50"/>  <!-- Angel Super Flask -->
 			<item level="2" id="18" number="500"/> <!-- Legendary Pack Fragments -->
 			<card level="3" id="2054"/> <!-- Pack Runner -->
 			<card level="4" id="2245"/> <!-- Winged Mercenaries -->
 			<card level="5" id="2257"/> <!-- Pyra -->
 			<card level="6" id="2257"/> <!-- Pyra -->
-			<item level="7" id="2816" number="150"/> <!-- Skyhaven Assault Super Flask -->
+			<item level="7" id="28190" number="150"/>  <!-- Angel Super Flask -->
 		</rewards>
 		<find_item id="3125" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
 		<ignore_energy_reduction_until>1701968400</ignore_energy_reduction_until> <!-- Thursday, 07 December 2023 at 17:00:00 -->
@@ -12295,13 +12295,13 @@
 			<mission_id>7181</mission_id>
 		</missions>
 		<rewards>
-			<item level="1" id="2816" number="50"/> <!-- Skyhaven Assault Super Flask -->
+			<item level="1" id="28190" number="50"/>  <!-- Angel Super Flask -->
 			<item level="2" id="18" number="500"/> <!-- Legendary Pack Fragments -->
 			<card level="3" id="2054"/> <!-- Pack Runner -->
 			<card level="4" id="2245"/> <!-- Winged Mercenaries -->
 			<card level="5" id="2257"/> <!-- Pyra -->
 			<card level="6" id="2257"/> <!-- Pyra -->
-			<item level="7" id="2816" number="150"/> <!-- Skyhaven Assault Super Flask -->
+			<item level="7" id="28190" number="150"/>  <!-- Angel Super Flask -->
 		</rewards>
 		<find_item id="3125" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
 		<ignore_energy_reduction_until>1701968400</ignore_energy_reduction_until> <!-- Thursday, 07 December 2023 at 17:00:00 -->
@@ -12316,7 +12316,8 @@
 		<campaign_req id="36" level="1"/>
 		<locked_start_time>1701968400</locked_start_time> <!-- Thursday, 07 December 2023 at 17:00:00 -->
 		<battleground_id>2120</battleground_id>
-		<location_id>17</location_id>
+		<hidden>1</hidden>
+		<!-- <location_id>17</location_id> -->
 		<x>880</x>
 		<y>440</y>
 		<combatBG>CombatBGVoid</combatBG>
@@ -12348,7 +12349,8 @@
 		<campaign_req id="1361" level="1"/>
 		<locked_start_time>1703178000</locked_start_time> <!-- Thursday, 21 December 2023 at 17:00:00 -->
 		<battleground_id>2120</battleground_id>
-		<location_id>17</location_id>
+		<hidden>1</hidden>
+		<!-- <location_id>17</location_id> -->
 		<x>475</x>
 		<y>510</y>
 		<combatBG>CombatBGVoid</combatBG>
@@ -12403,7 +12405,7 @@
 			<card level="6" id="2068"/> <!-- Whitesail Wyvern -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3119" drop_per_energy="1.7"/> <!-- Halve to 0.85 after end of BGE -->
+		<find_item id="3119" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
 		<ignore_energy_reduction_until>1706806800</ignore_energy_reduction_until> <!-- Thursday, 01 February 2024 at 17:00:00 -->
 	</campaign>
 
@@ -12435,7 +12437,7 @@
 			<card level="6" id="2068"/> <!-- Whitesail Wyvern -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3119" drop_per_energy="1.8"/> <!-- Halve to 0.9 after end of BGE -->
+		<find_item id="3119" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
 		<ignore_energy_reduction_until>1706806800</ignore_energy_reduction_until> <!-- Thursday, 01 February 2024 at 17:00:00 -->
 	</campaign>
 
