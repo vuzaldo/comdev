@@ -339,19 +339,8 @@
 		<name>Random Rune</name>
 		<icon>rune_empty_rare</icon>
 		<bundle>34</bundle>
-		<desc>Crafts one random Rare Rune!</desc>
-		<create_choice id="1">
-			<rune_drop rarity="2" p="1" set="1"/>
-		</create_choice>
-		<create_choice id="2">
-			<rune_drop rarity="2" p="1" set="1"/>
-		</create_choice>
-		<create_choice id="3">
-			<rune_drop rarity="2" p="1" set="1"/>
-		</create_choice>
-		<create_choice id="4">
-			<rune_drop rarity="2" p="1" set="1"/>
-		</create_choice>
+		<desc>One random Rare+ Rune!</desc>
+		<give_pack>83</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -435,22 +424,11 @@
 	</item>
 	<item>
 		<id>522</id>
-		<name>Random Epic Rune</name>
+		<name>Random Epic+ Rune</name>
 		<icon>rune_empty_epic</icon>
 		<bundle>34</bundle>
-		<desc>Crafts one random Epic Rune!</desc>
-		<create_choice id="1">
-			<rune_drop rarity="3" p="1" set="1"/>
-		</create_choice>
-		<create_choice id="2">
-			<rune_drop rarity="3" p="1" set="1"/>
-		</create_choice>
-		<create_choice id="3">
-			<rune_drop rarity="3" p="1" set="1"/>
-		</create_choice>
-		<create_choice id="4">
-			<rune_drop rarity="3" p="1" set="1"/>
-		</create_choice>
+		<desc>One random Epic+ Rune!</desc>
+		<give_pack>86</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -458,19 +436,8 @@
 		<name>Random Legendary Rune</name>
 		<icon>rune_empty_legendary</icon>
 		<bundle>34</bundle>
-		<desc>Crafts one random Legendary Rune!</desc>
-		<create_choice id="1">
-			<rune_drop rarity="4" p="1" set="1"/>
-		</create_choice>
-		<create_choice id="2">
-			<rune_drop rarity="4" p="1" set="1"/>
-		</create_choice>
-		<create_choice id="3">
-			<rune_drop rarity="4" p="1" set="1"/>
-		</create_choice>
-		<create_choice id="4">
-			<rune_drop rarity="4" p="1" set="1"/>
-		</create_choice>
+		<desc>One random Legendary Rune from the Main set!</desc>
+		<give_pack>87</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -505,7 +472,7 @@
 		<name>Random Epic Rune</name>
 		<icon>rune_empty_epic</icon>
 		<bundle>34</bundle>
-		<desc>Crafts one random Epic Rune!</desc>
+		<desc>One random Epic Rune!</desc>
 		<give_pack>88</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
@@ -5044,6 +5011,65 @@
 			<item id="2816" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 	</item>
+
+	<!-- Premium Flasks Gen 9 -->
+	<item>
+			<id>2817</id>
+			<name>Chaotic Dreams Flask</name>
+			<icon>Flask_Chaos</icon> <!-- Chaos_Flask -->
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Champion Stones for Gaerriel, Flying Nightmare; Worf, Volcano King; Skids, Hellfire Liches; or Nuri &#38; Nera, Twin Assailants</desc>
+			<choice id='1'>
+					<item id='106630' quantity='1' /> <!-- Gaerriel -->
+			</choice>
+			<choice id='2'>
+					<item id='106629' quantity='1' /> <!-- Worf -->
+			</choice>
+			<choice id='3'>
+					<item id='106631' quantity='1' /> <!-- Skids -->
+			</choice>
+			<choice id='4'>
+					<item id='106632' quantity='1' /> <!-- Assailants -->
+			</choice>
+	</item>
+
+	<item>
+			<id>2818</id>
+			<name>Aether Hoarfrost Flask</name>
+			<icon>Flask_Aether</icon> <!-- Aether_Flask -->
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Champion Stones for B4RN4B1, Exo Warkid; Austra, the Ice Mage; Katerina, Snowfang; or Frazzil, Glacial Guardian</desc>
+			<choice id='1'>
+					<item id='105642' quantity='1' /> <!-- B4RN4B1 -->
+			</choice>
+			<choice id='2'>
+					<item id='105643' quantity='1' /> <!-- Austra -->
+			</choice>
+			<choice id='3'>
+					<item id='105644' quantity='1' /> <!-- Katerina -->
+			</choice>
+			<choice id='4'>
+					<item id='105646' quantity='1' /> <!-- Frazzil -->
+			</choice>
+	</item>
+
+	<item>
+			<id>2819</id>
+			<name>Wyld Conclusion Flask</name>
+			<icon>Flask_Wyld</icon> <!-- Wyld_Flask -->
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Champion Stones for Tiendroantun, the Protector; Coldsteel Hunter; or Nano Swarm</desc>
+			<choice id='1'>
+					<item id='107630' quantity='1' /> <!-- Tiendroantun -->
+			</choice>
+			<choice id='2'>
+					<item id='107631' quantity='1' /> <!-- Crash -->
+			</choice>
+			<choice id='3'>
+					<item id='105645' quantity='1' /> <!-- Nano Swarm -->
+			</choice>
+	</item>
+	<!-- END Premium Flasks Gen 9 -->
 
 	<item>
 		<id>2830</id>
