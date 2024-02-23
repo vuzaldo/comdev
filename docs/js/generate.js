@@ -174,7 +174,7 @@ function generateDungeon(update = true) {
 function generate() {
 	if (!eventBGE) return;
 	generateBGE();
-	generateInput('rewardChamp', newChamp);
+	generateInput('rewardChamp', nextChampionId);
 	const flask = eventTribeId ? 2813 + parseInt(eventTribeId) + '0' : newFlask;
 	generateInput('rewardFlask', options?.flask ? options.flask : flask, filterItem);
 	const legendaries = generateCardList(standardLegendaries, 3, false);
@@ -269,6 +269,7 @@ const brawlId = 8111 + numCycles;
 const eventBgeId = 6105 + numCycles;
 const rewardBoxId = 6090 + numCycles;
 const eventRewardBoxId = 11093 + numCycles;
+const nextChampionId = 4073 + numCycles;
 let eventBGE, eventTribeId, eventMap, eventMapX, eventMapY;
 
 let newChamp = 4073, newEpic = 2255;
