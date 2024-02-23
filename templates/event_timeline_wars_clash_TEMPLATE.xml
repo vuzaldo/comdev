@@ -1,5 +1,4 @@
 <!-- ======== Event {EVENT_NUMBER} {EVENT_BGE} BGE Guild War / {START_TIME_COMMENT_NEXT_DAY} ========= -->
-
   <event>
     <id>{EVENT_ID}</id> <!-- HERE -->
     <name>{EVENT_NAME}</name> <!-- HERE -->
@@ -59,7 +58,6 @@
         <map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
         <map_bundle>26</map_bundle>
     </map_node>
-
     <event_reward>
           <desc>Complete the War at Rank 1 or higher.</desc>
           <tier>1</tier>
@@ -77,10 +75,9 @@
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1023' quantity='2' /> <!-- Bounty Refill +5 -->
           <item id='4001' quantity='150' /> <!-- Inscription Powder -->
-          <item id='1012' quantity='150' /> <!-- Gold Bar -->
+          <item id='1012' quantity='60' /> <!-- Gold Bar -->
           <item id='1011' quantity='60' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 2 or higher.</desc>
           <tier>2</tier>
@@ -97,11 +94,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1023' quantity='2' /> <!-- Bounty Refill +5 -->
-          <item id='4001' quantity='100' /> <!-- Inscription Powder -->
-          <item id='1012' quantity='100' /> <!-- Gold Bar -->
-          <item id='1011' quantity='60' /> <!-- Gold Nugget -->
+          <item id='4001' quantity='120' /> <!-- Inscription Powder -->
+          <item id='1012' quantity='55' /> <!-- Gold Bar -->
+          <item id='1011' quantity='55' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 3 or higher.</desc>
           <tier>3</tier>
@@ -118,11 +114,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1023' quantity='2' /> <!-- Bounty Refill +5 -->
-          <item id='4001' quantity='75' /> <!-- Inscription Powder -->
-          <item id='1012' quantity='75' /> <!-- Gold Bar -->
-          <item id='1011' quantity='60' /> <!-- Gold Nugget -->
+          <item id='4001' quantity='100' /> <!-- Inscription Powder -->
+          <item id='1012' quantity='50' /> <!-- Gold Bar -->
+          <item id='1011' quantity='50' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 5 or higher.</desc>
           <tier>4</tier>
@@ -139,11 +134,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1023' quantity='2' /> <!-- Bounty Refill +5 -->
-          <item id='4001' quantity='50' /> <!-- Inscription Powder -->
-          <item id='1012' quantity='50' /> <!-- Gold Bar -->
-          <item id='1011' quantity='30' /> <!-- Gold Nugget -->
+          <item id='4001' quantity='90' /> <!-- Inscription Powder -->
+          <item id='1012' quantity='45' /> <!-- Gold Bar -->
+          <item id='1011' quantity='45' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 7 or higher.</desc>
           <tier>5</tier>
@@ -160,11 +154,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1023' quantity='2' /> <!-- Bounty Refill +5 -->
-          <item id='4001' quantity='40' /> <!-- Inscription Powder -->
+          <item id='4001' quantity='80' /> <!-- Inscription Powder -->
           <item id='1012' quantity='40' /> <!-- Gold Bar -->
-          <item id='1011' quantity='30' /> <!-- Gold Nugget -->
+          <item id='1011' quantity='40' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 10 or higher.</desc>
           <tier>6</tier>
@@ -181,11 +174,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
-          <item id='4001' quantity='30' /> <!-- Inscription Powder -->
-          <item id='1012' quantity='30' /> <!-- Gold Bar -->
-          <item id='1011' quantity='30' /> <!-- Gold Nugget -->
+          <item id='4001' quantity='70' /> <!-- Inscription Powder -->
+          <item id='1012' quantity='35' /> <!-- Gold Bar -->
+          <item id='1011' quantity='35' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 15 or higher.</desc>
           <tier>7</tier>
@@ -202,11 +194,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
-          <item id='4001' quantity='30' /> <!-- Inscription Powder -->
+          <item id='4001' quantity='60' /> <!-- Inscription Powder -->
           <item id='1012' quantity='30' /> <!-- Gold Bar -->
-          <item id='1011' quantity='20' /> <!-- Gold Nugget -->
+          <item id='1011' quantity='30' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 20 or higher.</desc>
           <tier>8</tier>
@@ -221,13 +212,12 @@
           <unit id='1{EPIC_CARD_ID}' level='4' /> <!-- Epic Card #1 -->
           <item id='18' quantity='1000' /> <!-- Legendary Pack Fragment -->
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
-        <unit id='511' level='1' /> <!-- Arcane Ore -->
-        <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
-        <item id='4001' quantity='30' /> <!-- Inscription Powder -->
-        <item id='1012' quantity='30' /> <!-- Gold Bar -->
-        <item id='1011' quantity='15' /> <!-- Gold Nugget -->
+          <unit id='511' level='1' /> <!-- Arcane Ore -->
+          <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
+          <item id='4001' quantity='60' /> <!-- Inscription Powder -->
+          <item id='1012' quantity='30' /> <!-- Gold Bar -->
+          <item id='1011' quantity='15' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 40 or higher.</desc>
           <tier>9</tier>
@@ -244,11 +234,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
-          <item id='4001' quantity='30' /> <!-- Inscription Powder -->
+          <item id='4001' quantity='60' /> <!-- Inscription Powder -->
           <item id='1012' quantity='30' /> <!-- Gold Bar -->
           <item id='1011' quantity='15' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 70 or higher.</desc>
           <tier>10</tier>
@@ -265,11 +254,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1023' quantity='1' /> <!-- Bounty Refill +5 -->
-          <item id='4001' quantity='30' /> <!-- Inscription Powder -->
+          <item id='4001' quantity='60' /> <!-- Inscription Powder -->
           <item id='1012' quantity='30' /> <!-- Gold Bar -->
           <item id='1011' quantity='10' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 100 or higher.</desc>
           <tier>11</tier>
@@ -286,11 +274,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
-          <item id='4001' quantity='30' /> <!-- Inscription Powder -->
+          <item id='4001' quantity='60' /> <!-- Inscription Powder -->
           <item id='1012' quantity='30' /> <!-- Gold Bar -->
           <item id='1011' quantity='10' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 150 or higher.</desc>
           <tier>12</tier>
@@ -307,11 +294,10 @@
           <item id='17' quantity='1500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
-          <item id='4001' quantity='30' /> <!-- Inscription Powder -->
-          <item id='1012' quantity='20' /> <!-- Gold Bar -->
+          <item id='4001' quantity='50' /> <!-- Inscription Powder -->
+          <item id='1012' quantity='25' /> <!-- Gold Bar -->
           <item id='1011' quantity='10' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 250 or higher.</desc>
           <tier>13</tier>
@@ -325,11 +311,10 @@
           <item id='17' quantity='1000' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
-          <item id='4001' quantity='30' /> <!-- Inscription Powder -->
+          <item id='4001' quantity='40' /> <!-- Inscription Powder -->
           <item id='1012' quantity='20' /> <!-- Gold Bar -->
           <item id='1011' quantity='10' /> <!-- Gold Nugget -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 350 or higher.</desc>
           <tier>14</tier>
@@ -342,10 +327,9 @@
           <item id='17' quantity='750' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
-          <item id='4001' quantity='30' /> <!-- Inscription Powder -->
-          <item id='1012' quantity='15' /> <!-- Gold Bar -->
+          <item id='4001' quantity='40' /> <!-- Inscription Powder -->
+          <item id='1012' quantity='20' /> <!-- Gold Bar -->
     </event_reward>
-
     <event_reward>
           <desc>Complete the War at Rank 500 or higher.</desc>
           <tier>15</tier>
@@ -356,10 +340,9 @@
           <item id='17' quantity='500' /> <!-- Epic Pack Fragment -->
           <unit id='511' level='1' /> <!-- Arcane Ore -->
           <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
-          <item id='4001' quantity='20' /> <!-- Inscription Powder -->
+          <item id='4001' quantity='30' /> <!-- Inscription Powder -->
           <item id='1012' quantity='15' /> <!-- Gold Bar -->
     </event_reward>
-
     <event_reward>
         <desc>Complete the War at Rank 1000 or higher.</desc>
         <tier>16</tier>
@@ -372,7 +355,6 @@
         <item id='4001' quantity='20' /> <!-- Inscription Powder -->
         <item id='1012' quantity='10' /> <!-- Gold Bar -->
     </event_reward>
-
     <event_reward>
         <desc>Complete the War at Rank 2000 or higher.</desc>
         <tier>17</tier>
@@ -382,10 +364,8 @@
         </req>
         <unit id='510' level='1' /> <!-- Arcane Chunk -->
         <item id='1022' quantity='1' /> <!-- Bounty Refill +3 -->
-        <item id='4001' quantity='10' /> <!-- Inscription Powder -->
+        <item id='4001' quantity='20' /> <!-- Inscription Powder -->
         <item id='1011' quantity='10' /> <!-- Gold Nugget -->
     </event_reward>
-
   </event>
-
 <!-- ====== {EVENT_BGE} BGE Guild War End ======== -->
