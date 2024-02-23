@@ -77,7 +77,7 @@ function convertQuads() {
 	document.getElementById('dungeonDeckHash').value = hash;
 	document.getElementById('dungeonDeckHashLink').href = link + hash;
 }
-const link = 'https://thesench.github.io/SIMSpellstone/DeckBuilder.html?hash=';
+const link = 'https://vuzaldo.github.io/SIMSpellstone/DeckBuilder.html?hash=';
 function updateDungeonHash() {
 	let hash = [];
 	const commander = document.getElementById('dungeonCommander9').value;
@@ -100,11 +100,6 @@ function shuffleArray(array) {
 		[array[i], array[j]] = [array[j], array[i]];
 	}
 }
-
-// Temporary override of beast cards before XML update
-const beastIDs = [1642, 2184, 6080, 6052, 4025, 4071, 4063, 1007, 1000, 1602, 1605, 1011, 1314, 1615, 1616, 1033, 1635, 1641, 1343, 1625, 1626, 2058, 2192, 2021, 2120, 2188, 2023, 2054, 2019, 2220, 2089, 2022, 5000, 5163, 5164, 5030, 5212, 5293, 5036, 6030, 6134, 6060, 6205, 6159, 6259, 7161, 7119, 7035, 7002, 7118, 7291, 7071, 7255, 7088, 7070, 7085, 7072, 7164, 7009, 7031, 7122, 7047, 7038, 7125, 7034, 7236, 7116, 7168, 7011, 7024, 5272, 5275, 5181, 5027, 5281, 6039, 6204, 6287, 6251, 7264, 7277, 7037, 7209, 7079, 7283, 7143, 7219, 7027, 7250, 7032, 7243, 7627, 7623, 7601, 7613, 4029, 4072, 4027, 4011, 4050, 4014, 1027, 1632, 2172, 2029, 2000, 2138, 2193, 2201, 5081, 5134, 5284, 6009, 6019, 6150, 7061, 6161, 6221, 7076, 6226, 7015, 7124, 6297, 5061, 7206, 7212, 7278, 5260, 7297, 7300, 4001, 5643, 7614, 7618];
-beastIDs.forEach(b => Array.isArray(CARDS[b].sub_type) ? CARDS[b].sub_type.push('14') : CARDS[b].sub_type = [CARDS[b].sub_type, '14']);
-CARDS[494] = { id: 494, name: 'General Karlson', card_type: 1, rarity: 4 };
 
 let commanders = Object.values(CARDS).filter(c => c.card_type == 1 && c.id > 100); // exclude player commanders
 commanders = commanders.filter(c => !c.name.includes('Lightning Boss') && !c.name.includes('Party')); // exclude LBN and anniversary commanders
@@ -459,8 +454,6 @@ function updateParameters() {
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
 }
 
-
-FACTIONS.forEach(f => f.name == 'Bear' && (f.name = 'Beast') && (f.hidden = 0)); // Enable Beast tribe before XML update
 
 const tribes = FACTIONS.filter(f => !f.hidden && f.tribe == 1);
 tribes.sort((a, b) => a.name.localeCompare(b.name));
