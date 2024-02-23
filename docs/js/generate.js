@@ -670,6 +670,7 @@ const autoSelectEventOptions = {
 	110: { tribe: 'Frog', map: 'Golden Crown Village', flask: '28170' },
 	111: { tribe: 'Dragon', map: 'Return to Tarragon Peak' },
 	112: { tribe: 'Beast', map: 'Gladius Arena' },
+	113: { tribe: 'Beast', map: 'Return to Elaria' },
 };
 
 function findSelectorOption(selector, option) {
