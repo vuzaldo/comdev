@@ -103,12 +103,28 @@ function downloadFile(button) {
 	const editor = getNthPreviousSibling(button, 3);
 	const text = editors[editor.id].getValue();
 	const blob = new Blob([text]);
-	const url = window.URL.createObjectURL(blob);
 	const link = document.createElement('a');
-	link.href = url;
+	link.href = window.URL.createObjectURL(blob);
 	link.download = `${editor.id}_E${eventNumber}.xml`;
 	link.click();
-	window.URL.revokeObjectURL(url);
+	window.URL.revokeObjectURL(link.href);
+}
+const xmlsUrl = 'https://raw.githubusercontent.com/vuzaldo/comdev/main/xmls/'
+async function downloadCompleteFile(button) {
+	const editor = getNthPreviousSibling(button, 4);
+	const response = await fetch(xmlsUrl + editor.id + '.xml');
+	if (!response.ok) {
+		console.error('Failed to fetch the original XML file');
+		return;
+	}
+	const originalContent = await response.text();
+	const text = editors[editor.id].getValue();
+	const blob = new Blob([originalContent.replace('</root>', text + '\n\n</root>')]);
+	const link = document.createElement('a');
+	link.href = window.URL.createObjectURL(blob);
+	link.download = `${editor.id}_E${eventNumber}.xml`;
+	link.click();
+	window.URL.revokeObjectURL(link.href);
 }
 
 
