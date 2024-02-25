@@ -3,7 +3,7 @@
 		<name>{EVENT_NAME}</name> <!-- HERE -->
 		<desc>Defeat {ENEMY_NAME} in the allotted time to gain points! With each victory {ENEMY_NAME_ARMY} will return, stronger than before! Attacks have no cap and stop recharging 11 hours before event end!</desc> <!-- HERE -->
 		<guild_event>1</guild_event>
-		<tiebreaker>1</tiebreaker>
+		<tiebreaker>0</tiebreaker>
 		<type>5</type>
 		<priority>10</priority>
 		<portrait>{ENEMY_PORTRAIT}</portrait> <!-- HERE -->
