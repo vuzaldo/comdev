@@ -38,48 +38,48 @@
 		<health_per_level>600</health_per_level>
 		<raid_upgrade_levels>22</raid_upgrade_levels>
 		<respawn_length>300</respawn_length>
-		<commander id='{COMMANDER_ID}' /> <!-- HERE -->
+		<commander id='{COMMANDER_ID}'/> <!-- HERE -->
 		<deck> <!-- HERE -->
-			<card id='{FIXED_CARD_1}' />		<!-- S. Legendary -->
-			<card id='{EPIC_CARD_1}' remove_mastery_level='5' />		<!-- Epic -->
-			<card id='{RARE_CARD_1}' remove_mastery_level='8' />		<!-- Rare -->
-			<card id='{EPIC_CARD_2}' remove_mastery_level='9' />		<!-- Epic -->
-			<card id='{RARE_CARD_2}' remove_mastery_level='10' />	<!-- Rare -->
-			<card id='{RARE_CARD_3}' remove_mastery_level='10' />	<!-- Rare -->
-			<card id='{EPIC_CARD_3}' remove_mastery_level='11' />	<!-- Epic -->
-			<card id='{RARE_CARD_4}' remove_mastery_level='11' />	<!-- Rare -->
-			<card id='{RARE_CARD_5}' remove_mastery_level='11' />	<!-- Rare -->
-			<card id='{EPIC_CARD_4}' remove_mastery_level='23' />	<!-- Epic -->
+			<card id='{FIXED_CARD_1}'/>		<!-- Fixed Legendary -->
+			<card id='{EPIC_CARD_1}' remove_mastery_level='5'/>		<!-- Epic -->
+			<card id='{RARE_CARD_1}' remove_mastery_level='8'/>		<!-- Rare -->
+			<card id='{EPIC_CARD_2}' remove_mastery_level='9'/>		<!-- Epic -->
+			<card id='{RARE_CARD_2}' remove_mastery_level='10'/>		<!-- Rare -->
+			<card id='{RARE_CARD_3}' remove_mastery_level='10'/>		<!-- Rare -->
+			<card id='{EPIC_CARD_3}' remove_mastery_level='11'/>		<!-- Epic -->
+			<card id='{RARE_CARD_4}' remove_mastery_level='11'/>		<!-- Rare -->
+			<card id='{RARE_CARD_5}' remove_mastery_level='11'/>		<!-- Rare -->
+			<card id='{EPIC_CARD_4}' remove_mastery_level='23'/>		<!-- Epic -->
 
-			<card id='{EPIC_CARD_5}' mastery_level='3' remove_mastery_level='10' />	<!-- Epic -->
-			<card id='{EPIC_CARD_6}' mastery_level='4' remove_mastery_level='12' />	<!-- Epic -->
-			<card id='{EPIC_CARD_7}' mastery_level='5' remove_mastery_level='13' />	<!-- Epic -->
-			<card id='{EPIC_CARD_8}' mastery_level='6' remove_mastery_level='17' />	<!-- Epic -->
-			<card id='{EPIC_CARD_9}' mastery_level='7' remove_mastery_level='19' />	<!-- Epic -->
-			<card id='{EPIC_CARD_10}' mastery_level='8' remove_mastery_level='20' />	<!-- Epic -->
-			<card id='{EPIC_CARD_11}' mastery_level='9' remove_mastery_level='21' />	<!-- Epic -->
-			<card id='{EPIC_CARD_12}' mastery_level='9' remove_mastery_level='22' />	<!-- Epic -->
-			<card id='{FIXED_CARD_2}' mastery_level='10' />	<!-- S. Legendary -->
-			<card id='{EPIC_CARD_13}' mastery_level='10' remove_mastery_level='14' />	<!-- Epic -->
-			<card id='{LEGENDARY_CARD_1}' mastery_level='10' remove_mastery_level='15' />	<!-- Legendary -->
-			<card id='{LEGENDARY_CARD_2}' mastery_level='11' remove_mastery_level='16' />	<!-- Legendary -->
-			<card id='{FIXED_CARD_3}' mastery_level='11' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_4}' mastery_level='11' />	<!-- S. Legendary -->
-			<card id='{LEGENDARY_CARD_3}' mastery_level='12' remove_mastery_level='18' />	<!-- Legendary -->
-			<card id='{LEGENDARY_CARD_4}' mastery_level='13' remove_mastery_level='19' />	<!-- Legendary -->
-			<card id='{LEGENDARY_CARD_5}' mastery_level='14' remove_mastery_level='24' />	<!-- Legendary -->
-			<card id='{LEGENDARY_CARD_6}' mastery_level='15' remove_mastery_level='25' />	<!-- Legendary -->
-			<card id='{FIXED_CARD_5}' mastery_level='16' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_6}' mastery_level='17' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_7}' mastery_level='18' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_8}' mastery_level='19' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_9}' mastery_level='19' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_10}' mastery_level='20' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_11}' mastery_level='21' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_12}' mastery_level='22' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_13}' mastery_level='23' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_14}' mastery_level='24' />	<!-- S. Legendary -->
-			<card id='{FIXED_CARD_15}' mastery_level='25' />	<!-- S. Legendary -->
+			<card id='{EPIC_CARD_5}' mastery_level='3' remove_mastery_level='10'/>	<!-- Epic -->
+			<card id='{EPIC_CARD_6}' mastery_level='4' remove_mastery_level='12'/>	<!-- Epic -->
+			<card id='{EPIC_CARD_7}' mastery_level='5' remove_mastery_level='13'/>	<!-- Epic -->
+			<card id='{EPIC_CARD_8}' mastery_level='6' remove_mastery_level='17'/>	<!-- Epic -->
+			<card id='{EPIC_CARD_9}' mastery_level='7' remove_mastery_level='19'/>	<!-- Epic -->
+			<card id='{EPIC_CARD_10}' mastery_level='8' remove_mastery_level='20'/>	<!-- Epic -->
+			<card id='{EPIC_CARD_11}' mastery_level='9' remove_mastery_level='21'/>	<!-- Epic -->
+			<card id='{EPIC_CARD_12}' mastery_level='9' remove_mastery_level='22'/>	<!-- Epic -->
+			<card id='{FIXED_CARD_2}' mastery_level='10'/>	<!-- Fixed Legendary -->
+			<card id='{EPIC_CARD_13}' mastery_level='10' remove_mastery_level='14'/>	<!-- Epic -->
+			<card id='{LEGENDARY_CARD_1}' mastery_level='10' remove_mastery_level='15'/>	<!-- Legendary -->
+			<card id='{LEGENDARY_CARD_2}' mastery_level='11' remove_mastery_level='16'/>	<!-- Legendary -->
+			<card id='{FIXED_CARD_3}' mastery_level='11'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_4}' mastery_level='11'/>	<!-- Fixed Legendary -->
+			<card id='{LEGENDARY_CARD_3}' mastery_level='12' remove_mastery_level='18'/>	<!-- Legendary -->
+			<card id='{LEGENDARY_CARD_4}' mastery_level='13' remove_mastery_level='19'/>	<!-- Legendary -->
+			<card id='{LEGENDARY_CARD_5}' mastery_level='14' remove_mastery_level='24'/>	<!-- Legendary -->
+			<card id='{LEGENDARY_CARD_6}' mastery_level='15' remove_mastery_level='25'/>	<!-- Legendary -->
+			<card id='{FIXED_CARD_5}' mastery_level='16'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_6}' mastery_level='17'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_7}' mastery_level='18'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_8}' mastery_level='19'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_9}' mastery_level='19'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_10}' mastery_level='20'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_11}' mastery_level='21'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_12}' mastery_level='22'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_13}' mastery_level='23'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_14}' mastery_level='24'/>	<!-- Fixed Legendary -->
+			<card id='{FIXED_CARD_15}' mastery_level='25'/>	<!-- Fixed Legendary -->
 		</deck>
 
 		<event_reward>
@@ -90,10 +90,10 @@
 				<min_rank>1</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='150' /> <!-- Legendary Stones --> <!-- HERE -->
-			<unit id='1{EPIC_CARD_ID}' level='5' /> <!-- Epic Card #3 --> <!-- HERE -->
-			<item id='1012' quantity='8' /> <!-- Gold Bar -->
-			<item id='1004' quantity='2' /> <!-- Energy Potion +20 -->
+			<item id='{STONES_ID}' quantity='150'/> <!-- Legendary Stones --> <!-- HERE -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 --> <!-- HERE -->
+			<item id='1012' quantity='8'/> <!-- Gold Bar -->
+			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 2 or higher.</desc>
@@ -103,10 +103,10 @@
 				<min_rank>2</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='100' /> <!-- Legendary Stones -->
-			<unit id='1{EPIC_CARD_ID}' level='5' /> <!-- Epic Card #3 -->
-			<item id='1012' quantity='8' /> <!-- Gold Bar -->
-			<item id='1004' quantity='2' /> <!-- Energy Potion +20 -->
+			<item id='{STONES_ID}' quantity='100'/> <!-- Legendary Stones -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='8'/> <!-- Gold Bar -->
+			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 3 or higher.</desc>
@@ -116,10 +116,10 @@
 				<min_rank>3</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='60' /> <!-- Legendary Stones -->
-			<unit id='1{EPIC_CARD_ID}' level='5' /> <!-- Epic Card #3 -->
-			<item id='1012' quantity='8' /> <!-- Gold Bar -->
-			<item id='1004' quantity='2' /> <!-- Energy Potion +20 -->
+			<item id='{STONES_ID}' quantity='60'/> <!-- Legendary Stones -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='8'/> <!-- Gold Bar -->
+			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 10 or higher.</desc>
@@ -129,10 +129,10 @@
 				<min_rank>10</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='30' /> <!-- Legendary Stones -->
-			<unit id='1{EPIC_CARD_ID}' level='5' /> <!-- Epic Card #3 -->
-			<item id='1012' quantity='8' /> <!-- Gold Bar -->
-			<item id='1004' quantity='2' /> <!-- Energy Potion +20 -->
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='8'/> <!-- Gold Bar -->
+			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 20 or higher.</desc>
@@ -142,10 +142,10 @@
 				<min_rank>20</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='20' /> <!-- Legendary Stones -->
-			<unit id='1{EPIC_CARD_ID}' level='3' /> <!-- Epic Card #3 -->
-			<item id='1012' quantity='6' /> <!-- Gold Bar -->
-			<item id='1004' quantity='2' /> <!-- Energy Potion +20 -->
+			<item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones -->
+			<unit id='1{EPIC_CARD_ID}' level='3'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='6'/> <!-- Gold Bar -->
+			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 70 or higher.</desc>
@@ -155,10 +155,10 @@
 				<min_rank>70</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='10' /> <!-- Legendary Stones -->
-			<unit id='1{EPIC_CARD_ID}' level='2' /> <!-- Epic Card #3 -->
-			<item id='1012' quantity='4' /> <!-- Gold Bar -->
-			<item id='1004' quantity='2' /> <!-- Energy Potion +20 -->
+			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones -->
+			<unit id='1{EPIC_CARD_ID}' level='2'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='4'/> <!-- Gold Bar -->
+			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 150 or higher.</desc>
@@ -168,10 +168,10 @@
 				<min_rank>150</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='5' /> <!-- Legendary Stones -->
-			<unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Epic Card #3 -->
-			<item id='1012' quantity='4' /> <!-- Gold Bar -->
-			<item id='1004' quantity='1' /> <!-- Energy Potion +20 -->
+			<item id='{STONES_ID}' quantity='5'/> <!-- Legendary Stones -->
+			<unit id='1{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='4'/> <!-- Gold Bar -->
+			<item id='1004' quantity='1'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 300 or higher.</desc>
@@ -180,9 +180,9 @@
 				<min_points>3000</min_points>
 				<min_rank>300</min_rank>
 			</req>
-			<unit id='1{EPIC_CARD_ID}' level='1' /> <!-- Epic Card #3 -->
-			<item id='1012' quantity='2' /> <!-- Gold Bar -->
-			<item id='1004' quantity='1' /> <!-- Energy Potion +20 -->
+			<unit id='1{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='2'/> <!-- Gold Bar -->
+			<item id='1004' quantity='1'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 2000 or higher.</desc>
@@ -191,7 +191,7 @@
 				<min_points>2000</min_points>
 				<min_rank>2000</min_rank>
 			</req>
-			<item id='1012' quantity='2' /> <!-- Gold Bar -->
+			<item id='1012' quantity='2'/> <!-- Gold Bar -->
 		</event_reward>
 
 		<milestone_reward>
@@ -200,7 +200,7 @@
 				<min_points>14000</min_points>
 				<min_guild_points>30</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='50' /> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{STONES_ID}' quantity='50'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>2</tier>
@@ -208,7 +208,7 @@
 				<min_points>14000</min_points>
 				<min_guild_points>29</min_guild_points>
 			</req>
-			<item id='4013' quantity='2' /> <!-- Legendary Rune Sliver -->
+			<item id='4013' quantity='2'/> <!-- Legendary Rune Sliver -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>3</tier>
@@ -216,7 +216,7 @@
 				<min_points>14000</min_points>
 				<min_guild_points>28</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='30' /> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>4</tier>
@@ -224,7 +224,7 @@
 				<min_points>13500</min_points>
 				<min_guild_points>27</min_guild_points>
 			</req>
-			<item id='18' quantity='500' /> <!-- Legendary Pack Fragments -->
+			<item id='18' quantity='500'/> <!-- Legendary Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>5</tier>
@@ -232,7 +232,7 @@
 				<min_points>13000</min_points>
 				<min_guild_points>26</min_guild_points>
 			</req>
-			<item id='4013' quantity='1' /> <!-- Legendary Rune Sliver -->
+			<item id='4013' quantity='1'/> <!-- Legendary Rune Sliver -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>6</tier>
@@ -240,7 +240,7 @@
 				<min_points>12500</min_points>
 				<min_guild_points>25</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='20' /> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>7</tier>
@@ -248,7 +248,7 @@
 				<min_points>12000</min_points>
 				<min_guild_points>24</min_guild_points>
 			</req>
-			<item id='18' quantity='250' /> <!-- Legendary Pack Fragments -->
+			<item id='18' quantity='250'/> <!-- Legendary Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>8</tier>
@@ -256,7 +256,7 @@
 				<min_points>11500</min_points>
 				<min_guild_points>23</min_guild_points>
 			</req>
-			<unit id='512' level='1' /> <!-- Arcane Deposit -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>9</tier>
@@ -264,7 +264,7 @@
 				<min_points>11000</min_points>
 				<min_guild_points>22</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='15' /> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{STONES_ID}' quantity='15'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>10</tier>
@@ -272,7 +272,7 @@
 				<min_points>10500</min_points>
 				<min_guild_points>21</min_guild_points>
 			</req>
-			<item id='18' quantity='250' /> <!-- Legendary Pack Fragments -->
+			<item id='18' quantity='250'/> <!-- Legendary Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>11</tier>
@@ -280,7 +280,7 @@
 				<min_points>10000</min_points>
 				<min_guild_points>20</min_guild_points>
 			</req>
-			<item id='2529' quantity='1' /> <!-- Hefty Mythical Flask -->
+			<item id='2529' quantity='1'/> <!-- Hefty Mythical Flask -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>12</tier>
@@ -288,7 +288,7 @@
 				<min_points>9500</min_points>
 				<min_guild_points>19</min_guild_points>
 			</req>
-			<item id='4012' quantity='2' /> <!-- Epic Runeshell -->
+			<item id='4012' quantity='2'/> <!-- Epic Runeshell -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>13</tier>
@@ -296,7 +296,7 @@
 				<min_points>9000</min_points>
 				<min_guild_points>18</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='15' /> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{STONES_ID}' quantity='15'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>14</tier>
@@ -304,7 +304,7 @@
 				<min_points>8500</min_points>
 				<min_guild_points>17</min_guild_points>
 			</req>
-			<item id='4001' quantity='10' /> <!-- Inscription Powder-->
+			<item id='4001' quantity='10'/> <!-- Inscription Powder-->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>15</tier>
@@ -312,7 +312,7 @@
 				<min_points>8000</min_points>
 				<min_guild_points>16</min_guild_points>
 			</req>
-			<item id='2528' quantity='1' /> <!-- Medium Mythical Flask -->
+			<item id='2528' quantity='1'/> <!-- Medium Mythical Flask -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>16</tier>
@@ -320,7 +320,7 @@
 				<min_points>7500</min_points>
 				<min_guild_points>15</min_guild_points>
 			</req>
-			<item id='17' quantity='500' /> <!-- Epic Pack Fragments -->
+			<item id='17' quantity='500'/> <!-- Epic Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>17</tier>
@@ -328,7 +328,7 @@
 				<min_points>7000</min_points>
 				<min_guild_points>14</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='10' /> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>18</tier>
@@ -336,7 +336,7 @@
 				<min_points>6500</min_points>
 				<min_guild_points>13</min_guild_points>
 			</req>
-			<item id='17' quantity='250' /> <!-- Epic Pack Fragments -->
+			<item id='17' quantity='250'/> <!-- Epic Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>19</tier>
@@ -344,7 +344,7 @@
 				<min_points>6000</min_points>
 				<min_guild_points>12</min_guild_points>
 			</req>
-			<item id='4001' quantity='10' /> <!-- Inscription Powder -->
+			<item id='4001' quantity='10'/> <!-- Inscription Powder -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>20</tier>
@@ -352,7 +352,7 @@
 				<min_points>5500</min_points>
 				<min_guild_points>11</min_guild_points>
 			</req>
-			<item id='2001' quantity='15' /> <!-- Arcane Fragments -->
+			<item id='2001' quantity='15'/> <!-- Arcane Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>21</tier>
@@ -360,7 +360,7 @@
 				<min_points>5000</min_points>
 				<min_guild_points>10</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='5' /> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{STONES_ID}' quantity='5'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>22</tier>
@@ -368,7 +368,7 @@
 				<min_points>4500</min_points>
 				<min_guild_points>9</min_guild_points>
 			</req>
-			<item id='17' quantity='250' /> <!-- Epic Pack Fragments -->
+			<item id='17' quantity='250'/> <!-- Epic Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>23</tier>
@@ -376,7 +376,7 @@
 				<min_points>4000</min_points>
 				<min_guild_points>8</min_guild_points>
 			</req>
-			<item id='2501' quantity='30' /> <!-- Blue Fire Souls -->
+			<item id='2501' quantity='30'/> <!-- Blue Fire Souls -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>24</tier>
@@ -384,7 +384,7 @@
 				<min_points>3500</min_points>
 				<min_guild_points>7</min_guild_points>
 			</req>
-			<item id='2001' quantity='10' /> <!-- Arcane Fragments -->
+			<item id='2001' quantity='10'/> <!-- Arcane Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>25</tier>
@@ -392,7 +392,7 @@
 				<min_points>3000</min_points>
 				<min_guild_points>6</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='5' /> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{STONES_ID}' quantity='5'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>26</tier>
@@ -400,7 +400,7 @@
 				<min_points>2500</min_points>
 				<min_guild_points>5</min_guild_points>
 			</req>
-			<unit id='511' level='1' /> <!-- Arcane Ore -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>27</tier>
@@ -408,7 +408,7 @@
 				<min_points>2000</min_points>
 				<min_guild_points>4</min_guild_points>
 			</req>
-			<item id='2501' quantity='20' /> <!-- Blue Fire Souls -->
+			<item id='2501' quantity='20'/> <!-- Blue Fire Souls -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>28</tier>
@@ -416,7 +416,7 @@
 				<min_points>1500</min_points>
 				<min_guild_points>3</min_guild_points>
 			</req>
-			<unit id='510' level='1' /> <!-- Arcane Chunk -->
+			<unit id='510' level='1'/> <!-- Arcane Chunk -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>29</tier>
@@ -424,7 +424,7 @@
 				<min_points>1000</min_points>
 				<min_guild_points>2</min_guild_points>
 			</req>
-			<item id='1012' quantity='8' /> <!-- Gold Bar -->
+			<item id='1012' quantity='8'/> <!-- Gold Bar -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>30</tier>
@@ -432,6 +432,6 @@
 				<min_points>500</min_points>
 				<min_guild_points>1</min_guild_points>
 			</req>
-			<item id='1012' quantity='4' /> <!-- Gold Bar -->
+			<item id='1012' quantity='4'/> <!-- Gold Bar -->
 		</milestone_reward>
 	</event>
