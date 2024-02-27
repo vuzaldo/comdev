@@ -219,7 +219,7 @@
 				<min_points>14000</min_points>
 				<min_guild_points>30</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='50'/> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='1035' quantity='1'/> <!-- Raid Refill +20 -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>2</tier>
@@ -227,7 +227,7 @@
 				<min_points>14000</min_points>
 				<min_guild_points>29</min_guild_points>
 			</req>
-			<item id='4013' quantity='2'/> <!-- Legendary Rune Sliver -->
+			<item id='20' quantity='2'/> <!-- Arena Trophy -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>3</tier>
@@ -235,7 +235,7 @@
 				<min_points>14000</min_points>
 				<min_guild_points>28</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='4013' quantity='4'/> <!-- Legendary Rune Sliver -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>4</tier>
@@ -243,7 +243,7 @@
 				<min_points>13500</min_points>
 				<min_guild_points>27</min_guild_points>
 			</req>
-			<item id='18' quantity='500'/> <!-- Legendary Pack Fragments -->
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>5</tier>
@@ -251,7 +251,7 @@
 				<min_points>13000</min_points>
 				<min_guild_points>26</min_guild_points>
 			</req>
-			<item id='4013' quantity='1'/> <!-- Legendary Rune Sliver -->
+			<item id='1025' quantity='3'/> <!-- Bounty Refill +20 -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>6</tier>
@@ -259,7 +259,7 @@
 				<min_points>12500</min_points>
 				<min_guild_points>25</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>7</tier>
@@ -267,7 +267,7 @@
 				<min_points>12000</min_points>
 				<min_guild_points>24</min_guild_points>
 			</req>
-			<item id='18' quantity='250'/> <!-- Legendary Pack Fragments -->
+			<item id='523' quantity='1'/> <!-- Random Legendary Rune -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>8</tier>
@@ -275,7 +275,7 @@
 				<min_points>11500</min_points>
 				<min_guild_points>23</min_guild_points>
 			</req>
-			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>9</tier>
@@ -283,7 +283,7 @@
 				<min_points>11000</min_points>
 				<min_guild_points>22</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='15'/> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>10</tier>
@@ -291,7 +291,7 @@
 				<min_points>10500</min_points>
 				<min_guild_points>21</min_guild_points>
 			</req>
-			<item id='18' quantity='250'/> <!-- Legendary Pack Fragments -->
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>11</tier>
@@ -299,7 +299,7 @@
 				<min_points>10000</min_points>
 				<min_guild_points>20</min_guild_points>
 			</req>
-			<item id='2529' quantity='1'/> <!-- Hefty Mythical Flask -->
+			<item id='{FLASK_ID}' quantity='75'/> <!-- Champion Flask --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>12</tier>
@@ -307,7 +307,7 @@
 				<min_points>9500</min_points>
 				<min_guild_points>19</min_guild_points>
 			</req>
-			<item id='4012' quantity='2'/> <!-- Epic Runeshell -->
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>13</tier>
@@ -315,7 +315,7 @@
 				<min_points>9000</min_points>
 				<min_guild_points>18</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='15'/> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='4013' quantity='2'/> <!-- Legendary Rune Sliver -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>14</tier>
@@ -323,7 +323,7 @@
 				<min_points>8500</min_points>
 				<min_guild_points>17</min_guild_points>
 			</req>
-			<item id='4001' quantity='10'/> <!-- Inscription Powder-->
+			<item id='2529' quantity='1'/> <!-- Hefty Mythical Flask -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>15</tier>
@@ -331,7 +331,7 @@
 				<min_points>8000</min_points>
 				<min_guild_points>16</min_guild_points>
 			</req>
-			<item id='2528' quantity='1'/> <!-- Medium Mythical Flask -->
+			<item id='18' quantity='500'/> <!-- Legendary Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>16</tier>
@@ -339,7 +339,7 @@
 				<min_points>7500</min_points>
 				<min_guild_points>15</min_guild_points>
 			</req>
-			<item id='17' quantity='500'/> <!-- Epic Pack Fragments -->
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>17</tier>
@@ -347,7 +347,7 @@
 				<min_points>7000</min_points>
 				<min_guild_points>14</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones --> <!-- HERE -->
+			<unit id='{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card #3 --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>18</tier>
@@ -355,7 +355,7 @@
 				<min_points>6500</min_points>
 				<min_guild_points>13</min_guild_points>
 			</req>
-			<item id='17' quantity='250'/> <!-- Epic Pack Fragments -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>19</tier>
@@ -363,7 +363,7 @@
 				<min_points>6000</min_points>
 				<min_guild_points>12</min_guild_points>
 			</req>
-			<item id='4001' quantity='10'/> <!-- Inscription Powder -->
+			<item id='4001' quantity='100'/> <!-- Inscription Powder -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>20</tier>
@@ -371,7 +371,7 @@
 				<min_points>5500</min_points>
 				<min_guild_points>11</min_guild_points>
 			</req>
-			<item id='2001' quantity='15'/> <!-- Arcane Fragments -->
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>21</tier>
@@ -379,7 +379,7 @@
 				<min_points>5000</min_points>
 				<min_guild_points>10</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='5'/> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{FLASK_ID}' quantity='75'/> <!-- Champion Flask --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>22</tier>
@@ -387,7 +387,7 @@
 				<min_points>4500</min_points>
 				<min_guild_points>9</min_guild_points>
 			</req>
-			<item id='17' quantity='250'/> <!-- Epic Pack Fragments -->
+			<item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>23</tier>
@@ -395,7 +395,7 @@
 				<min_points>4000</min_points>
 				<min_guild_points>8</min_guild_points>
 			</req>
-			<item id='2501' quantity='30'/> <!-- Blue Fire Souls -->
+			<item id='2528' quantity='1'/> <!-- Medium Mythical Flask -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>24</tier>
@@ -403,7 +403,7 @@
 				<min_points>3500</min_points>
 				<min_guild_points>7</min_guild_points>
 			</req>
-			<item id='2001' quantity='10'/> <!-- Arcane Fragments -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>25</tier>
@@ -411,7 +411,7 @@
 				<min_points>3000</min_points>
 				<min_guild_points>6</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='5'/> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragments -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>26</tier>
@@ -419,7 +419,7 @@
 				<min_points>2500</min_points>
 				<min_guild_points>5</min_guild_points>
 			</req>
-			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>27</tier>
@@ -427,7 +427,7 @@
 				<min_points>2000</min_points>
 				<min_guild_points>4</min_guild_points>
 			</req>
-			<item id='2501' quantity='20'/> <!-- Blue Fire Souls -->
+			<item id='2501' quantity='400'/> <!-- Blue Fire Souls -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>28</tier>
@@ -435,7 +435,7 @@
 				<min_points>1500</min_points>
 				<min_guild_points>3</min_guild_points>
 			</req>
-			<unit id='510' level='1'/> <!-- Arcane Chunk -->
+			<item id='1012' quantity='20'/> <!-- Gold Bar -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>29</tier>
@@ -443,7 +443,7 @@
 				<min_points>1000</min_points>
 				<min_guild_points>2</min_guild_points>
 			</req>
-			<item id='1012' quantity='8'/> <!-- Gold Bar -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>30</tier>
@@ -451,6 +451,6 @@
 				<min_points>500</min_points>
 				<min_guild_points>1</min_guild_points>
 			</req>
-			<item id='1012' quantity='4'/> <!-- Gold Bar -->
+			<item id='1012' quantity='10'/> <!-- Gold Bar -->
 		</milestone_reward>
 	</event>
