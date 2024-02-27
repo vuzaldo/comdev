@@ -91,9 +91,12 @@
 			</req>
 			<display_item>0</display_item>
 			<item id='{STONES_ID}' quantity='150'/> <!-- Legendary Stones --> <!-- HERE -->
+			<item id='{FLASK_ID}' quantity='75'/> <!-- Champion Flask --> <!-- HERE -->
+			<item id='534' quantity='2'/> <!-- Random Tribe Health Rune --> <!-- HERE -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card #3 --> <!-- HERE -->
 			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 --> <!-- HERE -->
-			<item id='1012' quantity='8'/> <!-- Gold Bar -->
-			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
+			<item id='1012' quantity='60'/> <!-- Gold Bar -->
+			<item id='1004' quantity='3'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 2 or higher.</desc>
@@ -103,9 +106,12 @@
 				<min_rank>2</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='100'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='120'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='60'/> <!-- Champion Flask -->
+			<item id='534' quantity='2'/> <!-- Random Tribe Health Rune -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card #3 -->
 			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='8'/> <!-- Gold Bar -->
+			<item id='1012' quantity='55'/> <!-- Gold Bar -->
 			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
@@ -116,9 +122,12 @@
 				<min_rank>3</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='60'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='100'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='50'/> <!-- Champion Flask -->
+			<item id='534' quantity='2'/> <!-- Random Tribe Health Rune -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card #3 -->
 			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='8'/> <!-- Gold Bar -->
+			<item id='1012' quantity='50'/> <!-- Gold Bar -->
 			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
@@ -129,9 +138,12 @@
 				<min_rank>10</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='80'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='40'/> <!-- Champion Flask -->
+			<item id='534' quantity='1'/> <!-- Random Tribe Health Rune -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card #3 -->
 			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='8'/> <!-- Gold Bar -->
+			<item id='1012' quantity='45'/> <!-- Gold Bar -->
 			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
@@ -142,9 +154,11 @@
 				<min_rank>20</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones -->
-			<unit id='1{EPIC_CARD_ID}' level='3'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='6'/> <!-- Gold Bar -->
+			<item id='{STONES_ID}' quantity='60'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='30'/> <!-- Champion Flask -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='4'/> <!-- Legendary Card #3 -->
+			<unit id='1{EPIC_CARD_ID}' level='4'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='40'/> <!-- Gold Bar -->
 			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
@@ -155,9 +169,11 @@
 				<min_rank>70</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones -->
-			<unit id='1{EPIC_CARD_ID}' level='2'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='4'/> <!-- Gold Bar -->
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='20'/> <!-- Champion Flask -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='3'/> <!-- Legendary Card #3 -->
+			<unit id='1{EPIC_CARD_ID}' level='3'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='35'/> <!-- Gold Bar -->
 			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
@@ -168,9 +184,11 @@
 				<min_rank>150</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='5'/> <!-- Legendary Stones -->
-			<unit id='1{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='4'/> <!-- Gold Bar -->
+			<item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='10'/> <!-- Champion Flask -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='2'/> <!-- Legendary Card #3 -->
+			<unit id='1{EPIC_CARD_ID}' level='2'/> <!-- Epic Card #3 -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
 			<item id='1004' quantity='1'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
@@ -180,8 +198,9 @@
 				<min_points>3000</min_points>
 				<min_rank>300</min_rank>
 			</req>
+			<unit id='1{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card #3 -->
 			<unit id='1{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='2'/> <!-- Gold Bar -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
 			<item id='1004' quantity='1'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
@@ -191,7 +210,7 @@
 				<min_points>2000</min_points>
 				<min_rank>2000</min_rank>
 			</req>
-			<item id='1012' quantity='2'/> <!-- Gold Bar -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
 		</event_reward>
 
 		<milestone_reward>
