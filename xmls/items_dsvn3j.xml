@@ -5018,7 +5018,7 @@
 		<name>Chaotic Dreams Flask</name>
 		<icon>Flask_Chaos</icon><!-- Chaos_Flask -->
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Champion Stones for Gaerriel, Flying Nightmare; Worf, Volcano King; Skids, Hellfire Liches; or Nuri &#38; Nera, Twin Assailants</desc>
+		<desc>Consume to get your choice of Champion Stones for Gaerriel, Flying Nightmare; Worf, Volcano King; Skids, Hellfire Liches; or Nuri &amp; Nera, Twin Assailants</desc>
 		<choice id="1">
 			<item id="106630" quantity="1"/><!-- Gaerriel -->
 		</choice>
@@ -6026,7 +6026,7 @@
 			<item id="28272" quantity="1"/> <!-- Aether and Chaos 3D and 4D -->
 		</choice>
 		<choice id="3">
-			<item id="28273" quantity="1"/> <!-- Wyld 2D -->
+			<item id="28273" quantity="1"/> <!-- Wyld 2D and 4D -->
 		</choice>
 		<choice id="4">
 			<item id="28274" quantity="1"/> <!-- Void and Wyld 3D -->
@@ -6071,10 +6071,10 @@
 	</item>
 	<item>
 		<id>28273</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Ralgan, Illu Beast Flask</name>
+		<name>Ralgan, Illu, Moklam Beast Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Ralgan, Illu Stones; OR revert</desc>
+		<desc>Consume to get your choice of Ralgan, Illu, Moklam Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -6083,6 +6083,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104050" quantity="1"/> <!-- Illu -->
+		</choice>
+		<choice id="4">
+			<item id="104056" quantity="1"/> <!-- Moklam -->
 		</choice>
 	</item>
 	<item>

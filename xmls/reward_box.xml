@@ -1958,4 +1958,24 @@
 		<card id='12058' level='1' order='4' />  <!-- Bismuth Brute -->
 	</event_box>
 
+	<event_box>
+		<id>6098</id>
+		<name>Beast Arena Chest</name>
+		<desc>Pull from a set of awesome reward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>event_006_chance_chest_w1</asset_prefab>
+		<background_prefab>event_006_banner_chance_w1</background_prefab>
+		<bundle>39</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>  <!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id='20' order='1' />   <!-- Trophy -->
+		<card id='12188' level='1' order='2' />  <!-- Raging Baboons -->
+		<card id='12019' level='1' order='3' />  <!-- Chalistamper -->
+		<card id='12023' level='1' order='4' />  <!-- Grizzly Tear -->
+	</event_box>
+
 </root>

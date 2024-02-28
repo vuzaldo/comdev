@@ -44,485 +44,240 @@
 		<!-- Exclude Champions, commons and rare from buyback discount -->
 		<!-- +14 from start of bge e106 Thu Aug 31 2023 17:00:00 GMT+0000 -->
 
-		<buyback_card id="1000" endtime="1708016400"/><!-- Pegasus -->
-		<buyback_card id="11000" endtime="1708016400"/><!-- Stormcloud Pegasus -->
-		<buyback_card id="21000" endtime="1708016400"/><!-- Astral Pegasus -->
-	
-		<buyback_card id="1007" endtime="1708016400"/><!-- Fox Trickster -->
-		<buyback_card id="11007" endtime="1708016400"/><!-- Fox Charmer -->
-		<buyback_card id="21007" endtime="1708016400"/><!-- Fox Conjurer -->
-	
-		<buyback_card id="1011" endtime="1708016400"/><!-- Archive Keeper -->
-		<buyback_card id="11011" endtime="1708016400"/><!-- Archive Guardian -->
-		<buyback_card id="21011" endtime="1708016400"/><!-- Archive Curator -->
-	
-		<buyback_card id="1027" endtime="1708016400"/><!-- Griffin Knight -->
-		<buyback_card id="11027" endtime="1708016400"/><!-- Spearhunter Griffin -->
-		<buyback_card id="21027" endtime="1708016400"/><!-- Castlerock Griffin -->
-	
-		<buyback_card id="1033" endtime="1708016400"/><!-- Valiant Charger -->
-		<buyback_card id="11033" endtime="1708016400"/><!-- Noble Charger -->
-		<buyback_card id="21033" endtime="1708016400"/><!-- Thundersong Charger -->
-	
-		<buyback_card id="1314" endtime="1708016400"/><!-- Skeletal Hound -->
-		<buyback_card id="11314" endtime="1708016400"/><!-- Demon Hound -->
-		<buyback_card id="21314" endtime="1708016400"/><!-- Executioner Hound -->
-	
-		<buyback_card id="1343" endtime="1708016400"/><!-- Firehorn -->
-		<buyback_card id="11343" endtime="1708016400"/><!-- Burnhorn -->
-		<buyback_card id="21343" endtime="1708016400"/><!-- Blazehorn -->
-	
-		<buyback_card id="1602" endtime="1708016400"/><!-- Dire Wolf -->
-		<buyback_card id="11602" endtime="1708016400"/><!-- Frost Wolf -->
-		<buyback_card id="21602" endtime="1708016400"/><!-- Winter Wolf -->
-	
-		<buyback_card id="1605" endtime="1708016400"/><!-- Flying Squirrel -->
-		<buyback_card id="11605" endtime="1708016400"/><!-- Flightmage Squirrel -->
-		<buyback_card id="21605" endtime="1708016400"/><!-- Flightwizard Squirrel -->
-	
-		<buyback_card id="1615" endtime="1708016400"/><!-- Rune Panther -->
-		<buyback_card id="11615" endtime="1708016400"/><!-- Runeplate Panther -->
-		<buyback_card id="21615" endtime="1708016400"/><!-- Runelock Panther -->
-	
-		<buyback_card id="1616" endtime="1708016400"/><!-- Werewarg -->
-		<buyback_card id="11616" endtime="1708016400"/><!-- Werewarg Hunter -->
-		<buyback_card id="21616" endtime="1708016400"/><!-- Werewarg Alpha -->
-	
-		<buyback_card id="1625" endtime="1708016400"/><!-- Ferocious Clawkin -->
-		<buyback_card id="11625" endtime="1708016400"/><!-- Mighty Clawkin -->
-		<buyback_card id="21625" endtime="1708016400"/><!-- Clawkin Elite -->
-	
-		<buyback_card id="1626" endtime="1708016400"/><!-- Tusker -->
-		<buyback_card id="11626" endtime="1708016400"/><!-- Olitusker -->
-		<buyback_card id="21626" endtime="1708016400"/><!-- Wartusker -->
-	
-		<buyback_card id="1632" endtime="1708016400"/><!-- Shadow Rider -->
-		<buyback_card id="11632" endtime="1708016400"/><!-- Dark Rider -->
-		<buyback_card id="21632" endtime="1708016400"/><!-- Shade Rider -->
-	
-		<buyback_card id="1635" endtime="1708016400"/><!-- Mergoat -->
-		<buyback_card id="11635" endtime="1708016400"/><!-- Clever Mergoat -->
-		<buyback_card id="21635" endtime="1708016400"/><!-- Cunning Mergoat -->
-	
-		<buyback_card id="1641" endtime="1708016400"/><!-- Rhythm of the Wyld -->
-		<buyback_card id="11641" endtime="1708016400"/><!-- Beat of the Wyld -->
-		<buyback_card id="21641" endtime="1708016400"/><!-- Heart of the Wyld -->
-	
-		<buyback_card id="1642" endtime="1708016400"/><!-- Icestone Beast -->
-		<buyback_card id="11642" endtime="1708016400"/><!-- Icestone Brute -->
-		<buyback_card id="21642" endtime="1708016400"/><!-- Icestone Demon -->
-	
-		<buyback_card id="2000" endtime="1708016400"/><!-- Wasteland Nomad -->
-		<buyback_card id="12000" endtime="1708016400"/><!-- Wasteland Wanderer -->
-		<buyback_card id="22000" endtime="1708016400"/><!-- Wasteland Warrior -->
-	
-		<buyback_card id="2019" endtime="1708016400"/><!-- Chalistomper -->
-		<buyback_card id="12019" endtime="1708016400"/><!-- Chalistamper -->
-		<buyback_card id="22019" endtime="1708016400"/><!-- Chalirazer -->
-	
-		<buyback_card id="2021" endtime="1708016400"/><!-- Snowstep Ranger -->
-		<buyback_card id="12021" endtime="1708016400"/><!-- Snowstep Scout -->
-		<buyback_card id="22021" endtime="1708016400"/><!-- Snowstep Strider -->
-	
-		<buyback_card id="2022" endtime="1708016400"/><!-- Avalanche Equine -->
-		<buyback_card id="12022" endtime="1708016400"/><!-- Snowslide Equine -->
-		<buyback_card id="22022" endtime="1708016400"/><!-- Snowcrush Equine -->
-	
-		<buyback_card id="2023" endtime="1708016400"/><!-- Grizzly Terror -->
-		<buyback_card id="12023" endtime="1708016400"/><!-- Grizzly Tear -->
-		<buyback_card id="22023" endtime="1708016400"/><!-- Grizzly Despair -->
-	
-		<buyback_card id="2029" endtime="1708016400"/><!-- Sly Critters -->
-		<buyback_card id="12029" endtime="1708016400"/><!-- Cunning Critters -->
-		<buyback_card id="22029" endtime="1708016400"/><!-- Devilish Critters -->
-	
-		<buyback_card id="2054" endtime="1708016400"/><!-- Pack Runner -->
-		<buyback_card id="12054" endtime="1708016400"/><!-- Pack Leader -->
-		<buyback_card id="22054" endtime="1708016400"/><!-- Pack Alpha -->
-	
-		<buyback_card id="2058" endtime="1708016400"/><!-- Bismuth Bully -->
-		<buyback_card id="12058" endtime="1708016400"/><!-- Bismuth Brute -->
-		<buyback_card id="22058" endtime="1708016400"/><!-- Bismuth Beast -->
-	
-		<buyback_card id="2089" endtime="1708016400"/><!-- Slagspirit -->
-		<buyback_card id="12089" endtime="1708016400"/><!-- Slagspirit Ripper -->
-		<buyback_card id="22089" endtime="1708016400"/><!-- Slagspirit Slayer -->
-	
-		<buyback_card id="2120" endtime="1708016400"/><!-- Emerald Carbuncle -->
-		<buyback_card id="12120" endtime="1708016400"/><!-- Jaded Carbuncle -->
-		<buyback_card id="22120" endtime="1708016400"/><!-- Bewitched Carbuncle -->
-	
-		<buyback_card id="2138" endtime="1708016400"/><!-- Magma Cougar -->
-		<buyback_card id="12138" endtime="1708016400"/><!-- Magmara Cougar -->
-		<buyback_card id="22138" endtime="1708016400"/><!-- Magmarch Cougar -->
-	
-		<buyback_card id="2172" endtime="1708016400"/><!-- Hob and Gob Duo -->
-		<buyback_card id="12172" endtime="1708016400"/><!-- Hob and Gob Pair -->
-		<buyback_card id="22172" endtime="1708016400"/><!-- Hob and Gob Mob -->
-	
-		<buyback_card id="2184" endtime="1708016400"/><!-- Frohemot Monster -->
-		<buyback_card id="12184" endtime="1708016400"/><!-- Frohemot Giant -->
-		<buyback_card id="22184" endtime="1708016400"/><!-- Frohemot Titan -->
-	
-		<buyback_card id="2188" endtime="1708016400"/><!-- Jungle Baboons -->
-		<buyback_card id="12188" endtime="1708016400"/><!-- Raging Baboons -->
-		<buyback_card id="22188" endtime="1708016400"/><!-- Feral Baboons -->
-	
-		<buyback_card id="2192" endtime="1708016400"/><!-- Gear Shepherd -->
-		<buyback_card id="12192" endtime="1708016400"/><!-- Gearpaw Shepherd -->
-		<buyback_card id="22192" endtime="1708016400"/><!-- Gearmaw Shepherd -->
-	
-		<buyback_card id="2193" endtime="1708016400"/><!-- Iceratops Model -->
-		<buyback_card id="12193" endtime="1708016400"/><!-- Iceratops Construct -->
-		<buyback_card id="22193" endtime="1708016400"/><!-- Iceratops Engine -->
-	
-		<buyback_card id="2201" endtime="1708016400"/><!-- Squadron Griffins -->
-		<buyback_card id="12201" endtime="1708016400"/><!-- Sentinel Griffins -->
-		<buyback_card id="22201" endtime="1708016400"/><!-- Delta Griffins -->
-	
-		<buyback_card id="2220" endtime="1708016400"/><!-- Frozenbolt Adept -->
-		<buyback_card id="12220" endtime="1708016400"/><!-- Frozenbolt Regent -->
-		<buyback_card id="22220" endtime="1708016400"/><!-- Frozenbolt Chosen -->
-	
-		<buyback_card id="5000" endtime="1708016400"/><!-- Azure Sphinx -->
-		<buyback_card id="15000" endtime="1708016400"/><!-- Marble Sphinx -->
-		<buyback_card id="25000" endtime="1708016400"/><!-- Alabaster Sphinx -->
-	
-		<buyback_card id="5027" endtime="1708016400"/><!-- Northern War-kin -->
-		<buyback_card id="15027" endtime="1708016400"/><!-- Northern Clash-kin -->
-		<buyback_card id="25027" endtime="1708016400"/><!-- Northern Strife-kin -->
-	
-		<buyback_card id="5030" endtime="1708016400"/><!-- Loxphas Mage -->
-		<buyback_card id="15030" endtime="1708016400"/><!-- Loxphas Sorcerer -->
-		<buyback_card id="25030" endtime="1708016400"/><!-- Loxphas Wizard -->
-	
-		<buyback_card id="5036" endtime="1708016400"/><!-- Winter Tail -->
-		<buyback_card id="15036" endtime="1708016400"/><!-- Spring Tail -->
-		<buyback_card id="25036" endtime="1708016400"/><!-- Summer Tail -->
-	
-		<buyback_card id="5061" endtime="1708016400"/><!-- Thunderfist Rex -->
-		<buyback_card id="15061" endtime="1708016400"/><!-- Flashfist Rex -->
-		<buyback_card id="25061" endtime="1708016400"/><!-- Boltfist Rex -->
-	
-		<buyback_card id="5081" endtime="1708016400"/><!-- Brahzee -->
-		<buyback_card id="15081" endtime="1708016400"/><!-- Cumulus Brahzee -->
-		<buyback_card id="25081" endtime="1708016400"/><!-- Nimbus Brahzee -->
-	
-		<buyback_card id="5134" endtime="1708016400"/><!-- Ocotillo -->
-		<buyback_card id="15134" endtime="1708016400"/><!-- Ocotillo Shredder -->
-		<buyback_card id="25134" endtime="1708016400"/><!-- Ocotillo Ravager -->
-	
-		<buyback_card id="5163" endtime="1708016400"/><!-- Bark Hound -->
-		<buyback_card id="15163" endtime="1708016400"/><!-- Bark Patroller -->
-		<buyback_card id="25163" endtime="1708016400"/><!-- Bark Watchers -->
-	
-		<buyback_card id="5164" endtime="1708016400"/><!-- Chromium Centaur -->
-		<buyback_card id="15164" endtime="1708016400"/><!-- Chromium Raider -->
-		<buyback_card id="25164" endtime="1708016400"/><!-- Chromium Crusader -->
-	
-		<buyback_card id="5181" endtime="1708016400"/><!-- Himamanav -->
-		<buyback_card id="15181" endtime="1708016400"/><!-- Himamanav's Breath -->
-		<buyback_card id="25181" endtime="1708016400"/><!-- Himamanav's Essence -->
-	
-		<buyback_card id="5212" endtime="1708016400"/><!-- Sparktail Cirrus -->
-		<buyback_card id="15212" endtime="1708016400"/><!-- Crackletail Cirrus -->
-		<buyback_card id="25212" endtime="1708016400"/><!-- Thundertail Cirrus -->
-	
-		<buyback_card id="5260" endtime="1708016400"/><!-- Monkey Style Tenshi -->
-		<buyback_card id="15260" endtime="1708016400"/><!-- Master Style Tenshi -->
-		<buyback_card id="25260" endtime="1708016400"/><!-- God Style Tenshi -->
-	
-		<buyback_card id="5272" endtime="1708016400"/><!-- Balam Sphinx -->
-		<buyback_card id="15272" endtime="1708016400"/><!-- Balam Protector -->
-		<buyback_card id="25272" endtime="1708016400"/><!-- Balam Deity -->
-	
-		<buyback_card id="5275" endtime="1708016400"/><!-- Bulgae Dogs -->
-		<buyback_card id="15275" endtime="1708016400"/><!-- Bulgae Pack -->
-		<buyback_card id="25275" endtime="1708016400"/><!-- Bulgae Hounds -->
-	
-		<buyback_card id="5281" endtime="1708016400"/><!-- Ramming Unit -->
-		<buyback_card id="15281" endtime="1708016400"/><!-- Ramming Army -->
-		<buyback_card id="25281" endtime="1708016400"/><!-- Ramming Legion -->
-	
-		<buyback_card id="5284" endtime="1708016400"/><!-- Tooth Terriers -->
-		<buyback_card id="15284" endtime="1708016400"/><!-- Maw Terriers -->
-		<buyback_card id="25284" endtime="1708016400"/><!-- Piranha Terriers -->
-	
-		<buyback_card id="5293" endtime="1708016400"/><!-- Trusted Usher -->
-		<buyback_card id="15293" endtime="1708016400"/><!-- Faithful Usher -->
-		<buyback_card id="25293" endtime="1708016400"/><!-- Unwavering Usher -->
-	
-		<buyback_card id="6009" endtime="1708016400"/><!-- Siphon Dragon -->
-		<buyback_card id="16009" endtime="1708016400"/><!-- Devouring Dragon -->
-		<buyback_card id="26009" endtime="1708016400"/><!-- Ravaging Dragon -->
-	
-		<buyback_card id="6019" endtime="1708016400"/><!-- Canopy Horror -->
-		<buyback_card id="16019" endtime="1708016400"/><!-- Canopy Chiller -->
-		<buyback_card id="26019" endtime="1708016400"/><!-- Canopy Terror -->
-	
-		<buyback_card id="6030" endtime="1708016400"/><!-- Noveria Yeti -->
-		<buyback_card id="16030" endtime="1708016400"/><!-- Noveria Hulk -->
-		<buyback_card id="26030" endtime="1708016400"/><!-- Noveria Abomination -->
-	
-		<buyback_card id="6039" endtime="1708016400"/><!-- Auroch -->
-		<buyback_card id="16039" endtime="1708016400"/><!-- Auroch the Infernal -->
-		<buyback_card id="26039" endtime="1708016400"/><!-- Auroch the Wicked -->
-	
-		<buyback_card id="6052" endtime="1708016400"/><!-- Fuming Beast -->
-		<buyback_card id="16052" endtime="1708016400"/><!-- Fuming Ghoul -->
-		<buyback_card id="26052" endtime="1708016400"/><!-- Fuming Horror -->
-	
-		<buyback_card id="6060" endtime="1708016400"/><!-- Pudgytusk -->
-		<buyback_card id="16060" endtime="1708016400"/><!-- Slobbering Pudgytusk -->
-		<buyback_card id="26060" endtime="1708016400"/><!-- Incensed Pudgytusk -->
-	
-		<buyback_card id="6080" endtime="1708016400"/><!-- Titanirous -->
-		<buyback_card id="16080" endtime="1708016400"/><!-- Forged Titanirous -->
-		<buyback_card id="26080" endtime="1708016400"/><!-- Refined Titanirous -->
-	
-		<buyback_card id="6134" endtime="1708016400"/><!-- Primitive Hearth -->
-		<buyback_card id="16134" endtime="1708016400"/><!-- Madcap Hearth -->
-		<buyback_card id="26134" endtime="1708016400"/><!-- Savage Hearth -->
-	
-		<buyback_card id="6150" endtime="1708016400"/><!-- Deep Dino -->
-		<buyback_card id="16150" endtime="1708016400"/><!-- Depth Dino -->
-		<buyback_card id="26150" endtime="1708016400"/><!-- Fathom Dino -->
-	
-		<buyback_card id="6159" endtime="1708016400"/><!-- Solder Charger -->
-		<buyback_card id="16159" endtime="1708016400"/><!-- Solder Crasher -->
-		<buyback_card id="26159" endtime="1708016400"/><!-- Solder Sunderer -->
-	
-		<buyback_card id="6161" endtime="1708016400"/><!-- Torero -->
-		<buyback_card id="16161" endtime="1708016400"/><!-- Torero Terminator -->
-		<buyback_card id="26161" endtime="1708016400"/><!-- Torero Terror -->
-	
-		<buyback_card id="6204" endtime="1708016400"/><!-- Chi-Hand Anubi -->
-		<buyback_card id="16204" endtime="1708016400"/><!-- Chi-Fist Anubi -->
-		<buyback_card id="26204" endtime="1708016400"/><!-- Chi-Strike Anubi -->
-	
-		<buyback_card id="6205" endtime="1708016400"/><!-- Rattleroar Chimera -->
-		<buyback_card id="16205" endtime="1708016400"/><!-- Rattleroar Horror -->
-		<buyback_card id="26205" endtime="1708016400"/><!-- Rattleroar Monstrosity -->
-	
-		<buyback_card id="6221" endtime="1708016400"/><!-- Desert Rider -->
-		<buyback_card id="16221" endtime="1708016400"/><!-- Desert Roamer -->
-		<buyback_card id="26221" endtime="1708016400"/><!-- Desert Blastabond -->
-	
-		<buyback_card id="6226" endtime="1708016400"/><!-- Ember Hound -->
-		<buyback_card id="16226" endtime="1708016400"/><!-- Char Hound -->
-		<buyback_card id="26226" endtime="1708016400"/><!-- Inferno Hound -->
-	
-		<buyback_card id="6251" endtime="1708016400"/><!-- Lavahorn Rhino -->
-		<buyback_card id="16251" endtime="1708016400"/><!-- Lavahorn Beast -->
-		<buyback_card id="26251" endtime="1708016400"/><!-- Lavahorn Monster -->
-	
-		<buyback_card id="6259" endtime="1708016400"/><!-- Summoned Umibozu -->
-		<buyback_card id="16259" endtime="1708016400"/><!-- Untamed Umibozu -->
-		<buyback_card id="26259" endtime="1708016400"/><!-- Apocalyptic Umibozu -->
-	
-		<buyback_card id="6287" endtime="1708016400"/><!-- Firehop Bunny -->
-		<buyback_card id="16287" endtime="1708016400"/><!-- Firehop Rabbit -->
-		<buyback_card id="26287" endtime="1708016400"/><!-- Firehop Fluffle -->
-	
-		<buyback_card id="6297" endtime="1708016400"/><!-- Novice Drummer -->
-		<buyback_card id="16297" endtime="1708016400"/><!-- Battle Drummer -->
-		<buyback_card id="26297" endtime="1708016400"/><!-- War Drummer -->
-	
-		<buyback_card id="7002" endtime="1708016400"/><!-- Cerberus -->
-		<buyback_card id="17002" endtime="1708016400"/><!-- Cerberus, the Sentry -->
-		<buyback_card id="27002" endtime="1708016400"/><!-- Cerberus, the Gate -->
-	
-		<buyback_card id="7009" endtime="1708016400"/><!-- Rhino Beast -->
-		<buyback_card id="17009" endtime="1708016400"/><!-- Rhino Brute -->
-		<buyback_card id="27009" endtime="1708016400"/><!-- Rhino Savage -->
-	
-		<buyback_card id="7011" endtime="1708016400"/><!-- Wolf Girl -->
-		<buyback_card id="17011" endtime="1708016400"/><!-- Wolf Matriarch -->
-		<buyback_card id="27011" endtime="1708016400"/><!-- Wolf Queen -->
-	
-		<buyback_card id="7015" endtime="1708016400"/><!-- Bog Aberration -->
-		<buyback_card id="17015" endtime="1708016400"/><!-- Marsh Aberration -->
-		<buyback_card id="27015" endtime="1708016400"/><!-- Swamp Aberration -->
-	
-		<buyback_card id="7024" endtime="1708016400"/><!-- Woolmane Dragon -->
-		<buyback_card id="17024" endtime="1708016400"/><!-- Finemane Dragon -->
-		<buyback_card id="27024" endtime="1708016400"/><!-- Grandmane Dragon -->
-	
-		<buyback_card id="7027" endtime="1708016400"/><!-- Kitsune -->
-		<buyback_card id="17027" endtime="1708016400"/><!-- Kitsune Yosei -->
-		<buyback_card id="27027" endtime="1708016400"/><!-- Kitsune Seishin -->
-	
-		<buyback_card id="7031" endtime="1708016400"/><!-- Saberjaw Elite -->
-		<buyback_card id="17031" endtime="1708016400"/><!-- Saberjaw Veteran -->
-		<buyback_card id="27031" endtime="1708016400"/><!-- Saberjaw Magus -->
-	
-		<buyback_card id="7032" endtime="1708016400"/><!-- Nidhogg -->
-		<buyback_card id="17032" endtime="1708016400"/><!-- Timber Nidhogg -->
-		<buyback_card id="27032" endtime="1708016400"/><!-- Sylvan Nidhogg -->
-	
-		<buyback_card id="7034" endtime="1708016400"/><!-- Spore Elk -->
-		<buyback_card id="17034" endtime="1708016400"/><!-- Infected Elk -->
-		<buyback_card id="27034" endtime="1708016400"/><!-- Contagion Elk -->
-	
-		<buyback_card id="7035" endtime="1708016400"/><!-- Carrion Tiger -->
-		<buyback_card id="17035" endtime="1708016400"/><!-- Carrion Slasher -->
-		<buyback_card id="27035" endtime="1708016400"/><!-- Carrion King -->
-	
-		<buyback_card id="7037" endtime="1708016400"/><!-- Bane -->
-		<buyback_card id="17037" endtime="1708016400"/><!-- Vicious Bane -->
-		<buyback_card id="27037" endtime="1708016400"/><!-- Noxious Bane -->
-	
-		<buyback_card id="7038" endtime="1708016400"/><!-- Sol King -->
-		<buyback_card id="17038" endtime="1708016400"/><!-- Ray King -->
-		<buyback_card id="27038" endtime="1708016400"/><!-- Sun King -->
-	
-		<buyback_card id="7047" endtime="1708016400"/><!-- Shaman of the Wild -->
-		<buyback_card id="17047" endtime="1708016400"/><!-- Shaman of the Paw -->
-		<buyback_card id="27047" endtime="1708016400"/><!-- Shaman of the Claw -->
-	
-		<buyback_card id="7061" endtime="1708016400"/><!-- Thickskin Dragon -->
-		<buyback_card id="17061" endtime="1708016400"/><!-- Stoneskin Dragon -->
-		<buyback_card id="27061" endtime="1708016400"/><!-- Cragskin Dragon -->
-	
-		<buyback_card id="7070" endtime="1708016400"/><!-- Laughing Menace -->
-		<buyback_card id="17070" endtime="1708016400"/><!-- Cackling Menace -->
-		<buyback_card id="27070" endtime="1708016400"/><!-- Howling Menace -->
-	
-		<buyback_card id="7071" endtime="1708016400"/><!-- Gorilleus -->
-		<buyback_card id="17071" endtime="1708016400"/><!-- King Gorilleus -->
-		<buyback_card id="27071" endtime="1708016400"/><!-- Emperor Gorilleus -->
-	
-		<buyback_card id="7072" endtime="1708016400"/><!-- Murabi -->
-		<buyback_card id="17072" endtime="1708016400"/><!-- Reign of Murabi -->
-		<buyback_card id="27072" endtime="1708016400"/><!-- Pride of Murabi -->
-	
-		<buyback_card id="7076" endtime="1708016400"/><!-- Avalanche Fiend -->
-		<buyback_card id="17076" endtime="1708016400"/><!-- Avalanche Monster -->
-		<buyback_card id="27076" endtime="1708016400"/><!-- Avalanche Behemoth -->
-	
-		<buyback_card id="7079" endtime="1708016400"/><!-- Carina -->
-		<buyback_card id="17079" endtime="1708016400"/><!-- Nebula Carina -->
-		<buyback_card id="27079" endtime="1708016400"/><!-- Supernova Carina -->
-	
-		<buyback_card id="7085" endtime="1708016400"/><!-- Moonlit Scavenger -->
-		<buyback_card id="17085" endtime="1708016400"/><!-- Moonlit Hunter -->
-		<buyback_card id="27085" endtime="1708016400"/><!-- Moonlit Pack -->
-	
-		<buyback_card id="7088" endtime="1708016400"/><!-- Jubjub -->
-		<buyback_card id="17088" endtime="1708016400"/><!-- Jubjub, Beast Master -->
-		<buyback_card id="27088" endtime="1708016400"/><!-- Jubjub, Pack Alpha -->
-	
-		<buyback_card id="7116" endtime="1708016400"/><!-- Watchful Hexhound -->
-		<buyback_card id="17116" endtime="1708016400"/><!-- Wary Hexhound -->
-		<buyback_card id="27116" endtime="1708016400"/><!-- Hostile Hexhound -->
-	
-		<buyback_card id="7118" endtime="1708016400"/><!-- Fleetfoot Wolper -->
-		<buyback_card id="17118" endtime="1708016400"/><!-- Swiftfoot Wolper -->
-		<buyback_card id="27118" endtime="1708016400"/><!-- Slashfoot Wolper -->
-	
-		<buyback_card id="7119" endtime="1708016400"/><!-- Bunnpaa -->
-		<buyback_card id="17119" endtime="1708016400"/><!-- Bunnpaa Worshipped -->
-		<buyback_card id="27119" endtime="1708016400"/><!-- Bunnpaa Overwatch -->
-	
-		<buyback_card id="7122" endtime="1708016400"/><!-- Satyr Runebearer -->
-		<buyback_card id="17122" endtime="1708016400"/><!-- Satyr Runecarrier -->
-		<buyback_card id="27122" endtime="1708016400"/><!-- Satyr Runerunner -->
-	
-		<buyback_card id="7124" endtime="1708016400"/><!-- Enduring Appetite -->
-		<buyback_card id="17124" endtime="1708016400"/><!-- Imperishable Appetite -->
-		<buyback_card id="27124" endtime="1708016400"/><!-- Immortal Appetite -->
-	
-		<buyback_card id="7125" endtime="1708016400"/><!-- Spectral Presence -->
-		<buyback_card id="17125" endtime="1708016400"/><!-- Spectral Sentinel -->
-		<buyback_card id="27125" endtime="1708016400"/><!-- Spectral Guardian -->
-	
-		<buyback_card id="7143" endtime="1708016400"/><!-- Hog Bronco -->
-		<buyback_card id="17143" endtime="1708016400"/><!-- Hog Rumbler -->
-		<buyback_card id="27143" endtime="1708016400"/><!-- Hog Wild -->
-	
-		<buyback_card id="7161" endtime="1708016400"/><!-- Alphamecha -->
-		<buyback_card id="17161" endtime="1708016400"/><!-- Alphamech Trapper -->
-		<buyback_card id="27161" endtime="1708016400"/><!-- Alphamech Stalker -->
-	
-		<buyback_card id="7164" endtime="1708016400"/><!-- Pinegrove Primate -->
-		<buyback_card id="17164" endtime="1708016400"/><!-- Pinegrove Pummeler -->
-		<buyback_card id="27164" endtime="1708016400"/><!-- Pinegrove Punisher -->
-	
-		<buyback_card id="7168" endtime="1708016400"/><!-- Werefang the Howler -->
-		<buyback_card id="17168" endtime="1708016400"/><!-- Werefang of Night's Hill -->
-		<buyback_card id="27168" endtime="1708016400"/><!-- Werefang of Chill Terror -->
-	
-		<buyback_card id="7206" endtime="1708016400"/><!-- Twigform Mystic -->
-		<buyback_card id="17206" endtime="1708016400"/><!-- Leaform Mystic -->
-		<buyback_card id="27206" endtime="1708016400"/><!-- Treeform Mystic -->
-	
-		<buyback_card id="7209" endtime="1708016400"/><!-- Blossom Mare -->
-		<buyback_card id="17209" endtime="1708016400"/><!-- Blossom Charger -->
-		<buyback_card id="27209" endtime="1708016400"/><!-- Blossom Steed -->
-	
-		<buyback_card id="7212" endtime="1708016400"/><!-- Skelosaurus -->
-		<buyback_card id="17212" endtime="1708016400"/><!-- Stomping Skelosaurus -->
-		<buyback_card id="27212" endtime="1708016400"/><!-- Territorial Skelosaurus -->
-	
-		<buyback_card id="7219" endtime="1708016400"/><!-- Hoggernaut MK I -->
-		<buyback_card id="17219" endtime="1708016400"/><!-- Hoggernaut MK II -->
-		<buyback_card id="27219" endtime="1708016400"/><!-- Hoggernaut MK III -->
-	
-		<buyback_card id="7236" endtime="1708016400"/><!-- Unicorn Phantom -->
-		<buyback_card id="17236" endtime="1708016400"/><!-- Unicorn Ghost -->
-		<buyback_card id="27236" endtime="1708016400"/><!-- Unicorn Specter -->
-	
-		<buyback_card id="7243" endtime="1708016400"/><!-- Moonscale Drake -->
-		<buyback_card id="17243" endtime="1708016400"/><!-- Moonscale Beast -->
-		<buyback_card id="27243" endtime="1708016400"/><!-- Moonscale Howler -->
-	
-		<buyback_card id="7250" endtime="1708016400"/><!-- Lumberbuck Ranger -->
-		<buyback_card id="17250" endtime="1708016400"/><!-- Lumberbuck Scythe -->
-		<buyback_card id="27250" endtime="1708016400"/><!-- Lumberbuck Ultra -->
-	
-		<buyback_card id="7255" endtime="1708016400"/><!-- Hooflin Ranger -->
-		<buyback_card id="17255" endtime="1708016400"/><!-- Hooflin Tracker -->
-		<buyback_card id="27255" endtime="1708016400"/><!-- Hooflin Warden -->
-	
-		<buyback_card id="7264" endtime="1708016400"/><!-- Apricot Qilin -->
-		<buyback_card id="17264" endtime="1708016400"/><!-- Nectar Qilin -->
-		<buyback_card id="27264" endtime="1708016400"/><!-- Orchard Qilin -->
-	
-		<buyback_card id="7277" endtime="1708016400"/><!-- Avalantooth Yeti -->
-		<buyback_card id="17277" endtime="1708016400"/><!-- Avalantooth Raider -->
-		<buyback_card id="27277" endtime="1708016400"/><!-- Avalantooth Breaker -->
-	
-		<buyback_card id="7278" endtime="1708016400"/><!-- Petroleum Elemental -->
-		<buyback_card id="17278" endtime="1708016400"/><!-- Petroleum Monstrosity -->
-		<buyback_card id="27278" endtime="1708016400"/><!-- Petroleum Ravager -->
-	
-		<buyback_card id="7283" endtime="1708016400"/><!-- Deceitful Wybat -->
-		<buyback_card id="17283" endtime="1708016400"/><!-- Furtive Wybat -->
-		<buyback_card id="27283" endtime="1708016400"/><!-- Shadowed Wybat -->
+	<buyback_card id="1001" endtime="1710435600"/> <!-- Angelic Knight -->
+	<buyback_card id="11001" endtime="1710435600"/> <!-- Sky Knight -->
+	<buyback_card id="21001" endtime="1710435600"/> <!-- Luminous Knight -->
 
-		<buyback_card id="7291" endtime="1708016400"/><!-- Gobbat -->
-		<buyback_card id="17291" endtime="1708016400"/><!-- Vicious Gobbat -->
-		<buyback_card id="27291" endtime="1708016400"/><!-- Mutant Gobbat -->
-	
-		<buyback_card id="7296" endtime="1708016400"/><!-- Reefhogs -->
-		<buyback_card id="17296" endtime="1708016400"/><!-- Savage Reefhogs -->
-		<buyback_card id="27296" endtime="1708016400"/><!-- Frenzied Reefhogs -->
+	<buyback_card id="1002" endtime="1710435600"/> <!-- Windstorm Elemental -->
+	<buyback_card id="11002" endtime="1710435600"/> <!-- Tornado Elemental -->
+	<buyback_card id="21002" endtime="1710435600"/> <!-- Cyclone Elemental -->
 
-		<buyback_card id="7297" endtime="1708016400"/><!-- Cursed Caserpent -->
-		<buyback_card id="17297" endtime="1708016400"/><!-- Doomed Caserpent -->
-		<buyback_card id="27297" endtime="1708016400"/><!-- Possessed Caserpent -->
-	
-		<buyback_card id="7300" endtime="1708016400"/><!-- Honey Burglar -->
-		<buyback_card id="17300" endtime="1708016400"/><!-- Honey Thief -->
-		<buyback_card id="27300" endtime="1708016400"/><!-- Flying Honey Thief -->
+	<buyback_card id="1003" endtime="1710435600"/> <!-- Kestrel -->
+	<buyback_card id="11003" endtime="1710435600"/> <!-- Purified Kestrel -->
+	<buyback_card id="21003" endtime="1710435600"/> <!-- Spirit Kestrel -->
 
+	<buyback_card id="1004" endtime="1710435600"/> <!-- Wind Sprite -->
+	<buyback_card id="11004" endtime="1710435600"/> <!-- Wind Spirit -->
+	<buyback_card id="21004" endtime="1710435600"/> <!-- Wind Soul -->
+
+	<buyback_card id="1005" endtime="1710435600"/> <!-- Angelic Brawler -->
+	<buyback_card id="11005" endtime="1710435600"/> <!-- Angelic Bruiser -->
+	<buyback_card id="21005" endtime="1710435600"/> <!-- Angelic Warrior -->
+
+	<buyback_card id="1006" endtime="1710435600"/> <!-- Soul Wisp -->
+	<buyback_card id="11006" endtime="1710435600"/> <!-- Irate Soul Wisp -->
+	<buyback_card id="21006" endtime="1710435600"/> <!-- Enraged Soul Wisp -->
+
+	<buyback_card id="1007" endtime="1710435600"/> <!-- Fox Trickster -->
+	<buyback_card id="11007" endtime="1710435600"/> <!-- Fox Charmer -->
+	<buyback_card id="21007" endtime="1710435600"/> <!-- Fox Conjurer -->
+
+	<buyback_card id="1011" endtime="1710435600"/> <!-- Archive Keeper -->
+	<buyback_card id="11011" endtime="1710435600"/> <!-- Archive Guardian -->
+	<buyback_card id="21011" endtime="1710435600"/> <!-- Archive Curator -->
+
+	<buyback_card id="1012" endtime="1710435600"/> <!-- Cloud Sylph -->
+	<buyback_card id="11012" endtime="1710435600"/> <!-- Form of Clouds -->
+	<buyback_card id="21012" endtime="1710435600"/> <!-- Avatar of Clouds -->
+
+	<buyback_card id="1014" endtime="1710435600"/> <!-- Cherub -->
+	<buyback_card id="11014" endtime="1710435600"/> <!-- Veteran Cherub -->
+	<buyback_card id="21014" endtime="1710435600"/> <!-- Wartorn Cherub -->
+
+	<buyback_card id="1017" endtime="1710435600"/> <!-- Judgment -->
+	<buyback_card id="11017" endtime="1710435600"/> <!-- High Judgment -->
+	<buyback_card id="21017" endtime="1710435600"/> <!-- Final Judgment -->
+
+	<buyback_card id="1018" endtime="1710435600"/> <!-- Armored Eagle -->
+	<buyback_card id="11018" endtime="1710435600"/> <!-- Iron Eagle -->
+	<buyback_card id="21018" endtime="1710435600"/> <!-- Steel Eagle -->
+
+	<buyback_card id="1019" endtime="1710435600"/> <!-- Oracle -->
+	<buyback_card id="11019" endtime="1710435600"/> <!-- Devote Oracle -->
+	<buyback_card id="21019" endtime="1710435600"/> <!-- Ascended Oracle -->
+
+	<buyback_card id="1302" endtime="1710435600"/> <!-- Phase Imp -->
+	<buyback_card id="11302" endtime="1710435600"/> <!-- Flicker Imp -->
+	<buyback_card id="21302" endtime="1710435600"/> <!-- Dimension Imp -->
+
+	<buyback_card id="1303" endtime="1710435600"/> <!-- Undead Brute -->
+	<buyback_card id="11303" endtime="1710435600"/> <!-- Unearthed Brute -->
+	<buyback_card id="21303" endtime="1710435600"/> <!-- Risen Brute -->
+
+	<buyback_card id="1305" endtime="1710435600"/> <!-- Smoldering Elemental -->
+	<buyback_card id="11305" endtime="1710435600"/> <!-- Lavamolten Elemental -->
+	<buyback_card id="21305" endtime="1710435600"/> <!-- Igneous Elemental -->
+
+	<buyback_card id="1306" endtime="1710435600"/> <!-- Lava Crab -->
+	<buyback_card id="11306" endtime="1710435600"/> <!-- Lava Pincer -->
+	<buyback_card id="21306" endtime="1710435600"/> <!-- Lava Gripper -->
+
+	<buyback_card id="1307" endtime="1710435600"/> <!-- Horned Rakken -->
+	<buyback_card id="11307" endtime="1710435600"/> <!-- Spiked Rakken -->
+	<buyback_card id="21307" endtime="1710435600"/> <!-- Thorned Rakken -->
+
+	<buyback_card id="1312" endtime="1710435600"/> <!-- Scythe Demon -->
+	<buyback_card id="11312" endtime="1710435600"/> <!-- Edge Demon -->
+	<buyback_card id="21312" endtime="1710435600"/> <!-- Cleaver Demon -->
+
+	<buyback_card id="1313" endtime="1710435600"/> <!-- Lavafrog -->
+	<buyback_card id="11313" endtime="1710435600"/> <!-- Ashfrog -->
+	<buyback_card id="21313" endtime="1710435600"/> <!-- Hellfrog -->
+
+	<buyback_card id="1314" endtime="1710435600"/> <!-- Skeletal Hound -->
+	<buyback_card id="11314" endtime="1710435600"/> <!-- Demon Hound -->
+	<buyback_card id="21314" endtime="1710435600"/> <!-- Executioner Hound -->
+
+	<buyback_card id="1315" endtime="1710435600"/> <!-- Nix Elemental -->
+	<buyback_card id="11315" endtime="1710435600"/> <!-- Nixfire Elemental -->
+	<buyback_card id="21315" endtime="1710435600"/> <!-- Nixflame Elemental -->
+
+	<buyback_card id="1317" endtime="1710435600"/> <!-- Fire Imp -->
+	<buyback_card id="11317" endtime="1710435600"/> <!-- Fire Fiend -->
+	<buyback_card id="21317" endtime="1710435600"/> <!-- Fire Devil -->
+
+	<buyback_card id="1600" endtime="1710435600"/> <!-- Woodland Fairy -->
+	<buyback_card id="11600" endtime="1710435600"/> <!-- Leavefall Fairy -->
+	<buyback_card id="21600" endtime="1710435600"/> <!-- Canopyrise Fairy -->
+
+	<buyback_card id="1602" endtime="1710435600"/> <!-- Dire Wolf -->
+	<buyback_card id="11602" endtime="1710435600"/> <!-- Frost Wolf -->
+	<buyback_card id="21602" endtime="1710435600"/> <!-- Winter Wolf -->
+
+	<buyback_card id="1603" endtime="1710435600"/> <!-- Mermaid Mage -->
+	<buyback_card id="11603" endtime="1710435600"/> <!-- Mermaid Sorceress -->
+	<buyback_card id="21603" endtime="1710435600"/> <!-- Mermaid Battlemage -->
+
+	<buyback_card id="1604" endtime="1710435600"/> <!-- Toad Warrior -->
+	<buyback_card id="11604" endtime="1710435600"/> <!-- Toad Metalwarrior -->
+	<buyback_card id="21604" endtime="1710435600"/> <!-- Toad Steelwarrior -->
+
+	<buyback_card id="1606" endtime="1710435600"/> <!-- Angler Fish -->
+	<buyback_card id="11606" endtime="1710435600"/> <!-- Angler Fiend -->
+	<buyback_card id="21606" endtime="1710435600"/> <!-- Angler Tyrant -->
+
+	<buyback_card id="1607" endtime="1710435600"/> <!-- Turtle Tamer -->
+	<buyback_card id="11607" endtime="1710435600"/> <!-- Mounted Turtle -->
+	<buyback_card id="21607" endtime="1710435600"/> <!-- Battle Turtle -->
+
+	<buyback_card id="1610" endtime="1710435600"/> <!-- Ranger -->
+	<buyback_card id="11610" endtime="1710435600"/> <!-- Swiftfoot Ranger -->
+	<buyback_card id="21610" endtime="1710435600"/> <!-- Duoshot Ranger -->
+
+	<buyback_card id="1614" endtime="1710435600"/> <!-- Druid -->
+	<buyback_card id="11614" endtime="1710435600"/> <!-- Shieldstone Druid -->
+	<buyback_card id="21614" endtime="1710435600"/> <!-- Aegistone Druid -->
+
+	<buyback_card id="5002" endtime="1710435600"/> <!-- Twilight Mirror -->
+	<buyback_card id="15002" endtime="1710435600"/> <!-- Twilight Reflector -->
+	<buyback_card id="25002" endtime="1710435600"/> <!-- Twilight Specular -->
+
+	<buyback_card id="5004" endtime="1710435600"/> <!-- Lightning Lord -->
+	<buyback_card id="15004" endtime="1710435600"/> <!-- Lightning Baron -->
+	<buyback_card id="25004" endtime="1710435600"/> <!-- Lightning Demigod -->
+
+	<buyback_card id="5005" endtime="1710435600"/> <!-- Storm Giant -->
+	<buyback_card id="15005" endtime="1710435600"/> <!-- Thunderhead Giant -->
+	<buyback_card id="25005" endtime="1710435600"/> <!-- Windtempest Giant -->
+
+	<buyback_card id="5006" endtime="1710435600"/> <!-- Arms Enforcer -->
+	<buyback_card id="15006" endtime="1710435600"/> <!-- Arms Gladiator -->
+	<buyback_card id="25006" endtime="1710435600"/> <!-- Arms Champion -->
+
+	<buyback_card id="5007" endtime="1710435600"/> <!-- Arcane Scroll -->
+	<buyback_card id="15007" endtime="1710435600"/> <!-- Ancient Scroll -->
+	<buyback_card id="25007" endtime="1710435600"/> <!-- Ancient Manuscript -->
+
+	<buyback_card id="5009" endtime="1710435600"/> <!-- Royal Guardian -->
+	<buyback_card id="15009" endtime="1710435600"/> <!-- Majestic Guardian -->
+	<buyback_card id="25009" endtime="1710435600"/> <!-- High Guardian -->
+
+	<buyback_card id="5012" endtime="1710435600"/> <!-- Static Drake -->
+	<buyback_card id="15012" endtime="1710435600"/> <!-- Lightning Drake -->
+	<buyback_card id="25012" endtime="1710435600"/> <!-- Thunder Drake -->
+
+	<buyback_card id="5017" endtime="1710435600"/> <!-- Steam Tempest -->
+	<buyback_card id="15017" endtime="1710435600"/> <!-- Piping Tempest -->
+	<buyback_card id="25017" endtime="1710435600"/> <!-- Scalding Tempest -->
+
+	<buyback_card id="5022" endtime="1710435600"/> <!-- Webfoot Raider -->
+	<buyback_card id="15022" endtime="1710435600"/> <!-- Webfoot Bombardier -->
+	<buyback_card id="25022" endtime="1710435600"/> <!-- Webfoot Marauder -->
+
+	<buyback_card id="5028" endtime="1710435600"/> <!-- Winter Blacksmith -->
+	<buyback_card id="15028" endtime="1710435600"/> <!-- Winter Armorer -->
+	<buyback_card id="25028" endtime="1710435600"/> <!-- Winter Bladesmith -->
+
+	<buyback_card id="6001" endtime="1710435600"/> <!-- Orobas -->
+	<buyback_card id="16001" endtime="1710435600"/> <!-- Orobas Ignited -->
+	<buyback_card id="26001" endtime="1710435600"/> <!-- Orobas Unleashed -->
+
+	<buyback_card id="6006" endtime="1710435600"/> <!-- Chaos Golem -->
+	<buyback_card id="16006" endtime="1710435600"/> <!-- Discord Golem -->
+	<buyback_card id="26006" endtime="1710435600"/> <!-- Anarchy Golem -->
+
+	<buyback_card id="6012" endtime="1710435600"/> <!-- Ember Drake -->
+	<buyback_card id="16012" endtime="1710435600"/> <!-- Burning Drake -->
+	<buyback_card id="26012" endtime="1710435600"/> <!-- Scorching Drake -->
+
+	<buyback_card id="6017" endtime="1710435600"/> <!-- Tar Pit Stalker -->
+	<buyback_card id="16017" endtime="1710435600"/> <!-- Tar Pit Shambler -->
+	<buyback_card id="26017" endtime="1710435600"/> <!-- Tar Pit Swallower -->
+
+	<buyback_card id="6022" endtime="1710435600"/> <!-- Illusion Caster -->
+	<buyback_card id="16022" endtime="1710435600"/> <!-- Delusion Caster -->
+	<buyback_card id="26022" endtime="1710435600"/> <!-- Hypno Caster -->
+
+	<buyback_card id="6025" endtime="1710435600"/> <!-- Dragon Keeper -->
+	<buyback_card id="16025" endtime="1710435600"/> <!-- Dragon Commander -->
+	<buyback_card id="26025" endtime="1710435600"/> <!-- Dragon Warlord -->
+
+	<buyback_card id="6028" endtime="1710435600"/> <!-- Brahmet -->
+	<buyback_card id="16028" endtime="1710435600"/> <!-- Great Brahmet -->
+	<buyback_card id="26028" endtime="1710435600"/> <!-- Vast Brahmet -->
+
+	<buyback_card id="6061" endtime="1710435600"/> <!-- Decagon -->
+	<buyback_card id="16061" endtime="1710435600"/> <!-- Centigon -->
+	<buyback_card id="26061" endtime="1710435600"/> <!-- Milligon -->
+
+	<buyback_card id="7000" endtime="1710435600"/> <!-- Treant King -->
+	<buyback_card id="17000" endtime="1710435600"/> <!-- Treant Edict -->
+	<buyback_card id="27000" endtime="1710435600"/> <!-- Treant Dictate -->
+
+	<buyback_card id="7006" endtime="1710435600"/> <!-- Treant Sapling -->
+	<buyback_card id="17006" endtime="1710435600"/> <!-- Treepalm Sapling -->
+	<buyback_card id="27006" endtime="1710435600"/> <!-- Treefist Sapling -->
+
+	<buyback_card id="7007" endtime="1710435600"/> <!-- Water Serpent -->
+	<buyback_card id="17007" endtime="1710435600"/> <!-- Lake Serpent -->
+	<buyback_card id="27007" endtime="1710435600"/> <!-- Sea Serpent -->
+
+	<buyback_card id="7012" endtime="1710435600"/> <!-- Life Drake -->
+	<buyback_card id="17012" endtime="1710435600"/> <!-- Lifelink Drake -->
+	<buyback_card id="27012" endtime="1710435600"/> <!-- Lifeblood Drake -->
+
+	<buyback_card id="7017" endtime="1710435600"/> <!-- Coral Elemental -->
+	<buyback_card id="17017" endtime="1710435600"/> <!-- Coral Ambusher -->
+	<buyback_card id="27017" endtime="1710435600"/> <!-- Coral Lurker -->
+
+	<buyback_card id="7022" endtime="1710435600"/> <!-- Beetle Tamer -->
+	<buyback_card id="17022" endtime="1710435600"/> <!-- Beetle Breaker -->
+	<buyback_card id="27022" endtime="1710435600"/> <!-- Beetle Enchanter -->
+
+	<buyback_card id="7066" endtime="1710435600"/> <!-- Aquine -->
+	<buyback_card id="17066" endtime="1710435600"/> <!-- Understeed -->
+	<buyback_card id="27066" endtime="1710435600"/> <!-- Unicoral -->
+
+	<buyback_card id="7300" endtime="1710435600"/> <!-- Honey Burglar -->
+	<buyback_card id="17300" endtime="1710435600"/> <!-- Honey Thief -->
+	<buyback_card id="27300" endtime="1710435600"/> <!-- Flying Honey Thief -->
 
 		<realtime_pvp_leaderboard_tier>13</realtime_pvp_leaderboard_tier><!-- 13 -->
 		<realtime_pvp_leaderboard_count>100</realtime_pvp_leaderboard_count><!-- 100 -->
-		<realtime_pvp_leaderboard_minimum>2000</realtime_pvp_leaderboard_minimum>
+		<realtime_pvp_leaderboard_minimum>1950</realtime_pvp_leaderboard_minimum>
 
 		<realtime_pvp_timeout>30</realtime_pvp_timeout>
-		<realtime_pvp_request_timeout>120</realtime_pvp_request_timeout>
+		<realtime_pvp_request_timeout>300</realtime_pvp_request_timeout>
 		<realtime_pvp_poll_time>3</realtime_pvp_poll_time>
 		<daily_login_bonus_start_day>17004</daily_login_bonus_start_day>
 		<buyback_cap>60</buyback_cap><!-- Maximum num cards in buyback -->
