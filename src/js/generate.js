@@ -674,6 +674,7 @@ const autoSelectEventOptions = {
 	111: { tribe: 'Dragon', map: 'Return to Tarragon Peak' },
 	112: { tribe: 'Beast', map: 'Gladius Arena' },
 	113: { tribe: 'Beast', map: 'Return to Elaria' },
+	114: { tribe: 'Avian', map: 'Red Feather Valley' },
 };
 
 function findSelectorOption(selector, option) {
