@@ -484,9 +484,10 @@ for (const mapId in MAPS) {
 	option.value = mapId;
 	const mapName = MAPS[mapId].name;
 	option.text = mapId > 99 ? `${mapName} (${mapId})` : mapName;
-	selectMap.appendChild(option);
+	selectMap.appendChild(option.cloneNode(true));
 	if (EXPEDITION[mapId]) {
-		selectMapCycle.appendChild(option.cloneNode(true));
+		option.text = mapName;
+		selectMapCycle.appendChild(option);
 	}
 	if (mapId == 35) {
 		let separator = document.createElement('option');
