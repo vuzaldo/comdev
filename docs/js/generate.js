@@ -260,9 +260,11 @@ function updateEditors() {
 	// console.log('\n');
 }
 
+const raidCount = 1;
+
 const eventNumber = 105 + numCycles;
 const clashId = 22198 + numCycles * 2;
-const dungeonId = 28067 + numCycles;
+const dungeonId = 28067 + numCycles - raidCount;
 const warId = 30087 + numCycles;
 const expeditionId = 7101 + numCycles;
 const brawlId = 8111 + numCycles;
