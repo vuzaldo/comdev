@@ -4522,185 +4522,89 @@
 
 	<!-- Event 107: ComDev Elementals - Conflux Convergence -->
 
-	<!-- New Map Reward Flask of Flasks -->
 	<item>
 		<id>2802</id>
 		<name>Conflux Convergence Super Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>A flask of flasks containing all previous Elemental Reward Champion Stones</desc>
-		<choice id="1">
-			<item id="28021" quantity="1"/> <!-- Aether 1D and 2D -->
-		</choice>
-		<choice id="2">
-			<item id="28022" quantity="1"/> <!-- Aether 3D and 4D -->
-		</choice>
-		<choice id="3">
-			<item id="28023" quantity="1"/> <!-- Chaos -->
-		</choice>
-		<choice id="4">
-			<item id="28024" quantity="1"/> <!-- Wyld and Void -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
-	
-	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28021</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Conflux Convergence Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Kensho, Maki or Yaritza Stones; or revert</desc>
-		<choice id="1">
-			<item id="104018" quantity="1"/> <!-- Kensho -->
-		</choice>
-		<choice id="2">
-			<item id="104034" quantity="1"/> <!-- Maki -->
-		</choice>
-		<choice id="3">
-			<item id="104060" quantity="1"/> <!-- Yaritza -->
-		</choice>
-		<choice id="4">
-			<item id="2802" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>28022</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Conflux Convergence Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Sound of Death or Allfather Stones; or revert</desc>
-		<choice id="1">
-			<item id="104020" quantity="1"/> <!-- Sound of Death -->
-		</choice>
-		<choice id="2">
-			<item id="104043" quantity="1"/> <!-- Allfather -->
-		</choice>
-		<choice id="3">
-			<item id="2802" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>28023</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Conflux Convergence Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Foxfire, Coalheart or Frostfire Stones; or revert</desc>
-		<choice id="1">
-			<item id="104001" quantity="1"/> <!-- Foxfire -->
-		</choice>
-		<choice id="2">
-			<item id="104024" quantity="1"/> <!-- Coalheart -->
-		</choice>
-		<choice id="3">
-			<item id="104055" quantity="1"/> <!-- Frostfire -->
-		</choice>
-		<choice id="4">
-			<item id="2802" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>28024</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Conflux Convergence Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Amarok, Quageye or Viir Stones; or revert</desc>
-		<choice id="1">
-			<item id="104011" quantity="1"/> <!-- Amarok -->
-		</choice>
-		<choice id="2">
-			<item id="104025" quantity="1"/> <!-- Quageye -->
-		</choice>
-		<choice id="3">
-			<item id="104063" quantity="1"/> <!-- Viir -->
-		</choice>
-		<choice id="4">
-			<item id="2802" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Event 108: ComDev Seafolk - Pharos Temple -->
 
-	<!-- New Map Reward Flask of Flasks -->
 	<item>
 		<id>2803</id>
 		<name>Pharos Temple Super Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>A flask of flasks containing all previous Seafolk Reward Champion Stones</desc>
-		<choice id="1">
-			<item id="28031" quantity="1"/> <!-- Aether and Void 2D -->
-		</choice>
-		<choice id="2">
-			<item id="28032" quantity="1"/> <!-- Aether 3D and 4D -->
-		</choice>
-		<choice id="3">
-			<item id="28033" quantity="1"/> <!-- Wyld -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104065" quantity="1"/> <!-- Lerna -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
-	
-	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28031</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Pharos Temple Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Typheous, Eichiro or Lerna Stones; or revert</desc>
-		<choice id="1">
-			<item id="104007" quantity="1"/> <!-- Typheous -->
-		</choice>
-		<choice id="2">
-			<item id="104028" quantity="1"/> <!-- Eichiro -->
-		</choice>
-		<choice id="3">
-			<item id="104065" quantity="1"/> <!-- Lerna -->
-		</choice>
-		<choice id="4">
-			<item id="2803" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104065" quantity="1"/> <!-- Lerna -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>28032</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Pharos Temple Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Lairel or Morty Ahab Stones; or revert</desc>
-		<choice id="1">
-			<item id="104039" quantity="1"/> <!-- Lairel -->
-		</choice>
-		<choice id="2">
-			<item id="104049" quantity="1"/> <!-- Morty Ahab -->
-		</choice>
-		<choice id="3">
-			<item id="2803" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104065" quantity="1"/> <!-- Lerna -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>28033</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Pharos Temple Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Proteus, Illu or Moklam Stones; or revert</desc>
-		<choice id="1">
-			<item id="104017" quantity="1"/> <!-- Proteus -->
-		</choice>
-		<choice id="2">
-			<item id="104050" quantity="1"/> <!-- Illu -->
-		</choice>
-		<choice id="3">
-			<item id="104056" quantity="1"/> <!-- Moklam -->
-		</choice>
-		<choice id="4">
-			<item id="2803" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104065" quantity="1"/> <!-- Lerna -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -4934,82 +4838,41 @@
 
 	<!-- Event 109: ComDev Angel - Skyhaven Assault -->
 
-	<!-- New Map Reward Flask of Flasks -->
 	<item>
 		<id>2816</id>
 		<name>Skyhaven Assault Super Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>A flask of flasks containing all previous Angel Reward Champion Stones</desc>
-		<choice id="1">
-			<item id="28161" quantity="1"/> <!-- Aether and Wyld 1D and 2D -->
-		</choice>
-		<choice id="2">
-			<item id="28162" quantity="1"/> <!-- Aether 3D and 4D -->
-		</choice>
-		<choice id="3">
-			<item id="28163" quantity="1"/> <!-- Chaos and Factionless -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104067" quantity="1"/> <!-- Allies -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
-	
-	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28161</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Skyhaven Assault Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Razi, Leyla or Freya Stones; or revert</desc>
-		<choice id="1">
-			<item id="104002" quantity="1"/> <!-- Razi -->
-		</choice>
-		<choice id="2">
-			<item id="104041" quantity="1"/> <!-- Leyla -->
-		</choice>
-		<choice id="3">
-			<item id="104051" quantity="1"/> <!-- Freya -->
-		</choice>
-		<choice id="4">
-			<item id="2816" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104067" quantity="1"/> <!-- Allies -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>28162</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Skyhaven Assault Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Kachina or Cyno Stones; or revert</desc>
-		<choice id="1">
-			<item id="104009" quantity="1"/> <!-- Kachina -->
-		</choice>
-		<choice id="2">
-			<item id="104029" quantity="1"/> <!-- Cyno -->
-		</choice>
-		<choice id="3">
-			<item id="2816" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104067" quantity="1"/> <!-- Allies -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>28163</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Skyhaven Assault Mini Flask</name>
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
-		<duration>43200</duration> <!-- Lasts 30 days -->
-		<desc>Consume to get your choice of Batara, Alyel or Allies Stones; or revert</desc>
-		<choice id="1">
-			<item id="104015" quantity="1"/> <!-- Batara -->
-		</choice>
-		<choice id="2">
-			<item id="104058" quantity="1"/> <!-- Alyel -->
-		</choice>
-		<choice id="3">
-			<item id="104067" quantity="1"/> <!-- Allies -->
-		</choice>
-		<choice id="4">
-			<item id="2816" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
+		<desc>A discontinued flask, to be removed.</desc>
+		<give_item id="104067" quantity="1"/> <!-- Allies -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Premium Flasks Gen 9 -->

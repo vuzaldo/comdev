@@ -137,7 +137,7 @@
 	</string>
 	<string>
 		<id>skill_valor_desc</id>
-		<value>At start of turn, permanently increases Attack if opposing creature has more Attack, even while on delay.</value>
+		<value>At start of each turn, permanently increases Attack if opposing creature has more Attack, even while on delay.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -252,12 +252,12 @@
 	</string>
 	<string>
 		<id>skill_enfeeble_desc</id>
-		<value>Inflicts Hex on a random enemy creature, causing it to take extra damage each time it is damaged.</value>
+		<value>Inflicts Hex on a random enemy creature, causing it to take extra damage from Attacks and Skills.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
 		<id>skill_enfeeble_desc_all</id>
-		<value>Inflicts Hex on all enemy creatures, causing them to take extra damage each time they are damaged.</value>
+		<value>Inflicts Hex on all enemy creatures, causing them to take extra damage from Attacks and Skills.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -302,7 +302,7 @@
 	</string>
 	<string>
 		<id>skill_burn_desc</id>
-		<value>Inflicts Scorch on the opposing creature. Scorch deals damage at end of turn until Scorch is not inflicted for a turn.</value>
+		<value>Inflicts Scorch on the opposing creature. Stacks and deals damage at end of turn until Scorch is not inflicted for a turn.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -492,7 +492,7 @@
 	</string>
 	<string>
 		<id>skill_ignite_desc</id>
-		<value>Increases the Scorch value on a Scorched enemy creature, or deal Scorch damage to a random enemy creature</value>
+		<value>Increases the Scorch value on a Scorched enemy creature, or deal Scorch damage to a random enemy creature.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -502,7 +502,7 @@
 	</string>
 	<string>
 		<id>skill_intensify_desc</id>
-		<value>Increases the value of Scorch or Poison on an enemy creature</value>
+		<value>Increases the value of Scorch or Poison on an enemy creature.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -537,7 +537,7 @@
 	</string>
 	<string>
 		<id>skill_venom_desc</id>
-		<value>Creatures damaged by this card are afflicted with Venom, increasing damage dealt to it and dealing additional damage at the end of each turn.</value>
+		<value>After dealing Attack damage, permanently inflicts Venom, increasing damage taken. Deals damage at the end of each turn.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -587,7 +587,7 @@
 	</string>
 	<string>
 		<id>skill_burnself_desc</id>
-		<value>Deals stacking damage to this creature at end of turn. Wears off if not reapplied for a turn.</value>
+		<value>Inflicts Scorch on self. Wears off if not reapplied for a turn.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -597,7 +597,7 @@
 	</string>
 	<string>
 		<id>skill_jamself_desc</id>
-		<value>This creature doesn't attack or activate abilities on its next turn. Activates every {c} turns.</value>
+		<value>Freezes self. Activates every {c} turns.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -697,7 +697,7 @@
 	</string>
 	<string>
 		<id>skill_swarm_desc</id>
-		<value>After dealing Attack damage, permanently increases Attack of the lowest Attack active ally creature</value>
+		<value>After dealing Attack damage, permanently increases Attack of the lowest Attack active ally creature.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -718,7 +718,7 @@
 	</string>
 	<string>
 		<id>skill_magicfield_desc</id>
-		<value>This card is immune to debuffs. Opposing card is inflicted with Nullify 99 at the start of its turn.</value>
+		<value>This card is immune to debuffs. Opposing card is immune to any positve effects.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<!--Midas-->
@@ -729,7 +729,7 @@
 	</string>
 	<string>
 		<id>skill_counterpoison_desc</id>
-		<value>When damaged by an attack, Poison the attacker.</value>
+		<value>After taking Attack damage, inflicts Poison back.</value>
 		<context>Skill name/description on cards</context>
 	</string>
 	<string>
@@ -6172,7 +6172,7 @@
 		<value>The wind elementals continue to attack. Hold your ground and defend yourselves before they destroy the surrounding area.</value>
 		<context>Mission</context>
 	</string>
-   
+
 	<string>
 		<id>location_1_name</id>
 		<value>Elaria</value>
@@ -7400,7 +7400,7 @@
 	</string>
 	<string>
 		<id>guide_107_description</id>
-		<value>Many cards have one or more Skills. Each skill has very different effects. Mastering Skills is necessary to become a successful Adventurer!</value>
+		<value>Many cards have one or more Skills. Each Skill has very different effects. Mastering Skills is necessary to become a successful Adventurer!</value>
 		<context>Guide</context>
 	</string>
 	<string>
@@ -7410,7 +7410,7 @@
 	</string>
 	<string>
 		<id>guide_108_description</id>
-		<value>Skills can have several different targets. In some cases, skills may target random friendly or enemy cards. Other skills may target all cards. Others still can target specific types of cards - like Wyld or Frogs.</value>
+		<value>Skills can have several different targets. In some cases, Skills may target random friendly or enemy cards. Other Skills may target all cards. Others still can target specific types of cards - like Wyld or Frogs.</value>
 		<context>Guide</context>
 	</string>
 	<string>
@@ -7960,7 +7960,7 @@
 	</string>
 	<string>
 		<id>tutorial_10_step_7_line_1</id>
-		<value>Many cards have a delay. It will take this number of turns for the card to activate and attack.</value>
+		<value>Many cards have a Delay. It will take this number of turns for the card to activate and Attack.</value>
 		<context>Tutorial dialog</context>
 	</string>
 	<string>
@@ -8160,7 +8160,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1001_step_1_line_1</id>
-		<value>This creature is using Heal, which will return the missing health of an allied creature.</value>
+		<value>This creature is using Heal, which will return the missing Health of an allied creature.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -8170,7 +8170,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1002_step_1_line_1</id>
-		<value>This creature has Armor, which will prevent a portion of attack damage dealt to it.</value>
+		<value>This creature has Armor, which will prevent a portion of Attack damage dealt to it.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -8190,7 +8190,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1004_step_1_line_1</id>
-		<value>This creature has Empower, which will temporarily increase an allied creature's attack.</value>
+		<value>This creature has Empower, which will temporarily increase an allied creature's Attack.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -8200,7 +8200,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1005_step_1_line_1</id>
-		<value>This creature has Vengeance; it deals damage back to a creature that attacks it.</value>
+		<value>This creature has Vengeance; it deals damage back to a creature that deals Attack damage to it.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -8210,7 +8210,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1006_step_1_line_1</id>
-		<value>This creature has Weaken, which will temporarily decrease an enemy creature's attack.</value>
+		<value>This creature has Weaken, which will temporarily decrease an enemy creature's Attack.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -8240,7 +8240,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1009_step_1_line_1</id>
-		<value>This creature has Siphon; it will heal when it deals attack damage.</value>
+		<value>This creature has Siphon; it will heal when it deals Attack damage.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -8250,7 +8250,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1010_step_1_line_1</id>
-		<value>This creature has Invisibility; it will avoid a number of enemy skills.</value>
+		<value>This creature has Invisibility; it will avoid a number of enemy Skills.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -8280,7 +8280,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1013_step_1_line_1</id>
-		<value>This creature has Enhance, which will increase the effect of the skill it is enhancing.</value>
+		<value>This creature has Enhance, which will increase the effect of the Skill it is enhancing.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -8290,7 +8290,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1014_step_1_line_1</id>
-		<value>This creature has Freeze, which will prevent an enemy creature from attacking or activating skills for a turn.</value>
+		<value>This creature has Freeze, which will prevent an enemy creature from Attacking or activating Skills for a turn.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -8300,7 +8300,7 @@
 	</string>
 	<string>
 		<id>contextual_tutorial_1015_step_1_line_1</id>
-		<value>This creature has Dualstrike; it will attack twice in a single turn.</value>
+		<value>This creature has Dualstrike; it will Attack twice in a single turn.</value>
 		<context>Contextual tutorial dialog</context>
 	</string>
 	<string>
@@ -9499,11 +9499,6 @@
 		<context>Leaderboard Rankings</context>
 	</string>
 	<string>
-		<id/>
-		<value/>
-		<content></content>
-	</string>
-	<string>
 		<id>CLIENT_SELECT_LANGUAGE</id>
 		<value>Select Your Language</value>
 		<content>title, language selection popup</content>
@@ -9625,8 +9620,7 @@
 	</string>
 	<string>
 		<id>CLIENT_EVENT_REWARDS_CLAIMED_EXL</id>
-		<value>Rewards Claimed! 
-Ends in		</value>
+		<value>Rewards Claimed! &#10;Ends in</value>
 		<content>label, event popup</content>
 	</string>
 	<string>
@@ -10457,22 +10451,22 @@ Ends in		</value>
 	<string>
 		<id>CLIENT_RECRUITMENT</id>
 		<value>Recruitment:</value>
-		<content></content>
+		<content/>
 	</string>
 	<string>
 		<id>CLIENT_LOADING</id>
 		<value>Loading...</value>
-		<content></content>
+		<content/>
 	</string>
 	<string>
 		<id>CLIENT_TOP_GUILDS</id>
 		<value>Top Guilds</value>
-		<content></content>
+		<content/>
 	</string>
 	<string>
 		<id>CLIENT_TOP_GUILD_RANKING</id>
 		<value>Top Guild Rankings</value>
-		<content></content>
+		<content/>
 	</string>
 	<string>
 		<id>CLIENT_ACTIVITY</id>
@@ -11264,9 +11258,6 @@ Ends in		</value>
 		<value>Level Up</value>
 		<content>image label</content>
 	</string>
-  
-  
-  
 	<!-- Non-localized Keys -->
 	<string>
 		<id>CLIENT_SKILL_DESC</id>
@@ -11334,17 +11325,17 @@ Ends in		</value>
 		<content>label</content>
 	</string>
 	<string>
-		<id>CLIENT_SCOUT_MISSION_REPORT</id><!-- scout mission collection popup -->
+		<id>CLIENT_SCOUT_MISSION_REPORT</id> <!-- scout mission collection popup -->
 		<value>Scout Mission Report</value>
 		<content>title label</content>
 	</string>
 	<string>
-		<id>CLIENT_SCOUTS_AVAILABLE</id><!-- scout mission collection popup -->
+		<id>CLIENT_SCOUTS_AVAILABLE</id> <!-- scout mission collection popup -->
 		<value>Scouts Available:</value>
 		<content>title label</content>
 	</string>
 	<string>
-		<id>CLIENT_FMT_UNDER_time</id><!-- formated time -->
+		<id>CLIENT_FMT_UNDER_time</id> <!-- formated time -->
 		<value>under {0}</value>
 		<content>label, {0} formated time string (ex. 1m)</content>
 	</string>
@@ -11447,7 +11438,7 @@ Ends in		</value>
 		<value>Darkwater Mermaid</value>
 		<context>Card name/descriptions</context>
 	</string>
-   
+
 	<string>
 		<id>CLIENT_FMT_item_CAN_BE_FOUND_IN_BOUNTIES</id>
 		<value>{0}{1} now found from Bounties!</value>
@@ -11478,5 +11469,5 @@ Ends in		</value>
 		<value>How many of this item would you like to use?</value>
 		<content>temporary content added for item salavge and use</content>
 	</string>
-   
+
 </root>

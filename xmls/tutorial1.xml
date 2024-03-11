@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <root>
 	
 	<!-- ============================== -->
@@ -10,14 +9,14 @@
 		<id>10</id>
 		<name>In First Mission</name>
 		<completion>
-			<flagreq id='completedMission' key='1' value='1' /> <!-- Completed the first mission -->
+			<flagreq id="completedMission" key="1" value="1"/> <!-- Completed the first mission -->
 		</completion>
 		<step>
 			<step_id>1</step_id>
 		</step>
 		<step>
 			<step_id>10</step_id>
-			<flagreq id='showHand' value='1'/>
+			<flagreq id="showHand" value="1"/>
 			<message>
 				<line>
 					<commander>raven</commander>
@@ -29,11 +28,11 @@
 		</step>
 		<step>
 			<step_id>20</step_id>
-			<arrow id='cardInHand1600' target_id='battlefield' /> <!-- Shows a "drag" animation from the first card to the battlefield -->
+			<arrow id="cardInHand1600" target_id="battlefield"/> <!-- Shows a "drag" animation from the first card to the battlefield -->
 		</step>
 		<step>
 			<step_id>30</step_id>
-			<flagreq id='playedCard' value='1'/>
+			<flagreq id="playedCard" value="1"/>
 			<message>
 				<line>
 					<commander>raven</commander>
@@ -44,7 +43,7 @@
 		</step>
 		<step>
 			<step_id>40</step_id>
-			<flagreq id='showHand' value='1'/>
+			<flagreq id="showHand" value="1"/>
 			<message>
 				<line>
 					<commander>raven</commander>
@@ -56,22 +55,22 @@
 		</step>
 		<step>
 			<step_id>50</step_id>
-			<arrow id='cardInHand1601' target_id='battlefield' /> <!-- Shows a "drag" animation from the first card to the battlefield -->
+			<arrow id="cardInHand1601" target_id="battlefield"/> <!-- Shows a "drag" animation from the first card to the battlefield -->
 		</step>
 		<step>
 			<step_id>60</step_id>
-			<flagreq id='playedCard' value='1'/>
+			<flagreq id="playedCard" value="1"/>
 			<message>
 				<line>
 					<commander>raven</commander>
-					<text>Many cards have a delay. It will take this number of turns for the card to activate and attack.</text>
+					<text>Many cards have a Delay. It will take this number of turns for the card to activate and Attack.</text>
 					<icon>tutorial_delay</icon>
 				</line>
 			</message>
 		</step>
 		<step>
 			<step_id>70</step_id>
-			<flagreq id='showHand' value='1'/>
+			<flagreq id="showHand" value="1"/>
 			<message>
 				<line>
 					<commander>raven</commander>
@@ -95,16 +94,16 @@
 		<id>20</id>
 		<name>Mission Popup</name>
 		<completion>
-			<flagreq id='inCombat' value='1' /> <!-- Completed the first mission -->
+			<flagreq id="inCombat" value="1"/> <!-- Completed the first mission -->
 		</completion>
 		<step>
 			<step_id>10</step_id>
-			<flagreq id='nav' key='missions' value='1'/>
+			<flagreq id="nav" key="missions" value="1"/>
 			<tutorial_event>show_mission_info</tutorial_event>
 		</step>
 		<step>
 			<step_id>20</step_id>
-			<flagreq id='popupOpen' key='missionPopup' value='1'/>
+			<flagreq id="popupOpen" key="missionPopup" value="1"/>
 			<message>
 				<line>
 					<commander>raven</commander>
@@ -115,7 +114,7 @@
 		</step>
 		<step>
 			<step_id>30</step_id>
-			<arrow id='startMissionButton' />
+			<arrow id="startMissionButton"/>
 		</step>
 	</tutorial>
 	
@@ -124,7 +123,7 @@
 		<id>1</id>
 		<name>Quest</name>
 		<trigger>
-			<flagreq id='inQuestScreen' value='1' />
+			<flagreq id="inQuestScreen" value="1"/>
 		</trigger>
 		<step>
 			<step_id>40</step_id>
@@ -132,12 +131,12 @@
 		</step>
 		<step>
 			<step_id>50</step_id>
-			<flagreq id='achievementCollected' value='1'/>
-			<arrow id='completeAchievementButton' />
+			<flagreq id="achievementCollected" value="1"/>
+			<arrow id="completeAchievementButton"/>
 		</step>
 		<step>
 			<step_id>60</step_id>
-			<flagreq id='achievementCompleteClosed' value='1'/>
+			<flagreq id="achievementCompleteClosed" value="1"/>
 			<message>
 				<line>
 					<commander>raven</commander>
@@ -155,7 +154,7 @@
 		
 		<step>
 			<step_id>70</step_id>
-			<arrow id='achievement' />
+			<arrow id="achievement"/>
 		</step>
 		
 		<!-- <step>
@@ -220,7 +219,7 @@
 		<id>2</id>
 		<name>Edit</name>
 		<trigger>
-			<flagreq id='inEditScreen' value='1' />
+			<flagreq id="inEditScreen" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -242,7 +241,7 @@
 		<id>3</id>
 		<name>Salvage</name>
 		<trigger>
-			<flagreq id='inSalvageScreen' value='1' />
+			<flagreq id="inSalvageScreen" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -264,7 +263,7 @@
 		<id>4</id>
 		<name>Upgrade</name>
 		<trigger>
-			<flagreq id='inUpgradeScreen' value='1' />
+			<flagreq id="inUpgradeScreen" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -282,7 +281,7 @@
 		<id>5</id>
 		<name>Fusion</name>
 		<trigger>
-			<flagreq id='inFuseScreen' value='1' />
+			<flagreq id="inFuseScreen" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -304,7 +303,7 @@
 		<id>6</id>
 		<name>Tome</name>
 		<trigger>
-			<flagreq id='inTomeScreen' value='1' />
+			<flagreq id="inTomeScreen" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -326,7 +325,7 @@
 		<id>7</id>
 		<name>Bounty</name>
 		<trigger>
-			<flagreq id='pvpUnlocked' value='1' />
+			<flagreq id="pvpUnlocked" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -340,11 +339,11 @@
 		</step>
 		<step>
 			<step_id>20</step_id>
-			<arrow id='bountyHunter' />
+			<arrow id="bountyHunter"/>
 		</step>
 		<step>
 			<step_id>30</step_id>
-			<flagreq id='inBountyScreen' value='1' />
+			<flagreq id="inBountyScreen" value="1"/>
 			<message>
 				<line>
 					<commander>bountyhunter</commander>
@@ -355,7 +354,7 @@
 		</step>
 		<step>
 			<step_id>20</step_id>
-			<arrow id='battleRivalButton' />
+			<arrow id="battleRivalButton"/>
 		</step>
 	</guide>
 	
@@ -363,7 +362,7 @@
 		<id>8</id>
 		<name>Store</name>
 		<trigger>
-			<flagreq id='inStoreScreen' value='1' />
+			<flagreq id="inStoreScreen" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -396,7 +395,7 @@
 		</step>
 		<step>
 			<step_id>20</step_id>
-			<arrow id='storePack1' />
+			<arrow id="storePack1"/>
 		</step>
 	</guide>
 	
@@ -404,7 +403,7 @@
 		<id>9</id>
 		<name>Campaign Mastery</name>
 		<trigger>
-			<flagreq id='masteryPopup' value='1' />
+			<flagreq id="masteryPopup" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -424,7 +423,7 @@
 		</step>
 		<step>
 			<step_id>20</step_id>
-			<arrow id='storePack1' />
+			<arrow id="storePack1"/>
 		</step>
 	</guide>
 	
@@ -432,29 +431,29 @@
 		<id>11</id>
 		<name>Store Quest</name>
 		<trigger>
-			<flagreq id='completedQuest' value='101' />
+			<flagreq id="completedQuest" value="101"/>
 		</trigger>
 		<step>
 			<step_id>20</step_id>
 		</step>
 		<step>
 			<step_id>30</step_id>
-			<flagreq id='newPackPopupOpened' value='1'/>
+			<flagreq id="newPackPopupOpened" value="1"/>
 			<arrow id="boughtPackOkButton"/>
 		</step>
 		<step>
 			<step_id>40</step_id>
-			<flagreq id='newPackPopupClosed' value='1'/>
+			<flagreq id="newPackPopupClosed" value="1"/>
 			<arrow id="collectAchievementButton"/>
 		</step>
 		<step>
 			<step_id>50</step_id>
-			<flagreq id='achievementCollected' value='1'/>
-			<arrow id='completeAchievementButton' />
+			<flagreq id="achievementCollected" value="1"/>
+			<arrow id="completeAchievementButton"/>
 		</step>
 		<step>
 			<step_id>60</step_id>
-			<flagreq id='achievementCompleteClosed' value='1'/>
+			<flagreq id="achievementCompleteClosed" value="1"/>
 			<message>
 				<line>
 					<commander>raven</commander>
@@ -465,7 +464,7 @@
 		</step>
 		<step>
 			<step_id>70</step_id>
-			<arrow id='achievement' />
+			<arrow id="achievement"/>
 		</step>
 	</guide>
 	
@@ -473,7 +472,7 @@
 		<id>12</id>	<!-- Removed from game -->
 		<name>Scout Missions</name>
 		<trigger>
-			<flagreq id='inScoutMissionScreen' value='1' />
+			<flagreq id="inScoutMissionScreen" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -495,7 +494,7 @@
 		<id>13</id>	<!-- Removed from game -->
 		<name>Runecrafting</name>
 		<trigger>
-			<flagreq id='inRunecraftingPopup' value='1' />
+			<flagreq id="inRunecraftingPopup" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -517,7 +516,7 @@
 		<id>14</id>
 		<name>Rune Embedding</name>
 		<trigger>
-			<flagreq id='inRuneEmbedPopup' value='1' />
+			<flagreq id="inRuneEmbedPopup" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -539,7 +538,7 @@
 		<id>15</id>
 		<name>Crafting</name>
 		<trigger>
-			<flagreq id='inCraftingPopup' value='1' />
+			<flagreq id="inCraftingPopup" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -561,7 +560,7 @@
 		<id>16</id>
 		<name>Item Vaporize</name>
 		<trigger>
-			<flagreq id='inItemSalvageScreen' value='1' />
+			<flagreq id="inItemSalvageScreen" value="1"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
@@ -579,11 +578,11 @@
 		<id>17</id>
 		<name>Arena Battle Guide</name>
 		<trigger>
-			<flagreq id='usingSkill' value='slow' />
+			<flagreq id="usingSkill" value="slow"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<commander>raven</commander>
@@ -603,16 +602,16 @@
 		<id>1001</id>
 		<name>Skill Guide: Heal</name>
 		<trigger>
-			<flagreq id='usingSkill' value='heal' />
+			<flagreq id="usingSkill" value="heal"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='activeCard' value='heal' />
+			<highlight id="activeCard" value="heal"/>
 			<message>
 			<line>
 				<skill>heal</skill>
 				<commander>raven</commander>
-				<text>This creature is using Heal, which will return the missing health of an allied creature.</text>
+				<text>This creature is using Heal, which will return the missing Health of an allied creature.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -622,16 +621,16 @@
 		<id>1002</id>
 		<name>Skill Guide: Armor</name>
 		<trigger>
-			<flagreq id='usingSkill' value='armored' />
+			<flagreq id="usingSkill" value="armored"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>armored</skill>
 				<commander>raven</commander>
-				<text>This creature has Armor, which will prevent a portion of attack damage dealt to it.</text>
+				<text>This creature has Armor, which will prevent a portion of Attack damage dealt to it.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -641,11 +640,11 @@
 		<id>1003</id>
 		<name>Skill Guide: Bolt</name>
 		<trigger>
-			<flagreq id='usingSkill' value='strike' />
+			<flagreq id="usingSkill" value="strike"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>strike</skill>
@@ -660,16 +659,16 @@
 		<id>1004</id>
 		<name>Skill Guide: Empower</name>
 		<trigger>
-			<flagreq id='usingSkill' value='rally' />
+			<flagreq id="usingSkill" value="rally"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>rally</skill>
 				<commander>raven</commander>
-				<text>This creature has Empower, which will temporarily increase an allied creature's attack.</text>
+				<text>This creature has Empower, which will temporarily increase an allied creature's Attack.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -679,16 +678,16 @@
 		<id>1005</id>
 		<name>Skill Guide: Vengeance</name>
 		<trigger>
-			<flagreq id='usingSkill' value='counter' />
+			<flagreq id="usingSkill" value="counter"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>counter</skill>
 				<commander>raven</commander>
-				<text>This creature has Vengeance; it deals damage back to a creature that attacks it.</text>
+				<text>This creature has Vengeance; it deals damage back to a creature that deals Attack damage to it.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -698,16 +697,16 @@
 		<id>1006</id>
 		<name>Skill Guide: Weaken</name>
 		<trigger>
-			<flagreq id='usingSkill' value='weaken' />
+			<flagreq id="usingSkill" value="weaken"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>weaken</skill>
 				<commander>raven</commander>
-				<text>This creature has Weaken, which will temporarily decrease an enemy creature's attack.</text>
+				<text>This creature has Weaken, which will temporarily decrease an enemy creature's Attack.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -717,11 +716,11 @@
 		<id>1007</id>
 		<name>Skill Guide: Pierce</name>
 		<trigger>
-			<flagreq id='usingSkill' value='pierce' />
+			<flagreq id="usingSkill" value="pierce"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>pierce</skill>
@@ -736,11 +735,11 @@
 		<id>1008</id>
 		<name>Skill Guide: Poison</name>
 		<trigger>
-			<flagreq id='usingSkill' value='poison' />
+			<flagreq id="usingSkill" value="poison"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>poison</skill>
@@ -755,16 +754,16 @@
 		<id>1009</id>
 		<name>Skill Guide: Siphon</name>
 		<trigger>
-			<flagreq id='usingSkill' value='leech' />
+			<flagreq id="usingSkill" value="leech"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>leech</skill>
 				<commander>raven</commander>
-				<text>This creature has Siphon; it will heal when it deals attack damage.</text>
+				<text>This creature has Siphon; it will heal when it deals Attack damage.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -774,16 +773,16 @@
 		<id>1010</id>
 		<name>Skill Guide: Invisibility</name>
 		<trigger>
-			<flagreq id='usingSkill' value='evade' />
+			<flagreq id="usingSkill" value="evade"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>evade</skill>
 				<commander>raven</commander>
-				<text>This creature has Invisibility; it will avoid a number of enemy skills.</text>
+				<text>This creature has Invisibility; it will avoid a number of enemy Skills.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -793,11 +792,11 @@
 		<id>1011</id>
 		<name>Skill Guide: Hex</name>
 		<trigger>
-			<flagreq id='usingSkill' value='enfeeble' />
+			<flagreq id="usingSkill" value="enfeeble"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>enfeeble</skill>
@@ -812,11 +811,11 @@
 		<id>1012</id>
 		<name>Skill Guide: Barrier</name>
 		<trigger>
-			<flagreq id='usingSkill' value='protect' />
+			<flagreq id="usingSkill" value="protect"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>protect</skill>
@@ -831,16 +830,16 @@
 		<id>1013</id>
 		<name>Skill Guide: Enhance</name>
 		<trigger>
-			<flagreq id='usingSkill' value='enhance' />
+			<flagreq id="usingSkill" value="enhance"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>enhance</skill>
 				<commander>raven</commander>
-				<text>This creature has Enhance, which will increase the effect of the skill it is enhancing.</text>
+				<text>This creature has Enhance, which will increase the effect of the Skill it is enhancing.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -850,16 +849,16 @@
 		<id>1014</id>
 		<name>Skill Guide: Freeze</name>
 		<trigger>
-			<flagreq id='usingSkill' value='jam' />
+			<flagreq id="usingSkill" value="jam"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>jam</skill>
 				<commander>raven</commander>
-				<text>This creature has Freeze, which will prevent an enemy creature from attacking or activating skills for a turn.</text>
+				<text>This creature has Freeze, which will prevent an enemy creature from Attacking or activating Skills for a turn.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -869,16 +868,16 @@
 		<id>1015</id>
 		<name>Skill Guide: Dualstrike</name>
 		<trigger>
-			<flagreq id='usingSkill' value='flurry' />
+			<flagreq id="usingSkill" value="flurry"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>flurry</skill>
 				<commander>raven</commander>
-				<text>This creature has Dualstrike; it will attack twice in a single turn.</text>
+				<text>This creature has Dualstrike; it will Attack twice in a single turn.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -888,11 +887,11 @@
 		<id>1016</id>
 		<name>Skill Guide: Scorch</name>
 		<trigger>
-			<flagreq id='usingSkill' value='burn' />
+			<flagreq id="usingSkill" value="burn"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>burn</skill>
@@ -907,11 +906,11 @@
 		<id>1017</id>
 		<name>Skill Guide: Frostbreath</name>
 		<trigger>
-			<flagreq id='usingSkill' value='frost' />
+			<flagreq id="usingSkill" value="frost"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>frost</skill>
@@ -926,16 +925,16 @@
 		<id>1018</id>
 		<name>Skill Guide: Imbue</name>
 		<trigger>
-			<flagreq id='usingSkill' value='imbue' />
+			<flagreq id="usingSkill" value="imbue"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>imbue</skill>
 				<commander>raven</commander>
-				<text>This creature has Imbue; it will give a random enemy creature the skill indicated.</text>
+				<text>This creature has Imbue; it will give a random enemy creature the Skill indicated.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -945,16 +944,16 @@
 		<id>1019</id>
 		<name>Skill Guide: Berserk</name>
 		<trigger>
-			<flagreq id='usingSkill' value='berserk' />
+			<flagreq id="usingSkill" value="berserk"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>berserk</skill>
 				<commander>raven</commander>
-				<text>This creature has Berserk; its attack increases every time it successfully deals attack damage.</text>
+				<text>This creature has Berserk; its Attack increases every time it successfully deals Attack damage.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -964,11 +963,11 @@
 		<id>1020</id>
 		<name>Skill Guide: Legion</name>
 		<trigger>
-			<flagreq id='usingSkill' value='legion' />
+			<flagreq id="usingSkill" value="legion"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>legion</skill>
@@ -983,11 +982,11 @@
 		<id>1021</id>
 		<name>Skill Guide: Fervor</name>
 		<trigger>
-			<flagreq id='usingSkill' value='fervor' />
+			<flagreq id="usingSkill" value="fervor"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>fervor</skill>
@@ -1002,11 +1001,11 @@
 		<id>1022</id>
 		<name>Skill Guide: Valor</name>
 		<trigger>
-			<flagreq id='usingSkill' value='valor' />
+			<flagreq id="usingSkill" value="valor"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>valor</skill>
@@ -1021,16 +1020,16 @@
 		<id>1023</id>
 		<name>Skill Guide: Nullify</name>
 		<trigger>
-			<flagreq id='usingSkill' value='nullify' />
+			<flagreq id="usingSkill" value="nullify"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>nullify</skill>
 				<commander>raven</commander>
-				<text>This creature has Nullify; creatures damaged by this cannot benefit from a number of allied skills.</text>
+				<text>This creature has Nullify; creatures damaged by this cannot benefit from a number of allied Skills.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -1040,16 +1039,16 @@
 		<id>1024</id>
 		<name>Skill Guide: Corrosive</name>
 		<trigger>
-			<flagreq id='usingSkill' value='corrosive' />
+			<flagreq id="usingSkill" value="corrosive"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>corrosive</skill>
 				<commander>raven</commander>
-				<text>This creature has Corrosive. Creatures attacking it have their attack lowered. This effect can stack, but wears off if not re-applied.</text>
+				<text>This creature has Corrosive. Creatures dealing Attack damage to it have their Attack lowered. This effect can stack, but wears off if not re-applied.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -1059,16 +1058,16 @@
 		<id>1025</id>
 		<name>Skill Guide: Enrage</name>
 		<trigger>
-			<flagreq id='usingSkill' value='enrage' />
+			<flagreq id="usingSkill" value="enrage"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>enrage</skill>
 				<commander>raven</commander>
-				<text>This creature has Enrage; anytime this creature is damaged from an attack, its attack increases.</text>
+				<text>This creature has Enrage; anytime this creature is damaged from an Attack, its Attack increases.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -1078,16 +1077,16 @@
 		<id>1026</id>
 		<name>Skill Guide: Emberhide</name>
 		<trigger>
-			<flagreq id='usingSkill' value='counterburn' />
+			<flagreq id="usingSkill" value="counterburn"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>counterburn</skill>
 				<commander>raven</commander>
-				<text>This creature has Emberhide, which deals Scorch damage back to a creature that attacks it.</text>
+				<text>This creature has Emberhide, which deals Scorch damage back to a creature that deals Attack damage to it.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -1097,11 +1096,11 @@
 		<id>1027</id>
 		<name>Skill Guide: Ward</name>
 		<trigger>
-			<flagreq id='usingSkill' value='absorb' />
+			<flagreq id="usingSkill" value="absorb"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>absorb</skill>
@@ -1116,16 +1115,16 @@
 		<id>1028</id>
 		<name>Skill Guide: Daze</name>
 		<trigger>
-			<flagreq id='usingSkill' value='daze' />
+			<flagreq id="usingSkill" value="daze"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>daze</skill>
 				<commander>raven</commander>
-				<text>This creature has Daze, which will reduce the attack of enemy creatures that it damages.</text>
+				<text>This creature has Daze, which will reduce the Attack of enemy creatures that it damages.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -1135,11 +1134,11 @@
 		<id>1029</id>
 		<name>Skill Guide: Regenerate</name>
 		<trigger>
-			<flagreq id='usingSkill' value='regenerate' />
+			<flagreq id="usingSkill" value="regenerate"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>regenerate</skill>
@@ -1154,16 +1153,16 @@
 		<id>1030</id>
 		<name>Skill Guide: Taunt</name>
 		<trigger>
-			<flagreq id='usingSkill' value='taunt' />
+			<flagreq id="usingSkill" value="taunt"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>taunt</skill>
 				<commander>raven</commander>
-				<text>This creature has Taunt; it will take attack damage for its adjacent allies.</text>
+				<text>This creature has Taunt; it will take Attack damage for its adjacent allies.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -1173,16 +1172,16 @@
 		<id>1031</id>
 		<name>Skill Guide: Silence</name>
 		<trigger>
-			<flagreq id='usingSkill' value='silence' />
+			<flagreq id="usingSkill" value="silence"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>silence</skill>
 				<commander>raven</commander>
-				<text>This creature has Silence; enemy creatures dealt damage by it have all of their skills removed temporarily. </text>
+				<text>This creature has Silence; enemy creatures dealt damage by it have all of their skills removed temporarily.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -1193,16 +1192,16 @@
 		<id>1032</id>
 		<name>Skill Guide: Maelstrom's Fury</name>
 		<trigger>
-			<flagreq id='usingSkill' value='fury' />
+			<flagreq id="usingSkill" value="fury"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>fury</skill>
 				<commander>raven</commander>
-				<text>This creature has Maelstrom's Fury; when damaged it will deal damage back to the attacker and gain Attack permanently.</text>
+				<text>This creature has Maelstrom's Fury; which combines Vengeance with Enrage and Shroud.</text>
 			</line>
 			</message>
 			<confirm>1</confirm>
@@ -1212,11 +1211,11 @@
 		<id>1033</id>
 		<name>Skill Guide: Wing Ward</name>
 		<trigger>
-			<flagreq id='usingSkill' value='evadebarrier' />
+			<flagreq id="usingSkill" value="evadebarrier"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>evadebarrier</skill>
@@ -1231,11 +1230,11 @@
 		<id>1034</id>
 		<name>Skill Guide: Scorchbreath</name>
 		<trigger>
-			<flagreq id='usingSkill' value='scorchbreath' />
+			<flagreq id="usingSkill" value="scorchbreath"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>scorchbreath</skill>
@@ -1251,11 +1250,11 @@
 		<id>1035</id>
 		<name>Skill Guide: Scorch Self</name>
 		<trigger>
-			<flagreq id='usingSkill' value='burnself' />
+			<flagreq id="usingSkill" value="burnself"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>burnself</skill>
@@ -1276,11 +1275,11 @@
 		<id>1036</id>
 		<name>Skill Guide: Freeze Self</name>
 		<trigger>
-			<flagreq id='usingSkill' value='jamself' />
+			<flagreq id="usingSkill" value="jamself"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>jamself</skill>
@@ -1296,11 +1295,11 @@
 		<id>1037</id>
 		<name>Skill Guide: Shroud</name>
 		<trigger>
-			<flagreq id='usingSkill' value='stasis' />
+			<flagreq id="usingSkill" value="stasis"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>stasis</skill>
@@ -1316,11 +1315,11 @@
 		<id>1038</id>
 		<name>Skill Guide: Backlash</name>
 		<trigger>
-			<flagreq id='usingSkill' value='backlash' />
+			<flagreq id="usingSkill" value="backlash"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>backlash</skill>
@@ -1335,11 +1334,11 @@
 		<id>1039</id>
 		<name>Skill Guide: Reanimate</name>
 		<trigger>
-			<flagreq id='usingSkill' value='reanimate' />
+			<flagreq id="usingSkill" value="reanimate"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
-			<highlight id='targetCard' />
+			<highlight id="targetCard"/>
 			<message>
 			<line>
 				<skill>reanimate</skill>
@@ -1358,18 +1357,18 @@
 		<id>2001</id>
 		<name>Champion Overflow: Legendary</name>
 		<trigger>
-			<flagreq id='rewardedItem' value='104003' />
+			<flagreq id="rewardedItem" value="104003"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
 			<message>
 				<line>
-					<asset name="tutorial_LegendaryToMythic" bundle="30" />
+					<asset name="tutorial_LegendaryToMythic" bundle="30"/>
 					<commander>raven</commander>
 					<text>SQUAWK?! You've reached the maximum number of stones needed to upgrade this Legendary Champion Card! That's amazing!</text>
 				</line>
 				<line>
-					<asset name="tutorial_LegendaryToMythic" bundle="30" />
+					<asset name="tutorial_LegendaryToMythic" bundle="30"/>
 					<commander>raven</commander>
 					<text>All future Champion Stones of that type will been converted to a new Mythic Champion Stone. Who is this mysterious champion?!</text>
 				</line>
@@ -1382,18 +1381,18 @@
 		<id>2002</id>
 		<name>Champion Overflow: Mythic</name>
 		<trigger>
-			<flagreq id='rewardedItem' value='19' />
+			<flagreq id="rewardedItem" value="19"/>
 		</trigger>
 		<step>
 			<step_id>10</step_id>
 			<message>
 				<line>
-					<asset name="tutorial_MythicToRunestone" bundle="30" />
+					<asset name="tutorial_MythicToRunestone" bundle="30"/>
 					<commander>raven</commander>
 					<text>SQUAWK?! You've reached the maximum number of stones needed to upgrade the Mythic Champion?! That's amazing!</text>
 				</line>
 				<line>
-					<asset name="tutorial_MythicToRunestone" bundle="30" />
+					<asset name="tutorial_MythicToRunestone" bundle="30"/>
 					<commander>raven</commander>
 					<text>All future Mythic Champion Stones will been converted to Runecrafter's Stones. This is -SQUAWK- AMAZING!!</text>
 				</line>
