@@ -452,7 +452,20 @@
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_Final_Mission" bundle="102"/>
 		<unlock_time>1653498000</unlock_time> <!-- Wednesday, 25 May 2022 17:00:00 -->
-		<req>24</req>
+		<req>-1</req>
+		<arena_x>250</arena_x>
+		<arena_y>150</arena_y>
+	</location>
+
+	<location>
+		<id>36</id>
+		<name>Red Feather Valley</name>
+		<mapBG>Map_RedFeatherValley</mapBG>
+		<asset_bundle>54</asset_bundle>
+		<combatBG>CombatBGRedFeatherValley</combatBG>
+		<preview name="Map_Banner_RedFeatherValley" bundle="102"/>
+		<unlock_time>1689872400</unlock_time> <!-- Thursday, 20 July 2024 at 17:00:00 -->
+		<req>36</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>

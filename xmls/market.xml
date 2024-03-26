@@ -1,29 +1,29 @@
 
 <root>
 	<!--   1-100  for Market
-		 101-1000 for Bundle Packages
-		1001-3000 for Boxes & Chance Packs
-		3001-4000 for Special Market
-		4001-5000 for Emporium & Arena
-		5001-6000 for Shard Bundle Packages
-		6001-7000 for Reward Boxes
+	101-1000 for Bundle Packages
+	1001-3000 for Boxes & Chance Packs
+	3001-4000 for Special Market
+	4001-5000 for Emporium & Arena
+	5001-6000 for Shard Bundle Packages
+	6001-7000 for Reward Boxes
 
-		Rarity Colors
-			^c8E5F		Rare
-			^c0DFF		Epic
-			^cE7FF		Legendary
-			^cF90F		Mythic
-			^cCC1F		Items
-			^c	takes hex [RGBA]
-			^C	takes double hex [RRGGBBAA]
-			^g	takes two hex back to back to make gradient [RGBARGBA]
-			^G	takes two double hex back to back to make gradient [RRGGBBAARRGGBBAA]
+	Rarity Colors
+	^c8E5F		Rare
+	^c0DFF		Epic
+	^cE7FF		Legendary
+	^cF90F		Mythic
+	^cCC1F		Items
+	^c	takes hex [RGBA]
+	^C	takes double hex [RRGGBBAA]
+	^g	takes two hex back to back to make gradient [RGBARGBA]
+	^G	takes two double hex back to back to make gradient [RRGGBBAARRGGBBAA]
 
-		<card_limit>1</card_limit>		Prevents this from being opened if it would exceed card cap.
-	 	<drop_item_id>					ID for
+	<card_limit>1</card_limit>		Prevents this from being opened if it would exceed card cap.
+	<drop_item_id>					ID for
 
-	 	Market Items get NO BONUS to <priority>
-	 -->
+		Market Items get NO BONUS to <priority>
+	-->
 	<!-- Basic Pack -->
 	<store_item>
 		<id>1</id>
@@ -1276,21 +1276,6 @@
 		</item_pack>
 	</store_item>
 
-	<!--	<store_item>
-		<id>97</id>
-		<name>Universal Solvent</name>
-		<category>2</category>
-		<desc>Craft with Expedition Items to get a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
-		<show_desc>1</show_desc>
-		<priority>51</priority>
-		<sc_cost>10000</sc_cost>
-		<asset_prefab>rune_bag</asset_prefab>
-		<icon>rubedo_vapor</icon>
-		<bundle>279</bundle>
-		<item_req>8030</item_req>
-		<item id="4002" quantity="1"/>
-	</store_item>-->
-
 	<store_item>
 		<id>98</id>
 		<name>Random Reward Champion Stones</name>
@@ -1531,7 +1516,7 @@
 		<bundle>34</bundle>
 		<random_rune number="1" min_rarity="4" max_rarity="4" set="3"/>
 	</store_item>
-	
+
 
 	<!-- =============================== -->
 	<!-- ======= SPECIAL MARKET ======== -->
@@ -3247,8 +3232,8 @@
 			<card min_level="1" max_level="1" min_rarity="4" max_rarity="4" set="3000" fusion_level="2"/>
 		</cards>
 	</store_item>
-	
-	
+
+
 
 	<!-- ======================================= -->
 	<!-- ==== Emporium & Arena Market Items ==== -->
@@ -3342,23 +3327,23 @@
 	</store_item>
 
 	<!-- <store_item> -->
-		<!-- <id>4003</id> -->
-		<!-- <name>Cycling Epic Premium Card</name> -->
-		<!-- <category>4</category> -->
-		<!-- <vip_level_req>0</vip_level_req> -->
-		<!-- <desc>Gives a single copy of the displayed card. May be purchased multiple times, but the price increases after 4 purchases!</desc> -->
-		<!-- <preview_desc>Unlocks a random ^c0DFFEpic ^cFFFFcard that can be purchased with shards and cycles every 24 hours!</preview_desc> -->
-		<!-- <priority>30</priority> -->
-		<!-- <icon>icon_blue_crystal</icon> -->
-		<!-- <scale_prices>1</scale_prices> -->
-		<!-- <rarity3scaling purchase1="60" purchase2="60" purchase3="60" purchase4="60" scalar="40"/> -->
-		<!-- <rarity4scaling purchase1="150" purchase2="150" purchase3="150" purchase4="150" scalar="100"/> -->
-		<!-- <cycle_cards>1</cycle_cards> -->
-		<!-- <cycle_length>86400</cycle_length> -->
-		<!-- <start_offset>61200</start_offset> -->
-		<!-- <cards> -->
-			<!-- <card min_level="1" max_level="1" min_rarity="3" max_rarity="3" set="3000"/> -->
-		<!-- </cards> -->
+	<!-- <id>4003</id> -->
+	<!-- <name>Cycling Epic Premium Card</name> -->
+	<!-- <category>4</category> -->
+	<!-- <vip_level_req>0</vip_level_req> -->
+	<!-- <desc>Gives a single copy of the displayed card. May be purchased multiple times, but the price increases after 4 purchases!</desc> -->
+	<!-- <preview_desc>Unlocks a random ^c0DFFEpic ^cFFFFcard that can be purchased with shards and cycles every 24 hours!</preview_desc> -->
+	<!-- <priority>30</priority> -->
+	<!-- <icon>icon_blue_crystal</icon> -->
+	<!-- <scale_prices>1</scale_prices> -->
+	<!-- <rarity3scaling purchase1="60" purchase2="60" purchase3="60" purchase4="60" scalar="40"/> -->
+	<!-- <rarity4scaling purchase1="150" purchase2="150" purchase3="150" purchase4="150" scalar="100"/> -->
+	<!-- <cycle_cards>1</cycle_cards> -->
+	<!-- <cycle_length>86400</cycle_length> -->
+	<!-- <start_offset>61200</start_offset> -->
+	<!-- <cards> -->
+	<!-- <card min_level="1" max_level="1" min_rarity="3" max_rarity="3" set="3000"/> -->
+	<!-- </cards> -->
 	<!-- </store_item> -->
 
 	<store_item>
@@ -3383,22 +3368,22 @@
 	</store_item>
 
 	<!-- <store_item> -->
-		<!-- <id>4005</id> -->
-		<!-- <name>Cycling Legendary Premium Card</name> -->
-		<!-- <category>4</category> -->
-		<!-- <vip_level_req>0</vip_level_req> -->
-		<!-- <desc>Gives a single copy of the displayed card. May be purchased multiple times, but the price increases after 4 purchases!</desc> -->
-		<!-- <preview_desc>Unlocks a random Aether ^cE7FFLegendary ^cFFFFcard that can be purchased with shards and cycles every 24 hours!</preview_desc> -->
-		<!-- <priority>40</priority> -->
-		<!-- <icon>icon_purple_crystal</icon> -->
-		<!-- <scale_prices>1</scale_prices> -->
-		<!-- <rarity4scaling purchase1="150" purchase2="150" purchase3="150" purchase4="150" scalar="100"/> -->
-		<!-- <cycle_cards>1</cycle_cards> -->
-		<!-- <cycle_length>86400</cycle_length> -->
-		<!-- <start_offset>61200</start_offset> -->
-		<!-- <cards> -->
-			<!-- <card min_level="1" max_level="1" min_rarity="4" max_rarity="4" type="1" set="3000"/> -->
-		<!-- </cards> -->
+	<!-- <id>4005</id> -->
+	<!-- <name>Cycling Legendary Premium Card</name> -->
+	<!-- <category>4</category> -->
+	<!-- <vip_level_req>0</vip_level_req> -->
+	<!-- <desc>Gives a single copy of the displayed card. May be purchased multiple times, but the price increases after 4 purchases!</desc> -->
+	<!-- <preview_desc>Unlocks a random Aether ^cE7FFLegendary ^cFFFFcard that can be purchased with shards and cycles every 24 hours!</preview_desc> -->
+	<!-- <priority>40</priority> -->
+	<!-- <icon>icon_purple_crystal</icon> -->
+	<!-- <scale_prices>1</scale_prices> -->
+	<!-- <rarity4scaling purchase1="150" purchase2="150" purchase3="150" purchase4="150" scalar="100"/> -->
+	<!-- <cycle_cards>1</cycle_cards> -->
+	<!-- <cycle_length>86400</cycle_length> -->
+	<!-- <start_offset>61200</start_offset> -->
+	<!-- <cards> -->
+	<!-- <card min_level="1" max_level="1" min_rarity="4" max_rarity="4" type="1" set="3000"/> -->
+	<!-- </cards> -->
 	<!-- </store_item> -->
 
 	<store_item>
@@ -8215,7 +8200,7 @@
 			<card min_level="1" max_level="1" unit_id="6133" display_card_id="6133"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5230</id>
 		<name>Lucky Sale!</name>
@@ -8299,7 +8284,7 @@
 			<card min_level="1" max_level="1" unit_id="6226" display_card_id="6226"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5234</id>
 		<name>Sentrypod Scout Sale!</name>
@@ -8320,7 +8305,7 @@
 			<card min_level="1" max_level="1" unit_id="6247" display_card_id="6247"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5235</id>
 		<name>Autobattler Sword Sale!</name>
@@ -8341,7 +8326,7 @@
 			<card min_level="1" max_level="1" unit_id="6279" display_card_id="6279"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5236</id>
 		<name>Autobattler Buckler Sale!</name>
@@ -8362,7 +8347,7 @@
 			<card min_level="1" max_level="1" unit_id="5279" display_card_id="5279"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5237</id>
 		<name>Grimkite Model Sale!</name>
@@ -8383,7 +8368,7 @@
 			<card min_level="1" max_level="1" unit_id="6241" display_card_id="6241"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5238</id>
 		<name>Tiamat Sale!</name>
@@ -8404,7 +8389,7 @@
 			<card min_level="1" max_level="1" unit_id="6100" display_card_id="6100"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5239</id>
 		<name>Vala, Sleeping Earth Sale!</name>
@@ -8425,7 +8410,7 @@
 			<card min_level="1" max_level="1" unit_id="7096" display_card_id="7096"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5240</id>
 		<name>Snowback Dragon Sale!</name>
@@ -8446,7 +8431,7 @@
 			<card min_level="1" max_level="1" unit_id="5029" display_card_id="5029"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5241</id>
 		<name>Monarch Scorcher Sale!</name>
@@ -8467,7 +8452,7 @@
 			<card min_level="1" max_level="1" unit_id="6197" display_card_id="6197"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5242</id>
 		<name>Millidrake Regent Sale!</name>
@@ -8488,7 +8473,7 @@
 			<card min_level="1" max_level="1" unit_id="6186" display_card_id="6186"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5243</id>
 		<name>Mugen and Young Hawk Sale!</name>
@@ -8509,7 +8494,7 @@
 			<card min_level="1" max_level="1" unit_id="7174" display_card_id="7174"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5244</id>
 		<name>Bogskull Widow Sale!</name>
@@ -8530,7 +8515,7 @@
 			<card min_level="1" max_level="1" unit_id="7048" display_card_id="7048"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5245</id>
 		<name>Varachnis Sale!</name>
@@ -8551,7 +8536,7 @@
 			<card min_level="1" max_level="1" unit_id="7121" display_card_id="7121"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5246</id>
 		<name>Bogbringer Sale!</name>
@@ -8572,7 +8557,7 @@
 			<card min_level="1" max_level="1" unit_id="7237" display_card_id="7237"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5247</id>
 		<name>Thief Mechabase Sale!</name>
@@ -8593,7 +8578,7 @@
 			<card min_level="1" max_level="1" unit_id="6280" display_card_id="6280"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5248</id>
 		<name>Froglin Sale!</name>
@@ -8614,7 +8599,7 @@
 			<card min_level="1" max_level="1" unit_id="7226" display_card_id="7226"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5249</id>
 		<name>Portal Witch Sale!</name>
@@ -8635,7 +8620,7 @@
 			<card min_level="1" max_level="1" unit_id="5280" display_card_id="5280"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5250</id>
 		<name>Timberglide Striker Sale!</name>
@@ -8656,7 +8641,7 @@
 			<card min_level="1" max_level="1" unit_id="7247" display_card_id="7247"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5251</id>
 		<name>Gigantadactyl Sale!</name>
@@ -8677,7 +8662,7 @@
 			<card min_level="1" max_level="1" unit_id="5242" display_card_id="5242"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5252</id>
 		<name>Phoenix Sale!</name>
@@ -8698,7 +8683,7 @@
 			<card min_level="1" max_level="1" unit_id="6055" display_card_id="6055"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5253</id>
 		<name>Embered Demise Sale!</name>
@@ -8719,7 +8704,7 @@
 			<card min_level="1" max_level="1" unit_id="6200" display_card_id="6200"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5254</id>
 		<name>Deatheye Owl Sale!</name>
@@ -8740,7 +8725,7 @@
 			<card min_level="1" max_level="1" unit_id="6174" display_card_id="6174"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5255</id>
 		<name>Skelosaurus Sale!</name>
@@ -8761,7 +8746,7 @@
 			<card min_level="1" max_level="1" unit_id="7212" display_card_id="7212"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5256</id>
 		<name>Varachnis Sale!</name>
@@ -8782,7 +8767,7 @@
 			<card min_level="1" max_level="1" unit_id="7121" display_card_id="7121"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5257</id>
 		<name>Unicorn Phantom Sale!</name>
@@ -8971,7 +8956,7 @@
 			<card min_level="1" max_level="1" unit_id="7199" display_card_id="7199"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5266</id>
 		<name>Ashen Cavalier Sale!</name>
@@ -8992,7 +8977,7 @@
 			<card min_level="1" max_level="1" unit_id="6288" display_card_id="6288"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5267</id>
 		<name>Iron Ninjutsu Sale!</name>
@@ -9013,7 +8998,7 @@
 			<card min_level="1" max_level="1" unit_id="6212" display_card_id="6212"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5268</id>
 		<name>Cyclopnid Sale!</name>
@@ -9181,7 +9166,7 @@
 			<card min_level="1" max_level="1" unit_id="7282" display_card_id="7282"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5276</id>
 		<name>Sol Doumu Sale!</name>
@@ -9202,7 +9187,7 @@
 			<card min_level="1" max_level="1" unit_id="6179" display_card_id="6179"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5277</id>
 		<name>Heinous Sale!</name>
@@ -9223,7 +9208,7 @@
 			<card min_level="1" max_level="1" unit_id="6079" display_card_id="6079"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5278</id>
 		<name>Bemola Sale!</name>
@@ -9244,7 +9229,7 @@
 			<card min_level="1" max_level="1" unit_id="5059" display_card_id="5059"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5279</id>
 		<name>Kani Sale!</name>
@@ -9265,7 +9250,7 @@
 			<card min_level="1" max_level="1" unit_id="5294" display_card_id="5294"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5280</id>
 		<name>Pepe Sale!</name>
@@ -9286,7 +9271,7 @@
 			<card min_level="1" max_level="1" unit_id="6296" display_card_id="6296"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5281</id>
 		<name>Silurigon Sale!</name>
@@ -9307,7 +9292,7 @@
 			<card min_level="1" max_level="1" unit_id="5095" display_card_id="5095"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5282</id>
 		<name>Werething Sale!</name>
@@ -9349,7 +9334,7 @@
 			<card min_level="1" max_level="1" unit_id="5268" display_card_id="5268"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5284</id>
 		<name>Oni Blade Sale!</name>
@@ -9370,7 +9355,7 @@
 			<card min_level="1" max_level="1" unit_id="6120" display_card_id="6120"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5285</id>
 		<name>Holy Constable Sale!</name>
@@ -9391,7 +9376,7 @@
 			<card min_level="1" max_level="1" unit_id="5295" display_card_id="5295"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5286</id>
 		<name>Cloudbreak Elites Sale!</name>
@@ -9454,7 +9439,7 @@
 			<card min_level="1" max_level="1" unit_id="6231" display_card_id="6231"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5289</id>
 		<name>Mindtis Sale!</name>
@@ -9475,7 +9460,7 @@
 			<card min_level="1" max_level="1" unit_id="7298" display_card_id="7298"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5290</id>
 		<name>Spider Sale!</name>
@@ -9496,7 +9481,7 @@
 			<card min_level="1" max_level="1" unit_id="7295" display_card_id="7295"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5291</id>
 		<name>Deathmoth Sale!</name>
@@ -9517,7 +9502,7 @@
 			<card min_level="1" max_level="1" unit_id="6232" display_card_id="6232"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5292</id>
 		<name>Bloodboil Sale!</name>
@@ -9538,7 +9523,7 @@
 			<card min_level="1" max_level="1" unit_id="6206" display_card_id="6206"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5293</id>
 		<name>Nightbreaker Sale!</name>
@@ -9559,7 +9544,7 @@
 			<card min_level="1" max_level="1" unit_id="6292" display_card_id="6292"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5294</id>
 		<name>Bane Sale!</name>
@@ -9580,7 +9565,7 @@
 			<card min_level="1" max_level="1" unit_id="7037" display_card_id="7037"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5295</id>
 		<name>Crusher Sale!</name>
@@ -9601,7 +9586,7 @@
 			<card min_level="1" max_level="1" unit_id="6105" display_card_id="6105"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5296</id>
 		<name>Runecrafter Sale!</name>
@@ -9622,7 +9607,7 @@
 			<card min_level="1" max_level="1" unit_id="5297" display_card_id="5297"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5297</id>
 		<name>Streambender Sale!</name>
@@ -9643,7 +9628,7 @@
 			<card min_level="1" max_level="1" unit_id="7176" display_card_id="7176"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5298</id>
 		<name>Lava Sale!</name>
@@ -9664,7 +9649,7 @@
 			<card min_level="1" max_level="1" unit_id="6298" display_card_id="6298"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5299</id>
 		<name>Manic Sale!</name>
@@ -9685,7 +9670,7 @@
 			<card min_level="1" max_level="1" unit_id="7251" display_card_id="7251"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5300</id>
 		<name>Ophanim Sale!</name>
@@ -9706,7 +9691,7 @@
 			<card min_level="1" max_level="1" unit_id="5248" display_card_id="5248"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5301</id>
 		<name>Creeperbots Sale!</name>
@@ -9727,7 +9712,7 @@
 			<card min_level="1" max_level="1" unit_id="6295" display_card_id="6295"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5302</id>
 		<name>Dharma Sale!</name>
@@ -9748,7 +9733,7 @@
 			<card min_level="1" max_level="1" unit_id="5296" display_card_id="5296"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5303</id>
 		<name>Rattleclank Sale!</name>
@@ -9769,7 +9754,7 @@
 			<card min_level="1" max_level="1" unit_id="6198" display_card_id="6198"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5304</id>
 		<name>Ika-Roa Sale!</name>
@@ -9790,7 +9775,7 @@
 			<card min_level="1" max_level="1" unit_id="7150" display_card_id="7150"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5305</id>
 		<name>Shaman Sale!</name>
@@ -9811,7 +9796,7 @@
 			<card min_level="1" max_level="1" unit_id="7235" display_card_id="7235"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5306</id>
 		<name>Twainblood Sale!</name>
@@ -9832,7 +9817,7 @@
 			<card min_level="1" max_level="1" unit_id="5252" display_card_id="5252"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5307</id>
 		<name>Spearhunter Sale!</name>
@@ -9895,7 +9880,7 @@
 			<card min_level="1" max_level="1" unit_id="5078" display_card_id="5078"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5310</id>
 		<name>Charon Sale!</name>
@@ -9916,7 +9901,7 @@
 			<card min_level="1" max_level="1" unit_id="6121" display_card_id="6121"/>
 		</cards>
 	</store_item>
-	
+
 	<store_item>
 		<id>5311</id>
 		<name>Xerthis Sale!</name>
@@ -11167,6 +11152,128 @@
 		<item_pack>
 			<pulls>1</pulls>
 			<item id="107631" quantity="125" weight="1"/>
+		</item_pack>
+	</store_item>
+
+	<store_item>
+		<id>5374</id>
+		<name>Fowlmaster Sale!</name>
+		<banner>1</banner>
+		<category>1</category>
+		<hidden>1</hidden>
+		<event_only>1</event_only>
+		<priority>300</priority>
+		<desc>Gives one copy of a ^cE7FFFowlmaster^cFFFF! May be purchased four times.</desc>
+		<background_prefab>event_041_banner_goblinbirdmaster</background_prefab>
+		<bundle>136</bundle>
+		<icon>icon_blue_crystal</icon>
+		<hc_cost>150</hc_cost>
+		<show_desc>1</show_desc>
+		<!-- Stuff to give -->
+		<cards>
+			<card min_level="1" max_level="1" unit_id="5209" display_card_id="5209" />
+		</cards>
+	</store_item>
+
+	<store_item>
+		<id>5375</id>
+		<name>Cute Chef Sale!</name>
+		<banner>1</banner>
+		<category>1</category>
+		<hidden>1</hidden>
+		<event_only>1</event_only>
+		<priority>300</priority>
+		<desc>Gives one copy of a ^cE7FFCute Chef^cFFFF! May be purchased four times.</desc>
+		<background_prefab>event_102_eyecook_banner</background_prefab>
+		<bundle>271</bundle>
+		<icon>icon_blue_crystal</icon>
+		<hc_cost>150</hc_cost>
+		<show_desc>1</show_desc>
+		<!-- Stuff to give -->
+		<cards>
+			<card min_level="1" max_level="1" unit_id="7311" display_card_id="7311" />
+		</cards>
+	</store_item>
+
+	<store_item>
+		<id>5376</id>
+		<name>Bennu Sale!</name>
+		<banner>1</banner>
+		<category>1</category>
+		<hidden>1</hidden>
+		<event_only>1</event_only>
+		<priority>300</priority>
+		<desc>Gives one copy of a ^cE7FFBennu^cFFFF! May be purchased four times.</desc>
+		<background_prefab>event_021_banner_chance_w3</background_prefab>
+		<bundle>84</bundle>
+		<icon>icon_blue_crystal</icon>
+		<hc_cost>150</hc_cost>
+		<show_desc>1</show_desc>
+		<!-- Stuff to give -->
+		<cards>
+			<card min_level="1" max_level="1" unit_id="5111" display_card_id="5111" />
+		</cards>
+	</store_item>
+
+	<store_item>
+		<id>5377</id>
+		<name>Squire Gorger Sale!</name>
+		<banner>1</banner>
+		<category>1</category>
+		<hidden>1</hidden>
+		<event_only>1</event_only>
+		<priority>300</priority>
+		<desc>Gives one copy of a ^cE7FFSquire Gorger^cFFFF! May be purchased four times.</desc>
+		<background_prefab>event_011_banner_chance_w2</background_prefab>
+		<bundle>59</bundle>
+		<icon>icon_blue_crystal</icon>
+		<hc_cost>150</hc_cost>
+		<show_desc>1</show_desc>
+		<!-- Stuff to give -->
+		<cards>
+			<card min_level="1" max_level="1" unit_id="6053" display_card_id="6053" />
+		</cards>
+	</store_item>
+
+	<store_item>
+		<id>5378</id>
+		<name>Saucy Stone Stockpile</name>
+		<banner>1</banner>
+		<category>1</category>
+		<hidden>1</hidden>
+		<event_only>1</event_only>
+		<priority>300</priority>
+		<desc>Gives 125 Champion Stones for ^cE7FFSaucy, Lady of the Cauldron^cFFFF! May be purchased four times.</desc>
+		<asset_prefab>event_079_turkeywitch_championpack</asset_prefab>
+		<background_prefab>event_079_turkeywitch_banner</background_prefab>
+		<bundle>225</bundle>
+		<icon>championStone_epic</icon>
+		<icon_bundle>58</icon_bundle>
+		<hc_cost>150</hc_cost>
+		<item_pack>
+			<pulls>1</pulls>
+			<item id="107621" quantity="125" weight="1"/>
+		</item_pack>
+	</store_item>
+
+	<store_item>
+		<id>5379</id>
+		<name>Altos Stone Stockpile</name>
+		<banner>1</banner>
+		<category>1</category>
+		<hidden>1</hidden>
+		<event_only>1</event_only>
+		<priority>300</priority>
+		<desc>Gives 125 Champion Stones for ^cE7FFAltos, the Implacable^cFFFF! May be purchased four times.</desc>
+		<asset_prefab>event_82_eternalguardian_championpack</asset_prefab>
+		<background_prefab>event_82_eternalguardian_banner</background_prefab>
+		<bundle>231</bundle>
+		<icon>championStone_epic</icon>
+		<icon_bundle>58</icon_bundle>
+		<hc_cost>150</hc_cost>
+		<item_pack>
+			<pulls>1</pulls>
+			<item id="105624" quantity="125" weight="1"/>
 		</item_pack>
 	</store_item>
 

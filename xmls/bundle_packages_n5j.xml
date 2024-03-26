@@ -6,19 +6,19 @@
 	<!-- Bundles get +200 <priority> -->
 
 	<!-- Misc. Tags
-			<show_list>		Shows a list of items in details view
-			<show_desc>		Shows the desc im store page instead of list of items -->
+	<show_list>		Shows a list of items in details view
+	<show_desc>		Shows the desc im store page instead of list of items -->
 
-	<!-- Rarity Colors
-			^c8E5F		Rare
-			^c0DFF		Epic
-			^cE7FF		Legendary
-			^cF90F		Mythic
-			^cCC1F		Items
-			^c	takes hex [RGBA]
-			^C	takes double hex [RRGGBBAA]
-			^g	takes two hex back to back to make gradient [RGBARGBA]
-			^G	takes two double hex back to back to make gradient [RRGGBBAARRGGBBAA]
+		<!-- Rarity Colors
+		^c8E5F		Rare
+		^c0DFF		Epic
+		^cE7FF		Legendary
+		^cF90F		Mythic
+		^cCC1F		Items
+		^c	takes hex [RGBA]
+		^C	takes double hex [RRGGBBAA]
+		^g	takes two hex back to back to make gradient [RGBARGBA]
+		^G	takes two double hex back to back to make gradient [RRGGBBAARRGGBBAA]
 	-->
 
 	<!-- PLAYER TIMELINE -->
@@ -7771,7 +7771,7 @@
 		<price_point_id>t20</price_point_id>
 	</package>
 
-<!-- Premium Flask Sales AETHER Gen 2 -->
+	<!-- Premium Flask Sales AETHER Gen 2 -->
 	<package>
 		<id>961</id>
 		<name>Mirror Flask Pack</name>
@@ -11189,7 +11189,7 @@
 		<price_point_id>t06</price_point_id>
 	</package>
 
-<!-- Event 98 Angel -->
+	<!-- Event 98 Angel -->
 
 	<package>
 		<id>1169</id>
@@ -11364,7 +11364,7 @@
 		<price_point_id>t60_champion</price_point_id>
 	</package>
 
-  <!-- Event 100 Dragon -->
+	<!-- Event 100 Dragon -->
 
 	<package>
 		<id>1179</id>
@@ -12693,7 +12693,7 @@
 
 	<!-- END Premium Flasks Gen 9 Bundles -->
 
-		<package>
+	<package>
 		<id>1260</id>
 		<name>Hidden Formos Flask Special</name>
 		<desc>Gives 100 Hidden Formos Flasks. They contain Champion Stones for Razi the Fallen Light; Kachina, the Dreamer; Emerald Amarok; or Formos Ebonclaw!</desc>
@@ -14100,7 +14100,168 @@
 		<price_point_id>t03</price_point_id>
 	</package>
 
-<!-- END BUNDLES BUNDLES END-->
+	<package>
+		<id>1349</id>
+		<name>Kawosha Trove</name>
+		<desc>Gives 75 ^cE7FFKawosha Stone^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 50 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id="104082" number="75" /> <!-- Stone -->
+		<item id="2001" number="25" /> <!-- Arcane Fragment -->
+		<item id="1004" number="10" /> <!-- Energy +20 -->
+		<item id="4001" number="50" /> <!-- Inscription Powder -->
+		<sp>50</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1350</id>
+		<name>Kawosha Large Trove</name>
+		<desc>Gives 200 ^cE7FFKawosha Stone^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 100 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id="104082" number="200" /> <!-- Stone -->
+		<item id="2001" number="50" /> <!-- Arcane Fragment -->
+		<item id="1004" number="15" /> <!-- Energy +20 -->
+		<item id="4001" number="100" /> <!-- Inscription Powder -->
+		<sp>100</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t40_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1351</id>
+		<name>Kawosha Fortune Trove</name>
+		<desc>Gives 725 ^cE7FFKawosha Stone^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 300 Arcane Dust, and 250 Inscription Powder! May be purchased twice!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<!-- Stuff to give -->
+		<item id="104082" number="725" /> <!-- Stone -->
+		<item id="2001" number="150" /> <!-- Arcane Fragment -->
+		<item id="1004" number="25" /> <!-- Energy +20 -->
+		<item id="4001" number="250" /> <!-- Inscription Powder -->
+		<sp>300</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t60_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1352</id>
+		<name>Kawosha Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFLittle Kawosha^cFFFF! May be purchased twice!</desc>
+		<priority>400</priority>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<category>1</category>
+		<!-- Stuff to give -->
+		<item id="104082" number="200" /> <!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1353</id>
+		<name>Unbinded Umbu Flask Special</name>
+		<desc>Gives 100 Unbinded Umbu Flasks. They contain Champion Stones for Noctrus Flintclaw; Columba, Firewing Monk; King Proteus; or Umbu, Life Releaser! May be purchased 8 times!</desc>
+		<asset_prefab>event_032_stonepack_02</asset_prefab>
+		<bundle>113</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id="2562" number="100" />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1354</id>
+		<name>Avian Starter Set</name>
+		<desc>Power up your Avian deck! Contains 4 Quads: ^cE7FFOwltron Belcher^cFFFF, ^cE7FFBlackhawk Knight^cFFFF, ^c0DFFNectar Medic^cFFFF, and ^c0DFFDodo It^cFFFF plus 50 Iphelia, Voice of Pain Stones! One purchase only!</desc>
+		<asset_prefab>starter_deck</asset_prefab>
+		<bundle>35</bundle>
+		<background_prefab>3rdAnniversary_banner</background_prefab>
+		<background_bundle>136</background_bundle>
+		<category>2</category>
+		<show_list>1</show_list>
+		<!-- Stuff to give -->
+		<card id="21345" /> <!-- Owltron Belcher -->
+		<card id="21044" /> <!-- Blackhawk Knight -->
+		<card id="21636" /> <!-- Nectar Medic -->
+		<card id="22251" /> <!-- Dodo It -->
+		<item id="104040" number="50" /> <!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10_monthly</price_point_id>
+	</package>
+
+	<package>
+		<id>1355</id>
+		<name>Sky Fisher Shard Bundle!</name>
+		<desc>Gives 330 Shards and a BONUS ^cE7FFSky Fisher^cFFFF card! May be purchased 8 times!</desc>
+		<priority>300</priority>
+		<!-- Stuff to give -->
+		<card id="5047" />
+		<tokens>330</tokens>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1356</id>
+		<name>Caraca Champion Guild Bundle</name>
+		<desc>Purchase 700 Shards.  You and everyone in your guild recives 100 ^cE7FFCaraca Stones^cFFFF!</desc>
+		<asset_prefab>legendary_crystal_guild</asset_prefab>
+		<bundle>30</bundle>
+		<background_prefab>event_064_banner_excrimsonwing</background_prefab>
+		<background_bundle>191</background_bundle>
+		<priority>300</priority>
+		<num_available>40</num_available>
+		<!-- Stuff to give -->
+		<tokens>700</tokens>
+		<item id="105613" number="100" />
+		<guild_bonus>
+			<duration>259200</duration>
+			<item id="105613" number="100" />
+		</guild_bonus>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t50</price_point_id>
+	</package>
+
+	<package>
+		<id>1357</id>
+		<name>Quad Quack Arcanist Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFQuack Arcanist^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id="25060" />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1358</id>
+		<name>Quad Gallant Wingward Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFGallant Wingward^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id="25114" />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<!-- END BUNDLES BUNDLES END-->
 
 	<!-- ====================== -->
 	<!-- ==== PRICE POINTS ==== -->
@@ -14354,7 +14515,7 @@
 			<display_price_string>$7.99</display_price_string>
 		</steam_config>
 	</price_point>
-		<price_point>
+	<price_point>
 		<id>t10_monthly</id>
 		<short_name>t10_monthly</short_name>
 		<icon>graphic_wb_6</icon>

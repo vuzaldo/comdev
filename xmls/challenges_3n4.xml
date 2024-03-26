@@ -20,7 +20,7 @@
 		<portrait>skeletonwarrior</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_campaign_dragon' bundle='116'/>
+		<list_image name="challenge_banner_campaign_dragon" bundle="116"/>
 		<battleground_id>108</battleground_id>
 		<enemy_battleground_id>510</enemy_battleground_id>
 		<dungeon_upgrade_levels>100</dungeon_upgrade_levels>
@@ -51,8 +51,8 @@
 			<hc_cost_scalar>250</hc_cost_scalar>
 		</energy>
  		<commander>
- 			<card id='383' max_mastery_level='40' />
-			<card id='386' min_mastery_level='30' />
+ 			<card id="383" max_mastery_level="40"/>
+			<card id="386" min_mastery_level="30"/>
 		</commander>
 
 		<deck>
@@ -62,36 +62,36 @@
 				mastery_level='#' - includes card at dungeon level
 				remove_mastery_level='#' - removes card at dungeon level
 			-->
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='5' set='3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='10' set='1000,3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='15' set='1000,3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='20' set='3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='25' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='30' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='35' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='40' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
-			<card id='8073' mastery_level='75' /> 	<!-- Vorpal Shock Troop -->
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="5" set="3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="10" set="1000,3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="15" set="1000,3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="20" set="3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="25" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="30" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="35" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="40" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="45" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="45" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="50" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="50" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="55" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="55" set="4000"/>
+			<card id="8073" mastery_level="75"/> 	<!-- Vorpal Shock Troop -->
 
-			<card id='8075' mastery_level='5' /> 	<!-- Vorpal Magnate -->
-			<card id='8077' mastery_level='10' />	<!-- Vorpal Berserker -->
-			<card id='8073' mastery_level='15' />
-			<card id='8077' mastery_level='20' />
-			<card id='8073' mastery_level='25' />
-			<card id='8078' mastery_level='30' />	<!-- Vorpal Essencer -->
-			<card id='8088' mastery_level='35' />	<!-- Vorpal Necromancer -->
-			<card id='8076' mastery_level='40' />  <!-- Vorpal Knight -->
-			<card id='8076' mastery_level='45' />
-			<card id='8088' mastery_level='45' />
-			<card id='8075' mastery_level='50' />
-			<card id='8078' mastery_level='50' />
-			<card id='8076' mastery_level='55' />
-			<card id='8077' mastery_level='55' />
+			<card id="8075" mastery_level="5"/> 	<!-- Vorpal Magnate -->
+			<card id="8077" mastery_level="10"/>	<!-- Vorpal Berserker -->
+			<card id="8073" mastery_level="15"/>
+			<card id="8077" mastery_level="20"/>
+			<card id="8073" mastery_level="25"/>
+			<card id="8078" mastery_level="30"/>	<!-- Vorpal Essencer -->
+			<card id="8088" mastery_level="35"/>	<!-- Vorpal Necromancer -->
+			<card id="8076" mastery_level="40"/>  <!-- Vorpal Knight -->
+			<card id="8076" mastery_level="45"/>
+			<card id="8088" mastery_level="45"/>
+			<card id="8075" mastery_level="50"/>
+			<card id="8078" mastery_level="50"/>
+			<card id="8076" mastery_level="55"/>
+			<card id="8077" mastery_level="55"/>
 
 		</deck>
 	</challenge>
@@ -104,7 +104,7 @@
 		<portrait>skeletonwarrior</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_campaign_dragon' bundle='116'/>
+		<list_image name="challenge_banner_campaign_dragon" bundle="116"/>
 		<battleground_id>108</battleground_id>
 		<enemy_battleground_id>510</enemy_battleground_id>
 		<dungeon_upgrade_levels>100</dungeon_upgrade_levels>
@@ -135,8 +135,8 @@
 			<hc_cost_scalar>250</hc_cost_scalar>
 		</energy>
  		<commander>
- 			<card id='384' max_mastery_level='40' />
-			<card id='387' min_mastery_level='30' />
+ 			<card id="384" max_mastery_level="40"/>
+			<card id="387" min_mastery_level="30"/>
 		</commander>
 
 		<deck>
@@ -146,36 +146,36 @@
 				mastery_level='#' - includes card at dungeon level
 				remove_mastery_level='#' - removes card at dungeon level
 			-->
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='5' set='3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='10' set='1000,3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='15' set='1000,3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='20' set='3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='25' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='30' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='35' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='40' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
-			<card id='8073' mastery_level='75' /> 	<!-- Vorpal Shock Troop -->
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="5" set="3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="10" set="1000,3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="15" set="1000,3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="20" set="3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="25" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="30" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="35" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="40" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="45" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="45" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="50" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="50" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="55" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="55" set="4000"/>
+			<card id="8073" mastery_level="75"/> 	<!-- Vorpal Shock Troop -->
 
-			<card id='8075' mastery_level='5' /> 	<!-- Vorpal Magnate -->
-			<card id='8077' mastery_level='10' />	<!-- Vorpal Berserker -->
-			<card id='8073' mastery_level='15' />
-			<card id='8077' mastery_level='20' />
-			<card id='8073' mastery_level='25' />
-			<card id='8078' mastery_level='30' />	<!-- Vorpal Essencer -->
-			<card id='8088' mastery_level='35' />	<!-- Vorpal Necromancer -->
-			<card id='8076' mastery_level='40' />  	<!-- Vorpal Knight -->
-			<card id='8076' mastery_level='45' />
-			<card id='8088' mastery_level='45' />
-			<card id='8075' mastery_level='50' />
-			<card id='8078' mastery_level='50' />
-			<card id='8076' mastery_level='55' />
-			<card id='8077' mastery_level='55' />
+			<card id="8075" mastery_level="5"/> 	<!-- Vorpal Magnate -->
+			<card id="8077" mastery_level="10"/>	<!-- Vorpal Berserker -->
+			<card id="8073" mastery_level="15"/>
+			<card id="8077" mastery_level="20"/>
+			<card id="8073" mastery_level="25"/>
+			<card id="8078" mastery_level="30"/>	<!-- Vorpal Essencer -->
+			<card id="8088" mastery_level="35"/>	<!-- Vorpal Necromancer -->
+			<card id="8076" mastery_level="40"/>  	<!-- Vorpal Knight -->
+			<card id="8076" mastery_level="45"/>
+			<card id="8088" mastery_level="45"/>
+			<card id="8075" mastery_level="50"/>
+			<card id="8078" mastery_level="50"/>
+			<card id="8076" mastery_level="55"/>
+			<card id="8077" mastery_level="55"/>
 
 		</deck>
 	</challenge>
@@ -188,7 +188,7 @@
 		<portrait>skeletonwarrior</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_campaign_dragon' bundle='116'/>
+		<list_image name="challenge_banner_campaign_dragon" bundle="116"/>
 		<battleground_id>108</battleground_id>
 		<enemy_battleground_id>510</enemy_battleground_id>
 		<dungeon_upgrade_levels>100</dungeon_upgrade_levels>
@@ -219,8 +219,8 @@
 			<hc_cost_scalar>250</hc_cost_scalar>
 		</energy>
  		<commander>
- 			<card id='384' max_mastery_level='40' />
-			<card id='387' min_mastery_level='30' />
+ 			<card id="384" max_mastery_level="40"/>
+			<card id="387" min_mastery_level="30"/>
 		</commander>
 
 		<deck>
@@ -230,36 +230,36 @@
 				mastery_level='#' - includes card at dungeon level
 				remove_mastery_level='#' - removes card at dungeon level
 			-->
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='5' set='3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='10' set='1000,3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='15' set='1000,3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='20' set='3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='25' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='30' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='35' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='40' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
-			<card id='8073' mastery_level='75' /> 	<!-- Vorpal Shock Troop -->
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="5" set="3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="10" set="1000,3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="15" set="1000,3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="20" set="3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="25" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="30" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="35" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="40" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="45" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="45" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="50" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="50" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="55" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="55" set="4000"/>
+			<card id="8073" mastery_level="75"/> 	<!-- Vorpal Shock Troop -->
 
-			<card id='8075' mastery_level='5' /> 	<!-- Vorpal Magnate -->
-			<card id='8077' mastery_level='10' />	<!-- Vorpal Berserker -->
-			<card id='8073' mastery_level='15' />
-			<card id='8077' mastery_level='20' />
-			<card id='8073' mastery_level='25' />
-			<card id='8078' mastery_level='30' />	<!-- Vorpal Essencer -->
-			<card id='8088' mastery_level='35' />	<!-- Vorpal Necromancer -->
-			<card id='8076' mastery_level='40' />  	<!-- Vorpal Knight -->
-			<card id='8076' mastery_level='45' />
-			<card id='8088' mastery_level='45' />
-			<card id='8075' mastery_level='50' />
-			<card id='8078' mastery_level='50' />
-			<card id='8076' mastery_level='55' />
-			<card id='8077' mastery_level='55' />
+			<card id="8075" mastery_level="5"/> 	<!-- Vorpal Magnate -->
+			<card id="8077" mastery_level="10"/>	<!-- Vorpal Berserker -->
+			<card id="8073" mastery_level="15"/>
+			<card id="8077" mastery_level="20"/>
+			<card id="8073" mastery_level="25"/>
+			<card id="8078" mastery_level="30"/>	<!-- Vorpal Essencer -->
+			<card id="8088" mastery_level="35"/>	<!-- Vorpal Necromancer -->
+			<card id="8076" mastery_level="40"/>  	<!-- Vorpal Knight -->
+			<card id="8076" mastery_level="45"/>
+			<card id="8088" mastery_level="45"/>
+			<card id="8075" mastery_level="50"/>
+			<card id="8078" mastery_level="50"/>
+			<card id="8076" mastery_level="55"/>
+			<card id="8077" mastery_level="55"/>
 
 		</deck>
 	</challenge>
@@ -272,7 +272,7 @@
 		<portrait>skeletonwarrior</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_campaign_dragon' bundle='116'/>
+		<list_image name="challenge_banner_campaign_dragon" bundle="116"/>
 		<battleground_id>108</battleground_id>
 		<enemy_battleground_id>510</enemy_battleground_id>
 		<dungeon_upgrade_levels>100</dungeon_upgrade_levels>
@@ -303,8 +303,8 @@
 			<hc_cost_scalar>250</hc_cost_scalar>
 		</energy>
  		<commander>
- 			<card id='384' max_mastery_level='40' />
-			<card id='387' min_mastery_level='30' />
+ 			<card id="384" max_mastery_level="40"/>
+			<card id="387" min_mastery_level="30"/>
 		</commander>
 
 		<deck>
@@ -314,36 +314,36 @@
 				mastery_level='#' - includes card at dungeon level
 				remove_mastery_level='#' - removes card at dungeon level
 			-->
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='5' set='3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='10' set='1000,3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='15' set='1000,3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='20' set='3000' />
-			<card min_rarity='3' max_rarity='4' remove_mastery_level='25' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='30' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='35' set='1000,3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='40' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='45' set='3000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='50' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
-			<card min_rarity='4' max_rarity='4' remove_mastery_level='55' set='4000' />
-			<card id='8073' mastery_level='75' /> 	<!-- Vorpal Shock Troop -->
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="5" set="3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="10" set="1000,3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="15" set="1000,3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="20" set="3000"/>
+			<card min_rarity="3" max_rarity="4" remove_mastery_level="25" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="30" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="35" set="1000,3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="40" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="45" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="45" set="3000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="50" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="50" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="55" set="4000"/>
+			<card min_rarity="4" max_rarity="4" remove_mastery_level="55" set="4000"/>
+			<card id="8073" mastery_level="75"/> 	<!-- Vorpal Shock Troop -->
 
-			<card id='8075' mastery_level='5' /> 	<!-- Vorpal Magnate -->
-			<card id='8077' mastery_level='10' />	<!-- Vorpal Berserker -->
-			<card id='8073' mastery_level='15' />
-			<card id='8077' mastery_level='20' />
-			<card id='8073' mastery_level='25' />
-			<card id='8078' mastery_level='30' />	<!-- Vorpal Essencer -->
-			<card id='8088' mastery_level='35' />	<!-- Vorpal Necromancer -->
-			<card id='8076' mastery_level='40' />  	<!-- Vorpal Knight -->
-			<card id='8076' mastery_level='45' />
-			<card id='8088' mastery_level='45' />
-			<card id='8075' mastery_level='50' />
-			<card id='8078' mastery_level='50' />
-			<card id='8076' mastery_level='55' />
-			<card id='8077' mastery_level='55' />
+			<card id="8075" mastery_level="5"/> 	<!-- Vorpal Magnate -->
+			<card id="8077" mastery_level="10"/>	<!-- Vorpal Berserker -->
+			<card id="8073" mastery_level="15"/>
+			<card id="8077" mastery_level="20"/>
+			<card id="8073" mastery_level="25"/>
+			<card id="8078" mastery_level="30"/>	<!-- Vorpal Essencer -->
+			<card id="8088" mastery_level="35"/>	<!-- Vorpal Necromancer -->
+			<card id="8076" mastery_level="40"/>  	<!-- Vorpal Knight -->
+			<card id="8076" mastery_level="45"/>
+			<card id="8088" mastery_level="45"/>
+			<card id="8075" mastery_level="50"/>
+			<card id="8078" mastery_level="50"/>
+			<card id="8076" mastery_level="55"/>
+			<card id="8077" mastery_level="55"/>
 
 		</deck>
 	</challenge>
@@ -360,7 +360,7 @@
 		<portrait>Portraits_Tribal_Frog</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_frogs' bundle='116'/>
+		<list_image name="challenge_banner_clash_frogs" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -389,7 +389,7 @@
 		<portrait>undeadbrute</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_relentless' bundle='116'/>
+		<list_image name="challenge_banner_clash_relentless" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -418,7 +418,7 @@
 		<portrait>Portrait_Spy_Angel</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_angel' bundle='116'/>
+		<list_image name="challenge_banner_clash_angel" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -447,7 +447,7 @@
 		<portrait>moltendragon</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_dragonfire' bundle='116'/>
+		<list_image name="challenge_banner_clash_dragonfire" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -476,7 +476,7 @@
 		<portrait>wyldguardian</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_empowering' bundle='116'/>
+		<list_image name="challenge_banner_clash_empowering" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -505,7 +505,7 @@
 		<portrait>chaosguardian</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_thunderdome' bundle='116'/>
+		<list_image name="challenge_banner_clash_thunderdome" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -534,7 +534,7 @@
 		<portrait>maniacgeneral</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_berserk' bundle='116'/>
+		<list_image name="challenge_banner_clash_berserk" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -563,7 +563,7 @@
 		<portrait>lanternguardian</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_armored' bundle='116'/>
+		<list_image name="challenge_banner_clash_armored" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -592,7 +592,7 @@
 		<portrait>ranger</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_equilibrium' bundle='116'/>
+		<list_image name="challenge_banner_clash_equilibrium" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -620,7 +620,7 @@
 		<portrait>invisibleassassin</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_invisible' bundle='116'/>
+		<list_image name="challenge_banner_clash_invisible" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -649,7 +649,7 @@
 		<portrait>lanternguardian</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_armored' bundle='116'/>
+		<list_image name="challenge_banner_clash_armored" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -679,7 +679,7 @@
 		<portrait>void2</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_null' bundle='116'/>
+		<list_image name="challenge_banner_clash_null" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -708,7 +708,7 @@
 		<portrait>Portrait_Wyld_Corrosive_Hero</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_acid' bundle='116'/>
+		<list_image name="challenge_banner_clash_acid" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -737,7 +737,7 @@
 		<portrait>steampunk_scarab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_flash' bundle='116'/>
+		<list_image name="challenge_banner_clash_flash" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -766,7 +766,7 @@
 		<portrait>grandexcavator</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_immunity' bundle='116'/>
+		<list_image name="challenge_banner_clash_immunity" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -795,7 +795,7 @@
 		<portrait>grandexcavator</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_rune' bundle='116'/>
+		<list_image name="challenge_banner_clash_rune" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -824,7 +824,7 @@
 		<portrait>Chaos_Hero_Mecha_Hero_Portrait</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_fury' bundle='116'/>
+		<list_image name="challenge_banner_clash_fury" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -853,7 +853,7 @@
 		<portrait>skyPirateLadyGoblin</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_powderkeg' bundle='116'/>
+		<list_image name="challenge_banner_clash_powderkeg" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -882,7 +882,7 @@
 		<portrait>samaelWithFiresword</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_airborne' bundle='116'/>
+		<list_image name="challenge_banner_clash_airborne" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -907,13 +907,13 @@
 
 	<challenge>
 		<id>2020</id>
-		<name>Graves &#38; Gears Clash Challenge</name>
+		<name>Graves &amp; Gears Clash Challenge</name>
 		<desc>Battle to earn stars and rewards! All Mecha gain Ward equal to 3 plus 10% of their base Health and when an Undead dies it creates an Unearthed Skeleton token creature. Enemy starts with a Castle Tower card! Attacks recharge once per day!</desc>
 		<type>2</type>
 		<portrait>giantMechaBoss</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_gravesgears' bundle='116'/>
+		<list_image name="challenge_banner_clash_gravesgears" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -937,13 +937,13 @@
 
 	<challenge>
 		<id>2021</id>
-		<name>Swarms &#38; Seas Clash Challenge</name>
+		<name>Swarms &amp; Seas Clash Challenge</name>
 		<desc>Battle to earn stars and rewards! All Seafolk gain a Barrier each turn equal to 30% of their base Health while on delay and Insects gain Venom equal to 10% of their Health. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
 		<type>2</type>
 		<portrait>Portraits_Seafolk_King</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_swarmsseas' bundle='116'/>
+		<list_image name="challenge_banner_clash_swarmsseas" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -973,7 +973,7 @@
 		<portrait>mythicConglomerate</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_conflux' bundle='116'/>
+		<list_image name="challenge_banner_clash_conflux" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1002,7 +1002,7 @@
 		<portrait>aetherguardian</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_angel' bundle='116'/>
+		<list_image name="challenge_banner_clash_angel" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1031,7 +1031,7 @@
 		<portrait>chaosguardian</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_relentless' bundle='116'/>
+		<list_image name="challenge_banner_clash_relentless" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1060,7 +1060,7 @@
 		<portrait>wyldguardian</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_empowering' bundle='116'/>
+		<list_image name="challenge_banner_clash_empowering" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1089,7 +1089,7 @@
 		<portrait>decimupgrade</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_dragonfire' bundle='116'/>
+		<list_image name="challenge_banner_clash_dragonfire" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1120,7 +1120,7 @@
 		<portrait>ursurioupgrade</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_berserk' bundle='116'/>
+		<list_image name="challenge_banner_clash_berserk" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1151,7 +1151,7 @@
 		<portrait>elementalhero</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_thunderdome' bundle='116'/>
+		<list_image name="challenge_banner_clash_thunderdome" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1182,7 +1182,7 @@
 		<portrait>elyseupgrade</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_frogs' bundle='116'/>
+		<list_image name="challenge_banner_clash_frogs" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1213,7 +1213,7 @@
 		<portrait>seraph</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_fortress' bundle='116'/>
+		<list_image name="challenge_banner_clash_fortress" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1244,7 +1244,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1270,12 +1270,12 @@
 	<challenge>
 		<id>2032</id>
 		<name>Common Revenge Challenge</name>
-		<desc>Battle to earn stars and rewards! All Common cards have their Attack, Health, and all Skills multiplied by 5! Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
+		<desc>Battle to earn stars and rewards! All Common cards have their Attack, Health, and all Skills multiplied by 6! Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
 		<type>2</type>
 		<portrait>odaupgrade</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_aprilcommon' bundle='116'/>
+		<list_image name="challenge_banner_clash_aprilcommon" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1294,144 +1294,6 @@
 			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
 			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
 		</energy>
-
-		<!-- 104014 - Ralgan Ironpaw -->
-		<event_reward>
-			<desc>Complete the Challenge at Rank 1.</desc>
-			<tier>1</tier>
-			<req>
-				<min_rank>1</min_rank>
-			</req>
-			<item id='104017' quantity='250' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 2.</desc>
-			<tier>2</tier>
-			<req>
-				<min_rank>2</min_rank>
-			</req>
-			<item id='104017' quantity='230' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 3.</desc>
-			<tier>3</tier>
-			<req>
-				<min_rank>3</min_rank>
-			</req>
-			<item id='104017' quantity='210' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 10 or higher.</desc>
-			<tier>4</tier>
-			<req>
-				<min_rank>10</min_rank>
-			</req>
-			<item id='104017' quantity='180' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 25 or higher.</desc>
-			<tier>5</tier>
-			<req>
-				<min_rank>25</min_rank>
-			</req>
-			<item id='104017' quantity='150' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 50 or higher.</desc>
-			<tier>6</tier>
-			<req>
-				<min_rank>50</min_rank>
-			</req>
-			<item id='104017' quantity='120' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 75 or higher.</desc>
-			<tier>7</tier>
-			<req>
-				<min_rank>75</min_rank>
-			</req>
-			<item id='104017' quantity='100' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 100 or higher.</desc>
-			<tier>8</tier>
-			<req>
-				<min_rank>100</min_rank>
-			</req>
-			<item id='104017' quantity='80' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 150 or higher.</desc>
-			<tier>9</tier>
-			<req>
-				<min_rank>150</min_rank>
-			</req>
-			<item id='104017' quantity='70' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 250 or higher.</desc>
-			<tier>10</tier>
-			<req>
-				<min_rank>250</min_rank>
-			</req>
-			<item id='104017' quantity='50' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 350 or higher.</desc>
-			<tier>11</tier>
-			<req>
-				<min_rank>350</min_rank>
-			</req>
-			<item id='104017' quantity='40' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 500 or higher.</desc>
-			<tier>12</tier>
-			<req>
-				<min_rank>500</min_rank>
-			</req>
-			<item id='104017' quantity='30' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 750 or higher.</desc>
-			<tier>13</tier>
-			<req>
-				<min_rank>750</min_rank>
-			</req>
-			<item id='104017' quantity='25' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 1000 or higher.</desc>
-			<tier>14</tier>
-			<req>
-				<min_rank>1000</min_rank>
-			</req>
-			<item id='104017' quantity='20' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 2000 or higher.</desc>
-			<tier>15</tier>
-			<req>
-				<min_rank>2000</min_rank>
-			</req>
-			<item id='104017' quantity='15' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 5000 or higher.</desc>
-			<tier>16</tier>
-			<req>
-				<min_rank>5000</min_rank>
-			</req>
-			<item id='104017' quantity='10' order='1' />
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 20000 or higher.</desc>
-			<tier>17</tier>
-			<req>
-				<min_rank>20000</min_rank>
-			</req>
-			<item id='104017' quantity='5' order='1' />
-		</event_reward>
 	</challenge>
 
 	<challenge>
@@ -1442,7 +1304,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_aprilcommon' bundle='116'/>
+		<list_image name="challenge_banner_clash_aprilcommon" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1469,7 +1331,7 @@
 			<req>
 				<min_rank>1</min_rank>
 			</req>
-			<item id='104020' quantity='250' order='1' />
+			<item id="104020" quantity="250" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 2.</desc>
@@ -1477,7 +1339,7 @@
 			<req>
 				<min_rank>2</min_rank>
 			</req>
-			<item id='104020' quantity='230' order='1' />
+			<item id="104020" quantity="230" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 3.</desc>
@@ -1485,7 +1347,7 @@
 			<req>
 				<min_rank>3</min_rank>
 			</req>
-			<item id='104020' quantity='210' order='1' />
+			<item id="104020" quantity="210" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 10 or higher.</desc>
@@ -1493,7 +1355,7 @@
 			<req>
 				<min_rank>10</min_rank>
 			</req>
-			<item id='104020' quantity='180' order='1' />
+			<item id="104020" quantity="180" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 25 or higher.</desc>
@@ -1501,7 +1363,7 @@
 			<req>
 				<min_rank>25</min_rank>
 			</req>
-			<item id='104020' quantity='150' order='1' />
+			<item id="104020" quantity="150" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 50 or higher.</desc>
@@ -1509,7 +1371,7 @@
 			<req>
 				<min_rank>50</min_rank>
 			</req>
-			<item id='104020' quantity='120' order='1' />
+			<item id="104020" quantity="120" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 75 or higher.</desc>
@@ -1517,7 +1379,7 @@
 			<req>
 				<min_rank>75</min_rank>
 			</req>
-			<item id='104020' quantity='100' order='1' />
+			<item id="104020" quantity="100" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 100 or higher.</desc>
@@ -1525,7 +1387,7 @@
 			<req>
 				<min_rank>100</min_rank>
 			</req>
-			<item id='104020' quantity='80' order='1' />
+			<item id="104020" quantity="80" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 150 or higher.</desc>
@@ -1533,7 +1395,7 @@
 			<req>
 				<min_rank>150</min_rank>
 			</req>
-			<item id='104020' quantity='70' order='1' />
+			<item id="104020" quantity="70" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 250 or higher.</desc>
@@ -1541,7 +1403,7 @@
 			<req>
 				<min_rank>250</min_rank>
 			</req>
-			<item id='104020' quantity='50' order='1' />
+			<item id="104020" quantity="50" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 350 or higher.</desc>
@@ -1549,7 +1411,7 @@
 			<req>
 				<min_rank>350</min_rank>
 			</req>
-			<item id='104020' quantity='40' order='1' />
+			<item id="104020" quantity="40" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 500 or higher.</desc>
@@ -1557,7 +1419,7 @@
 			<req>
 				<min_rank>500</min_rank>
 			</req>
-			<item id='104020' quantity='30' order='1' />
+			<item id="104020" quantity="30" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 750 or higher.</desc>
@@ -1565,7 +1427,7 @@
 			<req>
 				<min_rank>750</min_rank>
 			</req>
-			<item id='104020' quantity='25' order='1' />
+			<item id="104020" quantity="25" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 1000 or higher.</desc>
@@ -1573,7 +1435,7 @@
 			<req>
 				<min_rank>1000</min_rank>
 			</req>
-			<item id='104020' quantity='20' order='1' />
+			<item id="104020" quantity="20" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 2000 or higher.</desc>
@@ -1581,7 +1443,7 @@
 			<req>
 				<min_rank>2000</min_rank>
 			</req>
-			<item id='104020' quantity='15' order='1' />
+			<item id="104020" quantity="15" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 5000 or higher.</desc>
@@ -1589,7 +1451,7 @@
 			<req>
 				<min_rank>5000</min_rank>
 			</req>
-			<item id='104020' quantity='10' order='1' />
+			<item id="104020" quantity="10" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 20000 or higher.</desc>
@@ -1597,7 +1459,7 @@
 			<req>
 				<min_rank>20000</min_rank>
 			</req>
-			<item id='104020' quantity='5' order='1' />
+			<item id="104020" quantity="5" order="1"/>
 		</event_reward>
 	</challenge>
 
@@ -1609,7 +1471,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1638,7 +1500,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1667,7 +1529,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1696,7 +1558,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1725,7 +1587,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1754,7 +1616,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1783,7 +1645,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1812,7 +1674,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1841,7 +1703,7 @@
 		<portrait>lavacrab</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_recovery' bundle='116'/>
+		<list_image name="challenge_banner_clash_recovery" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1870,7 +1732,7 @@
 		<portrait>odaupgrade</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_raid_fortunesfavor' bundle='116'/>
+		<list_image name="challenge_banner_raid_fortunesfavor" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1899,7 +1761,7 @@
 		<portrait>elyseupgrade</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_acid' bundle='116'/>
+		<list_image name="challenge_banner_clash_acid" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1930,7 +1792,7 @@
 		<portrait>Obyto14</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_equilibrium' bundle='116'/>
+		<list_image name="challenge_banner_clash_equilibrium" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
@@ -1960,7 +1822,7 @@
 		<portrait>groundelemental2</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name='challenge_banner_clash_relentless' bundle='116'/>
+		<list_image name="challenge_banner_clash_relentless" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->

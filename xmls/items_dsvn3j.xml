@@ -128,6 +128,7 @@
 		<icon>icon_green_crystal_lg</icon>
 		<desc>Gives two cards from the original Standard Set with one guaranteed Rare or higher.</desc>
 		<give_pack>41</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>15</id>
@@ -135,6 +136,7 @@
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives four cards from the original Standard Set with one guaranteed Epic or higher.</desc>
 		<give_pack>42</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>16</id>
@@ -142,6 +144,7 @@
 		<icon>icon_purple_crystal_lg</icon>
 		<desc>Gives four cards from the original Standard Set with one guaranteed Legendary.</desc>
 		<give_pack>43</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>17</id>
@@ -325,6 +328,7 @@
 		<give_item id="4001" quantity="5"/>
 		<give_item id="2001" quantity="10"/>
 		<give_item id="2501" quantity="40"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>512</id>
@@ -333,6 +337,7 @@
 		<bundle>17</bundle>
 		<desc>Contains 10x Runecrafter's Pouches, plus an additional guaranteed Rune.</desc>
 		<give_pack>82</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>513</id>
@@ -779,6 +784,7 @@
 		<bundle>16</bundle>
 		<desc>Gives two Dragon cards, both guaranteed Rare or higher.</desc>
 		<give_pack>21</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2503</id>
@@ -786,6 +792,7 @@
 		<icon>atlas</icon>
 		<bundle>17</bundle>
 		<desc>Used in crafting to gain the Atlas card.</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -794,6 +801,7 @@
 		<icon>solaron</icon>
 		<bundle>17</bundle>
 		<desc>Used in crafting to gain the Solaron card.</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -802,6 +810,7 @@
 		<icon>vulcanos</icon>
 		<bundle>17</bundle>
 		<desc>Used in crafting to gain the Vulcanos card.</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -810,6 +819,7 @@
 		<icon>titan_core</icon>
 		<bundle>17</bundle>
 		<desc>Combine with a Titan Spellstone to create a Mythic card.</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -1013,6 +1023,7 @@
 		<icon>purple_pearl_100</icon>
 		<bundle>58</bundle>
 		<desc>A magically infused pearl that is used to summon the mythological sea creature Scylla, Sea's Torment.</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -1032,6 +1043,7 @@
 		<icon>MythicAvianKeystoneItem_100</icon>
 		<bundle>58</bundle>
 		<desc>A magically infused helmet that when combined with Windsouls can summon Verus, Arena Champion.</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<!-- Mythical Flasks -->
@@ -1128,6 +1140,7 @@
 		<icon>undeadMythic</icon>
 		<bundle>30</bundle>
 		<desc>Used in crafting to gain the Mythic Mortagan, Grave General.</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -1136,6 +1149,7 @@
 		<icon>undead_core</icon>
 		<bundle>133</bundle>
 		<desc>Combine with a Mortagan's Spellstone to create the Mythic Mortagan, Grave General.</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -4529,6 +4543,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4538,6 +4553,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4547,6 +4563,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4556,6 +4573,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4565,6 +4583,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104063" quantity="1"/> <!-- Viir -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
@@ -4577,6 +4596,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104065" quantity="1"/> <!-- Lerna -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4586,6 +4606,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104065" quantity="1"/> <!-- Lerna -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4595,6 +4616,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104065" quantity="1"/> <!-- Lerna -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4604,6 +4626,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104065" quantity="1"/> <!-- Lerna -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
@@ -4845,6 +4868,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104067" quantity="1"/> <!-- Allies -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4854,6 +4878,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104067" quantity="1"/> <!-- Allies -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4863,6 +4888,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104067" quantity="1"/> <!-- Allies -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
@@ -4872,6 +4898,7 @@
 		<bundle>17</bundle>
 		<desc>A discontinued flask, to be removed.</desc>
 		<give_item id="104067" quantity="1"/> <!-- Allies -->
+		<decay_time>1711645200</decay_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
@@ -6066,487 +6093,8 @@
 	</item>
 
 	<!-- 3001-3200 SPECIAL EVENT ITEMS START -->
-	<!-- Dragon Event -->
-	<item>
-		<id>3001</id>
-		<name>Tepid Dragon Egg</name>
-		<icon>Tepid_Dragon_Egg_01</icon>
-		<bundle>16</bundle>
-		<desc>Combine with 20 Smoldering Embers and 50 Obsidian Gravel to hatch.</desc>
-		<consume_item id="3002" quantity="50"/>
-		<consume_item id="3003" quantity="20"/>
-		<give_card id="2005" level="1"/>
-		<decay_time>1450976400</decay_time> <!-- Thu, 24 Dec 2015 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>3002</id>
-		<name>Obsidian Gravel</name>
-		<icon>Obsidian_Gravel_01</icon>
-		<bundle>16</bundle>
-		<usable>0</usable>
-		<desc>Gravel from the base of the Tarragon Peak, scorched by centuries of dragon's fire.</desc>
-		<decay_time>1450976400</decay_time> <!-- Thu, 24 Dec 2015 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>3003</id>
-		<name>Smoldering Ember</name>
-		<icon>Smoldering_Ember_01</icon>
-		<bundle>16</bundle>
-		<usable>0</usable>
-		<desc>A smoldering ember gathered from the Tarragon Peak.</desc>
-		<decay_time>1450976400</decay_time> <!-- Thu, 24 Dec 2015 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>3004</id>
-		<name>Dragon Hatchling</name>
-		<icon>Dragon_Hatchling_01</icon>
-		<bundle>16</bundle>
-		<desc>A single, tiny, slightly warm dragon hatchling. Needs the warmth of a mother dragon's fire.</desc>
-		<usable>0</usable>
-		<decay_time>1450976400</decay_time> <!-- Thu, 24 Dec 2015 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>3005</id>
-		<name>Dragon Mother's Fire</name>
-		<icon>Mothers_Fire_01</icon>
-		<bundle>16</bundle>
-		<desc>Captured dragon's fire. Combine with 50 Dragon Hatchlings to earn the Dragon Tamer's trust.</desc>
-		<consume>1</consume>
-		<consume_item id="3004" quantity="50"/>
-		<give_card id="2003" level="1"/>
-		<decay_time>1450976400</decay_time> <!-- Thu, 24 Dec 2015 17:00:00 GMT -->
-	</item>
-	<!-- Elemental Event -->
-	<item>
-		<id>3006</id>
-		<name>Golden Lava Vial</name>
-		<icon>Lava_Vial</icon>
-		<bundle>17</bundle>
-		<desc>This lava is rich with gold flakes. Filter through enough of it and you can find Gold Nuggets.</desc>
-		<consume>8</consume>
-		<give_item id="1011" quantity="1"/>
-		<decay_time>1446134400</decay_time> <!-- Thu, 29 Oct 2015 16:00:00 GMT -->
-	</item>
-	<item>
-		<id>3007</id>
-		<name>Silver Soul</name>
-		<icon>Soul_Of_Silver</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 100 Captured Wind to create a new card.</desc>
-		<consume_item id="3008" quantity="100"/>
-		<give_card id="2010" level="1"/>
-		<decay_time>1446134400</decay_time> <!-- Thu, 29 Oct 2015 16:00:00 GMT -->
-	</item>
-	<item>
-		<id>3008</id>
-		<name>Captured Wind</name>
-		<icon>Captured_Wind</icon>
-		<bundle>17</bundle>
-		<desc>Combine 100 Captured Wind with a Silver Soul to create a new card.</desc>
-		<usable>0</usable>
-		<decay_time>1446134400</decay_time> <!-- Thu, 29 Oct 2015 16:00:00 GMT -->
-	</item>
-	<!-- Frog Event -->
-	<item>
-		<id>3009</id>
-		<name>Stray Tadpole</name>
-		<icon>Tadpole_Egg</icon>
-		<bundle>17</bundle>
-		<desc>A small wandering tadpole, vulnerable without the protection of the Guardian Stone.</desc>
-		<usable>0</usable>
-		<decay_time>1448553600</decay_time> <!-- Thu, 26 Nov 2015 16:00:00 GMT -->
-	</item>
-	<item>
-		<id>3010</id>
-		<name>Pooling Lotus</name>
-		<icon>Pooling_Lotus</icon>
-		<bundle>17</bundle>
-		<desc>Combines with 70 Stray Tadpoles to create a new card.</desc>
-		<consume_item id="3009" quantity="70"/>
-		<give_card id="2012" level="1"/>
-		<decay_time>1448553600</decay_time> <!-- Thu, 26 Nov 2015 16:00:00 GMT -->
-	</item>
-	<item>
-		<id>3011</id>
-		<name>Firefly</name>
-		<icon>Lightning_Bug</icon>
-		<bundle>17</bundle>
-		<desc>Use 10 Fireflies to trade them to the frog villagers for Arcane Dust.</desc>
-		<consume>10</consume>
-		<sp>2</sp>
-		<decay_time>1448553600</decay_time> <!-- Thu, 26 Nov 2015 16:00:00 GMT -->
-	</item>
-	<item>
-		<id>3012</id>
-		<name>Dragon Claw</name>
-		<icon>dragon_claw</icon>
-		<bundle>17</bundle>
-		<desc>Collect Dragon Claws in Tarragon Peak to compete with other players and earn rewards at its conclusion!</desc>
-		<usable>0</usable>
-		<decay_time>1450976400</decay_time> <!-- Thu, 24 Dec 2015 17:00:00 GMT -->
 
-		<view_action_event_type>6</view_action_event_type>
-	</item>
-	<item>
-		<id>3013</id>
-		<name>Dragon Mother's Love</name>
-		<icon>mothers_fire_purple</icon>
-		<bundle>17</bundle>
-		<desc>Captured dragon's fire. Combine with 50 Dragon Hatchlings to earn an Arcane Deposit.</desc>
-		<consume>1</consume>
-		<consume_item id="3004" quantity="50"/>
-		<give_card id="512" level="1"/>
-		<decay_time>1450976400</decay_time> <!-- Thu, 24 Dec 2015 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>3014</id>
-		<name>Arcane Dragon Egg</name>
-		<icon>tepid_egg_green</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 20 Smoldering Embers and 50 Obsidian Gravel to earn an Arcane Deposit.</desc>
-		<consume_item id="3002" quantity="50"/>
-		<consume_item id="3003" quantity="20"/>
-		<give_card id="512" level="1"/>
-		<decay_time>1450976400</decay_time> <!-- Thu, 24 Dec 2015 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>3015</id>
-		<name>Arcane Vapor</name>
-		<icon>arcane_vapor</icon>
-		<bundle>17</bundle>
-		<desc>Collect Arcane Vapor in Frigore to compete with other players and earn rewards at its conclusion!</desc>
-		<usable>0</usable>
-		<decay_time>1453395600</decay_time> <!-- Thu, 21 Jan 2016 17:00:00 GMT -->
-	</item>
-	<!--  Event 7 Items -->
-	<item>
-		<id>3016</id>
-		<name>Purple Fire</name>
-		<icon>purple_fire</icon>
-		<bundle>17</bundle>
-		<desc>Collect Purple Fire in the Center of The Void to compete with other players and earn rewards at its conclusion! Crafting with Purple Fire will not decrease your rank!</desc>
-		<usable>0</usable>
-		<decay_time>1455901200</decay_time> <!-- Fri, 19 Feb 2016 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>3017</id>
-		<name>Black Flower</name>
-		<icon>void_flower</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 80 Purple Fires to earn a new card. Using Purple Fire will not decrease your rank in the Center of the Void Expedition!</desc>
-		<decay_time>1455642000</decay_time> <!-- Tue, 16 Feb 2016 17:00:00 GMT -->
-		<consume_item id="3016" quantity="80"/>
-		<give_card id="2020" level="1"/>
-	</item>
-	<item>
-		<id>3018</id>
-		<name>Dark Water</name>
-		<icon>undead_essence</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 60 Purple Fires to earn a new card. Using Purple Fire will not decrease your rank in the Center of the Void Expedition!</desc>
-		<decay_time>1455642000</decay_time> <!-- Tue, 16 Feb 2016 17:00:00 GMT -->
-		<consume_item id="3016" quantity="60"/>
-		<give_card id="2025" level="1"/>
-	</item>
-	<item>
-		<id>3019</id>
-		<name>Infected Bone</name>
-		<icon>void_bone</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 60 Purple Fires to earn a new card. Using Purple Fire will not decrease your rank in the Center of the Void Expedition!</desc>
-		<decay_time>1455642000</decay_time> <!-- Tue, 16 Feb 2016 17:00:00 GMT -->
-		<consume_item id="3016" quantity="60"/>
-		<give_card id="2023" level="1"/>
-	</item>
-	<item>
-		<id>3020</id>
-		<name>Turret Spellstone</name>
-		<icon>machine_parts</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 80 Purple Fires to earn a new card. Using Purple Fire will not decrease your rank in the Center of the Void Expedition!</desc>
-		<decay_time>1455642000</decay_time> <!-- Tue, 16 Feb 2016 17:00:00 GMT -->
-		<consume_item id="3016" quantity="80"/>
-		<give_card id="2024" level="1"/>
-	</item>
-
-	<!--  Event 8 Items -->
-	<item>
-		<id>3021</id>
-		<name>Package</name>
-		<icon>package</icon>
-		<bundle>17</bundle>
-		<desc>Collect Packages in Skyhaven to compete with other players and earn rewards at its conclusion! Crafting with Packages will not decrease your rank!</desc>
-		<usable>0</usable>
-		<decay_time>1458061200</decay_time> <!-- Tue, 15 Mar 2016 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>3022</id>
-		<name>Red Fulfillment Request</name>
-		<icon>letter_red_seal</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 80 Packages to earn a new card. Using Packages will not decrease your rank in the Skyhaven Expedition!</desc>
-		<decay_time>1458061200</decay_time> <!-- Tue, 15 Mar 2016 17:00:00 GMT -->
-		<consume_item id="3021" quantity="80"/>
-		<give_card id="2004" level="1"/>
-	</item>
-	<item>
-		<id>3023</id>
-		<name>Blue Fulfillment Request</name>
-		<icon>letter_blue_seal</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 80 Packages to earn a new card. Using Packages will not decrease your rank in the Skyhaven Expedition!</desc>
-		<decay_time>1458061200</decay_time> <!-- Tue, 15 Mar 2016 17:00:00 GMT -->
-		<consume_item id="3021" quantity="80"/>
-		<give_card id="2027" level="1"/>
-	</item>
-	<item>
-		<id>3024</id>
-		<name>Yellow Fulfillment Request</name>
-		<icon>letter_yellow_seal</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 60 Packages to earn a new card. Using Packages will not decrease your rank in the Skyhaven Expedition!</desc>
-		<decay_time>1458061200</decay_time> <!-- Tue, 15 Mar 2016 17:00:00 GMT -->
-		<consume_item id="3021" quantity="60"/>
-		<give_card id="2029" level="1"/>
-	</item>
-	<item>
-		<id>3025</id>
-		<name>Purple Fulfillment Request</name>
-		<icon>letter_purple_seal</icon>
-		<bundle>17</bundle>
-		<desc>Combine with 60 Packages to earn a new card. Using Packages will not decrease your rank in the Skyhaven Expedition!</desc>
-		<decay_time>1458061200</decay_time> <!-- Tue, 15 Mar 2016 17:00:00 GMT -->
-		<consume_item id="3021" quantity="60"/>
-		<give_card id="2030" level="1"/>
-	</item>
-
-	<!--  Event 9 Items -->
-	<item>
-		<id>3026</id>
-		<name>Burning Target</name>
-		<icon>Burning_Target_110</icon>
-		<bundle>17</bundle>
-		<desc>Collect Burning Targets in the Celestial Vault to compete with other players and earn rewards at its conclusion!</desc>
-		<decay_time>1460480400</decay_time> <!-- Tue, 12 Apr 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-	<item>
-		<id>3027</id>
-		<name>Spellstone Powder</name>
-		<icon>arcane_vapor</icon>
-		<bundle>17</bundle>
-		<desc>Combine with other items found in the Celestial Vault to earn a new card!</desc>
-		<decay_time>1460480400</decay_time> <!-- Tue, 12 Apr 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-	<item>
-		<id>3028</id>
-		<name>Fire Essence</name>
-		<icon>Lava_Vial</icon>
-		<bundle>17</bundle>
-		<desc>Combine with Spellstone Powder to earn a new card!</desc>
-		<decay_time>1460480400</decay_time> <!-- Tue, 12 Apr 2016 17:00:00 GMT -->
-		<consume_item id="3027" quantity="1"/>
-		<give_card id="2008" level="1"/>
-	</item>
-	<item>
-		<id>3029</id>
-		<name>Wind Essence</name>
-		<icon>Captured_Wind</icon>
-		<bundle>17</bundle>
-		<desc>Combine with Spellstone Powder to earn a new card!</desc>
-		<decay_time>1460480400</decay_time> <!-- Tue, 12 Apr 2016 17:00:00 GMT -->
-		<consume_item id="3027" quantity="1"/>
-		<give_card id="2010" level="1"/>
-	</item>
-
-
-	<!--  Event 10 Items -->
-	<item>
-		<id>3030</id>
-		<name>Golden Leaf</name>
-		<icon>gold_leaf</icon>
-		<bundle>17</bundle>
-		<desc>Collect Golden Leaves in Golden Crown Village to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1462899600</decay_time> <!-- Tue, 10 May 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-	<item>
-		<id>3031</id>
-		<name>Golden Crown Tadpole</name>
-		<icon>Tadpole_Egg</icon>
-		<bundle>17</bundle>
-		<desc>Combine with another Golden Crown Tadpole to earn a new card!</desc>
-		<decay_time>1462899600</decay_time> <!-- Tue, 10 May 2016 17:00:00 GMT -->
-		<consume>2</consume>
-		<give_card id="2034" level="1"/>
-	</item>
-	<item>
-		<id>3032</id>
-		<name>Hero's Coin</name>
-		<icon>herocoin</icon>
-		<bundle>52</bundle>
-		<desc>Collect three Hero's Coin to combine them into a special card!</desc>
-		<decay_time>1460480400</decay_time> <!-- Tue, 12 Apr 2016 17:00:00 GMT -->
-		<consume>3</consume>
-		<give_card id="2010" level="1"/>
-	</item>
-
-	<!--  Event 11 Items -->
-	<item>
-		<id>3033</id>
-		<name>Red Feather</name>
-		<icon>feather_red_100</icon>
-		<bundle>17</bundle>
-		<desc>Collect Red Feathers in Red Feather Valley to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1465318800</decay_time> <!-- Tue, 07 Jun 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-
-	<!--  Event 12 Items -->
-	<item>
-		<id>3034</id>
-		<name>Volcanic Fire</name>
-		<icon>mothers_fire_100</icon>
-		<bundle>58</bundle>
-		<desc>Collect Volcanic Fire in Tarragon Peak to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1467738000</decay_time> <!-- Tue, 05 Jul 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-	<item>
-		<id>3035</id>
-		<name>Spiked Egg</name>
-		<icon>spiked_egg</icon>
-		<bundle>17</bundle>
-		<desc>Combine with Tainted Fire to earn a new card!</desc>
-		<decay_time>1467738000</decay_time> <!-- Tue, 05 Jul 2016 17:00:00 GMT -->
-		<consume_item id="3038" quantity="1"/>
-		<give_card id="2044" level="1"/>
-	</item>
-	<item>
-		<id>3036</id>
-		<name>Icy Egg</name>
-		<icon>icey_egg</icon>
-		<bundle>17</bundle>
-		<desc>Combine with Tainted Fire to earn a new card!</desc>
-		<decay_time>1467738000</decay_time> <!-- Tue, 05 Jul 2016 17:00:00 GMT -->
-		<consume_item id="3038" quantity="1"/>
-		<give_card id="2045" level="1"/>
-	</item>
-	<item>
-		<id>3037</id>
-		<name>Furry Egg</name>
-		<icon>furry_egg</icon>
-		<bundle>17</bundle>
-		<desc>Combine with Tainted Fire to earn a new card!</desc>
-		<decay_time>1467738000</decay_time> <!-- Tue, 05 Jul 2016 17:00:00 GMT -->
-		<consume_item id="3038" quantity="1"/>
-		<give_card id="2046" level="1"/>
-	</item>
-	<item>
-		<id>3038</id>
-		<name>Tainted Fire</name>
-		<icon>purple_fire</icon>
-		<bundle>17</bundle>
-		<desc>Combine with dragon eggs to earn a new card!</desc>
-		<decay_time>1467738000</decay_time> <!-- Tue, 05 Jul 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-	<item>
-		<id>3039</id>
-		<name>Pointy Larvae</name>
-		<icon>larvae</icon>
-		<bundle>58</bundle>
-		<desc>Combine with a Honeycomb to earn a new card!</desc>
-		<decay_time>1470157200</decay_time> <!-- Tue, 02 Aug 2016 17:00:00 GMT -->
-		<consume_item id="3040" quantity="1"/>
-		<give_card id="2048" level="1"/>
-	</item>
-	<item>
-		<id>3040</id>
-		<name>Honeycomb</name>
-		<icon>honey_comb</icon>
-		<bundle>58</bundle>
-		<desc>Combine with larvae to earn a new card!</desc>
-		<decay_time>1470157200</decay_time> <!-- Tue, 02 Aug 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-	<item>
-		<id>3041</id>
-		<name>Jar of Honey</name>
-		<icon>honey_jar</icon>
-		<bundle>58</bundle>
-		<desc>Collect Jars of Honey in Beetleton Bunker to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1470157200</decay_time> <!-- Tue, 02 Aug 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-
-	<!-- Event 14 Angels -->
-	<item>
-		<id>3042</id>
-		<name>Angel Feather</name>
-		<icon>angel_feather100</icon>
-		<bundle>58</bundle>
-		<desc>Collect Angel Feathers in Skyhaven  to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1472576400</decay_time> <!-- Tue, 30 Aug 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-
-	<!-- Event 15 Elementals -->
-	<item>
-		<id>3043</id>
-		<name>Iron Nugget</name>
-		<icon>iron_nugget100</icon>
-		<bundle>58</bundle>
-		<desc>Collect Iron Nuggets in The Salt Wastes to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1474995600</decay_time> <!-- Tue, 27 Sept 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-
-	<!-- Event 16 Undead -->
-	<item>
-		<id>3044</id>
-		<name>Will-O-Wisps</name>
-		<icon>will_o_wisp100</icon>
-		<bundle>58</bundle>
-		<desc>Collect Will-O-Wisps in the Center of The Void to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1477414800</decay_time> <!-- Tue, 25 Oct 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-
-	<!-- Event 17 Goblins -->
-	<item>
-		<id>3045</id>
-		<name>Sparklers</name>
-		<icon>sparkler100</icon>
-		<bundle>58</bundle>
-		<desc>Collect Sparklers in Goblin Rise Stronghold to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1479834000</decay_time> <!-- Tue, 22 Nov 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-
-	<!-- Event 18 Dragons -->
-	<item>
-		<id>3046</id>
-		<name>Glowing Ember</name>
-		<icon>smolderingEmber100</icon>
-		<bundle>58</bundle>
-		<desc>Collect Glowing Embers in Tarragon Peak to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1482253200</decay_time> <!-- Tue, 20 Dec 2016 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
-
-	<!-- Event 19 Frogs -->
-	<item>
-		<id>3047</id>
-		<name>Amber Leaf</name>
-		<icon>gold_leaf</icon>
-		<bundle>17</bundle>
-		<desc>Collect Amber Leaves in Golden Crown Village to compete with other players and earn rewards at the event's conclusion!</desc>
-		<decay_time>1484672400</decay_time> <!-- Tue, 17 Jan 2017 17:00:00 GMT -->
-		<usable>0</usable>
-	</item>
+	<!-- 3001-3047: Old items removed. See old versions for archive. -->
 
 	<!-- Event 20 Seafolk -->
 	<item>
@@ -6575,6 +6123,7 @@
 		<icon>legendary_item_100</icon>
 		<bundle>58</bundle>
 		<desc>This crystalline orb thrums with raw energy. Combine with Heaven Feather to summon Infinity!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -6583,6 +6132,7 @@
 		<icon>angel_feather100</icon>
 		<bundle>58</bundle>
 		<desc>Combine this feather with Infinity's Spellstone to summon Infinity!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6613,6 +6163,7 @@
 		<icon>mothers_fire_purple</icon>
 		<bundle>17</bundle>
 		<desc>Combine this Dragon Breath with Zhulong's Spellstone to summon Zhulong!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -6621,6 +6172,7 @@
 		<icon>Tepid_Dragon_Egg_01</icon>
 		<bundle>16</bundle>
 		<desc>Beneath the Spellstone's shell, you can feel something stirring inside it. Combine with Dragon Breath Essence to summon Zhulong!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6640,6 +6192,7 @@
 		<icon>honey_comb</icon>
 		<bundle>58</bundle>
 		<desc>Combine this honeycomb cluster with Dune Hopper's Spellstone to earn a new card!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -6648,6 +6201,7 @@
 		<icon>larvae</icon>
 		<bundle>58</bundle>
 		<desc>This larva was crystallized within the walls of Beetleton Bunker. Combine with Cluster to summon Dune Hopper!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6668,6 +6222,7 @@
 		<icon>machine_parts</icon>
 		<bundle>17</bundle>
 		<desc>Combine this Temple Crystal with Pharite Snapjaw's Spellstone to earn a new card!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 	<item>
@@ -6676,6 +6231,7 @@
 		<icon>Fish_Egg</icon>
 		<bundle>58</bundle>
 		<desc>This fish egg seems to have a creature inside it. Combine with Temple Crystal to summon Pharite Snapjaw!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6697,6 +6253,7 @@
 		<icon>Metallic_Fireshard_100</icon>
 		<bundle>58</bundle>
 		<desc>The metallic fragment glows with a different energy than average fireshards. Combine with Cog Spellstone to summon Vali, the Thunderer!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6706,6 +6263,7 @@
 		<icon>Steampunk_Cog_100</icon>
 		<bundle>58</bundle>
 		<desc>This cog has some kind of creature in it. Combine with Metallic Fireshard to summon Vali, the Thunderer!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6727,6 +6285,7 @@
 		<icon>feather_red_100</icon>
 		<bundle>17</bundle>
 		<desc>It's a feather from a legendary bird that only appears at Dawn. Combine with Spiky Egg to summon Eos!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6736,6 +6295,7 @@
 		<icon>spiked_egg</icon>
 		<bundle>17</bundle>
 		<desc>You can hear something moving beneath the egg's spiky layer. Combine with Dawn Feather to summon Eos!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6757,6 +6317,7 @@
 		<icon>fire_vapor</icon>
 		<bundle>58</bundle>
 		<desc>The contents of this bottle are eternally bubbling, despite the glass being cool to the touch. Combine with Rimelight Crusader's Spellstone to summon Rimelight Crusader!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6766,6 +6327,7 @@
 		<icon>ice_feather</icon>
 		<bundle>58</bundle>
 		<desc>The frigid feather has been carefully preserved in eternal ice. Combine with Liquid Fire to summon Rimelight Crusader!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6787,6 +6349,7 @@
 		<icon>temple_crystal_100</icon>
 		<bundle>58</bundle>
 		<desc>The goblins use this device to train dragons to obey them. Combine with Pinpin, Dragon Handler's Spellstone to summon Pinpin, Dragon Handler!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6796,6 +6359,7 @@
 		<icon>tepid_egg_green</icon>
 		<bundle>17</bundle>
 		<desc>This dragon egg Spellstone houses the dragon Broodus and his master Pinpin. Combine with Goblin Gadget to summon Pinpin, Dragon Handler!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6817,6 +6381,7 @@
 		<icon>Coconut_B_200</icon>
 		<bundle>133</bundle>
 		<desc>This coconut is light, just a shell of a greater creature. Combine with Zind's Spellstone to summon Hunter Zind!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6826,6 +6391,7 @@
 		<icon>Fish_Egg_02</icon>
 		<bundle>133</bundle>
 		<desc>This fish egg Spellstone contains the essence of the great hunter Zind. Combine with Hollow Coconut to summon Hunter Zind!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6847,6 +6413,7 @@
 		<icon>iron_nugget100</icon>
 		<bundle>58</bundle>
 		<desc>Frogs who can stomach iron are said to grow steel skin. Combine with Stoneclad Toad's Spellstone to summon Stoneclad Toad!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6856,6 +6423,7 @@
 		<icon>Pooling_Lotus</icon>
 		<bundle>17</bundle>
 		<desc>This Dawnglow flower is heavily coveted by the Golden Crown Frogs. Combine with Raw Iron to summon Stoneclad Toad!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6877,6 +6445,7 @@
 		<icon>Obsidian_Gravel_01</icon>
 		<bundle>16</bundle>
 		<desc>Elementals can absorb this volcanic rock to grow harder skin. Combine with Gem Harvester's Spellstone to summon Gem Harvester!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6886,6 +6455,7 @@
 		<icon>Lightning_Bug</icon>
 		<bundle>17</bundle>
 		<desc>This Spellstone has a small lightning bug inside it. Combine with Obsidian to summon Gem Harvester!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6907,6 +6477,7 @@
 		<icon>Mothers_Fire_01</icon>
 		<bundle>16</bundle>
 		<desc>Mother Dragons from Tarragon have the hottest fiery breath. Combine with Ignus' Spellstone to summon Ignus!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6916,6 +6487,7 @@
 		<icon>Dragon_Hatchling_01</icon>
 		<bundle>16</bundle>
 		<desc>A Spellstone with a baby dragonling cracking from its shell. Combine with Mother's Fire to summon Ignus!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6937,6 +6509,7 @@
 		<icon>hawk_feather_100</icon>
 		<bundle>133</bundle>
 		<desc>A feather plucked from an Avian so noble that he became an Angel. Combine with Habrok's Spellstone to summon Habrok, the Lance!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6946,6 +6519,7 @@
 		<icon>furry_egg</icon>
 		<bundle>17</bundle>
 		<desc>A Spellstone with a beating heart beneath the oddly-furred shell. Combine with Angel Hawk Feather to summon Habrok, the Lance!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6967,6 +6541,7 @@
 		<icon>box_key</icon>
 		<bundle>17</bundle>
 		<desc>A key with the power to open a dark dimension. Combine with Messina's Spellstone to summon Messina's Choice!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6976,6 +6551,7 @@
 		<icon>letter_red_seal</icon>
 		<bundle>17</bundle>
 		<desc>A Spellstone in the shape of a crumpled letter that has seen better days. Combine with Dark Gold Key to summon Messina's Choice!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -6997,6 +6573,7 @@
 		<icon>mothers_fire_100</icon>
 		<bundle>58</bundle>
 		<desc>A flame of burning revolution. Combine with Warrior Karna's Spellstone to summon Warrior Karna!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7006,6 +6583,7 @@
 		<icon>letter_purple_seal</icon>
 		<bundle>17</bundle>
 		<desc>A Spellstone in the shape of a crumpled letter that has seen better days. Combine with Revolution Flame to summon Warrior Karna!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7027,6 +6605,7 @@
 		<icon>Tadpole_Egg</icon>
 		<bundle>17</bundle>
 		<desc>A small egg with a tadpole inside. Combine with Sproutfrog's Spellstone to summon Sproutfrog Rainwisher!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7036,6 +6615,7 @@
 		<icon>letter_yellow_seal</icon>
 		<bundle>17</bundle>
 		<desc>A Spellstone in the shape of a crumpled letter that Decim's dragonling took a bite off of. Combine with Tadpole to summon Sproutfrog Rainwisher!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7056,6 +6636,7 @@
 		<icon>dragon_egg_epic</icon>
 		<bundle>58</bundle>
 		<desc>An egg left in a nest home of both a dragon and avian. Combine with Dragon Breath Crystal to create Whitesail Wyvern!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7065,6 +6646,7 @@
 		<icon>Mothers_Fire_01</icon>
 		<bundle>16</bundle>
 		<desc>A dragon mother's warm breath of fire, enshrined in a crystal. Combine with Whitesail's Spellstone to create Whitesail Wyvern!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7085,6 +6667,7 @@
 		<icon>letter_blue_seal</icon>
 		<bundle>17</bundle>
 		<desc>An express request for the continent's finest Elemental Steeds. Combine with Elemental Residue to summon Avalanche Equine!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7094,6 +6677,7 @@
 		<icon>Obsidian_Gravel_01</icon>
 		<bundle>16</bundle>
 		<desc>Remnant stones carried by Elementals, now imbued with their power. Combine with Avalanche Equine Spellstone to summon Avalanche Equine!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7114,6 +6698,7 @@
 		<icon>void_flower</icon>
 		<bundle>17</bundle>
 		<desc>A flower that has bathed in the unholy light from The Void. Combine with Reks' Spellstone to Summon Reks, the Forlorn!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7123,6 +6708,7 @@
 		<icon>will_o_wisp100</icon>
 		<bundle>58</bundle>
 		<desc>A Spellstone containing a former tragic Goblin King's spirit. Combine with Void Flower to summon Reks, the Forlorn!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7143,6 +6729,7 @@
 		<icon>angel_feather100</icon>
 		<bundle>58</bundle>
 		<desc>A Feather from the Fallen Crest order. Combine with Wrath's Spellstone to Summon Wrath!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7152,6 +6739,7 @@
 		<icon>Burning_Target_110</icon>
 		<bundle>17</bundle>
 		<desc>A Spellstone containing an Angel of the Fallen Crest. Combine with Fallen Crest Feather to summon Wrath!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7172,6 +6760,7 @@
 		<icon>Pooling_Lotus</icon>
 		<bundle>17</bundle>
 		<desc>An arcane flower from Dawnglow. Combine with Conjured Dragon's Spellstone to Summon Conjured Dragon!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7181,6 +6770,7 @@
 		<icon>icey_egg</icon>
 		<bundle>17</bundle>
 		<desc>A Spellstone containing a legendary dragon of water. Combine with Dawnglow Flower to summon Conjured Dragon!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7201,6 +6791,7 @@
 		<icon>feather_red_100</icon>
 		<bundle>17</bundle>
 		<desc>A Feather from the lost marsh of Bloodmist. Combine with Bloodmist Harpy's Spellstone to summon Bloodmist Harpy!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7210,6 +6801,7 @@
 		<icon>dragon_egg_mythic</icon>
 		<bundle>58</bundle>
 		<desc>A Spellstone containing an artificially made creature. Combine with Bloodmist Feather to summon Bloodmist Harpy!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7230,6 +6822,7 @@
 		<icon>Mothers_Fire_01</icon>
 		<bundle>16</bundle>
 		<desc>An everburning flame from Karthos. Combine with Slagspirit's Spellstone to summon Slagspirit!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7239,6 +6832,7 @@
 		<icon>letter_red_seal</icon>
 		<bundle>17</bundle>
 		<desc>A Spellstone containing an ancient spirit of Karthos. Combine with Karthos's Flame to summon Slagspirit!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7259,6 +6853,7 @@
 		<icon>Coconut_A_100</icon>
 		<bundle>58</bundle>
 		<desc>A Coconut imbued with magical properties of a tropical island. Combine with Siren's Spellstone to summon Siren!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7268,6 +6863,7 @@
 		<icon>Fish_Egg_02</icon>
 		<bundle>133</bundle>
 		<desc>A Spellstone containing the soul of a half goblin, half fish. Combine with Tropical Callstone to summon Siren!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7288,6 +6884,7 @@
 		<icon>Baby_Jelly_100</icon>
 		<bundle>58</bundle>
 		<desc>A small creature found living in a Skyhaven pond. Combine with Noble Swordfish's Spellstone to summon Noble Swordfish!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7297,6 +6894,7 @@
 		<icon>brinesoul_100</icon>
 		<bundle>58</bundle>
 		<desc>A Spellstone formed from a tear of Scylla. Combine with Acquatic Soul to summon Noble Swordfish!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7317,6 +6915,7 @@
 		<icon>Fireshard_100</icon>
 		<bundle>58</bundle>
 		<desc>A soul forged in the lava depths of Tarragon. Combine with Herald of Judgement's Spellstone to summon Herald of Judgement!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7326,6 +6925,7 @@
 		<icon>Tepid_Dragon_Egg_01</icon>
 		<bundle>16</bundle>
 		<desc>A Spellstone formed between the earth of Tarragon and air of Skyhaven. Combine with Fiery Soul to summon the Herald of Judgement!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7346,6 +6946,7 @@
 		<icon>event_53_item_100</icon>
 		<bundle>133</bundle>
 		<desc>A soul trapped in the Void. Combine with Shattered Spellstone to summon Shatterstone Anomaly!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
@@ -7355,34 +6956,18 @@
 		<icon>purple_fire_soul_item_100</icon>
 		<bundle>92</bundle>
 		<desc>A collection of shattered Spellstones. Combine with Void Soul to summon Shatterstone Anomaly!</desc>
+		<category>2</category>
 		<usable>0</usable>
 	</item>
 
-	<!-- 3200-4000 ComDev Random Card Chooser -->
-
-	<!-- Event 106: ComDev Goblin -->
-
-	<!-- Pilot Item -->
-
+	<!-- Map Red Feather Valley -->
 	<item>
-		<id>3200</id>
-		<name>Random Goblin Reward Epic Choice</name>
-		<icon>icon_card</icon>
-		<bundle>0</bundle>
-		<desc>A choice from 4 random ^c0DFFEpic ^cFFFFGoblin cards from Reward Set!</desc>
-		<create_choice id="1">
-			<card min_level="1" max_level="1" min_rarity="3" max_rarity="3" set="2000" type="11"/>
-		</create_choice>
-		<create_choice id="2">
-			<card min_level="1" max_level="1" min_rarity="3" max_rarity="3" set="2000" type="11"/>
-		</create_choice>
-		<create_choice id="3">
-			<card min_level="1" max_level="1" min_rarity="3" max_rarity="3" set="2000" type="11"/>
-		</create_choice>
-		<create_choice id="4">
-			<card min_level="1" max_level="1" min_rarity="3" max_rarity="3" set="2000" type="11"/>
-		</create_choice>
-		<auto_use>1</auto_use>
+		<id>3131</id>
+		<name>Red Feather</name>
+		<icon>feather_red_100</icon>
+		<bundle>17</bundle>
+		<desc>An item found whilst adventuring in Red Feather Valley. These can be traded for Arena Coins!</desc>
+		<give_item id="5" quantity="1"/>
 	</item>
 
 	<!-- 4001-4999 COMPONENTS START -->
@@ -8843,3508 +8428,7 @@
 		</stat_boost>
 	</item>
 
-	<!-- Evolution Runes -->
-	<!-- <item>
-		<id>5501</id>
-		<name>Rune of Thornarmor</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_thornshield_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Armor-> Thornarmor (deals additional counter damage)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='armored' s='counter' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5502</id>
-		<name>Rune of Rejuvenation</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_rejuvenate_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Heal -> Rejuvenate (adds a permanent, but small, heal over time effect)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='armored' s='counter' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5503</id>
-		<name>Rune of Fury Vengeance</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_fury_vengeance_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Vengeance -> Fury Vengeance (vengeance causes scorch damage)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='counter' s='burn' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5504</id>
-		<name>Rune of Holy Barrier</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_holy_barrier_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Barrier -> Holy Barrier (barrier also heals)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='protect' s='heal' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5506</id>
-		<name>Rune of Storm Legion</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_storm_legion_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Legion -> Storm Legion (if legion activates, deal lightning damage to opposing card)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='legion' s='strike' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5507</id>
-		<name>Rune of Inspired Fervor</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_inspired_fervor_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Fervor -> Inspired Fervor (heals whenever fervor activates)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='fervor' s='heal' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5508</id>
-		<name>Rune of Dark Hex</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_dark_hex_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Hex -> Dark Hex (hex also causes weaken)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='enfeeble' s='weaken' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5509</id>
-		<name>Rune of Poisonbolt</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_poisonbolt_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Bolt -> Poisonbolt (bolt deals poison damage)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='strike' s='poison' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5510</id>
-		<name>Rune of Ignite</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_ignite_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Scorch -> Ignite (whenever scorch deals damage, neighboring cards also take some damage)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='strike' s='poison' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5511</id>
-		<name>Rune of Infection</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_infect_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Poison -> Infect (poisoned cards are also weakened)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='strike' s='poison' />
-		</stat_boost>
-	</item>
-	<item>
-		<id>5512</id>
-		<name>Rune of Draining</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>4</rarity>
-		<icon>rune_drain_legendary</icon>
-		<bundle>34</bundle>
-		<desc>Evolve Siphon -> Drain (the Hero is also healed whenever Siphon activates)</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='strike' s='poison' />
-		</stat_boost>
-	</item> -->
-
-	<!-- <item>
-		<id>5501</id>
-		<name>Test Rune of Armored Striking</name>
-		<type>3</type>
-		<category>3</category>
-		<set>1</set>
-		<rarity>3</rarity>
-		<icon>Lightning_Bug</icon>
-		<bundle>34</bundle>
-		<desc>Evolves Armored to Strike</desc>
-		<usable>0</usable>
-		<stat_boost>
-			<evolve_skill id='armored' s='strike' />
-		</stat_boost>
-	</item> -->
-
-
-	<!-- 7001 - 8000 Card Fragments -->
-	
-	<!-- Start of Fragment Block Comment.  Commenting out all card fragments.  To restore, replace all XXX with exclamation dash dash
-	 and all YY with dash dash.  Then remove this comment from above ID 7001 and below ID 7301.
-
-	<item>
-		<id>7001</id>
-		<name>Bone Sculptor Fragment</name>
-		<icon>necromancerGoblinShardItem</icon>
-		<bundle>58</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Bone Sculptor card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6091" level="1" />
-	</item>
-
-	<item>
-		<id>7002</id>
-		<name>Tundra Reaver Fragment</name>
-		<icon>tundraGoblinShard</icon>
-		<bundle>58</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Tundra Reaver card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5092" level="1" />
-	</item>
-
-	<item>
-		<id>7003</id>
-		<name>Smog Charger Fragment</name>
-		<icon>event_017_w4_ShardItem</icon>
-		<bundle>75</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Smog Charger card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6092" level="1" />
-	</item>
-
-	<item>
-		<id>7004</id>
-		<name>Gob Launcher Fragment</name>
-		<icon>event17_chance_box_w5_item</icon>
-		<bundle>75</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Gob Launcher card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6094" level="1" />
-	</item>
-
-	<item>
-		<id>7005</id>
-		<name>Sierra Dweller Fragment</name>
-		<icon>event_018_w1_chance_item</icon>
-		<bundle>78</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sierra Dweller card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5097" level="1" />
-	</item>
-
-	<item>
-		<id>7006</id>
-		<name>Vala Fragment</name>
-		<icon>event_018_w2_chance_item</icon>
-		<bundle>78</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Vala, Sleeping Earth card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7096" level="1" />
-	</item>
-
-	<item>
-		<id>7007</id>
-		<name>Tiamat Fragment</name>
-		<icon>event_018_w5_chance_item</icon>
-		<bundle>78</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Tiamat card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6100" level="1" />
-	</item>
-
-	<item>
-		<id>7008</id>
-		<name>Skybound Fragment</name>
-		<icon>event_018_w3_chance_item</icon>
-		<bundle>78</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Skybound United card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5098" level="1" />
-	</item>
-
-	<item>
-		<id>7009</id>
-		<name>Opposition Fragment</name>
-		<icon>event_018_w4_chance_item</icon>
-		<bundle>78</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Opposing Forces card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6099" level="1" />
-	</item>
-
-	<item>
-		<id>7010</id>
-		<name>Solars Fragment</name>
-		<icon>event_019_chance_w1_item</icon>
-		<bundle>80</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Mother of Solars card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5103" level="1" />
-	</item>
-
-	<item>
-		<id>7011</id>
-		<name>Prophetic Fragment</name>
-		<icon>event_019_chance_w3_item</icon>
-		<bundle>80</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Croaker's Disciple card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7102" level="1" />
-	</item>
-
-	<item>
-		<id>7012</id>
-		<name>Wavomancer Fragment</name>
-		<icon>event_019_chance_w5_item</icon>
-		<bundle>80</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Wavomancer card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7103" level="1" />
-	</item>
-
-	<item>
-		<id>7013</id>
-		<name>Shrieker Fragment</name>
-		<icon>event_019_chance_w4_item</icon>
-		<bundle>80</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Shriekers card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7101" level="1" />
-	</item>
-
-	<item>
-		<id>7014</id>
-		<name>Crusher Fragment</name>
-		<icon>event_019_chance_w6_item</icon>
-		<bundle>80</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Wasteland Crusher card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6105" level="1" />
-	</item>
-
-	<item>
-		<id>7015</id>
-		<name>Wavecrasher Fragment</name>
-		<icon>event_019_chance_w5_item</icon>
-		<bundle>80</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Wavomancer card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7103" level="1" />
-	</item>
-
-	<item>
-		<id>7016</id>
-		<name>Deep Croak Fragment</name>
-		<icon>event_019_chance_item1</icon>
-		<bundle>82</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Croaker of the Deep card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7104" level="1" />
-	</item>
-
-	<item>
-		<id>7017</id>
-		<name>Pisces Pieces</name>
-		<icon>event_020_chance_item2</icon>
-		<bundle>82</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Pisces card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5104" level="1" />
-	</item>
-
-	<item>
-		<id>7018</id>
-		<name>Charybdis Fragment</name>
-		<icon>event_020_chance_item3</icon>
-		<bundle>82</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Charybdis card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7105" level="1" />
-	</item>
-
-	<item>
-		<id>7019</id>
-		<name>Bailong Fragment</name>
-		<icon>event_020_chance_w4_item</icon>
-		<bundle>82</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Bailong card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6106" level="1" />
-	</item>
-
-	<item>
-		<id>7020</id>
-		<name>Goldfish Fragment</name>
-		<icon>event_020_chance_item5</icon>
-		<bundle>82</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sea Whisperer card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5105" level="1" />
-	</item>
-
-	<item>
-		<id>7021</id>
-		<name>Alectryon Fragment</name>
-		<icon>event21_chance_w1_item</icon>
-		<bundle>84</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Alectryon card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5110" level="1" />
-	</item>
-
-	<item>
-		<id>7022</id>
-		<name>Ashes Fragment</name>
-		<icon>event21_chance_w2_item</icon>
-		<bundle>84</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Aspects of the Ashes card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6111" level="1" />
-	</item>
-
-	<item>
-		<id>7023</id>
-		<name>Bennu Fragment</name>
-		<icon>event21_chance_w3_item</icon>
-		<bundle>84</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Bennu card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5111" level="1" />
-	</item>
-
-	<item>
-		<id>7024</id>
-		<name>Toxin Fragment</name>
-		<icon>event21_chance_w4_item</icon>
-		<bundle>84</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Toxin Glider card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7110" level="1" />
-	</item>
-
-	<item>
-		<id>7025</id>
-		<name>Aurai Fragment</name>
-		<icon>event21_chance_w5_item</icon>
-		<bundle>84</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Aurai card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7111" level="1" />
-	</item>
-
-	<item>
-		<id>7026</id>
-		<name>Seraph Fragment</name>
-		<icon>event22_chance_w1_item</icon>
-		<bundle>87</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Seraph of Stone Rise card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5120" level="1" />
-	</item>
-
-	<item>
-		<id>7027</id>
-		<name>Oni Fragment</name>
-		<icon>event22_chance_w2_item</icon>
-		<bundle>87</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Oni Blade card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6120" level="1" />
-	</item>
-
-	<item>
-		<id>7028</id>
-		<name>Cauterizing Fragment</name>
-		<icon>event22_chance_w3_item</icon>
-		<bundle>87</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Cauterizing Psalm card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5121" level="1" />
-	</item>
-
-	<item>
-		<id>7029</id>
-		<name>Liliane Fragment</name>
-		<icon>event22_chance_w4_item</icon>
-		<bundle>87</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Liliane's Blessing card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7120" level="1" />
-	</item>
-
-	<item>
-		<id>7030</id>
-		<name>Charon Fragment</name>
-		<icon>event22_chance_w5_item</icon>
-		<bundle>87</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Charon card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6121" level="1" />
-	</item>
-
-	<item>
-		<id>7031</id>
-		<name>Terrordactyl Fragment</name>
-		<icon>event23_chance_w1_item</icon>
-		<bundle>90</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Terrordactyl card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6126" level="1" />
-	</item>
-
-	<item>
-		<id>7032</id>
-		<name>Varachnis Fragment</name>
-		<icon>event23_chance_w2_item</icon>
-		<bundle>90</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Varachnis card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7121" level="1" />
-	</item>
-
-	<item>
-		<id>7033</id>
-		<name>Ominous Fragment</name>
-		<icon>event23_chance_w3_item</icon>
-		<bundle>90</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Ominous Canvas card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5126" level="1" />
-	</item>
-
-	<item>
-		<id>7034</id>
-		<name>Hexapus Fragment</name>
-		<icon>event23_chance_w4_item</icon>
-		<bundle>90</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Hexapus card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6127" level="1" />
-	</item>
-
-	<item>
-		<id>7035</id>
-		<name>Hunter Fragment</name>
-		<icon>event23_chance_w5_item</icon>
-		<bundle>90</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Wyldheart Hunter card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7126" level="1" />
-	</item>
-
-	<item>
-		<id>7036</id>
-		<name>Xovrus Fragment</name>
-		<icon>event024_chance_w1_item</icon>
-		<bundle>92</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Xovrus, Death's End card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7131" level="1" />
-	</item>
-
-	<item>
-		<id>7037</id>
-		<name>Deception Fragment</name>
-		<icon>event024_chance_w2_item</icon>
-		<bundle>92</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Deception Scalelord card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6132" level="1" />
-	</item>
-
-	<item>
-		<id>7038</id>
-		<name>Steelscale Fragment</name>
-		<icon>event024_chance_w3_item</icon>
-		<bundle>92</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Steelscale, Sky's Domain card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5131" level="1" />
-	</item>
-
-	<item>
-		<id>7039</id>
-		<name>Bastion Fragment</name>
-		<icon>event024_chance_w4_item</icon>
-		<bundle>92</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Bastion Percher card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7132" level="1" />
-	</item>
-
-	<item>
-		<id>7040</id>
-		<name>Flamespeaker Fragment</name>
-		<icon>event024_chance_w5_item</icon>
-		<bundle>92</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Cress, Flamespeaker card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6133" level="1" />
-	</item>
-
-	<item>
-		<id>7041</id>
-		<name>Forgesoul Fragment</name>
-		<icon>event025_chance_w5_item</icon>
-		<bundle>94</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Forgesoul Construct card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5137" level="1" />
-	</item>
-
-	<item>
-		<id>7042</id>
-		<name>Deluge Fragment</name>
-		<icon>event025_chance_w2_item</icon>
-		<bundle>94</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Deluging Bile card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6137" level="1" />
-	</item>
-
-	<item>
-		<id>7043</id>
-		<name>Lapis Fragment</name>
-		<icon>event025_chance_w3_item</icon>
-		<bundle>94</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Lapis card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5136" level="1" />
-	</item>
-
-	<item>
-		<id>7044</id>
-		<name>Darkmite Fragment</name>
-		<icon>event025_chance_w4_item</icon>
-		<bundle>94</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Darkmites card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7137" level="1" />
-	</item>
-
-	<item>
-		<id>7045</id>
-		<name>Buzzblade Fragment</name>
-		<icon>event026_chance_w1_item</icon>
-		<bundle>97</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Buzzblade card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5142" level="1" />
-	</item>
-
-	<item>
-		<id>7046</id>
-		<name>Battlesnail Fragment</name>
-		<icon>event026_chance_w4_item</icon>
-		<bundle>97</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Cedric's Battlesnail card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5143" level="1" />
-	</item>
-
-	<item>
-		<id>7047</id>
-		<name>Sleetshield Fragment</name>
-		<icon>event026_chance_w3_item</icon>
-		<bundle>97</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sleetshield card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7141" level="1" />
-	</item>
-
-	<item>
-		<id>7048</id>
-		<name>Swarmlord Fragment</name>
-		<icon>event026_chance_w2_item</icon>
-		<bundle>97</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Swarmrider Zabzod card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6141" level="1" />
-	</item>
-
-	<item>
-		<id>7049</id>
-		<name>Dragonfly Fragment</name>
-		<icon>event027_chance_w1_item</icon>
-		<bundle>99</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Dragonfly Runner card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6146" level="1" />
-	</item>
-
-	<item>
-		<id>7050</id>
-		<name>Kraag Fragment</name>
-		<icon>event027_chance_w2_item</icon>
-		<bundle>99</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Kraag card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7147" level="1" />
-	</item>
-
-	<item>
-		<id>7051</id>
-		<name>Pointystick Fragment</name>
-		<icon>event027_chance_w5_item</icon>
-		<bundle>99</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Pointystick Pezack card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7148" level="1" />
-	</item>
-
-	<item>
-		<id>7052</id>
-		<name>Gribmalda Fragment</name>
-		<icon>event027_chance_w3_item</icon>
-		<bundle>99</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Gribmalda of Wings card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5148" level="1" />
-	</item>
-
-	<item>
-		<id>7053</id>
-		<name>Sandspirit Fragment</name>
-		<icon>event027_chance_w4_item</icon>
-		<bundle>99</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sandspirit Whisperer card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6147" level="1" />
-	</item>
-
-	<item>
-		<id>7054</id>
-		<name>Octopulse Fragment</name>
-		<icon>event28_chance_w2_item</icon>
-		<bundle>103</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Octopulse card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5153" level="1" />
-	</item>
-
-	<item>
-		<id>7055</id>
-		<name>Kelpcatcher Fragment</name>
-		<icon>event28_chance_w1_item</icon>
-		<bundle>103</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Kelpcatcher card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7153" level="1" />
-	</item>
-
-	<item>
-		<id>7056</id>
-		<name>Glaucus Fragment</name>
-		<icon>event28_chance_w3_item</icon>
-		<bundle>103</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Glaucus card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5154" level="1" />
-	</item>
-
-	<item>
-		<id>7057</id>
-		<name>Asariel Fragment</name>
-		<icon>event28_anniversary_item</icon>
-		<bundle>103</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Asariel card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5078" level="1" />
-	</item>
-
-	<item>
-		<id>7058</id>
-		<name>Snarecaster Fragment</name>
-		<icon>event28_chance_w4_item</icon>
-		<bundle>103</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Mollusk Snarecaster card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7154" level="1" />
-	</item>
-
-	<item>
-		<id>7059</id>
-		<name>Vortex Fragment</name>
-		<icon>event28_chance_w2_item</icon>
-		<bundle>105</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Vortex Palm card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5159" level="1" />
-	</item>
-
-	<item>
-		<id>7060</id>
-		<name>Luck Fragment</name>
-		<icon>event28_chance_w1_item</icon>
-		<bundle>105</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Lucky Frog card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7159" level="1" />
-	</item>
-
-	<item>
-		<id>7061</id>
-		<name>Tetsudo's Fragment</name>
-		<icon>event28_chance_w5_item</icon>
-		<bundle>105</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Tetsudo's Shield card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5160" level="1" />
-	</item>
-
-	<item>
-		<id>7062</id>
-		<name>Stonestep Fragment</name>
-		<icon>event28_chance_w4_item</icon>
-		<bundle>105</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Perilous Stonesteps card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7160" level="1" />
-	</item>
-
-	<item>
-		<id>7063</id>
-		<name>Torero Fragment</name>
-		<icon>event30_chance_w1_item</icon>
-		<bundle>107</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Torero card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6161" level="1" />
-	</item>
-
-	<item>
-		<id>7064</id>
-		<name>Irontusk Fragment</name>
-		<icon>event30_chance_w4_item</icon>
-		<bundle>107</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Raging Irontusk card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7165" level="1" />
-	</item>
-
-	<item>
-		<id>7065</id>
-		<name>Electrumus Fragment</name>
-		<icon>event30_chance_w2_item</icon>
-		<bundle>107</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Electrumus card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5165" level="1" />
-	</item>
-
-	<item>
-		<id>7066</id>
-		<name>Rejuvenation Fragment</name>
-		<icon>event30_chance_w5_item</icon>
-		<bundle>107</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Rejuvenation Acolyte card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7166" level="1" />
-	</item>
-
-	<item>
-		<id>7067</id>
-		<name>Macabre Fragment</name>
-		<icon>event31_chance_w2_item</icon>
-		<bundle>111</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Macabre Machine card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6167" level="1" />
-	</item>
-
-	<item>
-		<id>7068</id>
-		<name>Dullahan Fragment</name>
-		<icon>event31_chance_w1_item</icon>
-		<bundle>111</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Dullahan Destrier card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5170" level="1" />
-	</item>
-
-	<item>
-		<id>7069</id>
-		<name>Chainwhip Fragment</name>
-		<icon>event31_chance_w5_item</icon>
-		<bundle>111</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Chainwhip Spirit card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6168" level="1" />
-	</item>
-
-	<item>
-		<id>7070</id>
-		<name>Deathrider Fragment</name>
-		<icon>event31_chance_w4_item</icon>
-		<bundle>111</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Deatheater card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6169" level="1" />
-	</item>
-
-	<item>
-		<id>7071</id>
-		<name>Dross Fragment</name>
-		<icon>event31_chance_w3_item</icon>
-		<bundle>111</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Dross Collector card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5171" level="1" />
-	</item>
-
-	<item>
-		<id>7072</id>
-		<name>Deatheye Fragment</name>
-		<icon>event_032_chance_w1_item</icon>
-		<bundle>113</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Deatheye Owl card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6174" level="1" />
-	</item>
-
-	<item>
-		<id>7073</id>
-		<name>Thunderbird Fragment</name>
-		<icon>event_032_chance_w4_item</icon>
-		<bundle>113</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Thunderbird card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5177" level="1" />
-	</item>
-
-	<item>
-		<id>7074</id>
-		<name>Raywing Fragment</name>
-		<icon>event_032_chance_w2_item</icon>
-		<bundle>113</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Raywing card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5176" level="1" />
-	</item>
-
-	<item>
-		<id>7075</id>
-		<name>Cloudbreak Fragment</name>
-		<icon>event_032_chance_w6_item</icon>
-		<bundle>113</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Cloudbreak Elites card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5174" level="1" />
-	</item>
-
-	<item>
-		<id>7076</id>
-		<name>Mugen Fragment</name>
-		<icon>event_032_chance_w5_item</icon>
-		<bundle>113</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Mugen and Young Hawk card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7174" level="1" />
-	</item>
-
-	<item>
-		<id>7077</id>
-		<name>Solis Fragment</name>
-		<icon>event_033_chance_w1_item</icon>
-		<bundle>117</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sol Doumu card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6179" level="1" />
-	</item>
-
-	<item>
-		<id>7078</id>
-		<name>Himamanav Fragment</name>
-		<icon>event_033_chance_w2_item</icon>
-		<bundle>117</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Himamanav card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5181" level="1" />
-	</item>
-
-	<item>
-		<id>7079</id>
-		<name>Flowstone Fragment</name>
-		<icon>event_033_chance_w4_item</icon>
-		<bundle>117</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Flowstone, Ancient One card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7177" level="1" />
-	</item>
-
-	<item>
-		<id>7080</id>
-		<name>Oxylus Fragment</name>
-		<icon>event_033_chance_w3_item</icon>
-		<bundle>117</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Oxylus, Might Warden card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7178" level="1" />
-	</item>
-
-	<item>
-		<id>7081</id>
-		<name>Lunar Fragment</name>
-		<icon>event_033_chance_w5_item</icon>
-		<bundle>117</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Lun Seles card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5182" level="1" />
-	</item>
-
-	<item>
-		<id>7082</id>
-		<name>Valiant Fragment</name>
-		<icon>event_034_chance_w1_item</icon>
-		<bundle>119</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Axion, the Valiant card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7182" level="1" />
-	</item>
-
-	<item>
-		<id>7083</id>
-		<name>Fearlord Fragment</name>
-		<icon>event_034_chance_w2_item</icon>
-		<bundle>119</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Fearlord Xerthis card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6181" level="1" />
-	</item>
-
-	<item>
-		<id>7084</id>
-		<name>Ezuth Fragment</name>
-		<icon>event_034_chance_w4_item</icon>
-		<bundle>119</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Ezuth the Expelled card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6182" level="1" />
-	</item>
-
-	<item>
-		<id>7085</id>
-		<name>Monastery Fragment</name>
-		<icon>event_034_chance_w3_item</icon>
-		<bundle>119</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Monastery Angel card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7183" level="1" />
-	</item>
-
-	<item>
-		<id>7086</id>
-		<name>Priestess Fragment</name>
-		<icon>event_034_chance_w5_item</icon>
-		<bundle>119</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Priestess of Mending card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5186" level="1" />
-	</item>
-
-	<item>
-		<id>7087</id>
-		<name>Heilong Fragment</name>
-		<icon>event_035_chance_w1_item</icon>
-		<bundle>121</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Heilong card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6185" level="1" />
-	</item>
-
-	<item>
-		<id>7088</id>
-		<name>Hellwing Fragment</name>
-		<icon>event_035_chance_w6_item</icon>
-		<bundle>121</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Thundering Hellwing card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6184" level="1" />
-	</item>
-
-	<item>
-		<id>7089</id>
-		<name>Armorscald Fragment</name>
-		<icon>event_035_chance_w2_item</icon>
-		<bundle>121</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Armorscald Dragon card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5189" level="1" />
-	</item>
-
-	<item>
-		<id>7090</id>
-		<name>Owlscar Fragment</name>
-		<icon>event_035_chance_w3_item</icon>
-		<bundle>121</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Owlscar Dragon card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7186" level="1" />
-	</item>
-
-	<item>
-		<id>7091</id>
-		<name>Star Chaser Fragment</name>
-		<icon>event_035_chance_w5_item</icon>
-		<bundle>121</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Star Chaser card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5187" level="1" />
-	</item>
-
-	<item>
-		<id>7092</id>
-		<name>Millidrake Fragment</name>
-		<icon>event_035_chance_w4_item</icon>
-		<bundle>121</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Millidrake Regent card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6186" level="1" />
-	</item>
-
-	<item>
-		<id>7093</id>
-		<name>Bubble Fragment</name>
-		<icon>event_036_chance_w1_item</icon>
-		<bundle>124</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Bubble Gumm card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5191" level="1" />
-	</item>
-
-	<item>
-		<id>7094</id>
-		<name>Acidfire Fragment</name>
-		<icon>event_036_chance_w2_item</icon>
-		<bundle>124</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Drix and Acidfire card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7190" level="1" />
-	</item>
-
-	<item>
-		<id>7095</id>
-		<name>Hydra Fragment</name>
-		<icon>event_035_chance_w7_item</icon>
-		<bundle>121</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Forest Hydra card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7187" level="1" />
-	</item>
-
-	<item>
-		<id>7096</id>
-		<name>Tidal Fragment</name>
-		<icon>event_036_chance_w5_item</icon>
-		<bundle>124</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Tidal Enchanter card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7189" level="1" />
-	</item>
-
-	<item>
-		<id>7097</id>
-		<name>Hula Fragment</name>
-		<icon>event_036_chance_w3_item</icon>
-		<bundle>124</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Dancer Hula card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5192" level="1" />
-	</item>
-
-	<item>
-		<id>7098</id>
-		<name>Rocketspear Fragment</name>
-		<icon>event_037_chance_w1_item</icon>
-		<bundle>126</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Rocketspear Recruit card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7193" level="1" />
-	</item>
-
-	<item>
-		<id>7099</id>
-		<name>Scorpio Fragment</name>
-		<icon>event_037_chance_w2_item</icon>
-		<bundle>126</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Scorpio Stinger card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6193" level="1" />
-	</item>
-
-	<item>
-		<id>7100</id>
-		<name>Owlnaut Fragment</name>
-		<icon>event_037_chance_w3_item</icon>
-		<bundle>126</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Owlnaut Z-3 card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5195" level="1" />
-	</item>
-
-	<item>
-		<id>7101</id>
-		<name>Rustcast Fragment</name>
-		<icon>event_037_chance_w7_item</icon>
-		<bundle>126</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Rustcast Witch card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7191" level="1" />
-	</item>
-
-	<item>
-		<id>7102</id>
-		<name>Caldera Fragment</name>
-		<icon>event_037_chance_w4_item</icon>
-		<bundle>126</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Caldera Explorer card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6194" level="1" />
-	</item>
-
-	<item>
-		<id>7103</id>
-		<name>Rattleclank Fragment</name>
-		<icon>event_038_chance_item_mermaidmecha</icon>
-		<bundle>128</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Rattleclank Courtesan card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6198" level="1" />
-	</item>
-
-	<item>
-		<id>7104</id>
-		<name>Sky Forces Fragment</name>
-		<icon>event_038_chance_item_flyingwhale</icon>
-		<bundle>128</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sea's Sky Forces card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5198" level="1" />
-	</item>
-
-	<item>
-		<id>7105</id>
-		<name>Shark Fragment</name>
-		<icon>event_038_chance_item_turtleshellmerman</icon>
-		<bundle>128</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Vodnik, Sea's Shield card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7196" level="1" />
-	</item>
-
-	<item>
-		<id>7106</id>
-		<name>Undine Fragment</name>
-		<icon>event_038_chance_item_seasprite</icon>
-		<bundle>128</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Undine Sprite card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7195" level="1" />
-	</item>
-
-	<item>
-		<id>7107</id>
-		<name>Shellscale Fragment</name>
-		<icon>event_038_chance_item_shellfishmonster</icon>
-		<bundle>128</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Shellscale Entangler card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5199" level="1" />
-	</item>
-
-	<item>
-		<id>7108</id>
-		<name>Clyx Fragment</name>
-		<icon>event_039_chance_wingedarmorbug_item</icon>
-		<bundle>131</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Clyx, Advance Guard card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5200" level="1" />
-	</item>
-
-	<item>
-		<id>7109</id>
-		<name>Scorcher Fragment</name>
-		<icon>event_039_chance_monarchwyvern_item</icon>
-		<bundle>131</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Monarch Scorcher card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6197" level="1" />
-	</item>
-
-	<item>
-		<id>7110</id>
-		<name>Sewer Fragment</name>
-		<icon>event_039_chance_sewerbug_item</icon>
-		<bundle>131</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sewer Slipper card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7200" level="1" />
-	</item>
-
-	<item>
-		<id>7111</id>
-		<name>Celesti Fragment</name>
-		<icon>event_039_chance_divineinsectwarror_item</icon>
-		<bundle>131</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Celesti Monstrosity card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7199" level="1" />
-	</item>
-
-	<item>
-		<id>7112</id>
-		<name>Cricket Fragment</name>
-		<icon>event_039_chance_griffininsectmage_item</icon>
-		<bundle>131</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Cricket Caller card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5201" level="1" />
-	</item>
-
-	<item>
-		<id>7113</id>
-		<name>Blasteye Fragment</name>
-		<icon>event_040_chance_flamingfrog_item</icon>
-		<bundle>134</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Blasteye Sentry card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6201" level="1" />
-	</item>
-
-	<item>
-		<id>7114</id>
-		<name>Soul Shaman Fragment</name>
-		<icon>event_040_chance_frogghostshaman_item</icon>
-		<bundle>134</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Tuloom, Spirit Shaman card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7203" level="1" />
-	</item>
-
-	<item>
-		<id>7115</id>
-		<name>Dawnfire Fragment</name>
-		<icon>event_040_chance_frogarcaneknight_item</icon>
-		<bundle>134</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Dawnfire Knight card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5205" level="1" />
-	</item>
-
-	<item>
-		<id>7116</id>
-		<name>Gold Crown Fragment</name>
-		<icon>event_040_chance_goldencrownmayorfrog_item</icon>
-		<bundle>134</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Gold Crown Mayor card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7204" level="1" />
-	</item>
-
-	<item>
-		<id>7117</id>
-		<name>Fra'mu Fragment</name>
-		<icon>event_040_chance_frogmonk_item</icon>
-		<bundle>134</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Fra'mu, the Wise card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5204" level="1" />
-	</item>
-
-	<item>
-		<id>7118</id>
-		<name>Embered Fragment</name>
-		<icon>event_041_chance_darkflameavian_item</icon>
-		<bundle>136</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Embered Demise card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6200" level="1" />
-	</item>
-
-	<item>
-		<id>7119</id>
-		<name>Batrachia Fragment</name>
-		<icon>event_041_chance_frogrider_item</icon>
-		<bundle>136</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Batrachia Spear card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7207" level="1" />
-	</item>
-
-	<item>
-		<id>7120</id>
-		<name>Noya Fragment</name>
-		<icon>event_041_chance_snowsphinx_item</icon>
-		<bundle>136</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Noya of Slicing Ice card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5208" level="1" />
-	</item>
-
-	<item>
-		<id>7121</id>
-		<name>Pumpking Fragment</name>
-		<icon>event_041_chance_pumpking_item</icon>
-		<bundle>136</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Pumpking card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="2015" level="1" />
-	</item>
-
-	<item>
-		<id>7122</id>
-		<name>Fowlmaster Fragment</name>
-		<icon>event_041_chance_goblinbirdmaster_item</icon>
-		<bundle>136</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Fowlmaster card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5209" level="1" />
-	</item>
-
-	<item>
-		<id>7123</id>
-		<name>Blossom Fragment</name>
-		<icon>event_042_chance_cherryblossomhorse_item</icon>
-		<bundle>140</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Blossom Mare card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7209" level="1" />
-	</item>
-
-	<item>
-		<id>7124</id>
-		<name>Night Fragment</name>
-		<icon>event_042_chance_darknesselemental_item</icon>
-		<bundle>140</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Knight of Night card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6203" level="1" />
-	</item>
-
-	<item>
-		<id>7125</id>
-		<name>Cloud Fragment</name>
-		<icon>event_042_chance_cloudfox_item</icon>
-		<bundle>140</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sparktail Cirrus card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5212" level="1" />
-	</item>
-
-	<item>
-		<id>7126</id>
-		<name>Keropologo Fragment</name>
-		<icon>event_042_chance_swampfrog_item</icon>
-		<bundle>140</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Keropologo card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7208" level="1" />
-	</item>
-
-	<item>
-		<id>7127</id>
-		<name>Chi-Fist Fragment</name>
-		<icon>event_042_chance_fistelemental_item</icon>
-		<bundle>140</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Chi-Hand Anubi card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6204" level="1" />
-	</item>
-
-	<item>
-		<id>7128</id>
-		<name>Skelosaurus Fragment</name>
-		<icon>event_043_chance_zombiestegosaurus_item</icon>
-		<bundle>142</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Skelosaurus card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7212" level="1" />
-	</item>
-
-	<item>
-		<id>7129</id>
-		<name>Twistwood Fragment</name>
-		<icon>event_043_chance_treeskeleton_item</icon>
-		<bundle>142</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Twistvine card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7211" level="1" />
-	</item>
-
-	<item>
-		<id>7130</id>
-		<name>Bloodboil Fragment</name>
-		<icon>event_043_chance_insectcauldron_item</icon>
-		<bundle>142</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Bloodboil Mage card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6206" level="1" />
-	</item>
-
-	<item>
-		<id>7131</id>
-		<name>Enchanter Fragment</name>
-		<icon>event_043_chance_lichlordscrollenchanter_item</icon>
-		<bundle>142</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Goldshield Enchanter card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5215" level="1" />
-	</item>
-
-	<item>
-		<id>7132</id>
-		<name>Drowned Fragment</name>
-		<icon>event_043_chance_seaghostlady_item</icon>
-		<bundle>142</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Siren of the Bog card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7213" level="1" />
-	</item>
-
-	<item>
-		<id>7133</id>
-		<name>Wyribbit Fragment</name>
-		<icon>event_044_chance_frogdragonling_item</icon>
-		<bundle>144</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Wyribbit card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6209" level="1" />
-	</item>
-
-	<item>
-		<id>7134</id>
-		<name>Drakon Fragment</name>
-		<icon>event_044_chance_ghostdragon_item</icon>
-		<bundle>144</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Drakon card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5216" level="1" />
-	</item>
-
-	<item>
-		<id>7135</id>
-		<name>Black Friday Hydra Fragment</name>
-		<icon>event_035_chance_w7_item</icon>
-		<bundle>121</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Forest Hydra card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7187" level="1" />
-	</item>
-
-	<item>
-		<id>7136</id>
-		<name>Jyrn Fragment</name>
-		<icon>event_044_chance_wildsnowbragon_item</icon>
-		<bundle>144</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Jyrn of Slicing Snow card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5218" level="1" />
-	</item>
-
-	<item>
-		<id>7137</id>
-		<name>Forgewing Fragment</name>
-		<icon>event_044_chance_woodconstructeddragon_item</icon>
-		<bundle>144</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Forgewing Whelp card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7215" level="1" />
-	</item>
-
-	<item>
-		<id>7138</id>
-		<name>Shalefang Fragment</name>
-		<icon>event_044_chance_flyingmountaindragon_item</icon>
-		<bundle>144</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Shalefang card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7216" level="1" />
-	</item>
-
-	<item>
-		<id>7139</id>
-		<name>Hanabi Fragment</name>
-		<icon>event_045_chance_fireworksrobot_item</icon>
-		<bundle>146</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Hanabi Crawler card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6211" level="1" />
-	</item>
-
-	<item>
-		<id>7140</id>
-		<name>Ninjutsu Fragment</name>
-		<icon>event_045_chance_mechaninja_item</icon>
-		<bundle>146</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Iron Ninjutsu card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6212" level="1" />
-	</item>
-
-	<item>
-		<id>7141</id>
-		<name>Automaburner Fragment</name>
-		<icon>event_045_chance_skeletonmecha_item</icon>
-		<bundle>146</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Automaburner card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5222" level="1" />
-	</item>
-
-	<item>
-		<id>7142</id>
-		<name>Hoggernaut Fragment</name>
-		<icon>event_045_chance_pig_item</icon>
-		<bundle>146</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Hoggernaut MK I card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7219" level="1" />
-	</item>
-
-	<item>
-		<id>7143</id>
-		<name>Icejaw Fragment</name>
-		<icon>event_045_chance_iceturtle_item</icon>
-		<bundle>146</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Icejaw Turtle card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7221" level="1" />
-	</item>
-
-	<item>
-		<id>7144</id>
-		<name>Sabriel Fragment</name>
-		<icon>event_046_chance_firewingangel_item</icon>
-		<bundle>148</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sabriel card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6215" level="1" />
-	</item>
-
-	<item>
-		<id>7145</id>
-		<name>Floral Fragment</name>
-		<icon>event_046_chance_natureangel_item</icon>
-		<bundle>148</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Floral Sprite card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7224" level="1" />
-	</item>
-
-	<item>
-		<id>7146</id>
-		<name>Gilgamesh Fragment</name>
-		<icon>event_046_chance_corrupteddemonarm_item</icon>
-		<bundle>148</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Gilgamesh card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6216" level="1" />
-	</item>
-
-	<item>
-		<id>7147</id>
-		<name>Inferno Forge Fragment</name>
-		<icon>event_046_chance_blacksmithlivingflame_item</icon>
-		<bundle>148</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Baaht, Fire Forger card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5224" level="1" />
-	</item>
-
-	<item>
-		<id>7148</id>
-		<name>Vombomber Fragment</name>
-		<icon>event_046_chance_angelbomber_item</icon>
-		<bundle>148</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Vombomber Recruit card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7223" level="1" />
-	</item>
-
-	<item>
-		<id>7149</id>
-		<name>Desert Rider Fragment</name>
-		<icon>event_047_chance_goblindesertbandit_item</icon>
-		<bundle>150</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Desert Rider card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6221" level="1" />
-	</item>
-
-	<item>
-		<id>7150</id>
-		<name>Magitech Fragment</name>
-		<icon>event_036_chance_w4_item</icon>
-		<bundle>124</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Magitech Raider card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5226" level="1" />
-	</item>
-
-	<item>
-		<id>7151</id>
-		<name>Cinderclaw Fragment</name>
-		<icon>event_047_chance_clawwarrior_item</icon>
-		<bundle>150</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Cinderclaw card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6219" level="1" />
-	</item>
-
-	<item>
-		<id>7152</id>
-		<name>Froglin Fragment</name>
-		<icon>event_047_chance_monstergoblinfrog_item</icon>
-		<bundle>150</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Froglin card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7226" level="1" />
-	</item>
-
-	<item>
-		<id>7153</id>
-		<name>Crushclaw Fragment</name>
-		<icon>event_048_chance_lobsterwarrior_item</icon>
-		<bundle>153</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Crushclaw Waterguard card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7229" level="1" />
-	</item>
-
-	<item>
-		<id>7154</id>
-		<name>Azurtitan Fragment</name>
-		<icon>event_048_chance_corruptedcrystal_item</icon>
-		<bundle>153</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Azurtitan Sorcerer card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6224" level="1" />
-	</item>
-
-	<item>
-		<id>7155</id>
-		<name>Catcher Fragment</name>
-		<icon>event_048_chance_insectmermaid_item</icon>
-		<bundle>153</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Shellcran Catcher card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7228" level="1" />
-	</item>
-
-	<item>
-		<id>7156</id>
-		<name>Boilfin Fragment</name>
-		<icon>event_048_chance_fishmermaid_item</icon>
-		<bundle>153</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Boilfin Merman card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6225" level="1" />
-	</item>
-
-	<item>
-		<id>7157</id>
-		<name>The Pebble Fragment</name>
-		<icon>event_049_chance_lavawarrior_item</icon>
-		<bundle>156</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Mag "The Pebble" Ma card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6228" level="1" />
-	</item>
-
-	<item>
-		<id>7158</id>
-		<name>Revitalea Fragment</name>
-		<icon>event_049_chance_flowerelemental_item</icon>
-		<bundle>156</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Revitalea card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7232" level="1" />
-	</item>
-
-	<item>
-		<id>7159</id>
-		<name>Gustblood Fragment</name>
-		<icon>event_049_chance_frogdjinni_item</icon>
-		<bundle>156</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Gustblood Djinn card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5230" level="1" />
-	</item>
-
-	<item>
-		<id>7160</id>
-		<name>Poisoncap Fragment</name>
-		<icon>event_049_chance_mushroomelemental_item</icon>
-		<bundle>156</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Poisoncap Maiden card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7231" level="1" />
-	</item>
-
-	<item>
-		<id>7161</id>
-		<name>Snow Crystal Fragment</name>
-		<icon>event_049_chance_iciclespider_item</icon>
-		<bundle>156</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Snow Crystal Crawler card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5231" level="1" />
-	</item>
-
-	<item>
-		<id>7162</id>
-		<name>Stratosnail Fragment</name>
-		<icon>event_050_chance_elementalsnowinsect_item</icon>
-		<bundle>158</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Stratosnail card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5234" level="1" />
-	</item>
-
-	<item>
-		<id>7163</id>
-		<name>Shell Shaman Fragment</name>
-		<icon>event_050_chance_snailshaman_item</icon>
-		<bundle>158</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Shell Shaman card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7235" level="1" />
-	</item>
-
-	<item>
-		<id>7164</id>
-		<name>Plateslug Fragment</name>
-		<icon>event_050_chance_armoredslug_item</icon>
-		<bundle>158</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Oxidation Slug card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7234" level="1" />
-	</item>
-
-	<item>
-		<id>7165</id>
-		<name>Firemouth Fragment</name>
-		<icon>event_050_chance_aviandarkmonster_item</icon>
-		<bundle>158</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Firemouth Moth card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6231" level="1" />
-	</item>
-
-	<item>
-		<id>7166</id>
-		<name>Hellhorn Fragment</name>
-		<icon>event_051_chance_flamingwhip_item</icon>
-		<bundle>161</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Hellhorn Hunter card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6234" level="1" />
-	</item>
-
-	<item>
-		<id>7167</id>
-		<name>Bogwater Fragment</name>
-		<icon>event_051_chance_swampundead_item</icon>
-		<bundle>161</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Bogwater Horde card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7238" level="1" />
-	</item>
-
-	<item>
-		<id>7168</id>
-		<name>Sandbone Fragment</name>
-		<icon>event_051_chance_tombwarrior_item</icon>
-		<bundle>161</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Sandbone Watcher card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6233" level="1" />
-	</item>
-
-	<item>
-		<id>7169</id>
-		<name>Bogbringer Fragment</name>
-		<icon>event_051_chance_goblinzombiehag_item</icon>
-		<bundle>161</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Bogbringer card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7237" level="1" />
-	</item>
-
-	<item>
-		<id>7170</id>
-		<name>Lanternbulb Fragment</name>
-		<icon>event_051_chance_lanternfish_item</icon>
-		<bundle>161</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Lanternbulb Hunter card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5237" level="1" />
-	</item>
-
-	<item>
-		<id>7171</id>
-		<name>Venomdart Fragment</name>
-		<icon>event_052_chance_frogblowdart_item</icon>
-		<bundle>163</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Venomdart Scout card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6238" level="1" />
-	</item>
-
-	<item>
-		<id>7172</id>
-		<name>Grumplo Fragment</name>
-		<icon>event_052_chance_toadtamergoblin</icon>
-		<bundle>163</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Knightly Grumplo card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5239" level="1" />
-	</item>
-
-	<item>
-		<id>7173</id>
-		<name>Storm Order Fragment</name>
-		<icon>event_052_chance_frogacrobat_item</icon>
-		<bundle>163</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Storm Order Monk card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7241" level="1" />
-	</item>
-
-	<item>
-		<id>7174</id>
-		<name>Tranquil Order Fragment</name>
-		<icon>event_052_chance_frogleaforacle_item</icon>
-		<bundle>163</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Tranquil Monk card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7240" level="1" />
-	</item>
-
-	<item>
-		<id>7175</id>
-		<name>Pernicious Fragment</name>
-		<icon>event_052_chance_voidcallerfrog_item</icon>
-		<bundle>163</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Pernicious Rascal card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6237" level="1" />
-	</item>
-
-	<item>
-		<id>7176</id>
-		<name>Grimkite Fragment</name>
-		<icon>event_053_dragonmechawarrior_item</icon>
-		<bundle>165</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Grimkite Model card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6241" level="1" />
-	</item>
-
-	<item>
-		<id>7177</id>
-		<name>Glitternox Fragment</name>
-		<icon>event_053_prismpoisondragon_item</icon>
-		<bundle>165</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Glitternox Drake card.</desc>
-		<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7244" level="1" />
-	</item>
-
-	<item>
-		<id>7178</id>
-		<name>Pyretail Fragment</name>
-		<icon>event_053_desertdragon_item</icon>
-		<bundle>165</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Pyretail Wyvern card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6242" level="1" />
-	</item>
-
-	<item>
-		<id>7179</id>
-		<name>Moonscale Fragment</name>
-		<icon>event_053_dragonwolf_item</icon>
-		<bundle>165</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Moonscale Drake card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="7243" level="1" />
-	</item>
-
-	<item>
-		<id>7180</id>
-		<name>Odd Fragment</name>
-		<icon>event_053_thunderdragonrider_item</icon>
-		<bundle>165</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Odd Rider card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="5241" level="1" />
-	</item>
-
-	<item>
-		<id>7181</id>
-		<name>Baneclaw Fragment</name>
-		<icon>event_054_jaggedclawavenger_item</icon>
-		<bundle>167</bundle>
-		<desc>Combine 1,000 fragments together to get one copy of the Disgraced Disciple card.</desc>
-		<duration>20160</duration>	<XXX lasts 14 days YY>
-		<consume>1000</consume>
-		<give_card id="6244" level="1" />
-	</item>
-
-	<item>
-			<id>7182</id>
-			<name>Timberglide Fragment</name>
-			<icon>event_054_mechacyborg_item</icon>
-			<bundle>167</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Timberglide Striker card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7247" level="1" />
-	</item>
-
-	<item>
-			<id>7183</id>
-			<name>Crimsonwing Fragment</name>
-			<icon>event_054_voodoobird_item</icon>
-			<bundle>167</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Crimsonwing Initiate card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6245" level="1" />
-	</item>
-
-	<item>
-			<id>7184</id>
-			<name>Snowfall Fragment</name>
-			<icon>event_054_aviansnowshaman_item</icon>
-			<bundle>167</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Snowfall Dancer card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7246" level="1" />
-	</item>
-
-	<item>
-			<id>7185</id>
-			<name>Scaupus Fragment</name>
-			<icon>event_054_aavianoctopus_item</icon>
-			<bundle>167</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Mutant Scaupus card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5244" level="1" />
-	</item>
-
-	<item>
-			<id>7186</id>
-			<name>Sentrypod Fragment</name>
-			<icon>event_055_surveymechawalker_item</icon>
-			<bundle>171</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Sentrypod Scout card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6247" level="1" />
-	</item>
-
-	<item>
-			<id>7187</id>
-			<name>Lumberbuck Fragment</name>
-			<icon>event_055_antlermecha_item</icon>
-			<bundle>171</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Lumberbuck Ranger card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7250" level="1" />
-	</item>
-
-	<item>
-			<id>7188</id>
-			<name>Twofold Fragment</name>
-			<icon>event_055_divinityarcher_item</icon>
-			<bundle>171</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Arrow of the Twofold card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5247" level="1" />
-	</item>
-
-	<item>
-			<id>7189</id>
-			<name>Hammer Fragment</name>
-			<icon>event_055_froghammermecha_item</icon>
-			<bundle>171</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Nullhammer card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7249" level="1" />
-	</item>
-
-	<item>
-			<id>7190</id>
-			<name>Cybot Fragment</name>
-			<icon>event_055_skullservantmecha_item</icon>
-			<bundle>171</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Cybot Centurion card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6248" level="1" />
-	</item>
-
-	<item>
-			<id>7191</id>
-			<name>Witchflare Fragment</name>
-			<icon>event_056_greenfiredragon_item</icon>
-			<bundle>173</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Witchflare Drake card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6250" level="1" />
-	</item>
-
-	<item>
-			<id>7192</id>
-			<name>Singularity Fragment</name>
-			<icon>event_056_blackenergyangel_item</icon>
-			<bundle>173</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Seraph of Singularities card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5249" level="1" />
-	</item>
-
-	<item>
-			<id>7193</id>
-			<name>Kunohana Fragment</name>
-			<icon>event_056_sakurapetalfey_item</icon>
-			<bundle>173</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Kunohana Nymph card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5250" level="1" />
-	</item>
-
-	<item>
-			<id>7194</id>
-			<name>Lavahorn Fragment</name>
-			<icon>event_056_magmarhino_item</icon>
-			<bundle>173</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Lavahorn Rhino card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6251" level="1" />
-	</item>
-
-	<item>
-			<id>7195</id>
-			<name>Rockheart Fragment</name>
-			<icon>event_056_cuteelementalbuddy_item</icon>
-			<bundle>173</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Rockheart Pebble card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7253" level="1" />
-	</item>
-
-	<item>
-			<id>7196</id>
-			<name>Hexer Fragment</name>
-			<icon>event_057_doublebladegoblin_item</icon>
-			<bundle>175</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Hexer Rogue card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6252" level="1" />
-	</item>
-
-	<item>
-			<id>7197</id>
-			<name>Twainblood Fragment</name>
-			<icon>event_057_halflinggoblinoctopus_item</icon>
-			<bundle>175</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Twainblood Outcast card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5252" level="1" />
-	</item>
-
-	<item>
-			<id>7198</id>
-			<name>Grenadier Fragment</name>
-			<icon>event_057_goblinmechaleg_item</icon>
-			<bundle>175</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Newfeet Grenadier card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6254" level="1" />
-	</item>
-
-	<item>
-			<id>7199</id>
-			<name>Bullywhack Fragment</name>
-			<icon>event_057_goblinpaladin_item</icon>
-			<bundle>175</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Bullywhack Brave card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5253" level="1" />
-	</item>
-
-	<item>
-			<id>7200</id>
-			<name>Fortune Fragment</name>
-			<icon>event_057_musclegoblin_item</icon>
-			<bundle>175</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Soldier of Fortune card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7256" level="1" />
-	</item>
-
-	<item>
-			<id>7201</id>
-			<name>Cockaboo Fragment</name>
-			<icon>event_058_halfghosthalfavian_item</icon>
-			<bundle>177</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Cockaboo Fallen card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5255" level="1" />
-	</item>
-
-	<item>
-			<id>7202</id>
-			<name>Ranamuerta Fragment</name>
-			<icon>event_058_frogskeletonbard_item</icon>
-			<bundle>177</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Ranamuerta Bard card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7259" level="1" />
-	</item>
-
-	<item>
-			<id>7203</id>
-			<name>Two-Deaths Fragment</name>
-			<icon>event_058_twoheadedundeadbrute_item</icon>
-			<bundle>177</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Two-Deaths Brute card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6258" level="1" />
-	</item>
-
-	<item>
-			<id>7204</id>
-			<name>Heartbeat Fragment</name>
-			<icon>event_058_undeadseer_item</icon>
-			<bundle>177</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Heartbeat Seeker card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5256" level="1" />
-	</item>
-
-	<item>
-			<id>7205</id>
-			<name>Ghostraid Fragment</name>
-			<icon>event_058_undeadswashbuckler_item</icon>
-			<bundle>177</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Ghostraid Fencer card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6257" level="1" />
-	</item>
-
-	<item>
-			<id>7206</id>
-			<name>Steamscale Fragment</name>
-			<icon>event_059_firefish_item</icon>
-			<bundle>179</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Steamscale Invader card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6260" level="1" />
-	</item>
-
-	<item>
-			<id>7207</id>
-			<name>Gala-Gala Fragment</name>
-			<icon>event_059_turtleisland_item</icon>
-			<bundle>179</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Gala-Gala Retreat card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7262" level="1" />
-	</item>
-
-	<item>
-			<id>7208</id>
-			<name>Hammerhead Fragment</name>
-			<icon>event_059_sharksmith_item</icon>
-			<bundle>179</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Hammerhead Smithy card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5258" level="1" />
-	</item>
-
-	<item>
-			<id>7209</id>
-			<name>Soul Sisters Fragment</name>
-			<icon>event_059_mermaidangelsisters_item</icon>
-			<bundle>179</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Brave Soul Sisters card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5259" level="1" />
-	</item>
-
-	<item>
-			<id>7210</id>
-			<name>Darkwater Fragment</name>
-			<icon>event_059_cursedmerman_item</icon>
-			<bundle>179</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Darkwater Beguiler card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6261" level="1" />
-	</item>
-
-	<item>
-			<id>7211</id>
-			<name>Red Knight Fragment</name>
-			<icon>event_060_redknight_item</icon>
-			<bundle>181</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Red Knight card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6262" level="1" />
-	</item>
-
-	<item>
-			<id>7212</id>
-			<name>Absolute Fragment</name>
-			<icon>event_060_holycrab_item</icon>
-			<bundle>181</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Absolute Monk card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5261" level="1" />
-	</item>
-
-	<item>
-			<id>7213</id>
-			<name>Flame Tongue Fragment</name>
-			<icon>event_060_devilfrog_item</icon>
-			<bundle>181</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Flame Tongue Frog card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6264" level="1" />
-	</item>
-
-	<item>
-			<id>7214</id>
-			<name>Earthbound Fragment</name>
-			<icon>event_060_martyr_item</icon>
-			<bundle>181</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Earthbound Martyr card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5262" level="1" />
-	</item>
-
-	<item>
-			<id>7215</id>
-			<name>Halo-Weaver Fragment</name>
-			<icon>event_060_angelspider_item</icon>
-			<bundle>181</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Halo-Weaver Huntress card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7265" level="1" />
-	</item>
-
-	<item>
-			<id>7216</id>
-			<name>Ohmushi Fragment</name>
-			<icon>event_061_naturehealer_item</icon>
-			<bundle>184</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Sower Ohmushi card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7267" level="1" />
-	</item>
-
-	<item>
-			<id>7217</id>
-			<name>Formiant Fragment</name>
-			<icon>event_061_anttroopers_item</icon>
-			<bundle>184</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Formiant Squad card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5266" level="1" />
-	</item>
-
-	<item>
-			<id>7218</id>
-			<name>Gaucho Fragment</name>
-			<icon>event_061_buggaucho_item</icon>
-			<bundle>184</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Sparkhurler Gaucho card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6266" level="1" />
-	</item>
-
-	<item>
-			<id>7219</id>
-			<name>Gryllipod Fragment</name>
-			<icon>event_061_bugmartialartist_item</icon>
-			<bundle>184</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Mantis Style Gryllipod card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5265" level="1" />
-	</item>
-
-	<item>
-			<id>7220</id>
-			<name>Griffinmoth Fragment</name>
-			<icon>event_061_mothgriffin_item</icon>
-			<bundle>184</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Feral Griffinmoth card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7268" level="1" />
-	</item>
-
-	<item>
-			<id>7221</id>
-			<name>Elarian Fragment</name>
-			<icon>event_062_hexahydra_item</icon>
-			<bundle>186</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Elarian Beast card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7270" level="1" />
-	</item>
-
-	<item>
-			<id>7222</id>
-			<name>Dungeon Fragment</name>
-			<icon>event_062_dungeonmaster_item</icon>
-			<bundle>186</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Dungeon Dragon card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5267" level="1" />
-	</item>
-
-	<item>
-			<id>7223</id>
-			<name>Head Fragment</name>
-			<icon>event_062_dancerhead_item</icon>
-			<bundle>186</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Wyrmdance Head card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6268" level="1" />
-	</item>
-
-	<item>
-			<id>7224</id>
-			<name>Tail Fragment</name>
-			<icon>event_062_dancerhead_item</icon>
-			<bundle>186</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Wyrmdance Tail card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7269" level="1" />
-	</item>
-
-	<item>
-			<id>7225</id>
-			<name>Mirrorwing Fragment</name>
-			<icon>event_062_mirrorwing_item</icon>
-			<bundle>186</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Mirrorwing Dragon card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5268" level="1" />
-	</item>
-
-	<item>
-			<id>7226</id>
-			<name>Drogoblin Fragment</name>
-			<icon>event_062_halfdragon_item</icon>
-			<bundle>186</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Drogoblin Warrior card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6269" level="1" />
-	</item>
-
-	<item>
-			<id>7227</id>
-			<name>Malbrand Fragment</name>
-			<icon>event_062_cursedtattoo_item</icon>
-			<bundle>186</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Malbrand Tattoo card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6270" level="1" />
-	</item>
-
-	<item>
-			<id>7228</id>
-			<name>Exalted Fragment</name>
-			<icon>event_063_prayingknight_item</icon>
-			<bundle>189</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Exalted Crusader card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5270" level="1" />
-	</item>
-
-	<item>
-			<id>7229</id>
-			<name>Frototype Fragment</name>
-			<icon>event_063_giantrobot_item</icon>
-			<bundle>189</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Walker Frototype card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6271" level="1" />
-	</item>
-
-	<item>
-			<id>7230</id>
-			<name>Saposanto Fragment</name>
-			<icon>event_063_ringstarts_item</icon>
-			<bundle>189</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Saposanto Fighters card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7273" level="1" />
-	</item>
-
-	<item>
-			<id>7231</id>
-			<name>Mirage Fragment</name>
-			<icon>event_063_miragenomad_item</icon>
-			<bundle>189</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Mirage Nomad card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7272" level="1" />
-	</item>
-
-	<item>
-			<id>7232</id>
-			<name>Bubblebind Fragment</name>
-			<icon>event_063_bubblesage_item</icon>
-			<bundle>189</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Bubblebind Frog card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5271" level="1" />
-	</item>
-
-	<item>
-			<id>7233</id>
-			<name>Blazemaster Fragment</name>
-			<icon>064_phoenixtrainer_item</icon>
-			<bundle>191</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Blazemaster Rookie card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6272" level="1" />
-	</item>
-
-	<item>
-			<id>7234</id>
-			<name>Winterheart Fragment</name>
-			<icon>event_064_ballerinaswan_item</icon>
-			<bundle>191</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Winterheart Ballerina card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7275" level="1" />
-	</item>
-
-	<item>
-			<id>7235</id>
-			<name>Terror Bird Fragment</name>
-			<icon>event_064_terrormount_item</icon>
-			<bundle>191</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Terror Bird Mount card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7276" level="1" />
-	</item>
-
-	<item>
-			<id>7236</id>
-			<name>Ondori Fragment</name>
-			<icon>event_064_samurairooster_item</icon>
-			<bundle>191</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Ondori Clan Samurai card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5273" level="1" />
-	</item>
-
-	<item>
-			<id>7237</id>
-			<name>Triple Threat Fragment</name>
-			<icon>event_064_vulturetrio_item</icon>
-			<bundle>191</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Triple Threat card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6273" level="1" />
-	</item>
-
-	<item>
-			<id>7238</id>
-			<name>Avalantooth Fragment</name>
-			<icon>event_065_yetirider_item</icon>
-			<bundle>193</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Avalantooth Yeti card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7277" level="1" />
-	</item>
-
-	<item>
-			<id>7239</id>
-			<name>Bulgae Fragment</name>
-			<icon>event_065_flyingdogs_item</icon>
-			<bundle>193</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Bulgae Dogs card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5275" level="1" />
-	</item>
-
-	<item>
-			<id>7240</id>
-			<name>Coldossus Fragment</name>
-			<icon>event_065_icecolossus_item</icon>
-			<bundle>193</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Snowback Coldossus card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5276" level="1" />
-	</item>
-
-	<item>
-			<id>7241</id>
-			<name>Charmite Fragment</name>
-			<icon>event_065_coalmite_item</icon>
-			<bundle>193</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Charmite Culler card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6275" level="1" />
-	</item>
-
-	<item>
-			<id>7242</id>
-			<name>Petroleum Fragment</name>
-			<icon>event_065_petroleumdino_item</icon>
-			<bundle>193</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Petroleum Elemental card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7278" level="1" />
-	</item>
-
-	<item>
-			<id>7243</id>
-			<name>Eternity Fragment</name>
-			<icon>event_066_lightspectre_item</icon>
-			<bundle>197</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Vision of Eternity card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5277" level="1" />
-	</item>
-
-	<item>
-			<id>7244</id>
-			<name>Weirdflesh Fragment</name>
-			<icon>event_066_evileye_item</icon>
-			<bundle>197</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Weirdflesh Thing card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6276" level="1" />
-	</item>
-
-	<item>
-			<id>7245</id>
-			<name>Brainweb Fragment</name>
-			<icon>event_066_corpsepuppet_item</icon>
-			<bundle>197</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Brainweb Recluse card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7279" level="1" />
-	</item>
-
-	<item>
-			<id>7246</id>
-			<name>Glasslock Fragment</name>
-			<icon>event_066_bottlehead_item</icon>
-			<bundle>197</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Glasslock Skeleton card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5278" level="1" />
-	</item>
-
-	<item>
-			<id>7247</id>
-			<name>Pelletpede Fragment</name>
-			<icon>event_067_pelletbug_item</icon>
-			<bundle>199</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Pelletpede Roller card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7280" level="1" />
-	</item>
-
-	<item>
-			<id>7248</id>
-			<name>Sharkcraft Fragment</name>
-			<icon>event_067_sharkplane_item</icon>
-			<bundle>199</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Sharkcraft Cadet card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6278" level="1" />
-	</item>
-
-	<item>
-			<id>7249</id>
-			<name>Autobattler Sword Fragment</name>
-			<icon>event_067_stridingsword_item</icon>
-			<bundle>199</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Autobattler Sword card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6279" level="1" />
-	</item>
-
-	<item>
-			<id>7250</id>
-			<name>Autobattler Buckler Fragment</name>
-			<icon>event_067_flyingshield_item</icon>
-			<bundle>199</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Autobattler Buckler card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5279" level="1" />
-	</item>
-
-	<item>
-			<id>7251</id>
-			<name>Mechabase Fragment</name>
-			<icon>event_067_banditbase_item</icon>
-			<bundle>199</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Thief Mechabase card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6280" level="1" />
-	</item>
-
-	<item>
-			<id>7252</id>
-			<name>Boggartman Fragment</name>
-			<icon>event_068_boogeyman_item</icon>
-			<bundle>201</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Boggartman card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6281" level="1" />
-	</item>
-
-	<item>
-			<id>7253</id>
-			<name>Portal Witch Fragment</name>
-			<icon>event_068_portalmage_item</icon>
-			<bundle>201</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Portal Witch card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5280" level="1" />
-	</item>
-
-	<item>
-			<id>7254</id>
-			<name>Cauldron Troop Fragment</name>
-			<icon>event_068_cauldronsquad_item</icon>
-			<bundle>201</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Cauldron Troop card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6282" level="1" />
-	</item>
-
-	<item>
-			<id>7255</id>
-			<name>Egg Keeper Fragment</name>
-			<icon>event_068_eggwarden_item</icon>
-			<bundle>201</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Egg Keeper card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7282" level="1" />
-	</item>
-
-	<item>
-			<id>7256</id>
-			<name>Deceitful Wybat Fragment</name>
-			<icon>event_069_wyvernbat_item</icon>
-			<bundle>203</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Deceitful Wybat card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7283" level="1" />
-	</item>
-
-	<item>
-			<id>7257</id>
-			<name>Protector of the Weak Fragment</name>
-			<icon>event_069_tameddrake_item</icon>
-			<bundle>203</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Protector of the Weak card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5282" level="1" />
-	</item>
-
-	<item>
-			<id>7258</id>
-			<name>Tail Twiner Fragment</name>
-			<icon>event_069_tailchoker_item</icon>
-			<bundle>203</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Tail Twiner card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6283" level="1" />
-	</item>
-
-	<item>
-			<id>7259</id>
-			<name>Ice Wreckers Fragment</name>
-			<icon>event_069_icebreakers_item</icon>
-			<bundle>203</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Ice Wreckers card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5283" level="1" />
-	</item>
-
-	<item>
-			<id>7260</id>
-			<name>Tooth Terriers Fragment</name>
-			<icon>event_070_dogpiranha_item</icon>
-			<bundle>206</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Tooth Terriers card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5284" level="1" />
-	</item>
-
-	<item>
-			<id>7261</id>
-			<name>Starfish Aberration Fragment</name>
-			<icon>event_070_starmutant_item</icon>
-			<bundle>206</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Starfish Aberration card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6285" level="1" />
-	</item>
-
-	<item>
-			<id>7262</id>
-			<name>Werething Fragment</name>
-			<icon>event_070_werewhale_item</icon>
-			<bundle>206</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Werething card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7284" level="1" />
-	</item>
-
-	<item>
-			<id>7263</id>
-			<name>Flying Peng Fragment</name>
-			<icon>event_070_peng_item</icon>
-			<bundle>206</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Flying Peng card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5285" level="1" />
-	</item>
-
-	<item>
-			<id>7264</id>
-			<name>Featherwood Fragment</name>
-			<icon>event_071_birdtotem_item</icon>
-			<bundle>208</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Featherwood Idol card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7286" level="1" />
-	</item>
-
-	<item>
-			<id>7265</id>
-			<name>Carnival Crow Fragment</name>
-			<icon>event_071_crowharlequin_item</icon>
-			<bundle>208</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Carnival Crow card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="6286" level="1" />
-	</item>
-
-	<item>
-			<id>7266</id>
-			<name>Eyespot Noble Fragment</name>
-			<icon>event_071_peacockpoisoner_item</icon>
-			<bundle>208</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Eyespot Noble card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5286" level="1" />
-	</item>
-
-	<item>
-			<id>7267</id>
-			<name>Baby Delivery Stork Fragment</name>
-			<icon>event_071_storkandbaby_item</icon>
-			<bundle>208</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Baby Delivery Stork card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5287" level="1" />
-	</item>
-
-	<item>
-			<id>7268</id>
-			<name>Wingbane Fragment</name>
-			<icon>event_072_gaswings_item</icon>
-			<bundle>210</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Wingbane Seraphim card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="7288" level="1" />
-	</item>
-
-	<item>
-			<id>7269</id>
-			<name>Shelldrum Fragment</name>
-			<icon>event_073_snaildrum_item</icon>
-			<bundle>213</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Shelldrum Adept card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5289" level="1" />
-	</item>
-
-	<item>
-			<id>7270</id>
-			<name>Firehop Fragment</name>
-			<icon>event_074_firefluffle_item</icon>
-			<bundle>214</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Firehop Bunny card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-		<consume>1000</consume>
-			<give_card id="5289" level="1" />
-	</item>
-
-	<item>
-			<id>7271</id>
-			<name>Ex Machina Fragment</name>
-			<icon>event_075_fakedrake_item</icon>
-			<bundle>217</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Ofidi Ex Machina card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="5290" level="1" />
-	</item>
-	
-	<item>
-			<id>7272</id>
-			<name>Spellhoarder Fragment</name>
-			<icon>event_076_spicemonger_item</icon>
-			<bundle>219</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Cunning Spellhoarder card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="5291" level="1" />
-	</item>
-	
-	<item>
-			<id>7273</id>
-			<name>Miteark Fragment</name>
-			<icon>event_077_darkwizard_item</icon>
-			<bundle>221</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Miteark Sorcere card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="6291" level="1" />
-	</item>
-	
-	<item>
-			<id>7274</id>
-			<name>Gobbat Fragment</name>
-			<icon>event_078_mutantbat_item</icon>
-			<bundle>223</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Miteark Sorcere card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7291" level="1" />
-	</item>
-	
-	<item>
-			<id>7275</id>
-			<name>Golden Fragment</name>
-			<icon>event_079_goldenegg_item</icon>
-			<bundle>225</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Golden Promise card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7293" level="1" />
-	</item>
-	
-	<item>
-			<id>7276</id>
-			<name>Nightbreaker Fragment</name>
-			<icon>event_080_vampiressknight_item</icon>
-			<bundle>227</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Nightbreaker Lady card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="6292" level="1" />
-	</item>
-
-	<item>
-			<id>7277</id>
-			<name>Emberay Fragment</name>
-			<icon>event_81_thermalmantaray_item</icon>
-			<bundle>229</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Emberay card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="6293" level="1" />
-	</item>
-
-   	<item>
-			<id>7278</id>
-			<name>Constable Fragment</name>
-			<icon>event_82_soulhunter_item</icon>
-			<bundle>231</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Holy Constable card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="5295" level="1" />
-	</item>
-
-	<item>
-			<id>7279</id>
-			<name>Creeperbot Fragment</name>
-			<icon>event_83_firebots_item</icon>
-			<bundle>233</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Creeperbots card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="6295" level="1" />
-	</item>
-
-	<item>
-			<id>7280</id>
-			<name>Runecrafter Fragment</name>
-			<icon>event_84_eggmancer_item</icon>
-			<bundle>235</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Runecrafter Initiate card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="5297" level="1" />
-	</item>
-
- 	<item>
-			<id>7281</id>
-			<name>Hobgoblin Fragment</name>
-			<icon>event_85_hobgoblin_item</icon>
-			<bundle>237</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Hobgoblin Brute card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7294" level="1" />
-	</item>
-
-  	<item>
-			<id>7282</id>
-			<name>Crystal Fragment</name>
-			<icon>event_86_diamondspider_item</icon>
-			<bundle>239</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Crystal Spider card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7295" level="1" />
-	</item>
-
-	<item>
-			<id>7283</id>
-			<name>Stoneriff Fragment</name>
-			<icon>event_87_seastonehedgehogs_item</icon>
-			<bundle>241</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Reefhogs card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7296" level="1" />
-	</item>
-
-	<item>
-			<id>7284</id>
-			<name>Tormentor Fragment</name>
-			<icon>event_88_pseudodragons_item</icon>
-			<bundle>243</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Tormenting Squad card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="6299" level="1" />
-	</item>
-
-	<item>
-			<id>7285</id>
-			<name>Caserpent Fragment</name>
-			<icon>event_89_possesedcaserpent_item</icon>
-			<bundle>245</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Cursed Caserpent card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7297" level="1" />
-	</item>
-
-	<item>
-			<id>7286</id>
-			<name>Mindtis Fragment</name>
-			<icon>event_90_mindcontrolmantis_item</icon>
-			<bundle>247</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Mindtis card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7298" level="1" />
-	</item>
-	
-	<item>
-			<id>7287</id>
-			<name>Troll Chaser Fragment</name>
-			<icon>event_91_bountyhunter_item</icon>
-			<bundle>249</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Troll Chaser card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7299" level="1" />
-	</item>
-	
-	<item>
-			<id>7288</id>
-			<name>Vlad Fragment</name>
-			<icon>event_92_dragcula_item</icon>
-			<bundle>251</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Vlad card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="6301" level="1" />
-	</item>
-	
-	<item>
-			<id>7289</id>
-			<name>Spitter Fragment</name>
-			<icon>event_93_spittingtrio_item</icon>
-			<bundle>253</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Sneaky Spitters card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7302" level="1" />
-	</item>
-	
-	<item>
-			<id>7290</id>
-			<name>Starfall Fragment</name>
-			<icon>event_94_starfallspirit_item</icon>
-			<bundle>255</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Starfall Essence card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="5301" level="1" />
-	</item>
-	
-	<item>
-			<id>7291</id>
-			<name>Pumpkinbot Fragment</name>
-			<icon>event_95_pumpkinbot_item</icon>
-			<bundle>257</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Pumpkin Prototype card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7304" level="1" />
-	</item>
-	
-	<item>
-			<id>7292</id>
-			<name>Morkan Fragment</name>
-			<icon>event_96_jellyfishthrower_item</icon>
-			<bundle>259</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Morkan card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7306" level="1" />
-	</item>
-	
-	<item>
-			<id>7293</id>
-			<name>Commando Fragment</name>
-			<icon>event_97_voidtechadept_item</icon>
-			<bundle>261</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Void Fighter card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="6303" level="1" />
-	</item>
-
-	<item>
-			<id>7294</id>
-			<name>Sorcery Fragment</name>
-			<icon>event_98_goldenprotector_item</icon>
-			<bundle>263</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Angelical Acolyte card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="5303" level="1" />
-	</item>
-
-	<item>
-			<id>7295</id>
-			<name>Frozen Fragment</name>
-			<icon>event_99_snowcamouflage_item</icon>
-			<bundle>265</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Cold Archer card.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="5304" level="1" />
-	</item>
-
-	<item>
-			<id>7296</id>
-			<name>Toxic Fragment</name>
-			<icon>event_100_poisonousdragon_item</icon>
-			<bundle>267</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Dulong, the Fierce.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7309" level="1" />
-	</item>
-
-	<item>
-			<id>7297</id>
-			<name>Crazy Fragment</name>
-			<icon>event_100_pyropablo_item</icon>
-			<bundle>269</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Lunatic Paul.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="6306" level="1" />
-	</item>
-
-	<item>
-			<id>7298</id>
-			<name>Chef Fragment</name>
-			<icon>event_102_eyecook_item</icon>
-			<bundle>271</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Cute Chef.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7311" level="1" />
-	</item>
-
-	<item>
-			<id>7299</id>
-			<name>Dark Fragment</name>
-			<icon>event_103_Skelefire_item</icon>
-			<bundle>273</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Midnight Walker.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="6308" level="1" />
-	</item>
-
-	<item>
-			<id>7300</id>
-			<name>Clockwork Fragment</name>
-			<icon>event_104_clockworkmoth_item</icon>
-			<bundle>275</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Clockwork Moth.</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7312" level="1" />
-	</item>
-
-	<item>
-			<id>7301</id>
-			<name>Beetleton Fragment</name>
-			<icon>event_105_beetleprotector_item</icon>
-			<bundle>275</bundle>
-			<desc>Combine 1,000 fragments together to get one copy of the Beetleton Guard .</desc>
-			<duration>20160</duration> <XXX lasts 14 days YY>
-			<consume>1000</consume>
-			<give_card id="7313" level="1" />
-	</item>
-			End of Fragment Block Comment. -->
-
-	<!-- FRAGMENT END -->
+	<!-- 7001-8000: Fragments removed. See old versions for archive. -->
 
 	<!-- 8001 - 9000 Recipes -->
 

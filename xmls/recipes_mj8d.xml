@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 
-	<!-- <card_req id='2001' number='1' level='1' /> -->
-	<!-- <item_req id='2001' number='1' /> -->
+	<!-- <card_req id="2001" number="1" level="1" /> -->
+	<!-- <item_req id="2001" number="1" /> -->
 	<!-- <unlock_req item_id='#' /> -->
 	<!-- <item_req id='gold' number='#' /> -->
 	<!-- <disable_multi_craft> 		Disables multiple crafting for this recipe -->
@@ -117,9 +117,9 @@
 		<name>GoldSoulds</name>
 		<category>1</category>
     <icon>icon_card_lg</icon>
-		<give_item id='30007' number='1' />
+		<give_item id="30007" number="1" />
     <sc>30</sc>
-    <item_req id='1' number='30' />
+    <item_req id="1" number="30" />
 	</recipe> -->
 
 
@@ -559,7 +559,7 @@
 		<icon>rune_component_bag_item</icon>
 		<bundle>17</bundle>
 		<give_item id="514"/>
-		<!-- <give_pack id='81' /> -->
+		<!-- <give_pack id="81" /> -->
 
 		<item_req id="6" number="20"/>
 	</recipe>
@@ -604,10 +604,10 @@
 		<category>3</category>
 		<icon>blue_pearl</icon>
 		<bundle>58</bundle>
-		<desc>Turn Mist Pearls from Duskillow into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Mist Pearls from Duskillow into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3048' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3048" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -616,10 +616,10 @@
 		<category>3</category>
 		<icon>snowdust_100</icon>
 		<bundle>58</bundle>
-		<desc>Turn Snowdust from Frigore into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Snowdust from Frigore into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3049' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3049" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -628,10 +628,10 @@
 		<category>3</category>
 		<icon>purple_fire_soul_item_100</icon>
 		<bundle>92</bundle>
-		<desc>Turn Purple Fire Soul from The Void Plane into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Purple Fire Soul from The Void Plane into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3053' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3053" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -640,10 +640,10 @@
 		<category>3</category>
 		<icon>honeycomb_item_100</icon>
 		<bundle>97</bundle>
-		<desc>Turn Honeycombs from Beetleton Bunker into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Honeycombs from Beetleton Bunker into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3056' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3056" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -652,10 +652,10 @@
 		<category>3</category>
 		<icon>Baby_Jelly_100</icon>
 		<bundle>58</bundle>
-		<desc>Turn Mini Jellyfish from Pharos Temple into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Mini Jellyfish from Pharos Temple into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3059' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3059" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -664,10 +664,10 @@
 		<category>3</category>
 		<icon>Fireshard_100</icon>
 		<bundle>58</bundle>
-		<desc>Turn Fireshards from Fireshard Mine into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Fireshards from Fireshard Mine into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3062' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3062" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -676,10 +676,10 @@
 		<category>3</category>
 		<icon>Captured_Wind_100</icon>
 		<bundle>58</bundle>
-		<desc>Turn Breezy Winds from The Celestial Vault into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Breezy Winds from The Celestial Vault into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3065' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3065" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -688,10 +688,10 @@
 		<category>3</category>
 		<icon>Soul_of_Silver_100</icon>
 		<bundle>119</bundle>
-		<desc>Turn Word Eaters from Skyhaven into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Word Eaters from Skyhaven into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3068' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3068" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -700,10 +700,10 @@
 		<category>3</category>
 		<icon>sparkler100</icon>
 		<bundle>58</bundle>
-		<desc>Turn Bonbon Sparklers from Goblin Rise Stronghold into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Bonbon Sparklers from Goblin Rise Stronghold into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3071' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3071" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -712,10 +712,10 @@
 		<category>3</category>
 		<icon>Coconut_A_100</icon>
 		<bundle>58</bundle>
-		<desc>Turn Tropical Coconuts from Forgotten Island into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Tropical Coconuts from Forgotten Island into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3074' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3074" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -724,10 +724,10 @@
 		<category>3</category>
 		<icon>gold_leaf</icon>
 		<bundle>17</bundle>
-		<desc>Turn Golden Leaves from Golden Crown Village into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Golden Leaves from Golden Crown Village into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3077' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3077" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -736,10 +736,10 @@
 		<category>3</category>
 		<icon>void_flower</icon>
 		<bundle>17</bundle>
-		<desc>Turn Black Blossoms from Desolate Red Valley into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Black Blossoms from Desolate Red Valley into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3080' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3080" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -748,10 +748,10 @@
 		<category>3</category>
 		<icon>dragon_claw</icon>
 		<bundle>17</bundle>
-		<desc>Turn Dragon Claws from Tarragon Peak into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Dragon Claws from Tarragon Peak into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3083' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3083" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -760,10 +760,10 @@
 		<category>3</category>
 		<icon>ancientCoin_100</icon>
 		<bundle>133</bundle>
-		<desc>Turn Gladius Coins from Gladius Arena into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Gladius Coins from Gladius Arena into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3086' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3086" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -772,10 +772,10 @@
 		<category>3</category>
 		<icon>blue_pearl</icon>
 		<bundle>58</bundle>
-		<desc>Turn Corroded Mist Pearls from Duskillow Rebuilt into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Corroded Mist Pearls from Duskillow Rebuilt into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3089' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3089" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -784,10 +784,10 @@
 		<category>3</category>
 		<icon>honey_jar</icon>
 		<bundle>58</bundle>
-		<desc>Turn Dark Honey from Distorted Beetleton into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Dark Honey from Distorted Beetleton into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3092' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3092" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -796,10 +796,10 @@
 		<category>3</category>
 		<icon>iron_nugget100</icon>
 		<bundle>58</bundle>
-		<desc>Turn Enchanted Iron from Salt Wastes into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Enchanted Iron from Salt Wastes into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3095' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3095" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -808,10 +808,10 @@
 		<category>3</category>
 		<icon>event_53_item_100</icon>
 		<bundle>133</bundle>
-		<desc>Turn Pillar Souls from The Abyss into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Pillar Souls from The Abyss into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3098' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3098" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -820,10 +820,10 @@
 		<category>3</category>
 		<icon>Soul_of_Silver_100</icon>
 		<bundle>119</bundle>
-		<desc>Turn Souls of Silver from Stormy Seastone Citadel into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Souls of Silver from Stormy Seastone Citadel into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3101' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3101" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -832,10 +832,10 @@
 		<category>3</category>
 		<icon>undead_essence</icon>
 		<bundle>17</bundle>
-		<desc>Turn Void Essences from World's Center into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Void Essences from World's Center into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3104' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3104" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -844,10 +844,10 @@
 		<category>3</category>
 		<icon>gold_leaf</icon>
 		<bundle>17</bundle>
-		<desc>Turn Wyld Leaves from Return to Elaria into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Wyld Leaves from Return to Elaria into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3107' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3107" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -856,10 +856,10 @@
 		<category>3</category>
 		<icon>purple_fire_soul_item_100</icon>
 		<bundle>92</bundle>
-		<desc>Turn Void Remnants from Healed Dawnglow into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Void Remnants from Healed Dawnglow into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3110' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3110" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -868,10 +868,10 @@
 		<category>3</category>
 		<icon>will_o_wisp100</icon>
 		<bundle>58</bundle>
-		<desc>Turn Wisp Fragments from Return to Luminis into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Wisp Fragments from Return to Luminis into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3113' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3113" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -880,10 +880,10 @@
 		<category>3</category>
 		<icon>Burning_Target_110</icon>
 		<bundle>17</bundle>
-		<desc>Turn Karthos Embers from Return to Karthos into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Karthos Embers from Return to Karthos into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3116' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3116" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -892,10 +892,10 @@
 		<category>3</category>
 		<icon>dragon_claw</icon>
 		<bundle>17</bundle>
-		<desc>Turn Dragon Talons from Return to Tarragon Peak into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Dragon Talons from Return to Tarragon Peak into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3119' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3119" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -904,10 +904,10 @@
 		<category>3</category>
 		<icon>ancientCoin_100</icon>
 		<bundle>133</bundle>
-		<desc>Turn Gladius Currencies from Gladius Scriptorium into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Gladius Currencies from Gladius Scriptorium into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3122' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3122" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -916,10 +916,10 @@
 		<category>3</category>
 		<icon>angel_feather100</icon>
 		<bundle>58</bundle>
-		<desc>Turn Angel Plumes from Skyhaven Assault into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Angel Plumes from Skyhaven Assault into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3125' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3125" number="3000"/><!-- Expedition Item -->
 	</recipe>
 	
 	<recipe>
@@ -928,10 +928,10 @@
 		<category>3</category>
 		<icon>Soul_of_Silver_100</icon>
 		<bundle>119</bundle>
-		<desc>Turn Element Souls from Conflux Convergence into Universal Solvent which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
+		<desc>Turn Element Souls from Conflux Convergence into Universal Extract which can be consumed with Gold to obtain a Double ^cE7FFLegendary ^cFFFFReward Pack!</desc>
 		<unlock_req item_id="8030"/><!-- Unlocking Book Item -->
-		<give_item id="4002" number="1"/><!-- Universal Solvent -->
-		<item_req id='3128' number='3000'/><!-- Expedition Item -->
+		<give_item id="4002" number="1"/><!-- Universal Extract -->
+		<item_req id="3128" number="3000"/><!-- Expedition Item -->
 	</recipe>
 
 	<recipe_category>
