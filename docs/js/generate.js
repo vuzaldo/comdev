@@ -480,16 +480,7 @@ selectTribe.addEventListener('change', function() {
 const selectMap = document.getElementById('selectMap');
 const selectMapCycle = document.getElementById('selectMapCycle');
 for (const mapId in MAPS) {
-	const option = document.createElement('option');
-	option.value = mapId;
-	const mapName = MAPS[mapId].name;
-	option.text = mapId > 99 ? `${mapName} (${mapId})` : mapName;
-	selectMap.appendChild(option.cloneNode(true));
-	if (EXPEDITION[mapId]) {
-		option.text = mapName;
-		selectMapCycle.appendChild(option);
-	}
-	if (mapId == 35) {
+	if (mapId == 100) {
 		let separator = document.createElement('option');
 		separator.disabled = true;
 		selectMap.appendChild(separator);
@@ -497,6 +488,14 @@ for (const mapId in MAPS) {
 		separator.disabled = true;
 		separator.text = 'LIMITED TIME EVENTS';
 		selectMap.appendChild(separator);
+	}
+	const option = document.createElement('option');
+	option.value = mapId;
+	const mapName = MAPS[mapId].name;
+	option.text = mapId > 99 ? `${mapName} (${mapId})` : mapName;
+	selectMap.appendChild(option);
+	if (EXPEDITION[mapId]) {
+		selectMapCycle.appendChild(option.cloneNode(true));
 	}
 }
 
