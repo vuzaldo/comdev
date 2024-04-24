@@ -1998,4 +1998,24 @@
 		<card id='12041' level='1' order='4' />  <!-- Bladewing -->
 	</event_box>
 
+	<event_box>
+		<id>6100</id>
+		<name>Mecha Arena Chest</name>
+		<desc>Pull from a set of awesome reward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<no_silver_key>1</no_silver_key>  <!-- Cannot use Silver Key for this Box -->
+		<cost item='5' num='1000' />
+		<!-- <sc_cost>2000</sc_cost> -->
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id='20' order='1' />   <!-- Trophy -->
+		<card id='12209' level='1' order='2' />  <!-- Rogue Hand -->
+		<card id='12144' level='1' order='3' />  <!-- Fatal Fist -->
+		<card id='12128' level='1' order='4' />  <!-- Stilt-walker Relic -->
+	</event_box>
+
 </root>
