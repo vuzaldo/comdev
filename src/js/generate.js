@@ -675,6 +675,7 @@ const autoSelectEventOptions = {
 	113: { tribe: 'Beast', map: 'Return to Elaria' },
 	114: { tribe: 'Avian', map: 'Red Feather Valley' },
 	115: { tribe: 'Mecha', map: 'Red Feather Valley' },
+	116: { tribe: 'Undead', map: 'Red Feather Valley' },
 };
 
 function findSelectorOption(selector, option) {
