@@ -160,7 +160,7 @@
 		<desc>Includes the ^c0DFFHoneycomb Dragon ^cFFFFand 120 Shards for a special one-time only deal!</desc>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>103</type>
-		<display_card id="27010" level="1" />
+		<display_card id="27010" level="1"/>
 		<bundle_package>105</bundle_package>
 		<start_level>2</start_level>
 		<duration>3</duration>
@@ -171,7 +171,7 @@
 		<desc>Includes the ^cE7FFRhythm of the Wyld ^cFFFFBundle and 240 Shards for a special one-time only deal!</desc>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>110</type>
-		<display_card id="11641" level="1" />
+		<display_card id="11641" level="1"/>
 		<bundle_package>106</bundle_package>
 		<show_spend_max>500</show_spend_max>
 		<purchased_event_req>1007</purchased_event_req>
@@ -187,7 +187,7 @@
 		<bundle>30</bundle>
 		<display_card id="5308" level="1"/>
 		<store_item>47</store_item>
-		<start_time>1711645200</start_time> <!-- Thursday, 28 March 2024 -->
+		<start_time>1715274000</start_time> <!-- Thursday, 9 May 2024 -->
 		<end_duration>120960</end_duration> <!-- 84 Days -->
 		<hide_news>1</hide_news>
 		<priority>-10</priority>
@@ -3724,7 +3724,7 @@
 		<id>3583</id>
 		<name>Kawosha Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4082" level="1" />
+		<display_card id="4082" level="1"/>
 		<bundle_package>1349</bundle_package>
 		<num_available>1</num_available>
 		<!-- Third Monday -->
@@ -3735,7 +3735,7 @@
 		<id>3584</id>
 		<name>Kawosha Large Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4082" level="1" />
+		<display_card id="4082" level="1"/>
 		<!-- Must have purchased the following before it shows up -->
 		<purchased_event_req>3583</purchased_event_req>
 		<bundle_package>1350</bundle_package>
@@ -3748,7 +3748,7 @@
 		<id>3585</id>
 		<name>Kawosha Fortune Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4082" level="1" />
+		<display_card id="4082" level="1"/>
 		<!-- Must have purchased the following before it shows up -->
 		<purchased_event_req>3584</purchased_event_req>
 		<bundle_package>1351</bundle_package>
@@ -3761,7 +3761,7 @@
 		<id>3586</id>
 		<name>Kawosha Fortune Trove II</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4082" level="1" />
+		<display_card id="4082" level="1"/>
 		<!-- Must have purchased the following before it shows up -->
 		<purchased_event_req>3585</purchased_event_req>
 		<bundle_package>1351</bundle_package>
@@ -3831,7 +3831,7 @@
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>103</type>
 		<priority>190</priority>
-		<display_card id="25060" level="1" /> <!-- Card ID -->
+		<display_card id="25060" level="1"/> <!-- Card ID -->
 		<bundle_package>1357</bundle_package> <!-- Stuff to give -->
 		<num_available>1</num_available>
 		<!-- First Wednesday -->
@@ -3844,7 +3844,7 @@
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>103</type>
 		<priority>190</priority>
-		<display_card id="25114" level="1" /> <!-- Card ID -->
+		<display_card id="25114" level="1"/> <!-- Card ID -->
 		<bundle_package>1358</bundle_package> <!-- Stuff to give -->
 		<num_available>1</num_available>
 		<!-- Second Wednesday -->
@@ -3878,7 +3878,7 @@
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>103</type>
 		<priority>100</priority>
-		<display_card id="5047" level="1" />
+		<display_card id="5047" level="1"/>
 		<bundle_package>1355</bundle_package>
 		<num_available>8</num_available>
 		<!-- Second Saturday -->
@@ -3936,7 +3936,7 @@
 	</event>
 	<event>
 		<id>3601</id>
-		<name>Dust &#38; Shards Bundle</name>
+		<name>Dust &amp; Shards Bundle</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>106</type>
 		<asset_prefab>store/shard_package_4</asset_prefab>
@@ -3953,7 +3953,7 @@
 		<id>3602</id>
 		<name>Scrap Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4083" level="1" />
+		<display_card id="4083" level="1"/>
 		<bundle_package>1359</bundle_package>
 		<num_available>1</num_available>
 		<!-- Third Monday -->
@@ -3964,7 +3964,7 @@
 		<id>3603</id>
 		<name>Scrap Large Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4083" level="1" />
+		<display_card id="4083" level="1"/>
 		<!-- Must have purchased the following before it shows up -->
 		<purchased_event_req>3602</purchased_event_req>
 		<bundle_package>1360</bundle_package>
@@ -3977,7 +3977,7 @@
 		<id>3604</id>
 		<name>Scrap Fortune Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4083" level="1" />
+		<display_card id="4083" level="1"/>
 		<!-- Must have purchased the following before it shows up -->
 		<purchased_event_req>3603</purchased_event_req>
 		<bundle_package>1361</bundle_package>
@@ -3990,7 +3990,7 @@
 		<id>3605</id>
 		<name>Scrap Fortune Trove II</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4083" level="1" />
+		<display_card id="4083" level="1"/>
 		<!-- Must have purchased the following before it shows up -->
 		<purchased_event_req>3604</purchased_event_req>
 		<bundle_package>1361</bundle_package>
@@ -4060,7 +4060,7 @@
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>103</type>
 		<priority>190</priority>
-		<display_card id="26004" level="1" /> <!-- Card ID -->
+		<display_card id="26004" level="1"/> <!-- Card ID -->
 		<bundle_package>1367</bundle_package> <!-- Stuff to give -->
 		<num_available>1</num_available>
 		<!-- First Wednesday -->
@@ -4073,7 +4073,7 @@
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>103</type>
 		<priority>190</priority>
-		<display_card id="27220" level="1" /> <!-- Card ID -->
+		<display_card id="27220" level="1"/> <!-- Card ID -->
 		<bundle_package>1147</bundle_package> <!-- Stuff to give -->
 		<num_available>1</num_available>
 		<!-- Second Wednesday -->
@@ -4107,7 +4107,7 @@
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>103</type>
 		<priority>100</priority>
-		<display_card id="7304" level="1" />
+		<display_card id="7304" level="1"/>
 		<bundle_package>1365</bundle_package>
 		<num_available>8</num_available>
 		<!-- Second Saturday -->
@@ -4165,7 +4165,7 @@
 	</event>
 	<event>
 		<id>3620</id>
-		<name>Dust &#38; Shards Bundle</name>
+		<name>Dust &amp; Shards Bundle</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
 		<type>106</type>
 		<asset_prefab>store/shard_package_4</asset_prefab>
@@ -4177,241 +4177,234 @@
 	</event>
 	<!-- End Event 115 Mecha BGE Bundle Sales -->
 
-	<!-- Begin Event 115 Mecha BGE Chance/Step Sales -->
-	<!-- CHAMPION PACK 1 -->
+	<!-- Begin Event 116 Undead BGE Bundle Sales -->
 	<event>
-		<id>35071</id>
-		<name>Aeronwen Champion Pack</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<event_box>2745</event_box>
-		<!-- First Thursday -->
-		<start_time>1714064400</start_time> <!-- Thursday, 25 April 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 Days -->
-		<mission_req>64</mission_req>
-	</event>
-	<!-- CHAMPION PACK 2 -->
-	<event>
-		<id>35072</id>
-		<name>Zahira Champion Pack</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<event_box>2746</event_box>
-		<!-- First Monday -->
-		<start_time>1714410000</start_time> <!-- Monday, 29 April 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 Days -->
-		<mission_req>64</mission_req>
-	</event>
-	<!-- CHAMPION PACK 3 -->
-	<event>
-		<id>35073</id>
-		<name>Issa Champion Pack</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<event_box>2747</event_box>
-		<!-- Second Thursday -->
-		<start_time>1714669200</start_time> <!-- Thursday, 2 May 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 Days -->
-		<mission_req>64</mission_req>
-	</event>
-	<!-- CHAMPION PACK 4 -->
-	<event>
-		<id>35074</id>
-		<name>Moby Champion Pack</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<event_box>2748</event_box>
-		<!-- Second Monday -->
-		<start_time>1715014800</start_time> <!-- Monday, 6 May 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 Days -->
-		<mission_req>64</mission_req>
-	</event>
-	<!-- CHAMPION PACK 5 -->
-	<event>
-		<id>35075</id>
-		<name>Almet Champion Pack</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<event_box>2749</event_box>
-		<!-- Third Thursday -->
-		<start_time>1715274000</start_time> <!-- Thursday, 9 May 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 Days -->
-		<mission_req>64</mission_req>
-	</event>
-	<!-- CHAMPION PACK 6 -->
-	<event>
-		<id>35076</id>
-		<name>Kira Champion Pack</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<event_box>2750</event_box>
+		<id>3621</id>
+		<name>Milax Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="4084" level="1"/>
+		<bundle_package>1368</bundle_package>
+		<num_available>1</num_available>
 		<!-- Third Monday -->
-		<start_time>1715619600</start_time> <!-- Monday, 13 May 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 Days -->
-		<mission_req>64</mission_req>
+		<start_time>1718038800</start_time> <!-- Monday, 10 June 2024 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
 	</event>
-	<!-- CHAMPION PACK 7 -->
 	<event>
-		<id>35077</id>
-		<name>TZ-530 Champion Pack</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<event_box>2751</event_box>
-		<!-- Fourth Thursday -->
-		<start_time>1715878800</start_time> <!-- Thursday, 16 May 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 Days -->
-		<mission_req>64</mission_req>
-	</event>
-	<!-- STEP BOX 8 -->
-	<event>
-		<id>35078</id>
-		<name>Glasslock Skeleton Step Box</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<step_box>7077</step_box>
-		<!-- Fourth Monday -->
-		<start_time>1716224400</start_time> <!-- Monday, 20 May 2024 -->
-		<end_duration>7200</end_duration> <!-- 5 Days -->
-		<mission_req>64</mission_req>
-	</event>
-	<!-- End Event 115 Mecha BGE Chance/Step Sales -->
-
-	<!-- Begin Event 115 Mecha BGE Market Sales -->
-	<event>
-		<id>33281</id>
-		<name>Rustcast Witch Sale!</name>
+		<id>3622</id>
+		<name>Milax Large Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="7191" level="1" />
-		<num_available>4</num_available>
-		<store_item>5380</store_item>
-		<!-- First Tuesday -->
-		<start_time>1714496400</start_time> <!-- Tuesday, 30 April 2024 -->
+		<display_card id="4084" level="1"/>
+		<!-- Must have purchased the following before it shows up -->
+		<purchased_event_req>3621</purchased_event_req>
+		<bundle_package>1369</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1718038800</start_time> <!-- Monday, 10 June 2024 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
+	<event>
+		<id>3623</id>
+		<name>Milax Fortune Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="4084" level="1"/>
+		<!-- Must have purchased the following before it shows up -->
+		<purchased_event_req>3622</purchased_event_req>
+		<bundle_package>1370</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1718038800</start_time> <!-- Monday, 10 June 2024 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
+	<event>
+		<id>3624</id>
+		<name>Milax Fortune Trove II</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="4084" level="1"/>
+		<!-- Must have purchased the following before it shows up -->
+		<purchased_event_req>3623</purchased_event_req>
+		<bundle_package>1370</bundle_package>
+		<num_available>1</num_available>
+		<!-- Third Monday -->
+		<start_time>1718038800</start_time> <!-- Monday, 10 June 2024 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
+	<event>
+		<id>3625</id>
+		<name>Greater Glory Flask Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>120</type>
+		<bundle_package>901</bundle_package>
+		<num_available>8</num_available>
+		<!-- First Saturday -->
+		<start_time>1716656400</start_time> <!-- Saturday, 25 May 2024 -->
 		<end_duration>4320</end_duration> <!-- 3 Days -->
 	</event>
 	<event>
-		<id>33282</id>
-		<name>Brightcore Defender Sale!</name>
+		<id>3626</id>
+		<name>Greater Divinity Flask Pack</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="5246" level="1" />
-		<num_available>4</num_available>
-		<store_item>5381</store_item>
-		<!-- Second Sunday -->
-		<start_time>1714928400</start_time> <!-- Sunday, 5 May 2024 -->
+		<type>130</type>
+		<bundle_package>889</bundle_package>
+		<num_available>8</num_available>
+		<!-- Third Saturday -->
+		<start_time>1717866000</start_time> <!-- Saturday, 8 June 2024 -->
 		<end_duration>4320</end_duration> <!-- 3 Days -->
 	</event>
 	<event>
-		<id>33283</id>
-		<name>Leadtrap Catcher Sale!</name>
+		<id>3627</id>
+		<name>Sound of Death Stone Pack</name>
+		<priority>400</priority>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="7281" level="1" />
-		<num_available>4</num_available>
-		<store_item>5382</store_item>
-		<!-- Third Friday -->
-		<start_time>1715360400</start_time> <!-- Friday, 10 May 2024 -->
+		<bundle_package>1044</bundle_package>
+		<num_available>2</num_available>
+		<!-- Second Saturday -->
+		<start_time>1717261200</start_time> <!-- Saturday, 1 June 2024 -->
 		<end_duration>4320</end_duration> <!-- 3 Days -->
 	</event>
 	<event>
-		<id>33284</id>
-		<name>Grimkite Model Sale!</name>
+		<id>3628</id>
+		<name>Veric Stone Pack</name>
+		<priority>400</priority>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="6241" level="1" />
-		<num_available>4</num_available>
-		<store_item>5383</store_item>
+		<bundle_package>1286</bundle_package>
+		<num_available>2</num_available>
 		<!-- Fourth Saturday -->
-		<start_time>1716051600</start_time> <!-- Saturday, 18 May 2024 -->
+		<start_time>1718470800</start_time> <!-- Saturday, 15 June 2024 -->
 		<end_duration>4320</end_duration> <!-- 3 Days -->
 	</event>
 	<event>
-		<id>33285</id>
-		<name>Chest of Bounty Unlimited</name>
-		<desc>Includes four Bounty Refill +10 and 1500 gold! May be purchased an unlimited number of times!</desc>
+		<id>3629</id>
+		<name>Demonic Umbu Flask Special</name>
+		<priority>400</priority>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<banner>1</banner>
-		<store_item>5124</store_item>
-		<!-- First Sunday -->
-		<start_time>1714323600</start_time> <!-- Sunday, 28 April 2024 -->
+		<bundle_package>1372</bundle_package>
+		<num_available>8</num_available>
+		<!-- Third Wednesday -->
+		<start_time>1718211600</start_time> <!-- Wednesday, 12 June 2024 -->
 		<end_duration>4320</end_duration> <!-- 3 Days -->
 	</event>
 	<event>
-		<id>33286</id>
-		<name>Dust Satchel</name>
+		<id>3630</id>
+		<name>Quadination Deal!</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<store_item>5038</store_item>
-		<!-- Second Friday -->
-		<start_time>1714755600</start_time> <!-- Friday, 3 May 2024 -->
+		<type>103</type>
+		<priority>190</priority>
+		<display_card id="26164" level="1"/> <!-- Card ID -->
+		<bundle_package>878</bundle_package> <!-- Stuff to give -->
+		<num_available>1</num_available>
+		<!-- First Wednesday -->
+		<start_time>1717002000</start_time> <!-- Wednesday, 29 May 2024 -->
 		<end_duration>4320</end_duration> <!-- 3 Days -->
 	</event>
 	<event>
-		<id>33287</id>
-		<name>Dungeon Survival Bundle</name>
-		<desc>Includes three Dungeon Refill +20 items, an Epic Pack, and 2000 gold. May be purchased 5 times.</desc>
-		<asset_prefab>dungeon_refill_box</asset_prefab>
-		<asset_bundle>31</asset_bundle>
-		<num_available>5</num_available>
-		<store_item>5045</store_item>
-		<!-- Second Monday -->
-		<start_time>1715014800</start_time> <!-- Monday, 6 May 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 Days -->
-	</event>
-	<event>
-		<id>33288</id>
-		<name>Grand Dust Satchel</name>
+		<id>3631</id>
+		<name>Quad Carrion King Deal!</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<store_item>5138</store_item>
-		<!-- Fourth Friday -->
-		<start_time>1715965200</start_time> <!-- Friday, 17 May 2024 -->
+		<type>103</type>
+		<priority>190</priority>
+		<display_card id="27035" level="1"/> <!-- Card ID -->
+		<bundle_package>1376</bundle_package> <!-- Stuff to give -->
+		<num_available>1</num_available>
+		<!-- Second Wednesday -->
+		<start_time>1717606800</start_time> <!-- Wednesday, 5 June 2024 -->
 		<end_duration>4320</end_duration> <!-- 3 Days -->
 	</event>
 	<event>
-		<id>33289</id>
-		<name>Unlimited Energy Refill Pack</name>
+		<id>3632</id>
+		<name>Undead Starter Set</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<store_item>5108</store_item>
-		<!-- Fourth Sunday -->
-		<start_time>1716138000</start_time> <!-- Sunday, 19 May 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 Days -->
-	</event>
-	<event>
-		<id>33290</id>
-		<name>Limitless Windsoul Stockpile</name>
-		<desc>Includes 200 Windsouls! May be purchased an unlimited amount of times!</desc>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<store_item>5150</store_item>
-		<!-- Fourth Wednesday -->
-		<start_time>1716397200</start_time> <!-- Wednesday, 22 May 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 Days -->
-	</event>
-	<event>
-		<id>33291</id>
-		<name>Warkid Stone Stockpile</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<num_available>4</num_available>
-		<store_item>5384</store_item>
+		<bundle_package>1373</bundle_package>
+		<num_available>1</num_available>
 		<!-- First Thursday -->
-		<start_time>1714064400</start_time> <!-- Thursday, 25 April 2024 -->
+		<start_time>1716483600</start_time> <!-- Thursday, 23 May 2024 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+	</event>
+	<event>
+		<id>3633</id>
+		<name>Super Colossal Bundle!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>160</type>
+		<bundle_package>1223</bundle_package>
+		<num_available>4</num_available>
+		<!-- First Friday -->
+		<start_time>1716570000</start_time> <!-- Friday, 24 May 2024 -->
 		<end_duration>4320</end_duration> <!-- 3 Days -->
 	</event>
 	<event>
-		<id>33292</id>
-		<name>R3-M1 Stone Stockpile</name>
-		<banner_prefab>event_030_banner</banner_prefab>
-		<bundle>107</bundle>
-		<num_available>4</num_available>
-		<store_item>5385</store_item>
-		<!-- Third Thursday -->
-		<start_time>1715274000</start_time> <!-- Thursday, 9 May 2024 -->
+		<id>3634</id>
+		<name>Winter Tail Shard Bundle!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>103</type>
+		<priority>100</priority>
+		<display_card id="5036" level="1"/>
+		<bundle_package>1374</bundle_package>
+		<num_available>8</num_available>
+		<!-- Second Saturday -->
+		<start_time>1717261200</start_time> <!-- Saturday, 1 June 2024 -->
 		<end_duration>4320</end_duration> <!-- 3 Days -->
 	</event>
-	<!-- End Event 115 Mecha BGE Market Sales -->
+	<event>
+		<id>3635</id>
+		<name>Flash Shard Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>106</type>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<bundle_package>615</bundle_package>
+		<num_available>10</num_available>
+		<!-- Second Tuesday -->
+		<start_time>1717520400</start_time> <!-- Tuesday, 4 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3636</id>
+		<name>Super Dual Undead Bonus!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>150</type>
+		<bundle_package>1313</bundle_package>
+		<num_available>4</num_available>
+		<!-- Third Saturday -->
+		<start_time>1717866000</start_time> <!-- Saturday, 8 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3637</id>
+		<name>Mystical Epic Shard Bundle</name>
+		<desc>Includes 180 Shards and one Epic Pack! May be purchased ten times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>110</type>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<bundle_package>642</bundle_package>
+		<num_available>10</num_available>
+		<!-- Third Sunday -->
+		<start_time>1717952400</start_time> <!-- Sunday, 9 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3638</id>
+		<name>Armada Champion Guild Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>150</type>
+		<asset_prefab>legendary_crystal_guild_shards</asset_prefab>
+		<asset_bundle>30</asset_bundle>
+		<bundle_package>1375</bundle_package>
+		<num_available>40</num_available>
+		<!-- Third Wednesday -->
+		<start_time>1718211600</start_time> <!-- Wednesday, 12 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>3639</id>
+		<name>Dust &amp; Shards Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>106</type>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<bundle_package>952</bundle_package>
+		<num_available>2</num_available>
+		<!-- Fourth Tuesday -->
+		<start_time>1718730000</start_time> <!-- Tuesday, 18 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<!-- End Event 116 Undead BGE Bundle Sales -->
 
 
 	<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
@@ -6215,7 +6208,7 @@
 		<id>33269</id>
 		<name>Fowlmaster Sale!</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="5209" level="1" />
+		<display_card id="5209" level="1"/>
 		<num_available>4</num_available>
 		<store_item>5374</store_item>
 		<!-- First Tuesday -->
@@ -6226,7 +6219,7 @@
 		<id>33270</id>
 		<name>Cute Chef Sale!</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="7311" level="1" />
+		<display_card id="7311" level="1"/>
 		<num_available>4</num_available>
 		<store_item>5375</store_item>
 		<!-- Second Sunday -->
@@ -6237,7 +6230,7 @@
 		<id>33271</id>
 		<name>Bennu Sale!</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="5111" level="1" />
+		<display_card id="5111" level="1"/>
 		<num_available>4</num_available>
 		<store_item>5376</store_item>
 		<!-- Third Friday -->
@@ -6248,7 +6241,7 @@
 		<id>33272</id>
 		<name>Squire Gorger Sale!</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="6053" level="1" />
+		<display_card id="6053" level="1"/>
 		<num_available>4</num_available>
 		<store_item>5377</store_item>
 		<!-- Fourth Saturday -->
@@ -6337,6 +6330,264 @@
 	</event>
 	<!-- End Event 114 Avian BGE Market Sales -->
 
+	<!-- Begin Event 115 Mecha BGE Market Sales -->
+	<event>
+		<id>33281</id>
+		<name>Rustcast Witch Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="7191" level="1"/>
+		<num_available>4</num_available>
+		<store_item>5380</store_item>
+		<!-- First Tuesday -->
+		<start_time>1714496400</start_time> <!-- Tuesday, 30 April 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33282</id>
+		<name>Brightcore Defender Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="5246" level="1"/>
+		<num_available>4</num_available>
+		<store_item>5381</store_item>
+		<!-- Second Sunday -->
+		<start_time>1714928400</start_time> <!-- Sunday, 5 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33283</id>
+		<name>Leadtrap Catcher Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="7281" level="1"/>
+		<num_available>4</num_available>
+		<store_item>5382</store_item>
+		<!-- Third Friday -->
+		<start_time>1715360400</start_time> <!-- Friday, 10 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33284</id>
+		<name>Grimkite Model Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="6241" level="1"/>
+		<num_available>4</num_available>
+		<store_item>5383</store_item>
+		<!-- Fourth Saturday -->
+		<start_time>1716051600</start_time> <!-- Saturday, 18 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33285</id>
+		<name>Chest of Bounty Unlimited</name>
+		<desc>Includes four Bounty Refill +10 and 1500 gold! May be purchased an unlimited number of times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<banner>1</banner>
+		<store_item>5124</store_item>
+		<!-- First Sunday -->
+		<start_time>1714323600</start_time> <!-- Sunday, 28 April 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33286</id>
+		<name>Dust Satchel</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5038</store_item>
+		<!-- Second Friday -->
+		<start_time>1714755600</start_time> <!-- Friday, 3 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33287</id>
+		<name>Dungeon Survival Bundle</name>
+		<desc>Includes three Dungeon Refill +20 items, an Epic Pack, and 2000 gold. May be purchased 5 times.</desc>
+		<asset_prefab>dungeon_refill_box</asset_prefab>
+		<asset_bundle>31</asset_bundle>
+		<num_available>5</num_available>
+		<store_item>5045</store_item>
+		<!-- Second Monday -->
+		<start_time>1715014800</start_time> <!-- Monday, 6 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33288</id>
+		<name>Grand Dust Satchel</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5138</store_item>
+		<!-- Fourth Friday -->
+		<start_time>1715965200</start_time> <!-- Friday, 17 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33289</id>
+		<name>Unlimited Energy Refill Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5108</store_item>
+		<!-- Fourth Sunday -->
+		<start_time>1716138000</start_time> <!-- Sunday, 19 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33290</id>
+		<name>Limitless Windsoul Stockpile</name>
+		<desc>Includes 200 Windsouls! May be purchased an unlimited amount of times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5150</store_item>
+		<!-- Fourth Wednesday -->
+		<start_time>1716397200</start_time> <!-- Wednesday, 22 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33291</id>
+		<name>Warkid Stone Stockpile</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<num_available>4</num_available>
+		<store_item>5384</store_item>
+		<!-- First Thursday -->
+		<start_time>1714064400</start_time> <!-- Thursday, 25 April 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33292</id>
+		<name>R3-M1 Stone Stockpile</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<num_available>4</num_available>
+		<store_item>5385</store_item>
+		<!-- Third Thursday -->
+		<start_time>1715274000</start_time> <!-- Thursday, 9 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<!-- End Event 115 Mecha BGE Market Sales -->
+
+	<!-- Begin Event 116 Undead BGE Market Sales -->
+	<event>
+		<id>33293</id>
+		<name>Weirdflesh Thing Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="6276" level="1"/>
+		<num_available>4</num_available>
+		<store_item>5386</store_item>
+		<!-- First Tuesday -->
+		<start_time>1716915600</start_time> <!-- Tuesday, 28 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33294</id>
+		<name>Bogwater Horde Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="7238" level="1"/>
+		<num_available>4</num_available>
+		<store_item>5387</store_item>
+		<!-- Second Sunday -->
+		<start_time>1717347600</start_time> <!-- Sunday, 2 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33295</id>
+		<name>Ironblood Ghoul Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="6277" level="1"/>
+		<num_available>4</num_available>
+		<store_item>5388</store_item>
+		<!-- Third Friday -->
+		<start_time>1717779600</start_time> <!-- Friday, 7 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33296</id>
+		<name>Two-Deaths Brute Sale!</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id="6258" level="1"/>
+		<num_available>4</num_available>
+		<store_item>5389</store_item>
+		<!-- Fourth Saturday -->
+		<start_time>1718470800</start_time> <!-- Saturday, 15 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33297</id>
+		<name>Chest of Bounty Unlimited</name>
+		<desc>Includes four Bounty Refill +10 and 1500 gold! May be purchased an unlimited number of times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<banner>1</banner>
+		<store_item>5124</store_item>
+		<!-- First Sunday -->
+		<start_time>1716742800</start_time> <!-- Sunday, 26 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33298</id>
+		<name>Dust Satchel</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5038</store_item>
+		<!-- Second Friday -->
+		<start_time>1717174800</start_time> <!-- Friday, 31 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33299</id>
+		<name>Dungeon Survival Bundle</name>
+		<desc>Includes three Dungeon Refill +20 items, an Epic Pack, and 2000 gold. May be purchased 5 times.</desc>
+		<asset_prefab>dungeon_refill_box</asset_prefab>
+		<asset_bundle>31</asset_bundle>
+		<num_available>5</num_available>
+		<store_item>5045</store_item>
+		<!-- Second Monday -->
+		<start_time>1717434000</start_time> <!-- Monday, 3 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33300</id>
+		<name>Grand Dust Satchel</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5138</store_item>
+		<!-- Fourth Friday -->
+		<start_time>1718384400</start_time> <!-- Friday, 14 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33301</id>
+		<name>Unlimited Energy Refill Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5108</store_item>
+		<!-- Fourth Sunday -->
+		<start_time>1718557200</start_time> <!-- Sunday, 16 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33302</id>
+		<name>Limitless Windsoul Stockpile</name>
+		<desc>Includes 200 Windsouls! May be purchased an unlimited amount of times!</desc>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5150</store_item>
+		<!-- Fourth Wednesday -->
+		<start_time>1718816400</start_time> <!-- Wednesday, 19 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33303</id>
+		<name>Osseus Stone Stockpile</name>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<num_available>4</num_available>
+		<store_item>5390</store_item>
+		<!-- First Thursday -->
+		<start_time>1716483600</start_time> <!-- Thursday, 23 May 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<event>
+		<id>33304</id>
+		<name>Tao Stone Stockpile</name>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<num_available>4</num_available>
+		<store_item>5391</store_item>
+		<!-- Third Thursday -->
+		<start_time>1717693200</start_time> <!-- Thursday, 6 June 2024 -->
+		<end_duration>4320</end_duration> <!-- 3 Days -->
+	</event>
+	<!-- End Event 116 Undead BGE Market Sales -->
+
 	<!-- MARKET END 2 -->
 
 	<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
@@ -6344,19 +6595,19 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
 	<!-- 5001-5433: Old events removed. See old versions for archive. -->
-	<!-- 5501-5951: Old events removed. See old versions for archive. -->
+	<!-- 5501-5952: Old events removed. See old versions for archive. -->
 
 	<!-- Guild Clash Practice Challenge -->
 	<event>
-		<id>5952</id>
+		<id>5953</id>
 		<name>Guild Clash Practice Challenge</name>
-		<desc>Practice for the Guild Clash to earn stars and rewards! Two additional Delay are added to the first card played in a battle. Current global BGEs also active. Attacks recharge once per day!</desc>
+		<desc>Practice for the Guild Clash to earn stars and rewards! All enemies start with a Tree of Eternity card. The first enemy card played in battle also has one additional Delay. Current global BGEs also active. Attacks recharge once per day!</desc>
 		<portrait>bountyhunter</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
 		<type>11</type>
-		<challenge>2047</challenge>
-		<start_time>1714417200</start_time> <!-- Monday, 29 April 2024 19:00:00 -->
+		<challenge>2053</challenge>
+		<start_time>1716836400</start_time> <!-- Monday, 27 May 2024 19:00:00 -->
 		<tracking_duration>4320</tracking_duration> <!-- 4320 | 3 Days -->
 		<claim_delay>5</claim_delay>
 		<end_duration>8640</end_duration> <!-- 8640 | 6 Days -->
@@ -6364,124 +6615,28 @@
 		<priority>1000</priority>
 
 		<event_reward>
-			<desc>Complete the Challenge at Rank 50 or higher.</desc>
-			<tier>1</tier>
-			<req>
-				<min_rank>50</min_rank>
-			</req>
-			<item id="28290" quantity="200" order="1"/>
-			<item id="18" quantity="400" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="650" order="3"/> <!-- epic pack frags -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 100 or higher.</desc>
-			<tier>2</tier>
-			<req>
-				<min_rank>100</min_rank>
-			</req>
-			<item id="28290" quantity="150" order="1"/>
-			<item id="18" quantity="400" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="650" order="3"/> <!-- epic pack frags -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 150 or higher.</desc>
-			<tier>3</tier>
-			<req>
-				<min_rank>150</min_rank>
-			</req>
-			<item id="28290" quantity="125" order="1"/>
-			<item id="18" quantity="400" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="650" order="3"/> <!-- epic pack frags -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 200 or higher.</desc>
-			<tier>4</tier>
-			<req>
-				<min_rank>200</min_rank>
-			</req>
-			<item id="28290" quantity="100" order="1"/>
-			<item id="18" quantity="400" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="650" order="3"/> <!-- epic pack frags -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 250 or higher.</desc>
-			<tier>5</tier>
-			<req>
-				<min_rank>250</min_rank>
-			</req>
-			<item id="28290" quantity="90" order="1"/>
-			<item id="18" quantity="400" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="650" order="3"/> <!-- epic pack frags -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 350 or higher.</desc>
-			<tier>6</tier>
-			<req>
-				<min_rank>350</min_rank>
-			</req>
-			<item id="28290" quantity="80" order="1"/>
-			<item id="18" quantity="400" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="600" order="3"/> <!-- epic pack frags -->
-		</event_reward>
-		<event_reward>
 			<desc>Complete the Challenge at Rank 500 or higher.</desc>
-			<tier>7</tier>
+			<tier>1</tier>
 			<req>
 				<min_rank>500</min_rank>
 			</req>
-			<item id="28290" quantity="75" order="1"/>
-			<item id="18" quantity="350" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="550" order="3"/> <!-- epic pack frags -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 750 or higher.</desc>
-			<tier>8</tier>
-			<req>
-				<min_rank>750</min_rank>
-			</req>
-			<item id="28290" quantity="70" order="1"/>
-			<item id="18" quantity="300" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="500" order="3"/> <!-- epic pack frags -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 1000 or higher.</desc>
-			<tier>9</tier>
-			<req>
-				<min_rank>1000</min_rank>
-			</req>
-			<item id="28290" quantity="65" order="1"/>
-			<item id="18" quantity="250" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="450" order="3"/> <!-- epic pack frags -->
+			<item id="28200" quantity="100" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 2000 or higher.</desc>
-			<tier>10</tier>
+			<tier>2</tier>
 			<req>
 				<min_rank>2000</min_rank>
 			</req>
-			<item id="28290" quantity="60" order="1"/>
-			<item id="18" quantity="200" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="400" order="3"/> <!-- epic pack frags -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Challenge at Rank 5000 or higher.</desc>
-			<tier>11</tier>
-			<req>
-				<min_rank>5000</min_rank>
-			</req>
-			<item id="28290" quantity="55" order="1"/>
-			<item id="18" quantity="150" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="350" order="3"/> <!-- epic pack frags -->
+			<item id="28200" quantity="50" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 20000 or higher.</desc>
-			<tier>12</tier>
+			<tier>3</tier>
 			<req>
 				<min_rank>20000</min_rank>
 			</req>
-			<item id="28290" quantity="50" order="1"/>
-			<item id="18" quantity="100" order="2"/> <!-- Leg pack fragments -->
-			<item id="17" quantity="300" order="3"/> <!-- epic pack frags -->
+			<item id="28200" quantity="25" order="1"/>
 		</event_reward>
 	</event>
 
@@ -8283,6 +8438,220 @@
 	</event>
 	<!-- End Event 114 Avian BGE Chance/Step Sales -->
 
+	<!-- Begin Event 115 Mecha BGE Chance/Step Sales -->
+	<!-- CHAMPION PACK 1 -->
+	<event>
+		<id>35071</id>
+		<name>Aeronwen Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2745</event_box>
+		<!-- First Thursday -->
+		<start_time>1714064400</start_time> <!-- Thursday, 25 April 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 2 -->
+	<event>
+		<id>35072</id>
+		<name>Zahira Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2746</event_box>
+		<!-- First Monday -->
+		<start_time>1714410000</start_time> <!-- Monday, 29 April 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 3 -->
+	<event>
+		<id>35073</id>
+		<name>Issa Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2747</event_box>
+		<!-- Second Thursday -->
+		<start_time>1714669200</start_time> <!-- Thursday, 2 May 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 4 -->
+	<event>
+		<id>35074</id>
+		<name>Moby Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2748</event_box>
+		<!-- Second Monday -->
+		<start_time>1715014800</start_time> <!-- Monday, 6 May 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 5 -->
+	<event>
+		<id>35075</id>
+		<name>Almet Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2749</event_box>
+		<!-- Third Thursday -->
+		<start_time>1715274000</start_time> <!-- Thursday, 9 May 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 6 -->
+	<event>
+		<id>35076</id>
+		<name>Kira Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2750</event_box>
+		<!-- Third Monday -->
+		<start_time>1715619600</start_time> <!-- Monday, 13 May 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 7 -->
+	<event>
+		<id>35077</id>
+		<name>TZ-530 Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2751</event_box>
+		<!-- Fourth Thursday -->
+		<start_time>1715878800</start_time> <!-- Thursday, 16 May 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- STEP BOX 8 -->
+	<event>
+		<id>35078</id>
+		<name>Glasslock Skeleton Step Box</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<step_box>7077</step_box>
+		<!-- Fourth Monday -->
+		<start_time>1716224400</start_time> <!-- Monday, 20 May 2024 -->
+		<end_duration>7200</end_duration> <!-- 5 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- End Event 115 Mecha BGE Chance/Step Sales -->
+
+	<!-- Begin Event 116 Undead BGE Chance/Step Sales -->
+	<!-- CHAMPION PACK 1 -->
+	<event>
+		<id>35079</id>
+		<name>Formyr Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2752</event_box>
+		<!-- First Thursday -->
+		<start_time>1716483600</start_time> <!-- Thursday, 23 May 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 2 -->
+	<event>
+		<id>35080</id>
+		<name>Skids Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2753</event_box>
+		<!-- First Monday -->
+		<start_time>1716829200</start_time> <!-- Monday, 27 May 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 3 -->
+	<event>
+		<id>35081</id>
+		<name>Blaze Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2754</event_box>
+		<!-- Second Thursday -->
+		<start_time>1717088400</start_time> <!-- Thursday, 30 May 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHANCE PACK 4 -->
+	<event>
+		<id>35082</id>
+		<name>Undead Support Group Chance Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2755</event_box>
+		<!-- Second Monday -->
+		<start_time>1717434000</start_time> <!-- Monday, 3 June 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 5 -->
+	<event>
+		<id>35083</id>
+		<name>Gorgon Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2756</event_box>
+		<!-- Third Thursday -->
+		<start_time>1717693200</start_time> <!-- Thursday, 6 June 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 6 -->
+	<event>
+		<id>35084</id>
+		<name>Ardeat Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2757</event_box>
+		<!-- Third Monday -->
+		<start_time>1718038800</start_time> <!-- Monday, 10 June 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- CHAMPION PACK 7 -->
+	<event>
+		<id>35085</id>
+		<name>Llorona Champion Pack</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<event_box>2758</event_box>
+		<!-- Fourth Thursday -->
+		<start_time>1718298000</start_time> <!-- Thursday, 13 June 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- STEP BOX 8 -->
+	<event>
+		<id>35086</id>
+		<name>Fallen Master Step Box</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<step_box>7078</step_box>
+		<!-- Fourth Monday -->
+		<start_time>1718643600</start_time> <!-- Monday, 17 June 2024 -->
+		<end_duration>7200</end_duration> <!-- 5 Days -->
+		<mission_req>64</mission_req>
+	</event>
+	<!-- End Event 116 Undead BGE Chance/Step Sales -->
+
 	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Global Timeline Battleground Effects, IDs 6001-7000 -->
 	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
@@ -9968,6 +10337,21 @@
 		<mission_req>64</mission_req>
 	</event>
 
+	<event>
+		<id>6118</id>
+		<name>Blazing Undead Vampirism</name>
+		<desc>All Undead gain Vampirism equal to 10% of their base Health. 0-2D Undead also gain Siphon equal to 20% of their base Health. 3-4D Undead also gain Emberhide equal to 10% of their base Health.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>180</bg_effect>
+		</effect>
+		<start_time>1716483600</start_time> <!-- Thursday, May 23, 2024 at 17:00:00 -->
+		<end_time>1721322000</end_time> <!-- Thursday, July 18, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
 	<!-- BGE END -->
 
 	<!-- |||||||||||||||||||||||||||||||||||||||||||| -->
@@ -10877,6 +11261,21 @@
 		<view_url>https://discord.gg/kongregate</view_url>
 	</event>
 
+	<event>
+		<id>10182</id>
+		<news>1</news>
+		<name>Undead Card Updates!</name>
+		<desc>A number of Undead cards have had their stats increased! You can use the Resummon feature to get them back at a discounted price for a limited time! Join the Official Discord for more information!</desc>
+		<portrait>lanternguardian</portrait>
+		<banner_prefab>maintenance_Banner</banner_prefab>
+		<hide_upcoming>1</hide_upcoming>
+		<bundle>21</bundle>
+		<!-- First Thursday -->
+		<start_time>1716483600</start_time> <!-- Thursday, 23 May 2024 -->
+		<end_duration>14400</end_duration> <!-- 10 Days -->
+		<view_url>https://discord.gg/kongregate</view_url>
+	</event>
+
 	<!-- NEWS END  ANNOUNCEMENTS -->
 
 	<!-- |||||||||||||||||||||||||||||||||||||||||| -->
@@ -11197,6 +11596,24 @@
 		<event_box>6100</event_box>
 		<!-- First Thursday -->
 		<start_time>1714064400</start_time> <!-- Thursday, 25 April 2024 -->
+		<end_duration>40320</end_duration> <!-- 40320 | 28 Days -->
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>11104</id>
+		<name>Undead Arena Chest</name>
+		<desc>Pull from a set of ^c0DFFDual Epic ^cFFFFreward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<asset_bundle>76</asset_bundle>
+		<banner_prefab>generic_chance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-40</priority>
+		<event_box>6101</event_box>
+		<!-- First Thursday -->
+		<start_time>1716483600</start_time> <!-- Thursday, 23 May 2024 -->
 		<end_duration>40320</end_duration> <!-- 40320 | 28 Days -->
 		<mission_req>64</mission_req>
 	</event>

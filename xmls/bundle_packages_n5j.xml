@@ -14317,7 +14317,7 @@
 	<package>
 		<id>1362</id>
 		<name>Scrap Stone Pack</name>
-		<desc>Gives 200 Champion Stones for ^cE7FFScrap, the Nut Collector^cFFFF! May be purchased twice!</desc>
+		<desc>Gives 200 Champion Stones for ^cE7FFScrap, the Acorn Seeker^cFFFF! May be purchased twice!</desc>
 		<priority>400</priority>
 		<background_prefab>legendary_card_banner</background_prefab>
 		<background_bundle>35</background_bundle>
@@ -14403,6 +14403,154 @@
 		<priority>400</priority>
 		<!-- Stuff to give -->
 		<card id='26004' />
+		<tokens>120</tokens>
+		<sp>200</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t03</price_point_id>
+	</package>
+
+	<package>
+		<id>1368</id>
+		<name>Milax Trove</name>
+		<desc>Gives 75 ^cE7FFMilax Stone^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 50 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104084' number='75' /> <!-- Stone -->
+		<item id='2001' number='25' /> <!-- Arcane Fragment -->
+		<item id='1004' number='10' /> <!-- Energy +20 -->
+		<item id='4001' number='50' /> <!-- Inscription Powder -->
+		<sp>50</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1369</id>
+		<name>Milax Large Trove</name>
+		<desc>Gives 200 ^cE7FFMilax Stone^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 100 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<num_available>1</num_available>
+		<!-- Stuff to give -->
+		<item id='104084' number='200' /> <!-- Stone -->
+		<item id='2001' number='50' /> <!-- Arcane Fragment -->
+		<item id='1004' number='15' /> <!-- Energy +20 -->
+		<item id='4001' number='100' /> <!-- Inscription Powder -->
+		<sp>100</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t40_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1370</id>
+		<name>Milax Fortune Trove</name>
+		<desc>Gives 725 ^cE7FFMilax Stone^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 300 Arcane Dust, and 250 Inscription Powder! May be purchased twice!</desc>
+		<background_prefab>event17_banner_legendaryPack</background_prefab>
+		<background_bundle>75</background_bundle>
+		<category>2</category>
+		<!-- Stuff to give -->
+		<item id='104084' number='725' /> <!-- Stone -->
+		<item id='2001' number='150' /> <!-- Arcane Fragment -->
+		<item id='1004' number='25' /> <!-- Energy +20 -->
+		<item id='4001' number='250' /> <!-- Inscription Powder -->
+		<sp>300</sp>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t60_champion</price_point_id>
+	</package>
+
+	<package>
+		<id>1371</id>
+		<name>Milax Stone Pack</name>
+		<desc>Gives 200 Champion Stones for ^cE7FFMilax, Guardian of the Shade^cFFFF! May be purchased twice!</desc>
+		<priority>400</priority>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<category>1</category>
+		<!-- Stuff to give -->
+		<item id='104084' number='200' /> <!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t20</price_point_id>
+	</package>
+
+	<package>
+		<id>1372</id>
+		<name>Demonic Umbu Flask Special</name>
+		<desc>Gives 100 Demonic Umbu Flasks. They contain Champion Stones for Emerald Amarok; Cordelia the Twinblade; Kensho, the Aeromaster; or Umbu, Life Releaser! May be purchased 8 times!</desc>
+		<asset_prefab>event_032_stonepack_02</asset_prefab>
+		<bundle>113</bundle>
+		<background_prefab>legendary_card_banner</background_prefab>
+		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
+		<!-- Stuff to give -->
+		<item id='2563' number='100' />
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10</price_point_id>
+	</package>
+
+	<package>
+		<id>1373</id>
+		<name>Undead Starter Set</name>
+		<desc>Power up your Undead deck! Contains 4 Quads: ^cE7FFWandmaster Demilich^cFFFF, ^cE7FFNether Blackfin^cFFFF, ^c0DFFBloodseeker Childe^cFFFF, and ^c0DFFAbsorbing Sleetbones^cFFFF plus 50 Ahab Stones! One purchase only!</desc>
+		<asset_prefab>starter_deck</asset_prefab>
+		<bundle>35</bundle>
+		<background_prefab>3rdAnniversary_banner</background_prefab>
+		<background_bundle>136</background_bundle>
+		<category>2</category>
+		<show_list>1</show_list>
+		<!-- Stuff to give -->
+		<card id='21346' /> <!-- Wandmaster Demilich -->
+		<card id='21644' /> <!-- Nether Blackfin -->
+		<card id='21337' /> <!-- Bloodseeker Childe -->
+		<card id='22140' /> <!-- Absorbing Sleetbones -->
+		<item id='104049' number='50' /> <!-- Stone -->
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t10_monthly</price_point_id>
+	</package>
+
+	<package>
+		<id>1374</id>
+		<name>Winter Tail Shard Bundle!</name>
+		<desc>Gives 330 Shards and a BONUS ^cE7FFWinter Tail^cFFFF card! May be purchased 8 times!</desc>
+		<priority>300</priority>
+		<!-- Stuff to give -->
+		<card id='5036' />
+		<tokens>330</tokens>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t30</price_point_id>
+	</package>
+
+	<package>
+		<id>1375</id>
+		<name>Armada Champion Guild Bundle</name>
+		<desc>Purchase 700 Shards.  You and everyone in your guild recives 100 ^cE7FFArmada Stones^cFFFF!</desc>
+		<asset_prefab>legendary_crystal_guild</asset_prefab>
+		<bundle>30</bundle>
+		<background_prefab>event_96_undeadarmada_banner</background_prefab>
+		<background_bundle>259</background_bundle>
+		<priority>300</priority>
+		<num_available>40</num_available>
+		<!-- Stuff to give -->
+		<tokens>700</tokens>
+		<item id='106626' number='100' />
+		<guild_bonus>
+			<duration>259200</duration>
+			<item id='106626' number='100' />
+		</guild_bonus>
+		<!-- Purchase Identifier Config -->
+		<price_point_id>t50</price_point_id>
+	</package>
+
+	<package>
+		<id>1376</id>
+		<name>Quad Carrion King Deal!</name>
+		<desc>Upgrade your deck with this ^c0DFFCarrion King^cFFFF Quad Fused ^c0DFFEpic^cFFFF card! This one-time only deal also includes 120 Shards and 200 Arcane Dust!</desc>
+		<priority>400</priority>
+		<!-- Stuff to give -->
+		<card id='27035' />
 		<tokens>120</tokens>
 		<sp>200</sp>
 		<!-- Purchase Identifier Config -->

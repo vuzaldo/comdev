@@ -5657,4 +5657,321 @@
 		</box_discount>
 	</event_box>
 
+	<!-- CHAMPION PACK 1 -->
+	<event_box>
+		<id>2752</id>
+		<name>Formyr Champion Pack</name>
+		<desc>Each pull grants 10-15 ^cE7FFDesecrated Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFFormyr the Desecrated^cFFFF Champion card!</desc>
+		<asset_prefab>event_043_champion_fleshundead</asset_prefab>
+		<background_prefab>event_043_banner_fleshundead</background_prefab>
+		<bundle>142</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='5256' order='1' /> <!-- Legendary Heartbeat Seeker -->
+		<card id='6206' order='2' /> <!-- Legendary Bloodboil Mage -->
+		<card id='5037' order='3' /> <!-- Legendary Dauntless Baneblade -->
+		<card id='7125' order='4' /> <!-- Epic -->
+		<card id='7170' order='5' /> <!-- Epic -->
+		<card id='5166' order='6' /> <!-- Epic -->
+		<card id='6081' order='7' /> <!-- Epic -->
+		<card id='5035' order='8' /> <!-- Epic -->
+		<card id='6123' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='107603' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CHAMPION PACK 2 -->
+	<event_box>
+		<id>2753</id>
+		<name>Skids Champion Pack</name>
+		<desc>Each pull grants 10-15 ^cE7FFLiches Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFSkids, Hellfire Liches^cFFFF Champion card!</desc>
+		<asset_prefab>event_103_skliches_championpack</asset_prefab>
+		<background_prefab>event_103_skliches_banner</background_prefab>
+		<bundle>273</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='5036' order='1' /> <!-- Legendary Winter Tail -->
+		<card id='7126' order='2' /> <!-- Legendary Wyldheart Hunter -->
+		<card id='6033' order='3' /> <!-- Legendary Firebeard -->
+		<card id='6031' order='4' /> <!-- Epic -->
+		<card id='7122' order='5' /> <!-- Epic -->
+		<card id='7167' order='6' /> <!-- Epic -->
+		<card id='5124' order='7' /> <!-- Epic -->
+		<card id='6125' order='8' /> <!-- Epic -->
+		<card id='6164' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='106631' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CHAMPION PACK 3 -->
+	<event_box>
+		<id>2754</id>
+		<name>Blaze Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFBlaze Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFBlaze, The Unvoker^cFFFF Champion card!</desc>
+		<asset_prefab>event_080_necromancer_championpack</asset_prefab>
+		<background_prefab>event_080_necromancer_banner</background_prefab>
+		<bundle>227</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='5085' order='1' /> <!-- Legendary Haunting Heir -->
+		<card id='6258' order='2' /> <!-- Legendary Two Deaths -->
+		<card id='5352' order='3' /> <!-- Legendary Scarab Mummy -->
+		<card id='7034' order='4' /> <!-- Epic -->
+		<card id='7170' order='5' /> <!-- Epic -->
+		<card id='6083' order='6' /> <!-- Epic -->
+		<card id='7082' order='7' /> <!-- Epic -->
+		<card id='7084' order='8' /> <!-- Epic -->
+		<card id='6011' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='106614' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CHANCE PACK 4 -->
+	<event_box>
+		<id>2755</id>
+		<name>Undead Support Group Chance Pack</name> <!-- UPDATE DESC -->
+		<desc>Who loves the company of the Undead?  These guys!  The more Undead, the merrier with this haunted chance pack!!</desc>
+		<asset_prefab>event_92_zombroccolis_stepbox</asset_prefab>
+		<background_prefab>event_92_zombroccolis_banner</background_prefab>
+		<bundle>251</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<card id='7301' order='1' /> <!-- Legendary Zombroccoli -->
+		<card id='5236' order='2' /> <!-- Legendary Wisp Warrior -->
+		<card id='6255' order='3' /> <!-- Legendary Sinchained Wraith -->
+		<card id='5167' order='4' /> <!-- Legendary Heirophant -->
+		<card id='6036' order='5' /> <!-- Epic -->
+		<card id='6083' order='6' /> <!-- Epic -->
+		<card id='5021' order='7' /> <!-- Epic -->
+		<card id='7035' order='8' /> <!-- Epic -->
+		<card id='5086' order='9' /> <!-- Epic -->
+		<card id='5124' order='10' /> <!-- Epic -->
+		<box_discount>
+			<box_discount_id>1</box_discount_id>
+			<name>Scout's Deal</name>
+			<desc>Four cards at once for a low price! Limit one per chance pack.</desc>
+			<hc_cost>120</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3'/>
+			</cards>
+		</box_discount>
+		<box_discount>
+			<box_discount_id>2</box_discount_id>
+			<name>Adventurer's Deal</name>
+			<desc>Ten cards at once with two guaranteed Legendary cards! Limit one per chance pack.</desc>
+			<hc_cost>400</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='4' />
+				<card min_rarity='4' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CHAMPION PACK 5 -->
+	<event_box>
+		<id>2756</id>
+		<name>Gorgon Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFGorgon Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFGorgon, The Imprisoned^cFFFF Champion card!</desc>
+		<asset_prefab>event_86_imprisonedhorror_championpack</asset_prefab>
+		<background_prefab>event_86_imprisonedhorror_banner</background_prefab>
+		<bundle>239</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='5125' order='1' /> <!-- Legendary Banshee -->
+		<card id='6121' order='2' /> <!-- Legendary Charon -->
+		<card id='6084' order='3' /> <!-- Legendary Crypt Nemesis -->
+		<card id='7035' order='4' /> <!-- Epic -->
+		<card id='5033' order='5' /> <!-- Epic -->
+		<card id='6165' order='6' /> <!-- Epic -->
+		<card id='5086' order='7' /> <!-- Epic -->
+		<card id='6029' order='8' /> <!-- Epic -->
+		<card id='6036' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='105628' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CHAMPION PACK 6 -->
+	<event_box>
+		<id>2757</id>
+		<name>Ardeat Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFArdeat Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFArdeat, the Arsonist^cFFFF Champion card!</desc>
+		<asset_prefab>event_90_haywirefireeagle_championpack</asset_prefab>
+		<background_prefab>event_90_haywirefireeagle_banner</background_prefab>
+		<bundle>247</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='7131' order='1' /> <!-- Legendary Xovrus -->
+		<card id='6257' order='2' /> <!-- Legendary Ghostraid Fencer -->
+		<card id='5171' order='3' /> <!-- Legendary Dross Collector -->
+		<card id='6034' order='4' /> <!-- Epic -->
+		<card id='5035' order='5' /> <!-- Epic -->
+		<card id='5168' order='6' /> <!-- Epic -->
+		<card id='6164' order='7' /> <!-- Epic -->
+		<card id='6125' order='8' /> <!-- Epic -->
+		<card id='7167' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='106621' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CHAMPION PACK 7 -->
+	<event_box>
+		<id>2758</id>
+		<name>Llorona Champion Pack</name> <!-- UPDATE DESC -->
+		<desc>Each pull grants 10-15 ^cE7FFLlorona Stones ^cFFFFwith a chance at a 500 Stone jackpot! Collect to get the ^cE7FFLa Llorona^cFFFF Champion card!</desc>
+		<asset_prefab>event_92_lallorona_championpack</asset_prefab>
+		<background_prefab>event_92_lallorona_banner</background_prefab>
+		<bundle>251</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>0</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id='6301' order='1' /> <!-- Legendary Vlad -->
+		<card id='5087' order='2' /> <!-- Legendary Apollyon -->
+		<card id='7169' order='3' /> <!-- Legendary Mortalum -->
+		<card id='5084' order='4' /> <!-- Epic -->
+		<card id='5168' order='5' /> <!-- Epic -->
+		<card id='6016' order='6' /> <!-- Epic -->
+		<card id='6011' order='7' /> <!-- Epic -->
+		<card id='5123' order='8' /> <!-- Epic -->
+		<card id='6081' order='9' /> <!-- Epic -->
+
+		<champion_bonus_item id='105633' />
+
+		<box_discount>
+			<name>x10 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Select this option to do 10 pulls at a single time!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+				<card min_rarity='3' />
+			</cards>
+		</box_discount>
+	</event_box>
+
 </root>
