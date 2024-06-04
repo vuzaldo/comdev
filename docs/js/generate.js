@@ -676,6 +676,8 @@ const autoSelectEventOptions = {
 	114: { tribe: 'Avian', map: 'Red Feather Valley' },
 	115: { tribe: 'Mecha', map: 'Red Feather Valley' },
 	116: { tribe: 'Undead', map: 'Red Feather Valley' },
+	117: { tribe: 'Insect', map: 'Red Feather Valley' },
+	118: { tribe: 'Elemental', map: 'Red Feather Valley' },
 };
 
 function findSelectorOption(selector, option) {
