@@ -275,7 +275,7 @@ const brawlId = 8111 + numCycles;
 const eventBgeId = 6105 + numCycles;
 const rewardBoxId = 6090 + numCycles;
 const eventRewardBoxId = 11093 + numCycles;
-const nextChampionId = 4073 + numCycles;
+const nextChampionId = 4073 + numCycles + (eventNumber > 117);
 let eventBGE, eventTribeId, eventMap, eventMapX, eventMapY;
 
 let newChamp = 4073, newEpic = 2255;
