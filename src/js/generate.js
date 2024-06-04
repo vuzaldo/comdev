@@ -217,6 +217,10 @@ function overrideTemplate(template, generated) {
 		const newDescription = 'Two additional Delay are added to the first card played in a battle.';
 		generated = generated.replace(description, newDescription);
 	}
+	if (eventNumber == 117 && generated.includes('104085')) {
+		generated = generated.replace(/104085/g, '2820');
+		generated = generated.replace(/Legendary Stones/g, 'Entangled Flask');
+	}
 	return generated;
 }
 
