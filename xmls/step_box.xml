@@ -29,868 +29,7 @@
 		<gold>1000</gold>
 	-->
 
-	<!-- 7001-7058: Old boxes removed. See old versions for archive. -->
-
-	<step_box>
-		<id>7059</id>
-		<name>Lonely Militiaman Step Box</name>
-		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFLonely Militiaman^cFFFF card!</desc>
-		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
-		<asset_prefab>event_98_twohandedangel_stepbox</asset_prefab>
-		<background_prefab>event_98_twohandedangel_banner</background_prefab>
-		<bundle>263</bundle>
-		<asset_prefab_box name="genericBox" bundle="35"/>
-		<bg_picture name="Angel_Two_Handed_Angel_B" bundle="263"/>
-		<step_box>1</step_box>
-		<priority>800</priority>
-		<box>
-			<start_index>0</start_index>
-			<card id="7308" order="1" chase="1"/><!-- Chase indicated it should be shown on box cover -->
-			<card id="6215" order="2"/><!-- Legendary card -->
-			<card id="6272" order="3"/><!-- Legendary card -->
-			<card id="5300" order="4"/><!-- Legendary card -->
-			<card id="5117" order="5"/>
-			<card id="5040" order="6"/>
-			<card id="7070" order="7"/>
-			<card id="7116" order="8"/>
-			<card id="6119" order="9"/>
-			<card id="6038" order="10"/>
-		</box>
-
-		<tier>
-			<id>1</id>
-			<hc_cost>20</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>20</sp>
-		</tier>
-		<tier>
-			<id>2</id>
-			<hc_cost>50</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>40</sp>
-		</tier>
-		<tier>
-			<id>3</id>
-			<hc_cost>95</hc_cost>
-			<desc>Two Epic+ at Step 3!</desc>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>80</sp>
-		</tier>
-		<tier>
-			<id>4</id>
-			<hc_cost>170</hc_cost>
-			<desc>Guaranteed Legendary at Step 4!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>120</sp>
-		</tier>
-		<tier>
-			<id>5</id>
-			<hc_cost>240</hc_cost>
-			<desc>Lonely Militiaman at Step 5!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="7308"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>160</sp>
-		</tier>
-		<tier>
-			<id>6</id>
-			<hc_cost>350</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="7308"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>200</sp>
-		</tier>
-		<tier>
-			<id>7</id>
-			<hc_cost>450</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="7308"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>260</sp>
-		</tier>
-		<tier>
-			<id>8</id>
-			<hc_cost>750</hc_cost>
-			<desc>Five Legendaries at Step 8!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="7308"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>350</sp>
-		</tier>
-	</step_box>
-
-	<step_box>
-		<id>7060</id>
-		<name>Annoying Beekeeper Step Box</name>
-		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFAnnoying Beekeeper^cFFFF card!</desc>
-		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
-		<asset_prefab>event_99_beekeeper_stepbox</asset_prefab>
-		<background_prefab>event_99_beekeeper_banner</background_prefab>
-		<bundle>265</bundle>
-		<asset_prefab_box name="genericBox" bundle="35"/>
-		<bg_picture name="Insect_Bee_Keeper_B" bundle="265"/>
-		<step_box>1</step_box>
-		<priority>800</priority>
-		<box>
-			<start_index>0</start_index>
-			<card id="6304" order="1" chase="1"/><!-- Chase indicated it should be shown on box cover -->
-			<card id="7137" order="2"/><!-- Legendary card -->
-			<card id="5232" order="3"/><!-- Legendary card -->
-			<card id="6229" order="4"/><!-- Legendary card -->
-			<card id="5067" order="5"/>
-			<card id="5141" order="6"/>
-			<card id="6069" order="7"/>
-			<card id="6165" order="8"/>
-			<card id="7135" order="9"/>
-			<card id="7115" order="10"/>
-		</box>
-
-		<tier>
-			<id>1</id>
-			<hc_cost>20</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>20</sp>
-		</tier>
-		<tier>
-			<id>2</id>
-			<hc_cost>50</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>40</sp>
-		</tier>
-		<tier>
-			<id>3</id>
-			<hc_cost>95</hc_cost>
-			<desc>Two Epic+ at Step 3!</desc>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>80</sp>
-		</tier>
-		<tier>
-			<id>4</id>
-			<hc_cost>170</hc_cost>
-			<desc>Guaranteed Legendary at Step 4!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>120</sp>
-		</tier>
-		<tier>
-			<id>5</id>
-			<hc_cost>240</hc_cost>
-			<desc>Annoying Beekeeper at Step 5!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6304"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>160</sp>
-		</tier>
-		<tier>
-			<id>6</id>
-			<hc_cost>350</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6304"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>200</sp>
-		</tier>
-		<tier>
-			<id>7</id>
-			<hc_cost>450</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6304"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>260</sp>
-		</tier>
-		<tier>
-			<id>8</id>
-			<hc_cost>750</hc_cost>
-			<desc>Five Legendaries at Step 8!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6304"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>350</sp>
-		</tier>
-	</step_box>
-
-	<step_box>
-		<id>7061</id>
-		<name>Laolong, the Ancient Step Box</name>
-		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFLaolong, the Ancient^cFFFF card!</desc>
-		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
-		<asset_prefab>event_100_oldtimer_stepbox</asset_prefab>
-		<background_prefab>event_100_oldtimer_banner</background_prefab>
-		<bundle>267</bundle>
-		<asset_prefab_box name="genericBox" bundle="35"/>
-		<bg_picture name="Dragon_Old_Timer_B" bundle="267"/>
-		<step_box>1</step_box>
-		<priority>800</priority>
-		<box>
-			<start_index>0</start_index>
-			<card id="6305" order="1" chase="1"/><!-- Chase indicated it should be shown on box cover -->
-			<card id="7096" order="2"/><!-- Legendary card -->
-			<card id="6023" order="3"/><!-- Legendary card -->
-			<card id="5064" order="4"/><!-- Legendary card -->
-			<card id="7010" order="5"/>
-			<card id="7128" order="6"/>
-			<card id="6063" order="7"/>
-			<card id="6129" order="8"/>
-			<card id="5010" order="9"/>
-			<card id="5127" order="10"/>
-		</box>
-
-		<tier>
-			<id>1</id>
-			<hc_cost>20</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>20</sp>
-		</tier>
-		<tier>
-			<id>2</id>
-			<hc_cost>50</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>40</sp>
-		</tier>
-		<tier>
-			<id>3</id>
-			<hc_cost>95</hc_cost>
-			<desc>Two Epic+ at Step 3!</desc>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>80</sp>
-		</tier>
-		<tier>
-			<id>4</id>
-			<hc_cost>170</hc_cost>
-			<desc>Guaranteed Legendary at Step 4!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>120</sp>
-		</tier>
-		<tier>
-			<id>5</id>
-			<hc_cost>240</hc_cost>
-			<desc>Laolong at Step 5!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6305"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>160</sp>
-		</tier>
-		<tier>
-			<id>6</id>
-			<hc_cost>350</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6305"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>200</sp>
-		</tier>
-		<tier>
-			<id>7</id>
-			<hc_cost>450</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6305"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>260</sp>
-		</tier>
-		<tier>
-			<id>8</id>
-			<hc_cost>750</hc_cost>
-			<desc>Five Legendaries at Step 8!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6305"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>350</sp>
-		</tier>
-	</step_box>
-
-	<step_box>
-		<id>7062</id>
-		<name>Warlfrog Step Box</name>
-		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFWarlfrog^cFFFF card!</desc>
-		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
-		<asset_prefab>event_101_decayfrog_stepbox</asset_prefab>
-		<background_prefab>event_101_decayfrog_banner</background_prefab>
-		<bundle>269</bundle>
-		<asset_prefab_box name="genericBox" bundle="35"/>
-		<bg_picture name="Frog_Decay_Frog_B" bundle="269"/>
-		<step_box>1</step_box>
-		<priority>800</priority>
-		<box>
-			<start_index>0</start_index>
-			<card id="7310" order="1" chase="1"/><!-- Chase indicated it should be shown on box cover -->
-			<card id="6152" order="2"/><!-- Legendary card -->
-			<card id="5054" order="3"/><!-- Legendary card -->
-			<card id="7249" order="4"/><!-- Legendary card -->
-			<card id="6051" order="5"/>
-			<card id="6051" order="6"/>
-			<card id="5102" order="7"/>
-			<card id="5102" order="8"/>
-			<card id="7098" order="9"/>
-			<card id="7098" order="10"/>
-		</box>
-
-		<tier>
-			<id>1</id>
-			<hc_cost>20</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>20</sp>
-		</tier>
-		<tier>
-			<id>2</id>
-			<hc_cost>50</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>40</sp>
-		</tier>
-		<tier>
-			<id>3</id>
-			<hc_cost>95</hc_cost>
-			<desc>Two Epic+ at Step 3!</desc>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>80</sp>
-		</tier>
-		<tier>
-			<id>4</id>
-			<hc_cost>170</hc_cost>
-			<desc>Guaranteed Legendary at Step 4!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>120</sp>
-		</tier>
-		<tier>
-			<id>5</id>
-			<hc_cost>240</hc_cost>
-			<desc>Warlfrog at Step 5!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="7310"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>160</sp>
-		</tier>
-		<tier>
-			<id>6</id>
-			<hc_cost>350</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="7310"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>200</sp>
-		</tier>
-		<tier>
-			<id>7</id>
-			<hc_cost>450</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="7310"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>260</sp>
-		</tier>
-		<tier>
-			<id>8</id>
-			<hc_cost>750</hc_cost>
-			<desc>Five Legendaries at Step 8!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="7310"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>350</sp>
-		</tier>
-	</step_box>
-
-	<step_box>
-		<id>7063</id>
-		<name>Assassin Step Box</name>
-		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFLurking Assassin^cFFFF card!</desc>
-		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
-		<asset_prefab>event_102_ashantisapprentice_stepbox</asset_prefab>
-		<background_prefab>event_102_ashantisapprentice_banner</background_prefab>
-		<bundle>271</bundle>
-		<asset_prefab_box name="genericBox" bundle="35"/>
-		<bg_picture name="Avian_Ashantis_Apprentice_B" bundle="271"/>
-		<step_box>1</step_box>
-		<priority>800</priority>
-		<box>
-			<start_index>0</start_index>
-			<card id="6307" order="1" chase="1"/><!-- Chase indicated it should be shown on box cover -->
-			<card id="6053" order="2"/><!-- Legendary card -->
-			<card id="5001" order="3"/><!-- Legendary card -->
-			<card id="7101" order="4"/><!-- Legendary card -->
-			<card id="7057" order="5"/>
-			<card id="7055" order="6"/>
-			<card id="5166" order="7"/>
-			<card id="5016" order="8"/>
-			<card id="6115" order="9"/>
-			<card id="6056" order="10"/>
-		</box>
-
-		<tier>
-			<id>1</id>
-			<hc_cost>20</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>20</sp>
-		</tier>
-		<tier>
-			<id>2</id>
-			<hc_cost>50</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>40</sp>
-		</tier>
-		<tier>
-			<id>3</id>
-			<hc_cost>95</hc_cost>
-			<desc>Two Epic+ at Step 3!</desc>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>80</sp>
-		</tier>
-		<tier>
-			<id>4</id>
-			<hc_cost>170</hc_cost>
-			<desc>Guaranteed Legendary at Step 4!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>120</sp>
-		</tier>
-		<tier>
-			<id>5</id>
-			<hc_cost>240</hc_cost>
-			<desc>Lurking Assassin at Step 5!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6307"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>160</sp>
-		</tier>
-		<tier>
-			<id>6</id>
-			<hc_cost>350</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6307"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>200</sp>
-		</tier>
-		<tier>
-			<id>7</id>
-			<hc_cost>450</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6307"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>260</sp>
-		</tier>
-		<tier>
-			<id>8</id>
-			<hc_cost>750</hc_cost>
-			<desc>Five Legendaries at Step 8!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6307"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>350</sp>
-		</tier>
-	</step_box>
-	
-	<step_box>
-		<id>7064</id>
-		<name>Master Step Box</name>
-		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFFallen Master^cFFFF card!</desc>
-		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
-		<asset_prefab>event_103_spiritfallenmaster_stepbox</asset_prefab>
-		<background_prefab>event_102_ashantisapprentice_banner</background_prefab>
-		<bundle>273</bundle>
-		<asset_prefab_box name="genericBox" bundle="35"/>
-		<bg_picture name="Undead_Insect_Spirit_Fallen_Master_B" bundle="273"/>
-		<step_box>1</step_box>
-		<priority>800</priority>
-		<box>
-			<start_index>0</start_index>
-			<card id="5305" order="1" chase="1"/><!-- Chase indicated it should be shown on box cover -->
-			<card id="6167" order="2"/><!-- Legendary card -->
-			<card id="5083" order="3"/><!-- Legendary card -->
-			<card id="7085" order="4"/><!-- Legendary card -->
-			<card id="7035" order="5"/>
-			<card id="7084" order="6"/>
-			<card id="5086" order="7"/>
-			<card id="5084" order="8"/>
-			<card id="6034" order="9"/>
-			<card id="6011" order="10"/>
-		</box>
-
-		<tier>
-			<id>1</id>
-			<hc_cost>20</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>20</sp>
-		</tier>
-		<tier>
-			<id>2</id>
-			<hc_cost>50</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>40</sp>
-		</tier>
-		<tier>
-			<id>3</id>
-			<hc_cost>95</hc_cost>
-			<desc>Two Epic+ at Step 3!</desc>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>80</sp>
-		</tier>
-		<tier>
-			<id>4</id>
-			<hc_cost>170</hc_cost>
-			<desc>Guaranteed Legendary at Step 4!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>120</sp>
-		</tier>
-		<tier>
-			<id>5</id>
-			<hc_cost>240</hc_cost>
-			<desc>Fallen Master at Step 5!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="5305"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>160</sp>
-		</tier>
-		<tier>
-			<id>6</id>
-			<hc_cost>350</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="5305"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>200</sp>
-		</tier>
-		<tier>
-			<id>7</id>
-			<hc_cost>450</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="5305"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>260</sp>
-		</tier>
-		<tier>
-			<id>8</id>
-			<hc_cost>750</hc_cost>
-			<desc>Five Legendaries at Step 8!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="5305"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>350</sp>
-		</tier>
-	</step_box>
-
-	<step_box>
-		<id>7065</id>
-		<name>Blizzpunk Step Box</name>
-		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFBlizzpunk^cFFFF card!</desc>
-		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
-		<asset_prefab>event_104_frostpunk_stepbox</asset_prefab>
-		<background_prefab>event_104_frostpunk_banner</background_prefab>
-		<bundle>275</bundle>
-		<asset_prefab_box name="genericBox" bundle="35"/>
-		<bg_picture name="Mecha_Frostpunk_B" bundle="276"/>
-		<step_box>1</step_box>
-		<priority>800</priority>
-		<box>
-			<start_index>0</start_index>
-			<card id="5306" order="1" chase="1"/><!-- Chase indicated it should be shown on box cover -->
-			<card id="5222" order="2"/><!-- Legendary card -->
-			<card id="6192" order="3"/><!-- Legendary card -->
-			<card id="7280" order="4"/><!-- Legendary card -->
-			<card id="5163" order="5"/>
-			<card id="5221" order="6"/>
-			<card id="6158" order="7"/>
-			<card id="6208" order="8"/>
-			<card id="7181" order="9"/>
-			<card id="7220" order="10"/>
-		</box>
-
-		<tier>
-			<id>1</id>
-			<hc_cost>20</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>20</sp>
-		</tier>
-		<tier>
-			<id>2</id>
-			<hc_cost>50</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>40</sp>
-		</tier>
-		<tier>
-			<id>3</id>
-			<hc_cost>95</hc_cost>
-			<desc>Two Epic+ at Step 3!</desc>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>80</sp>
-		</tier>
-		<tier>
-			<id>4</id>
-			<hc_cost>170</hc_cost>
-			<desc>Guaranteed Legendary at Step 4!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>120</sp>
-		</tier>
-		<tier>
-			<id>5</id>
-			<hc_cost>240</hc_cost>
-			<desc>Blizzpunk at Step 5!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="5306"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>160</sp>
-		</tier>
-		<tier>
-			<id>6</id>
-			<hc_cost>350</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="5306"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>200</sp>
-		</tier>
-		<tier>
-			<id>7</id>
-			<hc_cost>450</hc_cost>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="5306"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>260</sp>
-		</tier>
-		<tier>
-			<id>8</id>
-			<hc_cost>750</hc_cost>
-			<desc>Five Legendaries at Step 8!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="5306"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>350</sp>
-		</tier>
-	</step_box>
+	<!-- 7001-7065: Old boxes removed. See old versions for archive. -->
 
 	<step_box>
 		<id>7066</id>
@@ -2003,8 +1142,8 @@
 		<asset_prefab>event_064_jaguarsphinx</asset_prefab>
 		<background_prefab>event_064_banner_jaguarsphinx</background_prefab>
 		<bundle>191</bundle>
-		<asset_prefab_box name='genericBox' bundle="35"/>
-		<bg_picture name='Avian_Jaguar_Sphinx_B' bundle="192"/>
+		<asset_prefab_box name="genericBox" bundle="35"/>
+		<bg_picture name="Avian_Jaguar_Sphinx_B" bundle="192"/>
 		<step_box>1</step_box>
 		<priority>800</priority>
 		<box>
@@ -2126,29 +1265,29 @@
 		<asset_prefab>event_058_halfghosthalfavian</asset_prefab>
 		<background_prefab>event_058_banner_halfghosthalfavian</background_prefab>
 		<bundle>177</bundle>
-		<asset_prefab_box name='genericBox' bundle="35" />
-		<bg_picture name='Undead_Avian_Half_Ghost_Half_Avian_B' bundle="178" />
+		<asset_prefab_box name="genericBox" bundle="35"/>
+		<bg_picture name="Undead_Avian_Half_Ghost_Half_Avian_B" bundle="178"/>
 		<step_box>1</step_box>
 		<priority>800</priority>
 		<box>
 			<start_index>0</start_index>
-			<card id="5255" order="1" chase="1" /> <!-- Chase indicated it should be shown on box cover Cockaboo -->
-			<card id="6246" order="2" /> <!-- Legendary card Chicken a la Tank -->
-			<card id="7286" order="3" /> <!-- Legendary card Featherwood Totem -->
-			<card id="6174" order="4" /> <!-- Legendary card Flareye -->
-			<card id="5016" order="5" />
-			<card id="6115" order="6" />
-			<card id="5158" order="7" />
-			<card id="7171" order="8" />
-			<card id="6054" order="9" />
-			<card id="5060" order="10" />
+			<card id="5255" order="1" chase="1"/> <!-- Chase indicated it should be shown on box cover Cockaboo -->
+			<card id="6246" order="2"/> <!-- Legendary card Chicken a la Tank -->
+			<card id="7286" order="3"/> <!-- Legendary card Featherwood Totem -->
+			<card id="6174" order="4"/> <!-- Legendary card Flareye -->
+			<card id="5016" order="5"/>
+			<card id="6115" order="6"/>
+			<card id="5158" order="7"/>
+			<card id="7171" order="8"/>
+			<card id="6054" order="9"/>
+			<card id="5060" order="10"/>
 		</box>
 
 		<tier>
 			<id>1</id>
 			<hc_cost>20</hc_cost>
 			<cards>
-				<card min_rarity="3" max_rarity="4" />
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>20</sp>
 		</tier>
@@ -2156,7 +1295,7 @@
 			<id>2</id>
 			<hc_cost>50</hc_cost>
 			<cards>
-				<card min_rarity="3" max_rarity="4" />
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>40</sp>
 		</tier>
@@ -2165,8 +1304,8 @@
 			<hc_cost>95</hc_cost>
 			<desc>Two Epic+ at Step 3!</desc>
 			<cards>
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>80</sp>
 		</tier>
@@ -2175,9 +1314,9 @@
 			<hc_cost>170</hc_cost>
 			<desc>Guaranteed Legendary at Step 4!</desc>
 			<cards>
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>120</sp>
 		</tier>
@@ -2186,10 +1325,10 @@
 			<hc_cost>240</hc_cost>
 			<desc>Cockaboo Fallen at Step 5!</desc>
 			<cards>
-				<card min_rarity="4" max_rarity="4" id="5255" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
+				<card min_rarity="4" max_rarity="4" id="5255"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>160</sp>
 		</tier>
@@ -2197,12 +1336,12 @@
 			<id>6</id>
 			<hc_cost>350</hc_cost>
 			<cards>
-				<card min_rarity="4" max_rarity="4" id="5255" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
+				<card min_rarity="4" max_rarity="4" id="5255"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>200</sp>
 		</tier>
@@ -2210,14 +1349,14 @@
 			<id>7</id>
 			<hc_cost>450</hc_cost>
 			<cards>
-				<card min_rarity="4" max_rarity="4" id="5255" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
+				<card min_rarity="4" max_rarity="4" id="5255"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>260</sp>
 		</tier>
@@ -2226,16 +1365,16 @@
 			<hc_cost>750</hc_cost>
 			<desc>Five Legendaries at Step 8!</desc>
 			<cards>
-				<card min_rarity="4" max_rarity="4" id="5255" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="4" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
-				<card min_rarity="3" max_rarity="4" />
+				<card min_rarity="4" max_rarity="4" id="5255"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>350</sp>
 		</tier>
@@ -2249,29 +1388,29 @@
 		<asset_prefab>event_066_bottlehead</asset_prefab>
 		<background_prefab>event_066_banner_bottlehead</background_prefab>
 		<bundle>197</bundle>
-		<asset_prefab_box name='genericBox' bundle='35' />
-		<bg_picture name='Mecha_Undead_Bottle_Head_A' bundle='198' />
+		<asset_prefab_box name="genericBox" bundle="35"/>
+		<bg_picture name="Mecha_Undead_Bottle_Head_A" bundle="198"/>
 		<step_box>1</step_box>
 		<priority>800</priority>
 		<box>
 			<start_index>0</start_index>
-			<card id='5278' order='1' chase='1' /> <!-- Chase indicated it should be shown on box cover Glasslock Skeleton -->
-			<card id='6167' order='2' /> <!-- Legendary card Macabre Machine -->
-			<card id='5222' order='3' /> <!-- Legendary card Automaburner -->
-			<card id='6212' order='4' /> <!-- Legendary card Ninjitsu -->
-			<card id='5221' order='5' />
-			<card id='7181' order='6' />
-			<card id='5161' order='7' />
-			<card id='5163' order='8' />
-			<card id='6153' order='9' />
-			<card id='6208' order='10' />
+			<card id="5278" order="1" chase="1"/> <!-- Chase indicated it should be shown on box cover Glasslock Skeleton -->
+			<card id="6167" order="2"/> <!-- Legendary card Macabre Machine -->
+			<card id="5222" order="3"/> <!-- Legendary card Automaburner -->
+			<card id="6212" order="4"/> <!-- Legendary card Ninjitsu -->
+			<card id="5221" order="5"/>
+			<card id="7181" order="6"/>
+			<card id="5161" order="7"/>
+			<card id="5163" order="8"/>
+			<card id="6153" order="9"/>
+			<card id="6208" order="10"/>
 		</box>
 
 		<tier>
 			<id>1</id>
 			<hc_cost>20</hc_cost>
 			<cards>
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>20</sp>
 		</tier>
@@ -2279,7 +1418,7 @@
 			<id>2</id>
 			<hc_cost>50</hc_cost>
 			<cards>
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>40</sp>
 		</tier>
@@ -2288,8 +1427,8 @@
 			<hc_cost>95</hc_cost>
 			<desc>Two Epic+ at Step 3!</desc>
 			<cards>
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>80</sp>
 		</tier>
@@ -2298,9 +1437,9 @@
 			<hc_cost>170</hc_cost>
 			<desc>Guaranteed Legendary at Step 4!</desc>
 			<cards>
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>120</sp>
 		</tier>
@@ -2309,10 +1448,10 @@
 			<hc_cost>240</hc_cost>
 			<desc>Glasslock Skeleton at Step 5!</desc>
 			<cards>
-				<card min_rarity='4' max_rarity='4' id='5278' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4" id="5278"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>160</sp>
 		</tier>
@@ -2320,12 +1459,12 @@
 			<id>6</id>
 			<hc_cost>350</hc_cost>
 			<cards>
-				<card min_rarity='4' max_rarity='4' id='5278' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4" id="5278"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>200</sp>
 		</tier>
@@ -2333,14 +1472,14 @@
 			<id>7</id>
 			<hc_cost>450</hc_cost>
 			<cards>
-				<card min_rarity='4' max_rarity='4' id='5278' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4" id="5278"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>260</sp>
 		</tier>
@@ -2349,16 +1488,16 @@
 			<hc_cost>750</hc_cost>
 			<desc>Five Legendaries at Step 8!</desc>
 			<cards>
-				<card min_rarity='4' max_rarity='4' id='5278' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4" id="5278"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>350</sp>
 		</tier>
@@ -2370,31 +1509,31 @@
 		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFFallen Master^cFFFF card!</desc>
 		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
 		<asset_prefab>event_103_spiritfallenmaster_stepbox</asset_prefab>
-		<background_prefab>event_102_ashantisapprentice_banner</background_prefab>
+		<background_prefab>event_103_spiritfallenmaster_banner</background_prefab>
 		<bundle>273</bundle>
-		<asset_prefab_box name='genericBox' bundle='35' />
-		<bg_picture name='Undead_Insect_Spirit_Fallen_Master_B' bundle='273' />
+		<asset_prefab_box name="genericBox" bundle="35"/>
+		<bg_picture name="Undead_Insect_Spirit_Fallen_Master_B" bundle="274"/>
 		<step_box>1</step_box>
 		<priority>800</priority>
 		<box>
 			<start_index>0</start_index>
-			<card id='5305' order='1' chase='1' /> <!-- Chase indicated it should be shown on box cover Fallen Master -->
-			<card id='7279' order='2' /> <!-- Legendary card Brainweb Recluse -->
-			<card id='6232' order='3' /> <!-- Legendary card Deathmoth -->
-			<card id='6233' order='4' /> <!-- Legendary card Sandbone -->
-			<card id='6016' order='5' />
-			<card id='5021' order='6' />
-			<card id='6123' order='7' />
-			<card id='5166' order='8' />
-			<card id='5033' order='9' />
-			<card id='7125' order='10' />
+			<card id="5305" order="1" chase="1"/> <!-- Chase indicated it should be shown on box cover Fallen Master -->
+			<card id="7279" order="2"/> <!-- Legendary card Brainweb Recluse -->
+			<card id="6232" order="3"/> <!-- Legendary card Deathmoth -->
+			<card id="6233" order="4"/> <!-- Legendary card Sandbone -->
+			<card id="6016" order="5"/>
+			<card id="5021" order="6"/>
+			<card id="6123" order="7"/>
+			<card id="5166" order="8"/>
+			<card id="5033" order="9"/>
+			<card id="7125" order="10"/>
 		</box>
 
 		<tier>
 			<id>1</id>
 			<hc_cost>20</hc_cost>
 			<cards>
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>20</sp>
 		</tier>
@@ -2402,7 +1541,7 @@
 			<id>2</id>
 			<hc_cost>50</hc_cost>
 			<cards>
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>40</sp>
 		</tier>
@@ -2411,8 +1550,8 @@
 			<hc_cost>95</hc_cost>
 			<desc>Two Epic+ at Step 3!</desc>
 			<cards>
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>80</sp>
 		</tier>
@@ -2421,9 +1560,9 @@
 			<hc_cost>170</hc_cost>
 			<desc>Guaranteed Legendary at Step 4!</desc>
 			<cards>
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>120</sp>
 		</tier>
@@ -2432,10 +1571,10 @@
 			<hc_cost>240</hc_cost>
 			<desc>Fallen Master at Step 5!</desc>
 			<cards>
-				<card min_rarity='4' max_rarity='4' id='5305' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4" id="5305"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>160</sp>
 		</tier>
@@ -2443,12 +1582,12 @@
 			<id>6</id>
 			<hc_cost>350</hc_cost>
 			<cards>
-				<card min_rarity='4' max_rarity='4' id='5305' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4" id="5305"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>200</sp>
 		</tier>
@@ -2456,14 +1595,14 @@
 			<id>7</id>
 			<hc_cost>450</hc_cost>
 			<cards>
-				<card min_rarity='4' max_rarity='4' id='5305' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4" id="5305"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>260</sp>
 		</tier>
@@ -2472,16 +1611,141 @@
 			<hc_cost>750</hc_cost>
 			<desc>Five Legendaries at Step 8!</desc>
 			<cards>
-				<card min_rarity='4' max_rarity='4' id='5305' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='4' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
-				<card min_rarity='3' max_rarity='4' />
+				<card min_rarity="4" max_rarity="4" id="5305"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<sp>350</sp>
+		</tier>
+	</step_box>
+
+	<step_box>
+		<id>7079</id>
+		<name>Stratosnail Step Box</name>
+		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFStratosnail^cFFFF card!</desc>
+		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
+		<asset_prefab>event_050_chance_elementalsnowinsect</asset_prefab>
+		<background_prefab>event_050_banner_elementalsnowinsect</background_prefab>
+		<bundle>158</bundle>
+		<asset_prefab_box name="genericBox" bundle="35"/>
+		<bg_picture name="Insect_Elemental_Snow_Insect_B" bundle="159"/>
+		<step_box>1</step_box>
+		<priority>800</priority>
+		<box>
+			<start_index>0</start_index>
+			<card id="5234" order="1" chase="1"/> <!-- Stratosnail -->
+			<card id="7295" order="2"/> <!-- Crystal Spider -->
+			<card id="7137" order="3"/> <!-- Darkmites -->
+			<card id="5231" order="4"/> <!-- Snow Crystal Crawler -->
+			<card id="15141" order="5"/>
+			<card id="17135" order="6"/>
+			<card id="7010" order="7"/>
+			<card id="7051" order="8"/>
+			<card id="5141" order="9"/>
+			<card id="7135" order="10"/>
+		</box>
+
+		<tier>
+			<id>1</id>
+			<hc_cost>20</hc_cost>
+			<cards>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<sp>20</sp>
+		</tier>
+		<tier>
+			<id>2</id>
+			<hc_cost>50</hc_cost>
+			<cards>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<sp>40</sp>
+		</tier>
+		<tier>
+			<id>3</id>
+			<hc_cost>95</hc_cost>
+			<desc>Two Cards at Step 3!</desc>
+			<cards>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<sp>80</sp>
+		</tier>
+		<tier>
+			<id>4</id>
+			<hc_cost>170</hc_cost>
+			<desc>Guaranteed Legendary at Step 4!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<sp>120</sp>
+		</tier>
+		<tier>
+			<id>5</id>
+			<hc_cost>240</hc_cost>
+			<desc>Guaranteed Stratosnail at Step 5!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4" id="5234"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<sp>160</sp>
+		</tier>
+		<tier>
+			<id>6</id>
+			<hc_cost>350</hc_cost>
+			<desc>Three Legendaries at Step 6!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4" id="5234"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<sp>200</sp>
+		</tier>
+		<tier>
+			<id>7</id>
+			<hc_cost>450</hc_cost>
+			<desc>Four Legendaries at Step 7!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4" id="5234"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<sp>260</sp>
+		</tier>
+		<tier>
+			<id>8</id>
+			<hc_cost>750</hc_cost>
+			<desc>Six Legendaries at Step 8!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4" id="5234"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
 			</cards>
 			<sp>350</sp>
 		</tier>
