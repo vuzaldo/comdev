@@ -179,8 +179,8 @@ function generate() {
 	generateInput('rewardFlask', options?.flask ? options.flask : flask, filterItem);
 	const legendaries = generateCardList(standardLegendaries, 3, false);
 	generateInput('Legendary1', legendaries[0]);
-	generateInput('Legendary2', legendaries[1]);
 	generateInput('Legendary3', legendaries[2] ? legendaries[2] : legendaries[0]);
+	generateInput('Legendary2', legendaries[1]);
 	// generateInput('rewardLegendary', generateCardList(rewardLegendaries, 1)[0]);
 	const epics = generateCardList(rewardEpics, 3, false);
 	generateInput('rewardEpic1', epics[0]);
