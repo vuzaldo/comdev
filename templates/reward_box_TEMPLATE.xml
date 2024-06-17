@@ -1,19 +1,20 @@
 	<event_box>
 		<id>{BOX_ID}</id>
 		<name>{EVENT_BGE} Arena Chest</name>
-		<desc>Pull from a set of awesome reward cards! Compete in the Arena to earn Arena Coins for more pulls!</desc>
+		<desc>Use Arena Coins to pull from a set of Dual ^c0DFFEpic ^cFFFFreward cards or the chance of an Arena Trophy! Each pull also grants new champion stones!</desc>
 		<category>1</category>
 		<asset_prefab>{EVENT_BGE_LOWERCASE}_arena_box</asset_prefab>
 		<background_prefab>arena_box_banner</background_prefab>
 		<bundle>76</bundle>
 		<priority>-60</priority>
+		<show_desc>1</show_desc>
 		<no_silver_key>1</no_silver_key>  <!-- Cannot use Silver Key for this Box -->
-		<cost item='5' num='1000' />
-		<!-- <sc_cost>2000</sc_cost> -->
+		<cost item="5" num="1000"/>
 		<start_index>1</start_index>
 		<chance_pack>1</chance_pack>
-		<item id='20' order='1' />   <!-- Trophy -->
-		<card id='1{EPIC_CARD_1}' level='1' order='2' />  <!-- {EPIC_CARD_1_COMMENT} -->
-		<card id='1{EPIC_CARD_2}' level='1' order='3' />  <!-- {EPIC_CARD_2_COMMENT} -->
-		<card id='1{EPIC_CARD_3}' level='1' order='4' />  <!-- {EPIC_CARD_3_COMMENT} -->
+		<item id="20" order="1"/>   <!-- Trophy -->
+		<card id="1{EPIC_CARD_1}" level="1" order="2"/>  <!-- {EPIC_CARD_1_COMMENT} -->
+		<card id="1{EPIC_CARD_2}" level="1" order="3"/>  <!-- {EPIC_CARD_2_COMMENT} -->
+		<card id="1{EPIC_CARD_3}" level="1" order="4"/>  <!-- {EPIC_CARD_3_COMMENT} -->
+		<bonus_item id="{STONES_ID}" min="1" max="4"/>
 	</event_box>
