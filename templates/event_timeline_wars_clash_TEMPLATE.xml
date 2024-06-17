@@ -3,7 +3,7 @@
     <id>{EVENT_ID}</id> <!-- HERE -->
     <name>{EVENT_NAME}</name> <!-- HERE -->
     <priority>500</priority>
-    <desc>Compete with your Guild to earn Victory Points! Win wars to climb the ranks, and increase your Guild's total points to compete for exclusive rewards! All enemies start with a Tower card in play.</desc>
+    <desc>Compete with your Guild to earn Victory Points! Win wars to climb the ranks, and increase your Guild's total points to compete for exclusive rewards! All enemies start with a Castle Tower card in play.</desc>
     <guild_event>1</guild_event>
     <clash>
         <name>Guild War Placements</name>
@@ -11,7 +11,7 @@
         <duration>1440</duration>   <!-- 1440 | 1 Day -->
         <max_energy>30</max_energy>
         <reward_desc_label>Your final rankings in the placement will determine your guild's starting rank in the War.</reward_desc_label>
-        <desc>Defeat enemies to increase your guild rank! Your final ranking will determine your guild's starting rank in the war. All enemies start with a Tower card in play. Attacks do not recharge!</desc>
+        <desc>Defeat enemies to increase your guild rank! Your final ranking will determine your guild's starting rank in the war. All enemies start with a Castle Tower card in play. Attacks do not recharge!</desc>
         <banner_prefab>guild_war_placement_banner</banner_prefab>
         <bundle>31</bundle>
         <list_image name='challenge_banner_guild_wars' bundle='116'/>
