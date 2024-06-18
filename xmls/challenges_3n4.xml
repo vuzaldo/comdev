@@ -1876,7 +1876,7 @@
 	
 	<challenge>
 		<id>2048</id>
-		<name>Aether Triumph Clash Challenge 2.0</name>
+		<name>Aether Redux Clash Challenge</name>
 		<desc>Battle to earn stars and rewards! Aether have their Health increased by 40% of the base. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
 		<type>2</type>
 		<portrait>aetherguardian</portrait>
@@ -1905,7 +1905,7 @@
 
 	<challenge>
 		<id>2049</id>
-		<name>Chaos Triumph Clash Challenge 2.0</name>
+		<name>Chaos Redux Clash Challenge</name>
 		<desc>Battle to earn stars and rewards! Chaos have their Attack increased by 25% of the base. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
 		<type>2</type>
 		<portrait>chaosguardian</portrait>
@@ -1934,7 +1934,7 @@
 	
 	<challenge>
 		<id>2050</id>
-		<name>Battlefield Clash Challenge 2.0</name>
+		<name>Battlefield II Clash Challenge</name>
 		<desc>Battle to earn stars and rewards! Empower, Legion, and Berserk have their effects increased by 25%. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
 		<type>2</type>
 		<portrait>ursurioupgrade</portrait>
@@ -1994,7 +1994,7 @@
 	
 	<challenge>
 		<id>2052</id>
-		<name>The Burning Hell Clash Challenge</name>
+		<name>Burning Hell Clash Challenge</name>
 		<desc>Battle to earn stars and rewards! All card gain Scorchbreath equal to thrice their delay. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
 		<type>2</type>
 		<portrait>decimupgrade</portrait>
@@ -2023,18 +2023,18 @@
 	
 	<challenge>
 		<id>2053</id>
-		<name>Powderkeg Clash Challenge 2.0</name>
-		<desc>Battle to earn stars and rewards! All creatures gain Barrage equal to their base Attack. Enemy starts with a Tree of Eternity Tower card in play! Attacks recharge once per day!</desc>
+		<name>Epic Return Challenge</name>
+		<desc>Battle to earn stars and rewards! All Epic cards have their Attack, Health, and all Skills increased by 75%! Freeze and Dualstrike are not affected. Enemy starts with a Castle Tower card in play! Attacks recharge once per day!</desc>
 		<type>2</type>
-		<portrait>skyPirateLadyGoblin</portrait>
+		<portrait>odaupgrade</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name="challenge_banner_clash_powderkeg" bundle="116"/>
+		<list_image name="challenge_banner_raid_fortunesfavor" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
-		<battleground_id>566</battleground_id>
-		<battleground_id>533</battleground_id>
+		<battleground_id>501</battleground_id>
+		<battleground_id>580</battleground_id>
 		<star_req_1>15</star_req_1>
 		<star_req_2>40</star_req_2>
 		<star_req_3>100</star_req_3>
@@ -2079,4 +2079,4 @@
 			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
 		</energy>
 	</challenge>
-</root>
+</root>	

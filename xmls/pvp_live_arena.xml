@@ -1,325 +1,324 @@
-
 <root>
 	<!-- Config vars -->
-<config>
-	<reward_slots>6</reward_slots>
-	<points_icon>111</points_icon>
-	<points_icon_bundle>111</points_icon_bundle>
-	<prefab>111</prefab>
-	<prefab_bundle>111</prefab_bundle>
-	<live_pvp_bge>521</live_pvp_bge>
+	<config>
+		<reward_slots>6</reward_slots>
+		<points_icon>111</points_icon>
+		<points_icon_bundle>111</points_icon_bundle>
+		<prefab>111</prefab>
+		<prefab_bundle>111</prefab_bundle>
+		<live_pvp_bge>521</live_pvp_bge>
 
-	<point_chest>3</point_chest>	<!-- points -->
-	<point_chest_id>101</point_chest_id>	<!-- chest id -->
-	<point_chest_reset_utc_hour>12</point_chest_reset_utc_hour>
-	<point_chest_reset_utc_hour>24</point_chest_reset_utc_hour>
+		<point_chest>3</point_chest> <!-- points -->
+		<point_chest_id>101</point_chest_id> <!-- chest id -->
+		<point_chest_reset_utc_hour>12</point_chest_reset_utc_hour>
+		<point_chest_reset_utc_hour>24</point_chest_reset_utc_hour>
 
-	<!-- How many shards it costs per minute left on a chest to open it -->
-	<chest_unlock_shards_per_minute>0.1</chest_unlock_shards_per_minute>
-</config>
+		<!-- How many shards it costs per minute left on a chest to open it -->
+		<chest_unlock_shards_per_minute>0.1</chest_unlock_shards_per_minute>
+	</config>
 
-<!-- Ranks -->
-<rank>
-	<id>1</id>
-	<image>pvp_badge_1</image>
-	<points>30</points>	<!-- points required to move up a rank -->
-	<cannot_drop_rank>1</cannot_drop_rank>		<!-- once a player reaches this rank, they cannot drop below it -->
-	<gold>10</gold>		<!-- gold gained for defeating a rank 1 player -->
-	<win>10</win>
-	<loss>0</loss>		<!-- points lost on defeat -->
-	<chest_reward>
-		<chest id="1" p="0.91"/>
-		<chest id="2" p="0.3"/>
-	</chest_reward>
-</rank>
-
-
-<!-- Rating Tiers -->
-<rating_tier>
-	<id>1</id>
-	<name>Bronze III</name>
-	<level_string>III</level_string>
-	<min_rating>0</min_rating>
-	<icon name="badge_01" bundle="31"/>
-	<tier_color>CC6633</tier_color>
-	<priority>1</priority>
-	<chests>
-		<chest id="3" p="0.88"/>
-		<chest id="4" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="5" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>2</id>
-	<name>Bronze II</name>
-	<level_string>II</level_string>
-	<min_rating>250</min_rating>
-	<icon name="badge_01" bundle="31"/>
-	<tier_color>CC6633</tier_color>
-	<priority>2</priority>
-	<chests>
-		<chest id="3" p="0.88"/>
-		<chest id="4" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="5" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>3</id>
-	<name>Bronze I</name>
-	<level_string>I</level_string>
-	<min_rating>500</min_rating>
-	<icon name="badge_01" bundle="31"/>
-	<tier_color>CC6633</tier_color>
-	<priority>3</priority>
-	<chests>
-		<chest id="3" p="0.88"/>
-		<chest id="4" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="5" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>4</id>
-	<name>Silver III</name>
-	<level_string>III</level_string>
-	<min_rating>800</min_rating>
-	<icon name="badge_02" bundle="31"/>
-	<tier_color>CCCCCC</tier_color>
-	<priority>4</priority>
-	<chests>
-		<chest id="4" p="0.88"/>
-		<chest id="5" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="6" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>5</id>
-	<name>Silver II</name>
-	<level_string>II</level_string>
-	<min_rating>1000</min_rating>
-	<icon name="badge_02" bundle="31"/>
-	<tier_color>CCCCCC</tier_color>
-	<priority>5</priority>
-	<chests>
-		<chest id="4" p="0.88"/>
-		<chest id="5" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="6" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>6</id>
-	<name>Silver I</name>
-	<level_string>I</level_string>
-	<min_rating>1200</min_rating>
-	<icon name="badge_02" bundle="31"/>
-	<tier_color>CCCCCC</tier_color>
-	<priority>6</priority>
-	<chests>
-		<chest id="4" p="0.88"/>
-		<chest id="5" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="6" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>7</id>
-	<name>Gold III</name>
-	<level_string>III</level_string>
-	<min_rating>1400</min_rating>
-	<icon name="badge_03" bundle="31"/>
-	<tier_color>CC9933</tier_color>
-	<priority>7</priority>
-	<chests>
-		<chest id="5" p="0.88"/>
-		<chest id="6" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="8" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>8</id>
-	<name>Gold II</name>
-	<level_string>II</level_string>
-	<min_rating>1600</min_rating>
-	<icon name="badge_03" bundle="31"/>
-	<tier_color>CC9933</tier_color>
-	<priority>8</priority>
-	<chests>
-		<chest id="5" p="0.88"/>
-		<chest id="6" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="8" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>9</id>
-	<name>Gold I</name>
-	<level_string>I</level_string>
-	<min_rating>1700</min_rating>
-	<icon name="badge_03" bundle="31"/>
-	<tier_color>CC9933</tier_color>
-	<priority>9</priority>
-	<chests>
-		<chest id="5" p="0.88"/>
-		<chest id="6" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="8" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>10</id>
-	<name>Platinum III</name>
-	<level_string>III</level_string>
-	<min_rating>1800</min_rating>
-	<icon name="badge_04" bundle="31"/>
-	<tier_color>E5E4E2</tier_color>
-	<priority>10</priority>
-	<chests>
-		<chest id="6" p="0.88"/>
-		<chest id="8" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="7" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>11</id>
-	<name>Platinum II</name>
-	<level_string>II</level_string>
-	<min_rating>1900</min_rating>
-	<icon name="badge_04" bundle="31"/>
-	<tier_color>E5E4E2</tier_color>
-	<priority>11</priority>
-	<chests>
-		<chest id="6" p="0.88"/>
-		<chest id="8" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="7" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>12</id>
-	<name>Platinum I</name>
-	<level_string>I</level_string>
-	<min_rating>2000</min_rating>
-	<icon name="badge_04" bundle="31"/>
-	<tier_color>E5E4E2</tier_color>
-	<priority>12</priority>
-	<chests>
-		<chest id="6" p="0.88"/>
-		<chest id="8" p="0.10" n="10" drop_type="4" drop_id="1"/>
-		<chest id="7" p="0.02" n="50" drop_type="4" drop_id="2"/>
-	</chests>
-</rating_tier>
-<rating_tier>
-	<id>13</id>
-	<name>Ruby</name>
-	<level_string/>
-	<min_rating>99999999</min_rating>
-	<icon name="badge_05" bundle="31"/>
-	<tier_color>9B111E</tier_color>
-	<priority>13</priority>
-	<chests>
-		<chest id="8" p="0.90"/>
-		<chest id="7" p="0.10" n="10" drop_type="4" drop_id="1"/>
-	</chests>
-</rating_tier>
+	<!-- Ranks -->
+	<rank>
+		<id>1</id>
+		<image>pvp_badge_1</image>
+		<points>30</points> <!-- points required to move up a rank -->
+		<cannot_drop_rank>1</cannot_drop_rank> <!-- once a player reaches this rank, they cannot drop below it -->
+		<gold>10</gold> <!-- gold gained for defeating a rank 1 player -->
+		<win>10</win>
+		<loss>0</loss> <!-- points lost on defeat -->
+		<chest_reward>
+			<chest id="1" p="0.91"/>
+			<chest id="2" p="0.3"/>
+		</chest_reward>
+	</rank>
 
 
+	<!-- Rating Tiers -->
+	<rating_tier>
+		<id>1</id>
+		<name>Bronze III</name>
+		<level_string>III</level_string>
+		<min_rating>0</min_rating>
+		<icon name="badge_01" bundle="31"/>
+		<tier_color>CC6633</tier_color>
+		<priority>1</priority>
+		<chests>
+			<chest id="3" p="0.88"/>
+			<chest id="4" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="5" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>2</id>
+		<name>Bronze II</name>
+		<level_string>II</level_string>
+		<min_rating>250</min_rating>
+		<icon name="badge_01" bundle="31"/>
+		<tier_color>CC6633</tier_color>
+		<priority>2</priority>
+		<chests>
+			<chest id="3" p="0.88"/>
+			<chest id="4" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="5" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>3</id>
+		<name>Bronze I</name>
+		<level_string>I</level_string>
+		<min_rating>500</min_rating>
+		<icon name="badge_01" bundle="31"/>
+		<tier_color>CC6633</tier_color>
+		<priority>3</priority>
+		<chests>
+			<chest id="3" p="0.88"/>
+			<chest id="4" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="5" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>4</id>
+		<name>Silver III</name>
+		<level_string>III</level_string>
+		<min_rating>800</min_rating>
+		<icon name="badge_02" bundle="31"/>
+		<tier_color>CCCCCC</tier_color>
+		<priority>4</priority>
+		<chests>
+			<chest id="4" p="0.88"/>
+			<chest id="5" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="6" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>5</id>
+		<name>Silver II</name>
+		<level_string>II</level_string>
+		<min_rating>1000</min_rating>
+		<icon name="badge_02" bundle="31"/>
+		<tier_color>CCCCCC</tier_color>
+		<priority>5</priority>
+		<chests>
+			<chest id="4" p="0.88"/>
+			<chest id="5" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="6" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>6</id>
+		<name>Silver I</name>
+		<level_string>I</level_string>
+		<min_rating>1200</min_rating>
+		<icon name="badge_02" bundle="31"/>
+		<tier_color>CCCCCC</tier_color>
+		<priority>6</priority>
+		<chests>
+			<chest id="4" p="0.88"/>
+			<chest id="5" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="6" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>7</id>
+		<name>Gold III</name>
+		<level_string>III</level_string>
+		<min_rating>1400</min_rating>
+		<icon name="badge_03" bundle="31"/>
+		<tier_color>CC9933</tier_color>
+		<priority>7</priority>
+		<chests>
+			<chest id="5" p="0.88"/>
+			<chest id="6" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="8" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>8</id>
+		<name>Gold II</name>
+		<level_string>II</level_string>
+		<min_rating>1600</min_rating>
+		<icon name="badge_03" bundle="31"/>
+		<tier_color>CC9933</tier_color>
+		<priority>8</priority>
+		<chests>
+			<chest id="5" p="0.88"/>
+			<chest id="6" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="8" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>9</id>
+		<name>Gold I</name>
+		<level_string>I</level_string>
+		<min_rating>1700</min_rating>
+		<icon name="badge_03" bundle="31"/>
+		<tier_color>CC9933</tier_color>
+		<priority>9</priority>
+		<chests>
+			<chest id="5" p="0.88"/>
+			<chest id="6" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="8" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>10</id>
+		<name>Platinum III</name>
+		<level_string>III</level_string>
+		<min_rating>1800</min_rating>
+		<icon name="badge_04" bundle="31"/>
+		<tier_color>E5E4E2</tier_color>
+		<priority>10</priority>
+		<chests>
+			<chest id="6" p="0.88"/>
+			<chest id="8" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="7" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>11</id>
+		<name>Platinum II</name>
+		<level_string>II</level_string>
+		<min_rating>1875</min_rating>
+		<icon name="badge_04" bundle="31"/>
+		<tier_color>E5E4E2</tier_color>
+		<priority>11</priority>
+		<chests>
+			<chest id="6" p="0.88"/>
+			<chest id="8" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="7" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>12</id>
+		<name>Platinum I</name>
+		<level_string>I</level_string>
+		<min_rating>1950</min_rating>
+		<icon name="badge_04" bundle="31"/>
+		<tier_color>E5E4E2</tier_color>
+		<priority>12</priority>
+		<chests>
+			<chest id="6" p="0.88"/>
+			<chest id="8" p="0.10" n="10" drop_type="4" drop_id="1"/>
+			<chest id="7" p="0.02" n="50" drop_type="4" drop_id="2"/>
+		</chests>
+	</rating_tier>
+	<rating_tier>
+		<id>13</id>
+		<name>Ruby</name>
+		<level_string/>
+		<min_rating>99999999</min_rating>
+		<icon name="badge_05" bundle="31"/>
+		<tier_color>9B111E</tier_color>
+		<priority>13</priority>
+		<chests>
+			<chest id="8" p="0.90"/>
+			<chest id="7" p="0.10" n="10" drop_type="4" drop_id="1"/>
+		</chests>
+	</rating_tier>
 
-<!-- Old Reward Chests -->
-<chest>
-	<id>1</id>
-	<name>Legacy Basic Chest</name>
-	<duration>10800</duration>
-	<asset_prefab>LivePvPChest_Silver</asset_prefab>
-	<bundle>31</bundle>
-	<hidden>1</hidden>
-	<rewards>
-		<gold>10</gold>
-		<pack>1</pack>
-		<pack>84</pack>
-		<item id="5" min_number="10" max_number="17"/>
-	</rewards>
-</chest>
-<chest>
-	<id>2</id>
-	<name>Legacy Super Chest</name>
-	<duration>21600</duration>
-	<asset_prefab>LivePvPChest_Gold</asset_prefab>
-	<bundle>31</bundle>
-	<hidden>1</hidden>
-	<rewards>
-		<pack>2</pack>
-		<pack>85</pack>
-		<item id="5" min_number="30" max_number="45"/>
-	</rewards>
-</chest> 
 
-<!-- Current Reward Chests -->
-<chest>
-	<id>3</id>
-	<name>Bronze Chest</name>
-	<duration>14400</duration>
-	<asset_prefab>PvPChest_01</asset_prefab>
-	<bundle>31</bundle>
-	<rewards>
-		<pack>4101</pack>
-		<item id="5" min_number="25" max_number="50"/>
-		<item id="2524" min_number="2" max_number="4"/>
-	</rewards>
-</chest>
-<chest>
-	<id>4</id>
-	<name>Silver Chest</name>
-	<duration>14400</duration>
-	<asset_prefab>PvPChest_02</asset_prefab>
-	<bundle>31</bundle>
-	<rewards>
-		<pack>4102</pack>
-		<item id="5" min_number="35" max_number="60"/>
-		<item id="2524" min_number="3" max_number="6"/>
-	</rewards>
-</chest>
-<chest>
-	<id>5</id>
-	<name>Gold Chest</name>
-	<duration>14400</duration>
-	<asset_prefab>PvPChest_03</asset_prefab>
-	<bundle>31</bundle>
-	<rewards>
-		<pack>4103</pack>
-		<item id="5" min_number="50" max_number="80"/>
-		<item id="2524" min_number="4" max_number="8"/>
-	</rewards>
-</chest>
-<chest>
-	<id>6</id>
-	<name>Platinum Chest</name>
-	<duration>14400</duration>
-	<asset_prefab>PvPChest_04</asset_prefab>
-	<bundle>31</bundle>
-	<rewards>
-		<pack>4104</pack>
-		<item id="5" min_number="70" max_number="100"/>
-		<item id="2524" min_number="6" max_number="12"/>
-	</rewards>
-</chest>
-<chest>
-	<id>8</id>
-	<name>Ruby Chest</name>
-	<duration>14400</duration>
-	<asset_prefab>PvPChest_06</asset_prefab>
-	<bundle>31</bundle>
-	<rewards>
-		<pack>4106</pack>
-		<item id="5" min_number="90" max_number="120"/>
-		<item id="2524" min_number="12" max_number="20"/>
-	</rewards>
-</chest>
-<chest>
-	<id>7</id>
-	<name>Diamond Chest</name>
-	<duration>14400</duration>
-	<asset_prefab>PvPChest_05</asset_prefab>
-	<bundle>31</bundle>
-	<rewards>
-		<pack>4105</pack>
-		<item id="5" min_number="300" max_number="600"/>
-		<item id="2524" min_number="25" max_number="50"/>
-	</rewards>
-</chest>
+
+	<!-- Old Reward Chests -->
+	<chest>
+		<id>1</id>
+		<name>Legacy Basic Chest</name>
+		<duration>10800</duration>
+		<asset_prefab>LivePvPChest_Silver</asset_prefab>
+		<bundle>31</bundle>
+		<hidden>1</hidden>
+		<rewards>
+			<gold>10</gold>
+			<pack>1</pack>
+			<pack>84</pack>
+			<item id="5" min_number="10" max_number="17"/>
+		</rewards>
+	</chest>
+	<chest>
+		<id>2</id>
+		<name>Legacy Super Chest</name>
+		<duration>21600</duration>
+		<asset_prefab>LivePvPChest_Gold</asset_prefab>
+		<bundle>31</bundle>
+		<hidden>1</hidden>
+		<rewards>
+			<pack>2</pack>
+			<pack>85</pack>
+			<item id="5" min_number="30" max_number="45"/>
+		</rewards>
+	</chest>
+
+	<!-- Current Reward Chests -->
+	<chest>
+		<id>3</id>
+		<name>Bronze Chest</name>
+		<duration>14400</duration>
+		<asset_prefab>PvPChest_01</asset_prefab>
+		<bundle>31</bundle>
+		<rewards>
+			<pack>4101</pack>
+			<item id="5" min_number="25" max_number="50"/>
+			<item id="2524" min_number="2" max_number="4"/>
+		</rewards>
+	</chest>
+	<chest>
+		<id>4</id>
+		<name>Silver Chest</name>
+		<duration>14400</duration>
+		<asset_prefab>PvPChest_02</asset_prefab>
+		<bundle>31</bundle>
+		<rewards>
+			<pack>4102</pack>
+			<item id="5" min_number="35" max_number="60"/>
+			<item id="2524" min_number="3" max_number="6"/>
+		</rewards>
+	</chest>
+	<chest>
+		<id>5</id>
+		<name>Gold Chest</name>
+		<duration>14400</duration>
+		<asset_prefab>PvPChest_03</asset_prefab>
+		<bundle>31</bundle>
+		<rewards>
+			<pack>4103</pack>
+			<item id="5" min_number="50" max_number="80"/>
+			<item id="2524" min_number="4" max_number="8"/>
+		</rewards>
+	</chest>
+	<chest>
+		<id>6</id>
+		<name>Platinum Chest</name>
+		<duration>14400</duration>
+		<asset_prefab>PvPChest_04</asset_prefab>
+		<bundle>31</bundle>
+		<rewards>
+			<pack>4104</pack>
+			<item id="5" min_number="70" max_number="100"/>
+			<item id="2524" min_number="6" max_number="12"/>
+		</rewards>
+	</chest>
+	<chest>
+		<id>8</id>
+		<name>Ruby Chest</name>
+		<duration>14400</duration>
+		<asset_prefab>PvPChest_06</asset_prefab>
+		<bundle>31</bundle>
+		<rewards>
+			<pack>4106</pack>
+			<item id="5" min_number="90" max_number="120"/>
+			<item id="2524" min_number="12" max_number="20"/>
+		</rewards>
+	</chest>
+	<chest>
+		<id>7</id>
+		<name>Diamond Chest</name>
+		<duration>14400</duration>
+		<asset_prefab>PvPChest_05</asset_prefab>
+		<bundle>31</bundle>
+		<rewards>
+			<pack>4105</pack>
+			<item id="5" min_number="300" max_number="600"/>
+			<item id="2524" min_number="25" max_number="50"/>
+		</rewards>
+	</chest>
 
 </root>
