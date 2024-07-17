@@ -499,7 +499,7 @@
 		<category>2</category>
 		<icon>rune_empty_legendary_LG</icon>
 		<bundle>34</bundle>
-		<desc>Choice of 1 of 4 random Legendary Runes from: Health; Barrier All, Bolt All, Empower All, Enrage All, Heal All, Hex All, Weaken All; Armor, Berserk, Empower, Fervor, Poison, Scorch, Vengeance.</desc>
+		<desc>Choice of 1 of 4 random Legendary Runes from: Health; Barrier All, Bolt All, Empower All, Heal All, Hex All, Weaken All; Armor, Berserk, Empower, Frostbreath, Poison, Scorch, Vengeance, Ward.</desc>
 		<disable_multi_craft>1</disable_multi_craft>
 		<choice id="1">
 			<rune_drop rarity="4" p="1" set="1"/>
@@ -526,7 +526,7 @@
 		<category>2</category>
 		<icon>rune_empty_legendary_LG</icon>
 		<bundle>34</bundle>
-		<desc>Choice of 1 of 4 random Legendary Runes from: (Single target) Barrier, Bolt, Heal, Hex, Weaken; Corrosion, Daze, Frostbreath, Invisibility, Legion, Nullify, Siphon, Valor, Ward.</desc>
+		<desc>Choice of 1 of 4 random Legendary Runes from: (Single target) Barrier, Bolt, Heal, Hex, Weaken; Corrosion, Daze, Enrage All, Fervor, Invisibility, Legion, Nullify, Siphon, Valor.</desc>
 		<disable_multi_craft>1</disable_multi_craft>
 		<choice id="1">
 			<rune_drop rarity="4" p="1" set="3"/>
@@ -572,17 +572,6 @@
 		<unlock_req item_id="8009"/>
 		<give_pack id="89"/>
 		<item_req id="19" number="100"/>
-	</recipe>
-
-	<recipe>
-		<id>3003</id>
-		<name>Chaos Djinn to Tyrannical Kalyt Flask Trade</name>
-		<category>3</category>
-		<icon>Flask_Chaos</icon>
-		<bundle>17</bundle>
-		<unlock_req item_id="2596"/>
-		<give_item id="2588" number="1"/>
-		<item_req id="2596" number="1"/>
 	</recipe>
 
 	<recipe>

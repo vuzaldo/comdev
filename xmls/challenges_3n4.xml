@@ -2052,8 +2052,37 @@
 
 	<challenge>
 		<id>2054</id>
+		<name>Eternal Barrage Clash Challenge</name>
+		<desc>Battle to earn stars and rewards! All creatures gain Barrage equal to their base Attack. Enemy starts with a Tree of Eternity Tower card in play! Attacks recharge once per day!</desc>
+		<type>2</type>
+		<portrait>skyPirateLadyGoblin</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name="challenge_banner_clash_powderkeg" bundle="116"/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>566</battleground_id>
+		<battleground_id>533</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2055</id>
 		<name>Guild Clash Practice Challenge</name>
-		<desc>Practice for the Guild Clash to earn stars and rewards! AAll enemies start with a Swarming Tower card. Current global BGEs also active. Attacks recharge once per day!</desc>
+		<desc>Practice for the Guild Clash to earn stars and rewards! All enemies start with a Swarming Tower card. Current global BGEs also active. Attacks recharge once per day!</desc>
 		<type>2</type>
 		<portrait>Portrait_Knight_001</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
@@ -2062,8 +2091,8 @@
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
-		<battleground_id>180</battleground_id>
 		<battleground_id>181</battleground_id>
+		<battleground_id>182</battleground_id>
 		<battleground_id>568</battleground_id>
 		<star_req_1>15</star_req_1>
 		<star_req_2>40</star_req_2>
@@ -2079,4 +2108,4 @@
 			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
 		</energy>
 	</challenge>
-</root>	
+</root>

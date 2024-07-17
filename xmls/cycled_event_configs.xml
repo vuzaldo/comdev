@@ -1008,6 +1008,23 @@
 		</event_reward>
 	</config>
 
+	<config>
+		<!-- Eternal Barrage  -->
+		<config_id>2054</config_id>
+		<challenge>2054</challenge>
+		<type>11</type>
+		<exclude_cycles>10</exclude_cycles>
+		<claim_delay>5</claim_delay>
+		<event_reward>
+			<desc>Complete the Challenge at Rank 1 or higher.</desc>
+			<tier>1</tier>
+			<req>
+				<min_rank>100</min_rank>
+			</req>
+			<item id="4" quantity="100" order="1"/>
+		</event_reward>
+	</config>
+
 	<!-- ================================ -->
 	<!-- ===== Event Reward Configs ===== -->
 	<!-- ================================ -->
