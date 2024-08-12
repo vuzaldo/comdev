@@ -682,6 +682,15 @@ const autoSelectEventOptions = {
 	116: { tribe: 'Undead', map: 'Red Feather Valley' },
 	117: { tribe: 'Insect', map: 'Red Feather Valley' },
 	118: { tribe: 'Elemental', map: 'Red Feather Valley' },
+	119: { tribe: 'Angel', map: 'Red Feather Valley' },
+	120: { tribe: 'Goblin', map: 'Red Feather Valley' },
+	121: { tribe: 'Seafolk', map: 'Red Feather Valley' },
+	122: { tribe: 'Frog', map: 'Red Feather Valley' },
+	123: { tribe: 'Beast' },
+	124: { tribe: 'Mecha' },
+	125: { tribe: 'Dragon' },
+	126: { tribe: 'Avian' },
+	127: { tribe: 'Undead' },
 };
 
 function findSelectorOption(selector, option) {
