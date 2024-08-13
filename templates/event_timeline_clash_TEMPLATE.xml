@@ -285,7 +285,7 @@
 <event>
   <id>{EVENT_NEXT_ID}</id> <!-- HERE -->
   <name>{EVENT_NAME_2}</name> <!-- HERE -->
-  <desc>Defeat tough enemies to earn stars and rewards with your guild! All enemies start with a {TOWER_TYPE} card in play! Attack recharges stop 11 hours before event end!</desc>
+  <desc>Defeat tough enemies to earn stars and rewards with your guild! All enemies start with a {TOWER_TYPE} card in play! Attack recharges stop 36 hours before event end!</desc>
   <type>4</type>
   <priority>300</priority>
   <guild_event>1</guild_event>
@@ -300,12 +300,12 @@
     <banner_prefab>guild_clash_banner</banner_prefab>
     <bundle>31</bundle>
   <start_time>{START_TIME_2}</start_time>         <!-- {START_TIME_COMMENT_2} --> <!-- HERE -->
-  <recharge_duration>3660</recharge_duration>     <!-- 3660 | 2 Days 13 Hours -->
+  <recharge_duration>2160</recharge_duration>     <!-- 2160 | 1 Day 12 Hours -->
   <tracking_duration>4320</tracking_duration>     <!-- 4320 | 3 Days -->
   <claim_delay>5</claim_delay>
   <end_duration>8640</end_duration>         <!-- 8640 | 6 Days -->
-  <max_energy>60</max_energy>
-  <starting_energy>20</starting_energy>
+  <max_energy>142</max_energy>
+  <starting_energy>70</starting_energy>
   <recharge_time>1800</recharge_time>
   <view_action>1</view_action>
   <mission_req>64</mission_req>
