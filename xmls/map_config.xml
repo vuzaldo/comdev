@@ -218,7 +218,7 @@
 		<preview name="Map_Banner_EventMap_010" bundle="102"/>
 		<unlock_time>1532624400</unlock_time> <!-- Thu, July 26 2018 17:00:00 -->
 		<asset_bundle>48</asset_bundle>
-		<req>24</req>
+		<req>-1</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -231,7 +231,7 @@
 		<preview name="Map_Banner_CreepyCorruptedForest" bundle="102"/>
 		<unlock_time>1537462800</unlock_time> <!-- Thu, Sept 20 2018 17:00:00 -->
 		<asset_bundle>139</asset_bundle>
-		<req>24</req>
+		<req>-1</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -244,7 +244,7 @@
 		<preview name="Map_Banner_EventMap_002" bundle="102"/>
 		<unlock_time>1542301200</unlock_time> <!-- Thu, Nov 15 2018 17:00:00 -->
 		<asset_bundle>14</asset_bundle>
-		<req>24</req>
+		<req>-1</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -257,7 +257,7 @@
 		<preview name="Map_Banner_FallenAngelGladiator" bundle="102"/>
 		<unlock_time>1547139600</unlock_time> <!-- Thu, Jan 10 2019 17:00:00 -->
 		<asset_bundle>139</asset_bundle>
-		<req>-1</req>
+		<req>24</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -270,7 +270,7 @@
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_Duskwillow_02" bundle="102"/>
 		<unlock_time>1551978000</unlock_time>	<!-- Thu, 07 March 2019 17:00:00 GMT -->
-		<req>-1</req>
+		<req>24</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -283,7 +283,7 @@
 		<combatBG>CombatBGVoid</combatBG>
 		<preview name="Map_Banner_Beetleton_Bunker_B" bundle="102"/>
 		<unlock_time>1556816400</unlock_time> <!-- Thu, 02 May 2019 17:00:00 -->
-		<req>-1</req>
+		<req>24</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
@@ -475,137 +475,17 @@
 	<!-- ============================= -->
 
 	<location>
-		<id>100</id>
-		<name>Salt Wastes</name>
-		<mapBG>EventMap_001</mapBG>
-		<asset_bundle>14</asset_bundle>
+		<id>99</id>
+		<name>Campaign Archive</name>
+		<mapBG>map4</mapBG>
+		<asset_bundle>4</asset_bundle>
 		<combatBG>CombatBGVoid</combatBG>
 		<req>-1</req>
 		<arena_x>250</arena_x>
 		<arena_y>150</arena_y>
 	</location>
-
-	<location>
-		<id>101</id>
-		<name>Tarragon Peak</name>
-		<mapBG>EventMap_002</mapBG>
-		<combatBG>CombatBGEvent002</combatBG>
-		<asset_bundle>14</asset_bundle>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>102</id>
-		<name>The Celestial Vault</name>
-		<mapBG>EventMap_003</mapBG>
-		<combatBG>CombatBGEvent003</combatBG>
-		<asset_bundle>14</asset_bundle>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>103</id>
-		<name>Dawnglow Swamp</name>
-		<mapBG>EventMap_004</mapBG>
-		<combatBG>CombatBGEvent004</combatBG>
-		<asset_bundle>29</asset_bundle>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>104</id>
-		<name>Frigore</name>
-		<mapBG>EventMap_006</mapBG>
-		<combatBG>CombatBGEvent006</combatBG>
-		<asset_bundle>29</asset_bundle>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>105</id>
-		<name>Center of The Void</name>
-		<mapBG>EventMap_007</mapBG>
-		<combatBG>CombatBGVoid</combatBG>
-		<asset_bundle>44</asset_bundle>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>106</id>
-		<name>Skyhaven</name>
-		<mapBG>EventMap_008</mapBG>
-		<combatBG>CombatBGEvent008</combatBG>
-		<asset_bundle>44</asset_bundle>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>107</id>
-		<name>Golden Crown Village</name>
-		<mapBG>EventMap_010</mapBG>
-		<asset_bundle>48</asset_bundle>
-		<combatBG>CombatBGEvent004</combatBG>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>108</id>
-		<name>Gloomy Land</name>
-		<mapBG>EventMap_AprilFools_001</mapBG>
-		<combatBG>CombatBGAprilFools_001</combatBG>
-		<asset_bundle>52</asset_bundle>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>109</id>
-		<name>Red Feather Valley</name>
-		<mapBG>Map_RedFeatherValley</mapBG>
-		<asset_bundle>54</asset_bundle>
-		<combatBG>CombatBGRedFeatherValley</combatBG>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>110</id>
-		<name>Beetleton Bunker</name>
-		<mapBG>Map_Beetleton_Bunker</mapBG>
-		<asset_bundle>66</asset_bundle>
-		<combatBG>CombatBGVoid</combatBG>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
-	<location>
-		<id>111</id>
-		<name>Goblin Rise Stronghold</name>
-		<mapBG>Map_Goblin_Fortress</mapBG>
-		<asset_bundle>66</asset_bundle>
-		<combatBG>CombatBGVoid</combatBG>
-		<req>-1</req>
-		<arena_x>250</arena_x>
-		<arena_y>150</arena_y>
-	</location>
-
+	
+	<!-- 100-118: Old maps removed. See old versions for archive. -->
 
 	<!-- ======================== -->
 	<!-- ====== RIVAL MAPS ====== -->

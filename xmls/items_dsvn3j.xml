@@ -113,34 +113,6 @@
 	</item>
 
 	<item>
-		<id>14</id>
-		<name>Vintage Rare Pack</name>
-		<icon>icon_green_crystal_lg</icon>
-		<desc>Gives two cards from the original Standard Set with one guaranteed Rare or higher.</desc>
-		<give_pack>41</give_pack>
-		<auto_use>1</auto_use> <!-- automatically use this on init -->
-		<decay_time>1721322000</decay_time> <!-- Thu, 18 Jul 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>15</id>
-		<name>Vintage Epic Pack</name>
-		<icon>icon_blue_crystal_lg</icon>
-		<desc>Gives four cards from the original Standard Set with one guaranteed Epic or higher.</desc>
-		<give_pack>42</give_pack>
-		<auto_use>1</auto_use> <!-- automatically use this on init -->
-		<decay_time>1721322000</decay_time> <!-- Thu, 18 Jul 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>16</id>
-		<name>Vintage Legendary Pack</name>
-		<icon>icon_purple_crystal_lg</icon>
-		<desc>Gives four cards from the original Standard Set with one guaranteed Legendary.</desc>
-		<give_pack>43</give_pack>
-		<auto_use>1</auto_use> <!-- automatically use this on init -->
-		<decay_time>1721322000</decay_time> <!-- Thu, 18 Jul 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
 		<id>17</id>
 		<name>Epic Pack Fragment</name>
 		<icon>epic_spellstone_shard_100</icon>
@@ -423,36 +395,6 @@
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
-		<id>524</id> <!-- 2017 Tier 1 -->
-		<name>Elemental Epic Pack</name>
-		<icon>epic_elemental_pack_icon</icon>
-		<bundle>58</bundle>
-		<desc>A random Epic+ Elemental card from Premium Set as a special thank you gift for players who have supported Spellstone!</desc>
-		<give_pack>3055</give_pack>
-		<auto_use>1</auto_use> <!-- automatically use this on init -->
-		<decay_time>1721322000</decay_time> <!-- Thu, 18 Jul 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>525</id> <!-- 2017 Tier 2 -->
-		<name>Dual Elemental Epic Pack</name>
-		<icon>epic_elemental_pack_icon</icon>
-		<bundle>58</bundle>
-		<desc>Two copies of a random Epic+ Elemental card from Premium Set as a special thank you gift for players who have supported Spellstone!</desc>
-		<give_pack>3054</give_pack>
-		<auto_use>1</auto_use> <!-- automatically use this on init -->
-		<decay_time>1721322000</decay_time> <!-- Thu, 18 Jul 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>526</id> <!-- 2017 Tier 3 -->
-		<name>Quadra Elemental Epic Pack</name>
-		<icon>epic_elemental_pack_icon</icon>
-		<bundle>58</bundle>
-		<desc>Four copies of a random Epic+ Elemental card from Premium Set as a special thank you gift for players who have supported Spellstone!</desc>
-		<give_pack>3031</give_pack>
-		<auto_use>1</auto_use> <!-- automatically use this on init -->
-		<decay_time>1721322000</decay_time> <!-- Thu, 18 Jul 2024, 17:00:00 GMT -->
-	</item>
-	<item>
 		<id>527</id>
 		<name>Random Epic Rune</name>
 		<icon>rune_empty_epic</icon>
@@ -508,25 +450,6 @@
 		</choice>
 		<choice id="4">
 			<item id="536" quantity="1"/> <!-- 500 Stones for Random Premium Champion -->
-		</choice>
-	</item>
-	<item>
-		<id>532</id>
-		<name>Special Event Mystery Package</name>
-		<icon>package</icon>
-		<desc>A choice of either a random premium Quad Legendary card, a random Tribe Health rune, or 500 Stones for a random Champion.</desc>
-		<decay_time>1721322000</decay_time> <!-- Thu, 18 Jul 2024, 17:00:00 GMT -->
-		<choice id="1">
-			<pack>3108</pack> <!-- Random Premium Quad Legendary -->
-		</choice>
-		<choice id="2">
-			<pack>80</pack> <!-- Random Tribe Health Rune -->
-		</choice>
-		<choice id="3">
-			<pack>98</pack> <!-- 500 Stones for Random Reward Champion -->
-		</choice>
-		<choice id="4">
-			<pack>99</pack> <!-- 500 Stones for Random Premium Champion -->
 		</choice>
 	</item>
 
@@ -757,17 +680,6 @@
 		<desc>Collect 40 Souls and combine them to create a random card from Standard set.</desc>
 		<consume>40</consume>
 		<give_pack>2</give_pack>
-	</item>
-
-	<item>
-		<id>2502</id>
-		<name>Dragon Pack</name>
-		<icon>Tepid_Dragon_Egg_01</icon>
-		<bundle>16</bundle>
-		<desc>Gives two Dragon cards, both guaranteed Rare or higher.</desc>
-		<give_pack>21</give_pack>
-		<auto_use>1</auto_use> <!-- automatically use this on init -->
-		<decay_time>1721322000</decay_time> <!-- Thu, 18 Jul 2024, 17:00:00 GMT -->
 	</item>
 
 	<item>
@@ -8322,10 +8234,11 @@
 		<rarity>3</rarity>
 		<icon>rune_daze_epic</icon>
 		<bundle>34</bundle>
-		<desc>Daze +2</desc>
+		<!-- <desc>Daze +2</desc> -->
+		<desc>Rune disabled during Cupid&apos;s Legions BGE.</desc>
 		<usable>0</usable>
 		<stat_boost>
-			<skill id="daze" x="2"/>
+			<!-- <skill id="daze" x="2"/> -->
 		</stat_boost>
 	</item>
 	<item>
@@ -8337,10 +8250,11 @@
 		<rarity>4</rarity>
 		<icon>rune_daze_legendary</icon>
 		<bundle>34</bundle>
-		<desc>Daze +50%, rounded up. Minimum +3. Health +15%, rounded up.</desc>
+		<!-- <desc>Daze +50%, rounded up. Minimum +3. Health +15%, rounded up.</desc> -->
+		<desc>Daze bonus disabled during Cupid&apos;s Legions BGE. Health +15%, rounded up.</desc>
 		<usable>0</usable>
 		<stat_boost>
-			<skill id="daze" mult="0.5" min_bonus="3"/>
+			<!-- <skill id="daze" mult="0.5" min_bonus="3"/> -->
 			<health mult="0.15"/>
 		</stat_boost>
 	</item>

@@ -2080,9 +2080,9 @@
 	</challenge>
 
 	<challenge>
-		<id>2055</id>
+		<id>2056</id>
 		<name>Guild Clash Practice Challenge</name>
-		<desc>Practice for the Guild Clash to earn stars and rewards! All enemies start with a Swarming Tower card. Current global BGEs also active. Attacks recharge once per day!</desc>
+		<desc>Practice for the Guild Clash to earn stars and rewards! Same battleground conditions as Guild Clash including current active global effects. All attacks are available for the start!</desc>
 		<type>2</type>
 		<portrait>Portrait_Knight_001</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
@@ -2091,19 +2091,21 @@
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
-		<battleground_id>181</battleground_id>
 		<battleground_id>182</battleground_id>
-		<battleground_id>568</battleground_id>
+		<battleground_id>183</battleground_id>
+		<battleground_id>501</battleground_id>
+		<battleground_id>502</battleground_id>
+		<battleground_id>573</battleground_id>
 		<star_req_1>15</star_req_1>
 		<star_req_2>40</star_req_2>
 		<star_req_3>100</star_req_3>
 		<energy>
 			<display_name>Challenge Energy</display_name>
-			<start_value>15</start_value>	<!-- Starting energy -->
-			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<start_value>45</start_value>	<!-- Starting energy -->
+			<recharge_amount>1</recharge_amount>	<!-- Amount to recharge per recharge -->
 			<max_value>45</max_value>				<!-- Maximum Energy -->
 			<recharge_start_time>1719255600</recharge_start_time>	<!-- Monday, 24 June 2024 19:00:00 -->
-			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<recharge_time>259200</recharge_time>	<!-- 259200 | 3 Days | How often to recharge in seconds -->
 			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
 			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
 		</energy>

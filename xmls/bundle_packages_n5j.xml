@@ -777,8 +777,8 @@
 		<id>526</id>
 		<name>Dual Angel Shard Bundle</name>
 		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFAngel card and much more! May be purchased 4 times!</desc>
-		<asset_prefab>angel_legendary_crystal</asset_prefab>
-		<bundle>49</bundle>
+		<asset_prefab>angel_crystal_legendary</asset_prefab>
+		<bundle>46</bundle>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3106</pack>
@@ -1551,18 +1551,18 @@
 	<package>
 		<id>575</id>
 		<name>Premium Champion Guild Bundle</name>
-		<desc>Gives 700 Shards. You and everyone in your guild recives 100 ^cE7FFNophora Stones^cFFFF!</desc>
+		<desc>Gives 700 Shards. You and everyone in your guild receives 100 ^cE7FFSkids Stones^cFFFF!</desc>
 		<asset_prefab>legendary_crystal_guild</asset_prefab>
 		<bundle>30</bundle>
-		<background_prefab>event_91_weaponhoarder_banner</background_prefab>
-		<background_bundle>249</background_bundle>
+		<background_prefab>event_103_skliches_banner</background_prefab>
+		<background_bundle>273</background_bundle>
 		<priority>300</priority>
 		<!-- Stuff to give -->
 		<tokens>700</tokens>
-		<item id="106622" number="100"/>
+		<item id="106631" number="100"/>
 		<guild_bonus>
 			<duration>259200</duration>
-			<item id="106622" number="100"/>
+			<item id="106631" number="100"/>
 		</guild_bonus>
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
@@ -1571,7 +1571,7 @@
 	<package>
 		<id>577</id>
 		<name>Premium Champion Guild Bundle</name>
-		<desc>Gives 700 Shards. You and everyone in your guild recives 100 ^cE7FFRemi Stones^cFFFF!</desc>
+		<desc>Gives 700 Shards. You and everyone in your guild receives 100 ^cE7FFRemi Stones^cFFFF!</desc>
 		<asset_prefab>legendary_crystal_guild</asset_prefab>
 		<bundle>30</bundle>
 		<background_prefab>event_94_remibipolar_banner</background_prefab>
@@ -1593,13 +1593,13 @@
 	<package>
 		<id>578</id>
 		<name>Champion Trove</name>
-		<desc>Gives 100 ^cE7FFEntangled Insect Flasks^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 200 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<desc>Gives 100 ^cE7FFTriangelis Stones^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 200 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
 		<num_available>1</num_available>
 		<!-- Stuff to give -->
-		<item id="2820" number="100"/> <!-- Stone -->
+		<item id="104088" number="100"/> <!-- Stone -->
 		<item id="2001" number="25"/> <!-- Arcane Fragment -->
 		<item id="1004" number="10"/> <!-- Energy +20 -->
 		<item id="4001" number="50"/> <!-- Inscription Powder -->
@@ -1611,13 +1611,13 @@
 	<package>
 		<id>579</id>
 		<name>Large Champion Trove</name>
-		<desc>Gives 300 ^cE7FFEntangled Insect Flasks^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 400 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<desc>Gives 300 ^cE7FFTriangelis Stones^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 400 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
 		<num_available>1</num_available>
 		<!-- Stuff to give -->
-		<item id="2820" number="300"/> <!-- Stone -->
+		<item id="104088" number="300"/> <!-- Stone -->
 		<item id="2001" number="50"/> <!-- Arcane Fragment -->
 		<item id="1004" number="15"/> <!-- Energy +20 -->
 		<item id="4001" number="100"/> <!-- Inscription Powder -->
@@ -1629,12 +1629,12 @@
 	<package>
 		<id>580</id>
 		<name>Fortune Champion Trove</name>
-		<desc>Gives 800 ^cE7FFEntangled Insect Flasks^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 1000 Arcane Dust, and 250 Inscription Powder!</desc>
+		<desc>Gives 800 ^cE7FFTriangelis Stones^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 1000 Arcane Dust, and 250 Inscription Powder!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
 		<!-- Stuff to give -->
-		<item id="2820" number="800"/> <!-- Stone -->
+		<item id="104088" number="800"/> <!-- Stone -->
 		<item id="2001" number="150"/> <!-- Arcane Fragment -->
 		<item id="1004" number="25"/> <!-- Energy +20 -->
 		<item id="4001" number="250"/> <!-- Inscription Powder -->
@@ -1646,7 +1646,7 @@
 	<package>
 		<id>581</id>
 		<name>Champion Trove</name>
-		<desc>Gives 100 ^cE7FFStones^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 200 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<desc>Gives 100 ^cE7FFMo-Bling Stones^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 200 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
@@ -1664,7 +1664,7 @@
 	<package>
 		<id>582</id>
 		<name>Large Champion Trove</name>
-		<desc>Gives 300 ^cE7FFStones^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 400 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<desc>Gives 300 ^cE7FFMo-Bling Stones^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 400 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
@@ -1682,7 +1682,7 @@
 	<package>
 		<id>583</id>
 		<name>Fortune Champion Trove</name>
-		<desc>Gives 800 ^cE7FFStones^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 1000 Arcane Dust, and 250 Inscription Powder!</desc>
+		<desc>Gives 800 ^cE7FFMo-Bling Stones^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 1000 Arcane Dust, and 250 Inscription Powder!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
@@ -1695,7 +1695,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t60_champion</price_point_id>
 	</package>
-
 
 	<!-- END BUNDLES BUNDLES END-->
 
