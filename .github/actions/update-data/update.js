@@ -19,6 +19,7 @@ cards = [
 	"fusion_recipes_cj2"
 	]
 events = [
+	"event_timeline_bge",
 	"event_timeline_brawls",
 	"event_timeline_clash",
 	"event_timeline_dungeons",
