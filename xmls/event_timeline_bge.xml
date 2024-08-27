@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+	<!-- Global Timeline Battleground Effects, IDs 6001-7000 -->
+	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+	<!--  no_live_battle="1"  -->
+
+	<event>
+		<id>6001</id>
+		<name>Age of Dragons</name>
+		<desc>The Age of Dragons has arrived! Dragons are more powerful than ever!</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>101</bg_effect>
+		</effect>
+		<start_time>1440086400</start_time> <!-- Thu, 20 Aug 2015 16:00:00 GMT -->
+		<end_time>1442447999</end_time> <!-- Wed, 16 Sep 2015 23:59:59 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6002</id>
+		<name>World Awakening</name>
+		<desc>The World Awakening is upon us! Elementals are more powerful than ever!</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>102</bg_effect>
+		</effect>
+		<start_time>1443110400</start_time> <!-- Thu, 24 Sep 2015 16:00:00 GMT -->
+		<end_time>1447948800</end_time> <!-- Thu, 19 Nov 2015 16:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6003</id>
+		<name>Rise of the Frogs</name>
+		<desc>The time has come for the Frogs to rise up and fight! Frogs gain superior protection!</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>103</bg_effect>
+		</effect>
+		<start_time>1445529600</start_time> <!-- Thu, 22 Oct 2015 16:00:00 GMT -->
+		<end_time>1450368000</end_time> <!-- Thu, 17 Dec 2015 16:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6004</id>
+		<name>Age of Dragons</name>
+		<desc>The Age of Dragons has arrived! Dragons are more powerful than ever!</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>101</bg_effect>
+		</effect>
+		<start_time>1447948800</start_time> <!-- Thu, 19 Nov 2015 16:00:00 GMT -->
+		<end_time>1452790800</end_time> <!-- Thu, 14 Jan 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6005</id>
+		<name>Iceshatter Barrier</name>
+		<desc>Winter has arrived! Creatures with Barrier are mystically enhanced with frost magic!</desc>
+		<banner_prefab>winterBanner</banner_prefab>
+		<bundle>39</bundle>
+		<effect>
+			<bg_effect>104</bg_effect>
+		</effect>
+		<start_time>1450371600</start_time> <!-- Thu, 17 Dec 2015 17:00:00 GMT -->
+		<end_time>1455210000</end_time> <!-- Thu, 11 Feb 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6006</id>
+		<name>Rise of the Dead</name>
+		<desc>The Undead have risen and are more relentless than ever before!</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>105</bg_effect>
+		</effect>
+		<start_time>1452790800</start_time> <!-- Thu, 14 Jan 2016 17:00:00 GMT -->
+		<end_time>1457629200</end_time> <!-- Thu, 10 Mar 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6007</id>
+		<name>Celestial Legion</name>
+		<desc>Skyhaven's Angels have formed a mighty army of warriors to lead your heroes to victory!</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>106</bg_effect>
+		</effect>
+		<start_time>1455210000</start_time> <!-- Thu, 11 Feb 2016 17:00:00 GMT -->
+		<end_time>1460048400</end_time> <!-- Thu, 07 Apr 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6008</id>
+		<name>Surge of Elements</name>
+		<desc>Primal energy surges through the world! Elementals are more powerful than ever!</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>107</bg_effect>
+		</effect>
+		<start_time>1457629200</start_time> <!-- Thu, 10 Mar 2016 17:00:00 GMT -->
+		<end_time>1462467600</end_time> <!-- Thu, 05 May 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6009</id>
+		<name>Poisonbolt Evolution</name>
+		<desc>A newly unearthed magic has given Frogs the ability to become more poisonous!</desc>
+		<banner_prefab>event_010_banner_frog_quest</banner_prefab>
+		<bundle>51</bundle>
+		<effect>
+			<bg_effect>108</bg_effect>
+		</effect>
+		<start_time>1460048400</start_time> <!-- Thu, 07 Apr 2016 17:00:00 GMT -->
+		<end_time>1464886800</end_time> <!-- Thu, 02 Jun 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6010</id>
+		<name>Airborne Mastery</name>
+		<desc>Avians now feel a surge of power when facing intimidating foes!</desc>
+		<banner_prefab>event_011_banner_quest</banner_prefab>
+		<bundle>59</bundle>
+		<effect>
+			<bg_effect>109</bg_effect>
+		</effect>
+		<start_time>1462467600</start_time> <!-- Thu, 05 May 2016 17:00:00 GMT -->
+		<end_time>1467306000</end_time> <!-- Thu, 30 Jun 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6011</id>
+		<name>Age of Dragons</name>
+		<desc>The Age of Dragons has arrived! Dragons are more powerful than ever!</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>101</bg_effect>
+		</effect>
+		<start_time>1464886800</start_time> <!-- Thu, 02 Jun 2016 17:00:00 GMT -->
+		<end_time>1469725200</end_time> <!-- Thu, 28 Jul 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6012</id>
+		<name>Hardened Carapace</name>
+		<desc>Insects have discovered how to fortify their outer shell and are more resilient than ever!</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<effect>
+			<bg_effect>110</bg_effect>
+		</effect>
+		<start_time>1467306000</start_time> <!-- Thu, 30 Jun 2016 17:00:00 GMT -->
+		<end_time>1472144400</end_time> <!-- Thu, 25 Aug 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6013</id>
+		<name>Celestial Legion</name>
+		<desc>Skyhaven's Angels have formed a mighty army of warriors to lead your heroes to victory!</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>106</bg_effect>
+		</effect>
+		<start_time>1469725200</start_time> <!-- Thu, 28 Jul 2016 17:00:00 GMT -->
+		<end_time>1474563600</end_time> <!-- Thu, 22 Sep 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6014</id>
+		<name>Surge of Elements</name>
+		<desc>Primal energy surges through the world! Elementals are more powerful than ever!</desc>
+		<banner_prefab>event_015_banner</banner_prefab>
+		<bundle>69</bundle>
+		<effect>
+			<bg_effect>111</bg_effect>
+		</effect>
+		<start_time>1472144400</start_time> <!-- Thu, 25 Aug 2016 16:00:00 GMT -->
+		<end_time>1476982800</end_time> <!-- Thu, 20 Oct 2016 16:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6015</id>
+		<name>Rise of the Dead</name>
+		<desc>The Undead have risen and are more relentless than ever before!</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>105</bg_effect>
+		</effect>
+		<start_time>1474563600</start_time> <!-- Thu, 22 Sep 2016 17:00:00 GMT -->
+		<end_time>1479402000</end_time> <!-- Thu, 17 Nov 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6016</id>
+		<name>Goblin's Anarchy</name>
+		<desc>Each active Goblin throws a number of bombs equal to their base Attack at the start of each turn before other skills. Each bomb deals 1 damage.</desc>
+		<banner_prefab>event_017_banner</banner_prefab>
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>112</bg_effect>
+		</effect>
+		<start_time>1476982800</start_time> <!-- Thu, 20 Oct 2016 16:00:00 GMT -->
+		<end_time>1481821200</end_time> <!-- Thu, 15 Dec 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6017</id>
+		<name>Age of Dragons</name>
+		<desc>The Age of Dragons has arrived! Dragons are more powerful than ever!</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>101</bg_effect>
+		</effect>
+		<start_time>1479402000</start_time> <!-- Thu, 17 Nov 2016 17:00:00 GMT -->
+		<end_time>1484240400</end_time> <!-- Thu, 12 Jan 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6018</id>
+		<name>Poisonbolt Evolution</name>
+		<desc>A newly unearthed magic has given Frogs the ability to become more poisonous!</desc>
+		<banner_prefab>event_010_banner_frog_quest</banner_prefab>
+		<bundle>51</bundle>
+		<effect>
+			<bg_effect>108</bg_effect>
+		</effect>
+		<start_time>1481821200</start_time> <!-- Thu, 15 Dec 2016 17:00:00 GMT -->
+		<end_time>1486659600</end_time> <!-- Thu, 09 Feb 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6019</id>
+		<name>Underwater Shelter</name>
+		<desc>Seafolk dive beneath the water's surface, protecting them from harmful attacks!</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>113</bg_effect>
+		</effect>
+		<start_time>1484240400</start_time> <!-- Thu, 12 Jan 2017 17:00:00 GMT -->
+		<end_time>1489078800</end_time> <!-- Thu, 09 March 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6020</id>
+		<name>Eagle Eye</name>
+		<desc>Each Avian marks a random target upon first activation, Hexing them for 30% of the Avian's base Attack. The Avian chooses a new mark when their current mark dies. Ignores Invisibility.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>114</bg_effect>
+		</effect>
+		<start_time>1486659600</start_time> <!-- Thu, 09 Feb 2017 17:00:00 GMT -->
+		<end_time>1491498000</end_time> <!-- Thu, 06 April 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6021</id>
+		<name>Celestial Legion</name>
+		<desc>Skyhaven's Angels have formed a mighty army of warriors to lead your heroes to victory!</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>106</bg_effect>
+		</effect>
+		<start_time>1489078800</start_time> <!-- Thu, 09 March 2017 17:00:00 -->
+		<end_time>1493917200</end_time> <!-- Thu, 04 May 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6022</id>
+		<name>Undead Unearthed</name>
+		<desc>The Undead are rising, attracting armies of skeletons to the battlefield to aid them in combat!</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>115</bg_effect>
+		</effect>
+		<start_time>1491498000</start_time> <!-- Thu, 06 April 2017 17:00:00 -->
+		<end_time>1496336400</end_time> <!-- Thu, 01 Jun 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6023</id>
+		<name>Age of Dragons</name>
+		<desc>The Age of Dragons has arrived! Dragons are more powerful than ever!</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>101</bg_effect>
+		</effect>
+		<start_time>1493917200</start_time> <!-- Thu, 04 May 2017 17:00:00 GMT -->
+		<end_time>1498755600</end_time> <!-- Thu, 29 June 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6024</id>
+		<name>Surge of Elements</name>
+		<desc>Primal energy surges through the world! Elementals have their Attack increased by 75% of their base!</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>107</bg_effect>
+		</effect>
+		<start_time>1496336400</start_time> <!-- Thu, 01 June 2017 17:00:00 GMT -->
+		<end_time>1501174800</end_time> <!-- Thu, 27 July 2016 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6025</id>
+		<name>Insectile Venom</name>
+		<desc>Insects have risen with a new type of toxin! All Insects gain the new skill Venom equal to 10% of their Health!</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<effect>
+			<bg_effect>117</bg_effect>
+		</effect>
+		<start_time>1498755600</start_time> <!-- Thu, 29 June 2017 17:00:00 GMT -->
+		<end_time>1503594000</end_time> <!-- Thu, 24 Aug 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6026</id>
+		<name>Goblin's Anarchy</name>
+		<desc>Each active Goblin throws a number of bombs equal to their base Attack at the start of each turn before other skills. Each bomb deals 1 damage.</desc>
+		<banner_prefab>event_017_banner</banner_prefab>
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>112</bg_effect>
+		</effect>
+		<start_time>1501174800</start_time> <!-- Thu, 27 July 2017 16:00:00 GMT -->
+		<end_time>1506013200</end_time> <!-- Thu, 21 Sept 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6027</id>
+		<name>Underwater Shelter</name>
+		<desc>Seafolk dive beneath the water's surface, protecting them from harmful attacks while they are on delay!</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>113</bg_effect>
+		</effect>
+		<start_time>1503594000</start_time> <!-- Thursday, August 24, 2017 5:00:00 PM -->
+		<end_time>1508432400</end_time> <!-- Thursday, October 19, 2017 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6028</id>
+		<name>Poisonbolt Evolution</name>
+		<desc>A newly unearthed magic has given Frogs the ability to become more poisonous!</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>108</bg_effect>
+		</effect>
+		<start_time>1506013200</start_time> <!-- Thu, 21 Sept 2017 17:00:00 GMT -->
+		<end_time>1510851600</end_time> <!-- Thu, 16 Nov 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6029</id>
+		<name>Energy Shield</name>
+		<desc>All Mechas have upgraded their protective protocols, gaining a Barrier equal to their base Attack each time they deal Attack damage.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>118</bg_effect>
+		</effect>
+		<start_time>1508432400</start_time> <!-- Thursday, October 19, 2017 5:00:00 PM -->
+		<end_time>1513270800</end_time> <!-- Thursday, December 14, 2017 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6030</id>
+		<name>Rise of the Dead</name>
+		<desc>The Undead have risen and are more relentless than ever before!</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>105</bg_effect>
+		</effect>
+		<start_time>1510851600</start_time> <!-- Thu, 16 Nov 2017 17:00:00 GMT -->
+		<end_time>1515690000</end_time> <!-- Thu, 11 Jan 2018 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6031</id>
+		<name>Eagle Eye</name>
+		<desc>Each Avian marks a random target upon first activation, Hexing them for 30% of the Avian's base Attack. The Avian chooses a new mark when their current mark dies. Ignores Invisibility.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>114</bg_effect>
+		</effect>
+		<start_time>1513270800</start_time> <!-- Thursday, December 14, 2017 5:00:00 PM -->
+		<end_time>1518109200</end_time> <!-- Thu, 08 Feb 2018 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6032</id>
+		<name>Elemental Conflux</name>
+		<desc>Elementals gain abilities based on faction! Aether have their Attack increased by 50% of the base, Chaos gain Vengeance equal to 50% of base Attack, and Wyld gain an additional 25% base Health!</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>119</bg_effect>
+		</effect>
+		<start_time>1515690000</start_time> <!-- Thursday, January 11, 2018 5:00:00 PM -->
+		<end_time>1520528400</end_time> <!-- Thursday, March 8, 2018 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6033</id>
+		<name>Angelic Assault</name>
+		<desc>Angels have transcended, gaining Legion equal to 15% of their base Health!</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>121</bg_effect>
+		</effect>
+		<start_time>1518109200</start_time> <!-- Thu, 08 Feb 2018 17:00:00 -->
+		<end_time>1522947600</end_time> <!-- Thu, 05 April 2018 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6034</id>
+		<name>Age of Dragons</name>
+		<desc>Dragons feel the primal call of the world, granting them Scorch equal to 20% of their base HP!</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>120</bg_effect>
+		</effect>
+		<start_time>1520528400</start_time> <!-- Thursday, March 8, 2018 5:00:00 PM -->
+		<end_time>1525366800</end_time> <!-- Thu, 03 May 2018 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6035</id>
+		<name>Goblin's Anarchy</name>
+		<desc>Each active Goblin throws a number of bombs equal to their base Attack at the start of each turn before other skills. Each bomb deals 1 damage.</desc>
+		<banner_prefab>event_017_banner</banner_prefab>
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>112</bg_effect>
+		</effect>
+		<start_time>1522947600</start_time> <!-- Thu, 05 April 2018 17:00:00 GMT -->
+		<end_time>1527786000</end_time> <!-- Thu, 31 May 2018 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6036</id>
+		<name>Energy Ward</name>
+		<desc>All Mechas have upgraded their protective protocols, gaining Ward equal to 3 plus 10% of their base Health.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>122</bg_effect>
+		</effect>
+		<start_time>1525366800</start_time> <!-- Thursday, May 3, 2018 5:00:00 PM -->
+		<end_time>1530205200</end_time> <!-- Thursday, June 28, 2018 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6037</id>
+		<name>Brine Edge</name>
+		<desc>Seafolk harness the power of the ocean, increasing their Attack by 15% of their base Health!</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>126</bg_effect>
+		</effect>
+		<start_time>1527786000</start_time> <!-- Thursday, May 31, 2018 17:00:00 PM -->
+		<end_time>1532624400</end_time> <!-- Thursday, July 26, 2018 17:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6038</id>
+		<name>Venom</name>
+		<desc>Insects have risen with a new type of toxin! All Insects gain the new skill Venom equal to 1 plus 15% of their base Health!</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<effect>
+			<bg_effect>127</bg_effect>
+		</effect>
+		<start_time>1530205200</start_time> <!-- Thu, 28 June 2018 17:00:00 GMT -->
+		<end_time>1535043600</end_time> <!-- Thu, 23 Aug 2017 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6039</id>
+		<name>Poisonhide</name>
+		<desc>When a Frog is damaged by an attack, it deals Poison damage to the attacker equal to 5 plus 10% of the Frogs's base Health.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>128</bg_effect>
+		</effect>
+		<start_time>1532624400</start_time> <!-- Thursday, July 26, 2018 17:00:00 PM -->
+		<end_time>1537462800</end_time> <!-- Thursday, September 20, 2018 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6040</id>
+		<name>Eyes in the Sky</name>
+		<desc>Each Avian marks a random target upon first activation, Hexing them for 15% of their base Health. The Avian chooses a new mark when their current mark dies. Ignores Invisibility.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>114</bg_effect>
+		</effect>
+		<start_time>1535043600</start_time> <!-- Thursday, August 23, 2018 5:00:00 PM -->
+		<end_time>1539882000</end_time> <!-- Thursday, October 18, 2018 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6041</id>
+		<name>Elemental Conflux</name>
+		<desc>Elementals gain abilities based on faction! Aether have their Attack increased by 50% of the base, Chaos gain Vengeance equal to 50% of base Attack, and Wyld gain an additional 25% base Health!</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>119</bg_effect>
+		</effect>
+		<start_time>1537462800</start_time> <!-- Thursday, September 20, 2018 5:00:00 PM -->
+		<end_time>1542301200</end_time> <!-- Thursday, November 15, 2018 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6042</id>
+		<name>Rise of the Dead</name>
+		<desc>The Undead have risen and are more relentless than ever before, giving them Berserk equal to 15% of their base Health!</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>105</bg_effect>
+		</effect>
+		<start_time>1539882000</start_time> <!-- Thu, 18 Oct 2018 17:00:00 GMT -->
+		<end_time>1544720400</end_time> <!-- Thu, 13 Dec 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6043</id>
+		<name>Age of Dragons</name>
+		<desc>Dragons feel the primal call of the world, granting them Scorch equal to 20% of their base HP!</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>120</bg_effect>
+		</effect>
+		<start_time>1542301200</start_time> <!-- Thursday, Nov 15, 2018 5:00:00 PM -->
+		<end_time>1547139600</end_time> <!-- Thu, 10 Jan 2019 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6044</id>
+		<name>Energy Ward</name>
+		<desc>All Mechas have upgraded their protective protocols, gaining Ward equal to 3 plus 10% of their base Health.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>122</bg_effect>
+		</effect>
+		<start_time>1544720400</start_time> <!-- Thursday, Dec 13, 2018 5:00:00 PM -->
+		<end_time>1549558800</end_time> <!-- Thursday, Feb 07, 2019 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6045</id>
+		<name>Angelic Assault</name>
+		<desc>Angels have transcended, gaining Legion equal to 15% of their base Health!</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>121</bg_effect>
+		</effect>
+		<start_time>1547139600</start_time> <!-- Thu, 10 Jan 2019 17:00:00 -->
+		<end_time>1551978000</end_time> <!-- Thu, 07 March 2019 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6046</id>
+		<name>Goblin's Anarchy</name>
+		<desc>Each active Goblin throws a number of bombs equal to their base Attack at the start of each turn before other skills. Each bomb deals 1 damage.</desc>
+		<banner_prefab>event_017_banner</banner_prefab>
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>112</bg_effect>
+		</effect>
+		<start_time>1549558800</start_time> <!-- Thu, 07 Feb 2019 17:00:00 GMT -->
+		<end_time>1554397200</end_time> <!-- Thu, 04 April 2019 17:00:00 GMT -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6047</id>
+		<name>Underwater Shelter</name>
+		<desc>Seafolk dive beneath the water's surface, protecting them from harmful attacks while they are on delay!</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>113</bg_effect>
+		</effect>
+		<start_time>1551978000</start_time> <!-- Thu, 07 March 2019 17:00:00 GMT -->
+		<end_time>1556816400</end_time> <!-- Thursday, May 02, 2019 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6048</id>
+		<name>Elemental Conflux</name>
+		<desc>Elementals gain abilities based on faction! Aether have their Attack increased by 50% of the base, Chaos gain Vengeance equal to 50% of base Attack, and Wyld gain an additional 25% base Health!</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>119</bg_effect>
+		</effect>
+		<start_time>1554397200</start_time> <!-- Thursday, April 04, 2019 5:00:00 PM -->
+		<end_time>1559235600</end_time> <!-- Thursday, May 30, 2019 5:00:00 PM -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6049</id>
+		<name>Insect Swarm</name>
+		<desc>After dealing Attack damage, permanently increases Attack of the lowest Attack active non-tower ally creature by 20% of the Attacker's base Health.</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<effect>
+			<bg_effect>129</bg_effect>
+		</effect>
+		<start_time>1556816400</start_time> <!-- Thursday, May 2, 2019 17:00:00 -->
+		<end_time>1561654800</end_time> <!-- Thursday, June 27, 2019 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6050</id>
+		<name>Undead Vampirism</name>
+		<desc>Deals damage to opposing creature and then heals self, even while on delay. Damage and heal are equal to 5% plus 3 of the card’s base Health. This damage cannot be increased.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>130</bg_effect>
+		</effect>
+		<start_time>1559235600</start_time> <!-- Thursday, May 30, 2019 17:00:00 -->
+		<end_time>1564074000</end_time> <!-- Thursday, July 25, 2019 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6051</id>
+		<name>Lily &amp; Spear Formation</name>
+		<desc>Frogs deal extra damage on their first attack each turn equal to 25% of their base Health and gain Pierce equal to their base Attack.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>131</bg_effect>
+		</effect>
+		<start_time>1561654800</start_time> <!-- Thursday, June 27, 2019 17:00:00 -->
+		<end_time>1566493200</end_time> <!-- Thursday, August 22, 2019 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6052</id>
+		<name>Day of Dragons</name>
+		<desc>Dragons of 0-2 Delay gain Scorch equal to 20% of their base Health. Dragons of 3-4 Delay gain Regenerate equal to 10% of their base Health plus 4.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>132</bg_effect>
+		</effect>
+		<start_time>1564074000</start_time> <!-- Thursday, July 25, 2019 17:00:00 -->
+		<end_time>1568912400</end_time> <!-- Thursday, September 19, 2019 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6053</id>
+		<name>Eagle Eye</name>
+		<desc>Each Avian marks a random target upon first activation, Hexing them for 15% of the Avian's base Health. The Avian chooses a new mark when their current mark dies. Ignores Invisibility.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>114</bg_effect>
+		</effect>
+		<start_time>1566493200</start_time> <!-- Thursday, August 22, 2019 17:00:00 -->
+		<end_time>1571331600</end_time> <!-- Thursday, October 17, 2019 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6054</id>
+		<name>Energy Ward</name>
+		<desc>All Mechas have upgraded their protective protocols, gaining Ward equal to 3 plus 10% of their base Health.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>122</bg_effect>
+		</effect>
+		<start_time>1568912400</start_time> <!-- Thursday, September 19, 2019 17:00:00 -->
+		<end_time>1573750800</end_time> <!-- Thursday, November 14, 2019 17:00:00-->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6055</id>
+		<name>Elemental Discordance</name>
+		<desc>Elementals gain abilities based on faction. Aether gain Barrier 10% plus four of their base Health, Chaos gain Scorch equal to 75% of their base Attack, and Wyld deal extra damage on their first attack each turn equal to 25% of their base Health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>133</bg_effect>
+		</effect>
+		<start_time>1571331600</start_time> <!-- Thursday, 17 October 2019 17:00:00 -->
+		<end_time>1576170000</end_time> <!-- Thursday, 12 December 2019 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6056</id>
+		<name>Goblin's Anarchy</name>
+		<desc>Each active Goblin throws a number of bombs equal to their base Attack at the start of each turn before other skills. Each bomb deals 1 damage.</desc>
+		<banner_prefab>event_017_banner</banner_prefab>
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>112</bg_effect>
+		</effect>
+		<start_time>1573750800</start_time> <!-- Thursday, November 14, 2019 17:00:00 -->
+		<end_time>1578589200</end_time> <!-- Thursday, 9 January 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6057</id>
+		<name>Undead Vampirism</name>
+		<desc>Deals damage to opposing creature and then heals self, even while on delay. Damage and heal are equal to 5% plus 3 of the card’s base Health. This damage cannot be increased.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>130</bg_effect>
+		</effect>
+		<start_time>1576170000</start_time> <!-- Thursday, 12 December 2019 17:00:00 -->
+		<end_time>1581008400</end_time> <!-- Thursday, 6 February 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6058</id>
+		<name>Brine Edge</name>
+		<desc>Seafolk harness the power of the ocean, increasing their Attack by 15% of their base Health!</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>126</bg_effect>
+		</effect>
+		<start_time>1578589200</start_time> <!-- Thursday, 9 January 2020 17:00:00 -->
+		<end_time>1583427600</end_time> <!-- Thursday, 5 March 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6059</id>
+		<name>Angelic Assault</name>
+		<desc>Angels have transcended, gaining Legion equal to 15% of their base Health.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>121</bg_effect>
+		</effect>
+		<start_time>1581008400</start_time> <!-- Thursday, 6 February 2020 17:00:00 -->
+		<end_time>1585846800</end_time> <!-- Thursday, 2 April 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6060</id>
+		<name>Regenerating Carapace</name>
+		<desc>Insects are prepared for war, gaining Armor equal to 10% of their base Health, and Regenerate equal to 10% of their base Health.</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<effect>
+			<bg_effect>134</bg_effect>
+		</effect>
+		<start_time>1583427600</start_time> <!-- Thursday, 5 March 2020 17:00:00 -->
+		<end_time>1588266000</end_time> <!-- Thursday, 30 April 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6061</id>
+		<name>Day of Dragons</name>
+		<desc>Dragons of 0-2 Delay gain Scorch equal to 20% of their base Health. Dragons of 3-4 Delay gain Regenerate equal to 10% of their base Health plus 4.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>132</bg_effect>
+		</effect>
+		<start_time>1585846800</start_time> <!-- Thursday, 2 April 2020 17:00:00 -->
+		<end_time>1590685200</end_time> <!-- Thursday, 28 May 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6062</id>
+		<name>Lily &amp; Spear Formation</name>
+		<desc>Frogs deal extra damage on their first attack each turn equal to 25% of their base Health and gain Pierce equal to their base Attack.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>131</bg_effect>
+		</effect>
+		<start_time>1588266000</start_time> <!-- Thursday, 30 April 2020 17:00:00 -->
+		<end_time>1593104400</end_time> <!-- Thursday, 25 June 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6063</id>
+		<name>Skydiving Assault</name>
+		<desc>Avian of 0-2 delay deal extra damage on their first attack each turn equal to 40% of their base Attack. Avians of 3-4 delay gain Shroud equal to 10% +2 of their base Health.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>136</bg_effect>
+		</effect>
+		<start_time>1590685200</start_time> <!-- Thursday, 28 May 2020 17:00:00 -->
+		<end_time>1595523600</end_time> <!-- Thursday, 23 July 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6064</id>
+		<name>Elemental Discordance</name>
+		<desc>Elementals gain abilities based on faction. Aether gain Barrier 10% plus four of their base Health, Chaos gain Scorch equal to 75% of their base Attack, and Wyld deal extra damage on their first attack each turn equal to 25% of their base Health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>133</bg_effect>
+		</effect>
+		<start_time>1593104400</start_time> <!-- Thursday, 25 June 2020 17:00:00 -->
+		<end_time>1597942800</end_time> <!-- Thursday, 20 August 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6065</id>
+		<name>Undead Vampirism</name>
+		<desc>Deals damage to opposing creature and then heals self, even while on delay. Damage and heal are equal to 5% plus 3 of the card’s base Health. This damage cannot be increased.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>130</bg_effect>
+		</effect>
+		<start_time>1595523600</start_time> <!-- Thursday, 23 July 2020 17:00:00 -->
+		<end_time>1600362000</end_time> <!-- Thursday, 17 September 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6066</id>
+		<name>Energy Warding</name>
+		<desc>All Mechas have upgraded their protective protocols, gaining Ward equal to 3 plus 10% of their base Health.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>122</bg_effect>
+		</effect>
+		<start_time>1597942800</start_time> <!-- Thursday, 20 August 2020 17:00:00 -->
+		<end_time>1602781200</end_time> <!-- Thursday, 15 October 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6067</id>
+		<name>Goblin's Anarchy</name>
+		<desc>Each active Goblin throws a number of bombs equal to their base Attack at the start of each turn before other skills. Each bomb deals 1 damage.</desc>
+		<banner_prefab>event_017_banner</banner_prefab>
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>112</bg_effect>
+		</effect>
+		<start_time>1600362000</start_time> <!-- Thursday, 17 September 2020 17:00:00 -->
+		<end_time>1605200400</end_time> <!-- Thursday, 12 November 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6068</id>
+		<name>Fear Aura</name>
+		<desc>Dragons of 0-2 delay gain Hex equal to 20% of their base Health. Dragons of 3-4 delay gain Weaken equal to 30% of their base Health, and gain Vengeance 8.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>138</bg_effect>
+		</effect>
+		<start_time>1602781200</start_time> <!-- Thursday, 15 October 2020 17:00:00 -->
+		<end_time>1607619600</end_time> <!-- Thursday, 10 December 2020 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6069</id>
+		<name>Underwater Shelter</name>
+		<desc>Seafolk dive beneath the water's surface, protecting them from harmful attacks while they are on delay!</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>113</bg_effect>
+		</effect>
+		<start_time>1605200400</start_time> <!-- Thursday, 12 November 2020 17:00:00 -->
+		<end_time>1610038800</end_time> <!-- Thursday, 7 January 2021 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6070</id>
+		<name>Eagle Eye</name>
+		<desc>Each Avian marks a random target upon first activation, Hexing them for 15% of the Avian's base Health. The Avian chooses a new mark when their current mark dies. Ignores Invisibility.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>114</bg_effect>
+		</effect>
+		<start_time>1607619600</start_time> <!-- Thursday, 10 December 2020 17:00:00 -->
+		<end_time>1612458000</end_time> <!-- Thursday, 4 February 2021 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6071</id>
+		<name>Angelic Assault</name>
+		<desc>Angels have transcended, gaining Legion equal to 15% of their base Health.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>121</bg_effect>
+		</effect>
+		<start_time>1610038800</start_time> <!-- Thursday, 7 January 2021 17:00:00 -->
+		<end_time>1614877200</end_time> <!-- Thursday, 4 March 2021 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6072</id>
+		<name>Lily &amp; Spear Formation</name>
+		<desc>Frogs deal extra damage on their first attack each turn equal to 25% of their base Health and gain Pierce equal to their base Attack.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>131</bg_effect>
+		</effect>
+		<start_time>1612458000</start_time> <!-- Thursday, February 4, 2021 17:00:00 -->
+		<end_time>1617296400</end_time> <!-- Thursday, April 1, 2021 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6073</id>
+		<name>Elemental Crux</name>
+		<desc>Elementals gain skills based on faction! Aether gain Regenerate, Chaos gain Emberhide, and Wyld gain Corrosive. Skill values are 5 + the card's delay cost.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>139</bg_effect>
+		</effect>
+		<start_time>1614877200</start_time> <!-- Thursday, March 4, 2021 17:00:00	 -->
+		<end_time>1619715600</end_time> <!-- Thursday, April 29, 2021 17:00:00	 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6074</id>
+		<name>Adaptive Weaponry</name>
+		<desc>Mechas gain base Ward 3 and other abilities based on faction! Aether also gain Legion 3, Chaos gain Barrage 4, and Wyld gain Venom 3. They add their delay cost to all these values.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>140</bg_effect>
+		</effect>
+		<start_time>1617296400</start_time> <!-- Thursday, March 4, 2021 17:00:00	 -->
+		<end_time>1622134800</end_time> <!-- Thursday, May 27, 2021 17:00:00	 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6075</id>
+		<name>Dawn of Dragons</name>
+		<desc>Dragons gain skills based on their Delay (D)! 0D gain Scorch 4, 1D gain Scorch 5, 2D gain Scorch 6, 3D gain Regenerate 8, and 4D gain Regenerate 9.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>141</bg_effect>
+		</effect>
+		<start_time>1619715600</start_time> <!-- Thursday, 29 April 2021 17:00:00 -->
+		<end_time>1624554000</end_time> <!-- Thursday, 24 June 2021 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6076</id>
+		<name>Beetleton Mutations</name>
+		<desc>Insects are ready to crawl back into the fight! They gain skills based on their Delay (D)! 0D gain Berserk 3, 1D Berserk 4, 2D Berserk 5, 3D Armor 5, 4D Armor 6.</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>142</bg_effect>
+		</effect>
+		<start_time>1622134800</start_time> <!-- Thursday, 27 May 2021 17:00:00 -->
+		<end_time>1626973200</end_time> <!-- Thursday, 22 July 2021 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6077</id>
+		<name>Goblin's Anarchy</name>
+		<desc>Each active Goblin throws a number of bombs equal to their base Attack at the start of each turn before other skills. Each bomb deals 1 damage.</desc>
+		<banner_prefab>event_017_banner</banner_prefab>
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>112</bg_effect>
+		</effect>
+		<start_time>1624554000</start_time> <!-- Thursday, 24 June 2021 17:00:00 -->
+		<end_time>1629392400</end_time> <!-- Thursday, 19 August 2021 17:00:00  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6078</id>
+		<name>Eagle Eye</name>
+		<desc>Each Avian marks a random target upon first activation, Hexing them for 15% of the Avian's base Health. The Avian chooses a new mark when their current mark dies. This effect ignores Invisibility.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>114</bg_effect>
+		</effect>
+		<start_time>1626973200</start_time> <!-- Thursday, 22 July 2021 17:00:00 -->
+		<end_time>1631811600</end_time> <!-- Thursday, 16 September 2021 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6079</id>
+		<name>Undead Vampirism</name>
+		<desc>Deals damage to opposing creature and then heals self, even while on delay. Damage and heal are equal to 5% plus 3 of the card’s base Health. This damage cannot be increased.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>130</bg_effect>
+		</effect>
+		<start_time>1629392400</start_time> <!-- Thursday, 19 August 2021 17:00:00 -->
+		<end_time>1634230800</end_time> <!-- Thursday, 14 October 2021 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6080</id>
+		<name>Conflicted Ocean</name>
+		<desc>All Seafolk gain barrier equal to 20% of their base health. Delay 0-2 Seafolk also deal bonus damage in their first attack equal to 10% of their base health and pierce equal to their base attack.</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>143</bg_effect>
+		</effect>
+		<start_time>1631811600</start_time> <!-- Thursday, 16 September 2021 17:00:00	 -->
+		<end_time>1636650000</end_time> <!-- Thursday, November 11, 2021 at 17:00:00  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6081</id>
+		<name>Blinding Radiance</name>
+		<desc>Terrible light surrounds all Angels! They gain Invisibility 2. Additionally, Delay 0-2 Angels gain Legion Equal to 15% of their base health, while Delay 3 and 4 gain Emberhide 4 and 6 respectively.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>144</bg_effect>
+		</effect>
+		<start_time>1634230800</start_time> <!-- Thursday, 14 October 2021 17:00:00 -->
+		<end_time>1639069200</end_time> <!-- Thursday, 9 December 2021 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6082</id>
+		<name>Radioactive Biosteel</name>
+		<desc>Mechas developed a toxic offense/defense mechanism! They gain base Regenerate and Ward equal to 15% of their base health and other abilities based on Delay! D0-2 gains Venom 3+Delay, while D3 and 4 get Poisonhide 7 and 9 respectively. Viracocha gains both bonuses.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>145</bg_effect>
+		</effect>
+		<start_time>1636650000</start_time> <!-- Thursday, November 11, 2021 at 17:00:00  -->
+		<end_time>1641488400</end_time> <!-- Thursday, January 6, 2022 at 17:00:00 	 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6083</id>
+		<name>Lily &amp; Vampiric Spear Formation</name>
+		<desc>Frogs enchanted their spears to deal extra damage on their first attack each turn equal to 25% of their base Health, while also gaining Pierce and Siphon equal to their base Attack!</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>146</bg_effect>
+		</effect>
+		<start_time>1639069200</start_time> <!-- Thursday, 9 December 2021 17:00:00 -->
+		<end_time>1643907600</end_time> <!-- Thursday, 3 February 2022 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6084</id>
+		<name>Goblin Battle Kit</name>
+		<desc>Active goblins throw bombs equal to their base Attack at the start of each turn. Each bomb deals 1 damage and does not benefit from Hex or Venom. They also regenerate 15% of their base health.</desc>
+		<banner_prefab>event_017_banner</banner_prefab>
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>147</bg_effect>
+		</effect>
+		<start_time>1641488400</start_time> <!-- Thursday, 6 January 2022 17:00:00 -->
+		<end_time>1646326800</end_time> <!-- Thursday, 3 March 2022 17:00:00  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6085</id>
+		<name>Elemental Discordance</name>
+		<desc>Elementals gain skills based on faction and % of base health! Aether gains Barrier 4+15%, Chaos gains Scorch 20% and Wyld deal extra damage on their first attack each turn equal to 30%. Additionally, Void gets a fixed 4 of Venom, 9 Siphon.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>133</bg_effect>
+		</effect>
+		<start_time>1643907600</start_time> <!-- Thursday, 3 February 2022 17:00:00 -->
+		<end_time>1648746000</end_time> <!-- Thursday, 31 March 2022 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6086</id>
+		<name>Unbreakable Waves</name>
+		<desc>Seafolk gain base Ward and other skills based on Delay! D0-2 gain Frostbreath and D3-4 Armored. Values gained on each skill are based on base health! Ward and Armor 10%, while Frostbreath is 15%.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>148</bg_effect>
+		</effect>
+		<start_time>1646326800</start_time> <!-- Thursday, 3 March 2022 17:00:00 -->
+		<end_time>1651165200</end_time> <!-- Thursday, 28 April 2022 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6087</id>
+		<name>Zenith of Dragons</name>
+		<desc>The strongest moment of the day for Dragons! 0-2 Delay gain Scorch equal to 25% of their base Health. Dragons of 3-4 Delay gain Regenerate equal to 15% of their base Health plus 4.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>149</bg_effect>
+		</effect>
+		<start_time>1648746000</start_time> <!-- Thursday, 31 March 2022 17:00:00 -->
+		<end_time>1653584400</end_time> <!-- Thursday, 26 May 2022 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6088</id>
+		<name>Exalted Warfare</name>
+		<desc>Angels are ready for war, gaining Legion 10% and Unrestricted Fervor 10%. Values gained on each skill are based on base health!</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>150</bg_effect>
+		</effect>
+		<start_time>1651165200</start_time> <!-- Thursday, 28 April 2022 17:00:00 -->
+		<end_time>1656003600</end_time> <!-- Thursday, June 23, 2022 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6089</id>
+		<name>Evil Eye</name>
+		<desc>Avians gain skills by base HP and Delay! They all mark a random target upon first activation, ignoring invisibility and hexing them for 15%. The mark lasts until the target dies. 0-2D will Weaken random targets equal to 15%. 3-4D gain Shroud equal to 10%.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>151</bg_effect>
+		</effect>
+		<start_time>1653584400</start_time> <!-- Thursday, 26 May 2022 17:00:00 -->
+		<end_time>1658422800</end_time> <!-- Thursday, July 21, 2022 at 17:00:00  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6090</id>
+		<name>Counterblast Swarm</name>
+		<desc>Insects gain Backlash 2. After dealing Attack damage, permanently increases Attack of the lowest Attack active non-tower ally creature by 15% of the Attacker's base Health. Delay 3-4 Insects get Poisonhide equal to 20% of their base health.</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>154</bg_effect>
+		</effect>
+		<start_time>1656003600</start_time> <!-- Thursday, June 23, 2022 at 17:00:00 -->
+		<end_time>1660842000</end_time> <!-- Thursday, August 18, 2022 at 17:00:00  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6091</id>
+		<name>Reinforced Undead Vampirism</name>
+		<desc>Vampirism deals damage to opposing creature and then heals self, even while on delay. Damage and heal are equal to 5% + 3 of the card’s base Health. This damage cannot be increased. Undead with 0-2 delay also gain armor equal to 10% of their base health.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>155</bg_effect>
+		</effect>
+		<start_time>1658422800</start_time> <!-- Thursday, 21 July 2022 17:00:00 	 -->
+		<end_time>1663261200</end_time> <!-- Thursday, September 15, 2022 at 17:00:00	 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6092</id>
+		<name>Lily &amp; Spear Formation</name>
+		<desc>Frogs deal extra damage on their first attack each turn equal to 25% of their base Health and gain Pierce equal to their base Attack.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>131</bg_effect>
+		</effect>
+		<start_time>1660842000</start_time> <!-- Thursday, 18 August 2022 17:00:00	 -->
+		<end_time>1665680400</end_time> <!-- Thursday, October 13, 2022 at 17:00:00  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6093</id>
+		<name>Elemental Disruption</name>
+		<desc>Aether gains Barrier 4+15%, Chaos gains Scorch 20%, Wyld deal extra damage on their first attack each turn equal to 30% and Void gains 20% regeneration. All % are based on base health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>156</bg_effect>
+		</effect>
+		<start_time>1663261200</start_time> <!-- Thursday, 15 September 2022 17:00:00	 -->
+		<end_time>1668099600</end_time> <!-- Thursday, November 10, 2022 at 17:00:00  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6094</id>
+		<name>Radioactive Steel</name>
+		<desc>Mechas gain Ward equal to 15% of their base health and other abilities based on Delay! D0-2 gains Venom 3+Delay, while D3 and 4 get Poisonhide 7 and 9. Viracocha gains both bonuses.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>157</bg_effect>
+		</effect>
+		<start_time>1665680400</start_time> <!-- Thursday, 13 October 2022 17:00:00	  -->
+		<end_time>1670518800</end_time> <!-- Thursday, December 8, 2022 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6095</id>
+		<name>Revitalizing Waves</name>
+		<desc>Seafolk gain Regenerate and other skills based on Delay! D0-2 gain Frostbreath and D3-4 Armor. Values gained on each skill are equal to 10% of base health!</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>158</bg_effect>
+		</effect>
+		<start_time>1668099600</start_time> <!-- Thursday, 10 November 2022 17:00:00	  -->
+		<end_time>1672938000</end_time> <!-- Thursday, January 5, 2023 at 17:00:00 	 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6096</id>
+		<name>Enhanced Battle Kit</name>
+		<desc>All goblins gain barrage equal to their base attack, 0-2 Delay goblins gain 15% siphon and 3-4 delay goblins gain 15% ward. Values gained on each skill are based on base health.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>159</bg_effect>
+		</effect>
+		<start_time>1670518800</start_time> <!-- Thursday, 8 December 2022 17:00:00	 -->
+		<end_time>1675357200</end_time> <!-- Thursday, February 2, 2023 at 17:00:00 	  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<!-- Test Comment -->
+	<event>
+		<id>6097</id>
+		<name>Celestial Voidness</name>
+		<desc>All Angels gain barrier 2+15%, 0-2 Delay angel 10% legion and 3-4 delay angel 10% weaken. 0-2 Delay voids gain 3+10% Siphon and 3-4 delay voids gain 3+10% Regenerate. Values gained on each skill are based on base health!.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>160</bg_effect>
+		</effect>
+		<start_time>1672938000</start_time> <!-- Thursday, 5 January 2023 17:00:00	 -->
+		<end_time>1675357200</end_time> <!-- Thursday, February 2, 2023 at 5:00:00 PM 	  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6098</id>
+		<name>Celestial Raid</name>
+		<desc>All Angels gain barrier equal to 2 plus 15%, 0-2 Delay angel gain 10% legion and 3-4 delay angel gain 10% weaken. Values gained on each skill are based on base health.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>161</bg_effect>
+		</effect>
+		<start_time>1675357200</start_time> <!-- Thursday, February 2, 2023 at 5:00:00 PM	 -->
+		<end_time>1677776400</end_time> <!-- Thursday, March 2, 2023 17:00:00 	  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6099</id>
+		<name>Deadly Sting</name>
+		<desc>0-2 Delay Insects gain 2+10% venom and 3+20% Pierce and 3-4 delay Insect gain 2+10% corrosive and 2+7% vengeance. Values gained on each skill are based on base health!.</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>162</bg_effect>
+		</effect>
+		<start_time>1675357200</start_time> <!-- Thursday, February 2, 2023 at 5:00:00 PM	 -->
+		<end_time>1680195600</end_time> <!-- Thursday, March 30, 2023 at 17:00:00 	  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6100</id>
+		<name>Flaming Scales</name>
+		<desc>All Dragons gain invisibility equal to 3, 0-2 Delay Dragons gain 2 plus 10% scorch and 3-4 delay Dragons gain 15% Emberhide. Values gained on each skill are based on base health.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>163</bg_effect>
+		</effect>
+		<start_time>1677776400</start_time> <!-- Thursday, March 2, 2023 at 17:00:00	 -->
+		<end_time>1682614800</end_time> <!-- Thursday, April 27, 2023 at 17:00:00 	  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6101</id>
+		<name>Lily &amp; Vampiric Spear Formation Reinforced</name>
+		<desc>Frogs deal extra damage on their first attack each turn equal to 25% of their base Health, while also gaining Pierce equal to their base Attack and Siphon as 3 plus their Attack.!</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>164</bg_effect>
+		</effect>
+		<start_time>1680195600</start_time> <!-- Thursday, 30 March 2023 17:00:00 -->
+		<end_time>1685034000</end_time> <!-- Thursday, May 25, 2023 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6102</id>
+		<name>Sky Destruction</name>
+		<desc>All Avians gain 2+delay Vengeance. Avian of 0-2 delay deal extra damage on their first attack each turn equal to 40% of their base Attack. Avians of 3-4 delay gain Shroud equal to 10% +2 of their base Health.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>165</bg_effect>
+		</effect>
+		<start_time>1682614800</start_time> <!-- Thursday, April 27, 2023 17:00:00 -->
+		<end_time>1687453200</end_time> <!-- Thursday, June 22, 2023 at 17:00:00  -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6103</id>
+		<name>Reinforced Undead Vampirism</name>
+		<desc>All undeads receive Vampirism to 5% + 3. 0-2 delay also gain armor equal to 10%. All values based on Health</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>155</bg_effect>
+		</effect>
+		<start_time>1685034000</start_time> <!-- Thursday, May 25, 2023 17:00:00 	 -->
+		<end_time>1689872400</end_time> <!-- Thursday, July 20, 2023 at 17:00:00	 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6104</id>
+		<name>Steel's Edge V2.0</name>
+		<desc>All Mechas gain base Ward 3 + Delay, and increase their Attack by 15% of their base Health.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>166</bg_effect>
+		</effect>
+		<start_time>1687453200</start_time> <!-- Thursday, June 22, 2023 at 17:00:00	 -->
+		<end_time>1692291600</end_time> <!-- Thursday, August 17, 2023 at 17:00:00	 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6105</id>
+		<name>Thriving Swarm</name>
+		<desc>All Insects gain extra Health equal to 10% of their base Health and Swarm equal to 15% of their base health. After dealing Attack damage, Swarm permanently increases the Attack of the weakest ally.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>167</bg_effect>
+		</effect>
+		<start_time>1689872400</start_time> <!-- Thursday, July 20, 2023 at 17:00:00 		 -->
+		<end_time>1694710800</end_time> <!-- Thursday, September 14, 2023 17:00:00	 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6106</id>
+		<name>Goblin Civil War</name>
+		<desc>All Goblins gain 10% Armor. Aether gain 7% + Delay Frostbreath, Chaos gain 20% + Delay Barrage, Wyld gain 10% + Delay Venom, Void gain Siphon equal to base Attack. Values are based on base health.</desc>
+		<banner_prefab>event_017_banner</banner_prefab> <!-- referring to xml code from Goblin's Battle kit -->
+		<bundle>75</bundle>
+		<effect>
+			<bg_effect>168</bg_effect> <!-- based off of battleground_effects.xml -->
+		</effect>
+		<start_time>1692291600</start_time> <!-- Thursday, August 17, 2023 17:00:00 GMT+0000 -->
+		<end_time>1697130000</end_time> <!-- Thursday, October 12, 2023 17:00:00 GMT+0000, 56 days duration -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6107</id>
+		<name>Elemental Meltdown</name>
+		<desc>All Elementals are Enraged for 7% base health. 0-2D gain Weaken and Pierce equal to 15%, and 3-4D Elementals gain Shroud and Vengeance equal to 10% base health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>169</bg_effect>
+		</effect>
+		<start_time>1694710800</start_time> <!-- Thursday, September 14, 2023 at 17:00:00 -->
+		<end_time>1699549200</end_time> <!-- Thursday, November 09, 2023 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6108</id>
+		<name>Eye of the Maelstrom</name>
+		<desc>All Seafolk gain Mark equal to 15% base health. 3-4D Seafolk also gain Regenerate for 15% base health.</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>170</bg_effect>
+		</effect>
+		<start_time>1697130000</start_time> <!-- Thursday, October 12, 2023 at 17:00:00 -->
+		<end_time>1701968400</end_time> <!-- Thursday, December 07, 2023 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6109</id>
+		<name>Angels and Demons</name>
+		<desc>All Angels gain Vampirism equal to 5% base Health + 2. When an Angel dies it creates a token creature with 75% Attack and Health of the Angel that died. The token has Invisibility and Legion based on its rarity.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>171</bg_effect>
+		</effect>
+		<start_time>1699549200</start_time> <!-- Thursday, November 09, 2023 at 17:00:00 -->
+		<end_time>1704387600</end_time> <!-- Thursday, January 04, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6110</id>
+		<name>Frog Toxic Barrage</name>
+		<desc>All Frogs gain Barrage equal to 30% of their base Health, and Poisonbolt equal to 20% of their base Health.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>172</bg_effect>
+		</effect>
+		<start_time>1701968400</start_time> <!-- Thursday, December 07, 2023 at 17:00:00 -->
+		<end_time>1706806800</end_time> <!-- Thursday, February 01, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6111</id>
+		<name>Aegis of Dragons</name>
+		<desc>All Dragons gain base Ward 3 + Delay, and extra Health equal to 10% of their base Health.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>173</bg_effect>
+		</effect>
+		<start_time>1704387600</start_time> <!-- Thursday, January 04, 2024 at 17:00:00 -->
+		<end_time>1709226000</end_time> <!-- Thursday, February 29, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6112</id>
+		<name>Beast Mode</name>
+		<desc>All Beasts gain Armor, Berserk and Enrage equal to 10% of their base Health.</desc>
+		<effect>
+			<bg_effect>174</bg_effect>
+		</effect>
+		<start_time>1706806800</start_time> <!-- Thursday, February 01, 2024 at 17:00:00 -->
+		<end_time>1714064400</end_time> <!-- Thursday, April 25, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>61131</id>
+		<name>Power of Chaos</name>
+		<desc>All Chaos gain Enrage equal to 10% of their base Health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>175</bg_effect>
+		</effect>
+		<start_time>1706806800</start_time> <!-- Thursday, February 01, 2024 at 17:00:00 -->
+		<end_time>1709226000</end_time> <!-- Thursday, February 29, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>61132</id>
+		<name>Growth of Wyld</name>
+		<desc>All Wyld gain Berserk equal to 10% of their base Health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>176</bg_effect>
+		</effect>
+		<start_time>1709226000</start_time> <!-- Thursday, February 29, 2024 at 17:00:00 -->
+		<end_time>1711645200</end_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>61133</id>
+		<name>Order of Aether</name>
+		<desc>All Aether gain Armor equal to 10% of their base Health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>177</bg_effect>
+		</effect>
+		<start_time>1711645200</start_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
+		<end_time>1714064400</end_time> <!-- Thursday, April 25, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6114</id>
+		<name>Invisible Mark</name>
+		<desc>All Avians gain Mark equal to 15% base health. 2-4D Avians also gain Invisibility equal to Delay minus 1.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>178</bg_effect>
+		</effect>
+		<start_time>1711645200</start_time> <!-- Thursday, March 28, 2024 at 17:00:00 -->
+		<end_time>1716483600</end_time> <!-- Thursday, May 23, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6115</id>
+		<name>Titanium Ward</name>
+		<desc>All Mecha gain 10% Ward. Also, Aether Mecha gain 15% Barrier, Chaos Mecha are Empowered by 15%, and Wyld Mecha are Healed by 15%. Viracocha receives all three. Values are based on base Health. These effects cannot be Nullified.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>179</bg_effect>
+		</effect>
+		<start_time>1714064400</start_time> <!-- Thursday, April 25, 2024 at 17:00:00 -->
+		<end_time>1718902800</end_time> <!-- Thursday, June 20, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6116</id>
+		<name>Blazing Undead Vampirism</name>
+		<desc>All Undead gain Vampirism equal to 10% of their base Health. 0-2D Undead also gain Siphon equal to 20% of their base Health. 3-4D Undead also gain Emberhide equal to 10% of their base Health.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>180</bg_effect>
+		</effect>
+		<start_time>1716483600</start_time> <!-- Thursday, May 23, 2024 at 17:00:00 -->
+		<end_time>1721322000</end_time> <!-- Thursday, July 18, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6117</id>
+		<name>Universal Toxic Swarm</name>
+		<desc>All Insects gain extra Pierce and Swarm equal to 50% of their base Attack, and also gain 15% extra Health. Also, all Poison/Poisonbolt skills for all tribes deal 30% more damage.</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<effect>
+			<bg_effect>181</bg_effect>
+		</effect>
+		<start_time>1718902800</start_time> <!-- Thursday, June 20, 2024 at 17:00:00 -->
+		<end_time>1723741200</end_time> <!-- Thursday, August 15, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6118</id>
+		<name>Ascended Elemental Conflux</name>
+		<desc>All Elementals gain 10% Shroud. Also, Aether Elementals gain 15% Radiance, Chaos Elementals gain 15% Scorchbreath, Wyld Elementals gain 15% self Invigorate, and Void Elementals gain 15% Devour. Values are based on base Health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>182</bg_effect>
+		</effect>
+		<start_time>1721322000</start_time> <!-- Thursday, July 18, 2024 at 17:00:00 -->
+		<end_time>1726160400</end_time> <!-- Thursday, September 12, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>6119</id>
+		<name>Cupid&apos;s Legions</name>
+		<desc>0-2D Angels gain 15% Legion and 25% Siphon. 3D-4D Angels gain 15% Regenerate and Weaken 99. % values are based on base Health. Also, all Daze skills for all tribes are changed to Heartseeker with the same value.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>183</bg_effect>
+		</effect>
+		<start_time>1723741200</start_time> <!-- Thursday, August 15, 2024 at 17:00:00 -->
+		<end_time>1728579600</end_time> <!-- Thursday, October 10, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
+</root>
