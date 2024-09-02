@@ -318,7 +318,7 @@ template = 'event_timeline_brawls';
 parameters[template]['EVENT_ID'] = brawlId;
 parameters[template]['START_TIME'] = brawlStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(brawlStartTime);
-template = 'event_timeline_n3rjc_BGE';
+template = 'event_timeline_bge';
 parameters[template]['EVENT_ID'] = eventBgeId;
 parameters[template]['START_TIME'] = nextStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
@@ -439,7 +439,7 @@ function updateParameters() {
 			i++;
 		}
 	}
-	template = 'event_timeline_n3rjc_BGE';
+	template = 'event_timeline_bge';
 	parameters[template]['BGE_NAME'] = document.getElementById('bgeName').value;
 	parameters[template]['BGE_DESCRIPTION'] = document.getElementById('bgeDescription').value;
 	parameters[template]['BGE_EFFECT_ID'] = document.getElementById('bgeId').value;

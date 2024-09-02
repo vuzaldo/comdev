@@ -344,7 +344,7 @@ document.querySelectorAll('textarea.code').forEach(textArea => {
 	editors[textArea.id].setValue('Loading template...');
 });
 
-'wars_clash expeditions brawls n3rjc_BGE n3rjc_AC'.split(' ').forEach(e => {
+'wars_clash expeditions brawls bge n3rjc_AC'.split(' ').forEach(e => {
 	editors['event_timeline_' + e].getWrapperElement().style.minHeight = '15rem';
 });
 editors['reward_box'].getWrapperElement().style.minHeight = '31rem';
