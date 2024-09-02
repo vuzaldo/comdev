@@ -224,7 +224,7 @@ async function parse() {
 			if (json.map_expansion) {
 				json.map_expansion.forEach(expansion => {
 					node = expansion.map_node
-					if (node) {
+					if (node && nodes[node.map]) {
 						icon = itemData[expansion.currency_item].icon
 						nodes[node.map].unshift({ icon, x: node.x, y: node.y, expansion: '1' })
 					}
