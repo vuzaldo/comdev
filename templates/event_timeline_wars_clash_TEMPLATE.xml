@@ -1,4 +1,4 @@
-	<!-- ======== Event {EVENT_NUMBER} {EVENT_BGE} BGE Guild War / {START_TIME_COMMENT_NEXT_DAY} ========= -->
+	<!-- ======== Event {EVENT_NUMBER} {EVENT_BGE} Guild War / {START_TIME_COMMENT_NEXT_DAY} ======== -->
 	<event>
 		<id>{EVENT_ID}</id>
 		<name>{EVENT_NAME}</name>
@@ -51,9 +51,9 @@
 			<bg_effect>501</bg_effect>
 		</effect>
 		<map_node>
-			<map>{MAP_ID}</map> <!-- Select map for Clash Node to appear -->
-			<x>{MAP_X}</x> <!-- left right -->
-			<y>{MAP_Y}</y> <!-- up down -->
+			<map>{MAP_ID}</map>
+			<x>{MAP_X}</x>
+			<y>{MAP_Y}</y>
 			<map_active_prefab>guildwar_node_active</map_active_prefab>
 			<map_inactive_prefab>guildwar_node_not_active</map_inactive_prefab>
 			<map_bundle>26</map_bundle>
@@ -62,12 +62,12 @@
 			<desc>Complete the War at Rank 1 or higher.</desc>
 			<tier>1</tier>
 			<req>
-				<min_points>5000</min_points>
+				<min_points>10000</min_points>
 				<min_rank>1</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='600'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_1}'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='{STONES_TIER_1}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_1}'/> <!-- Champion Flask -->
 			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card -->
 			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #1 -->
 			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
@@ -75,199 +75,189 @@
 			<unit id='511' level='1'/> <!-- Arcane Ore -->
 			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
 			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='60'/> <!-- Gold Bar -->
-			<item id='1011' quantity='60'/> <!-- Gold Nugget -->
+			<item id='1012' quantity='75'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the War at Rank 2 or higher.</desc>
 			<tier>2</tier>
 			<req>
-				<min_points>5000</min_points>
+				<min_points>8500</min_points>
 				<min_rank>2</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='450'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_2}'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='{STONES_TIER_2}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_2}'/> <!-- Champion Flask -->
 			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #1 -->
+			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='75'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 5 or higher.</desc>
+			<tier>3</tier>
+			<req>
+				<min_points>7000</min_points>
+				<min_rank>5</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='{STONES_TIER_3}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_3}'/> <!-- Champion Flask -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #1 -->
+			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='75'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 8 or higher.</desc>
+			<tier>4</tier>
+			<req>
+				<min_points>6500</min_points>
+				<min_rank>8</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='{STONES_TIER_4}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_4}'/> <!-- Champion Flask -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #1 -->
+			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='75'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the War at Rank 11 or higher.</desc>
+			<tier>5</tier>
+			<req>
+				<min_points>6000</min_points>
+				<min_rank>11</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='{STONES_TIER_5}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_5}'/> <!-- Champion Flask -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card -->
 			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #1 -->
 			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
 			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
 			<unit id='511' level='1'/> <!-- Arcane Ore -->
 			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
 			<item id='4001' quantity='120'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='55'/> <!-- Gold Bar -->
-			<item id='1011' quantity='55'/> <!-- Gold Nugget -->
+			<item id='1012' quantity='60'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
-			<desc>Complete the War at Rank 3 or higher.</desc>
-			<tier>3</tier>
-			<req>
-				<min_points>5000</min_points>
-				<min_rank>3</min_rank>
-			</req>
-			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='375'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_3}'/> <!-- Champion Flask -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card -->
-			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #1 -->
-			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
-			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
-			<unit id='511' level='1'/> <!-- Arcane Ore -->
-			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
-			<item id='4001' quantity='100'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='50'/> <!-- Gold Bar -->
-			<item id='1011' quantity='50'/> <!-- Gold Nugget -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the War at Rank 5 or higher.</desc>
-			<tier>4</tier>
-			<req>
-				<min_points>4500</min_points>
-				<min_rank>5</min_rank>
-			</req>
-			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='300'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_4}'/> <!-- Champion Flask -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card -->
-			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #1 -->
-			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
-			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
-			<unit id='511' level='1'/> <!-- Arcane Ore -->
-			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
-			<item id='4001' quantity='90'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='45'/> <!-- Gold Bar -->
-			<item id='1011' quantity='45'/> <!-- Gold Nugget -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the War at Rank 7 or higher.</desc>
-			<tier>5</tier>
-			<req>
-				<min_points>4400</min_points>
-				<min_rank>7</min_rank>
-			</req>
-			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='240'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_5}'/> <!-- Champion Flask -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card -->
-			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #1 -->
-			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
-			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
-			<unit id='511' level='1'/> <!-- Arcane Ore -->
-			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
-			<item id='4001' quantity='80'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='40'/> <!-- Gold Bar -->
-			<item id='1011' quantity='40'/> <!-- Gold Nugget -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the War at Rank 10 or higher.</desc>
+			<desc>Complete the War at Rank 14 or higher.</desc>
 			<tier>6</tier>
 			<req>
-				<min_points>4200</min_points>
-				<min_rank>10</min_rank>
+				<min_points>5500</min_points>
+				<min_rank>14</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='200'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_6}'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='{STONES_TIER_6}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_6}'/> <!-- Champion Flask -->
 			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card -->
 			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #1 -->
 			<item id='18' quantity='1350'/> <!-- Legendary Pack Fragment -->
 			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
 			<unit id='511' level='1'/> <!-- Arcane Ore -->
 			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
-			<item id='4001' quantity='70'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='35'/> <!-- Gold Bar -->
-			<item id='1011' quantity='35'/> <!-- Gold Nugget -->
+			<item id='4001' quantity='110'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='55'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
-			<desc>Complete the War at Rank 15 or higher.</desc>
+			<desc>Complete the War at Rank 17 or higher.</desc>
 			<tier>7</tier>
 			<req>
-				<min_points>4000</min_points>
-				<min_rank>15</min_rank>
+				<min_points>5000</min_points>
+				<min_rank>17</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='150'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_7}'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='{STONES_TIER_7}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_7}'/> <!-- Champion Flask -->
 			<unit id='1{LEGENDARY_CARD_ID}' level='4'/> <!-- Legendary Card -->
 			<unit id='1{EPIC_CARD_ID}' level='4'/> <!-- Epic Card #1 -->
 			<item id='18' quantity='1200'/> <!-- Legendary Pack Fragment -->
 			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
 			<unit id='511' level='1'/> <!-- Arcane Ore -->
 			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
-			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='30'/> <!-- Gold Bar -->
-			<item id='1011' quantity='30'/> <!-- Gold Nugget -->
+			<item id='4001' quantity='100'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='50'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the War at Rank 20 or higher.</desc>
 			<tier>8</tier>
 			<req>
-				<min_points>3500</min_points>
+				<min_points>4750</min_points>
 				<min_rank>20</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='125'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_8}'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='{STONES_TIER_8}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_8}'/> <!-- Champion Flask -->
 			<unit id='1{LEGENDARY_CARD_ID}' level='4'/> <!-- Legendary Card -->
 			<unit id='1{EPIC_CARD_ID}' level='4'/> <!-- Epic Card #1 -->
 			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
 			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
 			<unit id='511' level='1'/> <!-- Arcane Ore -->
 			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
-			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='30'/> <!-- Gold Bar -->
-			<item id='1011' quantity='15'/> <!-- Gold Nugget -->
+			<item id='4001' quantity='90'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='45'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
-			<desc>Complete the War at Rank 40 or higher.</desc>
+			<desc>Complete the War at Rank 23 or higher.</desc>
 			<tier>9</tier>
 			<req>
-				<min_points>3000</min_points>
-				<min_rank>40</min_rank>
+				<min_points>4500</min_points>
+				<min_rank>23</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='100'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_9}'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='{STONES_TIER_9}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_9}'/> <!-- Champion Flask -->
 			<unit id='1{LEGENDARY_CARD_ID}' level='3'/> <!-- Legendary Card -->
 			<unit id='1{EPIC_CARD_ID}' level='3'/> <!-- Epic Card #1 -->
 			<item id='18' quantity='900'/> <!-- Legendary Pack Fragment -->
 			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
 			<unit id='511' level='1'/> <!-- Arcane Ore -->
 			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
-			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='30'/> <!-- Gold Bar -->
-			<item id='1011' quantity='15'/> <!-- Gold Nugget -->
+			<item id='4001' quantity='80'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='40'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
-			<desc>Complete the War at Rank 70 or higher.</desc>
+			<desc>Complete the War at Rank 26 or higher.</desc>
 			<tier>10</tier>
 			<req>
-				<min_points>2600</min_points>
-				<min_rank>70</min_rank>
+				<min_points>4250</min_points>
+				<min_rank>26</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='75'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_10}'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='{STONES_TIER_10}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_10}'/> <!-- Champion Flask -->
 			<unit id='1{LEGENDARY_CARD_ID}' level='3'/> <!-- Legendary Card -->
 			<unit id='1{EPIC_CARD_ID}' level='3'/> <!-- Epic Card #1 -->
 			<item id='18' quantity='750'/> <!-- Legendary Pack Fragment -->
 			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
 			<unit id='511' level='1'/> <!-- Arcane Ore -->
 			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
-			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='30'/> <!-- Gold Bar -->
-			<item id='1011' quantity='10'/> <!-- Gold Nugget -->
+			<item id='4001' quantity='70'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='35'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
-			<desc>Complete the War at Rank 100 or higher.</desc>
+			<desc>Complete the War at Rank 30 or higher.</desc>
 			<tier>11</tier>
 			<req>
-				<min_points>2200</min_points>
-				<min_rank>100</min_rank>
+				<min_points>4000</min_points>
+				<min_rank>30</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='50'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_11}'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='{STONES_TIER_11}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_11}'/> <!-- Champion Flask -->
 			<unit id='1{LEGENDARY_CARD_ID}' level='2'/> <!-- Legendary Card -->
 			<unit id='1{EPIC_CARD_ID}' level='2'/> <!-- Epic Card #1 -->
 			<item id='18' quantity='500'/> <!-- Legendary Pack Fragment -->
@@ -276,18 +266,17 @@
 			<item id='1022' quantity='1'/> <!-- Bounty Refill +3 -->
 			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
 			<item id='1012' quantity='30'/> <!-- Gold Bar -->
-			<item id='1011' quantity='10'/> <!-- Gold Nugget -->
 		</event_reward>
 		<event_reward>
-			<desc>Complete the War at Rank 150 or higher.</desc>
+			<desc>Complete the War at Rank 2000 or higher.</desc>
 			<tier>12</tier>
 			<req>
-				<min_points>1800</min_points>
-				<min_rank>150</min_rank>
+				<min_points>0</min_points>
+				<min_rank>2000</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='{STONES_TIER_12}'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='{STONES_TIER_12}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_12}'/> <!-- Champion Flask -->
 			<unit id='1{LEGENDARY_CARD_ID}' level='2'/> <!-- Legendary Card -->
 			<unit id='1{EPIC_CARD_ID}' level='2'/> <!-- Epic Card #1 -->
 			<item id='18' quantity='300'/> <!-- Legendary Pack Fragment -->
@@ -296,76 +285,6 @@
 			<item id='1022' quantity='1'/> <!-- Bounty Refill +3 -->
 			<item id='4001' quantity='50'/> <!-- Inscription Powder -->
 			<item id='1012' quantity='25'/> <!-- Gold Bar -->
-			<item id='1011' quantity='10'/> <!-- Gold Nugget -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the War at Rank 250 or higher.</desc>
-			<tier>13</tier>
-			<req>
-				<min_points>1200</min_points>
-				<min_rank>250</min_rank>
-			</req>
-			<unit id='1{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card -->
-			<unit id='1{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #1 -->
-			<item id='18' quantity='150'/> <!-- Legendary Pack Fragment -->
-			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
-			<unit id='511' level='1'/> <!-- Arcane Ore -->
-			<item id='1022' quantity='1'/> <!-- Bounty Refill +3 -->
-			<item id='4001' quantity='40'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='20'/> <!-- Gold Bar -->
-			<item id='1011' quantity='10'/> <!-- Gold Nugget -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the War at Rank 350 or higher.</desc>
-			<tier>14</tier>
-			<req>
-				<min_points>800</min_points>
-				<min_rank>350</min_rank>
-			</req>
-			<unit id='{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card -->
-			<unit id='{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #1 -->
-			<item id='17' quantity='750'/> <!-- Epic Pack Fragment -->
-			<unit id='511' level='1'/> <!-- Arcane Ore -->
-			<item id='1022' quantity='1'/> <!-- Bounty Refill +3 -->
-			<item id='4001' quantity='40'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='20'/> <!-- Gold Bar -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the War at Rank 500 or higher.</desc>
-			<tier>15</tier>
-			<req>
-				<min_points>400</min_points>
-				<min_rank>500</min_rank>
-			</req>
-			<item id='17' quantity='500'/> <!-- Epic Pack Fragment -->
-			<unit id='511' level='1'/> <!-- Arcane Ore -->
-			<item id='1022' quantity='1'/> <!-- Bounty Refill +3 -->
-			<item id='4001' quantity='30'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='15'/> <!-- Gold Bar -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the War at Rank 1000 or higher.</desc>
-			<tier>16</tier>
-			<req>
-				<min_points>200</min_points>
-				<min_rank>1000</min_rank>
-			</req>
-			<unit id='510' level='1'/> <!-- Arcane Chunk -->
-			<item id='1022' quantity='1'/> <!-- Bounty Refill +3 -->
-			<item id='4001' quantity='20'/> <!-- Inscription Powder -->
-			<item id='1012' quantity='10'/> <!-- Gold Bar -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the War at Rank 2000 or higher.</desc>
-			<tier>17</tier>
-			<req>
-				<min_points>100</min_points>
-				<min_rank>2000</min_rank>
-			</req>
-			<unit id='510' level='1'/> <!-- Arcane Chunk -->
-			<item id='1022' quantity='1'/> <!-- Bounty Refill +3 -->
-			<item id='4001' quantity='20'/> <!-- Inscription Powder -->
-			<item id='1011' quantity='10'/> <!-- Gold Nugget -->
 		</event_reward>
 	</event>
-	<!-- ====== {EVENT_BGE} BGE Guild War End ======== -->
+	<!-- ======== Event {EVENT_NUMBER} {EVENT_BGE} Guild War End ======== -->

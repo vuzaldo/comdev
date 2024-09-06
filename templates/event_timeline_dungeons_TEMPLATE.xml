@@ -1,422 +1,416 @@
-  <!-- ======== Event {EVENT_NUMBER} {EVENT_BGE} BGE Dungeon / {START_TIME_COMMENT} ======= -->
-    <event>
-      <id>{EVENT_ID}</id> <!-- HERE -->
-      <name>{EVENT_NAME}</name> <!-- HERE -->
-      <desc>Conquer monsters to find treasure! Three star victories move you up levels while defeats drop you down! Attacks have no cap and stop recharging 11 hours before event end!</desc>
-      <type>8</type>
-      <priority>410</priority>
-      <list_image name='challenge_banner_Dungeon' bundle='116'/>
-      <portrait>bluefireVoidDragon</portrait>
-      <banner_prefab>dungeon_001_banner</banner_prefab>
-      <bundle>71</bundle>
-      <start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} --> <!-- HERE -->
-      <recharge_duration>3660</recharge_duration> <!-- 3660 | 2 Days 13 Hours -->
-      <tracking_duration>4320</tracking_duration> <!-- 4320 | 3 Days -->
-      <claim_delay>15</claim_delay>
-      <end_duration>8640</end_duration> <!-- 8640 | 6 Days -->
-      <view_action>1</view_action>
-      <max_energy>0</max_energy> <!-- 0 max_energy means no cap -->
-      <starting_energy>20</starting_energy>
-      <recharge_time>1800</recharge_time>
-      <enemy_name>{ENEMY_NAME}</enemy_name> <!-- HERE -->
-      <enemy_bge>510</enemy_bge>
-      <dungeon_upgrade_levels>100</dungeon_upgrade_levels>
+	<!-- ======== Event {EVENT_NUMBER} {EVENT_BGE} Dungeon / {START_TIME_COMMENT} ======== -->
+	<event>
+		<id>{EVENT_ID}</id>
+		<name>{EVENT_NAME}</name>
+		<desc>Conquer monsters to find treasure! Three star victories move you up levels while defeats drop you down! Attacks have no cap and stop recharging 11 hours before event end!</desc>
+		<type>8</type>
+		<priority>410</priority>
+		<list_image name='challenge_banner_Dungeon' bundle='116'/>
+		<portrait>bluefireVoidDragon</portrait>
+		<banner_prefab>dungeon_001_banner</banner_prefab>
+		<bundle>71</bundle>
+		<start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} -->
+		<recharge_duration>3660</recharge_duration> <!-- 3660 | 2 Days 13 Hours -->
+		<tracking_duration>4320</tracking_duration> <!-- 4320 | 3 Days -->
+		<claim_delay>15</claim_delay>
+		<end_duration>8640</end_duration> <!-- 8640 | 6 Days -->
+		<view_action>1</view_action>
+		<max_energy>0</max_energy> <!-- 0 max_energy means no cap -->
+		<starting_energy>20</starting_energy>
+		<recharge_time>1800</recharge_time>
+		<enemy_name>{ENEMY_NAME}</enemy_name>
+		<enemy_bge>510</enemy_bge>
+		<dungeon_upgrade_levels>100</dungeon_upgrade_levels>
 
-      <!-- Assets -->
-      <star_icon_1>single_star</star_icon_1>
-      <star_icon_2>single_star</star_icon_2>
-      <star_icon_3>DungeonNodeIcon</star_icon_3>
-      <star_icon_empty_1>single_star_empty</star_icon_empty_1>
-      <star_icon_empty_2>single_star_empty</star_icon_empty_2>
-      <star_icon_empty_3>DungeonNodeIcon</star_icon_empty_3>
-      <defeat_icon>defeat_skull_icon</defeat_icon>
-      <star_bundle_1>31</star_bundle_1>
-      <star_bundle_2>31</star_bundle_2>
-      <star_bundle_3>71</star_bundle_3>
-      <star_bundle_defeat>31</star_bundle_defeat>
+		<!-- Assets -->
+		<star_icon_1>single_star</star_icon_1>
+		<star_icon_2>single_star</star_icon_2>
+		<star_icon_3>DungeonNodeIcon</star_icon_3>
+		<star_icon_empty_1>single_star_empty</star_icon_empty_1>
+		<star_icon_empty_2>single_star_empty</star_icon_empty_2>
+		<star_icon_empty_3>DungeonNodeIcon</star_icon_empty_3>
+		<defeat_icon>defeat_skull_icon</defeat_icon>
+		<star_bundle_1>31</star_bundle_1>
+		<star_bundle_2>31</star_bundle_2>
+		<star_bundle_3>71</star_bundle_3>
+		<star_bundle_defeat>31</star_bundle_defeat>
 
-      <event_icon>treasure_icon</event_icon>
-      <event_bundle>31</event_bundle>
-      <points_icon>treasure_icon</points_icon>
-      <points_bundle>31</points_bundle>
+		<event_icon>treasure_icon</event_icon>
+		<event_bundle>31</event_bundle>
+		<points_icon>treasure_icon</points_icon>
+		<points_bundle>31</points_bundle>
 
-      <attack_icon>dungeon_attacks_icon</attack_icon>
-      <attack_icon_bundle>0</attack_icon_bundle>
-      <map_prefab>dungeon_001</map_prefab>
-      <map_bundle>71</map_bundle>
-      <!-- <map_castle_prefab>guild_castle</map_castle_prefab>
-      <map_castle_bundle>26</map_castle_bundle>
-      <map_bg_prefab>1</map_bg_prefab>
-      <map_bg_bundle>1</map_bg_bundle> -->
+		<attack_icon>dungeon_attacks_icon</attack_icon>
+		<attack_icon_bundle>0</attack_icon_bundle>
+		<map_prefab>dungeon_001</map_prefab>
+		<map_bundle>71</map_bundle>
 
-      <!-- Reward Names -->
+		<!-- Reward Names -->
+		<!-- <rew_rank_str></rew_rank_str> -->
+		<!-- <rew_points_str></rew_points_str> -->
+		<!-- <rew_guild_points_str></rew_guild_points_str> -->
+		<!-- <mil_rank_str></mil_rank_str> -->
+		<mil_points_str>Dungeon Level {0}</mil_points_str>
+		<!-- <mil_guild_points_str></mil_guild_points_str> -->
 
-      <!-- <rew_rank_str></rew_rank_str> -->
-      <!-- <rew_points_str></rew_points_str> -->
-      <!-- <rew_guild_points_str></rew_guild_points_str> -->
-      <!-- <mil_rank_str></mil_rank_str> -->
-      <mil_points_str>Dungeon Level {0}</mil_points_str>
-      <!-- <mil_guild_points_str></mil_guild_points_str> -->
+		<map_node>
+			<map>{MAP_ID}</map>
+			<x>{MAP_X}</x>
+			<y>{MAP_Y}</y>
+			<map_active_prefab>dungeon_node_active</map_active_prefab>
+			<map_inactive_prefab>dungeon_node_not_active</map_inactive_prefab>
+			<map_bundle>71</map_bundle>
+		</map_node>
 
-      <map_node>
-        <map>{MAP_ID}</map> <!-- Select map for Dungeon Node to appear --> <!-- HERE -->
-        <x>{MAP_X}</x> <!-- left right --> <!-- HERE -->
-        <y>{MAP_Y}</y> <!-- up down --> <!-- HERE -->
-        <map_active_prefab>dungeon_node_active</map_active_prefab>
-        <map_inactive_prefab>dungeon_node_not_active</map_inactive_prefab>
-        <map_bundle>71</map_bundle>
-      </map_node>
+		<commander>
+			<card id='{STARTING_COMMANDER_1}' max_mastery_level='{STARTING_COMMANDER_1_MAX_LVL}'/> <!-- {STARTING_COMMANDER_1_COMMENT} -->
+			<card id='{STARTING_COMMANDER_2}' max_mastery_level='{STARTING_COMMANDER_2_MAX_LVL}'/> <!-- {STARTING_COMMANDER_2_COMMENT} -->
+			<card id='{STARTING_COMMANDER_3}' max_mastery_level='{STARTING_COMMANDER_3_MAX_LVL}'/> <!-- {STARTING_COMMANDER_3_COMMENT} -->
+			<card id='{MIDDLE_COMMANDER_1}' min_mastery_level='{MIDDLE_COMMANDER_1_MIN_LVL}' max_mastery_level='{MIDDLE_COMMANDER_1_MAX_LVL}'/> <!-- {MIDDLE_COMMANDER_1_COMMENT} -->
+			<card id='{MIDDLE_COMMANDER_2}' min_mastery_level='{MIDDLE_COMMANDER_2_MIN_LVL}' max_mastery_level='{MIDDLE_COMMANDER_2_MAX_LVL}'/> <!-- {MIDDLE_COMMANDER_2_COMMENT} -->
+			<card id='{MIDDLE_COMMANDER_3}' min_mastery_level='{MIDDLE_COMMANDER_3_MIN_LVL}' max_mastery_level='{MIDDLE_COMMANDER_3_MAX_LVL}'/> <!-- {MIDDLE_COMMANDER_3_COMMENT} -->
+			<card id='{MIDDLE_COMMANDER_4}' min_mastery_level='{MIDDLE_COMMANDER_4_MIN_LVL}' max_mastery_level='{MIDDLE_COMMANDER_4_MAX_LVL}'/> <!-- {MIDDLE_COMMANDER_4_COMMENT} -->
+			<card id='{FINAL_COMMANDER_1}' min_mastery_level='{FINAL_COMMANDER_1_MIN_LVL}'/> <!-- {FINAL_COMMANDER_1_COMMENT} -->
+			<card id='{FINAL_COMMANDER_2}' min_mastery_level='{FINAL_COMMANDER_2_MIN_LVL}'/> <!-- {FINAL_COMMANDER_2_COMMENT} -->
+		</commander>
 
-      <commander>
-        <card id='{STARTING_COMMANDER_1}' max_mastery_level='{STARTING_COMMANDER_1_MAX_LVL}'/> <!-- {STARTING_COMMANDER_1_COMMENT} -->
-        <card id='{STARTING_COMMANDER_2}' max_mastery_level='{STARTING_COMMANDER_2_MAX_LVL}'/> <!-- {STARTING_COMMANDER_2_COMMENT} -->
-        <card id='{STARTING_COMMANDER_3}' max_mastery_level='{STARTING_COMMANDER_3_MAX_LVL}'/> <!-- {STARTING_COMMANDER_3_COMMENT} -->
-        <card id='{MIDDLE_COMMANDER_1}' min_mastery_level='{MIDDLE_COMMANDER_1_MIN_LVL}' max_mastery_level='{MIDDLE_COMMANDER_1_MAX_LVL}'/> <!-- {MIDDLE_COMMANDER_1_COMMENT} -->
-        <card id='{MIDDLE_COMMANDER_2}' min_mastery_level='{MIDDLE_COMMANDER_2_MIN_LVL}' max_mastery_level='{MIDDLE_COMMANDER_2_MAX_LVL}'/> <!-- {MIDDLE_COMMANDER_2_COMMENT} -->
-        <card id='{MIDDLE_COMMANDER_3}' min_mastery_level='{MIDDLE_COMMANDER_3_MIN_LVL}' max_mastery_level='{MIDDLE_COMMANDER_3_MAX_LVL}'/> <!-- {MIDDLE_COMMANDER_3_COMMENT} -->
-        <card id='{MIDDLE_COMMANDER_4}' min_mastery_level='{MIDDLE_COMMANDER_4_MIN_LVL}' max_mastery_level='{MIDDLE_COMMANDER_4_MAX_LVL}'/> <!-- {MIDDLE_COMMANDER_4_COMMENT} -->
-        <card id='{FINAL_COMMANDER_1}' min_mastery_level='{FINAL_COMMANDER_1_MIN_LVL}'/> <!-- {FINAL_COMMANDER_1_COMMENT} -->
-        <card id='{FINAL_COMMANDER_2}' min_mastery_level='{FINAL_COMMANDER_2_MIN_LVL}'/> <!-- {FINAL_COMMANDER_2_COMMENT} -->
-      </commander>
+		<deck>
+			<!--
+				Optional tags within <card> similar to raid are:
+				mastery_level='#' - includes card at dungeon level
+				remove_mastery_level='#' - removes card at dungeon level
+			-->
+			<!-- Tribe IDs (Frog: 4, Elemental: 5, Angel: 6, Undead: 7, Dragon: 9, Avian: 10, Goblin: 11, Seafolk: 12, Insect: 13, Mecha: 16) -->
+			<card min_rarity='1' max_rarity='2' remove_mastery_level='20' set='1000,2000,3000'/>
+			<card min_rarity='1' max_rarity='2' remove_mastery_level='20' set='1000,2000,3000'/>
+			<card min_rarity='1' max_rarity='2' remove_mastery_level='25' set='1000,2000,3000'/>
+			<card min_rarity='1' max_rarity='2' remove_mastery_level='30' set='1000,2000,3000'/>
+			<card min_rarity='1' max_rarity='2' remove_mastery_level='35' set='1000,2000,3000'/>
+			<card min_rarity='2' max_rarity='2' remove_mastery_level='35' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
+			<card min_rarity='2' max_rarity='2' remove_mastery_level='40' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
+			<card min_rarity='2' max_rarity='2' remove_mastery_level='40' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
+			<card min_rarity='2' max_rarity='2' remove_mastery_level='45' set='1000,2000,3000'/>
+			<card min_rarity='2' max_rarity='3' remove_mastery_level='45' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
+			<card min_rarity='2' max_rarity='3' remove_mastery_level='50' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
+			<card min_rarity='3' max_rarity='3' remove_mastery_level='50' set='1000,2000,3000'/>
 
-      <deck>
-        <!--
-          Optional tags within <card> similar to raid are:
+			<card min_rarity='3' max_rarity='3' mastery_level='5' remove_mastery_level='55' set='3000'/>
+			<card min_rarity='3' max_rarity='3' mastery_level='13' remove_mastery_level='60' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='3' max_rarity='3' mastery_level='13' remove_mastery_level='65' set='3000'/>
+			<card min_rarity='3' max_rarity='3' mastery_level='20' remove_mastery_level='70' set='3000'/>
+			<card min_rarity='3' max_rarity='3' mastery_level='20' remove_mastery_level='75' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='3' max_rarity='3' mastery_level='25' remove_mastery_level='75' type='{EVENT_TRIBE_ID}' set='3000'/>
 
-          mastery_level='#' - includes card at dungeon level
-          remove_mastery_level='#' - removes card at dungeon level
-        -->
+			<card min_rarity='3' max_rarity='4' mastery_level='30' remove_mastery_level='80' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='3' max_rarity='4' mastery_level='35' remove_mastery_level='85' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='3' max_rarity='4' mastery_level='35' remove_mastery_level='90' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='3' max_rarity='4' mastery_level='40' remove_mastery_level='95' set='3000'/>
+			<card min_rarity='3' max_rarity='4' mastery_level='40' remove_mastery_level='100' type='{EVENT_TRIBE_ID}' set='3000'/>
 
-        <!-- HERE all type - Tribe IDs (Frog: 4, Elemental: 5, Angel: 6, Undead: 7, Dragon: 9, Avian: 10, Goblin: 11, Seafolk: 12, Insect: 13, Mecha: 16) -->
-        <card min_rarity='1' max_rarity='2' remove_mastery_level='20' set='1000,2000,3000'/>
-        <card min_rarity='1' max_rarity='2' remove_mastery_level='20' set='1000,2000,3000'/>
-        <card min_rarity='1' max_rarity='2' remove_mastery_level='25' set='1000,2000,3000'/>
-        <card min_rarity='1' max_rarity='2' remove_mastery_level='30' set='1000,2000,3000'/>
-        <card min_rarity='1' max_rarity='2' remove_mastery_level='35' set='1000,2000,3000'/>
-        <card min_rarity='2' max_rarity='2' remove_mastery_level='35' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
-        <card min_rarity='2' max_rarity='2' remove_mastery_level='40' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
-        <card min_rarity='2' max_rarity='2' remove_mastery_level='40' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
-        <card min_rarity='2' max_rarity='2' remove_mastery_level='45' set='1000,2000,3000'/>
-        <card min_rarity='2' max_rarity='3' remove_mastery_level='45' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
-        <card min_rarity='2' max_rarity='3' remove_mastery_level='50' type='{EVENT_TRIBE_ID}' set='1000,2000,3000'/>
-        <card min_rarity='3' max_rarity='3' remove_mastery_level='50' set='1000,2000,3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='45' remove_mastery_level='105' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='45' remove_mastery_level='110' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='50' remove_mastery_level='115' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='50' remove_mastery_level='120' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='55' remove_mastery_level='125' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='60' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='65' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='70' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='75' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='3000'/>
 
-        <card min_rarity='3' max_rarity='3' mastery_level='5' remove_mastery_level='55' set='3000'/>
-        <card min_rarity='3' max_rarity='3' mastery_level='13' remove_mastery_level='60' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='3' max_rarity='3' mastery_level='13' remove_mastery_level='65' set='3000'/>
-        <card min_rarity='3' max_rarity='3' mastery_level='20' remove_mastery_level='70' set='3000'/>
-        <card min_rarity='3' max_rarity='3' mastery_level='20' remove_mastery_level='75' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='3' max_rarity='3' mastery_level='25' remove_mastery_level='75' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card id='{FIXED_CARD_1}' mastery_level='{FIXED_CARD_1_MIN_LVL}'/> <!-- {FIXED_CARD_1_COMMENT} -->
 
-        <card min_rarity='3' max_rarity='4' mastery_level='30' remove_mastery_level='80' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='3' max_rarity='4' mastery_level='35' remove_mastery_level='85' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='3' max_rarity='4' mastery_level='35' remove_mastery_level='90' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='3' max_rarity='4' mastery_level='40' remove_mastery_level='95' set='3000'/>
-        <card min_rarity='3' max_rarity='4' mastery_level='40' remove_mastery_level='100' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='80' remove_mastery_level='134' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='85' remove_mastery_level='134' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='90' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card min_rarity='4' max_rarity='4' mastery_level='95' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000'/>
 
-        <card min_rarity='4' max_rarity='4' mastery_level='45' remove_mastery_level='105' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='45' remove_mastery_level='110' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='50' remove_mastery_level='115' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='50' remove_mastery_level='120' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='55' remove_mastery_level='125' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='60' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='65' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='70' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='75' remove_mastery_level='130' type='{EVENT_TRIBE_ID}' set='3000'/>
+			<card id='{FIXED_CARD_2}' mastery_level='{FIXED_CARD_2_MIN_LVL}'/> <!-- {FIXED_CARD_2_COMMENT} -->
+			<card id='{FIXED_CARD_3}' mastery_level='{FIXED_CARD_3_MIN_LVL}'/> <!-- {FIXED_CARD_3_COMMENT} -->
+			<card id='{FIXED_CARD_4}' mastery_level='{FIXED_CARD_4_MIN_LVL}'/> <!-- {FIXED_CARD_4_COMMENT} -->
+			<card id='{FIXED_CARD_5}' mastery_level='{FIXED_CARD_5_MIN_LVL}'/> <!-- {FIXED_CARD_5_COMMENT} -->
+			<card id='{FIXED_CARD_6}' mastery_level='{FIXED_CARD_6_MIN_LVL}'/> <!-- {FIXED_CARD_6_COMMENT} -->
+			<card id='{FIXED_CARD_7}' mastery_level='{FIXED_CARD_7_MIN_LVL}'/> <!-- {FIXED_CARD_7_COMMENT} -->
+			<card id='{FIXED_CARD_8}' mastery_level='{FIXED_CARD_8_MIN_LVL}'/> <!-- {FIXED_CARD_8_COMMENT} -->
+			<card id='{FIXED_CARD_9}' mastery_level='{FIXED_CARD_9_MIN_LVL}'/> <!-- {FIXED_CARD_9_COMMENT} -->
+			<card id='{FIXED_CARD_10}' mastery_level='{FIXED_CARD_10_MIN_LVL}'/> <!-- {FIXED_CARD_10_COMMENT} -->
+			<card id='{FIXED_CARD_11}' mastery_level='{FIXED_CARD_11_MIN_LVL}'/> <!-- {FIXED_CARD_11_COMMENT} -->
+			<card id='{FIXED_CARD_12}' mastery_level='{FIXED_CARD_12_MIN_LVL}'/> <!-- {FIXED_CARD_12_COMMENT} -->
+			<card id='{FIXED_CARD_13}' mastery_level='{FIXED_CARD_13_MIN_LVL}'/> <!-- {FIXED_CARD_13_COMMENT} -->
+			<card id='{FIXED_CARD_14}' mastery_level='{FIXED_CARD_14_MIN_LVL}'/> <!-- {FIXED_CARD_14_COMMENT} -->
+			<card id='{FIXED_CARD_15}' mastery_level='{FIXED_CARD_15_MIN_LVL}'/> <!-- {FIXED_CARD_15_COMMENT} -->
+			<card id='{FIXED_CARD_16}' mastery_level='{FIXED_CARD_16_MIN_LVL}'/> <!-- {FIXED_CARD_16_COMMENT} -->
+			<card id='{FIXED_CARD_17}' mastery_level='{FIXED_CARD_17_MIN_LVL}'/> <!-- {FIXED_CARD_17_COMMENT} -->
+			<card id='{FIXED_CARD_18}' mastery_level='{FIXED_CARD_18_MIN_LVL}'/> <!-- {FIXED_CARD_18_COMMENT} -->
 
-        <card id='{FIXED_CARD_1}' mastery_level='{FIXED_CARD_1_MIN_LVL}'/> <!-- {FIXED_CARD_1_COMMENT} -->
+		</deck>
 
-        <card min_rarity='4' max_rarity='4' mastery_level='80' remove_mastery_level='134' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='85' remove_mastery_level='134' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='90' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000'/>
-        <card min_rarity='4' max_rarity='4' mastery_level='95' remove_mastery_level='138' type='{EVENT_TRIBE_ID}' set='3000'/>
+		<event_reward>
+			<desc>Complete the Dungeon at Rank 5 or higher.</desc>
+			<tier>1</tier>
+			<req>
+				<min_rank>5</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='{STONES_TIER_1}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_1}'/> <!-- Champion Flask -->
+			<item id='{TRIBE_RUNE_ID}' quantity='2'/> <!-- Tribe Rune (Angel: 5501, Elemental: 5502, Undead: 5503, Goblin: 5504, Dragon: 5505, Seafolk: 5506, Avian: 5507, Frog: 5508, Mecha: 5509, Insect: 5510, Beast: 5511) -->
+			<item id='1012' quantity='60'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Dungeon at Rank 10 or higher.</desc>
+			<tier>2</tier>
+			<req>
+				<min_rank>10</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='{STONES_TIER_2}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_2}'/> <!-- Champion Flask -->
+			<item id='{TRIBE_RUNE_ID}' quantity='2'/> <!-- Tribe Rune -->
+			<item id='1012' quantity='45'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Dungeon at Rank 15 or higher.</desc>
+			<tier>3</tier>
+			<req>
+				<min_rank>15</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='{STONES_TIER_3}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_3}'/> <!-- Champion Flask -->
+			<item id='{TRIBE_RUNE_ID}' quantity='1'/> <!-- Tribe Rune -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Dungeon at Rank 25 or higher.</desc>
+			<tier>4</tier>
+			<req>
+				<min_rank>25</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='{STONES_TIER_4}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_4}'/> <!-- Champion Flask -->
+			<item id='{TRIBE_RUNE_ID}' quantity='1'/> <!-- Tribe Rune -->
+			<item id='1012' quantity='25'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Dungeon at Rank 50 or higher.</desc>
+			<tier>5</tier>
+			<req>
+				<min_rank>50</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='{STONES_TIER_5}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_5}'/> <!-- Champion Flask -->
+			<item id='{TRIBE_RUNE_ID}' quantity='1'/> <!-- Tribe Rune -->
+			<item id='1012' quantity='20'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Dungeon at Rank 100 or higher.</desc>
+			<tier>6</tier>
+			<req>
+				<min_rank>100</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='{STONES_TIER_6}'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='{FLASKS_TIER_6}'/> <!-- Champion Flask -->
+			<item id='1012' quantity='15'/> <!-- Gold Bar -->
+		</event_reward>
 
-        <card id='{FIXED_CARD_2}' mastery_level='{FIXED_CARD_2_MIN_LVL}'/> <!-- {FIXED_CARD_2_COMMENT} -->
-        <card id='{FIXED_CARD_3}' mastery_level='{FIXED_CARD_3_MIN_LVL}'/> <!-- {FIXED_CARD_3_COMMENT} -->
-        <card id='{FIXED_CARD_4}' mastery_level='{FIXED_CARD_4_MIN_LVL}'/> <!-- {FIXED_CARD_4_COMMENT} -->
-        <card id='{FIXED_CARD_5}' mastery_level='{FIXED_CARD_5_MIN_LVL}'/> <!-- {FIXED_CARD_5_COMMENT} -->
-        <card id='{FIXED_CARD_6}' mastery_level='{FIXED_CARD_6_MIN_LVL}'/> <!-- {FIXED_CARD_6_COMMENT} -->
-        <card id='{FIXED_CARD_7}' mastery_level='{FIXED_CARD_7_MIN_LVL}'/> <!-- {FIXED_CARD_7_COMMENT} -->
-        <card id='{FIXED_CARD_8}' mastery_level='{FIXED_CARD_8_MIN_LVL}'/> <!-- {FIXED_CARD_8_COMMENT} -->
-        <card id='{FIXED_CARD_9}' mastery_level='{FIXED_CARD_9_MIN_LVL}'/> <!-- {FIXED_CARD_9_COMMENT} -->
-        <card id='{FIXED_CARD_10}' mastery_level='{FIXED_CARD_10_MIN_LVL}'/> <!-- {FIXED_CARD_10_COMMENT} -->
-        <card id='{FIXED_CARD_11}' mastery_level='{FIXED_CARD_11_MIN_LVL}'/> <!-- {FIXED_CARD_11_COMMENT} -->
-        <card id='{FIXED_CARD_12}' mastery_level='{FIXED_CARD_12_MIN_LVL}'/> <!-- {FIXED_CARD_12_COMMENT} -->
-        <card id='{FIXED_CARD_13}' mastery_level='{FIXED_CARD_13_MIN_LVL}'/> <!-- {FIXED_CARD_13_COMMENT} -->
-        <card id='{FIXED_CARD_14}' mastery_level='{FIXED_CARD_14_MIN_LVL}'/> <!-- {FIXED_CARD_14_COMMENT} -->
-        <card id='{FIXED_CARD_15}' mastery_level='{FIXED_CARD_15_MIN_LVL}'/> <!-- {FIXED_CARD_15_COMMENT} -->
-        <card id='{FIXED_CARD_16}' mastery_level='{FIXED_CARD_16_MIN_LVL}'/> <!-- {FIXED_CARD_16_COMMENT} -->
-        <card id='{FIXED_CARD_17}' mastery_level='{FIXED_CARD_17_MIN_LVL}'/> <!-- {FIXED_CARD_17_COMMENT} -->
-        <card id='{FIXED_CARD_18}' mastery_level='{FIXED_CARD_18_MIN_LVL}'/> <!-- {FIXED_CARD_18_COMMENT} -->
-
-      </deck>
-
-      <event_reward>
-            <desc>Complete the Dungeon at Rank 5 or higher.</desc>
-            <tier>1</tier>
-            <req>
-              <min_rank>5</min_rank>
-            </req>
-            <display_item>0</display_item>
-            <item id='{STONES_ID}' quantity='150'/> <!-- Legendary Stones --> <!-- HERE -->
-            <item id='{FLASK_ID}' quantity='{STONES_TIER_1}'/> <!-- Champion Flask --> <!-- HERE -->
-            <item id='{TRIBE_RUNE_ID}' quantity='2'/> <!-- HERE Tribe Rune (Angel: 5501, Elemental: 5502, Undead: 5503, Goblin: 5504, Dragon: 5505,  Seafolk: 5506, Avian: 5507, Frog: 5508, Mecha: 5509, Insect: 5510, Beast: 5511) -->
-            <item id='1012' quantity='60'/> <!-- Gold Bar -->
-      </event_reward>
-      <event_reward>
-            <desc>Complete the Dungeon at Rank 10 or higher.</desc>
-            <tier>2</tier>
-            <req>
-              <min_rank>10</min_rank>
-            </req>
-            <display_item>0</display_item>
-            <item id='{STONES_ID}' quantity='120'/> <!-- Legendary Stones -->
-            <item id='{FLASK_ID}' quantity='{STONES_TIER_2}'/> <!-- Champion Flask -->
-            <item id='{TRIBE_RUNE_ID}' quantity='2'/> <!-- Tribe Rune -->
-            <item id='1012' quantity='45'/> <!-- Gold Bar -->
-      </event_reward>
-      <event_reward>
-            <desc>Complete the Dungeon at Rank 15 or higher.</desc>
-            <tier>3</tier>
-            <req>
-              <min_rank>15</min_rank>
-            </req>
-            <display_item>0</display_item>
-            <item id='{STONES_ID}' quantity='100'/> <!-- Legendary Stones -->
-            <item id='{FLASK_ID}' quantity='{STONES_TIER_3}'/> <!-- Champion Flask -->
-            <item id='{TRIBE_RUNE_ID}' quantity='1'/> <!-- Tribe Rune -->
-            <item id='1012' quantity='30'/> <!-- Gold Bar -->
-      </event_reward>
-      <event_reward>
-            <desc>Complete the Dungeon at Rank 25 or higher.</desc>
-            <tier>4</tier>
-            <req>
-              <min_rank>25</min_rank>
-            </req>
-            <display_item>0</display_item>
-            <item id='{STONES_ID}' quantity='80'/> <!-- Legendary Stones -->
-            <item id='{FLASK_ID}' quantity='{STONES_TIER_4}'/> <!-- Champion Flask -->
-            <item id='{TRIBE_RUNE_ID}' quantity='1'/> <!-- Tribe Rune -->
-            <item id='1012' quantity='25'/> <!-- Gold Bar -->
-      </event_reward>
-      <event_reward>
-            <desc>Complete the Dungeon at Rank 50 or higher.</desc>
-            <tier>5</tier>
-            <req>
-              <min_rank>50</min_rank>
-            </req>
-            <display_item>0</display_item>
-            <item id='{STONES_ID}' quantity='60'/> <!-- Legendary Stones -->
-            <item id='{FLASK_ID}' quantity='{STONES_TIER_5}'/> <!-- Champion Flask -->
-            <item id='{TRIBE_RUNE_ID}' quantity='1'/> <!-- Tribe Rune -->
-            <item id='1012' quantity='20'/> <!-- Gold Bar -->
-      </event_reward>
-      <event_reward>
-            <desc>Complete the Dungeon at Rank 100 or higher.</desc>
-            <tier>6</tier>
-            <req>
-              <min_rank>100</min_rank>
-            </req>
-            <display_item>0</display_item>
-            <item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
-            <item id='{FLASK_ID}' quantity='{STONES_TIER_6}'/> <!-- Champion Flask -->
-            <item id='1012' quantity='15'/> <!-- Gold Bar -->
-      </event_reward>
-
-      <milestone_reward>
-            <tier>1</tier>
-            <req>
-              <min_points>140</min_points>
-            </req>
-            <item id='1045' quantity='1'/> <!-- Dungeon Refill +20 -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>2</tier>
-            <req>
-              <min_points>135</min_points>
-            </req>
-            <item id='4013' quantity='6'/> <!-- Legendary Rune Sliver -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>3</tier>
-            <req>
-              <min_points>130</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>4</tier>
-            <req>
-              <min_points>125</min_points>
-            </req>
-            <item id='1025' quantity='3'/> <!-- Bounty Refill +20 -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>5</tier>
-            <req>
-              <min_points>120</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>6</tier>
-            <req>
-              <min_points>115</min_points>
-            </req>
-            <item id='523' quantity='1'/> <!-- Random Legendary Rune -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>7</tier>
-            <req>
-              <min_points>110</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>8</tier>
-            <req>
-              <min_points>105</min_points>
-            </req>
-            <item id='2529' quantity='1'/> <!-- Hefty Mythical Flask -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>9</tier>
-            <req>
-              <min_points>100</min_points>
-            </req>
-            <item id='{FLASK_ID}' quantity='{STONES_MILESTONE_2}'/> <!-- Champion Flask --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>10</tier>
-            <req>
-              <min_points>95</min_points>
-            </req>
-            <item id='18' quantity='1500'/> <!-- Legendary Pack Fragments -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>11</tier>
-            <req>
-              <min_points>90</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>12</tier>
-            <req>
-              <min_points>85</min_points>
-            </req>
-            <unit id='{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card #1 --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>13</tier>
-            <req>
-              <min_points>80</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>14</tier>
-            <req>
-              <min_points>75</min_points>
-            </req>
-            <item id='2528' quantity='1'/> <!-- Medium Mythical Flask -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>15</tier>
-            <req>
-              <min_points>70</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>16</tier>
-            <req>
-              <min_points>65</min_points>
-            </req>
-            <item id='17' quantity='1500'/> <!-- Epic Pack Fragments -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>17</tier>
-            <req>
-              <min_points>60</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>18</tier>
-            <req>
-              <min_points>55</min_points>
-            </req>
-            <unit id='{LEGENDARY_CARD_ID_2}' level='1'/> <!-- Legendary Card #2 --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>19</tier>
-            <req>
-              <min_points>50</min_points>
-            </req>
-            <item id='{FLASK_ID}' quantity='{STONES_MILESTONE_1}'/> <!-- Champion Flask --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>20</tier>
-            <req>
-              <min_points>45</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>21</tier>
-            <req>
-              <min_points>40</min_points>
-            </req>
-            <item id='2001' quantity='150'/> <!-- Arcane Fragments -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>22</tier>
-            <req>
-              <min_points>35</min_points>
-            </req>
-            <item id='2501' quantity='400'/> <!-- Blue Fire Souls -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>23</tier>
-            <req>
-              <min_points>30</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>24</tier>
-            <req>
-              <min_points>25</min_points>
-            </req>
-            <unit id='1{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #3 --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>25</tier>
-            <req>
-              <min_points>20</min_points>
-            </req>
-            <item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones --> <!-- HERE -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>26</tier>
-            <req>
-              <min_points>15</min_points>
-            </req>
-            <item id='4001' quantity='100'/> <!-- Inscription Powder -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>27</tier>
-            <req>
-              <min_points>10</min_points>
-            </req>
-            <item id='1012' quantity='25'/> <!-- Gold Bar -->
-      </milestone_reward>
-      <milestone_reward>
-            <tier>28</tier>
-            <req>
-              <min_points>5</min_points>
-            </req>
-            <unit id='512' level='1'/> <!-- Arcane Deposit -->
-      </milestone_reward>
-    </event>
+		<milestone_reward>
+			<tier>1</tier>
+			<req>
+				<min_points>140</min_points>
+			</req>
+			<item id='1045' quantity='1'/> <!-- Dungeon Refill +20 -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>2</tier>
+			<req>
+				<min_points>135</min_points>
+			</req>
+			<item id='4013' quantity='6'/> <!-- Legendary Rune Sliver -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>3</tier>
+			<req>
+				<min_points>130</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>4</tier>
+			<req>
+				<min_points>125</min_points>
+			</req>
+			<item id='1025' quantity='3'/> <!-- Bounty Refill +20 -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>5</tier>
+			<req>
+				<min_points>120</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>6</tier>
+			<req>
+				<min_points>115</min_points>
+			</req>
+			<item id='523' quantity='1'/> <!-- Random Legendary Rune -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>7</tier>
+			<req>
+				<min_points>110</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>8</tier>
+			<req>
+				<min_points>105</min_points>
+			</req>
+			<item id='2529' quantity='1'/> <!-- Hefty Mythical Flask -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>9</tier>
+			<req>
+				<min_points>100</min_points>
+			</req>
+			<item id='{FLASK_ID}' quantity='{STONES_MILESTONE_2}'/> <!-- Champion Flask -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>10</tier>
+			<req>
+				<min_points>95</min_points>
+			</req>
+			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragments -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>11</tier>
+			<req>
+				<min_points>90</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>12</tier>
+			<req>
+				<min_points>85</min_points>
+			</req>
+			<unit id='{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card #1 -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>13</tier>
+			<req>
+				<min_points>80</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>14</tier>
+			<req>
+				<min_points>75</min_points>
+			</req>
+			<item id='2528' quantity='1'/> <!-- Medium Mythical Flask -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>15</tier>
+			<req>
+				<min_points>70</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>16</tier>
+			<req>
+				<min_points>65</min_points>
+			</req>
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragments -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>17</tier>
+			<req>
+				<min_points>60</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>18</tier>
+			<req>
+				<min_points>55</min_points>
+			</req>
+			<unit id='{LEGENDARY_CARD_ID_2}' level='1'/> <!-- Legendary Card #2 -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>19</tier>
+			<req>
+				<min_points>50</min_points>
+			</req>
+			<item id='{FLASK_ID}' quantity='{STONES_MILESTONE_1}'/> <!-- Champion Flask -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>20</tier>
+			<req>
+				<min_points>45</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>21</tier>
+			<req>
+				<min_points>40</min_points>
+			</req>
+			<item id='2001' quantity='150'/> <!-- Arcane Fragments -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>22</tier>
+			<req>
+				<min_points>35</min_points>
+			</req>
+			<item id='2501' quantity='400'/> <!-- Blue Fire Souls -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>23</tier>
+			<req>
+				<min_points>30</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>24</tier>
+			<req>
+				<min_points>25</min_points>
+			</req>
+			<unit id='1{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #3 -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>25</tier>
+			<req>
+				<min_points>20</min_points>
+			</req>
+			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>26</tier>
+			<req>
+				<min_points>15</min_points>
+			</req>
+			<item id='4001' quantity='100'/> <!-- Inscription Powder -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>27</tier>
+			<req>
+				<min_points>10</min_points>
+			</req>
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</milestone_reward>
+		<milestone_reward>
+			<tier>28</tier>
+			<req>
+				<min_points>5</min_points>
+			</req>
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+		</milestone_reward>
+	</event>
+	<!-- ======== Event {EVENT_NUMBER} {EVENT_BGE} Dungeon End ======== -->

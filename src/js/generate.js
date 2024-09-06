@@ -292,7 +292,6 @@ for (const template in editors) {
 	previous[template] = '';
 }
 let template = 'event_timeline_clash';
-parameters[template]['EVENT_NUMBER'] = eventNumber;
 parameters[template]['EVENT_ID'] = clashId;
 parameters[template]['EVENT_NEXT_ID'] = clashId + 1;
 parameters[template]['START_TIME'] = clashStartTime;
@@ -300,12 +299,10 @@ parameters[template]['START_TIME_COMMENT'] = convertTimestamp(clashStartTime);
 parameters[template]['START_TIME_2'] = guildClashStartTime;
 parameters[template]['START_TIME_COMMENT_2'] = convertTimestamp(guildClashStartTime);
 template = 'event_timeline_dungeons';
-parameters[template]['EVENT_NUMBER'] = eventNumber;
 parameters[template]['EVENT_ID'] = dungeonId;
 parameters[template]['START_TIME'] = dungeonStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(dungeonStartTime);
 template = 'event_timeline_wars_clash';
-parameters[template]['EVENT_NUMBER'] = eventNumber;
 parameters[template]['EVENT_ID'] = warId;
 parameters[template]['START_TIME'] = warStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(warStartTime);
@@ -333,13 +330,13 @@ parameters[template]['START_TIME'] = nextStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
 
 const stoneTiers = {
-	event_timeline_clash: [600, 450, 375, 300, 240, 200, 175, 150, 125, 100, 75, 50, 25, 10],
-	event_timeline_clash_GC: [600, 450, 375, 300, 240, 200, 150, 125, 100, 75, 50, 25],
-	event_timeline_dungeons: [150, 120, 100, 80, 60, 40],
-	event_timeline_wars_clash: [600, 450, 375, 300, 240, 200, 150, 125, 100, 75, 50, 25],
-	event_timeline_expeditions: [1000, 800, 600, 500, 400, 350, 300, 275, 225, 175, 150, 130, 110, 90, 80, 60, 40, 20],
-	event_timeline_brawls: [1000, 800, 600, 500, 400, 350, 300, 275, 225, 175, 150, 130, 110, 90, 80, 60, 40, 20]
-}
+	event_timeline_clash: [600, 540, 480, 420, 360, 300, 240, 200, 160, 140, 120, 100],
+	event_timeline_clash_GC: [600, 500, 420, 360, 300, 240, 200, 180, 160, 140, 120, 100],
+	event_timeline_dungeons: [200, 150, 120, 100, 80, 60],
+	event_timeline_wars_clash: [600, 500, 400, 300, 240, 220, 200, 180, 160, 140, 120, 100],
+	event_timeline_expeditions: [1000, 900, 800, 700, 600, 500, 400, 360, 320, 280, 240, 200, 160, 140, 120, 100, 80, 60],
+	event_timeline_brawls: [1000, 900, 800, 700, 600, 500, 400, 360, 320, 280, 240, 200, 160, 140, 120, 100, 80, 60]
+};
 function scaleStones(stones, scale) {
 	const scaledAmount = (stones * scale).toFixed(2);
 	const rounded = Math.ceil(parseFloat(scaledAmount));
@@ -348,8 +345,10 @@ function scaleStones(stones, scale) {
 }
 function updateStoneTiers(template, scale, GC = '') {
 	for (let i = 0; i < stoneTiers[template + GC]?.length; i++) {
-		const stones = scaleStones(stoneTiers[template + GC][i], scale);
+		const stones = stoneTiers[template + GC][i];
 		parameters[template]['STONES_TIER_' + (i + 1) + GC] = stones;
+		const flasks = scaleStones(stones, scale);
+		parameters[template]['FLASKS_TIER_' + (i + 1) + GC] = flasks;
 	}
 }
 
@@ -360,6 +359,7 @@ function updateParameters() {
 	const scaleQuantity2 = document.getElementById('rewardFlaskScale2').value;
 	const separateScale = ['event_timeline_expeditions', 'event_timeline_brawls'];
 	for (const template in parameters) {
+		parameters[template]['EVENT_NUMBER'] = eventNumber;
 		eventBGE && (parameters[template]['EVENT_BGE'] = eventBGE);
 		eventMap && (parameters[template]['MAP_ID'] = eventMap);
 		if (eventMapX != null) (parameters[template]['MAP_X'] = eventMapX);
@@ -386,8 +386,8 @@ function updateParameters() {
 	parameters[template]['LEGENDARY_CARD_ID'] = document.getElementById('LegendaryDungeon').value;
 	parameters[template]['LEGENDARY_CARD_ID_2'] = document.getElementById('LegendaryDungeon2').value;
 	parameters[template]['EPIC_CARD_ID'] = document.getElementById('rewardEpicDungeon').value;
-	parameters[template]['STONES_MILESTONE_1'] = scaleStones(150, scaleQuantity);
-	parameters[template]['STONES_MILESTONE_2'] = scaleStones(150, scaleQuantity);
+	parameters[template]['STONES_MILESTONE_1'] = scaleStones(200, scaleQuantity);
+	parameters[template]['STONES_MILESTONE_2'] = scaleStones(200, scaleQuantity);
 	eventTribeId && (parameters[template]['EVENT_TRIBE_ID'] = eventTribeId);
 	const tribeRuneId = { 'Angel': 5501, 'Elemental': 5502, 'Undead': 5503, 'Goblin': 5504, 'Dragon': 5505,
 							'Seafolk': 5506, 'Avian': 5507, 'Frog': 5508, 'Mecha': 5509, 'Insect': 5510, 'Beast': 5511 }
