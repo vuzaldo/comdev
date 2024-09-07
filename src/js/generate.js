@@ -276,6 +276,7 @@ const eventBgeId = 6105 + numCycles;
 const rewardBoxId = 6090 + numCycles;
 const eventRewardBoxId = 11093 + numCycles;
 const nextChampionId = 4073 + numCycles + (eventNumber > 117);
+const endgameId = 4500 + (numCycles - 1) % 6;
 let eventBGE, eventTribeId, eventMap, eventMapX, eventMapY;
 
 let newChamp = 4073, newEpic = 2255;
@@ -457,8 +458,11 @@ function updateParameters() {
 		parameters[template][`EPIC_CARD_${i}`] = cardId;
 		parameters[template][`EPIC_CARD_${i}_COMMENT`] = id2Card('1' + cardId, 0, 3, true);
 	}
+	parameters[template]['ENDGAME_STONES_ID'] = '10' + endgameId;
+	parameters[template]['ENDGAME_ITEM_NAME'] = CARDS[endgameId].item_name;
 	template = 'event_timeline_n3rjc_AC';
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
+	parameters[template]['ENDGAME_ITEM_NAME'] = CARDS[endgameId].item_name;
 }
 
 
