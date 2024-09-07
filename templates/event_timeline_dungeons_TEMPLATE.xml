@@ -2,7 +2,7 @@
 	<event>
 		<id>{EVENT_ID}</id>
 		<name>{EVENT_NAME}</name>
-		<desc>Conquer monsters to find treasure! Three star victories move you up levels while defeats drop you down! Attacks have no cap and stop recharging 11 hours before event end!</desc>
+		<desc>Conquer monsters to find treasure! Three star victories move you up levels while defeats drop you down! Attacks have no cap and stop recharging 36 hours before event end!</desc>
 		<type>8</type>
 		<priority>410</priority>
 		<list_image name='challenge_banner_Dungeon' bundle='116'/>
@@ -10,13 +10,13 @@
 		<banner_prefab>dungeon_001_banner</banner_prefab>
 		<bundle>71</bundle>
 		<start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} -->
-		<recharge_duration>3660</recharge_duration> <!-- 3660 | 2 Days 13 Hours -->
+		<recharge_duration>2160</recharge_duration> <!-- 2160 | 1 Day 12 Hours -->
 		<tracking_duration>4320</tracking_duration> <!-- 4320 | 3 Days -->
 		<claim_delay>15</claim_delay>
 		<end_duration>8640</end_duration> <!-- 8640 | 6 Days -->
 		<view_action>1</view_action>
 		<max_energy>0</max_energy> <!-- 0 max_energy means no cap -->
-		<starting_energy>20</starting_energy>
+		<starting_energy>70</starting_energy>
 		<recharge_time>1800</recharge_time>
 		<enemy_name>{ENEMY_NAME}</enemy_name>
 		<enemy_bge>510</enemy_bge>
