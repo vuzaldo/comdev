@@ -89,13 +89,17 @@
 				<min_rank>1</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='150'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='75'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='500'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='250'/> <!-- Champion Flask -->
 			<item id='534' quantity='2'/> <!-- Random Tribe Health Rune -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card #3 -->
-			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='60'/> <!-- Gold Bar -->
-			<item id='1004' quantity='3'/> <!-- Energy Potion +20 -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='75'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 2 or higher.</desc>
@@ -105,13 +109,17 @@
 				<min_rank>2</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='120'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='60'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='400'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='200'/> <!-- Champion Flask -->
 			<item id='534' quantity='2'/> <!-- Random Tribe Health Rune -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card #3 -->
-			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='55'/> <!-- Gold Bar -->
-			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='75'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 3 or higher.</desc>
@@ -121,95 +129,189 @@
 				<min_rank>3</min_rank>
 			</req>
 			<display_item>0</display_item>
-			<item id='{STONES_ID}' quantity='100'/> <!-- Legendary Stones -->
-			<item id='{FLASK_ID}' quantity='50'/> <!-- Champion Flask -->
+			<item id='{STONES_ID}' quantity='320'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='160'/> <!-- Champion Flask -->
 			<item id='534' quantity='2'/> <!-- Random Tribe Health Rune -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card #3 -->
-			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='50'/> <!-- Gold Bar -->
-			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='6'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='75'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Raid at Rank 4 or higher.</desc>
+			<tier>4</tier>
+			<req>
+				<min_points>12500</min_points>
+				<min_rank>4</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='260'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='130'/> <!-- Champion Flask -->
+			<item id='534' quantity='1'/> <!-- Random Tribe Health Rune -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='75'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Raid at Rank 5 or higher.</desc>
+			<tier>5</tier>
+			<req>
+				<min_points>12000</min_points>
+				<min_rank>5</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='200'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='100'/> <!-- Champion Flask -->
+			<item id='534' quantity='1'/> <!-- Random Tribe Health Rune -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='2'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='75'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Raid at Rank 7 or higher.</desc>
+			<tier>6</tier>
+			<req>
+				<min_points>11500</min_points>
+				<min_rank>7</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='140'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='70'/> <!-- Champion Flask -->
+			<item id='534' quantity='1'/> <!-- Random Tribe Health Rune -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1350'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='120'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='60'/> <!-- Gold Bar -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 10 or higher.</desc>
-			<tier>4</tier>
+			<tier>7</tier>
 			<req>
-				<min_points>11500</min_points>
+				<min_points>11000</min_points>
 				<min_rank>10</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='{STONES_ID}' quantity='100'/> <!-- Legendary Stones -->
+			<item id='{FLASK_ID}' quantity='50'/> <!-- Champion Flask -->
+			<item id='534' quantity='1'/> <!-- Random Tribe Health Rune -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='4'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='4'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1200'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='100'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='50'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<desc>Complete the Raid at Rank 15 or higher.</desc>
+			<tier>8</tier>
+			<req>
+				<min_points>10500</min_points>
+				<min_rank>15</min_rank>
 			</req>
 			<display_item>0</display_item>
 			<item id='{STONES_ID}' quantity='80'/> <!-- Legendary Stones -->
 			<item id='{FLASK_ID}' quantity='40'/> <!-- Champion Flask -->
-			<item id='534' quantity='1'/> <!-- Random Tribe Health Rune -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='5'/> <!-- Legendary Card #3 -->
-			<unit id='1{EPIC_CARD_ID}' level='5'/> <!-- Epic Card #3 -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='4'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='4'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='90'/> <!-- Inscription Powder -->
 			<item id='1012' quantity='45'/> <!-- Gold Bar -->
-			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 20 or higher.</desc>
-			<tier>5</tier>
+			<tier>9</tier>
 			<req>
-				<min_points>9000</min_points>
+				<min_points>10000</min_points>
 				<min_rank>20</min_rank>
 			</req>
 			<display_item>0</display_item>
 			<item id='{STONES_ID}' quantity='60'/> <!-- Legendary Stones -->
 			<item id='{FLASK_ID}' quantity='30'/> <!-- Champion Flask -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='4'/> <!-- Legendary Card #3 -->
-			<unit id='1{EPIC_CARD_ID}' level='4'/> <!-- Epic Card #3 -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='3'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='3'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='900'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='80'/> <!-- Inscription Powder -->
 			<item id='1012' quantity='40'/> <!-- Gold Bar -->
-			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
-			<desc>Complete the Raid at Rank 70 or higher.</desc>
-			<tier>6</tier>
+			<desc>Complete the Raid at Rank 25 or higher.</desc>
+			<tier>10</tier>
 			<req>
-				<min_points>6500</min_points>
-				<min_rank>70</min_rank>
+				<min_points>9500</min_points>
+				<min_rank>25</min_rank>
 			</req>
 			<display_item>0</display_item>
 			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
 			<item id='{FLASK_ID}' quantity='20'/> <!-- Champion Flask -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='3'/> <!-- Legendary Card #3 -->
-			<unit id='1{EPIC_CARD_ID}' level='3'/> <!-- Epic Card #3 -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='3'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='3'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='750'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1023' quantity='1'/> <!-- Bounty Refill +5 -->
+			<item id='4001' quantity='70'/> <!-- Inscription Powder -->
 			<item id='1012' quantity='35'/> <!-- Gold Bar -->
-			<item id='1004' quantity='2'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
-			<desc>Complete the Raid at Rank 150 or higher.</desc>
-			<tier>7</tier>
+			<desc>Complete the Raid at Rank 30 or higher.</desc>
+			<tier>11</tier>
 			<req>
-				<min_points>4000</min_points>
-				<min_rank>150</min_rank>
+				<min_points>9000</min_points>
+				<min_rank>30</min_rank>
 			</req>
 			<display_item>0</display_item>
 			<item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones -->
 			<item id='{FLASK_ID}' quantity='10'/> <!-- Champion Flask -->
-			<unit id='1{LEGENDARY_CARD_ID}' level='2'/> <!-- Legendary Card #3 -->
-			<unit id='1{EPIC_CARD_ID}' level='2'/> <!-- Epic Card #3 -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='2'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='2'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1022' quantity='1'/> <!-- Bounty Refill +3 -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
 			<item id='1012' quantity='30'/> <!-- Gold Bar -->
-			<item id='1004' quantity='1'/> <!-- Energy Potion +20 -->
-		</event_reward>
-		<event_reward>
-			<desc>Complete the Raid at Rank 300 or higher.</desc>
-			<tier>8</tier>
-			<req>
-				<min_points>3000</min_points>
-				<min_rank>300</min_rank>
-			</req>
-			<unit id='1{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card #3 -->
-			<unit id='1{EPIC_CARD_ID}' level='1'/> <!-- Epic Card #3 -->
-			<item id='1012' quantity='30'/> <!-- Gold Bar -->
-			<item id='1004' quantity='1'/> <!-- Energy Potion +20 -->
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Raid at Rank 2000 or higher.</desc>
-			<tier>9</tier>
+			<tier>12</tier>
 			<req>
-				<min_points>2000</min_points>
+				<min_points>0</min_points>
 				<min_rank>2000</min_rank>
 			</req>
-			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+			<unit id='1{LEGENDARY_CARD_ID}' level='2'/> <!-- Legendary Card #2 -->
+			<unit id='1{EPIC_CARD_ID}' level='2'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='300'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1500'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1022' quantity='1'/> <!-- Bounty Refill +3 -->
+			<item id='4001' quantity='50'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='25'/> <!-- Gold Bar -->
 		</event_reward>
 
 		<milestone_reward>
@@ -226,7 +328,7 @@
 				<min_points>14000</min_points>
 				<min_guild_points>29</min_guild_points>
 			</req>
-			<item id='20' quantity='2'/> <!-- Arena Trophy -->
+			<item id='20' quantity='4'/> <!-- Arena Trophy -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>3</tier>
@@ -242,7 +344,7 @@
 				<min_points>13500</min_points>
 				<min_guild_points>27</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+			<item id='529' quantity='3'/> <!-- Massive Runecrafter's Chest -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>5</tier>
@@ -258,7 +360,7 @@
 				<min_points>12500</min_points>
 				<min_guild_points>25</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>7</tier>
@@ -274,7 +376,7 @@
 				<min_points>11500</min_points>
 				<min_guild_points>23</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='20'/> <!-- Legendary Stones -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>9</tier>
@@ -290,7 +392,7 @@
 				<min_points>10500</min_points>
 				<min_guild_points>21</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='40'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>11</tier>
@@ -298,7 +400,7 @@
 				<min_points>10000</min_points>
 				<min_guild_points>20</min_guild_points>
 			</req>
-			<item id='{FLASK_ID}' quantity='75'/> <!-- Champion Flask -->
+			<item id='{FLASK_ID}' quantity='50'/> <!-- Champion Flask -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>12</tier>
@@ -306,7 +408,7 @@
 				<min_points>9500</min_points>
 				<min_guild_points>19</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>13</tier>
@@ -338,7 +440,7 @@
 				<min_points>7500</min_points>
 				<min_guild_points>15</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>17</tier>
@@ -346,7 +448,7 @@
 				<min_points>7000</min_points>
 				<min_guild_points>14</min_guild_points>
 			</req>
-			<unit id='{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card #3 -->
+			<unit id='{LEGENDARY_CARD_ID}' level='1'/> <!-- Legendary Card #2 -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>18</tier>
@@ -370,7 +472,7 @@
 				<min_points>5500</min_points>
 				<min_guild_points>11</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='30'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>21</tier>
@@ -378,7 +480,7 @@
 				<min_points>5000</min_points>
 				<min_guild_points>10</min_guild_points>
 			</req>
-			<item id='{FLASK_ID}' quantity='75'/> <!-- Champion Flask -->
+			<item id='{FLASK_ID}' quantity='50'/> <!-- Champion Flask -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>22</tier>
@@ -386,7 +488,7 @@
 				<min_points>4500</min_points>
 				<min_guild_points>9</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>23</tier>
@@ -418,7 +520,7 @@
 				<min_points>2500</min_points>
 				<min_guild_points>5</min_guild_points>
 			</req>
-			<item id='{STONES_ID}' quantity='25'/> <!-- Legendary Stones -->
+			<item id='{STONES_ID}' quantity='10'/> <!-- Legendary Stones -->
 		</milestone_reward>
 		<milestone_reward>
 			<tier>27</tier>
