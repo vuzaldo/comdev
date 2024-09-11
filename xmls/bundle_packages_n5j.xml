@@ -443,7 +443,6 @@
 	<!--======================-->
 
 	<!-- Regular Shard Bundles -->
-
 	<package>
 		<id>501</id>
 		<name>Energy Shard Bundle</name>
@@ -456,7 +455,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t06</price_point_id>
 	</package>
-
 	<package>
 		<id>502</id>
 		<name>Bounty Shard Bundle</name>
@@ -469,14 +467,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10</price_point_id>
 	</package>
-
 	<package>
 		<id>503</id>
 		<name>Colossal Bundle</name>
 		<desc>Includes 2000 Shards, a ^cE7FFQuad Legendary^cFFFF Premium Set card, 250 Inscription Powder and much more! May be purchased 4 times!</desc>
 		<asset_prefab>crazy_sale_chest</asset_prefab>
 		<bundle>35</bundle>
-		<priority>500</priority>
+		<priority>300</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<pack>3108</pack>
@@ -490,7 +487,6 @@
 	</package>
 
 	<!-- $20 Super Flask Deals -->
-
 	<package>
 		<id>504</id>
 		<name>Frog Super Flask Sale</name>
@@ -502,7 +498,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>505</id>
 		<name>Elemental Super Flask Sale</name>
@@ -514,7 +509,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>506</id>
 		<name>Angel Super Flask Sale</name>
@@ -526,7 +520,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>507</id>
 		<name>Undead Super Flask Sale</name>
@@ -538,7 +531,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>509</id>
 		<name>Dragon Super Flask Sale</name>
@@ -550,7 +542,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>510</id>
 		<name>Avian Super Flask Sale</name>
@@ -562,7 +553,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>511</id>
 		<name>Goblin Super Flask Sale</name>
@@ -574,7 +564,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>512</id>
 		<name>Seafolk Super Flask Sale</name>
@@ -586,7 +575,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>513</id>
 		<name>Insect Super Flask Sale</name>
@@ -598,7 +586,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>514</id>
 		<name>Beast Super Flask Sale</name>
@@ -610,7 +597,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
 	</package>
-
 	<package>
 		<id>516</id>
 		<name>Mecha Super Flask Sale</name>
@@ -624,7 +610,6 @@
 	</package>
 
 	<!-- Gen 1-3 $30 Premium Flask Deals -->
-
 	<package>
 		<id>508</id>
 		<name>Divinity Premium Flask Sale</name>
@@ -637,7 +622,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>515</id>
 		<name>Cannon Premium Flask Sale</name>
@@ -650,19 +634,18 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>517</id>
 		<name>Glory Premium Flask Sale</name>
 		<desc>Gives 350 Wyld Glory Flasks. They contain Champion Stones for Glory Seeker Arran; Nemea, the Lost Regent; Leafsinger; or Formyr the Desecrated!</desc>
 		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
 		<bundle>35</bundle>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
 		<item id="2580" number="350"/>	<!-- Wyld Gen 1 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>518</id>
 		<name>Mirror Premium Flask Sale</name>
@@ -675,7 +658,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>519</id>
 		<name>Djinn Premium Flask Sale</name>
@@ -688,21 +670,18 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>520</id>
 		<name>Rex Premium Flask Sale</name>
 		<desc>Gives 350 Wyld Rex Flasks. They contain Champion Stones for Tropicano Rex; Rago, Crimson Vicar; Puzzlemud's Body; or The Triad of Fortunes!</desc>
 		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
 		<bundle>35</bundle>
-		<background_prefab>wyld_flask_banner_2</background_prefab> <!-- Wyld Flask Banner -->
-		<background_bundle>35</background_bundle>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
 		<item id="2597" number="350"/>	<!-- Wyld Gen 2 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>521</id>
 		<name>Wind Premium Flask Sale</name>
@@ -715,7 +694,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>522</id>
 		<name>Elder Premium Flask Sale</name>
@@ -728,13 +706,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>523</id>
 		<name>Entomancy Premium Flask Sale</name>
 		<desc>Gives 350 Wyld Entomancy Flasks. They contain Champion Stones for Wrom, the Entomancer; Trafyr, the Rose Warden; Vsov, Blizzard Djinn; or Tzopilotl, the Beyonder!</desc>
 		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
 		<bundle>35</bundle>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
 		<item id="2600" number="350"/>	<!-- Wyld Gen 3 Flasks -->
 		<!-- Purchase Identifier Config -->
@@ -742,13 +720,13 @@
 	</package>
 
 	<!-- Dual Tribe Legendary $50 Shard Deals -->
-
 	<package>
 		<id>524</id>
 		<name>Dual Frog Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFFrog card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFFrog card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>frog_crystal_legendary</asset_prefab>
 		<bundle>51</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3104</pack>
@@ -757,13 +735,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>525</id>
 		<name>Dual Elemental Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFElemental card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFElemental card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>elemental_crystal_legendary</asset_prefab>
 		<bundle>49</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3105</pack>
@@ -772,13 +750,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>526</id>
 		<name>Dual Angel Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFAngel card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFAngel card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>angel_crystal_legendary</asset_prefab>
 		<bundle>46</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3106</pack>
@@ -787,13 +765,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>527</id>
 		<name>Dual Undead Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFUndead card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFUndead card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>undead_crystal_legendary</asset_prefab>
 		<bundle>42</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3107</pack>
@@ -802,13 +780,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>529</id>
 		<name>Dual Dragon Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFDragon card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFDragon card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>dragon_crystal</asset_prefab>
 		<bundle>37</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3109</pack>
@@ -817,13 +795,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>530</id>
 		<name>Dual Avian Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFAvian card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFAvian card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>event_011_crystal_legendary</asset_prefab>
 		<bundle>59</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3110</pack>
@@ -832,13 +810,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>531</id>
 		<name>Dual Goblin Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFGoblin card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFGoblin card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>event_057_crystal_legendary</asset_prefab>
 		<bundle>175</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3111</pack>
@@ -847,13 +825,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>532</id>
 		<name>Dual Seafolk Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFSeafolk card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFSeafolk card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>event_020_crystal_legendary</asset_prefab>
 		<bundle>82</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3112</pack>
@@ -862,13 +840,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>533</id>
 		<name>Dual Insect Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFInsect card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFInsect card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>event_013_crystal_legendary</asset_prefab>
 		<bundle>64</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3113</pack>
@@ -877,13 +855,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>534</id>
 		<name>Dual Beast Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFBeast card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFBeast card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>chaos_crystal</asset_prefab>
 		<bundle>30</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3114</pack>
@@ -892,13 +870,13 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
-
 	<package>
 		<id>536</id>
 		<name>Dual Mecha Shard Bundle</name>
-		<desc>Gives 800 Shards, two copies of a random Premium ^cE7FFLegendary ^cFFFFMecha card and much more! May be purchased 4 times!</desc>
+		<desc>Gives 800 Shards, a random Dual Premium ^cE7FFLegendary ^cFFFFMecha card and much more! May be purchased 4 times!</desc>
 		<asset_prefab>event_030_crystal_legendary</asset_prefab>
 		<bundle>107</bundle>
+		<priority>200</priority>
 		<!-- Stuff to give -->
 		<tokens>800</tokens>
 		<pack>3116</pack>
@@ -909,7 +887,6 @@
 	</package>
 
 	<!-- Gen 4-6 $30 Premium Flask Deals -->
-
 	<package>
 		<id>528</id>
 		<name>Flow Premium Flask Sale</name>
@@ -922,7 +899,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>535</id>
 		<name>Fury Premium Flask Sale</name>
@@ -935,19 +911,18 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>537</id>
 		<name>Root Premium Flask Sale</name>
 		<desc>Gives 350 Wyld Root Flasks. They contain Champion Stones for Tarkar, the Unturned; Tylong, Old Warrior; Kyviat, the Aquamancer; or Lechuza, the Skybinder!</desc>
 		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
 		<bundle>35</bundle>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
 		<item id="2617" number="350"/>	<!-- Wyld Gen 4 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>538</id>
 		<name>Exaltation Premium Flask Sale</name>
@@ -960,7 +935,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>539</id>
 		<name>Eruption Premium Flask Sale</name>
@@ -973,19 +947,18 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>540</id>
 		<name>Abundancy Premium Flask Sale</name>
 		<desc>Gives 350 Wyld Abundancy Flasks. They contain Champion Stones for Caccia, the Lunatic; Rima, The Impaler; Klevit, the Speedfall; or Saucy, Lady of the Cauldron!</desc>
 		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
 		<bundle>35</bundle>
+		<priority>1000</priority>
 		<!-- Stuff to give -->
 		<item id="2638" number="350"/>	<!-- Wyld Gen 5 Flasks -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>541</id>
 		<name>Genesis Premium Flask Sale</name>
@@ -998,7 +971,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>542</id>
 		<name>Havoc Premium Flask Sale</name>
@@ -1011,7 +983,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>543</id>
 		<name>Shadows Premium Flask Sale</name>
@@ -1026,7 +997,6 @@
 	</package>
 
 	<!-- $10 Tribe Starter Sets -->
-
 	<package>
 		<id>544</id>
 		<name>Frog Starter Set</name>
@@ -1046,7 +1016,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>545</id>
 		<name>Elemental Starter Set</name>
@@ -1066,7 +1035,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>546</id>
 		<name>Angel Starter Set</name>
@@ -1086,7 +1054,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>547</id>
 		<name>Undead Starter Set</name>
@@ -1106,7 +1073,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>549</id>
 		<name>Dragon Starter Set</name>
@@ -1126,7 +1092,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>550</id>
 		<name>Avian Starter Set</name>
@@ -1146,7 +1111,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>551</id>
 		<name>Goblin Starter Set</name>
@@ -1166,7 +1130,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>552</id>
 		<name>Seafolk Starter Set</name>
@@ -1186,7 +1149,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>553</id>
 		<name>Insect Starter Set</name>
@@ -1206,7 +1168,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>554</id>
 		<name>Beast Starter Set</name>
@@ -1226,7 +1187,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
 	</package>
-
 	<package>
 		<id>556</id>
 		<name>Mecha Starter Set</name>
@@ -1248,7 +1208,6 @@
 	</package>
 
 	<!-- Gen 7-9 $30 Premium Flask Deals -->
-
 	<package>
 		<id>548</id>
 		<name>Adamancy Premium Flask Sale</name>
@@ -1261,7 +1220,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>555</id>
 		<name>Dichotomy Premium Flask Sale</name>
@@ -1274,7 +1232,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>557</id>
 		<name>Biophony Premium Flask Sale</name>
@@ -1287,7 +1244,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>558</id>
 		<name>Liberation Premium Flask Sale</name>
@@ -1300,7 +1256,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>559</id>
 		<name>Chaotic Void Premium Flask Sale</name>
@@ -1313,7 +1268,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>560</id>
 		<name>Reign Premium Flask Sale</name>
@@ -1326,7 +1280,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>561</id>
 		<name>Justice Premium Flask Sale</name>
@@ -1339,7 +1292,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>562</id>
 		<name>Dreams Premium Flask Sale</name>
@@ -1352,7 +1304,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>563</id>
 		<name>Hoarfrost Premium Flask Sale</name>
@@ -1365,7 +1316,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t30</price_point_id>
 	</package>
-
 	<package>
 		<id>568</id>
 		<name>Conclusion Premium Flask Sale</name>
@@ -1380,7 +1330,6 @@
 	</package>
 
 	<!-- $3 Weekend Tribe Quad Epic Deals -->
-
 	<package>
 		<id>564</id>
 		<name>Quad Frog Premium Epic Deal!</name>
@@ -1395,7 +1344,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>565</id>
 		<name>Quad Elemental Premium Epic Deal!</name>
@@ -1410,7 +1358,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>566</id>
 		<name>Quad Angel Premium Epic Deal!</name>
@@ -1425,7 +1372,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>567</id>
 		<name>Quad Undead Premium Epic Deal!</name>
@@ -1440,7 +1386,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>569</id>
 		<name>Quad Dragon Premium Epic Deal!</name>
@@ -1455,7 +1400,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>570</id>
 		<name>Quad Avian Premium Epic Deal!</name>
@@ -1470,7 +1414,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>571</id>
 		<name>Quad Goblin Premium Epic Deal!</name>
@@ -1485,7 +1428,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>572</id>
 		<name>Quad Seafolk Premium Epic Deal!</name>
@@ -1500,7 +1442,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>573</id>
 		<name>Quad Insect Premium Epic Deal!</name>
@@ -1515,7 +1456,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>574</id>
 		<name>Quad Beast Premium Epic Deal!</name>
@@ -1530,7 +1470,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t03</price_point_id>
 	</package>
-
 	<package>
 		<id>576</id>
 		<name>Quad Mecha Premium Epic Deal!</name>
@@ -1547,7 +1486,6 @@
 	</package>
 
 	<!-- Guild Bundle -->
-
 	<package>
 		<id>575</id>
 		<name>Premium Champion Guild Bundle</name>
@@ -1571,25 +1509,24 @@
 	<package>
 		<id>577</id>
 		<name>Premium Champion Guild Bundle</name>
-		<desc>Gives 700 Shards. You and everyone in your guild receives 100 ^cE7FFRemi Stones^cFFFF!</desc>
+		<desc>Gives 700 Shards. You and everyone in your guild receives 100 ^cE7FFVig Stones^cFFFF!</desc>
 		<asset_prefab>legendary_crystal_guild</asset_prefab>
 		<bundle>30</bundle>
-		<background_prefab>event_94_remibipolar_banner</background_prefab>
-		<background_bundle>255</background_bundle>
+		<background_prefab>event_97_portalambusher_banner</background_prefab>
+		<background_bundle>261</background_bundle>
 		<priority>300</priority>
 		<!-- Stuff to give -->
 		<tokens>700</tokens>
-		<item id="105635" number="100"/>
+		<item id="106627" number="100"/>
 		<guild_bonus>
 			<duration>259200</duration>
-			<item id="105635" number="100"/>
+			<item id="106627" number="100"/>
 		</guild_bonus>
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
 	</package>
 
 	<!-- Latest Champion Troves -->
-
 	<package>
 		<id>578</id>
 		<name>Champion Trove</name>
@@ -1607,7 +1544,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20_champion</price_point_id>
 	</package>
-
 	<package>
 		<id>579</id>
 		<name>Large Champion Trove</name>
@@ -1625,7 +1561,6 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t40_champion</price_point_id>
 	</package>
-
 	<package>
 		<id>580</id>
 		<name>Fortune Champion Trove</name>
@@ -1646,13 +1581,13 @@
 	<package>
 		<id>581</id>
 		<name>Champion Trove</name>
-		<desc>Gives 100 ^cE7FFMo-Bling Stones^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 200 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<desc>Gives 100 ^cE7FFOiram Stones^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 200 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
 		<num_available>1</num_available>
 		<!-- Stuff to give -->
-		<item id="104087" number="100"/> <!-- Stone -->
+		<item id="104089" number="100"/> <!-- Stone -->
 		<item id="2001" number="25"/> <!-- Arcane Fragment -->
 		<item id="1004" number="10"/> <!-- Energy +20 -->
 		<item id="4001" number="50"/> <!-- Inscription Powder -->
@@ -1660,17 +1595,16 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20_champion</price_point_id>
 	</package>
-
 	<package>
 		<id>582</id>
 		<name>Large Champion Trove</name>
-		<desc>Gives 300 ^cE7FFMo-Bling Stones^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 400 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<desc>Gives 300 ^cE7FFOiram Stones^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 400 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
 		<num_available>1</num_available>
 		<!-- Stuff to give -->
-		<item id="104087" number="300"/> <!-- Stone -->
+		<item id="104089" number="300"/> <!-- Stone -->
 		<item id="2001" number="50"/> <!-- Arcane Fragment -->
 		<item id="1004" number="15"/> <!-- Energy +20 -->
 		<item id="4001" number="100"/> <!-- Inscription Powder -->
@@ -1678,16 +1612,15 @@
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t40_champion</price_point_id>
 	</package>
-
 	<package>
 		<id>583</id>
 		<name>Fortune Champion Trove</name>
-		<desc>Gives 800 ^cE7FFMo-Bling Stones^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 1000 Arcane Dust, and 250 Inscription Powder!</desc>
+		<desc>Gives 800 ^cE7FFOiram Stones^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 1000 Arcane Dust, and 250 Inscription Powder!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
 		<!-- Stuff to give -->
-		<item id="104087" number="800"/> <!-- Stone -->
+		<item id="104089" number="800"/> <!-- Stone -->
 		<item id="2001" number="150"/> <!-- Arcane Fragment -->
 		<item id="1004" number="25"/> <!-- Energy +20 -->
 		<item id="4001" number="250"/> <!-- Inscription Powder -->
