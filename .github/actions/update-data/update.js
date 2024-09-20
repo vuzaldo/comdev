@@ -67,6 +67,7 @@ other = [
 	"heroes_xfkj2",
 	"hunting_da90x",
 	"levels",
+	"missions_archive",
 	"mythic_hall_hxcj8",
 	"purchases_n38",
 	"recipes_mj8d",
