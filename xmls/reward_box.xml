@@ -23,27 +23,6 @@
 	<!-- 6001-: Old events removed. See old versions for archive. -->
 
 	<event_box>
-		<id>6104</id>
-		<name>Angel Reward Box</name>
-		<desc>Use Arena Coins to pull from a set of Dual ^c0DFFEpic ^cFFFFReward cards or the chance of an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
-		<help_desc>Each pull has a 25% chance of granting an Arena Trophy, instead of one of the cards. Each pull also grants between 1-4 Champion Stones!</help_desc>
-		<category>1</category>
-		<asset_prefab>angel_arena_box</asset_prefab>
-		<background_prefab>arena_box_banner</background_prefab>
-		<bundle>76</bundle>
-		<priority>-60</priority>
-		<show_desc>1</show_desc>
-		<cost item="5" num="1000"/>
-		<start_index>1</start_index>
-		<chance_pack>1</chance_pack>
-		<item id="20" order="1"/> <!-- Trophy -->
-		<card id="12203" level="1" order="2"/> <!-- Absent Formation -->
-		<card id="12219" level="1" order="3"/> <!-- Freya's Ranger -->
-		<card id="12230" level="1" order="4"/> <!-- Blazing Holyfire -->
-		<bonus_item id="104501" min="1" max="4"/>
-	</event_box>
-
-	<event_box>
 		<id>6105</id>
 		<name>Goblin Reward Box</name>
 		<desc>Use Arena Coins to pull from a set of Dual ^c0DFFEpic ^cFFFFReward cards or the chance of an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
@@ -62,6 +41,27 @@
 		<card id="12224" level="1" order="3"/> <!-- Reckless Brewer -->
 		<card id="12195" level="1" order="4"/> <!-- Rotten Rogue -->
 		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>6121</id>
+		<name>Seafolk Reward Box</name>
+		<desc>Use Arena Coins to pull from a set of Dual ^c0DFFEpic ^cFFFFReward cards or the chance of an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has a 25% chance of granting an Arena Trophy, instead of one of the cards. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/> <!-- Trophy -->
+		<card id="12175" level="1" order="2"/> <!-- Thief of the Red Sea -->
+		<card id="12176" level="1" order="3"/> <!-- Sinksight Witch -->
+		<card id="12227" level="1" order="4"/> <!-- Mirror Snapper -->
+		<bonus_item id="104503" min="1" max="4"/>
 	</event_box>
 
 </root>

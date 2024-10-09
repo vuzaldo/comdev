@@ -1715,4 +1715,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6121</id>
+		<name>Fury of the Seas</name>
+		<desc>All Seafolk gain Maelstrom&apos;s Fury equal to 15 minus twice the card Delay.</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>185</bg_effect>
+		</effect>
+		<start_time>1728579600</start_time> <!-- Thursday, October 10, 2024 at 17:00:00 -->
+		<end_time>1733418000</end_time> <!-- Thursday, December 05, 2024 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

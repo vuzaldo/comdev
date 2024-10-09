@@ -7069,10 +7069,10 @@
 		<picture>Whirl_Pool_Elemental_A</picture>
 		<asset_bundle>70</asset_bundle>
 		<cost>3</cost>
-		<attack>9</attack>
+		<attack>10</attack>
 		<health>32</health>
 		<skill id="jam" c="5"/>
-		<skill id="leech" x="10"/>
+		<skill id="leech" x="9"/>
 		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>5</sub_type>
@@ -7081,21 +7081,24 @@
 		<hidden_until_time>1471885200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>10</attack>
 			<health>33</health>
+			<skill id="jam" c="5"/>
+			<skill id="leech" x="10"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<attack>11</attack>
 			<health>34</health>
+			<skill id="evade" x="1"/>
 			<skill id="jam" c="5"/>
-			<skill id="leech" x="11"/>
+			<skill id="leech" x="10"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<health>35</health>
+			<skill id="evade" x="1"/>
 			<skill id="jam" c="4"/>
-			<skill id="leech" x="12"/>
+			<skill id="leech" x="11"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -7127,24 +7130,23 @@
 		<hidden_until_time>1471885200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>14</attack>
 			<health>38</health>
-			<skill id="evade" x="1"/>
-			<skill id="jam" c="3"/>
-			<skill id="leech" x="12"/>
+			<skill id="evade" x="2"/>
+			<skill id="jam" c="4"/>
+			<skill id="leech" x="13"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>15</attack>
 			<health>39</health>
-			<skill id="evade" x="1"/>
+			<skill id="evade" x="3"/>
 			<skill id="jam" c="3"/>
 			<skill id="leech" x="13"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
+			<attack>14</attack>
 			<health>40</health>
-			<skill id="evade" x="2"/>
+			<skill id="evade" x="3"/>
 			<skill id="jam" c="3"/>
 			<skill id="leech" x="14"/>
 		</upgrade>
@@ -8992,34 +8994,38 @@
 		<name>Redclaw Tamer</name>
 		<picture>Frog_Riding_Lobster_A</picture>
 		<asset_bundle>79</asset_bundle>
-		<hidden_until_time>1481821200</hidden_until_time>
+		<cost>1</cost>
 		<attack>4</attack>
 		<health>10</health>
-		<cost>1</cost>
-		<rarity>3</rarity>
 		<skill id="burn" x="1"/>
 		<skill id="nullify" x="1"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>4</sub_type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1481821200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>11</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>5</attack>
 			<health>12</health>
+			<skill id="corrosive" x="1"/>
+			<skill id="burn" x="1"/>
+			<skill id="nullify" x="1"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<health>13</health>
+			<skill id="corrosive" x="1"/>
 			<skill id="burn" x="2"/>
 			<skill id="nullify" x="1"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>5</attack>
 			<health>14</health>
 			<skill id="corrosive" x="1"/>
 			<skill id="burn" x="2"/>
@@ -9033,36 +9039,41 @@
 		<name>Redclaw Traveler</name>
 		<picture>Frog_Riding_Lobster_A</picture>
 		<asset_bundle>79</asset_bundle>
-		<hidden_until_time>1481821200</hidden_until_time>
-		<attack>5</attack>
-		<health>14</health>
 		<cost>1</cost>
-		<rarity>3</rarity>
-		<skill id="corrosive" x="2"/>
+		<attack>6</attack>
+		<health>15</health>
+		<skill id="corrosive" x="1"/>
 		<skill id="burn" x="2"/>
-		<skill id="nullify" x="2"/>
+		<skill id="nullify" x="1"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>4</sub_type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1481821200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>6</attack>
-			<health>15</health>
+			<skill id="corrosive" x="1"/>
+			<skill id="burn" x="3"/>
+			<skill id="nullify" x="2"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="corrosive" x="3"/>
+			<attack>7</attack>
+			<skill id="corrosive" x="2"/>
 			<skill id="burn" x="3"/>
 			<skill id="nullify" x="2"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>7</attack>
-			<health>16</health>
+			<skill id="corrosive" x="3"/>
+			<skill id="burn" x="3"/>
+			<skill id="nullify" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>7</attack>
+			<health>16</health>
 			<skill id="corrosive" x="4"/>
 			<skill id="burn" x="3"/>
 			<skill id="nullify" x="3"/>
@@ -9075,33 +9086,36 @@
 		<name>Redclaw Rider</name>
 		<picture>Frog_Riding_Lobster_B</picture>
 		<asset_bundle>79</asset_bundle>
-		<hidden_until_time>1481821200</hidden_until_time>
+		<cost>1</cost>
 		<attack>8</attack>
 		<health>16</health>
-		<cost>1</cost>
-		<rarity>3</rarity>
 		<skill id="corrosive" x="4"/>
-		<skill id="burn" x="4"/>
+		<skill id="burn" x="3"/>
 		<skill id="nullify" x="3"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>4</sub_type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1481821200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>17</health>
+			<skill id="corrosive" x="5"/>
+			<skill id="burn" x="3"/>
+			<skill id="nullify" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>18</health>
-			<skill id="corrosive" x="4"/>
+			<skill id="corrosive" x="5"/>
 			<skill id="burn" x="4"/>
 			<skill id="nullify" x="4"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<skill id="corrosive" x="5"/>
-			<skill id="burn" x="5"/>
+			<health>18</health>
+			<skill id="corrosive" x="6"/>
+			<skill id="burn" x="4"/>
 			<skill id="nullify" x="4"/>
 		</upgrade>
 		<upgrade>
@@ -9749,32 +9763,31 @@
 		<name>Adorabilis</name>
 		<picture>Floating_Thing_A</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
+		<cost>1</cost>
 		<attack>3</attack>
 		<health>10</health>
-		<cost>1</cost>
-		<rarity>3</rarity>
 		<skill id="strike" x="1"/>
 		<skill id="nullify" x="1"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>11</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>4</attack>
+			<health>12</health>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<skill id="strike" x="1"/>
-			<skill id="weaken" x="1"/>
-			<skill id="nullify" x="1"/>
+			<attack>4</attack>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>4</attack>
 			<health>12</health>
 			<skill id="strike" x="2"/>
 			<skill id="weaken" x="1"/>
@@ -9788,33 +9801,36 @@
 		<name>Adorablub</name>
 		<picture>Floating_Thing_A</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>5</attack>
-		<health>13</health>
 		<cost>1</cost>
-		<rarity>3</rarity>
+		<attack>4</attack>
+		<health>13</health>
 		<skill id="strike" x="2"/>
-		<skill id="weaken" x="2"/>
+		<skill id="weaken" x="1"/>
 		<skill id="nullify" x="1"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>14</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>15</health>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
 			<skill id="strike" x="3"/>
 			<skill id="weaken" x="2"/>
 			<skill id="nullify" x="1"/>
 		</upgrade>
 		<upgrade>
+			<level>4</level>
+			<attack>5</attack>
+			<health>15</health>
+		</upgrade>
+		<upgrade>
 			<level>5</level>
+			<attack>5</attack>
+			<health>15</health>
 			<skill id="strike" x="4"/>
 			<skill id="weaken" x="3"/>
 			<skill id="nullify" x="1"/>
@@ -9827,35 +9843,43 @@
 		<name>Adorabubble</name>
 		<picture>Floating_Thing_B</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>6</attack>
-		<health>16</health>
 		<cost>1</cost>
-		<rarity>3</rarity>
+		<attack>5</attack>
+		<health>16</health>
 		<skill id="strike" x="5"/>
 		<skill id="weaken" x="4"/>
-		<skill id="nullify" x="1"/>
+		<skill id="nullify" x="2"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>7</attack>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
-			<health>17</health>
-			<attack>8</attack>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>18</health>
+			<attack>6</attack>
 			<skill id="strike" x="6"/>
 			<skill id="weaken" x="5"/>
 			<skill id="nullify" x="2"/>
 		</upgrade>
 		<upgrade>
+			<level>3</level>
+			<attack>7</attack>
+			<health>17</health>
+			<skill id="strike" x="6"/>
+			<skill id="weaken" x="6"/>
+			<skill id="nullify" x="2"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<attack>8</attack>
+			<health>18</health>
+			<skill id="strike" x="6"/>
+			<skill id="weaken" x="6"/>
+			<skill id="nullify" x="3"/>
+		</upgrade>
+		<upgrade>
 			<level>5</level>
+			<attack>8</attack>
 			<health>19</health>
 			<skill id="strike" x="7"/>
 			<skill id="weaken" x="7"/>
@@ -9884,21 +9908,21 @@
 		<upgrade>
 			<level>2</level>
 			<health>31</health>
-			<skill id="armored" x="2"/>
+			<skill id="armored" x="3"/>
+			<skill id="rally" all="1" x="3" y="12"/>
+			<skill id="poison" x="3"/>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<health>32</health>
+			<skill id="armored" x="3"/>
 			<skill id="rally" all="1" x="3" y="12"/>
 			<skill id="poison" x="4"/>
 		</upgrade>
 		<upgrade>
-			<level>3</level>
-			<attack>7</attack>
-			<health>32</health>
-		</upgrade>
-		<upgrade>
 			<level>4</level>
+			<attack>7</attack>
 			<health>33</health>
-			<skill id="armored" x="2"/>
-			<skill id="rally" all="1" x="3" y="12"/>
-			<skill id="poison" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -9917,11 +9941,11 @@
 		<picture>Spiked_Shellfish_A</picture>
 		<asset_bundle>83</asset_bundle>
 		<cost>3</cost>
-		<attack>7</attack>
+		<attack>8</attack>
 		<health>35</health>
 		<skill id="armored" x="3"/>
 		<skill id="rally" all="1" x="3" y="12"/>
-		<skill id="poison" x="6"/>
+		<skill id="poison" x="5"/>
 		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
@@ -9930,22 +9954,24 @@
 		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>8</attack>
 			<health>36</health>
+			<skill id="armored" x="3"/>
+			<skill id="rally" all="1" x="4" y="12"/>
+			<skill id="poison" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<health>37</health>
-			<skill id="armored" x="4"/>
-			<skill id="rally" all="1" x="3" y="12"/>
+			<skill id="armored" x="3"/>
+			<skill id="rally" all="1" x="4" y="12"/>
 			<skill id="poison" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<health>38</health>
-			<skill id="armored" x="4"/>
+			<skill id="armored" x="3"/>
 			<skill id="rally" all="1" x="4" y="12"/>
-			<skill id="poison" x="6"/>
+			<skill id="poison" x="7"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -9979,19 +10005,19 @@
 			<level>2</level>
 			<health>41</health>
 			<skill id="armored" x="4"/>
-			<skill id="rally" all="1" x="5" y="12"/>
-			<skill id="poison" x="8"/>
+			<skill id="rally" all="1" x="4" y="12"/>
+			<skill id="poison" x="9"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
+			<attack>10</attack>
 			<health>42</health>
 			<skill id="armored" x="5"/>
-			<skill id="rally" all="1" x="5" y="12"/>
+			<skill id="rally" all="1" x="4" y="12"/>
 			<skill id="poison" x="9"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>10</attack>
 			<health>43</health>
 			<skill id="armored" x="6"/>
 			<skill id="rally" all="1" x="5" y="12"/>
@@ -10013,33 +10039,35 @@
 		<name>Septuamaid</name>
 		<picture>Sea_Goddess_A</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>3</attack>
-		<health>16</health>
 		<cost>2</cost>
-		<rarity>3</rarity>
+		<attack>3</attack>
+		<health>20</health>
 		<skill id="evade" x="1"/>
-		<skill id="strike" x="1"/>
+		<skill id="strike" x="2"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>18</health>
+			<health>21</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>4</attack>
+			<skill id="evade" x="1"/>
+			<skill id="strike" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>19</health>
+			<attack>4</attack>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<health>20</health>
+			<attack>4</attack>
+			<health>22</health>
 			<skill id="evade" x="1"/>
-			<skill id="strike" x="3"/>
+			<skill id="strike" x="4"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -10049,35 +10077,42 @@
 		<name>Honored Septuamaid</name>
 		<picture>Sea_Goddess_A</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>4</attack>
-		<health>21</health>
 		<cost>2</cost>
-		<rarity>3</rarity>
+		<attack>4</attack>
+		<health>23</health>
 		<skill id="evade" x="1"/>
 		<skill id="strike" x="4"/>
 		<skill id="frost" x="1"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<attack>5</attack>
+			<health>24</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="evade" x="1"/>
+			<attack>6</attack>
+			<skill id="evade" x="2"/>
+			<skill id="strike" x="4"/>
+			<skill id="frost" x="1"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<skill id="evade" x="2"/>
 			<skill id="strike" x="5"/>
 			<skill id="frost" x="2"/>
 		</upgrade>
 		<upgrade>
-			<level>4</level>
-			<health>22</health>
-		</upgrade>
-		<upgrade>
 			<level>5</level>
-			<health>23</health>
 			<attack>6</attack>
+			<health>25</health>
+			<skill id="evade" x="2"/>
+			<skill id="strike" x="6"/>
+			<skill id="frost" x="2"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -10087,40 +10122,45 @@
 		<name>Revered Septuamaid</name>
 		<picture>Sea_Goddess_B</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>6</attack>
-		<health>24</health>
 		<cost>2</cost>
-		<rarity>3</rarity>
-		<skill id="evade" x="1"/>
+		<attack>7</attack>
+		<health>26</health>
+		<skill id="evade" x="2"/>
 		<skill id="strike" x="6"/>
 		<skill id="frost" x="2"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>25</health>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
-			<attack>7</attack>
-			<health>26</health>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>27</health>
 			<attack>8</attack>
 			<skill id="evade" x="2"/>
 			<skill id="strike" x="7"/>
+			<skill id="frost" x="2"/>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<attack>9</attack>
+			<health>27</health>
+			<skill id="evade" x="2"/>
+			<skill id="strike" x="8"/>
+			<skill id="frost" x="2"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<health>28</health>
+			<skill id="evade" x="3"/>
+			<skill id="strike" x="8"/>
 			<skill id="frost" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<health>28</health>
 			<attack>9</attack>
+			<health>29</health>
 			<skill id="evade" x="3"/>
-			<skill id="strike" x="8"/>
+			<skill id="strike" x="9"/>
 			<skill id="frost" x="4"/>
 		</upgrade>
 	</unit>
@@ -10131,35 +10171,42 @@
 		<name>Koi Guardian</name>
 		<picture>Seafolk_Koi_Merfolk_A</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
+		<cost>2</cost>
 		<attack>4</attack>
 		<health>17</health>
-		<cost>2</cost>
-		<rarity>3</rarity>
-		<skill id="protect" x="1" y="12"/>
+		<skill id="protect" x="3" y="12"/>
 		<skill id="jam" c="5"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="protect" x="2" y="12"/>
-			<skill id="jam" c="5"/>
+			<health>18</health>
+			<skill id="protect" x="3" y="12"/>
+			<skill id="jam" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<health>19</health>
+			<skill id="armored" x="1"/>
+			<skill id="protect" x="3" y="12"/>
+			<skill id="jam" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
+			<health>20</health>
 			<skill id="armored" x="1"/>
-			<skill id="protect" x="2" y="12"/>
-			<skill id="jam" c="5"/>
+			<skill id="protect" x="4" y="12"/>
+			<skill id="jam" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>5</attack>
+			<health>21</health>
 			<skill id="armored" x="2"/>
-			<skill id="protect" x="2" y="12"/>
+			<skill id="protect" x="4" y="12"/>
 			<skill id="jam" c="4"/>
 		</upgrade>
 	</unit>
@@ -10170,37 +10217,42 @@
 		<name>Koi Safeguard</name>
 		<picture>Seafolk_Koi_Merfolk_A</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>5</attack>
-		<health>23</health>
 		<cost>2</cost>
-		<rarity>3</rarity>
+		<attack>5</attack>
+		<health>22</health>
 		<skill id="armored" x="2"/>
-		<skill id="protect" x="2" y="12"/>
+		<skill id="protect" x="5" y="12"/>
 		<skill id="jam" c="4"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="armored" x="3"/>
-			<skill id="protect" x="3" y="12"/>
-			<skill id="jam" c="4"/>
+			<attack>6</attack>
+			<health>23</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>25</health>
+			<health>24</health>
+			<skill id="armored" x="3"/>
+			<skill id="protect" x="5" y="12"/>
+			<skill id="jam" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
+			<health>25</health>
 			<skill id="armored" x="3"/>
-			<skill id="protect" x="3" y="12"/>
-			<skill id="jam" c="3"/>
+			<skill id="protect" x="6" y="12"/>
+			<skill id="jam" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>7</attack>
+			<health>25</health>
 			<skill id="armored" x="4"/>
-			<skill id="protect" x="4" y="12"/>
+			<skill id="protect" x="6" y="12"/>
 			<skill id="jam" c="3"/>
 		</upgrade>
 	</unit>
@@ -10211,38 +10263,34 @@
 		<name>Koi Preserver</name>
 		<picture>Seafolk_Koi_Merfolk_B</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>6</attack>
-		<health>26</health>
 		<cost>2</cost>
-		<rarity>3</rarity>
-		<skill id="armored" x="5"/>
-		<skill id="protect" x="4" y="12"/>
+		<attack>8</attack>
+		<health>26</health>
+		<skill id="armored" x="4"/>
+		<skill id="protect" x="6" y="12"/>
 		<skill id="jam" c="3"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
+			<attack>9</attack>
 			<health>27</health>
-			<attack>7</attack>
-			<skill id="armored" x="5"/>
-			<skill id="protect" x="5" y="12"/>
-			<skill id="jam" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>8</attack>
-			<skill id="armored" x="6"/>
-			<skill id="protect" x="6" y="12"/>
+			<health>28</health>
+			<skill id="armored" x="4"/>
+			<skill id="protect" x="7" y="12"/>
 			<skill id="jam" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>9</attack>
-			<health>28</health>
-			<skill id="armored" x="6"/>
-			<skill id="protect" x="7" y="12"/>
+			<attack>10</attack>
+			<skill id="armored" x="5"/>
+			<skill id="protect" x="8" y="12"/>
 			<skill id="jam" c="3"/>
 		</upgrade>
 		<upgrade>
@@ -10250,7 +10298,7 @@
 			<attack>10</attack>
 			<health>29</health>
 			<skill id="armored" x="6"/>
-			<skill id="protect" x="8" y="12"/>
+			<skill id="protect" x="9" y="12"/>
 			<skill id="jam" c="3"/>
 		</upgrade>
 	</unit>
@@ -10261,38 +10309,47 @@
 		<name>Hunter Zind</name>
 		<picture>Merfolk_Huntmaster_A</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>6</attack>
-		<health>10</health>
 		<cost>1</cost>
-		<rarity>4</rarity>
+		<attack>6</attack>
+		<health>13</health>
 		<skill id="evade" x="1"/>
-		<skill id="enfeeble" x="1" all="1"/>
+		<skill id="enfeeble" all="1" x="1"/>
+		<rarity>4</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>11</health>
+			<skill id="evade" x="1"/>
+			<skill id="enfeeble" all="1" x="1"/>
+			<skill id="berserk" x="1"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>12</health>
+			<skill id="evade" x="1"/>
+			<skill id="enfeeble" all="1" x="1"/>
+			<skill id="berserk" x="2"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<skill id="evade" x="1"/>
-			<skill id="enfeeble" x="1" all="1"/>
+			<skill id="enfeeble" all="1" x="1"/>
 			<skill id="berserk" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<health>13</health>
+			<health>14</health>
+			<skill id="evade" x="1"/>
+			<skill id="enfeeble" all="1" x="1"/>
+			<skill id="berserk" x="4"/>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
+			<attack>7</attack>
+			<health>15</health>
 			<skill id="evade" x="1"/>
-			<skill id="enfeeble" x="1" all="1"/>
+			<skill id="enfeeble" all="1" x="1"/>
 			<skill id="berserk" x="4"/>
 		</upgrade>
 		<desc>Renowned for his skill in tracking, Zind's keen senses keep him one step ahead of his prey.</desc>
@@ -10304,39 +10361,43 @@
 		<name>Tracker Zind</name>
 		<picture>Merfolk_Huntmaster_A</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>7</attack>
-		<health>14</health>
 		<cost>1</cost>
-		<rarity>4</rarity>
+		<attack>7</attack>
+		<health>16</health>
 		<skill id="evade" x="1"/>
-		<skill id="enfeeble" x="1" all="1"/>
+		<skill id="enfeeble" all="1" x="1"/>
 		<skill id="berserk" x="4"/>
+		<rarity>4</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>15</health>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
-			<skill id="evade" x="2"/>
-			<skill id="enfeeble" x="1" all="1"/>
+			<skill id="evade" x="1"/>
+			<skill id="enfeeble" all="1" x="2"/>
 			<skill id="berserk" x="4"/>
 		</upgrade>
 		<upgrade>
-			<level>4</level>
-			<health>16</health>
-		</upgrade>
-		<upgrade>
-			<level>5</level>
+			<level>3</level>
 			<health>17</health>
 		</upgrade>
 		<upgrade>
-			<level>6</level>
+			<level>4</level>
+			<attack>8</attack>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
 			<skill id="evade" x="2"/>
-			<skill id="enfeeble" x="2" all="1"/>
+			<skill id="enfeeble" all="1" x="2"/>
+			<skill id="berserk" x="4"/>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<attack>9</attack>
+			<health>18</health>
+			<skill id="evade" x="2"/>
+			<skill id="enfeeble" all="1" x="2"/>
 			<skill id="berserk" x="4"/>
 		</upgrade>
 	</unit>
@@ -10347,41 +10408,45 @@
 		<name>Zind, Apex Hunter</name>
 		<picture>Merfolk_Huntmaster_B</picture>
 		<asset_bundle>83</asset_bundle>
-		<hidden_until_time>1484240400</hidden_until_time>
-		<attack>8</attack>
-		<health>18</health>
 		<cost>1</cost>
-		<rarity>4</rarity>
+		<attack>9</attack>
+		<health>18</health>
 		<skill id="evade" x="2"/>
-		<skill id="enfeeble" x="2" all="1"/>
-		<skill id="berserk" x="4"/>
+		<skill id="enfeeble" all="1" x="2"/>
+		<skill id="berserk" x="5"/>
+		<rarity>4</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1484240400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>19</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>9</attack>
-			<health>20</health>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>21</health>
-		</upgrade>
-		<upgrade>
-			<level>5</level>
 			<skill id="evade" x="3"/>
-			<skill id="enfeeble" x="2" all="1"/>
+			<skill id="enfeeble" all="1" x="3"/>
 			<skill id="berserk" x="5"/>
 		</upgrade>
 		<upgrade>
+			<level>4</level>
+			<health>20</health>
+			<skill id="evade" x="3"/>
+			<skill id="enfeeble" all="1" x="3"/>
+			<skill id="berserk" x="6"/>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<attack>10</attack>
+			<health>21</health>
+		</upgrade>
+		<upgrade>
 			<level>6</level>
+			<attack>11</attack>
 			<health>22</health>
 			<skill id="evade" x="3"/>
-			<skill id="enfeeble" x="3" all="1"/>
+			<skill id="enfeeble" all="1" x="3"/>
 			<skill id="berserk" x="6"/>
 		</upgrade>
 	</unit>
@@ -12072,8 +12137,8 @@
 		<upgrade>
 			<level>2</level>
 			<health>31</health>
-			<skill id="counter" x="3"/>
-			<skill id="heal" all="1" x="1" y="5"/>
+			<skill id="counter" x="2"/>
+			<skill id="heal" all="1" x="2" y="5"/>
 			<skill id="frost" x="2"/>
 		</upgrade>
 		<upgrade>
@@ -12083,10 +12148,11 @@
 		</upgrade>
 		<upgrade>
 			<level>4</level>
+			<attack>6</attack>
 			<health>33</health>
 			<skill id="counter" x="3"/>
 			<skill id="heal" all="1" x="2" y="5"/>
-			<skill id="frost" x="3"/>
+			<skill id="frost" x="2"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -12125,15 +12191,15 @@
 			<level>3</level>
 			<health>37</health>
 			<skill id="counter" x="4"/>
-			<skill id="heal" all="1" x="2" y="5"/>
-			<skill id="frost" x="4"/>
+			<skill id="heal" all="1" x="3" y="5"/>
+			<skill id="frost" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>9</attack>
+			<health>38</health>
 			<skill id="counter" x="5"/>
-			<skill id="heal" all="1" x="3" y="5"/>
-			<skill id="frost" x="4"/>
+			<skill id="heal" all="1" x="4" y="5"/>
+			<skill id="frost" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -12165,28 +12231,27 @@
 		<hidden_until_time>1496336400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
+			<attack>10</attack>
 			<health>40</health>
-			<skill id="counter" x="8"/>
-			<skill id="heal" all="1" x="4" y="5"/>
-			<skill id="frost" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>10</attack>
-			<skill id="counter" x="8"/>
-			<skill id="heal" all="1" x="5" y="5"/>
-			<skill id="frost" x="5"/>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<skill id="counter" x="8"/>
+			<skill id="counter" x="7"/>
 			<skill id="heal" all="1" x="5" y="5"/>
 			<skill id="frost" x="6"/>
 		</upgrade>
 		<upgrade>
-			<level>5</level>
+			<level>4</level>
 			<attack>11</attack>
 			<health>41</health>
+			<skill id="counter" x="7"/>
+			<skill id="heal" all="1" x="6" y="5"/>
+			<skill id="frost" x="6"/>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<attack>12</attack>
+			<health>42</health>
 			<skill id="counter" x="8"/>
 			<skill id="heal" all="1" x="6" y="5"/>
 			<skill id="frost" x="6"/>
@@ -13181,23 +13246,23 @@
 		<hidden_until_time>1500310800</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>14</health>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
-			<health>15</health>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
 			<skill id="evade" x="1"/>
 			<skill id="jam" c="5"/>
 			<skill id="poison" x="3"/>
 		</upgrade>
 		<upgrade>
-			<level>5</level>
+			<level>3</level>
 			<skill id="evade" x="1"/>
 			<skill id="jam" c="4"/>
 			<skill id="poison" x="3"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<health>14</health>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<health>15</health>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
@@ -13216,8 +13281,8 @@
 		<picture>Goblin_Seafolk_Mermaid_A</picture>
 		<asset_bundle>100</asset_bundle>
 		<cost>1</cost>
-		<attack>4</attack>
-		<health>17</health>
+		<attack>5</attack>
+		<health>16</health>
 		<skill id="evade" x="1"/>
 		<skill id="jam" c="4"/>
 		<skill id="poison" x="3"/>
@@ -13229,21 +13294,19 @@
 		<hidden_until_time>1500310800</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="evade" x="1"/>
+			<skill id="evade" x="2"/>
+			<skill id="jam" c="4"/>
+			<skill id="poison" x="3"/>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<skill id="evade" x="2"/>
 			<skill id="jam" c="4"/>
 			<skill id="poison" x="4"/>
 		</upgrade>
 		<upgrade>
-			<level>3</level>
-			<skill id="evade" x="1"/>
-			<skill id="jam" c="3"/>
-			<skill id="poison" x="4"/>
-		</upgrade>
-		<upgrade>
 			<level>4</level>
-			<skill id="evade" x="2"/>
-			<skill id="jam" c="3"/>
-			<skill id="poison" x="4"/>
+			<health>17</health>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -13267,8 +13330,8 @@
 		<asset_bundle>100</asset_bundle>
 		<cost>1</cost>
 		<attack>6</attack>
-		<health>19</health>
-		<skill id="evade" x="3"/>
+		<health>20</health>
+		<skill id="evade" x="2"/>
 		<skill id="jam" c="3"/>
 		<skill id="poison" x="4"/>
 		<rarity>4</rarity>
@@ -13279,26 +13342,28 @@
 		<hidden_until_time>1500310800</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>7</attack>
-			<health>20</health>
+			<health>21</health>
+			<skill id="evade" x="2"/>
+			<skill id="jam" c="3"/>
+			<skill id="poison" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>21</health>
+			<attack>7</attack>
 			<skill id="evade" x="3"/>
 			<skill id="jam" c="3"/>
 			<skill id="poison" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>22</health>
+			<attack>8</attack>
 			<skill id="evade" x="3"/>
 			<skill id="jam" c="3"/>
 			<skill id="poison" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<attack>8</attack>
+			<health>22</health>
 			<skill id="evade" x="3"/>
 			<skill id="jam" c="3"/>
 			<skill id="poison" x="7"/>
@@ -13319,34 +13384,38 @@
 		<name>Sharkcrusher</name>
 		<picture>Chain_Shark_A</picture>
 		<asset_bundle>104</asset_bundle>
-		<hidden_until_time>1503594000</hidden_until_time>
+		<cost>3</cost>
 		<attack>8</attack>
 		<health>30</health>
-		<cost>3</cost>
-		<rarity>3</rarity>
 		<skill id="evade" x="1"/>
 		<skill id="armored" x="2"/>
 		<skill id="rally" x="4" y="12"/>
+		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1503594000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>31</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>32</health>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
 			<skill id="evade" x="1"/>
-			<skill id="armored" x="3"/>
+			<skill id="armored" x="2"/>
 			<skill id="rally" x="5" y="12"/>
 		</upgrade>
 		<upgrade>
+			<level>4</level>
+			<health>32</health>
+		</upgrade>
+		<upgrade>
 			<level>5</level>
+			<attack>8</attack>
 			<health>33</health>
+			<skill id="evade" x="1"/>
+			<skill id="armored" x="3"/>
+			<skill id="rally" x="5" y="12"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -13356,38 +13425,43 @@
 		<name>Sharktrooper</name>
 		<picture>Chain_Shark_A</picture>
 		<asset_bundle>104</asset_bundle>
-		<hidden_until_time>1503594000</hidden_until_time>
-		<attack>9</attack>
-		<health>34</health>
 		<cost>3</cost>
-		<rarity>3</rarity>
+		<attack>8</attack>
+		<health>34</health>
 		<skill id="evade" x="1"/>
 		<skill id="armored" x="3"/>
 		<skill id="rally" x="5" y="12"/>
+		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1503594000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
+			<attack>9</attack>
 			<health>35</health>
-			<skill id="evade" x="1"/>
-			<skill id="armored" x="4"/>
-			<skill id="rally" x="5" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<health>36</health>
 			<skill id="evade" x="1"/>
-			<skill id="armored" x="4"/>
+			<skill id="armored" x="3"/>
 			<skill id="rally" x="6" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<health>37</health>
+			<skill id="evade" x="1"/>
+			<skill id="armored" x="3"/>
+			<skill id="rally" x="7" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>9</attack>
 			<health>38</health>
+			<skill id="evade" x="1"/>
+			<skill id="armored" x="4"/>
+			<skill id="rally" x="7" y="12"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -13397,43 +13471,46 @@
 		<name>Sharkstormer</name>
 		<picture>Chain_Shark_B</picture>
 		<asset_bundle>104</asset_bundle>
-		<hidden_until_time>1503594000</hidden_until_time>
+		<cost>3</cost>
 		<attack>9</attack>
 		<health>39</health>
-		<cost>3</cost>
-		<rarity>3</rarity>
-		<skill id="evade" x="2"/>
-		<skill id="armored" x="4"/>
+		<skill id="evade" x="1"/>
+		<skill id="armored" x="5"/>
 		<skill id="rally" x="7" y="12"/>
+		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1503594000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<attack>10</attack>
 			<health>40</health>
+			<skill id="evade" x="1"/>
+			<skill id="armored" x="6"/>
+			<skill id="rally" x="7" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<health>41</health>
-			<attack>11</attack>
 			<skill id="evade" x="2"/>
-			<skill id="armored" x="5"/>
+			<skill id="armored" x="6"/>
 			<skill id="rally" x="8" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<health>42</health>
 			<skill id="evade" x="3"/>
-			<skill id="armored" x="5"/>
-			<skill id="rally" x="8" y="12"/>
+			<skill id="armored" x="6"/>
+			<skill id="rally" x="9" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>11</attack>
 			<health>43</health>
 			<skill id="evade" x="3"/>
 			<skill id="armored" x="6"/>
-			<skill id="rally" x="9" y="12"/>
+			<skill id="rally" x="10" y="12"/>
 		</upgrade>
 	</unit>
 
@@ -13443,38 +13520,43 @@
 		<name>Shockscale Eel</name>
 		<picture>Electric_Eel_A</picture>
 		<asset_bundle>104</asset_bundle>
-		<hidden_until_time>1503594000</hidden_until_time>
-		<attack>10</attack>
-		<health>40</health>
 		<cost>4</cost>
-		<rarity>3</rarity>
+		<attack>10</attack>
+		<health>41</health>
 		<skill id="counter" x="3"/>
-		<skill id="strike" x="1" all="1"/>
+		<skill id="strike" all="1" x="1"/>
 		<skill id="weaken" x="5"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1503594000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>41</health>
+			<health>42</health>
+			<skill id="counter" x="3"/>
+			<skill id="strike" all="1" x="1"/>
+			<skill id="weaken" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>42</health>
+			<health>43</health>
 			<skill id="counter" x="4"/>
-			<skill id="strike" x="1" all="1"/>
+			<skill id="strike" all="1" x="1"/>
 			<skill id="weaken" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<skill id="counter" x="4"/>
-			<skill id="strike" x="1" all="1"/>
-			<skill id="weaken" x="7"/>
+			<attack>11</attack>
+			<health>44</health>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<health>43</health>
 			<attack>11</attack>
+			<health>45</health>
+			<skill id="counter" x="4"/>
+			<skill id="strike" all="1" x="2"/>
+			<skill id="weaken" x="7"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -13484,43 +13566,44 @@
 		<name>Electrified Eel</name>
 		<picture>Electric_Eel_A</picture>
 		<asset_bundle>104</asset_bundle>
-		<hidden_until_time>1503594000</hidden_until_time>
-		<attack>11</attack>
-		<health>44</health>
 		<cost>4</cost>
-		<rarity>3</rarity>
+		<attack>11</attack>
+		<health>46</health>
 		<skill id="counter" x="4"/>
-		<skill id="strike" x="1" all="1"/>
+		<skill id="strike" all="1" x="2"/>
 		<skill id="weaken" x="8"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1503594000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>45</health>
+			<health>47</health>
 			<skill id="counter" x="5"/>
-			<skill id="strike" x="1" all="1"/>
+			<skill id="strike" all="1" x="2"/>
 			<skill id="weaken" x="8"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>46</health>
-			<skill id="counter" x="5"/>
-			<skill id="strike" x="2" all="1"/>
-			<skill id="weaken" x="8"/>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>47</health>
-			<skill id="counter" x="5"/>
-			<skill id="strike" x="2" all="1"/>
+			<health>48</health>
+			<skill id="counter" x="6"/>
+			<skill id="strike" all="1" x="2"/>
 			<skill id="weaken" x="9"/>
 		</upgrade>
 		<upgrade>
-			<level>5</level>
-			<health>48</health>
+			<level>4</level>
+			<health>49</health>
 			<skill id="counter" x="6"/>
-			<skill id="strike" x="2" all="1"/>
+			<skill id="strike" all="1" x="3"/>
+			<skill id="weaken" x="10"/>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<attack>12</attack>
+			<health>50</health>
+			<skill id="counter" x="6"/>
+			<skill id="strike" all="1" x="4"/>
 			<skill id="weaken" x="10"/>
 		</upgrade>
 	</unit>
@@ -13531,46 +13614,44 @@
 		<name>Thundering Eel</name>
 		<picture>Electric_Eel_B</picture>
 		<asset_bundle>104</asset_bundle>
-		<hidden_until_time>1503594000</hidden_until_time>
-		<attack>11</attack>
-		<health>49</health>
 		<cost>4</cost>
-		<rarity>3</rarity>
-		<skill id="counter" x="6"/>
-		<skill id="strike" x="3" all="1"/>
+		<attack>12</attack>
+		<health>51</health>
+		<skill id="counter" x="7"/>
+		<skill id="strike" all="1" x="4"/>
 		<skill id="weaken" x="11"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1503594000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>50</health>
-			<attack>12</attack>
+			<attack>13</attack>
+			<health>52</health>
 			<skill id="counter" x="7"/>
-			<skill id="strike" x="3" all="1"/>
+			<skill id="strike" all="1" x="4"/>
 			<skill id="weaken" x="12"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>51</health>
-			<attack>13</attack>
-			<skill id="counter" x="7"/>
-			<skill id="strike" x="4" all="1"/>
-			<skill id="weaken" x="12"/>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>52</health>
+			<health>53</health>
 			<skill id="counter" x="8"/>
-			<skill id="strike" x="4" all="1"/>
+			<skill id="strike" all="1" x="4"/>
 			<skill id="weaken" x="13"/>
 		</upgrade>
 		<upgrade>
+			<level>4</level>
+			<skill id="counter" x="9"/>
+			<skill id="strike" all="1" x="5"/>
+			<skill id="weaken" x="14"/>
+		</upgrade>
+		<upgrade>
 			<level>5</level>
-			<health>54</health>
 			<attack>14</attack>
-			<skill id="counter" x="8"/>
-			<skill id="strike" x="5" all="1"/>
+			<health>54</health>
+			<skill id="counter" x="9"/>
+			<skill id="strike" all="1" x="6"/>
 			<skill id="weaken" x="14"/>
 		</upgrade>
 	</unit>
@@ -13629,8 +13710,8 @@
 		<picture>Mecha_Piranha_Seafolk_A</picture>
 		<asset_bundle>104</asset_bundle>
 		<cost>2</cost>
-		<attack>7</attack>
-		<health>24</health>
+		<attack>6</attack>
+		<health>25</health>
 		<skill id="corrosive" x="6"/>
 		<skill id="pierce" x="12"/>
 		<skill id="berserk" x="4"/>
@@ -13642,28 +13723,27 @@
 		<hidden_until_time>1503594000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>8</attack>
-			<health>25</health>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
-			<health>26</health>
+			<attack>7</attack>
 			<skill id="corrosive" x="7"/>
 			<skill id="pierce" x="12"/>
 			<skill id="berserk" x="4"/>
 		</upgrade>
 		<upgrade>
-			<level>4</level>
-			<health>27</health>
+			<level>3</level>
 			<skill id="corrosive" x="7"/>
 			<skill id="pierce" x="13"/>
-			<skill id="berserk" x="4"/>
+			<skill id="berserk" x="5"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<attack>8</attack>
+			<health>26</health>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<attack>9</attack>
+			<health>27</health>
 			<skill id="corrosive" x="7"/>
-			<skill id="pierce" x="13"/>
+			<skill id="pierce" x="14"/>
 			<skill id="berserk" x="5"/>
 		</upgrade>
 		<upgrade>
@@ -13704,24 +13784,23 @@
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>11</attack>
 			<health>31</health>
 			<skill id="corrosive" x="7"/>
 			<skill id="pierce" x="17"/>
-			<skill id="berserk" x="6"/>
+			<skill id="berserk" x="7"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>32</health>
-			<skill id="corrosive" x="7"/>
+			<attack>11</attack>
+			<skill id="corrosive" x="8"/>
 			<skill id="pierce" x="18"/>
 			<skill id="berserk" x="7"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
 			<attack>12</attack>
-			<health>33</health>
-			<skill id="corrosive" x="7"/>
+			<health>32</health>
+			<skill id="corrosive" x="8"/>
 			<skill id="pierce" x="19"/>
 			<skill id="berserk" x="7"/>
 		</upgrade>
@@ -13877,18 +13956,18 @@
 		<name>Koi Jockey</name>
 		<picture>Frog_Fish_Racers_A</picture>
 		<asset_bundle>106</asset_bundle>
-		<hidden_until_time>1506013200</hidden_until_time>
+		<cost>4</cost>
 		<attack>8</attack>
 		<health>47</health>
-		<cost>4</cost>
-		<rarity>4</rarity>
 		<skill id="evade" x="1"/>
 		<skill id="armored" x="3"/>
-		<skill id="rally" x="2" all="1" y="4"/>
+		<skill id="rally" all="1" x="2" y="12"/>
+		<rarity>4</rarity>
 		<type>3</type>
 		<sub_type>4</sub_type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1506013200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>48</health>
@@ -13896,23 +13975,30 @@
 		<upgrade>
 			<level>3</level>
 			<health>49</health>
+			<skill id="evade" x="1"/>
+			<skill id="armored" x="4"/>
+			<skill id="rally" all="1" x="2" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<skill id="evade" x="1"/>
-			<skill id="armored" x="4"/>
-			<skill id="rally" x="3" all="1" y="4"/>
-		</upgrade>
-		<upgrade>
-			<level>5</level>
-			<attack>9</attack>
-		</upgrade>
-		<upgrade>
-			<level>6</level>
 			<health>50</health>
 			<skill id="evade" x="1"/>
 			<skill id="armored" x="4"/>
-			<skill id="rally" x="4" all="1" y="4"/>
+			<skill id="rally" all="1" x="3" y="12"/>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<skill id="evade" x="2"/>
+			<skill id="armored" x="4"/>
+			<skill id="rally" all="1" x="4" y="12"/>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<attack>9</attack>
+			<health>50</health>
+			<skill id="evade" x="2"/>
+			<skill id="armored" x="5"/>
+			<skill id="rally" all="1" x="4" y="12"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -13922,42 +14008,47 @@
 		<name>Koi Racer</name>
 		<picture>Frog_Fish_Racers_A</picture>
 		<asset_bundle>106</asset_bundle>
-		<hidden_until_time>1506013200</hidden_until_time>
-		<attack>9</attack>
-		<health>51</health>
 		<cost>4</cost>
+		<attack>9</attack>
+		<health>50</health>
+		<skill id="evade" x="2"/>
+		<skill id="armored" x="6"/>
+		<skill id="rally" all="1" x="4" y="12"/>
 		<rarity>4</rarity>
-		<skill id="evade" x="1"/>
-		<skill id="armored" x="4"/>
-		<skill id="rally" x="4" all="1" y="4"/>
 		<type>3</type>
 		<sub_type>4</sub_type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1506013200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>52</health>
+			<health>51</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="evade" x="2"/>
-			<skill id="armored" x="5"/>
-			<skill id="rally" x="4" all="1" y="4"/>
+			<attack>10</attack>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>53</health>
+			<health>52</health>
+			<skill id="evade" x="3"/>
+			<skill id="armored" x="6"/>
+			<skill id="rally" all="1" x="4" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<attack>10</attack>
-			<skill id="evade" x="2"/>
-			<skill id="armored" x="5"/>
-			<skill id="rally" x="5" all="1" y="4"/>
+			<health>53</health>
+			<skill id="evade" x="3"/>
+			<skill id="armored" x="6"/>
+			<skill id="rally" all="1" x="5" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
+			<attack>10</attack>
 			<health>54</health>
+			<skill id="evade" x="3"/>
+			<skill id="armored" x="7"/>
+			<skill id="rally" all="1" x="5" y="12"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -13967,57 +14058,57 @@
 		<name>Koi Speedster</name>
 		<picture>Frog_Fish_Racers_B</picture>
 		<asset_bundle>106</asset_bundle>
-		<hidden_until_time>1506013200</hidden_until_time>
-		<attack>10</attack>
-		<health>55</health>
 		<cost>4</cost>
-		<rarity>4</rarity>
+		<attack>11</attack>
+		<health>55</health>
 		<skill id="evade" x="3"/>
 		<skill id="armored" x="7"/>
-		<skill id="rally" x="5" all="1" y="4"/>
+		<skill id="rally" all="1" x="5" y="12"/>
+		<rarity>4</rarity>
 		<type>3</type>
 		<sub_type>4</sub_type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1506013200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>11</attack>
+			<attack>12</attack>
 			<health>56</health>
 			<skill id="evade" x="3"/>
 			<skill id="armored" x="8"/>
-			<skill id="rally" x="6" all="1" y="4"/>
+			<skill id="rally" all="1" x="5" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>12</attack>
+			<attack>13</attack>
 			<health>57</health>
 			<skill id="evade" x="3"/>
-			<skill id="armored" x="8"/>
-			<skill id="rally" x="6" all="1" y="4"/>
+			<skill id="armored" x="9"/>
+			<skill id="rally" all="1" x="5" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>13</attack>
+			<attack>14</attack>
 			<health>58</health>
-			<skill id="evade" x="3"/>
+			<skill id="evade" x="4"/>
 			<skill id="armored" x="9"/>
-			<skill id="rally" x="6" all="1" y="4"/>
+			<skill id="rally" all="1" x="5" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<attack>14</attack>
+			<attack>15</attack>
 			<health>59</health>
-			<skill id="evade" x="3"/>
+			<skill id="evade" x="4"/>
 			<skill id="armored" x="9"/>
-			<skill id="rally" x="6" all="1" y="4"/>
+			<skill id="rally" all="1" x="6" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
 			<attack>15</attack>
 			<health>60</health>
-			<skill id="evade" x="3"/>
-			<skill id="armored" x="9"/>
-			<skill id="rally" x="7" all="1" y="4"/>
+			<skill id="evade" x="4"/>
+			<skill id="armored" x="10"/>
+			<skill id="rally" all="1" x="7" y="12"/>
 		</upgrade>
 	</unit>
 
@@ -14992,25 +15083,26 @@
 		<hidden_until_time>1510851600</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>33</health>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
-			<attack>8</attack>
-			<health>34</health>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>35</health>
 			<skill id="evade" x="1"/>
 			<skill id="strike" all="1" x="2"/>
 			<skill id="flurry" c="5"/>
 		</upgrade>
 		<upgrade>
-			<level>5</level>
+			<level>3</level>
+			<health>33</health>
 			<skill id="evade" x="1"/>
-			<skill id="strike" all="1" x="3"/>
+			<skill id="strike" all="1" x="2"/>
 			<skill id="flurry" c="4"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<attack>8</attack>
+			<health>34</health>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<attack>9</attack>
+			<health>35</health>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
@@ -15042,23 +15134,23 @@
 		<hidden_until_time>1510851600</hidden_until_time>
 		<upgrade>
 			<level>2</level>
+			<attack>10</attack>
 			<health>37</health>
-			<skill id="evade" x="3"/>
-			<skill id="strike" all="1" x="3"/>
-			<skill id="flurry" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>10</attack>
+			<attack>11</attack>
 			<health>38</health>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>11</attack>
-			<health>39</health>
+			<skill id="evade" x="3"/>
+			<skill id="strike" all="1" x="3"/>
+			<skill id="flurry" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<health>39</health>
 			<skill id="evade" x="3"/>
 			<skill id="strike" all="1" x="4"/>
 			<skill id="flurry" c="3"/>
@@ -15081,9 +15173,9 @@
 		<asset_bundle>112</asset_bundle>
 		<cost>3</cost>
 		<attack>12</attack>
-		<health>40</health>
+		<health>41</health>
 		<skill id="evade" x="3"/>
-		<skill id="strike" all="1" x="5"/>
+		<skill id="strike" all="1" x="4"/>
 		<skill id="flurry" c="3"/>
 		<rarity>4</rarity>
 		<type>2</type>
@@ -15093,21 +15185,23 @@
 		<hidden_until_time>1510851600</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>41</health>
+			<health>42</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>42</health>
+			<health>43</health>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<attack>13</attack>
-			<health>43</health>
+			<health>44</health>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
 			<attack>14</attack>
-			<health>44</health>
+			<skill id="evade" x="4"/>
+			<skill id="strike" all="1" x="4"/>
+			<skill id="flurry" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
@@ -16772,13 +16866,10 @@
 		<upgrade>
 			<level>3</level>
 			<attack>9</attack>
-			<skill id="armored" x="3"/>
-			<skill id="enfeeble" all="1" x="1"/>
-			<skill id="daze" x="8"/>
+			<health>26</health>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>26</health>
 			<skill id="armored" x="3"/>
 			<skill id="enfeeble" all="1" x="2"/>
 			<skill id="daze" x="8"/>
@@ -16803,8 +16894,8 @@
 		<attack>9</attack>
 		<health>26</health>
 		<skill id="armored" x="4"/>
-		<skill id="enfeeble" all="1" x="2"/>
-		<skill id="daze" x="10"/>
+		<skill id="enfeeble" all="1" x="3"/>
+		<skill id="daze" x="9"/>
 		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
@@ -16813,18 +16904,20 @@
 		<hidden_until_time>1527786000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>27</health>
+			<attack>10</attack>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>10</attack>
-			<health>28</health>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
 			<skill id="armored" x="5"/>
 			<skill id="enfeeble" all="1" x="3"/>
 			<skill id="daze" x="10"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<health>27</health>
+			<skill id="armored" x="5"/>
+			<skill id="enfeeble" all="1" x="3"/>
+			<skill id="daze" x="11"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -16843,10 +16936,10 @@
 		<picture>Underwater_Mecha_Protector_Seafolk_B</picture>
 		<asset_bundle>129</asset_bundle>
 		<cost>2</cost>
-		<attack>11</attack>
+		<attack>12</attack>
 		<health>28</health>
 		<skill id="armored" x="5"/>
-		<skill id="enfeeble" all="1" x="4"/>
+		<skill id="enfeeble" all="1" x="3"/>
 		<skill id="daze" x="11"/>
 		<rarity>3</rarity>
 		<type>3</type>
@@ -16856,23 +16949,23 @@
 		<hidden_until_time>1527786000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>12</attack>
+			<health>29</health>
 			<skill id="armored" x="5"/>
-			<skill id="enfeeble" all="1" x="4"/>
+			<skill id="enfeeble" all="1" x="3"/>
 			<skill id="daze" x="12"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
+			<attack>13</attack>
 			<skill id="armored" x="6"/>
-			<skill id="enfeeble" all="1" x="4"/>
-			<skill id="daze" x="13"/>
+			<skill id="enfeeble" all="1" x="3"/>
+			<skill id="daze" x="12"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>29</health>
 			<skill id="armored" x="7"/>
 			<skill id="enfeeble" all="1" x="4"/>
-			<skill id="daze" x="13"/>
+			<skill id="daze" x="12"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -16904,22 +16997,22 @@
 		<hidden_until_time>1527786000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
+			<health>44</health>
+			<skill id="corrosive" x="3"/>
+			<skill id="regenerate" x="4"/>
+			<skill id="frost" x="3"/>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<attack>9</attack>
 			<skill id="corrosive" x="3"/>
 			<skill id="regenerate" x="5"/>
 			<skill id="frost" x="3"/>
 		</upgrade>
 		<upgrade>
-			<level>3</level>
-			<health>44</health>
-			<skill id="corrosive" x="4"/>
-			<skill id="regenerate" x="5"/>
-			<skill id="frost" x="3"/>
-		</upgrade>
-		<upgrade>
 			<level>4</level>
-			<attack>9</attack>
-			<skill id="corrosive" x="4"/>
-			<skill id="regenerate" x="5"/>
+			<skill id="corrosive" x="3"/>
+			<skill id="regenerate" x="6"/>
 			<skill id="frost" x="4"/>
 		</upgrade>
 		<upgrade>
@@ -16952,19 +17045,24 @@
 		<hidden_until_time>1527786000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>10</attack>
 			<health>47</health>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
-			<skill id="corrosive" x="5"/>
+			<skill id="corrosive" x="4"/>
 			<skill id="regenerate" x="7"/>
 			<skill id="frost" x="5"/>
 		</upgrade>
 		<upgrade>
-			<level>4</level>
-			<attack>11</attack>
+			<level>3</level>
 			<health>48</health>
+			<skill id="corrosive" x="4"/>
+			<skill id="regenerate" x="8"/>
+			<skill id="frost" x="5"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<attack>10</attack>
+			<skill id="corrosive" x="5"/>
+			<skill id="regenerate" x="8"/>
+			<skill id="frost" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -17003,14 +17101,14 @@
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>13</attack>
 			<health>52</health>
-			<skill id="corrosive" x="7"/>
+			<skill id="corrosive" x="8"/>
 			<skill id="regenerate" x="9"/>
 			<skill id="frost" x="7"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
+			<attack>13</attack>
 			<health>53</health>
 			<skill id="corrosive" x="8"/>
 			<skill id="regenerate" x="10"/>
@@ -17180,19 +17278,19 @@
 		<hidden_until_time>1530205200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>5</attack>
+			<health>15</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="absorb" x="4"/>
+			<skill id="absorb" x="3"/>
 			<skill id="poison" x="3"/>
-			<skill id="daze" x="4"/>
+			<skill id="daze" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<skill id="absorb" x="4"/>
-			<skill id="poison" x="4"/>
-			<skill id="daze" x="4"/>
+			<skill id="poison" x="3"/>
+			<skill id="daze" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -17211,10 +17309,10 @@
 		<picture>BugShrimp_A</picture>
 		<asset_bundle>132</asset_bundle>
 		<cost>1</cost>
-		<attack>5</attack>
+		<attack>6</attack>
 		<health>15</health>
 		<skill id="absorb" x="4"/>
-		<skill id="poison" x="5"/>
+		<skill id="poison" x="4"/>
 		<skill id="daze" x="5"/>
 		<rarity>3</rarity>
 		<type>3</type>
@@ -17224,19 +17322,19 @@
 		<hidden_until_time>1530205200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>6</attack>
+			<health>16</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="absorb" x="5"/>
-			<skill id="poison" x="5"/>
+			<attack>7</attack>
+			<skill id="absorb" x="4"/>
+			<skill id="poison" x="4"/>
 			<skill id="daze" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>16</health>
 			<skill id="absorb" x="5"/>
-			<skill id="poison" x="5"/>
+			<skill id="poison" x="4"/>
 			<skill id="daze" x="7"/>
 		</upgrade>
 		<upgrade>
@@ -17256,10 +17354,10 @@
 		<picture>BugShrimp_B</picture>
 		<asset_bundle>132</asset_bundle>
 		<cost>1</cost>
-		<attack>7</attack>
-		<health>18</health>
-		<skill id="absorb" x="6"/>
-		<skill id="poison" x="5"/>
+		<attack>8</attack>
+		<health>17</health>
+		<skill id="absorb" x="5"/>
+		<skill id="poison" x="6"/>
 		<skill id="daze" x="7"/>
 		<rarity>3</rarity>
 		<type>3</type>
@@ -17269,23 +17367,23 @@
 		<hidden_until_time>1530205200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>8</attack>
+			<health>18</health>
 			<skill id="absorb" x="6"/>
 			<skill id="poison" x="6"/>
 			<skill id="daze" x="7"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>19</health>
+			<attack>9</attack>
 			<skill id="absorb" x="7"/>
 			<skill id="poison" x="6"/>
 			<skill id="daze" x="7"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>9</attack>
-			<skill id="absorb" x="8"/>
-			<skill id="poison" x="6"/>
+			<health>19</health>
+			<skill id="absorb" x="7"/>
+			<skill id="poison" x="7"/>
 			<skill id="daze" x="8"/>
 		</upgrade>
 		<upgrade>
@@ -17597,14 +17695,16 @@
 		<upgrade>
 			<level>3</level>
 			<health>33</health>
-			<skill id="counterburn" x="2"/>
+			<skill id="counterburn" x="3"/>
 			<skill id="nullify" x="2"/>
-			<skill id="leech" x="6"/>
+			<skill id="leech" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>10</attack>
 			<health>34</health>
+			<skill id="counterburn" x="3"/>
+			<skill id="nullify" x="2"/>
+			<skill id="leech" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -17623,10 +17723,10 @@
 		<picture>Avian_Seafolk_Lobster_Bird_A</picture>
 		<asset_bundle>137</asset_bundle>
 		<cost>3</cost>
-		<attack>11</attack>
+		<attack>10</attack>
 		<health>35</health>
 		<skill id="counterburn" x="3"/>
-		<skill id="nullify" x="2"/>
+		<skill id="nullify" x="3"/>
 		<skill id="leech" x="7"/>
 		<rarity>3</rarity>
 		<type>2</type>
@@ -17638,21 +17738,22 @@
 			<level>2</level>
 			<health>36</health>
 			<skill id="counterburn" x="3"/>
-			<skill id="nullify" x="2"/>
+			<skill id="nullify" x="3"/>
 			<skill id="leech" x="8"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<health>37</health>
 			<skill id="counterburn" x="3"/>
-			<skill id="nullify" x="2"/>
+			<skill id="nullify" x="3"/>
 			<skill id="leech" x="9"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
+			<attack>11</attack>
 			<health>38</health>
-			<skill id="counterburn" x="4"/>
-			<skill id="nullify" x="2"/>
+			<skill id="counterburn" x="3"/>
+			<skill id="nullify" x="3"/>
 			<skill id="leech" x="10"/>
 		</upgrade>
 		<upgrade>
@@ -17686,24 +17787,23 @@
 		<upgrade>
 			<level>2</level>
 			<health>41</health>
-			<skill id="counterburn" x="4"/>
-			<skill id="nullify" x="4"/>
+			<skill id="counterburn" x="5"/>
+			<skill id="nullify" x="3"/>
 			<skill id="leech" x="12"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<attack>13</attack>
 			<health>42</health>
-			<skill id="counterburn" x="4"/>
+			<skill id="counterburn" x="5"/>
 			<skill id="nullify" x="4"/>
-			<skill id="leech" x="13"/>
+			<skill id="leech" x="12"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>14</attack>
-			<skill id="counterburn" x="5"/>
-			<skill id="nullify" x="4"/>
-			<skill id="leech" x="14"/>
+			<skill id="counterburn" x="6"/>
+			<skill id="nullify" x="5"/>
+			<skill id="leech" x="13"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -19429,10 +19529,10 @@
 		<picture>Goblin_Seafolk_Octopus_A</picture>
 		<asset_bundle>151</asset_bundle>
 		<cost>3</cost>
-		<attack>9</attack>
+		<attack>8</attack>
 		<health>34</health>
 		<skill id="stasis" x="4"/>
-		<skill id="heal" x="8" y="12"/>
+		<skill id="heal" x="9" y="12"/>
 		<skill id="frost" x="3"/>
 		<rarity>3</rarity>
 		<type>1</type>
@@ -19443,23 +19543,21 @@
 		<upgrade>
 			<level>2</level>
 			<health>35</health>
-			<skill id="stasis" x="4"/>
-			<skill id="heal" x="8" y="12"/>
-			<skill id="frost" x="4"/>
+			<skill id="stasis" x="5"/>
+			<skill id="heal" x="9" y="12"/>
+			<skill id="frost" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<health>36</health>
-			<skill id="stasis" x="4"/>
+			<skill id="stasis" x="5"/>
 			<skill id="heal" x="9" y="12"/>
 			<skill id="frost" x="4"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
+			<attack>9</attack>
 			<health>37</health>
-			<skill id="stasis" x="4"/>
-			<skill id="heal" x="10" y="12"/>
-			<skill id="frost" x="4"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -19478,11 +19576,11 @@
 		<picture>Goblin_Seafolk_Octopus_B</picture>
 		<asset_bundle>151</asset_bundle>
 		<cost>3</cost>
-		<attack>10</attack>
+		<attack>9</attack>
 		<health>38</health>
 		<skill id="stasis" x="5"/>
 		<skill id="heal" x="11" y="12"/>
-		<skill id="frost" x="4"/>
+		<skill id="frost" x="5"/>
 		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>11</sub_type>
@@ -19493,22 +19591,18 @@
 			<level>2</level>
 			<health>39</health>
 			<skill id="stasis" x="5"/>
-			<skill id="heal" x="11" y="12"/>
+			<skill id="heal" x="12" y="12"/>
 			<skill id="frost" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
+			<attack>10</attack>
 			<health>40</health>
-			<skill id="stasis" x="6"/>
-			<skill id="heal" x="11" y="12"/>
-			<skill id="frost" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
+			<attack>11</attack>
 			<health>41</health>
-			<skill id="stasis" x="6"/>
-			<skill id="heal" x="11" y="12"/>
-			<skill id="frost" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -19661,34 +19755,35 @@
 		<name>Glacialhunt Herd</name>
 		<picture>Seafolk_Seal_Hunting_Herd_A</picture>
 		<asset_bundle>154</asset_bundle>
-		<hidden_until_time>1551978000</hidden_until_time>
+		<cost>4</cost>
 		<attack>9</attack>
 		<health>42</health>
-		<cost>4</cost>
-		<rarity>3</rarity>
 		<skill id="stasis" x="2"/>
 		<skill id="jam" c="5"/>
 		<skill id="berserk" x="4"/>
+		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1551978000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
+			<health>43</health>
+		</upgrade>
+		<upgrade>
+			<level>3</level>
+			<health>44</health>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<health>45</health>
 			<skill id="stasis" x="2"/>
 			<skill id="jam" c="4"/>
 			<skill id="berserk" x="4"/>
 		</upgrade>
 		<upgrade>
-			<level>3</level>
-			<health>43</health>
-			<attack>10</attack>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>44</health>
-		</upgrade>
-		<upgrade>
 			<level>5</level>
+			<attack>10</attack>
 			<health>45</health>
 			<skill id="stasis" x="3"/>
 			<skill id="jam" c="4"/>
@@ -19702,35 +19797,41 @@
 		<name>Glacialhunt Chasers</name>
 		<picture>Seafolk_Seal_Hunting_Herd_A</picture>
 		<asset_bundle>154</asset_bundle>
-		<hidden_until_time>1551978000</hidden_until_time>
+		<cost>4</cost>
 		<attack>10</attack>
 		<health>46</health>
-		<cost>4</cost>
-		<rarity>3</rarity>
 		<skill id="stasis" x="3"/>
 		<skill id="jam" c="4"/>
-		<skill id="berserk" x="5"/>
+		<skill id="berserk" x="4"/>
+		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1551978000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>47</health>
-			<attack>11</attack>
+			<skill id="stasis" x="3"/>
+			<skill id="jam" c="4"/>
+			<skill id="berserk" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<health>48</health>
+			<skill id="stasis" x="4"/>
+			<skill id="jam" c="4"/>
+			<skill id="berserk" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<health>49</health>
-			<skill id="stasis" x="3"/>
+			<skill id="stasis" x="4"/>
 			<skill id="jam" c="3"/>
 			<skill id="berserk" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>11</attack>
 			<health>50</health>
 			<skill id="stasis" x="4"/>
 			<skill id="jam" c="3"/>
@@ -19744,17 +19845,17 @@
 		<name>Glacialhunt Stalkers</name>
 		<picture>Seafolk_Seal_Hunting_Herd_B</picture>
 		<asset_bundle>154</asset_bundle>
-		<hidden_until_time>1551978000</hidden_until_time>
+		<cost>4</cost>
 		<attack>11</attack>
 		<health>51</health>
-		<cost>4</cost>
-		<rarity>3</rarity>
 		<skill id="stasis" x="4"/>
 		<skill id="jam" c="3"/>
 		<skill id="berserk" x="6"/>
+		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1551978000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<attack>12</attack>
@@ -19765,15 +19866,18 @@
 			<health>53</health>
 			<skill id="stasis" x="5"/>
 			<skill id="jam" c="3"/>
-			<skill id="berserk" x="7"/>
+			<skill id="berserk" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>13</attack>
 			<health>54</health>
+			<skill id="stasis" x="6"/>
+			<skill id="jam" c="3"/>
+			<skill id="berserk" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>13</attack>
 			<health>55</health>
 			<skill id="stasis" x="6"/>
 			<skill id="jam" c="3"/>
@@ -19787,37 +19891,43 @@
 		<name>Armorca</name>
 		<picture>Seafolk_Armored_Orca_A</picture>
 		<asset_bundle>154</asset_bundle>
-		<hidden_until_time>1551978000</hidden_until_time>
-		<attack>5</attack>
-		<health>16</health>
 		<cost>2</cost>
-		<rarity>3</rarity>
+		<attack>5</attack>
+		<health>19</health>
 		<skill id="armored" x="2"/>
 		<skill id="valor" x="3"/>
 		<skill id="flurry" c="5"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1551978000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="armored" x="2"/>
+			<skill id="armored" x="3"/>
 			<skill id="valor" x="3"/>
-			<skill id="flurry" c="4"/>
+			<skill id="flurry" c="5"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>17</health>
+			<skill id="armored" x="3"/>
+			<skill id="valor" x="4"/>
+			<skill id="flurry" c="5"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>18</health>
-			<skill id="armored" x="2"/>
+			<health>20</health>
+			<skill id="armored" x="4"/>
 			<skill id="valor" x="4"/>
-			<skill id="flurry" c="4"/>
+			<skill id="flurry" c="5"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<health>19</health>
+			<attack>5</attack>
+			<health>21</health>
+			<skill id="armored" x="4"/>
+			<skill id="valor" x="4"/>
+			<skill id="flurry" c="4"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -19827,38 +19937,40 @@
 		<name>Armorca Battleram</name>
 		<picture>Seafolk_Armored_Orca_A</picture>
 		<asset_bundle>154</asset_bundle>
-		<hidden_until_time>1551978000</hidden_until_time>
-		<attack>5</attack>
-		<health>20</health>
 		<cost>2</cost>
-		<rarity>3</rarity>
-		<skill id="armored" x="3"/>
+		<attack>5</attack>
+		<health>22</health>
+		<skill id="armored" x="4"/>
 		<skill id="valor" x="4"/>
 		<skill id="flurry" c="4"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1551978000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>21</health>
-			<skill id="armored" x="3"/>
-			<skill id="valor" x="5"/>
-			<skill id="flurry" c="4"/>
+			<health>23</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>22</health>
+			<health>24</health>
+			<skill id="armored" x="5"/>
+			<skill id="valor" x="4"/>
+			<skill id="flurry" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<skill id="armored" x="3"/>
-			<skill id="valor" x="5"/>
-			<skill id="flurry" c="3"/>
+			<health>25</health>
+			<skill id="armored" x="6"/>
+			<skill id="valor" x="4"/>
+			<skill id="flurry" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<health>23</health>
-			<skill id="armored" x="4"/>
+			<attack>5</attack>
+			<health>25</health>
+			<skill id="armored" x="6"/>
 			<skill id="valor" x="5"/>
 			<skill id="flurry" c="3"/>
 		</upgrade>
@@ -19870,39 +19982,42 @@
 		<name>Armorca Capsizer</name>
 		<picture>Seafolk_Armored_Orca_B</picture>
 		<asset_bundle>154</asset_bundle>
-		<hidden_until_time>1551978000</hidden_until_time>
-		<attack>5</attack>
-		<health>24</health>
 		<cost>2</cost>
-		<rarity>3</rarity>
-		<skill id="armored" x="4"/>
+		<attack>5</attack>
+		<health>26</health>
+		<skill id="armored" x="7"/>
 		<skill id="valor" x="5"/>
 		<skill id="flurry" c="3"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1551978000</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>25</health>
-			<skill id="armored" x="5"/>
+			<health>27</health>
+			<skill id="armored" x="7"/>
 			<skill id="valor" x="6"/>
 			<skill id="flurry" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>26</health>
-			<skill id="armored" x="6"/>
-			<skill id="valor" x="7"/>
+			<skill id="armored" x="8"/>
+			<skill id="valor" x="6"/>
 			<skill id="flurry" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>27</health>
+			<health>28</health>
+			<skill id="armored" x="8"/>
+			<skill id="valor" x="7"/>
+			<skill id="flurry" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<health>28</health>
-			<skill id="armored" x="7"/>
+			<attack>5</attack>
+			<health>29</health>
+			<skill id="armored" x="8"/>
 			<skill id="valor" x="8"/>
 			<skill id="flurry" c="3"/>
 		</upgrade>
@@ -22816,37 +22931,42 @@
 		<name>Star of the Red Sea</name>
 		<picture>Seafolk_Ninja_Starfish_A</picture>
 		<asset_bundle>180</asset_bundle>
-		<hidden_until_time>1578589200</hidden_until_time>
-		<attack>1</attack>
-		<health>6</health>
 		<cost>0</cost>
-		<rarity>3</rarity>
+		<attack>1</attack>
+		<health>9</health>
 		<skill id="evade" x="1"/>
-		<skill id="regenerate" x="6"/>
+		<skill id="regenerate" x="9"/>
 		<skill id="strike" x="1"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1578589200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>7</health>
-			<skill id="evade" x="1"/>
-			<skill id="regenerate" x="7"/>
-			<skill id="strike" x="1"/>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
 			<attack>2</attack>
 		</upgrade>
 		<upgrade>
-			<level>4</level>
+			<level>3</level>
+			<attack>3</attack>
 			<skill id="evade" x="1"/>
-			<skill id="regenerate" x="7"/>
+			<skill id="regenerate" x="9"/>
+			<skill id="strike" x="2"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<health>10</health>
+			<skill id="evade" x="1"/>
+			<skill id="regenerate" x="10"/>
 			<skill id="strike" x="2"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
 			<attack>3</attack>
+			<health>11</health>
+			<skill id="evade" x="1"/>
+			<skill id="regenerate" x="11"/>
+			<skill id="strike" x="2"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -22856,39 +22976,39 @@
 		<name>Thief of the Red Sea</name>
 		<picture>Seafolk_Ninja_Starfish_A</picture>
 		<asset_bundle>180</asset_bundle>
-		<hidden_until_time>1578589200</hidden_until_time>
-		<attack>3</attack>
-		<health>8</health>
 		<cost>0</cost>
-		<rarity>3</rarity>
+		<attack>3</attack>
+		<health>12</health>
 		<skill id="evade" x="1"/>
-		<skill id="regenerate" x="8"/>
+		<skill id="regenerate" x="11"/>
 		<skill id="strike" x="2"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1578589200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<skill id="evade" x="1"/>
-			<skill id="regenerate" x="8"/>
+			<skill id="regenerate" x="11"/>
 			<skill id="strike" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>9</health>
 			<skill id="evade" x="1"/>
-			<skill id="regenerate" x="9"/>
+			<skill id="regenerate" x="12"/>
 			<skill id="strike" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>4</attack>
+			<health>13</health>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<health>10</health>
+			<attack>4</attack>
+			<health>13</health>
 			<skill id="evade" x="1"/>
-			<skill id="regenerate" x="10"/>
+			<skill id="regenerate" x="13"/>
 			<skill id="strike" x="3"/>
 		</upgrade>
 	</unit>
@@ -22899,43 +23019,43 @@
 		<name>Ninja of the Red Sea</name>
 		<picture>Seafolk_Ninja_Starfish_B</picture>
 		<asset_bundle>180</asset_bundle>
-		<hidden_until_time>1578589200</hidden_until_time>
-		<attack>4</attack>
-		<health>11</health>
 		<cost>0</cost>
-		<rarity>3</rarity>
+		<attack>4</attack>
+		<health>14</health>
 		<skill id="evade" x="1"/>
-		<skill id="regenerate" x="11"/>
-		<skill id="strike" x="4"/>
+		<skill id="regenerate" x="14"/>
+		<skill id="strike" x="3"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1578589200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>5</attack>
-			<health>12</health>
 			<skill id="evade" x="2"/>
-			<skill id="regenerate" x="12"/>
+			<skill id="regenerate" x="14"/>
 			<skill id="strike" x="4"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>13</health>
+			<health>15</health>
 			<skill id="evade" x="2"/>
-			<skill id="regenerate" x="13"/>
+			<skill id="regenerate" x="15"/>
 			<skill id="strike" x="4"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>14</health>
+			<attack>5</attack>
 			<skill id="evade" x="2"/>
-			<skill id="regenerate" x="14"/>
-			<skill id="strike" x="4"/>
+			<skill id="regenerate" x="15"/>
+			<skill id="strike" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>5</attack>
+			<health>16</health>
 			<skill id="evade" x="2"/>
-			<skill id="regenerate" x="14"/>
+			<skill id="regenerate" x="16"/>
 			<skill id="strike" x="5"/>
 		</upgrade>
 	</unit>
@@ -22946,22 +23066,22 @@
 		<name>Sinksight Mermaid</name>
 		<picture>Seafolk_Eel_Medusa_A</picture>
 		<asset_bundle>180</asset_bundle>
-		<hidden_until_time>1578589200</hidden_until_time>
+		<cost>3</cost>
 		<attack>7</attack>
 		<health>33</health>
-		<cost>3</cost>
-		<rarity>3</rarity>
 		<skill id="backlash" x="2"/>
 		<skill id="jam" c="6"/>
-		<skill id="enrage" x="1" all="1" y="12"/>
+		<skill id="enrage" all="1" x="1" y="12"/>
+		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1578589200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<skill id="backlash" x="2"/>
-			<skill id="jam" c="5"/>
-			<skill id="enrage" x="1" all="1" y="12"/>
+			<skill id="jam" c="6"/>
+			<skill id="enrage" all="1" x="2" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
@@ -22971,12 +23091,16 @@
 			<level>4</level>
 			<health>35</health>
 			<skill id="backlash" x="2"/>
-			<skill id="jam" c="5"/>
-			<skill id="enrage" x="3" all="1" y="12"/>
+			<skill id="jam" c="6"/>
+			<skill id="enrage" all="1" x="3" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
 			<attack>8</attack>
+			<health>35</health>
+			<skill id="backlash" x="2"/>
+			<skill id="jam" c="5"/>
+			<skill id="enrage" all="1" x="3" y="12"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -22986,17 +23110,17 @@
 		<name>Sinksight Witch</name>
 		<picture>Seafolk_Eel_Medusa_A</picture>
 		<asset_bundle>180</asset_bundle>
-		<hidden_until_time>1578589200</hidden_until_time>
+		<cost>3</cost>
 		<attack>8</attack>
 		<health>35</health>
-		<cost>3</cost>
+		<skill id="backlash" x="2"/>
+		<skill id="jam" c="5"/>
+		<skill id="enrage" all="1" x="4" y="12"/>
 		<rarity>3</rarity>
-		<skill id="backlash" x="3"/>
-		<skill id="jam" c="4"/>
-		<skill id="enrage" x="3" all="1" y="12"/>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1578589200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>36</health>
@@ -23004,17 +23128,21 @@
 		<upgrade>
 			<level>3</level>
 			<health>37</health>
-			<skill id="backlash" x="3"/>
-			<skill id="jam" c="4"/>
-			<skill id="enrage" x="4" all="1" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>9</attack>
+			<health>38</health>
+			<skill id="backlash" x="2"/>
+			<skill id="jam" c="4"/>
+			<skill id="enrage" all="1" x="4" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>9</attack>
 			<health>38</health>
+			<skill id="backlash" x="3"/>
+			<skill id="jam" c="4"/>
+			<skill id="enrage" all="1" x="4" y="12"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -23024,41 +23152,47 @@
 		<name>Sinksight Gorgon</name>
 		<picture>Seafolk_Eel_Medusa_B</picture>
 		<asset_bundle>180</asset_bundle>
-		<hidden_until_time>1578589200</hidden_until_time>
+		<cost>3</cost>
 		<attack>10</attack>
 		<health>39</health>
-		<cost>3</cost>
+		<skill id="backlash" x="3"/>
+		<skill id="jam" c="4"/>
+		<skill id="enrage" all="1" x="4" y="12"/>
 		<rarity>3</rarity>
-		<skill id="backlash" x="4"/>
-		<skill id="jam" c="3"/>
-		<skill id="enrage" x="4" all="1" y="12"/>
 		<type>3</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1578589200</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>40</health>
 			<attack>11</attack>
+			<health>40</health>
 			<skill id="backlash" x="4"/>
-			<skill id="jam" c="3"/>
-			<skill id="enrage" x="5" all="1" y="12"/>
+			<skill id="jam" c="4"/>
+			<skill id="enrage" all="1" x="4" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<health>41</health>
-			<attack>12</attack>
+			<skill id="backlash" x="4"/>
+			<skill id="jam" c="3"/>
+			<skill id="enrage" all="1" x="5" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>13</attack>
+			<attack>12</attack>
 			<health>42</health>
+			<skill id="backlash" x="4"/>
+			<skill id="jam" c="3"/>
+			<skill id="enrage" all="1" x="6" y="12"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>13</attack>
 			<health>43</health>
 			<skill id="backlash" x="5"/>
 			<skill id="jam" c="3"/>
-			<skill id="enrage" x="6" all="1" y="12"/>
+			<skill id="enrage" all="1" x="6" y="12"/>
 		</upgrade>
 	</unit>
 
@@ -23212,19 +23346,19 @@
 		<hidden_until_time>1581008400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>15</health>
+			<attack>4</attack>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="absorb" x="5"/>
+			<skill id="absorb" x="4"/>
 			<skill id="fervor" x="2" y="2"/>
-			<skill id="enrage" x="4" y="2"/>
+			<skill id="enrage" x="5" y="2"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<skill id="absorb" x="5"/>
+			<skill id="absorb" x="4"/>
 			<skill id="fervor" x="3" y="2"/>
-			<skill id="enrage" x="4" y="2"/>
+			<skill id="enrage" x="5" y="2"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -23243,8 +23377,8 @@
 		<picture>Angel_Seafolk_Hell_Fish_A</picture>
 		<asset_bundle>182</asset_bundle>
 		<cost>1</cost>
-		<attack>4</attack>
-		<health>16</health>
+		<attack>5</attack>
+		<health>15</health>
 		<skill id="absorb" x="5"/>
 		<skill id="fervor" x="3" y="2"/>
 		<skill id="enrage" x="5" y="2"/>
@@ -23256,19 +23390,19 @@
 		<hidden_until_time>1581008400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="absorb" x="6"/>
-			<skill id="fervor" x="3" y="2"/>
-			<skill id="enrage" x="5" y="2"/>
+			<health>16</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="absorb" x="6"/>
-			<skill id="fervor" x="4" y="2"/>
-			<skill id="enrage" x="5" y="2"/>
+			<skill id="absorb" x="5"/>
+			<skill id="fervor" x="3" y="2"/>
+			<skill id="enrage" x="6" y="2"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>17</health>
+			<skill id="absorb" x="6"/>
+			<skill id="fervor" x="3" y="2"/>
+			<skill id="enrage" x="6" y="2"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -23287,8 +23421,8 @@
 		<picture>Angel_Seafolk_Hell_Fish_B</picture>
 		<asset_bundle>182</asset_bundle>
 		<cost>1</cost>
-		<attack>5</attack>
-		<health>18</health>
+		<attack>6</attack>
+		<health>17</health>
 		<skill id="absorb" x="6"/>
 		<skill id="fervor" x="4" y="2"/>
 		<skill id="enrage" x="6" y="2"/>
@@ -23300,18 +23434,20 @@
 		<hidden_until_time>1581008400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="absorb" x="6"/>
-			<skill id="fervor" x="4" y="2"/>
-			<skill id="enrage" x="7" y="2"/>
+			<attack>7</attack>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>6</attack>
+			<health>18</health>
+			<skill id="absorb" x="7"/>
+			<skill id="fervor" x="4" y="2"/>
+			<skill id="enrage" x="6" y="2"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>7</attack>
-			<health>19</health>
+			<skill id="absorb" x="7"/>
+			<skill id="fervor" x="5" y="2"/>
+			<skill id="enrage" x="7" y="2"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -23319,7 +23455,7 @@
 			<health>19</health>
 			<skill id="absorb" x="7"/>
 			<skill id="fervor" x="5" y="2"/>
-			<skill id="enrage" x="7" y="2"/>
+			<skill id="enrage" x="8" y="2"/>
 		</upgrade>
 	</unit>
 
@@ -25846,19 +25982,17 @@
 		<hidden_until_time>1605200400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="backlash" x="1"/>
-			<skill id="regenerate" x="6"/>
-			<skill id="strike" x="8"/>
+			<attack>10</attack>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="backlash" x="1"/>
-			<skill id="regenerate" x="7"/>
-			<skill id="strike" x="8"/>
+			<health>37</health>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>10</attack>
+			<skill id="backlash" x="1"/>
+			<skill id="regenerate" x="7"/>
+			<skill id="strike" x="7"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -25878,10 +26012,10 @@
 		<asset_bundle>207</asset_bundle>
 		<cost>3</cost>
 		<attack>10</attack>
-		<health>37</health>
+		<health>38</health>
 		<skill id="backlash" x="2"/>
 		<skill id="regenerate" x="7"/>
-		<skill id="strike" x="9"/>
+		<skill id="strike" x="8"/>
 		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>5</sub_type>
@@ -25890,17 +26024,17 @@
 		<hidden_until_time>1605200400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>38</health>
+			<skill id="backlash" x="3"/>
+			<skill id="regenerate" x="7"/>
+			<skill id="strike" x="8"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="backlash" x="3"/>
-			<skill id="regenerate" x="7"/>
-			<skill id="strike" x="9"/>
+			<health>39</health>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>39</health>
+			<attack>11</attack>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -25920,8 +26054,8 @@
 		<asset_bundle>207</asset_bundle>
 		<cost>3</cost>
 		<attack>12</attack>
-		<health>39</health>
-		<skill id="backlash" x="4"/>
+		<health>40</health>
+		<skill id="backlash" x="3"/>
 		<skill id="regenerate" x="8"/>
 		<skill id="strike" x="9"/>
 		<rarity>3</rarity>
@@ -25934,25 +26068,27 @@
 			<level>2</level>
 			<skill id="backlash" x="4"/>
 			<skill id="regenerate" x="9"/>
-			<skill id="strike" x="10"/>
+			<skill id="strike" x="9"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<attack>13</attack>
-			<health>40</health>
+			<skill id="backlash" x="5"/>
+			<skill id="regenerate" x="9"/>
+			<skill id="strike" x="9"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<health>41</health>
-			<skill id="backlash" x="4"/>
-			<skill id="regenerate" x="10"/>
+			<skill id="backlash" x="5"/>
+			<skill id="regenerate" x="9"/>
 			<skill id="strike" x="10"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
 			<attack>14</attack>
 			<health>42</health>
-			<skill id="backlash" x="4"/>
+			<skill id="backlash" x="5"/>
 			<skill id="regenerate" x="10"/>
 			<skill id="strike" x="10"/>
 		</upgrade>
@@ -25964,36 +26100,38 @@
 		<name>Love Singer</name>
 		<picture>Seafolk_Merman_Singer_A</picture>
 		<asset_bundle>207</asset_bundle>
-		<hidden_until_time>1605200400</hidden_until_time>
+		<cost>2</cost>
 		<attack>7</attack>
 		<health>24</health>
-		<cost>2</cost>
-		<rarity>3</rarity>
 		<skill id="absorb" x="4"/>
 		<skill id="rally" x="5" y="2"/>
-		<skill id="heal" x="1" all="1"/>
+		<skill id="heal" all="1" x="1"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1605200400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>8</attack>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
 			<health>25</health>
 		</upgrade>
 		<upgrade>
+			<level>3</level>
+			<skill id="absorb" x="5"/>
+			<skill id="rally" x="5" y="2"/>
+			<skill id="heal" all="1" x="1"/>
+		</upgrade>
+		<upgrade>
 			<level>4</level>
-			<skill id="absorb" x="4"/>
-			<skill id="rally" x="6" y="2"/>
-			<skill id="heal" x="1" all="1"/>
+			<attack>8</attack>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>8</attack>
+			<health>25</health>
 			<skill id="absorb" x="5"/>
 			<skill id="rally" x="6" y="2"/>
-			<skill id="heal" x="1" all="1"/>
+			<skill id="heal" all="1" x="1"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -26003,36 +26141,38 @@
 		<name>Passion Singer</name>
 		<picture>Seafolk_Merman_Singer_A</picture>
 		<asset_bundle>207</asset_bundle>
-		<hidden_until_time>1605200400</hidden_until_time>
+		<cost>2</cost>
 		<attack>9</attack>
 		<health>25</health>
-		<cost>2</cost>
-		<rarity>3</rarity>
 		<skill id="absorb" x="5"/>
 		<skill id="rally" x="6" y="2"/>
-		<skill id="heal" x="1" all="1"/>
+		<skill id="heal" all="1" x="1"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1605200400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>26</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="absorb" x="5"/>
-			<skill id="rally" x="6" y="2"/>
-			<skill id="heal" x="2" all="1"/>
+			<attack>10</attack>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<skill id="absorb" x="6"/>
-			<skill id="rally" x="7" y="2"/>
-			<skill id="heal" x="2" all="1"/>
+			<skill id="rally" x="6" y="2"/>
+			<skill id="heal" all="1" x="2"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
 			<attack>10</attack>
+			<health>27</health>
+			<skill id="absorb" x="6"/>
+			<skill id="rally" x="7" y="2"/>
+			<skill id="heal" all="1" x="2"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -26042,36 +26182,41 @@
 		<name>Cupid Singer</name>
 		<picture>Seafolk_Merman_Singer_B</picture>
 		<asset_bundle>207</asset_bundle>
-		<hidden_until_time>1605200400</hidden_until_time>
-		<attack>10</attack>
-		<health>27</health>
 		<cost>2</cost>
-		<rarity>3</rarity>
+		<attack>10</attack>
+		<health>28</health>
 		<skill id="absorb" x="6"/>
 		<skill id="rally" x="7" y="2"/>
-		<skill id="heal" x="2" all="1"/>
+		<skill id="heal" all="1" x="2"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1605200400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>11</attack>
+			<health>29</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>28</health>
+			<attack>11</attack>
+			<skill id="absorb" x="6"/>
+			<skill id="rally" x="7" y="2"/>
+			<skill id="heal" all="1" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<skill id="absorb" x="6"/>
-			<skill id="rally" x="7" y="2"/>
-			<skill id="heal" x="3" all="1"/>
+			<skill id="absorb" x="7"/>
+			<skill id="rally" x="8" y="2"/>
+			<skill id="heal" all="1" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<skill id="absorb" x="7"/>
-			<skill id="rally" x="8" y="2"/>
-			<skill id="heal" x="3" all="1"/>
+			<attack>11</attack>
+			<health>29</health>
+			<skill id="absorb" x="8"/>
+			<skill id="rally" x="9" y="2"/>
+			<skill id="heal" all="1" x="3"/>
 		</upgrade>
 	</unit>
 
@@ -26081,22 +26226,22 @@
 		<name>Noble Swordfish</name>
 		<picture>Seafolk_Phalanx_Swordfish_A</picture>
 		<asset_bundle>207</asset_bundle>
-		<hidden_until_time>1605200400</hidden_until_time>
+		<cost>3</cost>
 		<attack>8</attack>
 		<health>35</health>
-		<cost>3</cost>
-		<rarity>4</rarity>
 		<skill id="armored" x="3"/>
 		<skill id="legion" x="2"/>
 		<skill id="flurry" c="4"/>
+		<rarity>4</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1605200400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="armored" x="3"/>
+			<skill id="armored" x="4"/>
 			<skill id="legion" x="2"/>
-			<skill id="flurry" c="3"/>
+			<skill id="flurry" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
@@ -26104,18 +26249,23 @@
 		</upgrade>
 		<upgrade>
 			<level>4</level>
+			<attack>10</attack>
 			<health>36</health>
-			<skill id="armored" x="4"/>
-			<skill id="legion" x="2"/>
-			<skill id="flurry" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
 			<health>37</health>
+			<skill id="armored" x="5"/>
+			<skill id="legion" x="2"/>
+			<skill id="flurry" c="4"/>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
 			<attack>10</attack>
+			<health>37</health>
+			<skill id="armored" x="5"/>
+			<skill id="legion" x="3"/>
+			<skill id="flurry" c="3"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -26125,39 +26275,52 @@
 		<name>Grand Swordfish</name>
 		<picture>Seafolk_Phalanx_Swordfish_A</picture>
 		<asset_bundle>207</asset_bundle>
-		<hidden_until_time>1605200400</hidden_until_time>
-		<attack>10</attack>
-		<health>38</health>
 		<cost>3</cost>
-		<rarity>4</rarity>
-		<skill id="armored" x="4"/>
+		<attack>11</attack>
+		<health>37</health>
+		<skill id="armored" x="5"/>
 		<skill id="legion" x="3"/>
 		<skill id="flurry" c="3"/>
+		<rarity>4</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1605200400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>11</attack>
+			<health>38</health>
+			<skill id="armored" x="6"/>
+			<skill id="legion" x="3"/>
+			<skill id="flurry" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<health>39</health>
+			<skill id="armored" x="6"/>
+			<skill id="legion" x="4"/>
+			<skill id="flurry" c="3"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<skill id="armored" x="5"/>
-			<skill id="legion" x="3"/>
+			<health>40</health>
+			<skill id="armored" x="6"/>
+			<skill id="legion" x="4"/>
 			<skill id="flurry" c="2"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
-			<health>40</health>
+			<attack>12</attack>
+			<skill id="armored" x="7"/>
+			<skill id="legion" x="4"/>
+			<skill id="flurry" c="2"/>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
 			<attack>12</attack>
 			<health>41</health>
+			<skill id="armored" x="7"/>
+			<skill id="legion" x="5"/>
+			<skill id="flurry" c="2"/>
 		</upgrade>
 	</unit>
 	<unit>
@@ -26167,50 +26330,48 @@
 		<name>Regal Swordfish</name>
 		<picture>Seafolk_Phalanx_Swordfish_B</picture>
 		<asset_bundle>207</asset_bundle>
-		<hidden_until_time>1605200400</hidden_until_time>
+		<cost>3</cost>
 		<attack>12</attack>
 		<health>42</health>
-		<cost>3</cost>
-		<rarity>4</rarity>
-		<skill id="armored" x="5"/>
-		<skill id="legion" x="4"/>
+		<skill id="armored" x="7"/>
+		<skill id="legion" x="5"/>
 		<skill id="flurry" c="2"/>
+		<rarity>4</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1605200400</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>43</health>
-			<skill id="armored" x="6"/>
-			<skill id="legion" x="4"/>
+			<skill id="armored" x="7"/>
+			<skill id="legion" x="6"/>
 			<skill id="flurry" c="2"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<attack>13</attack>
-			<health>44</health>
-			<skill id="armored" x="7"/>
-			<skill id="legion" x="4"/>
-			<skill id="flurry" c="2"/>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>45</health>
-			<attack>14</attack>
-			<skill id="armored" x="7"/>
-			<skill id="legion" x="5"/>
-			<skill id="flurry" c="2"/>
-		</upgrade>
-		<upgrade>
-			<level>5</level>
-			<health>46</health>
 			<skill id="armored" x="8"/>
 			<skill id="legion" x="6"/>
 			<skill id="flurry" c="2"/>
 		</upgrade>
 		<upgrade>
-			<level>6</level>
+			<level>4</level>
+			<attack>14</attack>
+			<health>44</health>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<health>45</health>
 			<skill id="armored" x="8"/>
+			<skill id="legion" x="7"/>
+			<skill id="flurry" c="2"/>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<attack>14</attack>
+			<health>46</health>
+			<skill id="armored" x="9"/>
 			<skill id="legion" x="7"/>
 			<skill id="flurry" c="2"/>
 		</upgrade>
@@ -28503,17 +28664,17 @@
 		<hidden_until_time>1631811600</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>25</health>
+			<skill id="corrosive" x="4"/>
+			<skill id="nullify" x="2"/>
+			<skill id="poison" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="corrosive" x="3"/>
-			<skill id="nullify" x="2"/>
-			<skill id="poison" x="6"/>
+			<attack>10</attack>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>10</attack>
+			<health>25</health>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -28533,8 +28694,8 @@
 		<asset_bundle>230</asset_bundle>
 		<cost>2</cost>
 		<attack>10</attack>
-		<health>26</health>
-		<skill id="corrosive" x="4"/>
+		<health>25</health>
+		<skill id="corrosive" x="5"/>
 		<skill id="nullify" x="2"/>
 		<skill id="poison" x="6"/>
 		<rarity>3</rarity>
@@ -28545,19 +28706,17 @@
 		<hidden_until_time>1631811600</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="corrosive" x="4"/>
-			<skill id="nullify" x="2"/>
-			<skill id="poison" x="7"/>
+			<skill id="corrosive" x="5"/>
+			<skill id="nullify" x="3"/>
+			<skill id="poison" x="6"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="corrosive" x="5"/>
-			<skill id="nullify" x="2"/>
-			<skill id="poison" x="7"/>
+			<attack>11</attack>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>11</attack>
+			<health>26</health>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -28577,8 +28736,8 @@
 		<asset_bundle>230</asset_bundle>
 		<cost>2</cost>
 		<attack>11</attack>
-		<health>28</health>
-		<skill id="corrosive" x="5"/>
+		<health>27</health>
+		<skill id="corrosive" x="6"/>
 		<skill id="nullify" x="3"/>
 		<skill id="poison" x="7"/>
 		<rarity>3</rarity>
@@ -28589,20 +28748,16 @@
 		<hidden_until_time>1631811600</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<attack>12</attack>
+			<health>28</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="corrosive" x="5"/>
-			<skill id="nullify" x="3"/>
-			<skill id="poison" x="8"/>
+			<health>29</health>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>29</health>
-			<skill id="corrosive" x="5"/>
-			<skill id="nullify" x="4"/>
-			<skill id="poison" x="8"/>
+			<attack>12</attack>
+			<health>30</health>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -29552,7 +29707,7 @@
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>25</health>
+			<attack>9</attack>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
@@ -29594,13 +29749,11 @@
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<skill id="jam" c="3"/>
-			<skill id="enrage" all="1" x="3"/>
-			<skill id="nullify" x="3"/>
+			<health>26</health>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<health>26</health>
+			<health>27</health>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -29619,11 +29772,11 @@
 		<picture>Elemental_Seafolk_Sonic_Clams_B</picture>
 		<asset_bundle>240</asset_bundle>
 		<cost>2</cost>
-		<attack>10</attack>
+		<attack>11</attack>
 		<health>27</health>
 		<skill id="jam" c="3"/>
 		<skill id="enrage" all="1" x="3"/>
-		<skill id="nullify" x="5"/>
+		<skill id="nullify" x="4"/>
 		<rarity>3</rarity>
 		<type>3</type>
 		<sub_type>5</sub_type>
@@ -29640,8 +29793,10 @@
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<attack>11</attack>
 			<health>30</health>
+			<skill id="jam" c="3"/>
+			<skill id="enrage" all="1" x="3"/>
+			<skill id="nullify" x="5"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
@@ -29659,17 +29814,17 @@
 		<name>Glass Snapper</name>
 		<picture>Seafolk_Mirror_Turtle_A</picture>
 		<asset_bundle>242</asset_bundle>
-		<hidden_until_time>1646326800</hidden_until_time>
+		<cost>3</cost>
 		<attack>12</attack>
 		<health>33</health>
-		<cost>3</cost>
-		<rarity>3</rarity>
 		<skill id="absorb" x="5"/>
 		<skill id="armored" x="4"/>
 		<skill id="backlash" x="2"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1646326800</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>34</health>
@@ -29680,17 +29835,17 @@
 		</upgrade>
 		<upgrade>
 			<level>4</level>
-			<skill id="absorb" x="6"/>
-			<skill id="armored" x="4"/>
-			<skill id="backlash" x="2"/>
+			<attack>13</attack>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
 			<attack>13</attack>
 			<health>36</health>
+			<skill id="absorb" x="6"/>
+			<skill id="armored" x="4"/>
+			<skill id="backlash" x="2"/>
 		</upgrade>
 	</unit>
-
 	<unit>
 		<id>12227</id>
 		<card_type>2</card_type>
@@ -29698,40 +29853,38 @@
 		<name>Mirror Snapper</name>
 		<picture>Seafolk_Mirror_Turtle_A</picture>
 		<asset_bundle>242</asset_bundle>
-		<hidden_until_time>1646326800</hidden_until_time>
+		<cost>3</cost>
 		<attack>13</attack>
 		<health>36</health>
-		<cost>3</cost>
-		<rarity>3</rarity>
 		<skill id="absorb" x="6"/>
-		<skill id="armored" x="4"/>
-		<skill id="backlash" x="3"/>
+		<skill id="armored" x="5"/>
+		<skill id="backlash" x="2"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1646326800</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<skill id="absorb" x="7"/>
-			<skill id="armored" x="4"/>
-			<skill id="backlash" x="3"/>
+			<health>37</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>37</health>
+			<attack>14</attack>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<health>38</health>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<attack>14</attack>
+			<health>38</health>
 			<skill id="absorb" x="7"/>
 			<skill id="armored" x="5"/>
 			<skill id="backlash" x="3"/>
 		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<attack>14</attack>
-		</upgrade>
-		<upgrade>
-			<level>5</level>
-			<health>38</health>
-		</upgrade>
 	</unit>
-
 	<unit>
 		<id>22227</id>
 		<card_type>2</card_type>
@@ -29739,39 +29892,45 @@
 		<name>Crystal Snapper</name>
 		<picture>Seafolk_Mirror_Turtle_B</picture>
 		<asset_bundle>242</asset_bundle>
-		<hidden_until_time>1646326800</hidden_until_time>
-		<attack>14</attack>
-		<health>38</health>
 		<cost>3</cost>
-		<rarity>3</rarity>
-		<skill id="absorb" x="8"/>
+		<attack>14</attack>
+		<health>39</health>
+		<skill id="absorb" x="7"/>
 		<skill id="armored" x="5"/>
-		<skill id="backlash" x="3"/>
+		<skill id="backlash" x="4"/>
+		<rarity>3</rarity>
 		<type>1</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1646326800</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>39</health>
-			<attack>15</attack>
+			<health>40</health>
+			<skill id="absorb" x="8"/>
+			<skill id="armored" x="5"/>
+			<skill id="backlash" x="4"/>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>40</health>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
 			<health>41</health>
 			<skill id="absorb" x="9"/>
 			<skill id="armored" x="5"/>
 			<skill id="backlash" x="4"/>
 		</upgrade>
 		<upgrade>
+			<level>4</level>
+			<health>42</health>
+			<skill id="absorb" x="10"/>
+			<skill id="armored" x="5"/>
+			<skill id="backlash" x="4"/>
+		</upgrade>
+		<upgrade>
 			<level>5</level>
+			<attack>15</attack>
 			<health>42</health>
 			<skill id="absorb" x="10"/>
 			<skill id="armored" x="6"/>
-			<skill id="backlash" x="4"/>
+			<skill id="backlash" x="5"/>
 		</upgrade>
 	</unit>
 
@@ -31700,38 +31859,39 @@
 		<name>Siegeturtle</name>
 		<picture>Seafolk_Cursed_Siegeturtle_A</picture>
 		<asset_bundle>260</asset_bundle>
-		<hidden_until_time>1668099600</hidden_until_time>
+		<cost>3</cost>
 		<attack>8</attack>
 		<health>32</health>
-		<cost>3</cost>
-		<rarity>3</rarity>
 		<skill id="stasis" x="3"/>
-		<skill id="strike" x="1" all="1"/>
+		<skill id="strike" all="1" x="1"/>
 		<skill id="nullify" x="2"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1668099600</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<health>33</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<attack>9</attack>
 			<health>34</health>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>35</health>
-			<skill id="stasis" x="4"/>
-			<skill id="strike" x="1" all="1"/>
+			<skill id="stasis" x="3"/>
+			<skill id="strike" all="1" x="2"/>
 			<skill id="nullify" x="2"/>
 		</upgrade>
 		<upgrade>
+			<level>4</level>
+			<attack>9</attack>
+			<health>35</health>
+		</upgrade>
+		<upgrade>
 			<level>5</level>
+			<attack>9</attack>
 			<health>36</health>
 			<skill id="stasis" x="4"/>
-			<skill id="strike" x="2" all="1"/>
+			<skill id="strike" all="1" x="2"/>
 			<skill id="nullify" x="2"/>
 		</upgrade>
 	</unit>
@@ -31742,38 +31902,41 @@
 		<name>Stunning Siegeturtle</name>
 		<picture>Seafolk_Cursed_Siegeturtle_A</picture>
 		<asset_bundle>260</asset_bundle>
-		<hidden_until_time>1668099600</hidden_until_time>
-		<attack>10</attack>
-		<health>36</health>
 		<cost>3</cost>
-		<rarity>3</rarity>
+		<attack>9</attack>
+		<health>37</health>
 		<skill id="stasis" x="4"/>
-		<skill id="strike" x="2" all="1"/>
-		<skill id="nullify" x="3"/>
+		<skill id="strike" all="1" x="2"/>
+		<skill id="nullify" x="2"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1668099600</hidden_until_time>
 		<upgrade>
 			<level>2</level>
-			<health>37</health>
-			<attack>11</attack>
+			<attack>10</attack>
+			<health>38</health>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
-			<health>38</health>
 			<skill id="stasis" x="5"/>
-			<skill id="strike" x="2" all="1"/>
-			<skill id="nullify" x="3"/>
+			<skill id="strike" all="1" x="3"/>
+			<skill id="nullify" x="2"/>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<health>39</health>
+			<skill id="stasis" x="5"/>
+			<skill id="strike" all="1" x="3"/>
+			<skill id="nullify" x="3"/>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
+			<attack>11</attack>
 			<health>40</health>
 			<skill id="stasis" x="5"/>
-			<skill id="strike" x="3" all="1"/>
+			<skill id="strike" all="1" x="3"/>
 			<skill id="nullify" x="3"/>
 		</upgrade>
 	</unit>
@@ -31784,38 +31947,42 @@
 		<name>Sinister Siegeturtle</name>
 		<picture>Seafolk_Cursed_Siegeturtle_B</picture>
 		<asset_bundle>260</asset_bundle>
-		<hidden_until_time>1668099600</hidden_until_time>
+		<cost>3</cost>
 		<attack>11</attack>
 		<health>41</health>
-		<cost>3</cost>
-		<rarity>3</rarity>
 		<skill id="stasis" x="5"/>
-		<skill id="strike" x="3" all="1"/>
+		<skill id="strike" all="1" x="3"/>
 		<skill id="nullify" x="4"/>
+		<rarity>3</rarity>
 		<type>2</type>
 		<sub_type>12</sub_type>
 		<set>2000</set>
+		<hidden_until_time>1668099600</hidden_until_time>
 		<upgrade>
 			<level>2</level>
 			<attack>12</attack>
-			<health>42</health>
-		</upgrade>
-		<upgrade>
-			<level>3</level>
-			<health>43</health>
-			<attack>13</attack>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<health>44</health>
 			<skill id="stasis" x="6"/>
-			<skill id="strike" x="3" all="1"/>
+			<skill id="strike" all="1" x="3"/>
 			<skill id="nullify" x="4"/>
 		</upgrade>
 		<upgrade>
-			<level>5</level>
+			<level>3</level>
+			<health>42</health>
 			<skill id="stasis" x="6"/>
-			<skill id="strike" x="4" all="1"/>
+			<skill id="strike" all="1" x="3"/>
+			<skill id="nullify" x="5"/>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<attack>13</attack>
+			<health>43</health>
+		</upgrade>
+		<upgrade>
+			<level>5</level>
+			<attack>13</attack>
+			<health>44</health>
+			<skill id="stasis" x="6"/>
+			<skill id="strike" all="1" x="4"/>
 			<skill id="nullify" x="5"/>
 		</upgrade>
 	</unit>

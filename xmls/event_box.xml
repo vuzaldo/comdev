@@ -22,210 +22,6 @@
 
 	<!-- 1001-: Old boxes removed. See old versions for archive. -->
 
-	<!-- Event 119: ComDev Angel - Red Feather Valley -->
-	<!-- CHAMPION PACK 1 -->
-	<event_box>
-		<id>2769</id>
-		<name>Triad Legendary Champion Pack</name>
-		<desc>Only Legendary cards! Each pull grants three lots of 10-15 Stones with a chance at a 500 Stone jackpot!</desc>
-		<asset_prefab>event_060_norns</asset_prefab>
-		<background_prefab>event_060_banner_norns</background_prefab>
-		<bundle>181</bundle>
-		<hc_cost>150</hc_cost>
-		<start_index>1</start_index>
-		<chance_pack>1</chance_pack>
-		<priority>200</priority>
-		<card id="7308" order="1"/> <!-- Lonely Militiaman -->
-		<card id="7297" order="2"/> <!-- Cursed Caserpent -->
-		<card id="7218" order="3"/> <!-- Zuphlas -->
-		<card id="7264" order="4"/> <!-- Apricot Qilin -->
-		<champion_bonus_item id="107608"/>
-		<champion_bonus_item id="107608"/>
-		<champion_bonus_item id="107608"/>
-		<box_discount>
-			<name>5 for 4 Pulls!</name>
-			<box_discount_id>1</box_discount_id>
-			<unlimited>1</unlimited>
-			<desc>Buy 5 pulls for the price of only 4!</desc>
-			<hc_cost>600</hc_cost>
-			<cards>
-				<card min_rarity="4"/>
-				<card min_rarity="4"/>
-				<card min_rarity="4"/>
-				<card min_rarity="4"/>
-				<card min_rarity="4"/>
-			</cards>
-		</box_discount>
-	</event_box>
-	<!-- CHAMPION PACK 2 -->
-	<event_box>
-		<id>2770</id>
-		<name>Galahad Champion Pack</name>
-		<desc>Each pull grants 10-15 Stones with a chance at a 500 Stone jackpot!</desc>
-		<asset_prefab>event_89_chaosbreaker_championpack</asset_prefab>
-		<background_prefab>event_89_chaosbreaker_banner</background_prefab>
-		<bundle>245</bundle>
-		<hc_cost>60</hc_cost>
-		<start_index>1</start_index>
-		<chance_pack>1</chance_pack>
-		<priority>200</priority>
-		<card id="5111" order="1"/> <!-- Bennu -->
-		<card id="5298" order="2"/> <!-- Blessed Sentinel -->
-		<card id="5040" order="3"/> <!-- Epic -->
-		<card id="5072" order="4"/> <!-- Epic -->
-		<card id="5117" order="5"/> <!-- Epic -->
-		<card id="5118" order="6"/> <!-- Epic -->
-		<card id="5145" order="7"/> <!-- Epic -->
-		<!-- <card id="5040" order="8"/> Epic -->
-		<champion_bonus_item id="105631"/>
-		<box_discount>
-			<name>Introductory Bonus!</name>
-			<box_discount_id>1</box_discount_id>
-			<desc>Get a huge discount on your first pull and start an offer chain limited to this Champion Pack!</desc>
-			<hc_cost>5</hc_cost>
-			<cards>
-				<card min_rarity="3"/>
-			</cards>
-		</box_discount>
-		<box_discount>
-			<name>75% Off!</name>
-			<box_discount_id>2</box_discount_id>
-			<desc>One more pull at a great discount! Limited to this Champion Pack.</desc>
-			<hc_cost>15</hc_cost>
-			<cards>
-				<card min_rarity="3"/>
-			</cards>
-		</box_discount>
-		<box_discount>
-			<name>Pull 1 Get 1 Free!</name>
-			<box_discount_id>3</box_discount_id>
-			<desc>Two pulls for the price of one, and guarantee at least one Legendary! Limited to this Champion Pack.</desc>
-			<hc_cost>60</hc_cost>
-			<cards>
-				<card min_rarity="3"/>
-				<card min_rarity="4"/>
-			</cards>
-		</box_discount>
-	</event_box>
-	<!-- CHAMPION PACK 3 -->
-	<event_box>
-		<id>2771</id>
-		<name>Zamriel Champion Pack</name>
-		<desc>Each pull grants 10-15 Stones with a chance at a 500 Stone jackpot!</desc>
-		<asset_prefab>event_98_darkduo_championpack</asset_prefab>
-		<background_prefab>event_98_darkduo_banner</background_prefab>
-		<bundle>263</bundle>
-		<hc_cost>60</hc_cost>
-		<start_index>1</start_index>
-		<chance_pack>1</chance_pack>
-		<priority>200</priority>
-		<card id="6294" order="1"/> <!-- Rogue Seraphim -->
-		<card id="6121" order="2"/> <!-- Charon -->
-		<card id="6038" order="3"/> <!-- Epic -->
-		<card id="6070" order="4"/> <!-- Epic -->
-		<card id="6116" order="5"/> <!-- Epic -->
-		<card id="6119" order="6"/> <!-- Epic -->
-		<!-- <card id="6038" order="7"/> Epic -->
-		<!-- <card id="6070" order="8"/> Epic -->
-		<champion_bonus_item id="106628"/>
-		<box_discount>
-			<name>Introductory Bonus!</name>
-			<box_discount_id>1</box_discount_id>
-			<desc>Get a huge discount on your first pull and start an offer chain limited to this Champion Pack!</desc>
-			<hc_cost>5</hc_cost>
-			<cards>
-				<card min_rarity="3"/>
-			</cards>
-		</box_discount>
-		<box_discount>
-			<name>75% Off!</name>
-			<box_discount_id>2</box_discount_id>
-			<desc>One more pull at a great discount! Limited to this Champion Pack.</desc>
-			<hc_cost>15</hc_cost>
-			<cards>
-				<card min_rarity="3"/>
-			</cards>
-		</box_discount>
-		<box_discount>
-			<name>Pull 1 Get 1 Free!</name>
-			<box_discount_id>3</box_discount_id>
-			<desc>Two pulls for the price of one, and guarantee at least one Legendary! Limited to this Champion Pack.</desc>
-			<hc_cost>60</hc_cost>
-			<cards>
-				<card min_rarity="3"/>
-				<card min_rarity="4"/>
-			</cards>
-		</box_discount>
-	</event_box>
-	<!-- CHAMPION PACK 4 -->
-	<event_box>
-		<id>2772</id>
-		<name>Dina Champion Pack</name>
-		<desc>Each pull grants 10-15 Stones with a chance at a 500 Stone jackpot!</desc>
-		<asset_prefab>event_046_champion_stainedglasswingsangel</asset_prefab>
-		<background_prefab>event_046_banner_stainedglasswingsangel</background_prefab>
-		<bundle>148</bundle>
-		<hc_cost>60</hc_cost>
-		<start_index>1</start_index>
-		<chance_pack>1</chance_pack>
-		<priority>200</priority>
-		<card id="5206" order="1"/> <!-- Scarhawk Avienda -->
-		<card id="5303" order="2"/> <!-- Angelical Acolyte -->
-		<card id="7038" order="3"/> <!-- Epic -->
-		<card id="7041" order="4"/> <!-- Epic -->
-		<card id="7070" order="5"/> <!-- Epic -->
-		<card id="7073" order="6"/> <!-- Epic -->
-		<card id="7116" order="7"/> <!-- Epic -->
-		<card id="7118" order="8"/> <!-- Epic -->
-		<champion_bonus_item id="105603"/>
-		<box_discount>
-			<name>Introductory Bonus!</name>
-			<box_discount_id>1</box_discount_id>
-			<desc>Get a huge discount on your first pull and start an offer chain limited to this Champion Pack!</desc>
-			<hc_cost>5</hc_cost>
-			<cards>
-				<card min_rarity="3"/>
-			</cards>
-		</box_discount>
-		<box_discount>
-			<name>75% Off!</name>
-			<box_discount_id>2</box_discount_id>
-			<desc>One more pull at a great discount! Limited to this Champion Pack.</desc>
-			<hc_cost>15</hc_cost>
-			<cards>
-				<card min_rarity="3"/>
-			</cards>
-		</box_discount>
-		<box_discount>
-			<name>Pull 1 Get 1 Free!</name>
-			<box_discount_id>3</box_discount_id>
-			<desc>Two pulls for the price of one, and guarantee at least one Legendary! Limited to this Champion Pack.</desc>
-			<hc_cost>60</hc_cost>
-			<cards>
-				<card min_rarity="3"/>
-				<card min_rarity="4"/>
-			</cards>
-		</box_discount>
-	</event_box>
-	<!-- CACHE -->
-	<event_box>
-		<id>2773</id>
-		<name>Angel Flurry Legendary Cache</name>
-		<desc>Hit your target twice by pulling from an assortment of ^cE7FFLegendary ^cFFFFAngel cards with Dualstrike! Each pull also grants Arcane Dust!</desc>
-		<help_desc>Each pull removes a copy of that card from further pulls until all cards have been pulled 4 times!</help_desc>
-		<asset_prefab>event_008_chance_chest_w2</asset_prefab>
-		<background_prefab>event_008_banner_chance_w2</background_prefab>
-		<bundle>46</bundle>
-		<hc_cost>120</hc_cost>
-		<start_index>0</start_index>
-		<buyout_available>1</buyout_available>
-		<card id="6039" count="4"/> <!-- Auroch -->
-		<card id="5074" count="4"/> <!-- Godfried the Hunter -->
-		<card id="5087" count="4"/> <!-- Apollyon -->
-		<card id="6120" count="4"/> <!-- Oni Blade -->
-		<bonus_item id="4"/>
-	</event_box>
-
 	<!-- Event 120: ComDev Goblin - Red Feather Valley -->
 	<!-- CHAMPION PACK 1 -->
 	<event_box>
@@ -427,6 +223,211 @@
 		<card id="7144" count="8"/> <!-- Kazamo -->
 		<card id="7225" count="8"/> <!-- Lishara Lifeweaver -->
 		<card id="6092" count="8"/> <!-- Smog Charger -->
+		<bonus_item id="4"/>
+	</event_box>
+
+	<!-- Event 121: ComDev Seafolk - Red Feather Valley -->
+	<!-- CHAMPION PACK 1 -->
+	<event_box>
+		<id>2779</id>
+		<name>Shrime Legendary Champion Pack</name>
+		<desc>Only Legendary cards! Each pull grants three lots of 10-15 Stones with a chance at a 500 Stone jackpot!</desc>
+		<asset_prefab>event_81_rimeshrimp_championpack</asset_prefab>
+		<background_prefab>event_81_rimeshrimp_banner</background_prefab>
+		<bundle>229</bundle>
+		<hc_cost>150</hc_cost>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id="5198" order="1"/> <!-- Sea's Sky Forces -->
+		<card id="6224" order="2"/> <!-- Azurtitan Sorcerer -->
+		<card id="6293" order="3"/> <!-- Emberay -->
+		<card id="7235" order="4"/> <!-- Shell Shaman -->
+		<champion_bonus_item id="105623"/>
+		<champion_bonus_item id="105623"/>
+		<champion_bonus_item id="105623"/>
+		<box_discount>
+			<name>5 for 4 Pulls!</name>
+			<box_discount_id>1</box_discount_id>
+			<unlimited>1</unlimited>
+			<desc>Buy 5 pulls for the price of only 4!</desc>
+			<hc_cost>600</hc_cost>
+			<cards>
+				<card min_rarity="4"/>
+				<card min_rarity="4"/>
+				<card min_rarity="4"/>
+				<card min_rarity="4"/>
+				<card min_rarity="4"/>
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CHAMPION PACK 2 -->
+	<event_box>
+		<id>2780</id>
+		<name>Zhu-Lath Champion Pack</name>
+		<desc>Each pull grants 10-15 Stones with a chance at a 500 Stone jackpot!</desc>
+		<asset_prefab>event_059_hermitcrab</asset_prefab>
+		<background_prefab>event_059_banner_hermitcrab</background_prefab>
+		<bundle>179</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id="5294" order="1"/> <!-- Kani Defender -->
+		<card id="5302" order="2"/> <!-- Atya -->
+		<card id="5011" order="3"/> <!-- Epic -->
+		<card id="5041" order="4"/> <!-- Epic -->
+		<card id="5073" order="5"/> <!-- Epic -->
+		<card id="5107" order="6"/> <!-- Epic -->
+		<card id="5108" order="7"/> <!-- Epic -->
+		<card id="5149" order="8"/> <!-- Epic -->
+		<champion_bonus_item id="105611"/>
+		<box_discount>
+			<name>Introductory Bonus!</name>
+			<box_discount_id>1</box_discount_id>
+			<desc>Get a huge discount on your first pull and start an offer chain limited to this Champion Pack!</desc>
+			<hc_cost>5</hc_cost>
+			<cards>
+				<card min_rarity="3"/>
+			</cards>
+		</box_discount>
+		<box_discount>
+			<name>75% Off!</name>
+			<box_discount_id>2</box_discount_id>
+			<desc>One more pull at a great discount! Limited to this Champion Pack.</desc>
+			<hc_cost>15</hc_cost>
+			<cards>
+				<card min_rarity="3"/>
+			</cards>
+		</box_discount>
+		<box_discount>
+			<name>Pull 1 Get 1 Free!</name>
+			<box_discount_id>3</box_discount_id>
+			<desc>Two pulls for the price of one, and guarantee at least one Legendary! Limited to this Champion Pack.</desc>
+			<hc_cost>60</hc_cost>
+			<cards>
+				<card min_rarity="3"/>
+				<card min_rarity="4"/>
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CHAMPION PACK 3 -->
+	<event_box>
+		<id>2781</id>
+		<name>Stern Champion Pack</name>
+		<desc>Each pull grants 10-15 Stones with a chance at a 500 Stone jackpot!</desc>
+		<asset_prefab>event_81_pufferlord_championpack</asset_prefab>
+		<background_prefab>event_81_pufferlord_banner</background_prefab>
+		<bundle>229</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id="6198" order="1"/> <!-- Rattleclank Courtesan -->
+		<card id="6225" order="2"/> <!-- Boilfin Merman -->
+		<card id="6108" order="3"/> <!-- Epic -->
+		<card id="6110" order="4"/> <!-- Epic -->
+		<card id="6135" order="5"/> <!-- Epic -->
+		<card id="6149" order="6"/> <!-- Epic -->
+		<card id="6150" order="7"/> <!-- Epic -->
+		<!-- <card id="6000" order="8"/> Epic -->
+		<champion_bonus_item id="106615"/>
+		<box_discount>
+			<name>Introductory Bonus!</name>
+			<box_discount_id>1</box_discount_id>
+			<desc>Get a huge discount on your first pull and start an offer chain limited to this Champion Pack!</desc>
+			<hc_cost>5</hc_cost>
+			<cards>
+				<card min_rarity="3"/>
+			</cards>
+		</box_discount>
+		<box_discount>
+			<name>75% Off!</name>
+			<box_discount_id>2</box_discount_id>
+			<desc>One more pull at a great discount! Limited to this Champion Pack.</desc>
+			<hc_cost>15</hc_cost>
+			<cards>
+				<card min_rarity="3"/>
+			</cards>
+		</box_discount>
+		<box_discount>
+			<name>Pull 1 Get 1 Free!</name>
+			<box_discount_id>3</box_discount_id>
+			<desc>Two pulls for the price of one, and guarantee at least one Legendary! Limited to this Champion Pack.</desc>
+			<hc_cost>60</hc_cost>
+			<cards>
+				<card min_rarity="3"/>
+				<card min_rarity="4"/>
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CHAMPION PACK 4 -->
+	<event_box>
+		<id>2782</id>
+		<name>Kyviat Champion Pack</name>
+		<desc>Each pull grants 10-15 Stones with a chance at a 500 Stone jackpot!</desc>
+		<asset_prefab>event_070_aquamancer</asset_prefab>
+		<background_prefab>event_070_banner_aquamancer</background_prefab>
+		<bundle>206</bundle>
+		<hc_cost>60</hc_cost>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<priority>200</priority>
+		<card id="7025" order="1"/> <!-- Webclaw Dragon -->
+		<card id="7221" order="2"/> <!-- Icejaw Turtle -->
+		<card id="7005" order="3"/> <!-- Epic -->
+		<card id="7066" order="4"/> <!-- Epic -->
+		<card id="7107" order="5"/> <!-- Epic -->
+		<card id="7109" order="6"/> <!-- Epic -->
+		<card id="7149" order="7"/> <!-- Epic -->
+		<card id="7151" order="8"/> <!-- Epic -->
+		<champion_bonus_item id="107615"/>
+		<box_discount>
+			<name>Introductory Bonus!</name>
+			<box_discount_id>1</box_discount_id>
+			<desc>Get a huge discount on your first pull and start an offer chain limited to this Champion Pack!</desc>
+			<hc_cost>5</hc_cost>
+			<cards>
+				<card min_rarity="3"/>
+			</cards>
+		</box_discount>
+		<box_discount>
+			<name>75% Off!</name>
+			<box_discount_id>2</box_discount_id>
+			<desc>One more pull at a great discount! Limited to this Champion Pack.</desc>
+			<hc_cost>15</hc_cost>
+			<cards>
+				<card min_rarity="3"/>
+			</cards>
+		</box_discount>
+		<box_discount>
+			<name>Pull 1 Get 1 Free!</name>
+			<box_discount_id>3</box_discount_id>
+			<desc>Two pulls for the price of one, and guarantee at least one Legendary! Limited to this Champion Pack.</desc>
+			<hc_cost>60</hc_cost>
+			<cards>
+				<card min_rarity="3"/>
+				<card min_rarity="4"/>
+			</cards>
+		</box_discount>
+	</event_box>
+	<!-- CACHE -->
+	<event_box>
+		<id>2783</id>
+		<name>Ice Cold Legendary Cache</name>
+		<desc>What's cooler than being cool? Pulling from an assortment of ^cE7FFLegendary ^cFFFFSeafolk cards with Freeze! Each pull also grants Arcane Dust!</desc>
+		<help_desc>Each pull removes a copy of that card from further pulls until all cards have been pulled 8 times!</help_desc>
+		<asset_prefab>event_020_chest_w3</asset_prefab>
+		<background_prefab>event_020_banner_w3</background_prefab>
+		<bundle>82</bundle>
+		<hc_cost>120</hc_cost>
+		<start_index>0</start_index>
+		<buyout_available>1</buyout_available>
+		<priority>100</priority>
+		<card id="7108" count="4"/> <!-- Quetee -->
+		<card id="7054" count="4"/> <!-- The Thing Below -->
+		<card id="7229" count="4"/> <!-- Crushclaw Waterguard -->
+		<card id="5237" count="4"/> <!-- Lanternbulb Hunter -->
 		<bonus_item id="4"/>
 	</event_box>
 
