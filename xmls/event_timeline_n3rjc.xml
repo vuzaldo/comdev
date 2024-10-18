@@ -548,7 +548,7 @@
 		<id>3730</id>
 		<name>Champion Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id='4090' level='10' />
+		<display_card id="4090" level="10"/>
 		<bundle_package>578</bundle_package>
 		<num_available>1</num_available>
 		<priority>-33</priority>
@@ -560,7 +560,7 @@
 		<id>3731</id>
 		<name>Large Champion Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id='4090' level='10' />
+		<display_card id="4090" level="10"/>
 		<purchased_event_req>3730</purchased_event_req>
 		<bundle_package>579</bundle_package>
 		<num_available>1</num_available>
@@ -573,7 +573,7 @@
 		<id>3732</id>
 		<name>Fortune Champion Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id='4090' level='10' />
+		<display_card id="4090" level="10"/>
 		<purchased_event_req>3731</purchased_event_req>
 		<bundle_package>580</bundle_package>
 		<num_available>1</num_available>
@@ -586,7 +586,7 @@
 		<id>3733</id>
 		<name>Fortune Champion Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id='4090' level='10' />
+		<display_card id="4090" level="10"/>
 		<purchased_event_req>3732</purchased_event_req>
 		<bundle_package>580</bundle_package>
 		<num_available>1</num_available>
@@ -791,7 +791,7 @@
 			<req>
 				<min_rank>2000</min_rank>
 			</req>
-			<item id="28250" quantity="75" order="1"/>
+			<item id="28250" quantity="100" order="1"/>
 		</event_reward>
 		<event_reward>
 			<desc>Complete the Challenge at Rank 20000 or higher.</desc>
@@ -799,7 +799,7 @@
 			<req>
 				<min_rank>20000</min_rank>
 			</req>
-			<item id="28250" quantity="50" order="1"/>
+			<item id="28250" quantity="100" order="1"/>
 		</event_reward>
 	</event>
 
