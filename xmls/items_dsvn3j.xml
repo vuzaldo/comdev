@@ -146,6 +146,7 @@
 		<name>Arena Trophy</name>
 		<icon>ArenaIcon</icon>
 		<bundle>31</bundle>
+		<rarity>4</rarity>
 		<desc>Collect three Trophies to craft a Double Legendary Reward Pack!</desc>
 		<quantity_cap>50</quantity_cap>
 		<consume>3</consume>
@@ -437,7 +438,7 @@
 		<id>531</id>
 		<name>Special Event Mystery Package</name>
 		<icon>package</icon>
-		<desc>A choice of either a random premium Quad Legendary card, a random Tribe Health rune, or 500 Stones for a random Champion.</desc>
+		<desc>A choice of either a random premium Quad Legendary card, two random Tribe Health runes, or 500 Stones for a random Champion.</desc>
 		<duration>43200</duration> <!-- Lasts 30 days -->
 		<choice id="1">
 			<item id="533" quantity="1"/> <!-- Random Premium Quad Legendary -->
@@ -489,6 +490,105 @@
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
+	<item>
+		<id>544</id>
+		<name>Dual Frog Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Frog card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3144</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>545</id>
+		<name>Dual Elemental Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Elemental card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3145</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>546</id>
+		<name>Dual Angel Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Angel card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3146</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>547</id>
+		<name>Dual Undead Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Undead card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3147</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>549</id>
+		<name>Dual Dragon Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Dragon card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3149</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>550</id>
+		<name>Dual Avian Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Avian card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3150</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>551</id>
+		<name>Dual Goblin Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Goblin card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3151</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>552</id>
+		<name>Dual Seafolk Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Seafolk card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3152</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>553</id>
+		<name>Dual Insect Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Insect card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3153</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>554</id>
+		<name>Dual Beast Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Beast card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3154</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
+	<item>
+		<id>556</id>
+		<name>Dual Mecha Reward Epic</name>
+		<icon>icon_blue_crystal_lg</icon>
+		<desc>Gives one random Dual Epic Mecha card from Reward set.</desc>
+		<rarity>3</rarity>
+		<give_pack>3156</give_pack>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
+	</item>
 
 	<!-- 1001-2000 CONSUMABLES START -->
 	<!-- Energy Refills -->
@@ -2064,132 +2164,6 @@
 	</item>
 <!-- END Premium Flasks Gen 8 (continue Reward Flasks from here)-->
 
-	<item>
-		<id>2694</id>
-		<name>United Allies Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Uncommon Allies; Noctrus Flintclaw; Daknak Darkblade; or Viracocha</desc>
-		<choice id="1">
-			<item id="104067" quantity="1"/> <!-- Uncommon Allies -->
-		</choice>
-		<choice id="2">
-			<item id="104000" quantity="1"/> <!-- Noctrus Flintclaw  -->
-		</choice>
-		<choice id="3">
-			<item id="104016" quantity="1"/> <!-- Daknak Darkblade -->
-		</choice>
-		<choice id="4">
-			<item id="104044" quantity="1"/> <!-- Viracocha -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2695</id>
-		<name>Diverse Allies Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Uncommon Allies; LOCO-5000; Morty Ahab, Seaturned; or Cyno, Arbiter of Souls</desc>
-		<choice id="1">
-			<item id="104067" quantity="1"/> <!-- Uncommon Allies -->
-		</choice>
-		<choice id="2">
-			<item id="104006" quantity="1"/> <!-- LOCO 5000  -->
-		</choice>
-		<choice id="3">
-			<item id="104049" quantity="1"/> <!-- Morty Ahab, Seaturned -->
-		</choice>
-		<choice id="4">
-			<item id="104029" quantity="1"/> <!-- Cyno, Arbiter of Souls -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2696</id>
-		<name>Tricky Kattoraki Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Kattoraki, the Sword Savior; Ralgan Ironpaw; Quageye, the Masher; or Pirate Hunter Eichiro</desc>
-		<choice id="1">
-			<item id="105640" quantity="1"/> <!-- Kattoraki, the Sword Savior -->
-		</choice>
-		<choice id="2">
-			<item id="104014" quantity="1"/> <!-- Ralgan Ironpaw  -->
-		</choice>
-		<choice id="3">
-			<item id="104025" quantity="1"/> <!-- Quageye, the Masher -->
-		</choice>
-		<choice id="4">
-			<item id="104028" quantity="1"/> <!-- Pirate Hunter Eichiro -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2697</id>
-		<name>Hasty Kattoraki Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Kattoraki, the Sword Savior; Cellia, Heir of War; Balt, Raptor's Captain; or Bluefire, Void Incarnate</desc>
-		<choice id="1">
-			<item id="105640" quantity="1"/> <!-- Kattoraki, the Sword Savior -->
-		</choice>
-		<choice id="2">
-			<item id="104053" quantity="1"/> <!-- Cellia, Heir of War  -->
-		</choice>
-		<choice id="3">
-			<item id="104033" quantity="1"/> <!-- Balt, Raptor's Captain -->
-		</choice>
-		<choice id="4">
-			<item id="104022" quantity="1"/> <!-- Bluefire, Void Incarnate -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2698</id>
-		<name>Senior Spark Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Spark, Sky Menace; Columba, Firewing Monk; Shadomeka; or Predonyx, Jungle King</desc>
-		<choice id="1">
-			<item id="104068" quantity="1"/> <!-- Spark, Sky Menace -->
-		</choice>
-		<choice id="2">
-			<item id="104010" quantity="1"/> <!-- Columba, Firewing Monk  -->
-		</choice>
-		<choice id="3">
-			<item id="104052" quantity="1"/> <!-- Shadomeka -->
-		</choice>
-		<choice id="4">
-			<item id="104057" quantity="1"/> <!-- Predonyx, Jungle King -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2699</id>
-		<name>Vigilant Spark Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Spark, Sky Menace; The Coalheart Widow; Nuvis, the Eye Collector; or Leyla, Queen of Skyhaven</desc>
-		<choice id="1">
-			<item id="104068" quantity="1"/> <!-- Spark, Sky Menace -->
-		</choice>
-		<choice id="2">
-			<item id="104024" quantity="1"/> <!-- The Coalheart Widow  -->
-		</choice>
-		<choice id="3">
-			<item id="104037" quantity="1"/> <!-- Nuvis, the Eye Collector -->
-		</choice>
-		<choice id="4">
-			<item id="104041" quantity="1"/> <!-- Leyla, Queen of Skyhaven -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
 	<!-- Event 106: Goblins ComDev -->
 
 	<!-- New Map Reward Flask -->
@@ -2232,247 +2206,6 @@
 		<choice id="4">
 			<item id="104074" quantity="1"/> <!-- Sivun -->
 		</choice>
-	</item>
-
-	<item>
-		<id>2804</id>
-		<name>Stalker Atlatl Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Atlatl, Forest Hunter; Allfather, the Shaper; Razi, the Fallen Light; or Teroxis, King of Stones</desc>
-		<choice id="1">
-			<item id="104069" quantity="1"/> <!-- Atlatl, Forest Hunter -->
-		</choice>
-		<choice id="2">
-			<item id="104043" quantity="1"/> <!-- Allfather, the Shaper  -->
-		</choice>
-		<choice id="3">
-			<item id="104002" quantity="1"/> <!-- Razi, the Fallen Light -->
-		</choice>
-		<choice id="4">
-			<item id="104013" quantity="1"/> <!-- Teroxis, King of Stones -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2805</id>
-		<name>Woodland Atlatl Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Atlatl, Forest Hunter; Maki, the Blossom Fist; Boldur, Bridge Builder; or Korg, the Last Touch</desc>
-		<choice id="1">
-			<item id="104069" quantity="1"/> <!-- Atlatl, Forest Hunter -->
-		</choice>
-		<choice id="2">
-			<item id="104034" quantity="1"/> <!-- Maki, the Blossom Fist  -->
-		</choice>
-		<choice id="3">
-			<item id="104005" quantity="1"/> <!-- Boldur, Bridge Builder -->
-		</choice>
-		<choice id="4">
-			<item id="104045" quantity="1"/> <!-- Korg, the Last Touch -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2806</id>
-		<name>Miscreant Gurk Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Gurk, the Traitor; Kalyt, the Last Word; King Proteus; or Cordelia, the Twinblade</desc>
-		<choice id="1">
-			<item id="104070" quantity="1"/> <!-- Gurk, the Traitor -->
-		</choice>
-		<choice id="2">
-			<item id="104038" quantity="1"/> <!-- Kalyt, the Last Word  -->
-		</choice>
-		<choice id="3">
-			<item id="104017" quantity="1"/> <!-- King Proteus -->
-		</choice>
-		<choice id="4">
-			<item id="104012" quantity="1"/> <!-- Cordelia, the Twinblade -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2807</id>
-		<name>Treasonous Gurk Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Gurk, the Traitor; Sgt. Clockoo; Sparky, the Royal Pet; or Alyel, Rush of Fury</desc>
-		<choice id="1">
-			<item id="104070" quantity="1"/> <!-- Gurk, the Traitor -->
-		</choice>
-		<choice id="2">
-			<item id="104048" quantity="1"/> <!-- Sgt. Clockoo  -->
-		</choice>
-		<choice id="3">
-			<item id="104031" quantity="1"/> <!-- Sparky, the Royal Pet -->
-		</choice>
-		<choice id="4">
-			<item id="104058" quantity="1"/> <!-- Alyel, Rush of Fury -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2808</id>
-		<name>Sharpened Naglar Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Naglar Chainsawpaw; Umbu, Life Releaser; Yaritza; or Reks, the Dragonslayer</desc>
-		<choice id="1">
-			<item id="104071" quantity="1"/> <!-- Naglar Chainsawpaw -->
-		</choice>
-		<choice id="2">
-			<item id="104027" quantity="1"/> <!-- Umbu, Life Releaser  -->
-		</choice>
-		<choice id="3">
-			<item id="104060" quantity="1"/> <!-- Yaritza -->
-		</choice>
-		<choice id="4">
-			<item id="104054" quantity="1"/> <!-- Reks, the Dragonslayer -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2809</id>
-		<name>Unhinged Naglar Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Naglar Chainsawpaw; Vasile, the Night Duke; Leroux, the Macabre; or Iphelia, Voice of Pain</desc>
-		<choice id="1">
-			<item id="104071" quantity="1"/> <!-- Naglar Chainsawpaw -->
-		</choice>
-		<choice id="2">
-			<item id="104035" quantity="1"/> <!-- Vasile, the Night Duke  -->
-		</choice>
-		<choice id="3">
-			<item id="104036" quantity="1"/> <!-- Leroux, the Macabre -->
-		</choice>
-		<choice id="4">
-			<item id="104040" quantity="1"/> <!-- Iphelia, Voice of Pain -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2810</id>
-		<name>Healer Mechau Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Doctor Mechau; Emerald Amarok; The Coalheart Widow; or Hidden Omy</desc>
-		<choice id="1">
-			<item id="104072" quantity="1"/> <!-- Doctor Mechau -->
-		</choice>
-		<choice id="2">
-			<item id="104011" quantity="1"/> <!-- Emerald Amarok  -->
-		</choice>
-		<choice id="3">
-			<item id="104024" quantity="1"/> <!-- The Coalheart Widow -->
-		</choice>
-		<choice id="4">
-			<item id="104042" quantity="1"/> <!-- Hidden Omy -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2811</id>
-		<name>Murderer Mechau Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Doctor Mechau; Darkassan, the Creeper; Ashanti, the Assassin; or Nuvis, the Eye Collector</desc>
-		<choice id="1">
-			<item id="104072" quantity="1"/> <!-- Doctor Mechau -->
-		</choice>
-		<choice id="2">
-			<item id="104064" quantity="1"/> <!-- Darkassan, the Creeper  -->
-		</choice>
-		<choice id="3">
-			<item id="104059" quantity="1"/> <!-- Ashanti, the Assassin -->
-		</choice>
-		<choice id="4">
-			<item id="104037" quantity="1"/> <!-- Nuvis, the Eye Collector -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2812</id>
-		<name>Fallen Helvius Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Helvius, Spraying Mantis; Uncommon Allies; Caesar, the Commander; or Royal Fighter Lairel</desc>
-		<choice id="1">
-			<item id="104073" quantity="1"/> <!-- Helvius, Spraying Mantis -->
-		</choice>
-		<choice id="2">
-			<item id="104067" quantity="1"/> <!-- Uncommon Allies  -->
-		</choice>
-		<choice id="3">
-			<item id="104062" quantity="1"/> <!-- Caesar, the Commander -->
-		</choice>
-		<choice id="4">
-			<item id="104039" quantity="1"/> <!-- Royal Fighter Lairel -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2813</id>
-		<name>Feral Helvius Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Helvius, Spraying Mantis; Ark and the Goatapult; Freya, the Landbinder; or Sound of Death</desc>
-		<choice id="1">
-			<item id="104073" quantity="1"/> <!-- Helvius, Spraying Mantis -->
-		</choice>
-		<choice id="2">
-			<item id="104047" quantity="1"/> <!-- Ark and the Goatapult  -->
-		</choice>
-		<choice id="3">
-			<item id="104051" quantity="1"/> <!-- Freya, the Landbinder -->
-		</choice>
-		<choice id="4">
-			<item id="104020" quantity="1"/> <!-- Sound of Death -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2814</id>
-		<name>Wronged Sivun Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Sivun, the Blind Commander; Plyn Poisontrek; Moklam, the Sea Colossus; or Veric, the Undying</desc>
-		<choice id="1">
-			<item id="104074" quantity="1"/> <!-- Sivun, the Blind Commander -->
-		</choice>
-		<choice id="2">
-			<item id="104021" quantity="1"/> <!-- Plyn Poisontrek -->
-		</choice>
-		<choice id="3">
-			<item id="104056" quantity="1"/> <!-- Moklam, the Sea Colossus -->
-		</choice>
-		<choice id="4">
-			<item id="104061" quantity="1"/> <!-- Veric, the Undying -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-	<item>
-		<id>2815</id>
-		<name>Unforgiving Sivun Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Sivun, the Blind Commander; Viir, the Subjugator; Illu, Mirage of the Sea; or Kachina, the Dreamer</desc>
-		<choice id="1">
-			<item id="104074" quantity="1"/> <!-- Sivun, the Blind Commander -->
-		</choice>
-		<choice id="2">
-			<item id="104063" quantity="1"/> <!-- Viir, the Subjugator -->
-		</choice>
-		<choice id="3">
-			<item id="104050" quantity="1"/> <!-- Illu, Mirage of the Sea -->
-		</choice>
-		<choice id="4">
-			<item id="104009" quantity="1"/> <!-- Kachina, the Dreamer -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
 	</item>
 
 	<!-- Premium Flasks Gen 9 -->
@@ -2532,216 +2265,6 @@
 	</item>
 	<!-- END Premium Flasks Gen 9 -->
 
-	<item>
-		<id>2830</id>
-		<name>Infinite K'luum Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Lerna, the Mutated; Vindicator Batara; Agatha, Myth Warden; or K'luum, the Unbound Void</desc>
-		<choice id="1">
-			<item id="104065" quantity="1"/> <!-- Lerna -->
-		</choice>
-		<choice id="2">
-			<item id="104015" quantity="1"/> <!-- Batara -->
-		</choice>
-		<choice id="3">
-			<item id="104046" quantity="1"/> <!-- Agatha -->
-		</choice>
-		<choice id="4">
-			<item id="104075" quantity="1"/> <!-- K'luum -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2831</id>
-		<name>Barren K'luum Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Kensho, the Aeromaster; Frostfire, the Corrupted; Rhynio Sun Warrior; or K'luum, the Unbound Void</desc>
-		<choice id="1">
-			<item id="104018" quantity="1"/> <!-- Kensho -->
-		</choice>
-		<choice id="2">
-			<item id="104055" quantity="1"/> <!-- Frostfire -->
-		</choice>
-		<choice id="3">
-			<item id="104008" quantity="1"/> <!-- Rhynio -->
-		</choice>
-		<choice id="4">
-			<item id="104075" quantity="1"/> <!-- K'luum -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2832</id>
-		<name>Cyclonic Tethys Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Foxfire; Krampus, the Imposter; Mothmo, the Cryptid; or Tethys, the Watershaper</desc>
-		<choice id="1">
-			<item id="104001" quantity="1"/> <!-- Foxfire -->
-		</choice>
-		<choice id="2">
-			<item id="104066" quantity="1"/> <!-- Krampus -->
-		</choice>
-		<choice id="3">
-			<item id="104030" quantity="1"/> <!-- Mothmo -->
-		</choice>
-		<choice id="4">
-			<item id="104076" quantity="1"/> <!-- Tethys -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2833</id>
-		<name>Fanatical Tethys Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Lok'Thor, the Reborn; Spikes, the Warmonger; Froggit, the Puppeteer; or Tethys, the Watershaper</desc>
-		<choice id="1">
-			<item id="104004" quantity="1"/> <!-- Lok'thor -->
-		</choice>
-		<choice id="2">
-			<item id="104026" quantity="1"/> <!-- Spikes -->
-		</choice>
-		<choice id="3">
-			<item id="104032" quantity="1"/> <!-- Froggit -->
-		</choice>
-		<choice id="4">
-			<item id="104076" quantity="1"/> <!-- Tethys -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2834</id>
-		<name>Holy Melkira Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Paloma, Spear Knight; Typhoeus, Storm Father; Formos Ebonclaw; or Archangel Melkira</desc>
-		<choice id="1">
-			<item id="104023" quantity="1"/> <!-- Paloma -->
-		</choice>
-		<choice id="2">
-			<item id="104007" quantity="1"/> <!-- Typhoeus -->
-		</choice>
-		<choice id="3">
-			<item id="104019" quantity="1"/> <!-- Formos -->
-		</choice>
-		<choice id="4">
-			<item id="104077" quantity="1"/> <!-- Melkira -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2835</id>
-		<name>Guardian Melkira Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Kattoraki, the Sword Savior; Morty Ahab, Seaturned; Ralgan Ironpaw; or Archangel Melkira</desc>
-		<choice id="1">
-			<item id="105640" quantity="1"/> <!-- Kattoraki -->
-		</choice>
-		<choice id="2">
-			<item id="104049" quantity="1"/> <!-- Ahab -->
-		</choice>
-		<choice id="3">
-			<item id="104014" quantity="1"/> <!-- Ralgan -->
-		</choice>
-		<choice id="4">
-			<item id="104077" quantity="1"/> <!-- Melkira -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2836</id>
-		<name>Billowing Daffdal Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Cyno, Arbiter of Souls; Quageye, the Masher; Noctrus Flintclaw; or Daffdal, the Lamp Keeper</desc>
-		<choice id="1">
-			<item id="104029" quantity="1"/> <!-- Cyno -->
-		</choice>
-		<choice id="2">
-			<item id="104025" quantity="1"/> <!-- Quageye -->
-		</choice>
-		<choice id="3">
-			<item id="104000" quantity="1"/> <!-- Noctrus -->
-		</choice>
-		<choice id="4">
-			<item id="104078" quantity="1"/> <!-- Daffdal -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2837</id>
-		<name>Aromatic Daffdal Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Balt, Raptor's Captain; Viracocha; Pirate Hunter Eichiro; or Daffdal, the Lamp Keeper</desc>
-		<choice id="1">
-			<item id="104033" quantity="1"/> <!-- Balt -->
-		</choice>
-		<choice id="2">
-			<item id="104044" quantity="1"/> <!-- Viracocha -->
-		</choice>
-		<choice id="3">
-			<item id="104028" quantity="1"/> <!-- Eichiro -->
-		</choice>
-		<choice id="4">
-			<item id="104078" quantity="1"/> <!-- Daffdal -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2838</id>
-		<name>Nurturing Yanlong Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Uncommon Allies; Cellia, Heir of War; LOCO-5000; or Yanlong, the Matron</desc>
-		<choice id="1">
-			<item id="104067" quantity="1"/> <!-- Allies -->
-		</choice>
-		<choice id="2">
-			<item id="104053" quantity="1"/> <!-- Cellia -->
-		</choice>
-		<choice id="3">
-			<item id="104006" quantity="1"/> <!-- LOCO -->
-		</choice>
-		<choice id="4">
-			<item id="104079" quantity="1"/> <!-- Yanlong -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
-	<item>
-		<id>2839</id>
-		<name>Devoted Yanlong Flask</name>
-		<icon>fire_vapor</icon>
-		<bundle>58</bundle>
-		<desc>Consume to get your choice of Champion Stones for Daknak Darkblade; Bluefire, Void Incarnate; Atlatl, Forest Hunter; or Yanlong, the Matron</desc>
-		<choice id="1">
-			<item id="104016" quantity="1"/> <!-- Daknak -->
-		</choice>
-		<choice id="2">
-			<item id="104022" quantity="1"/> <!-- Bluefire -->
-		</choice>
-		<choice id="3">
-			<item id="104069" quantity="1"/> <!-- Atlatl -->
-		</choice>
-		<choice id="4">
-			<item id="104079" quantity="1"/> <!-- Yanlong -->
-		</choice>
-		<decay_time>1728579600</decay_time> <!-- Thu, 10 Oct 2024, 17:00:00 GMT -->
-	</item>
-
 	<!--  WARNING NOTE: ID 2701 is already taken and 2701-2800 is currently reserved for battleground items. 2801-3000 is currently unused -->
 
 	<!-- 2701-2800 Battleground Effect Items -->
@@ -2768,6 +2291,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Frog Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28171" quantity="1"/> <!-- Wyld 1D -->
 		</choice>
@@ -2865,6 +2391,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Elemental Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28181" quantity="1"/> <!-- Aether -->
 		</choice>
@@ -2981,10 +2510,10 @@
 		</item>
 	<item>
 		<id>28187</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Amarok, Quageye Elemental Flask</name>
+		<name>Amarok, Quageye, Milax Elemental Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Amarok, Quageye Stones; OR revert</desc>
+		<desc>Consume to get your choice of Amarok, Quageye, Milax Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -2993,6 +2522,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104025" quantity="1"/> <!-- Quageye -->
+		</choice>
+		<choice id="4">
+			<item id="104084" quantity="1"/> <!-- Milax -->
 		</choice>
 	</item>
 	<item>
@@ -3020,6 +2552,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Angel Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28191" quantity="1"/> <!-- Aether 1D -->
 		</choice>
@@ -3098,14 +2633,17 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Undead Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
-			<item id="28201" quantity="1"/> <!-- Aether and Wyld -->
+			<item id="28201" quantity="1"/> <!-- Aether and Wyld (not Milax) -->
 		</choice>
 		<choice id="2">
 			<item id="28202" quantity="1"/> <!-- Chaos 1D and 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28203" quantity="1"/> <!-- Chaos 3D and 4D -->
+			<item id="28203" quantity="1"/> <!-- Chaos 3D and 4D and Milax -->
 		</choice>
 	</item>
 
@@ -3150,10 +2688,10 @@
 	</item>
 	<item>
 		<id>28203</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Umbu, Naglar Undead Flask</name>
+		<name>Umbu, Naglar, Milax Undead Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Umbu, Naglar Stones; OR revert</desc>
+		<desc>Consume to get your choice of Umbu, Naglar, Milax Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28200" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3162,6 +2700,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104071" quantity="1"/> <!-- Naglar -->
+		</choice>
+		<choice id="4">
+			<item id="104084" quantity="1"/> <!-- Milax -->
 		</choice>
 	</item>
 
@@ -3173,6 +2714,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Dragon Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28221" quantity="1"/> <!-- Aether and Void -->
 		</choice>
@@ -3270,6 +2814,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Avian Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28231" quantity="1"/> <!-- 1D -->
 		</choice>
@@ -3348,6 +2895,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Goblin Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28241" quantity="1"/> <!-- Aether -->
 		</choice>
@@ -3423,6 +2973,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Seafolk Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28251" quantity="1"/> <!-- Aether and Void 2D -->
 		</choice>
@@ -3501,6 +3054,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Insect Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28261" quantity="1"/> <!-- Aether -->
 		</choice>
@@ -3573,6 +3129,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Beast Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28271" quantity="1"/> <!-- Wyld -->
 		</choice>
@@ -3609,10 +3168,10 @@
 	</item>
 		<item>
 			<id>28272</id> <!-- Note ID numbering convention for flask within flask -->
-			<name>Ralgan, Karlson Beast Flask</name>
+			<name>Ralgan, Karlson, Scrap Beast Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Ralgan, Karlson Stones; OR revert</desc>
+			<desc>Consume to get your choice of Ralgan, Karlson, Scrap Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28270" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
@@ -3621,6 +3180,9 @@
 			</choice>
 			<choice id="3">
 				<item id="104081" quantity="1"/> <!-- Karlson -->
+			</choice>
+			<choice id="4">
+				<item id="104083" quantity="1"/> <!-- Scrap -->
 			</choice>
 		</item>
 		<item>
@@ -3715,6 +3277,9 @@
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
 		<desc>A flask of flasks containing all previous Mecha Reward Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
 		<choice id="1">
 			<item id="28291" quantity="1"/> <!-- Aether and Mechau -->
 		</choice>
@@ -3786,10 +3351,10 @@
 	</item>
 	<item>
 		<id>28294</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Viracocha, Sivun Mecha Flask</name>
+		<name>Viracocha, Sivun, Scrap Mecha Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Viracocha, Sivun Stones; OR revert</desc>
+		<desc>Consume to get your choice of Viracocha, Sivun, Scrap Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28290" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3798,6 +3363,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104074" quantity="1"/> <!-- Sivun -->
+		</choice>
+		<choice id="4">
+			<item id="104083" quantity="1"/> <!-- Scrap -->
 		</choice>
 	</item>
 

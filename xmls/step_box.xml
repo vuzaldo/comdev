@@ -32,131 +32,6 @@
 	<!-- 7001-: Old boxes removed. See old versions for archive. -->
 
 	<step_box>
-		<id>7082</id>
-		<name>Narwhal Step Box</name>
-		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFNarwhal Spiker^cFFFF card!</desc>
-		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
-		<asset_prefab>event_028_w1</asset_prefab>
-		<background_prefab>event_028_banner_w1</background_prefab>
-		<bundle>103</bundle>
-		<asset_prefab_box name="genericBox" bundle="35"/>
-		<bg_picture name="Goblin_Fish_Ferry_B" bundle="104"/>
-		<step_box>1</step_box>
-		<priority>800</priority>
-		<box>
-			<start_index>0</start_index>
-			<card id="6148" order="1" chase="1"/> <!-- Narwhal Spiker -->
-			<card id="5252" order="2"/> <!-- Twainblood Outcast -->
-			<card id="7091" order="3"/> <!-- Wave Plunderer -->
-			<card id="7306" order="4"/> <!-- Morkan -->
-			<card id="16143" order="5"/>
-			<card id="16144" order="6"/>
-			<card id="5091" order="7"/>
-			<card id="6143" order="8"/>
-			<card id="6144" order="9"/>
-			<card id="7146" order="10"/>
-		</box>
-
-		<tier>
-			<id>1</id>
-			<hc_cost>20</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>20</sp>
-		</tier>
-		<tier>
-			<id>2</id>
-			<hc_cost>50</hc_cost>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>40</sp>
-		</tier>
-		<tier>
-			<id>3</id>
-			<hc_cost>95</hc_cost>
-			<desc>Two Cards at Step 3!</desc>
-			<cards>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>80</sp>
-		</tier>
-		<tier>
-			<id>4</id>
-			<hc_cost>170</hc_cost>
-			<desc>Guaranteed Legendary at Step 4!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>120</sp>
-		</tier>
-		<tier>
-			<id>5</id>
-			<hc_cost>240</hc_cost>
-			<desc>Guaranteed Face Card at Step 5!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6148"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>160</sp>
-		</tier>
-		<tier>
-			<id>6</id>
-			<hc_cost>350</hc_cost>
-			<desc>Three Legendaries at Step 6!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6148"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>200</sp>
-		</tier>
-		<tier>
-			<id>7</id>
-			<hc_cost>450</hc_cost>
-			<desc>Four Legendaries at Step 7!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6148"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>260</sp>
-		</tier>
-		<tier>
-			<id>8</id>
-			<hc_cost>750</hc_cost>
-			<desc>Six Legendaries at Step 8!</desc>
-			<cards>
-				<card min_rarity="4" max_rarity="4" id="6148"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="4" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-				<card min_rarity="3" max_rarity="4"/>
-			</cards>
-			<sp>350</sp>
-		</tier>
-	</step_box>
-
-	<step_box>
 		<id>7083</id>
 		<name>Mollusk Step Box</name>
 		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFMollusk Snarecaster^cFFFF card!</desc>
@@ -267,6 +142,138 @@
 			<desc>Six Legendaries at Step 8!</desc>
 			<cards>
 				<card min_rarity="4" max_rarity="4" id="7154"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<sp>350</sp>
+		</tier>
+	</step_box>
+
+	<step_box>
+		<id>7122</id>
+		<name>Fuming Beast Unhinged Step Box</name>
+		<desc>Bundles of amazing deals! Each purchase unlocks a new step with more deals! Higher steps guarantee the ^cE7FFFuming Beast^cFFFF card! Exclusive bonus rewards of ^cE7FFZyd Stones^cFFFF!</desc>
+		<help_desc>Each step guarantees certain card pulls from the box! After each purchase, the box will move to the next step. The last step can be purchased an unlimited amount of times!</help_desc>
+		<asset_prefab>event_010_chance_chest_allfrogs</asset_prefab>
+		<background_prefab>event_010_banner_chance_allfrogs</background_prefab>
+		<bundle>51</bundle>
+		<asset_prefab_box name="genericBox" bundle="35"/>
+		<bg_picture name="Frog_Psycho_Killer_A" bundle="213"/>
+		<step_box>1</step_box>
+		<priority>800</priority>
+		<box>
+			<start_index>0</start_index>
+			<card id="6052" order="1"/> <!-- Fuming Beast -->
+			<card id="5297" order="2"/> <!-- Runecrafter Initiate -->
+			<card id="6302" order="3"/> <!-- Frog Ballista -->
+			<card id="7310" order="4"/> <!-- Warlfrog -->
+			<card id="15050" order="5"/>
+			<card id="16051" order="6"/>
+			<card id="17157" order="7"/>
+			<card id="5050" order="8"/>
+			<card id="6051" order="9"/>
+			<card id="7157" order="10"/>
+		</box>
+
+		<tier>
+			<id>1</id>
+			<hc_cost>20</hc_cost>
+			<cards>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<item id="106608" quantity="20" />
+			<sp>20</sp>
+		</tier>
+		<tier>
+			<id>2</id>
+			<hc_cost>40</hc_cost>
+			<cards>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<item id="106608" quantity="40" />
+			<sp>40</sp>
+		</tier>
+		<tier>
+			<id>3</id>
+			<hc_cost>80</hc_cost>
+			<desc>Two Cards at Step 3!</desc>
+			<cards>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<item id="106608" quantity="80" />
+			<sp>80</sp>
+		</tier>
+		<tier>
+			<id>4</id>
+			<hc_cost>140</hc_cost>
+			<desc>Guaranteed Legendary at Step 4!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<item id="106608" quantity="140" />
+			<sp>120</sp>
+		</tier>
+		<tier>
+			<id>5</id>
+			<hc_cost>220</hc_cost>
+			<desc>Guaranteed Face Card at Step 5!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4" id="6052"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<item id="106608" quantity="220" />
+			<sp>160</sp>
+		</tier>
+		<tier>
+			<id>6</id>
+			<hc_cost>300</hc_cost>
+			<desc>Three Legendaries at Step 6!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4" id="6052"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<item id="106608" quantity="300" />
+			<sp>200</sp>
+		</tier>
+		<tier>
+			<id>7</id>
+			<hc_cost>400</hc_cost>
+			<desc>Four Legendaries at Step 7!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4" id="6052"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="4" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+				<card min_rarity="3" max_rarity="4"/>
+			</cards>
+			<item id="106608" quantity="400" />
+			<sp>260</sp>
+		</tier>
+		<tier>
+			<id>8</id>
+			<hc_cost>600</hc_cost>
+			<desc>Six Legendaries at Step 8!</desc>
+			<cards>
+				<card min_rarity="4" max_rarity="4" id="6052"/>
 				<card min_rarity="4" max_rarity="4"/>
 				<card min_rarity="4" max_rarity="4"/>
 				<card min_rarity="4" max_rarity="4"/>

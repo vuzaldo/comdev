@@ -2080,7 +2080,7 @@
 	</challenge>
 
 	<challenge>
-		<id>2058</id>
+		<id>2059</id>
 		<name>Guild Clash Practice Challenge</name>
 		<desc>Practice for the Guild Clash to earn stars and rewards! Same battleground conditions as Guild Clash including current active global effects. All attacks are available for the start!</desc>
 		<type>2</type>
@@ -2091,10 +2091,9 @@
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
-		<battleground_id>184</battleground_id>
 		<battleground_id>185</battleground_id>
-		<battleground_id>501</battleground_id>
-		<battleground_id>502</battleground_id>
+		<battleground_id>186</battleground_id>
+		<battleground_id>581</battleground_id>
 		<star_req_1>15</star_req_1>
 		<star_req_2>40</star_req_2>
 		<star_req_3>100</star_req_3>
@@ -2104,7 +2103,7 @@
 			<recharge_amount>45</recharge_amount>	<!-- Amount to recharge per recharge -->
 			<max_value>45</max_value>				<!-- Maximum Energy -->
 			<recharge_start_time>1719255600</recharge_start_time>	<!-- Monday, 24 June 2024 19:00:00 -->
-			<recharge_time>172800</recharge_time>	<!-- 259200 | 3 Days | How often to recharge in seconds -->
+			<recharge_time>259200</recharge_time>	<!-- 259200 | 3 Days | How often to recharge in seconds -->
 			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
 			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
 		</energy>

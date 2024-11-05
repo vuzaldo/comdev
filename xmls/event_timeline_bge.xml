@@ -1729,4 +1729,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6122</id>
+		<name>Lily &#38; Spear Regenerated</name>
+		<desc>Frogs gain Pierce and deal extra damage on their first attack each turn equal to 25% of their base Health. Frogs of 0-2 Delay gain Siphon equal to 25% of their base Health while Frogs of 3-4 Delay gain Regenerate equal to 15% of their base Health.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>186</bg_effect>
+		</effect>
+		<start_time>1730998800</start_time> <!-- Thursday, November 07, 2024 at 17:00:00 -->
+		<end_time>1735837200</end_time> <!-- Thursday, January 02, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
