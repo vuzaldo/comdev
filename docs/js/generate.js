@@ -637,6 +637,9 @@ function propagateEventNode() {
 			eventMap = mapId;
 			eventMapX = x;
 			eventMapY = y;
+			if (expeditionName.value) {
+				expeditionName.value = ITEMS[EXPEDITION[selectMapCycle.value].point_item] + ' Expedition';
+			}
 			updateEditors();
 		}
 		propagateEventNode();
