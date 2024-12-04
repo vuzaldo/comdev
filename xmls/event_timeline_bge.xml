@@ -1743,4 +1743,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6123</id>
+		<name>Beast Quake</name>
+		<desc>All Beasts gain 20% bonus Health, and bonus Berserk and Armor equal to 20% minus twice their delay. All % values based on base Health.</desc>
+		<banner_prefab>Banner_GenericQuest</banner_prefab>
+		<bundle>0</bundle>
+		<effect>
+			<bg_effect>187</bg_effect>
+		</effect>
+		<start_time>1733418000</start_time> <!-- Thursday, December 05, 2024 at 17:00:00 -->
+		<end_time>1738256400</end_time> <!-- Thursday, January 30, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

@@ -146,6 +146,7 @@
 		<name>Arena Trophy</name>
 		<icon>ArenaIcon</icon>
 		<bundle>31</bundle>
+		<type>2</type>
 		<rarity>4</rarity>
 		<desc>Collect three Trophies to craft a Double Legendary Reward Pack!</desc>
 		<quantity_cap>50</quantity_cap>
@@ -504,6 +505,7 @@
 		<name>Dual Elemental Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Elemental card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3145</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -513,6 +515,7 @@
 		<name>Dual Angel Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Angel card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3146</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -522,6 +525,7 @@
 		<name>Dual Undead Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Undead card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3147</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -531,6 +535,7 @@
 		<name>Dual Dragon Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Dragon card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3149</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -540,6 +545,7 @@
 		<name>Dual Avian Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Avian card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3150</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -549,6 +555,7 @@
 		<name>Dual Goblin Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Goblin card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3151</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -558,6 +565,7 @@
 		<name>Dual Seafolk Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Seafolk card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3152</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -567,6 +575,7 @@
 		<name>Dual Insect Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Insect card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3153</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -576,6 +585,7 @@
 		<name>Dual Beast Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Beast card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3154</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -585,6 +595,7 @@
 		<name>Dual Mecha Reward Epic</name>
 		<icon>icon_blue_crystal_lg</icon>
 		<desc>Gives one random Dual Epic Mecha card from Reward set.</desc>
+		<type>2</type>
 		<rarity>3</rarity>
 		<give_pack>3156</give_pack>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
@@ -2298,7 +2309,7 @@
 			<item id="28171" quantity="1"/> <!-- Wyld 1D -->
 		</choice>
 		<choice id="2">
-			<item id="28172" quantity="1"/> <!-- Wyld 2D -->
+			<item id="28172" quantity="1"/> <!-- Wyld 2D and Ecyx -->
 		</choice>
 		<choice id="3">
 			<item id="28173" quantity="1"/> <!-- Aether, Wyld 3D and Void -->
@@ -2330,10 +2341,10 @@
 	</item>
 	<item>
 		<id>28172</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Cellia, Veric Frog Flask</name>
+		<name>Cellia, Veric, Ecyxigua Frog Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Cellia, Veric Stones; OR revert</desc>
+		<desc>Consume to get your choice of Cellia, Veric, Ecyxigua Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -2342,6 +2353,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104061" quantity="1"/> <!-- Veric -->
+		</choice>
+		<choice id="4">
+			<item id="104085" quantity="1"/> <!-- Ecyxigua -->
 		</choice>
 	</item>
 	<item>
@@ -3090,10 +3104,10 @@
 	</item>
 	<item>
 		<id>28262</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Formos, Mothmo Insect Flask</name>
+		<name>Formos, Mothmo, Ecyxigua Insect Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Formos, Mothmo Stones; OR revert</desc>
+		<desc>Consume to get your choice of Formos, Mothmo, Ecyxigua Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28260" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3103,13 +3117,16 @@
 		<choice id="3">
 			<item id="104030" quantity="1"/> <!-- Mothmo -->
 		</choice>
+		<choice id="4">
+			<item id="104085" quantity="1"/> <!-- Ecyxigua -->
+		</choice>
 	</item>
 	<item>
 		<id>28263</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Agatha, Helvius Insect Flask</name>
+		<name>Agatha, Helvius, Barfis Insect Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Agatha, Helvius Stones; OR revert</desc>
+		<desc>Consume to get your choice of Agatha, Helvius, Barfis Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28260" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3118,6 +3135,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104073" quantity="1"/> <!-- Helvius -->
+		</choice>
+		<choice id="4">
+			<item id="104086" quantity="1"/> <!-- Barfis -->
 		</choice>
 	</item>
 

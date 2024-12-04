@@ -1528,19 +1528,19 @@
 	<package>
 		<id>575</id>
 		<name>Premium Champion Guild Bundle</name>
-		<desc>Gives 700 Shards. You and everyone in your guild receives 100 ^cE7FFFamily Stones^cFFFF!</desc>
+		<desc>Gives 700 Shards. You and everyone in your guild receives 100 ^cE7FFNayaraa Stones^cFFFF!</desc>
 		<asset_prefab>legendary_crystal_guild</asset_prefab>
 		<bundle>30</bundle>
-		<background_prefab>event_96_dragonfamily_banner</background_prefab>
-		<background_bundle>259</background_bundle>
+		<background_prefab>event_076_banner_bravelongma</background_prefab>
+		<background_bundle>219</background_bundle>
 		<priority>300</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<tokens>700</tokens>
-		<item id="105638" number="100"/>
+		<item id="105621" number="100"/>
 		<guild_bonus>
 			<duration>259200</duration>
-			<item id="105638" number="100"/>
+			<item id="105621" number="100"/>
 		</guild_bonus>
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t50</price_point_id>
@@ -1571,14 +1571,14 @@
 	<package>
 		<id>578</id>
 		<name>Champion Trove</name>
-		<desc>Gives 100 ^cE7FFMike Stones^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 200 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
+		<desc>Gives 100 ^cE7FFMathay Stones^cFFFF, 25 Arcane Fragments, 10 Energy Potion +20, 200 Arcane Dust, and 50 Inscription Powder! May only be purchased once!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
 		<num_available>1</num_available>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
-		<item id="104090" number="100"/> <!-- Stone -->
+		<item id="104092" number="100"/> <!-- Stone -->
 		<item id="2001" number="25"/> <!-- Arcane Fragment -->
 		<item id="1004" number="10"/> <!-- Energy +20 -->
 		<item id="4001" number="50"/> <!-- Inscription Powder -->
@@ -1589,14 +1589,14 @@
 	<package>
 		<id>579</id>
 		<name>Large Champion Trove</name>
-		<desc>Gives 300 ^cE7FFMike Stones^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 400 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
+		<desc>Gives 300 ^cE7FFMathay Stones^cFFFF, 50 Arcane Fragments, 15 Energy Potion +20, 400 Arcane Dust, and 100 Inscription Powder! May only be purchased once!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
 		<num_available>1</num_available>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
-		<item id="104090" number="300"/> <!-- Stone -->
+		<item id="104092" number="300"/> <!-- Stone -->
 		<item id="2001" number="50"/> <!-- Arcane Fragment -->
 		<item id="1004" number="15"/> <!-- Energy +20 -->
 		<item id="4001" number="100"/> <!-- Inscription Powder -->
@@ -1607,13 +1607,13 @@
 	<package>
 		<id>580</id>
 		<name>Fortune Champion Trove</name>
-		<desc>Gives 800 ^cE7FFMike Stones^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 1000 Arcane Dust, and 250 Inscription Powder!</desc>
+		<desc>Gives 800 ^cE7FFMathay Stones^cFFFF, 150 Arcane Fragments, 25 Energy Potion +20, 1000 Arcane Dust, and 250 Inscription Powder!</desc>
 		<background_prefab>event17_banner_legendaryPack</background_prefab>
 		<background_bundle>75</background_bundle>
 		<category>2</category>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
-		<item id="104090" number="800"/> <!-- Stone -->
+		<item id="104092" number="800"/> <!-- Stone -->
 		<item id="2001" number="150"/> <!-- Arcane Fragment -->
 		<item id="1004" number="25"/> <!-- Energy +20 -->
 		<item id="4001" number="250"/> <!-- Inscription Powder -->
@@ -1677,23 +1677,9 @@
 	</package>
 
 	<package>
-		<id>601</id>
-		<name>Singles Day Chance Flasks</name>
-		<desc>Gives 111 of one random Premium Flask, which contain a choice of 4 of the possible 111 Stones from the Premium Champion Set! May be purchased 11 times!</desc>
-		<asset_prefab>flask_pack_aether_1</asset_prefab> <!-- Small Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<background_prefab>aether_flask_banner</background_prefab> <!-- Aether Flask Banner -->
-		<background_bundle>35</background_bundle>
-		<priority>1100</priority>
-		<!-- Stuff to give -->
-		<pack>3101</pack>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t06</price_point_id>
-	</package>
-	<package>
 		<id>602</id>
 		<name>Blacksmith Friday Shard Bundle</name>
-		<desc>Gives 400 Shards, 100 Champion Stones for ^cE7FFGendra, the Blacksmith^cFFFF and much more! One purchase only!</desc>
+		<desc>Gives 400 Shards, 200 Champion Stones for ^cE7FFGendra, the Blacksmith^cFFFF and much more! One purchase only!</desc>
 		<asset_prefab>event_84_embersmith_championpack</asset_prefab>
 		<bundle>235</bundle>
 		<background_prefab>event_84_embersmith_banner</background_prefab>
