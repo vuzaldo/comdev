@@ -2109,7 +2109,7 @@
 	</challenge>
 
 	<challenge>
-		<id>2060</id>
+		<id>2061</id>
 		<name>Guild Clash Practice Challenge</name>
 		<desc>Practice for the Guild Clash to earn stars and rewards! Same battleground conditions as Guild Clash including current active global effects. All attacks are available for the start!</desc>
 		<type>2</type>
@@ -2120,9 +2120,9 @@
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
-		<battleground_id>186</battleground_id>
 		<battleground_id>187</battleground_id>
-		<battleground_id>582</battleground_id>
+		<battleground_id>188</battleground_id>
+		<battleground_id>521</battleground_id>
 		<star_req_1>15</star_req_1>
 		<star_req_2>40</star_req_2>
 		<star_req_3>100</star_req_3>

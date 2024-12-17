@@ -157,282 +157,6 @@
 
 	<!-- 2001-: Old events removed. See old versions for archive. -->
 
-	<!-- Event 122: ComDev Frog - Red Feather Valley -->
-	<event>
-		<id>3734</id>
-		<name>Energy Shard Bundle</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<asset_prefab>store/shard_package_4</asset_prefab>
-		<type>106</type>
-		<bundle_package>501</bundle_package>
-		<num_available>100</num_available>
-		<priority>5</priority>
-		<start_time>1733158800</start_time> <!-- Monday, 02 December 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>3735</id>
-		<name>Bounty Shard Bundle</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<asset_prefab>store/shard_package_4</asset_prefab>
-		<type>110</type>
-		<bundle_package>502</bundle_package>
-		<num_available>60</num_available>
-		<priority>5</priority>
-		<start_time>1731344400</start_time> <!-- Monday, 11 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>3736</id>
-		<name>Colossal Bundle</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>160</type>
-		<bundle_package>503</bundle_package>
-		<num_available>4</num_available>
-		<priority>30</priority>
-		<start_time>1730998800</start_time> <!-- Thursday, 07 November 2024 -->
-		<end_duration>5760</end_duration> <!-- 4 days -->
-	</event>
-	<event>
-		<id>3737</id>
-		<name>Super Flask Sale</name>
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<portrait>essence_of_gold</portrait>
-		<type>120</type>
-		<bundle_package>504</bundle_package>
-		<num_available>240</num_available>
-		<priority>-35</priority>
-		<start_time>1730998800</start_time> <!-- Thursday, 07 November 2024 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3738</id>
-		<name>Dual Shard Bundle</name>
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<type>150</type>
-		<bundle_package>524</bundle_package>
-		<num_available>4</num_available>
-		<priority>20</priority>
-		<start_time>1731949200</start_time> <!-- Monday, 18 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>3739</id>
-		<name>Starter Set</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<bundle_package>544</bundle_package>
-		<num_available>1</num_available>
-		<priority>-34</priority>
-		<start_time>1730998800</start_time> <!-- Thursday, 07 November 2024 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3740</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<type>103</type>
-		<bundle_package>564</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1731171600</start_time> <!-- Saturday, 09 November 2024 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3741</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<type>103</type>
-		<bundle_package>564</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1731776400</start_time> <!-- Saturday, 16 November 2024 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3742</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<type>103</type>
-		<bundle_package>564</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1732381200</start_time> <!-- Saturday, 23 November 2024 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3743</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<type>103</type>
-		<bundle_package>564</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1732986000</start_time> <!-- Saturday, 30 November 2024 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3744</id>
-		<name>Premium Flask Sale</name> <!-- Flow -->
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>130</type>
-		<bundle_package>528</bundle_package>
-		<num_available>8</num_available>
-		<priority>45</priority>
-		<start_time>1731430800</start_time> <!-- Tuesday, 12 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>3745</id>
-		<name>Premium Flask Sale</name> <!-- Eruption -->
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>130</type>
-		<bundle_package>539</bundle_package>
-		<num_available>8</num_available>
-		<priority>45</priority>
-		<start_time>1732035600</start_time> <!-- Tuesday, 19 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>3746</id>
-		<name>Premium Flask Sale</name> <!-- Adamancy -->
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>130</type>
-		<bundle_package>548</bundle_package>
-		<num_available>8</num_available>
-		<priority>45</priority>
-		<start_time>1732640400</start_time> <!-- Tuesday, 26 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>3747</id>
-		<name>Premium Flask Sale</name> <!-- Hoarfrost -->
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>130</type>
-		<bundle_package>563</bundle_package>
-		<num_available>8</num_available>
-		<priority>45</priority>
-		<start_time>1733245200</start_time> <!-- Tuesday, 03 December 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>3748</id>
-		<name>Premium Champion Guild Bundle</name>
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<type>150</type>
-		<bundle_package>577</bundle_package>
-		<num_available>40</num_available>
-		<priority>30</priority>
-		<start_time>1732467600</start_time> <!-- Sunday, 24 November 2024 -->
-		<end_duration>5760</end_duration> <!-- 4 days -->
-	</event>
-	<event>
-		<id>3749</id>
-		<name>Champion Trove</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4091" level="10"/>
-		<bundle_package>581</bundle_package>
-		<num_available>1</num_available>
-		<priority>-33</priority>
-		<start_time>1732554000</start_time> <!-- Monday, 25 November 2024 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3750</id>
-		<name>Large Champion Trove</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4091" level="10"/>
-		<purchased_event_req>3749</purchased_event_req>
-		<bundle_package>582</bundle_package>
-		<num_available>1</num_available>
-		<priority>-32</priority>
-		<start_time>1732554000</start_time> <!-- Monday, 25 November 2024 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3751</id>
-		<name>Fortune Champion Trove</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4091" level="10"/>
-		<purchased_event_req>3750</purchased_event_req>
-		<bundle_package>583</bundle_package>
-		<num_available>1</num_available>
-		<priority>-31</priority>
-		<start_time>1732554000</start_time> <!-- Monday, 25 November 2024 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3752</id>
-		<name>Fortune Champion Trove</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id="4091" level="10"/>
-		<purchased_event_req>3751</purchased_event_req>
-		<bundle_package>583</bundle_package>
-		<num_available>1</num_available>
-		<priority>-31</priority>
-		<start_time>1732554000</start_time> <!-- Monday, 25 November 2024 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3753</id>
-		<name>Singles Day Flask Sale</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>106</type>
-		<bundle_package>601</bundle_package>
-		<num_available>11</num_available>
-		<priority>48</priority>
-		<start_time>1731344400</start_time> <!-- Monday, 11 November 2024 -->
-		<end_duration>1440</end_duration> <!-- 1 day -->
-	</event>
-	<event>
-		<id>3754</id>
-		<name>Black Friday Shard Bundle</name>
-		<banner_prefab>black_knight_event_banner</banner_prefab>
-		<bundle>37</bundle>
-		<type>115</type>
-		<bundle_package>602</bundle_package>
-		<num_available>1</num_available>
-		<priority>48</priority>
-		<start_time>1732899600</start_time> <!-- Friday, 29 November 2024 -->
-		<end_duration>1440</end_duration> <!-- 1 day -->
-	</event>
-	<event>
-		<id>3755</id>
-		<name>Black Friday Chance Stones</name>
-		<banner_prefab>black_knight_event_banner</banner_prefab>
-		<bundle>37</bundle>
-		<type>110</type>
-		<bundle_package>603</bundle_package>
-		<num_available>10</num_available>
-		<priority>48</priority>
-		<start_time>1732986000</start_time> <!-- Saturday, 30 November 2024 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3756</id>
-		<name>Cyber Monday Guild Bundle</name>
-		<banner_prefab>maintenance_Banner</banner_prefab>
-		<bundle>21</bundle>
-		<type>110</type>
-		<bundle_package>604</bundle_package>
-		<num_available>1</num_available>
-		<priority>48</priority>
-		<start_time>1733158800</start_time> <!-- Monday, 02 December 2024 -->
-		<end_duration>1440</end_duration> <!-- 1 day -->
-	</event>
-
 	<!-- Event 123: ComDev Beast - Red Feather Valley -->
 	<event>
 		<id>3757</id>
@@ -588,10 +312,11 @@
 	</event>
 	<event>
 		<id>3771</id>
-		<name>Premium Champion Guild Bundle</name>
-		<type>150</type>
-		<bundle_package>575</bundle_package>
-		<num_available>40</num_available>
+		<name>Colossal Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>160</type>
+		<bundle_package>503</bundle_package>
+		<num_available>4</num_available>
 		<priority>30</priority>
 		<start_time>1734886800</start_time> <!-- Sunday, 22 December 2024 -->
 		<end_duration>5760</end_duration> <!-- 4 days -->
@@ -600,7 +325,7 @@
 		<id>3772</id>
 		<name>Champion Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id='4092' level='10' />
+		<display_card id="4092" level="10"/>
 		<bundle_package>578</bundle_package>
 		<num_available>1</num_available>
 		<priority>-33</priority>
@@ -612,7 +337,7 @@
 		<id>3773</id>
 		<name>Large Champion Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id='4092' level='10' />
+		<display_card id="4092" level="10"/>
 		<purchased_event_req>3772</purchased_event_req>
 		<bundle_package>579</bundle_package>
 		<num_available>1</num_available>
@@ -625,7 +350,7 @@
 		<id>3774</id>
 		<name>Fortune Champion Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id='4092' level='10' />
+		<display_card id="4092" level="10"/>
 		<purchased_event_req>3773</purchased_event_req>
 		<bundle_package>580</bundle_package>
 		<num_available>1</num_available>
@@ -638,12 +363,240 @@
 		<id>3775</id>
 		<name>Fortune Champion Trove</name>
 		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<display_card id='4092' level='10' />
+		<display_card id="4092" level="10"/>
 		<purchased_event_req>3774</purchased_event_req>
 		<bundle_package>580</bundle_package>
 		<num_available>1</num_available>
 		<priority>-31</priority>
 		<start_time>1734973200</start_time> <!-- Monday, 23 December 2024 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+
+	<!-- Event 124: ComDev Mecha - Conflux Convergence -->
+	<event>
+		<id>3776</id>
+		<name>Energy Shard Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<type>106</type>
+		<bundle_package>501</bundle_package>
+		<num_available>100</num_available>
+		<priority>5</priority>
+		<start_time>1737997200</start_time> <!-- Monday, 27 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>3777</id>
+		<name>Bounty Shard Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<asset_prefab>store/shard_package_4</asset_prefab>
+		<type>110</type>
+		<bundle_package>502</bundle_package>
+		<num_available>60</num_available>
+		<priority>5</priority>
+		<start_time>1736182800</start_time> <!-- Monday, 06 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>3778</id>
+		<name>Colossal Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>160</type>
+		<bundle_package>503</bundle_package>
+		<num_available>4</num_available>
+		<priority>30</priority>
+		<start_time>1735837200</start_time> <!-- Thursday, 02 January 2025 -->
+		<end_duration>5760</end_duration> <!-- 4 days -->
+	</event>
+	<event>
+		<id>3779</id>
+		<name>Super Flask Sale</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<portrait>essence_of_gold</portrait>
+		<type>120</type>
+		<bundle_package>516</bundle_package>
+		<num_available>240</num_available>
+		<priority>-35</priority>
+		<start_time>1735837200</start_time> <!-- Thursday, 02 January 2025 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3780</id>
+		<name>Dual Shard Bundle</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<type>150</type>
+		<bundle_package>536</bundle_package>
+		<num_available>4</num_available>
+		<priority>20</priority>
+		<start_time>1736787600</start_time> <!-- Monday, 13 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>3781</id>
+		<name>Starter Set</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>556</bundle_package>
+		<num_available>1</num_available>
+		<priority>-34</priority>
+		<start_time>1735837200</start_time> <!-- Thursday, 02 January 2025 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3782</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<type>103</type>
+		<bundle_package>576</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1736010000</start_time> <!-- Saturday, 04 January 2025 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3783</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<type>103</type>
+		<bundle_package>576</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1736614800</start_time> <!-- Saturday, 11 January 2025 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3784</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<type>103</type>
+		<bundle_package>576</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1737219600</start_time> <!-- Saturday, 18 January 2025 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3785</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<type>103</type>
+		<bundle_package>576</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1737824400</start_time> <!-- Saturday, 25 January 2025 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3786</id>
+		<name>Premium Flask Sale</name> <!-- Flow -->
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<bundle_package>528</bundle_package>
+		<num_available>8</num_available>
+		<priority>45</priority>
+		<start_time>1736269200</start_time> <!-- Tuesday, 07 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>3787</id>
+		<name>Premium Flask Sale</name> <!-- Rex -->
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<bundle_package>520</bundle_package>
+		<num_available>8</num_available>
+		<priority>45</priority>
+		<start_time>1736874000</start_time> <!-- Tuesday, 14 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>3788</id>
+		<name>Premium Flask Sale</name> <!-- Genesis -->
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<bundle_package>541</bundle_package>
+		<num_available>8</num_available>
+		<priority>45</priority>
+		<start_time>1737478800</start_time> <!-- Tuesday, 21 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>3789</id>
+		<name>Premium Flask Sale</name> <!-- Reign -->
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<bundle_package>560</bundle_package>
+		<num_available>8</num_available>
+		<priority>45</priority>
+		<start_time>1738083600</start_time> <!-- Tuesday, 28 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>3790</id>
+		<name>Colossal Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>160</type>
+		<bundle_package>503</bundle_package>
+		<num_available>4</num_available>
+		<priority>30</priority>
+		<start_time>1737306000</start_time> <!-- Sunday, 19 January 2025 -->
+		<end_duration>5760</end_duration> <!-- 4 days -->
+	</event>
+	<event>
+		<id>3791</id>
+		<name>Champion Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4093' level='10' />
+		<bundle_package>581</bundle_package>
+		<num_available>1</num_available>
+		<priority>-33</priority>
+		<start_time>1737392400</start_time> <!-- Monday, 20 January 2025 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3792</id>
+		<name>Large Champion Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4093' level='10' />
+		<purchased_event_req>3791</purchased_event_req>
+		<bundle_package>582</bundle_package>
+		<num_available>1</num_available>
+		<priority>-32</priority>
+		<start_time>1737392400</start_time> <!-- Monday, 20 January 2025 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3793</id>
+		<name>Fortune Champion Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4093' level='10' />
+		<purchased_event_req>3792</purchased_event_req>
+		<bundle_package>583</bundle_package>
+		<num_available>1</num_available>
+		<priority>-31</priority>
+		<start_time>1737392400</start_time> <!-- Monday, 20 January 2025 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3794</id>
+		<name>Fortune Champion Trove</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<display_card id='4093' level='10' />
+		<purchased_event_req>3793</purchased_event_req>
+		<bundle_package>583</bundle_package>
+		<num_available>1</num_available>
+		<priority>-31</priority>
+		<start_time>1737392400</start_time> <!-- Monday, 20 January 2025 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 		<hide_news>1</hide_news>
 	</event>
@@ -654,103 +607,6 @@
 
 	<!-- 4001-4998: Old events removed. See old versions for archive. -->
 	<!-- 33000-: Old events removed. See old versions for archive. -->
-
-	<!-- Event 122: ComDev Frog - Red Feather Valley -->
-	<event>
-		<id>33340</id>
-		<name>Unlimited Energy Refill Pack</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<store_item>5001</store_item>
-		<!-- No purchase limit -->
-		<priority>10</priority>
-		<start_time>1733072400</start_time> <!-- Sunday, 01 December 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>33341</id>
-		<name>Unlimited Bounty Refill Pack</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<store_item>5002</store_item>
-		<!-- No purchase limit -->
-		<priority>10</priority>
-		<start_time>1731258000</start_time> <!-- Sunday, 10 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>33342</id>
-		<name>Dungeon Survival Pack</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<store_item>5003</store_item>
-		<num_available>5</num_available>
-		<priority>10</priority>
-		<start_time>1731949200</start_time> <!-- Monday, 18 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>33343</id>
-		<name>Stone Stockpile</name> <!-- B4RN4B1 -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<store_item>5412</store_item>
-		<num_available>12</num_available>
-		<priority>35</priority>
-		<start_time>1731517200</start_time> <!-- Wednesday, 13 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>33344</id>
-		<name>Stone Stockpile</name> <!-- Fritz -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<store_item>5413</store_item>
-		<num_available>12</num_available>
-		<priority>35</priority>
-		<start_time>1732122000</start_time> <!-- Wednesday, 20 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>33345</id>
-		<name>Stone Stockpile</name> <!-- Gama -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<store_item>5414</store_item>
-		<num_available>12</num_available>
-		<priority>35</priority>
-		<start_time>1732726800</start_time> <!-- Wednesday, 27 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>33346</id>
-		<name>Stone Stockpile</name> <!-- Raju -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<store_item>5415</store_item>
-		<num_available>12</num_available>
-		<priority>35</priority>
-		<start_time>1733331600</start_time> <!-- Wednesday, 04 December 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
-	<event>
-		<id>33347</id>
-		<name>Singles Day Pack</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<store_item>5417</store_item>
-		<num_available>1</num_available>
-		<priority>47</priority>
-		<start_time>1731344400</start_time> <!-- Monday, 11 November 2024 -->
-		<end_duration>1440</end_duration> <!-- 1 day -->
-	</event>
-	<event>
-		<id>33348</id>
-		<name>Black Friday Pack</name>
-		<banner_prefab>black_knight_event_banner</banner_prefab>
-		<bundle>37</bundle>
-		<store_item>5418</store_item>
-		<num_available>12</num_available>
-		<priority>46</priority>
-		<start_time>1732899600</start_time> <!-- Friday, 29 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 days -->
-	</event>
 
 	<!-- Event 123: ComDev Beast - Red Feather Valley -->
 	<event>
@@ -851,6 +707,82 @@
 		<end_duration>2880</end_duration> <!-- 2 days -->
 	</event>
 
+	<!-- Event 124: ComDev Mecha - Conflux Convergence -->
+	<event>
+		<id>33359</id>
+		<name>Unlimited Energy Refill Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5001</store_item>
+		<!-- No purchase limit -->
+		<priority>10</priority>
+		<start_time>1737910800</start_time> <!-- Sunday, 26 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>33360</id>
+		<name>Unlimited Bounty Refill Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5002</store_item>
+		<!-- No purchase limit -->
+		<priority>10</priority>
+		<start_time>1736096400</start_time> <!-- Sunday, 05 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>33361</id>
+		<name>Dungeon Survival Pack</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<store_item>5003</store_item>
+		<num_available>5</num_available>
+		<priority>10</priority>
+		<start_time>1736787600</start_time> <!-- Monday, 13 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>33362</id>
+		<name>Stone Stockpile</name> <!-- R3-M1 -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<store_item>5426</store_item>
+		<num_available>12</num_available>
+		<priority>35</priority>
+		<start_time>1736355600</start_time> <!-- Wednesday, 08 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>33363</id>
+		<name>Stone Stockpile</name> <!-- Katto -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<store_item>5427</store_item>
+		<num_available>12</num_available>
+		<priority>35</priority>
+		<start_time>1736960400</start_time> <!-- Wednesday, 15 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>33364</id>
+		<name>Stone Stockpile</name> <!-- Nano Swarm -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<store_item>5428</store_item>
+		<num_available>12</num_available>
+		<priority>35</priority>
+		<start_time>1737565200</start_time> <!-- Wednesday, 22 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+	<event>
+		<id>33365</id>
+		<name>Stone Stockpile</name> <!-- Aeronwen -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<store_item>5429</store_item>
+		<num_available>12</num_available>
+		<priority>35</priority>
+		<start_time>1738170000</start_time> <!-- Wednesday, 29 January 2025 -->
+		<end_duration>4320</end_duration> <!-- 3 days -->
+	</event>
+
 	<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Global Timeline — Campaign Events, IDs 5001-6000, 35001+ -->
 	<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
@@ -859,15 +791,15 @@
 
 	<!-- Guild Clash Practice Challenge -->
 	<event>
-		<id>5960</id>
+		<id>5961</id>
 		<name>Guild Clash Practice</name>
 		<desc>Practice for the Guild Clash! Same battleground conditions as Guild Clash including current active global effects. All attacks are available for the start!</desc>
 		<portrait>bountyhunter</portrait>
 		<banner_prefab>guild_clash_banner</banner_prefab>
 		<bundle>31</bundle>
 		<type>11</type>
-		<challenge>2060</challenge>
-		<start_time>1733770800</start_time> <!-- Monday, 09 December 2024 at 19:00:00 -->
+		<challenge>2061</challenge>
+		<start_time>1736190000</start_time> <!-- Monday, 06 January 2025 at 19:00:00 -->
 		<tracking_duration>4320</tracking_duration> <!-- 3 Days -->
 		<claim_delay>5</claim_delay>
 		<end_duration>5760</end_duration> <!-- 4 Days -->
@@ -893,78 +825,10 @@
 
 	<!-- 35001-: Old events removed. See old versions for archive. -->
 
-	<!-- Event 122: ComDev Frog - Red Feather Valley -->
-	<event>
-		<id>35117</id>
-		<name>Legendary Champion Box</name> <!-- Zyd -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<event_box>2784</event_box>
-		<hide_upcoming>1</hide_upcoming>
-		<priority>25</priority>
-		<start_time>1730998800</start_time> <!-- Thursday, 07 November 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 days -->
-	</event>
-	<event>
-		<id>35118</id>
-		<name>Champion Box</name> <!-- Eira -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<event_box>2785</event_box>
-		<hide_upcoming>1</hide_upcoming>
-		<priority>25</priority>
-		<start_time>1731603600</start_time> <!-- Thursday, 14 November 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 days -->
-	</event>
-	<event>
-		<id>35119</id>
-		<name>Champion Box</name> <!-- Worf -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<event_box>2786</event_box>
-		<hide_upcoming>1</hide_upcoming>
-		<priority>25</priority>
-		<start_time>1732208400</start_time> <!-- Thursday, 21 November 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 days -->
-	</event>
-	<event>
-		<id>35120</id>
-		<name>Champion Box</name> <!-- Leafsinger -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<event_box>2787</event_box>
-		<hide_upcoming>1</hide_upcoming>
-		<priority>25</priority>
-		<start_time>1732813200</start_time> <!-- Thursday, 28 November 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 days -->
-	</event>
-	<event>
-		<id>35121</id>
-		<name>Legendary Cache</name> <!-- Goliath -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<store_item>5416</store_item>
-		<hide_upcoming>1</hide_upcoming>
-		<priority>15</priority>
-		<start_time>1731862800</start_time> <!-- Sunday, 17 November 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 days -->
-	</event>
-	<event>
-		<id>35122</id>
-		<name>Step Box</name> <!-- Fuming Beast -->
-		<banner_prefab>frogsBanner</banner_prefab>
-		<bundle>25</bundle>
-		<step_box>7122</step_box>
-		<hide_upcoming>1</hide_upcoming>
-		<priority>40</priority>
-		<start_time>1733072400</start_time> <!-- Sunday, 01 December 2024 -->
-		<end_duration>10080</end_duration> <!-- 7 days -->
-	</event>
-
 	<!-- Event 123: ComDev Beast - Red Feather Valley -->
 	<event>
 		<id>35123</id>
-		<name>Legendary Champion Box</name> <!-- Crash & Zink -->
+		<name>Legendary Champion Box</name> <!-- Crash and Zink -->
 		<event_box>2788</event_box>
 		<hide_upcoming>1</hide_upcoming>
 		<priority>25</priority>
@@ -1014,6 +878,74 @@
 		<hide_upcoming>1</hide_upcoming>
 		<priority>40</priority>
 		<start_time>1735491600</start_time> <!-- Sunday, 29 December 2024 -->
+		<end_duration>10080</end_duration> <!-- 7 days -->
+	</event>
+
+	<!-- Event 124: ComDev Mecha - Conflux Convergence -->
+	<event>
+		<id>35129</id>
+		<name>Legendary Champion Box</name> <!-- Coldsteel -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<event_box>2793</event_box>
+		<hide_upcoming>1</hide_upcoming>
+		<priority>25</priority>
+		<start_time>1735837200</start_time> <!-- Thursday, 02 January 2025 -->
+		<end_duration>10080</end_duration> <!-- 7 days -->
+	</event>
+	<event>
+		<id>35130</id>
+		<name>Champion Box</name> <!-- TZ-530 -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<event_box>2794</event_box>
+		<hide_upcoming>1</hide_upcoming>
+		<priority>25</priority>
+		<start_time>1736442000</start_time> <!-- Thursday, 09 January 2025 -->
+		<end_duration>10080</end_duration> <!-- 7 days -->
+	</event>
+	<event>
+		<id>35131</id>
+		<name>Champion Box</name> <!-- Issa -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<event_box>2795</event_box>
+		<hide_upcoming>1</hide_upcoming>
+		<priority>25</priority>
+		<start_time>1737046800</start_time> <!-- Thursday, 16 January 2025 -->
+		<end_duration>10080</end_duration> <!-- 7 days -->
+	</event>
+	<event>
+		<id>35132</id>
+		<name>Champion Box</name> <!-- Dunstan -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<event_box>2796</event_box>
+		<hide_upcoming>1</hide_upcoming>
+		<priority>25</priority>
+		<start_time>1737651600</start_time> <!-- Thursday, 23 January 2025 -->
+		<end_duration>10080</end_duration> <!-- 7 days -->
+	</event>
+	<event>
+		<id>35133</id>
+		<name>Legendary Cache</name> <!-- Striker -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<event_box>2797</event_box>
+		<hide_upcoming>1</hide_upcoming>
+		<priority>15</priority>
+		<start_time>1736701200</start_time> <!-- Sunday, 12 January 2025 -->
+		<end_duration>10080</end_duration> <!-- 7 days -->
+	</event>
+	<event>
+		<id>35134</id>
+		<name>Step Box</name> <!-- Grimkite Model -->
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<step_box>7124</step_box>
+		<hide_upcoming>1</hide_upcoming>
+		<priority>40</priority>
+		<start_time>1737910800</start_time> <!-- Sunday, 26 January 2025 -->
 		<end_duration>10080</end_duration> <!-- 7 days -->
 	</event>
 
@@ -1190,40 +1122,6 @@
 		<hide_upcoming>1</hide_upcoming>
 	</event>
 
-	<!-- Event 121: Classic Lightning Node -->
-	<event>
-		<id>9100</id>
-		<name>Classic Lightning Boss Llorona Reborn</name>
-		<desc>A time-limited boss node is available at Seastone Citadel.</desc>
-		<portrait>La_Llorona_Portrait</portrait>
-		<banner_prefab>event_024_banner</banner_prefab> <!-- Classic Lightning Background -->
-		<bundle>92</bundle> <!-- Classic Lightning Background -->
-		<type>1</type>
-		<campaign>4016</campaign>
-		<start_time>1730134800</start_time> <!--  Monday, 28 October 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 Days -->
-		<mission_req>64</mission_req>
-		<priority>1000</priority>
-		<hide_upcoming>1</hide_upcoming>
-	</event>
-
-	<!-- Event 122: Classic Lightning Node -->
-	<event>
-		<id>9101</id>
-		<name>Classic Lightning Boss Darkassan Trial</name>
-		<desc>A time-limited boss node is available at Seastone Citadel.</desc>
-		<portrait>Undead_Flying_Creeper_Portrait</portrait>
-		<banner_prefab>event_024_banner</banner_prefab> <!-- Classic Lightning Background -->
-		<bundle>92</bundle> <!-- Classic Lightning Background -->
-		<type>1</type>
-		<campaign>4017</campaign>
-		<start_time>1732554000</start_time> <!--  Monday, 25 November 2024 -->
-		<end_duration>4320</end_duration> <!-- 3 Days -->
-		<mission_req>64</mission_req>
-		<priority>1000</priority>
-		<hide_upcoming>1</hide_upcoming>
-	</event>
-
 	<!-- ID 9102 Reserved for Christmas -->
 	<!-- <event> -->
 		<!-- <id>9101</id> -->
@@ -1254,6 +1152,70 @@
 		<mission_req>64</mission_req>
 		<priority>1000</priority>
 		<hide_upcoming>1</hide_upcoming>
+	</event>
+
+	<event>
+		<id>9104</id>
+		<name>Conflux Convergence Consolidation</name>
+		<desc>Countdown to the consolidation all the old Classic campaign nodes in Conflux Convergence. Get your Mastery Stars before they disappear!</desc>
+		<portrait>voidminions</portrait>
+		<banner_prefab>maintenance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<type>1</type>
+		<campaign>1278</campaign>
+		<campaign>1279</campaign>
+		<campaign>1280</campaign>
+		<campaign>1284</campaign>
+		<campaign>1285</campaign>
+		<campaign>1355</campaign>
+		<campaign>1356</campaign>
+		<achievement_id>3661</achievement_id>
+		<achievement_id>3662</achievement_id>
+		<achievement_id>3663</achievement_id>
+		<achievement_id>3664</achievement_id>
+		<achievement_id>3665</achievement_id>
+		<achievement_id>3666</achievement_id>
+		<achievement_id>3667</achievement_id>
+		<achievement_id>3668</achievement_id>
+		<achievement_id>3673</achievement_id>
+		<achievement_id>3674</achievement_id>
+		<achievement_id>3675</achievement_id>
+		<achievement_id>3683</achievement_id>
+		<achievement_id>3684</achievement_id>
+		<achievement_id>3685</achievement_id>
+		<achievement_id>3686</achievement_id>
+		<achievement_id>3907</achievement_id>
+		<achievement_id>3908</achievement_id>
+		<achievement_id>3909</achievement_id>
+		<achievement_id>3910</achievement_id>
+		<achievement_id>3911</achievement_id>
+		<achievement_id>3912</achievement_id>
+		<achievement_id>3913</achievement_id>
+		<achievement_id>3914</achievement_id>
+		<achievement_id>4029</achievement_id>
+		<achievement_id>4061</achievement_id>
+		<start_time>1733418000</start_time> <!-- Thursday, 05 December 2024 -->
+		<end_time>1738256400</end_time> <!-- Thursday, 30 January 2025 -->
+		<priority>-41</priority>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+	</event>
+
+	<event>
+		<id>9124</id>
+		<name>Alyel Back in Time</name>
+		<desc>A time-limited campaign in Conflux Convergence! Go with Alyel back in time.</desc>
+		<portrait>Portrait_RighteousBerserker</portrait>
+		<banner_prefab>event_024_banner</banner_prefab>
+		<bundle>92</bundle>
+		<type>1</type>
+		<campaign>10124</campaign>
+		<achievement_id>10124</achievement_id>
+		<start_time>1735837200</start_time> <!-- Thursday, 02 January 2025 -->
+		<end_duration>40320</end_duration> <!-- 28 Days -->
+		<priority>-42</priority>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
 	</event>
 
 	<!-- |||||||||||||||||||||||||||||||||||||||||||| -->
@@ -1290,7 +1252,7 @@
 		<hide_upcoming>1</hide_upcoming>
 	</event>
 
-	<!-- Event 122: ComDev Frog - Red Feather Valley -->
+	<!-- Event 124: ComDev Mecha - Conflux Convergence -->
 	<event>
 		<id>9503</id>
 		<name>Double Bounties Gold!</name>
@@ -1301,7 +1263,7 @@
 		<!-- <mission_gold_multiplier>2</mission_gold_multiplier> -->
 		<pvp_gold_multiplier>2</pvp_gold_multiplier>
 		<priority>600</priority>
-		<start_time>1731517200</start_time> <!-- Wednesday, 13 November 2024 -->
+		<start_time>1736355600</start_time> <!-- Wednesday, 08 January 2025 -->
 		<end_duration>1440</end_duration> <!-- 1 Day -->
 		<hide_upcoming>1</hide_upcoming>
 	</event>
@@ -1315,7 +1277,7 @@
 		<mission_gold_multiplier>2</mission_gold_multiplier>
 		<!-- <pvp_gold_multiplier>2</pvp_gold_multiplier> -->
 		<priority>600</priority>
-		<start_time>1733331600</start_time> <!-- Wednesday, 04 December 2024 -->
+		<start_time>1738170000</start_time> <!-- Wednesday, 29 January 2025 -->
 		<end_duration>1440</end_duration> <!-- 1 Day -->
 		<hide_upcoming>1</hide_upcoming>
 	</event>
@@ -1349,8 +1311,9 @@
 		<hide_upcoming>1</hide_upcoming>
 		<priority>150</priority>
 		<start_time>1733418000</start_time> <!-- Thursday, 05 December 2024 -->
-		<end_duration>20160</end_duration> <!-- 14 Days -->
-		<view_url>https://www.reddit.com/r/SpellstoneGame/comments/1h57y8w/beast_bge_card_buffs/</view_url>
+		<end_time>1737046800</end_time> <!-- Thursday, 16 January 2025 -->
+		<!-- <end_duration>20160</end_duration> 14 Days -->
+		<view_url>https://www.reddit.com/r/SpellstoneGame/comments/1hf0v46/mecha_bge_card_buffs/</view_url>
 	</event>
 
 	<!-- 10002-10183: Old events removed. See old versions for archive. -->
@@ -1360,23 +1323,6 @@
 	<!-- |||||||||||||||||||||||||||||||||||||||||| -->
 
 	<!-- 11001-: Old events removed. See old versions for archive. -->
-
-	<event>
-		<id>11122</id>
-		<name>Frog Reward Box</name>
-		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Frog card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
-		<asset_prefab>frog_arena_box</asset_prefab>
-		<asset_bundle>76</asset_bundle>
-		<banner_prefab>generic_chance_Banner</banner_prefab>
-		<bundle>15</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<hide_news>1</hide_news>
-		<priority>-40</priority>
-		<event_box>6122</event_box>
-		<start_time>1730998800</start_time> <!-- Thursday, 07 November 2024 -->
-		<end_duration>40320</end_duration>  <!-- 40320 | 28 Days -->
-		<mission_req>64</mission_req>
-	</event>
 
 	<event>
 		<id>11123</id>
@@ -1391,7 +1337,24 @@
 		<priority>-40</priority>
 		<event_box>6123</event_box>
 		<start_time>1733418000</start_time> <!-- Thursday, 05 December 2024 -->
-		<end_duration>40320</end_duration>  <!-- 40320 | 28 Days -->
+		<end_duration>40320</end_duration>  <!-- 28 Days -->
+		<mission_req>64</mission_req>
+	</event>
+
+	<event>
+		<id>11124</id>
+		<name>Mecha Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Mecha card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<asset_bundle>76</asset_bundle>
+		<banner_prefab>generic_chance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-40</priority>
+		<event_box>6124</event_box>
+		<start_time>1735837200</start_time> <!-- Thursday, 02 January 2025 -->
+		<end_duration>40320</end_duration>  <!-- 28 Days -->
 		<mission_req>64</mission_req>
 	</event>
 

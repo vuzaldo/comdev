@@ -932,6 +932,63 @@
 	</campaign>
 	<!-- END Seaside Campaigns -->
 
+	<!-- =========================================== -->
+	<!-- = START (100-) Consolidated Classic Nodes = -->
+	<!-- =========================================== -->
+
+	<campaign>
+		<id>134</id>
+		<name>Conflux Convergence</name>
+		<campaign_req id="24" level="1"/>
+		<locked_start_time>1738256400</locked_start_time> <!-- Thursday, 30 January 2025 -->
+		<location_id>34</location_id>
+		<x>530</x>
+		<y>370</y>
+		<combatBG>CombatBGVoid</combatBG>
+		<missions>
+			<mission_id>6583</mission_id>
+			<mission_id>6584</mission_id>
+			<mission_id>6585</mission_id>
+			<mission_id>6586</mission_id>
+			<mission_id>6587</mission_id>
+			<mission_id>6588</mission_id>
+			<mission_id>6589</mission_id>
+			<mission_id>6590</mission_id>
+			<mission_id>6591</mission_id>
+			<mission_id>6592</mission_id>
+			<mission_id>6593</mission_id>
+			<mission_id>6594</mission_id>
+			<mission_id>6595</mission_id>
+			<mission_id>6596</mission_id>
+			<mission_id>6597</mission_id>
+			<mission_id>6598</mission_id>
+			<mission_id>6599</mission_id>
+			<mission_id>6600</mission_id>
+			<mission_id>6601</mission_id>
+			<mission_id>6602</mission_id>
+			<mission_id>6603</mission_id>
+			<mission_id>6604</mission_id>
+			<mission_id>6605</mission_id>
+			<mission_id>6606</mission_id>
+			<mission_id>6607</mission_id>
+			<mission_id>6608</mission_id>
+			<mission_id>6609</mission_id>
+			<mission_id>6610</mission_id>
+		</missions>
+		<rewards>
+			<item level="1" id="1011" number="100" /> <!-- Gold -->
+			<item level="2" id="545" number="2" /> <!-- Tribe 1 Epic Packs -->
+			<item level="3" id="556" number="2" /> <!-- Tribe 2 Epic Packs -->
+			<card level="4" id="2208"/> <!-- Map Legendary -->
+			<card level="5" id="2208"/> <!-- Map Legendary -->
+			<card level="6" id="12208"/> <!-- Dual Map Legendary -->
+			<item level="7" id="2531" number="1" /> <!-- Inventory Expansion -->
+		</rewards>
+		<find_item id="3128" drop_per_energy="0.5"/>
+		<find_item id="2527" drop_per_energy="0.01"/>
+	</campaign>
+
+
 	<!-- ====================================== -->
 	<!-- = START (1000-) Original Event Nodes = -->
 	<!-- ====================================== -->
@@ -7345,7 +7402,7 @@
 			<card level="6" id="2130"/> <!-- Repeat Epic A -->
 			<item level="7" id="3123"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3122" drop_per_energy="0.2"/>
+		<find_item id="3122" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -7375,7 +7432,7 @@
 			<card level="6" id="2104"/> <!-- Repeat Epic B -->
 			<item level="7" id="3123"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3122" drop_per_energy="0.4"/>
+		<find_item id="3122" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Boss Node -->
@@ -7409,7 +7466,7 @@
 			<item level="6" id="3124"/> <!--  Noble Swordfish Spellstone  -->
 			<item level="7" id="3124"/> <!--  Noble Swordfish Spellstone  -->
 		</rewards>
-		<find_item id="3122" drop_per_energy="0.4"/>
+		<find_item id="3122" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- ================================== Campaign Event 26 weeks 5-8 / Gladius Scriptorium ================================== -->
@@ -7441,7 +7498,7 @@
 			<card level="6" id="2041"/> <!-- Repeat Epic A -->
 			<item level="7" id="3123"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3122" drop_per_energy="0.6"/>
+		<find_item id="3122" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -7471,7 +7528,7 @@
 			<card level="6" id="2040"/> <!-- Repeat Epic B -->
 			<item level="7" id="3123"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3122" drop_per_energy="0.8"/>
+		<find_item id="3122" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- ========== Campaign Event 27 weeks 1-4 / Skyhaven Assault ============ -->
@@ -7502,7 +7559,7 @@
 			<card level="6" id="2084"/> <!-- Repeat Epic A -->
 			<item level="7" id="3126"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3125" drop_per_energy="0.2"/>
+		<find_item id="3125" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -7532,7 +7589,7 @@
 			<card level="6" id="2085"/> <!-- Repeat Epic B -->
 			<item level="7" id="3126"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3125" drop_per_energy="0.4"/>
+		<find_item id="3125" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Christmas Event 2020 -->
@@ -7583,7 +7640,7 @@
 			<item level="6" id="3127"/> <!--  Herald of Judgment's Spellstone  -->
 			<item level="7" id="3127"/> <!--  Herald of Judgment's Spellstone  -->
 		</rewards>
-		<find_item id="3125" drop_per_energy="0.4"/>
+		<find_item id="3125" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- ========= Campaign Event 27 weeks 5-8 / Skyhaven Assault ========= -->
@@ -7614,7 +7671,7 @@
 			<card level="6" id="2162"/> <!-- Repeat Epic A -->
 			<item level="7" id="3126"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3125" drop_per_energy="0.6"/>
+		<find_item id="3125" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -7644,7 +7701,7 @@
 			<card level="6" id="2012"/> <!-- Repeat Epic C -->
 			<item level="7" id="3126"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3125" drop_per_energy="0.8"/>
+		<find_item id="3125" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- ========== Campaign Event 28 weeks 1-4 / Conflux Convergence ============ -->
@@ -7652,8 +7709,8 @@
 	<campaign>
 		<id>1278</id>
 		<name>World Conflux</name>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="24" level="1"/>
+		<event_only>1</event_only>
+		<hidden>1</hidden>
 		<location_id>34</location_id>
 		<x>10</x>
 		<y>240</y>
@@ -7675,14 +7732,14 @@
 			<card level="6" id="2095"/> <!-- Repeat Epic A -->
 			<item level="7" id="3129"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3128" drop_per_energy="0.2"/>
+		<find_item id="3128" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
 		<id>1279</id>
 		<name>Dyrnwyn's Judgement</name>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="1278" level="1"/>
+		<event_only>1</event_only>
+		<hidden>1</hidden>
 		<battleground_id>2115</battleground_id> <!-- Enemy BGE -->
 		<location_id>34</location_id>
 		<x>280</x>
@@ -7705,7 +7762,7 @@
 			<card level="6" id="2170"/> <!-- Repeat Epic B -->
 			<item level="7" id="3129"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3128" drop_per_energy="0.4"/>
+		<find_item id="3128" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Boss Node -->
@@ -7715,8 +7772,8 @@
 		<name>Faction Weakness Awakening</name>
 		<type>2</type>
 		<icon id="gem_Boss_LG" bundle="0"/>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="1278" level="1"/>
+		<event_only>1</event_only>
+		<hidden>1</hidden>
 		<battleground_id>2116</battleground_id> <!-- Enemy BGE -->
 		<location_id>34</location_id>
 		<show_level>1</show_level>
@@ -7739,7 +7796,7 @@
 			<item level="6" id="3130"/> <!--  Shatterstone Anomaly's Spellstone  -->
 			<item level="7" id="3130"/> <!--  Shatterstone Anomaly's Spellstone  -->
 		</rewards>
-		<find_item id="3128" drop_per_energy="0.4"/>
+		<find_item id="3128" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- April Fool's Campaign 2021 -->
@@ -7797,8 +7854,8 @@
 	<campaign>
 		<id>1284</id>
 		<name>Titan Conflux</name>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="1279" level="1"/>
+		<event_only>1</event_only>
+		<hidden>1</hidden>
 		<battleground_id>2117</battleground_id> <!-- Enemy BGE -->
 		<location_id>34</location_id>
 		<x>600</x>
@@ -7821,14 +7878,14 @@
 			<card level="6" id="2143"/> <!-- Repeat Epic B -->
 			<item level="7" id="3129"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3128" drop_per_energy="0.4"/>
+		<find_item id="3128" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
 		<id>1285</id>
 		<name>Spellstone's End</name>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="1284" level="1"/>
+		<event_only>1</event_only>
+		<hidden>1</hidden>
 		<battleground_id>2118</battleground_id> <!-- Enemy BGE -->
 		<location_id>34</location_id>
 		<x>650</x>
@@ -7851,7 +7908,7 @@
 			<card level="6" id="2192"/> <!-- Repeat Epic B -->
 			<item level="7" id="3129"/> <!-- Crafting Item for Legendary Card -->
 		</rewards>
-		<find_item id="3128" drop_per_energy="0.4"/>
+		<find_item id="3128" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- ======================== -->
@@ -7892,7 +7949,7 @@
 			<item level="6" id="2603" number="75"/> <!-- Dragon Flasks -->
 			<card level="7" id="2211"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3083" drop_per_energy="0.4"/>
+		<find_item id="3083" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -7923,7 +7980,7 @@
 			<item level="6" id="2603" number="75"/> <!-- Dragon Flasks -->
 			<card level="7" id="2211"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3083" drop_per_energy="0.4"/>
+		<find_item id="3083" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 30 - Beetleton Bunker -->
@@ -7956,7 +8013,7 @@
 			<item level="6" id="2604" number="75"/> <!-- Insect Flasks -->
 			<card level="7" id="2211"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3056" drop_per_energy="0.6"/>
+		<find_item id="3056" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -7987,7 +8044,7 @@
 			<item level="6" id="2604" number="75"/> <!-- Insect Flasks -->
 			<card level="7" id="2211"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3056" drop_per_energy="0.8"/>
+		<find_item id="3056" drop_per_energy="0.5"/>
 	</campaign>
 	
 	<!-- Campaign Event 31 - Goblin Rise Stronghold -->
@@ -8020,7 +8077,7 @@
 			<item level="6" id="2605" number="75"/> <!-- Goblin Flasks -->
 			<card level="7" id="2214"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3071" drop_per_energy="0.6"/>
+		<find_item id="3071" drop_per_energy="0.5"/>
 	</campaign>
 	
 	<campaign>
@@ -8051,7 +8108,7 @@
 			<item level="6" id="2605" number="75"/> <!-- Goblin Flasks -->
 			<card level="7" id="2214"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3071" drop_per_energy="0.8"/>
+		<find_item id="3071" drop_per_energy="0.5"/>
 	</campaign>
 	
 	<!-- Campaign Event 32 - The Celestial Vault  -->
@@ -8084,7 +8141,7 @@
 			<item level="6" id="2606" number="75"/> <!-- Celestial Flasks -->
 			<card level="7" id="2214"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3065" drop_per_energy="0.6"/>
+		<find_item id="3065" drop_per_energy="0.5"/>
 	</campaign>
 	
 	<campaign>
@@ -8115,7 +8172,7 @@
 			<item level="6" id="2606" number="75"/> <!-- Celestial Flasks -->
 			<card level="7" id="2214"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3065" drop_per_energy="0.8"/>
+		<find_item id="3065" drop_per_energy="0.5"/>
 	</campaign>
 	
 	<!-- Campaign Event 33 - Desolate Red Valley  -->
@@ -8148,7 +8205,7 @@
 			<item level="6" id="2613" number="75"/> <!-- Red Valley Flasks -->
 			<card level="7" id="2217"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3080" drop_per_energy="0.6"/>
+		<find_item id="3080" drop_per_energy="0.5"/>
 	</campaign>
 	
 	
@@ -8180,7 +8237,7 @@
 			<item level="6" id="2613" number="75"/> <!-- Red Valley Flasks -->
 			<card level="7" id="2217"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3080" drop_per_energy="0.8"/>
+		<find_item id="3080" drop_per_energy="0.5"/>
 	</campaign>
 	
 	<!-- Campaign Event 34 - The Pharos Temple  -->
@@ -8213,7 +8270,7 @@
 			<item level="6" id="2614" number="75"/> <!-- Pharos Flask -->
 			<card level="7" id="2217"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3059" drop_per_energy="0.6"/>
+		<find_item id="3059" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8244,7 +8301,7 @@
 			<item level="6" id="2614" number="75"/> <!-- Pharos Flask -->
 			<card level="7" id="2217"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3059" drop_per_energy="0.8"/>
+		<find_item id="3059" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- 6th Anniversary -->
@@ -8296,7 +8353,7 @@
 			<item level="6" id="2624" number="75"/> <!-- Skyhaven Flask -->
 			<card level="7" id="2220"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3068" drop_per_energy="0.6"/>
+		<find_item id="3068" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8327,7 +8384,7 @@
 			<item level="6" id="2624" number="75"/> <!-- Skyhaven Flask -->
 			<card level="7" id="2220"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3068" drop_per_energy="0.8"/>
+		<find_item id="3068" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 36 - Fireshard Mine  -->
@@ -8360,7 +8417,7 @@
 			<item level="6" id="2625" number="75"/> <!-- Fireshard Flask -->
 			<card level="7" id="2220"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3062" drop_per_energy="0.6"/>
+		<find_item id="3062" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8391,7 +8448,7 @@
 			<item level="6" id="2625" number="75"/> <!-- Fireshard Flask -->
 			<card level="7" id="2220"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3062" drop_per_energy="0.8"/>
+		<find_item id="3062" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Halloween Campaign 2021 -->
@@ -8438,7 +8495,7 @@
 			<item level="6" id="2626" number="75"/> <!-- Healed Dawnglow Flask -->
 			<card level="7" id="2223"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3110" drop_per_energy="0.6"/>
+		<find_item id="3110" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8469,7 +8526,7 @@
 			<item level="6" id="2626" number="75"/> <!-- Healed Dawnglow Flask -->
 			<card level="7" id="2223"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3110" drop_per_energy="0.8"/>
+		<find_item id="3110" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Christmas Event 2021 -->
@@ -8519,7 +8576,7 @@
 			<item level="6" id="2633" number="75"/> <!-- World's Center Flask -->
 			<card level="7" id="2223"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3104" drop_per_energy="0.6"/>
+		<find_item id="3104" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8550,7 +8607,7 @@
 			<item level="6" id="2633" number="75"/> <!-- World's Center Flask -->
 			<card level="7" id="2223"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3104" drop_per_energy="0.8"/>
+		<find_item id="3104" drop_per_energy="0.5"/>
 	</campaign>
 	
 	<!-- Campaign Event 39 - The Abyss  -->
@@ -8582,7 +8639,7 @@
 			<item level="6" id="2634" number="75"/> <!-- The Abyss Flask -->
 			<card level="7" id="2225"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3098" drop_per_energy="0.6"/>
+		<find_item id="3098" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8613,7 +8670,7 @@
 			<item level="6" id="2634" number="75"/> <!-- The Abyss Flask -->
 			<card level="7" id="2225"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3098" drop_per_energy="0.8"/>
+		<find_item id="3098" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 40 - Stormy Seastone Citadel -->
@@ -8646,7 +8703,7 @@
 			<item level="6" id="2635" number="75"/> <!-- Stormy Seastone Flask -->
 			<card level="7" id="2225"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3101" drop_per_energy="0.6"/>
+		<find_item id="3101" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8677,7 +8734,7 @@
 			<item level="6" id="2635" number="75"/> <!-- Stormy Seastone Flask -->
 			<card level="7" id="2225"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3101" drop_per_energy="0.8"/>
+		<find_item id="3101" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 88 - Return to Tarragon Peak -->
@@ -8710,7 +8767,7 @@
 			<item level="6" id="2639" number="75"/> <!-- Tarragon Traverse Flask -->
 			<card level="7" id="2229"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3119" drop_per_energy="0.6"/>
+		<find_item id="3119" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8741,7 +8798,7 @@
 			<item level="6" id="2639" number="75"/> <!-- Tarragon Traverse Flask -->
 			<card level="7" id="2229"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3119" drop_per_energy="0.8"/>
+		<find_item id="3119" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- April Fool's Campaign 2022 -->
@@ -8792,7 +8849,7 @@
 			<item level="6" id="2640" number="75"/> <!-- Elaria Holy Flask -->
 			<card level="7" id="2229"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3107" drop_per_energy="0.6"/>
+		<find_item id="3107" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8823,7 +8880,7 @@
 			<item level="6" id="2640" number="75"/> <!-- Elaria Holy Flask -->
 			<card level="7" id="2229"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3107" drop_per_energy="0.8"/>
+		<find_item id="3107" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 90 - Frigore -->
@@ -8855,7 +8912,7 @@
 			<item level="6" id="2641" number="75"/> <!-- Frigore Flask -->
 			<card level="7" id="2232"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3049" drop_per_energy=".6"/>
+		<find_item id="3049" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8886,7 +8943,7 @@
 			<item level="6" id="2641" number="75"/> <!-- Frigore Flask -->
 			<card level="7" id="2232"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3049" drop_per_energy=".8"/>
+		<find_item id="3049" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 91 - Forgotten Island -->
@@ -8918,7 +8975,7 @@
 			<item level="6" id="2642" number="75"/> <!-- Forgotten Flask -->
 			<card level="7" id="2232"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3074" drop_per_energy=".6"/>
+		<find_item id="3074" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -8949,7 +9006,7 @@
 			<item level="6" id="2642" number="75"/> <!-- Forgotten Flask -->
 			<card level="7" id="2232"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3074" drop_per_energy=".8"/>
+		<find_item id="3074" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 92 - Duskwillow rebuilt -->
@@ -8982,7 +9039,7 @@
 			<item level="6" id="2655" number="75"/> <!-- Duskwillow Rebuilt Flask -->
 			<card level="7" id="2236"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3089" drop_per_energy=".6"/>
+		<find_item id="3089" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9013,7 +9070,7 @@
 			<item level="6" id="2655" number="75"/> <!-- Duskwillow Rebuilt Flask -->
 			<card level="7" id="2236"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3089" drop_per_energy=".8"/>
+		<find_item id="3089" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 93 -  Skyhaven Assault -->
@@ -9045,7 +9102,7 @@
 			<item level="6" id="28170" number="75"/> <!-- Frog Super Flask -->
 			<card level="7" id="2236"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3125" drop_per_energy=".6"/>
+		<find_item id="3125" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9076,7 +9133,7 @@
 			<item level="6" id="28170" number="75"/> <!-- Frog Super Flask -->
 			<card level="7" id="2236"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3125" drop_per_energy=".8"/>
+		<find_item id="3125" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 94 -  The Void Plane -->
@@ -9109,7 +9166,7 @@
 			<item level="6" id="2663" number="75"/> <!-- Void Plane Flask -->
 			<card level="7" id="2239"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3053" drop_per_energy=".6"/>
+		<find_item id="3053" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9140,7 +9197,7 @@
 			<item level="6" id="2663" number="75"/> <!-- Void Plane Flask -->
 			<card level="7" id="2239"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3053" drop_per_energy=".8"/>
+		<find_item id="3053" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- 7th Anniversary -->
@@ -9192,7 +9249,7 @@
 			<item level="6" id="2664" number="75"/> <!-- Salt Wastes Flask -->
 			<card level="7" id="2239"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3095" drop_per_energy=".6"/>
+		<find_item id="3095" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9223,7 +9280,7 @@
 			<item level="6" id="2664" number="75"/> <!-- Salt Wastes Flask -->
 			<card level="7" id="2239"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3095" drop_per_energy=".8"/>
+		<find_item id="3095" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Halloween Campaign 2022 -->
@@ -9270,7 +9327,7 @@
 			<item level="6" id="2665" number="75"/> <!-- Duskwillow Flask -->
 			<card level="7" id="2241"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3048" drop_per_energy=".6"/>
+		<find_item id="3048" drop_per_energy="0.5"/>
 		<find_item id="2522" drop_per_energy="0.04"/>
 	</campaign>
 
@@ -9302,7 +9359,7 @@
 			<item level="6" id="2665" number="75"/> <!-- Duskwillow Flask -->
 			<card level="7" id="2241"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3048" drop_per_energy=".8"/>
+		<find_item id="3048" drop_per_energy="0.5"/>
 		<find_item id="2522" drop_per_energy="0.04"/>
 	</campaign>
 
@@ -9335,7 +9392,7 @@
 			<item level="6" id="2672" number="75"/> <!-- Golden Flask -->
 			<card level="7" id="2244"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3077" drop_per_energy=".6"/>
+		<find_item id="3077" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9366,7 +9423,7 @@
 			<item level="6" id="2672" number="75"/> <!-- Golden Flask -->
 			<card level="7" id="2244"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3077" drop_per_energy=".8"/>
+		<find_item id="3077" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Christmas Event 2022 -->
@@ -9415,7 +9472,7 @@
 			<item level="6" id="2673" number="75"/> <!-- Void Invasion Flask -->
 			<card level="7" id="2244"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3053" drop_per_energy=".6"/>
+		<find_item id="3053" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9446,7 +9503,7 @@
 			<item level="6" id="2673" number="75"/> <!-- Void invasion Flask -->
 			<card level="7" id="2244"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3053" drop_per_energy=".8"/>
+		<find_item id="3053" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 99 -->
@@ -9479,7 +9536,7 @@
 			<item level="6" id="2604" number="75"/> <!-- Insect Flasks -->
 			<card level="7" id="2247"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3056" drop_per_energy="0.6"/>
+		<find_item id="3056" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9510,7 +9567,7 @@
 			<item level="6" id="2604" number="75"/> <!-- Insect Flasks -->
 			<card level="7" id="2247"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3056" drop_per_energy="0.8"/>
+		<find_item id="3056" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 100 - Tarragon Peak -->
@@ -9543,7 +9600,7 @@
 			<item level="6" id="2603" number="75"/> <!-- Dragon Flasks -->
 			<card level="7" id="2247"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3083" drop_per_energy="0.6"/>
+		<find_item id="3083" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9574,7 +9631,7 @@
 			<item level="6" id="2603" number="75"/> <!-- Dragon Flasks -->
 			<card level="7" id="2247"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3083" drop_per_energy="0.8"/>
+		<find_item id="3083" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 101 - Salt Wastes -->
@@ -9607,7 +9664,7 @@
 			<item level="6" id="2664" number="75"/> <!-- Salt Wastes Flask -->
 			<card level="7" id="2250"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3095" drop_per_energy="0.6"/>
+		<find_item id="3095" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9638,7 +9695,7 @@
 			<item level="6" id="2664" number="75"/> <!-- Salt Wastes Flask -->
 			<card level="7" id="2250"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3095" drop_per_energy="0.8"/>
+		<find_item id="3095" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 102 - Gladius Scriptorium -->
@@ -9671,7 +9728,7 @@
 			<item level="6" id="28230" number="75"/> <!-- Avian Super Flask -->
 			<card level="7" id="2250"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3122" drop_per_energy="0.6"/>
+		<find_item id="3122" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9702,7 +9759,7 @@
 			<item level="6" id="28230" number="75"/> <!-- Avian Super Flask -->
 			<card level="7" id="2250"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3122" drop_per_energy="0.8"/>
+		<find_item id="3122" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 103 - Stormy Seastone Citadel -->
@@ -9735,7 +9792,7 @@
 			<item level="6" id="2681" number="75"/> <!-- Stormy Seastone Flask -->
 			<card level="7" id="2253"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3101" drop_per_energy="0.6"/>
+		<find_item id="3101" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9766,7 +9823,7 @@
 			<item level="6" id="2681" number="75"/> <!-- Stormy Seastone Flask -->
 			<card level="7" id="2253"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3101" drop_per_energy="0.8"/>
+		<find_item id="3101" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Campaign Event 104 - Return To Luminis -->
@@ -9799,7 +9856,7 @@
 			<item level="6" id="2682" number="75"/> <!-- Return to Luminis Ultimate Flask -->
 			<card level="7" id="2253"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3113" drop_per_energy="0.6"/>
+		<find_item id="3113" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9830,7 +9887,7 @@
 			<item level="6" id="2682" number="75"/> <!-- Return to Luminis Ultimate Flask -->
 			<card level="7" id="2253"/> <!-- Map Legendary -->
 		</rewards>
-		<find_item id="3113" drop_per_energy="0.8"/>
+		<find_item id="3113" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- ================== -->
@@ -9872,8 +9929,7 @@
 			<card level="6" id="2256"/> <!-- New Reward Legendary -->
 			<item level="7" id="2683" number="125"/> <!-- New Distorted Beetleton Flask -->
 		</rewards>
-		<find_item id="3092" drop_per_energy="0.85"/>
-		<ignore_energy_reduction_until>1692291600</ignore_energy_reduction_until> <!-- Thursday, August 17, 2023 at 17:00:00 -->
+		<find_item id="3092" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9905,8 +9961,7 @@
 			<card level="6" id="2256"/> <!-- New Reward Legendary -->
 			<item level="7" id="2683" number="125"/> <!-- New Distorted Beetleton Flask -->
 		</rewards>
-		<find_item id="3092" drop_per_energy="0.9"/>
-		<ignore_energy_reduction_until>1692291600</ignore_energy_reduction_until> <!-- Thursday, August 17, 2023 at 17:00:00 -->
+		<find_item id="3092" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 106: ComDev Goblin - Return to Karthos -->
@@ -9940,8 +9995,7 @@
 			<card level="6" id="511"/> <!-- Arcane Ore -->
 			<item level="7" id="2700" number="150"/> <!-- New Return to Karthos Flask in items_dsvn3j.xml -->
 		</rewards>
-		<find_item id="3116" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
-		<ignore_energy_reduction_until>1694710800</ignore_energy_reduction_until> <!-- Thursday, September 14, 2023 at 17:00:00	   -->
+		<find_item id="3116" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -9973,8 +10027,7 @@
 			<card level="6" id="2100"/> <!-- Kheptronos Reward Legendary -->
 			<item level="7" id="2700" number="150"/> <!-- New Return to Karthos Flask in items_dsvn3j.xml -->
 		</rewards>
-		<find_item id="3116" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
-		<ignore_energy_reduction_until>1694710800</ignore_energy_reduction_until> <!-- Thursday, September 14, 2023 at 17:00:00	   -->
+		<find_item id="3116" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 107: ComDev Elementals - Conflux Convergence -->
@@ -9983,9 +10036,8 @@
 		<id>1355</id>
 		<name>The Goblins' Conflux</name>
 		<icon id="machine_parts_200" bundle="17"/>
-		<!-- <hidden>1</hidden> -->
-		<campaign_req id="36" level="1"/>
-		<locked_start_time>1694710800</locked_start_time> <!-- Thursday, 14 September 2023 at 17:00:00 -->
+		<event_only>1</event_only>
+		<hidden>1</hidden>
 		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
 		<location_id>34</location_id> <!-- Conflux Convergence in map_config.xml -->
 		<x>110</x> <!-- Left Right -->
@@ -10008,17 +10060,16 @@
 			<card level="6" id="2007"/> <!-- Platinum Golum Reward Legendary -->
 			<item level="7" id="28180" number="150"/> <!-- Elemental Super Flask -->
 		</rewards>
-		<find_item id="3128" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
-		<ignore_energy_reduction_until>1697130000</ignore_energy_reduction_until> <!-- Thursday, 12 October 2023 at 17:00:00 -->
+		<find_item id="3128" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
 		<id>1356</id>
 		<name>Furious Clouds</name>
 		<icon id="machine_parts_200" bundle="17"/>
-		<!-- <hidden>1</hidden> -->
+		<event_only>1</event_only>
+		<hidden>1</hidden>
 		<campaign_req id="1355" level="1"/>
-		<locked_start_time>1695920400</locked_start_time> <!--  Thursday, 28 September 2023 17:00:00 -->
 		<battleground_id>2120</battleground_id> <!-- ComDev node enemy scaling in battleground_effects.xml -->
 		<location_id>34</location_id> <!-- Conflux Convergence in map_config.xml -->
 		<x>450</x> <!-- Left Right -->
@@ -10041,8 +10092,7 @@
 			<card level="6" id="2007"/> <!-- Platinum Golum Reward Legendary -->
 			<item level="7" id="28180" number="150"/> <!-- Elemental Super Flask -->
 		</rewards>
-		<find_item id="3128" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
-		<ignore_energy_reduction_until>1697130000</ignore_energy_reduction_until> <!-- Thursday, 12 October 2023 at 17:00:00 -->
+		<find_item id="3128" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 108: ComDev Seafolk - Pharos Temple -->
@@ -10076,8 +10126,7 @@
 			<card level="6" id="2026"/> <!-- Lazarus -->
 			<item level="7" id="28250" number="150"/> <!-- Seafolk Super Flask -->
 		</rewards>
-		<find_item id="3059" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
-		<ignore_energy_reduction_until>1699549200</ignore_energy_reduction_until> <!-- Thursday, 09 November 2023 at 17:00:00 -->
+		<find_item id="3059" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -10109,8 +10158,7 @@
 			<card level="6" id="2026"/> <!-- Lazarus -->
 			<item level="7" id="28250" number="150"/> <!-- Seafolk Super Flask -->
 		</rewards>
-		<find_item id="3059" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
-		<ignore_energy_reduction_until>1699549200</ignore_energy_reduction_until> <!-- Thursday, 09 November 2023 at 17:00:00 -->
+		<find_item id="3059" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 109: ComDev Angel - Skyhaven Assault -->
@@ -10144,8 +10192,7 @@
 			<card level="6" id="2257"/> <!-- Pyra -->
 			<item level="7" id="28190" number="150"/> <!-- Angel Super Flask -->
 		</rewards>
-		<find_item id="3125" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
-		<ignore_energy_reduction_until>1701968400</ignore_energy_reduction_until> <!-- Thursday, 07 December 2023 at 17:00:00 -->
+		<find_item id="3125" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -10177,8 +10224,7 @@
 			<card level="6" id="2257"/> <!-- Pyra -->
 			<item level="7" id="28190" number="150"/> <!-- Angel Super Flask -->
 		</rewards>
-		<find_item id="3125" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
-		<ignore_energy_reduction_until>1701968400</ignore_energy_reduction_until> <!-- Thursday, 07 December 2023 at 17:00:00 -->
+		<find_item id="3125" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 110: ComDev Frog - Golden Crown Village -->
@@ -10212,8 +10258,7 @@
 			<card level="6" id="2258"/> <!-- Painter van Frogh -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3077" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
-		<ignore_energy_reduction_until>1704387600</ignore_energy_reduction_until> <!-- Thursday, 04 January 2024 at 17:00:00 -->
+		<find_item id="3077" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -10245,8 +10290,7 @@
 			<card level="6" id="2223"/> <!-- Stalker Hextongue -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3077" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
-		<ignore_energy_reduction_until>1704387600</ignore_energy_reduction_until> <!-- Thursday, 04 January 2024 at 17:00:00 -->
+		<find_item id="3077" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 111: ComDev Dragon - Return to Tarragon Peak -->
@@ -10280,8 +10324,7 @@
 			<card level="6" id="2068"/> <!-- Whitesail Wyvern -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3119" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
-		<ignore_energy_reduction_until>1706806800</ignore_energy_reduction_until> <!-- Thursday, 01 February 2024 at 17:00:00 -->
+		<find_item id="3119" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -10313,8 +10356,7 @@
 			<card level="6" id="2068"/> <!-- Whitesail Wyvern -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3119" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
-		<ignore_energy_reduction_until>1706806800</ignore_energy_reduction_until> <!-- Thursday, 01 February 2024 at 17:00:00 -->
+		<find_item id="3119" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 112: ComDev Beast - Gladius Arena -->
@@ -10348,8 +10390,7 @@
 			<card level="6" id="2220"/> <!-- Frozenbolt Adept -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3086" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
-		<ignore_energy_reduction_until>1709226000</ignore_energy_reduction_until> <!-- Thursday, 29 February 2024 at 17:00:00 -->
+		<find_item id="3086" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -10381,8 +10422,7 @@
 			<card level="6" id="2220"/> <!-- Frozenbolt Adept -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3086" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
-		<ignore_energy_reduction_until>1709226000</ignore_energy_reduction_until> <!-- Thursday, 29 February 2024 at 17:00:00 -->
+		<find_item id="3086" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 113: ComDev Beast - Return to Elaria -->
@@ -10416,8 +10456,7 @@
 			<card level="6" id="2022"/> <!-- Avalanche Equine -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3107" drop_per_energy="0.85"/> <!-- Halve to 0.85 after end of BGE -->
-		<ignore_energy_reduction_until>1711645200</ignore_energy_reduction_until> <!-- Thursday, 28 March 2024 at 17:00:00 -->
+		<find_item id="3107" drop_per_energy="0.5"/>
 	</campaign>
 
 	<campaign>
@@ -10449,8 +10488,7 @@
 			<card level="6" id="2022"/> <!-- Avalanche Equine -->
 			<item level="7" id="529" number="2"/> <!-- Massive Runecrafter Chest -->
 		</rewards>
-		<find_item id="3107" drop_per_energy="0.9"/> <!-- Halve to 0.9 after end of BGE -->
-		<ignore_energy_reduction_until>1711645200</ignore_energy_reduction_until> <!-- Thursday, 28 March 2024 at 17:00:00 -->
+		<find_item id="3107" drop_per_energy="0.5"/>
 	</campaign>
 
 	<!-- Event 114: ComDev Avian - Red Feather Valley -->
@@ -11234,7 +11272,6 @@
 			<card level="6" id="512"/>
 			<item level="7" id="2509"/>
 		</rewards>
-		<ignore_energy_reduction>1</ignore_energy_reduction>
 	</campaign>
 	<campaign>
 		<id>3004</id>
@@ -11264,7 +11301,6 @@
 			<card level="6" id="512"/>
 			<item level="7" id="2510"/>
 		</rewards>
-		<ignore_energy_reduction>1</ignore_energy_reduction>
 	</campaign>
 
 	<campaign>
@@ -11295,7 +11331,6 @@
 			<card level="6" id="512"/>
 			<item level="7" id="2511"/>
 		</rewards>
-		<ignore_energy_reduction>1</ignore_energy_reduction>
 	</campaign>
 
 	<campaign>
@@ -11326,7 +11361,6 @@
 			<card level="6" id="512"/>
 			<item level="7" id="2512"/>
 		</rewards>
-		<ignore_energy_reduction>1</ignore_energy_reduction>
 	</campaign>
 
 	<campaign>
@@ -11357,7 +11391,6 @@
 			<card level="6" id="512"/>
 			<item level="7" id="2513"/>
 		</rewards>
-		<ignore_energy_reduction>1</ignore_energy_reduction>
 	</campaign>
 
 	<campaign>
@@ -11388,7 +11421,6 @@
 			<card level="6" id="512"/>
 			<item level="7" id="2514"/>
 		</rewards>
-		<ignore_energy_reduction>1</ignore_energy_reduction>
 	</campaign>
 
 	<!-- END Hero Upgrade Campaigns -->
@@ -11616,16 +11648,11 @@
 	<!-- LBN Vulcanos Dragon event 88 -->
 	<campaign>
 		<id>4001</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Vulcanos</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6807</mission_id>
 			<mission_id>6808</mission_id>
@@ -11634,33 +11661,16 @@
 			<mission_id>6811</mission_id>
 			<mission_id>6812</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="512"/>
-			<card level="5" id="2006"/>
-			<card level="6" id="2006"/>
-			<item level="7" id="104057" number="100"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Vulcanos Dragon event 88 END -->
 
 	<!-- LBN Alyel Angel event 89 -->
 	<campaign>
 		<id>4002</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Alyel</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6825</mission_id>
 			<mission_id>6826</mission_id>
@@ -11669,33 +11679,16 @@
 			<mission_id>6829</mission_id>
 			<mission_id>6830</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2006"/>
-			<card level="5" id="2006"/>
-			<item level="6" id="104058" number="25"/>
-			<item level="7" id="104058" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Alyel Angel event 89 END -->
 
 	<!-- LBN Ashanti Avian event 90 -->
 	<campaign>
 		<id>4003</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Ashanti</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6843</mission_id>
 			<mission_id>6844</mission_id>
@@ -11704,33 +11697,16 @@
 			<mission_id>6847</mission_id>
 			<mission_id>6848</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2233"/>
-			<card level="5" id="2233"/>
-			<item level="6" id="104059" number="25"/>
-			<item level="7" id="104059" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Ashanti Avian event 90 END -->
 
 	<!-- LBN Nophora Insect event 91 -->
 	<campaign>
 		<id>4004</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Nophora</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6861</mission_id>
 			<mission_id>6862</mission_id>
@@ -11739,33 +11715,16 @@
 			<mission_id>6865</mission_id>
 			<mission_id>6866</mission_id>
 		</missions>
-		<rewards>
-			<item level="1" id="1005" number="4"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2233"/>
-			<card level="5" id="2233"/>
-			<item level="6" id="104060" number="25"/>
-			<item level="7" id="104060" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Nophora Insect event 91 END -->
 
 	<!-- LBN Llorona Undead event 92 -->
 	<campaign>
 		<id>4005</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Llorona</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6879</mission_id>
 			<mission_id>6880</mission_id>
@@ -11774,33 +11733,16 @@
 			<mission_id>6883</mission_id>
 			<mission_id>6884</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2145"/>
-			<card level="5" id="2145"/>
-			<item level="6" id="104061" number="25"/>
-			<item level="7" id="104061" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Llorona Undead event 92 END -->
 
 	<!-- LBN Caesar Frog event 93 -->
 	<campaign>
 		<id>4006</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Caesar</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6897</mission_id>
 			<mission_id>6898</mission_id>
@@ -11809,33 +11751,16 @@
 			<mission_id>6901</mission_id>
 			<mission_id>6902</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2145"/>
-			<card level="5" id="2145"/>
-			<item level="6" id="104062" number="25"/>
-			<item level="7" id="104062" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Caesar Frog event 93 END -->
 
 	<!-- LBN Remi Elemental event 94 -->
 	<campaign>
 		<id>4007</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Remi</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6922</mission_id>
 			<mission_id>6923</mission_id>
@@ -11844,33 +11769,16 @@
 			<mission_id>6926</mission_id>
 			<mission_id>6927</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2071"/>
-			<card level="5" id="2071"/>
-			<item level="6" id="104063" number="25"/>
-			<item level="7" id="104063" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Remi Frog event 94 END -->
 
 	<!-- LBN Darkassan Mecha event 95 -->
 	<campaign>
 		<id>4008</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Darkassan</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6940</mission_id>
 			<mission_id>6941</mission_id>
@@ -11879,33 +11787,16 @@
 			<mission_id>6944</mission_id>
 			<mission_id>6945</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2071"/>
-			<card level="5" id="2071"/>
-			<item level="6" id="104064" number="25"/>
-			<item level="7" id="104064" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Darkassan Mecha event 95 END -->
 
 	<!-- LBN Lerna Seafolk event 96 -->
 	<campaign>
 		<id>4009</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Lerna</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6961</mission_id>
 			<mission_id>6962</mission_id>
@@ -11914,33 +11805,16 @@
 			<mission_id>6965</mission_id>
 			<mission_id>6966</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2108"/>
-			<card level="5" id="2108"/>
-			<item level="6" id="104065" number="25"/>
-			<item level="7" id="104065" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Lerna Seafolk event 96 END -->
 
 	<!-- LBN Krampus Goblin event 97 -->
 	<campaign>
 		<id>4010</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Krampus</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>6984</mission_id>
 			<mission_id>6985</mission_id>
@@ -11949,33 +11823,16 @@
 			<mission_id>6988</mission_id>
 			<mission_id>6989</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2108"/>
-			<card level="5" id="2108"/>
-			<item level="6" id="104066" number="25"/>
-			<item level="7" id="104066" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Krampus Goblin event 97 END -->
 
 	<!-- LBN Uncommon Allies event 98 -->
 	<campaign>
 		<id>4011</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Allies</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>7002</mission_id>
 			<mission_id>7003</mission_id>
@@ -11984,33 +11841,16 @@
 			<mission_id>7006</mission_id>
 			<mission_id>7007</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2220"/>
-			<card level="5" id="2220"/>
-			<item level="6" id="104067" number="25"/>
-			<item level="7" id="104067" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Uncommon Allies event 98 END -->
 
 	<!-- LBN Nophora event 99 -->
 	<campaign>
 		<id>4012</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Nophora's Return</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>7020</mission_id>
 			<mission_id>7021</mission_id>
@@ -12019,33 +11859,16 @@
 			<mission_id>7024</mission_id>
 			<mission_id>7025</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2051"/>
-			<card level="5" id="2051"/>
-			<item level="6" id="105640" number="25"/>
-			<item level="7" id="105640" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Nophora event 99 END -->
 
 	<!-- LBN Vulcanos event 100 -->
 	<campaign>
 		<id>4013</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Vulcanos' Payback</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>7038</mission_id>
 			<mission_id>7039</mission_id>
@@ -12054,33 +11877,16 @@
 			<mission_id>7042</mission_id>
 			<mission_id>7043</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2051"/>
-			<card level="5" id="2051"/>
-			<item level="6" id="104068" number="25"/>
-			<item level="7" id="104068" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Vulcanos event 100 END -->
 
 	<!-- LBN Caesar event 101 -->
 	<campaign>
 		<id>4014</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Caesar's Return</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>7056</mission_id>
 			<mission_id>7057</mission_id>
@@ -12089,101 +11895,52 @@
 			<mission_id>7060</mission_id>
 			<mission_id>7061</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2220"/>
-			<card level="5" id="2220"/>
-			<item level="6" id="104069" number="25"/>
-			<item level="7" id="104069" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
 
-	<!-- LBN Caesar event 101 END -->
 	<!-- LBN Ashanti event 102 -->
 	<campaign>
-		<id>4015</id> <!-- HERE -->
-		<event_only>1</event_only>
+		<id>4015</id>
 		<hidden>1</hidden>
-		<name>Classic Lightning Ashanti's Trial</name> <!-- HERE -->
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<name>Classic Lightning Ashanti's Trial</name>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
-			<mission_id>7074</mission_id> <!-- HERE -->
-			<mission_id>7075</mission_id> <!-- HERE -->
-			<mission_id>7076</mission_id> <!-- HERE -->
-			<mission_id>7077</mission_id> <!-- HERE -->
-			<mission_id>7078</mission_id> <!-- HERE -->
-			<mission_id>7079</mission_id> <!-- HERE -->
+			<mission_id>7074</mission_id>
+			<mission_id>7075</mission_id>
+			<mission_id>7076</mission_id>
+			<mission_id>7077</mission_id>
+			<mission_id>7078</mission_id>
+			<mission_id>7079</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2043"/> <!-- HERE -->
-			<card level="5" id="2043"/> <!-- HERE -->
-			<item level="6" id="104070" number="25"/> <!-- HERE -->
-			<item level="7" id="104070" number="75"/> <!-- HERE -->
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
 
-	<!-- LBN Ashanti event 102 END -->
 	<!-- LBN Llorona event 103 -->
 	<campaign>
-		<id>4016</id> <!-- HERE -->
-		<event_only>1</event_only>
+		<id>4016</id>
 		<hidden>1</hidden>
-		<name>Classic Lightning Llorona's Rebirth</name> <!-- HERE -->
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<name>Classic Lightning Llorona's Rebirth</name>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
-			<mission_id>7092</mission_id> <!-- HERE -->
-			<mission_id>7093</mission_id> <!-- HERE -->
-			<mission_id>7094</mission_id> <!-- HERE -->
-			<mission_id>7095</mission_id> <!-- HERE -->
-			<mission_id>7096</mission_id> <!-- HERE -->
-			<mission_id>7097</mission_id> <!-- HERE -->
+			<mission_id>7092</mission_id>
+			<mission_id>7093</mission_id>
+			<mission_id>7094</mission_id>
+			<mission_id>7095</mission_id>
+			<mission_id>7096</mission_id>
+			<mission_id>7097</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2089"/> <!-- HERE -->
-			<card level="5" id="2089"/> <!-- HERE -->
-			<item level="6" id="104071" number="25"/> <!-- HERE -->
-			<item level="7" id="104071" number="75"/> <!-- HERE -->
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Llorona event 103 END -->
 
 	<!-- LBN Darkassan Mecha event 104 -->
 	<campaign>
 		<id>4017</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Classic Lightning Darkassan's Trial</name>
-		<icon id="gem_Boss_LG" bundle="0"/>
-		<exclude_map_bges>1</exclude_map_bges>
-		<side_mission>1</side_mission>
-		<location_id>6</location_id> <!-- All Classic Lightning Bosses will be in Seastone Citadel -->
-		<x>450</x> <!-- All Classic Lightning Bosses will be in the same position -->
-		<y>550</y> <!-- All Classic Lightning Bosses will be in the same position -->
-		<combatBG>CombatBGEvent008</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>7110</mission_id>
 			<mission_id>7111</mission_id>
@@ -12192,19 +11949,7 @@
 			<mission_id>7114</mission_id>
 			<mission_id>7115</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="510"/>
-			<card level="2" id="511"/>
-			<card level="3" id="511"/>
-			<card level="4" id="2089"/>
-			<card level="5" id="2089"/>
-			<item level="6" id="104072" number="25"/>
-			<item level="7" id="104072" number="75"/>
-		</rewards>
-		<find_item id="2515" drop_per_energy="0.04"/> <!-- Embersouls -->
 	</campaign>
-
-	<!-- LBN Darkassan Mecha event 104 END -->
 
 	<!-- Event 105: Insects ComDev Lightning Node-->
 	<campaign>
@@ -12246,7 +11991,6 @@
 	<!-- Event 106: ComDev Goblin - New Lightning Node-->
 	<campaign>
 		<id>5001</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Lightning Boss Gobtoh</name>
 		<location_id>99</location_id>
@@ -12260,21 +12004,11 @@
 			<mission_id>2005</mission_id>
 			<mission_id>2006</mission_id>
 		</missions>
-		<rewards>
-			<item level="1" id="516"/> <!-- Thank You crate (energy and bounty refill) -->
-			<card level="2" id="511"/> <!-- Arcane Ore -->
-			<card level="3" id="511"/> <!-- Arcane Ore -->
-			<item level="4" id="104074" number="25"/> <!-- Sivun -->
-			<item level="5" id="104074" number="75"/> <!-- Sivun -->
-			<item level="6" id="2801" number="25"/> <!-- Goblin Civil War Flask -->
-			<item level="7" id="2801" number="75"/> <!-- Goblin Civil War Flask -->
-		</rewards>
 	</campaign>
 
 	<!-- Event 107: ComDev Elementals - New Lightning Node-->
 	<campaign>
 		<id>5002</id>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<name>Lightning Boss K'luum</name>
 		<location_id>99</location_id>
@@ -12295,7 +12029,6 @@
 	<campaign>
 		<id>5003</id>
 		<name>Spellstone's 8th Anniversary</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12316,7 +12049,6 @@
 	<campaign>
 		<id>5004</id>
 		<name>Lightning Boss Scylla</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12335,7 +12067,6 @@
 	<campaign>
 		<id>5005</id>
 		<name>A Midnight Dreary</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12352,7 +12083,6 @@
 	<campaign>
 		<id>5006</id>
 		<name>Lightning Boss Orobas</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12371,7 +12101,6 @@
 	<campaign>
 		<id>5007</id>
 		<name>Epic Spellstone Xmas</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12396,7 +12125,6 @@
 	<campaign>
 		<id>5008</id>
 		<name>Roses are Red</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12417,7 +12145,6 @@
 	<campaign>
 		<id>5009</id>
 		<name>Coming Soon!</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12433,7 +12160,6 @@
 	<campaign>
 		<id>5010</id>
 		<name>Coming Very Soon!!</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12448,7 +12174,6 @@
 	<campaign>
 		<id>5011</id>
 		<name>Coming Real Soon (TM) Now!!!</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12465,7 +12190,6 @@
 	<campaign>
 		<id>5012</id>
 		<name>One Year of ComDev Part I</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12483,7 +12207,6 @@
 	<campaign>
 		<id>5013</id>
 		<name>One Year of ComDev Part II</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12504,7 +12227,6 @@
 	<campaign>
 		<id>5014</id>
 		<name>Spellstone's 9th Anniversary</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
 		<location_id>99</location_id>
 		<x>0</x>
@@ -12527,13 +12249,10 @@
 	<campaign>
 		<id>5015</id>
 		<name>The Untold Legend of Pumpking</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
-		<icon id="pumpkin" bundle="75"/>
-		<location_id>36</location_id>
-		<x>600</x>
-		<y>550</y>
-		<combatBG>CombatBGVoid</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>2092</mission_id>
 			<mission_id>2093</mission_id>
@@ -12543,28 +12262,15 @@
 			<mission_id>2097</mission_id>
 			<mission_id>2098</mission_id>
 		</missions>
-		<rewards>
-			<card level="1" id="502"/> <!-- Arcane Pumpkin -->
-			<card level="2" id="502"/> <!-- Arcane Pumpkin -->
-			<card level="3" id="503"/> <!-- Large Arcane Pumpkin -->
-			<card level="4" id="503"/> <!-- Large Arcane Pumpkin -->
-			<card level="5" id="514"/> <!-- Larger Arcane Pumpkin -->
-			<card level="6" id="514"/> <!-- Larger Arcane Pumpkin -->
-			<card level="7" id="20515"/> <!-- Largest Ever Arcane Pumpkin -->
-		</rewards>
-		<find_item id="3131" drop_per_energy="0.5"/> <!-- Keep same for all nodes in Red Feather Valley -->
 	</campaign>
 
 	<campaign>
 		<id>5016</id>
 		<name>Trick or Tantrum?</name>
-		<event_only>1</event_only>
 		<hidden>1</hidden>
-		<icon id="pumpkin" bundle="75"/>
-		<location_id>36</location_id>
-		<x>710</x>
-		<y>500</y>
-		<combatBG>CombatBGVoid</combatBG>
+		<location_id>99</location_id>
+		<x>0</x>
+		<y>0</y>
 		<missions>
 			<mission_id>2099</mission_id>
 			<mission_id>2100</mission_id>
@@ -12574,26 +12280,41 @@
 			<mission_id>2104</mission_id>
 			<mission_id>2105</mission_id>
 		</missions>
-		<rewards>
-			<item level="1" id="104500" number="50"/> <!-- Sneggle, the Insatiable -->
-			<item level="2" id="104501" number="50"/> <!-- Rasako, Ninja of the Swamp -->
-			<item level="3" id="104502" number="50"/> <!-- Mawu, the Moon Spirit -->
-			<item level="4" id="104503" number="50"/> <!-- Acheron, the Retaliator -->
-			<item level="5" id="104504" number="50"/> <!-- Maglheqet, God of Warriors -->
-			<item level="6" id="104505" number="50"/> <!-- The Last Dodo -->
-			<item level="7" id="531" number="1"/> <!-- Special Event Mystery Package -->
-		</rewards>
-		<find_item id="3131" drop_per_energy="0.5"/> <!-- Keep same for all nodes in Red Feather Valley -->
-		<find_item id="28170" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28180" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28190" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28200" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28220" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28230" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28240" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28250" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28260" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28270" drop_per_energy="0.001" min="5" max="5"/>
-		<find_item id="28290" drop_per_energy="0.001" min="5" max="5"/>
 	</campaign>
+
+	<!-- ============================================ -->
+	<!-- 10001+: START Post Consolidation Event Nodes -->
+	<!-- ============================================ -->
+
+	<!-- Event 124: ComDev Mecha - Conflux Convergence -->
+	<campaign>
+		<id>10124</id>
+		<name>Alyel Back in Time</name>
+		<event_only>1</event_only>
+		<hidden>1</hidden>
+		<icon id="energy_refill" bundle="30"/>
+		<battleground_id>2124</battleground_id>
+		<location_id>34</location_id>
+		<show_level>1</show_level>
+		<show_ranking>1</show_ranking>
+		<x>260</x>
+		<y>320</y>
+		<combatBG>CombatBGVoid</combatBG>
+		<missions>
+			<mission_id>10124</mission_id>
+		</missions>
+		<rewards>
+			<item level="1" id="28290" number="300"/> <!-- Super Flask -->
+			<item level="2" id="4013" number="4"/> <!-- Legendary Rune Sliver -->
+			<card level="3" id="20513"/> <!-- Arcane Motherlode -->
+			<item level="4" id="28290" number="300"/> <!-- Super Flask -->
+			<item level="5" id="20" number="6"/> <!-- Arena Trophy -->
+			<item level="6" id="529" number="4"/> <!-- Massive Runecrafter Chest -->
+			<item level="7" id="104093" number="100"/> <!-- New Reward Champion -->
+		</rewards>
+		<find_item id="3128" drop_per_energy="1"/>
+		<find_item id="104500" drop_per_energy="0.01" min="1" max="4"/>
+	</campaign>
+
+
 </root>

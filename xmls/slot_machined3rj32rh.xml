@@ -52,18 +52,18 @@
 	</drop_key>
 	
 	<!-- ============================ -->
-	
+		
 	<slot_reward>
-		<p>0.15</p>	<!-- Hefty Mythical Flask 4 -->
+		<p>0.15</p>	<!-- Random legendary rune x1 -->
 		<drop_rarity>4</drop_rarity>
-		<item id='2529' quantity='4' />
+		<item id='523' quantity='1' />
 	</slot_reward>
+		
 	<slot_reward>
-		<p>0.15</p>	<!-- Legendary Rune Sliver x2 -->
-		<drop_rarity>4</drop_rarity>
+		<p>0.3</p>	<!-- Legendary Rune Sliver x2 -->
+		<drop_rarity>3</drop_rarity>
 		<item id='4013' quantity='2' />
 	</slot_reward>
-
 	<slot_reward>
 		<jackpot_item>1</jackpot_item>
 		<p>0.3</p>
@@ -71,47 +71,95 @@
 		<drop_rarity>3</drop_rarity>
 		<item id='104002' quantity='50' />
 	</slot_reward>
+
 	<slot_reward>
-		<p>0.3</p>	<!-- Runecrafter's Chest x1 -->
+		<p>1</p>	<!-- Runecrafter's Chest x1 -->
+		<drop_rarity>2</drop_rarity>
+		<item id='512' quantity='1' />
+	</slot_reward>
+	<slot_reward>
+		<p>1</p>	<!-- Energy Refill +20 x5 -->
+		<drop_rarity>2</drop_rarity>
+		<item id='1004' quantity='5' />
+	</slot_reward>
+	<slot_reward>
+		<p>1</p>	<!-- Bounty Refill +5 x4 -->
+		<drop_rarity>2</drop_rarity>
+		<item id='1023' quantity='4' />
+	</slot_reward>
+	<slot_reward>
+		<p>1</p>	<!-- Arcane Dust x200 -->
+		<drop_rarity>2</drop_rarity>
+		<dust>200</dust>
+	</slot_reward>
+
+
+	<!-- old (prior to december 2024)
+	<slot_reward>
+		<p>0.15</p>	
+		<drop_rarity>4</drop_rarity>
+		<item id='2529' quantity='4' />
+	</slot_reward>
+	<slot_reward>
+		<p>0.15</p>	
+		<drop_rarity>4</drop_rarity>
+		<item id='4013' quantity='2' />
+	</slot_reward>
+
+	<slot_reward>
+		<jackpot_item>1</jackpot_item>
+		<p>0.3</p>
+		
+		<drop_rarity>3</drop_rarity>
+		<item id='104002' quantity='50' />
+	</slot_reward>
+	<slot_reward>
+		<p>0.3</p>	
 		<drop_rarity>3</drop_rarity>
 		<item id='512' quantity='1' />
 	</slot_reward>
 
 	<slot_reward>
-		<p>1</p>	<!-- Energy Refill +20 x2 -->
+		<p>1</p>	
 		<drop_rarity>2</drop_rarity>
 		<item id='1004' quantity='2' />
 	</slot_reward>
 	<slot_reward>
-		<p>1</p>	<!-- Bounty Refill +5 -->
+		<p>1</p>	
 		<drop_rarity>2</drop_rarity>
 		<item id='1023' quantity='1' />
 	</slot_reward>
 	<slot_reward>
-		<p>1</p>	<!-- Blue Fire Souls x35 -->
+		<p>1</p>	
 		<drop_rarity>2</drop_rarity>
 		<item id='2501' quantity='35' />
 	</slot_reward>
 	<slot_reward>
-		<p>1</p>	<!-- Inscription Powder x8 -->
+		<p>1</p>	
 		<drop_rarity>2</drop_rarity>
 		<item id='4001' quantity='8' />
 	</slot_reward>
 	<slot_reward>
-		<p>1</p>	<!-- Arcane Fragments x10 -->
+		<p>1</p>	
 		<drop_rarity>2</drop_rarity>
 		<item id='2001' quantity='10' />
 	</slot_reward>
 	<slot_reward>
-		<p>1</p>	<!-- Arcane Dust x20 -->
+		<p>1</p>	
 		<drop_rarity>2</drop_rarity>
 		<dust>20</dust>
 	</slot_reward>
 	<slot_reward>
-		<p>1</p>	<!-- Tiny Mythical Flask x2 -->
+		<p>1</p>	
 		<drop_rarity>2</drop_rarity>
 		<item id='2526' quantity='2' />
 	</slot_reward>
+	<slot_reward>
+		<p>1</p>	
+		<drop_rarity>2</drop_rarity>
+		<item id='2526' quantity='4' />
+	</slot_reward>
+	-->
 
 	<!-- 
 	<slot_reward>

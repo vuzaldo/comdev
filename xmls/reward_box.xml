@@ -23,27 +23,6 @@
 	<!-- 6001-: Old events removed. See old versions for archive. -->
 
 	<event_box>
-		<id>6122</id>
-		<name>Frog Reward Box</name>
-		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Frog card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
-		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
-		<category>1</category>
-		<asset_prefab>frog_arena_box</asset_prefab>
-		<background_prefab>arena_box_banner</background_prefab>
-		<bundle>76</bundle>
-		<priority>-60</priority>
-		<show_desc>1</show_desc>
-		<cost item="5" num="1000"/>
-		<start_index>1</start_index>
-		<chance_pack>1</chance_pack>
-		<item id="20" order="1"/>
-		<item id="544" order="2"/>
-		<item id="544" order="3"/>
-		<item id="544" order="4"/>
-		<bonus_item id="104504" min="1" max="4"/>
-	</event_box>
-
-	<event_box>
 		<id>6123</id>
 		<name>Beast Reward Box</name>
 		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Beast card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
@@ -62,6 +41,27 @@
 		<item id="554" order="3"/>
 		<item id="554" order="4"/>
 		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>6124</id>
+		<name>Mecha Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Mecha card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="556" order="2"/>
+		<item id="556" order="3"/>
+		<item id="556" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
 	</event_box>
 
 </root>

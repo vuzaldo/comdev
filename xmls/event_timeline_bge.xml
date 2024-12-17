@@ -1757,4 +1757,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6124</id>
+		<name>Winter Engine&apos;s Warmth</name>
+		<desc>All Mechas gain Ward, Frostbreath, and Scorch equal to 10% of their base Health.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>188</bg_effect>
+		</effect>
+		<start_time>1735837200</start_time> <!-- Thursday, January 02, 2025 at 17:00:00 -->
+		<end_time>1740675600</end_time> <!-- Thursday, February 27, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
