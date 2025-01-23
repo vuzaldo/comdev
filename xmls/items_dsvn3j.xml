@@ -2433,10 +2433,10 @@
 			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28182" quantity="1"/> <!-- Aether 1D and 2D -->
+			<item id="28182" quantity="1"/> <!-- Aether Maki and 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28183" quantity="1"/> <!-- Aether 4D -->
+			<item id="28183" quantity="1"/> <!-- Aether Mo-Bling and 4D -->
 		</choice>
 	</item>
 		<item>
@@ -2460,10 +2460,10 @@
 		</item>
 		<item>
 			<id>28183</id> <!-- Note ID numbering convention for flask within flask -->
-			<name>Sound of Death, Allfather Elemental Flask</name>
+			<name>Sound of Death, Allfather, Mo-Bling Elemental Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Sound of Death, Allfather Stones; OR revert</desc>
+			<desc>Consume to get your choice of Sound of Death, Allfather, Mo-Bling Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
@@ -2472,6 +2472,9 @@
 			</choice>
 			<choice id="3">
 				<item id="104043" quantity="1"/> <!-- Allfather -->
+			</choice>
+			<choice id="4">
+				<item id="104087" quantity="1"/> <!-- Mo-Bling -->
 			</choice>
 		</item>
 	<item>
@@ -4214,6 +4217,7 @@
 		<desc>A soul forged in the lava depths of Tarragon. Combine with Herald of Judgement's Spellstone to summon Herald of Judgement!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1740675600</decay_time> <!-- Thursday, 27 February 2025 -->
 	</item>
 
 	<item>
@@ -4224,6 +4228,7 @@
 		<desc>A Spellstone formed between the earth of Tarragon and air of Skyhaven. Combine with Fiery Soul to summon the Herald of Judgement!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1740675600</decay_time> <!-- Thursday, 27 February 2025 -->
 	</item>
 
 	<!-- Event 74 Elemental -->
@@ -4245,6 +4250,7 @@
 		<desc>A soul trapped in the Void. Combine with Shattered Spellstone to summon Shatterstone Anomaly!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1738256400</decay_time> <!-- Thursday, 30 January 2025 -->
 	</item>
 
 	<item>
@@ -4255,6 +4261,7 @@
 		<desc>A collection of shattered Spellstones. Combine with Void Soul to summon Shatterstone Anomaly!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1738256400</decay_time> <!-- Thursday, 30 January 2025 -->
 	</item>
 
 	<!-- Map Red Feather Valley -->
@@ -6034,6 +6041,7 @@
 		<desc>Unlocks the ability to craft the card Herald of Judgement!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1740675600</decay_time> <!-- Thursday, 27 February 2025 -->
 	</item>
 
 	<item>
@@ -6045,6 +6053,7 @@
 		<desc>Unlocks the ability to craft the card Shatterstone Anomaly!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1738256400</decay_time> <!-- Thursday, 30 January 2025 -->
 	</item>
 
 	<item>

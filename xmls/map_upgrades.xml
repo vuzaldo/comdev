@@ -1562,33 +1562,15 @@
 		<upgrade>
 			<level>1</level>
 			<upgrade_cost>50</upgrade_cost>
-			<desc>All enemy creatures are hit with Bolt 1 each turn.</desc>
-			<desc_upgrade>^c0F0FAll enemy creatures are hit with Bolt 1 each turn.</desc_upgrade>
-			<effect>
-				<skill id="strike" x="1" all="1" enemy_only="1" ally_turn="1"/>
-			</effect>
-		</upgrade>
-		<upgrade>
-			<level>2</level>
-			<upgrade_cost>150</upgrade_cost>
 			<desc>All enemy creatures are hit with Bolt 2 each turn.</desc>
-			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 2^cFFFF each turn.</desc_upgrade>
+			<desc_upgrade>^c0F0FAll enemy creatures are hit with Bolt 2 each turn.</desc_upgrade>
 			<effect>
 				<skill id="strike" x="2" all="1" enemy_only="1" ally_turn="1"/>
 			</effect>
 		</upgrade>
 		<upgrade>
-			<level>3</level>
-			<upgrade_cost>350</upgrade_cost>
-			<desc>All enemy creatures are hit with Bolt 3 each turn.</desc>
-			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 3^cFFFF each turn.</desc_upgrade>
-			<effect>
-				<skill id="strike" x="3" all="1" enemy_only="1" ally_turn="1"/>
-			</effect>
-		</upgrade>
-		<upgrade>
-			<level>4</level>
-			<upgrade_cost>800</upgrade_cost>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
 			<desc>All enemy creatures are hit with Bolt 4 each turn.</desc>
 			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 4^cFFFF each turn.</desc_upgrade>
 			<effect>
@@ -1596,21 +1578,39 @@
 			</effect>
 		</upgrade>
 		<upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 6 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 6^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id="strike" x="6" all="1" enemy_only="1" ally_turn="1"/>
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
+			<desc>All enemy creatures are hit with Bolt 8 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 8^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id="strike" x="8" all="1" enemy_only="1" ally_turn="1"/>
+			</effect>
+		</upgrade>
+		<upgrade>
 			<level>5</level>
 			<upgrade_cost>1500</upgrade_cost>
-			<desc>All enemy creatures are hit with Bolt 5 each turn.</desc>
-			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 5^cFFFF each turn.</desc_upgrade>
+			<desc>All enemy creatures are hit with Bolt 10 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 10^cFFFF each turn.</desc_upgrade>
 			<effect>
-				<skill id="strike" x="5" all="1" enemy_only="1" ally_turn="1"/>
+				<skill id="strike" x="10" all="1" enemy_only="1" ally_turn="1"/>
 			</effect>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
 			<upgrade_cost>3000</upgrade_cost>
-			<desc>All enemy creatures are hit with Bolt 6 each turn.</desc>
-			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 6^cFFFF each turn.</desc_upgrade>
+			<desc>All enemy creatures are hit with Bolt 12 each turn.</desc>
+			<desc_upgrade>All enemy creatures are hit with ^c0F0FBolt 12^cFFFF each turn.</desc_upgrade>
 			<effect>
-				<skill id="strike" x="6" all="1" enemy_only="1" ally_turn="1"/>
+				<skill id="strike" x="12" all="1" enemy_only="1" ally_turn="1"/>
 			</effect>
 		</upgrade>
 	</map_upgrade>
@@ -1624,24 +1624,15 @@
 		<upgrade>
 			<level>1</level>
 			<upgrade_cost>50</upgrade_cost>
-			<desc>All of your creatures gain Armor 1 each turn.</desc>
-			<desc_upgrade>^c0F0FAll of your creatures gain Armor 1 each turn.</desc_upgrade>
-			<effect>
-				<skill id="imbue" s="armored" x="1" all="1" ally_only="1"/>
-			</effect>
-		</upgrade>
-		<upgrade>
-			<level>2</level>
-			<upgrade_cost>150</upgrade_cost>
 			<desc>All of your creatures gain Armor 2 each turn.</desc>
-			<desc_upgrade>All of your creatures gain ^c0F0FArmor 2^cFFFF each turn.</desc_upgrade>
+			<desc_upgrade>^c0F0FAll of your creatures gain Armor 2 each turn.</desc_upgrade>
 			<effect>
 				<skill id="imbue" s="armored" x="2" all="1" ally_only="1"/>
 			</effect>
 		</upgrade>
 		<upgrade>
-			<level>3</level>
-			<upgrade_cost>350</upgrade_cost>
+			<level>2</level>
+			<upgrade_cost>150</upgrade_cost>
 			<desc>All of your creatures gain Armor 3 each turn.</desc>
 			<desc_upgrade>All of your creatures gain ^c0F0FArmor 3^cFFFF each turn.</desc_upgrade>
 			<effect>
@@ -1649,17 +1640,17 @@
 			</effect>
 		</upgrade>
 		<upgrade>
-			<level>4</level>
-			<upgrade_cost>800</upgrade_cost>
-			<desc>All of your creatures gain Armor 4 each turn.</desc>
-			<desc_upgrade>All of your creatures gain ^c0F0FArmor 4^cFFFF each turn.</desc_upgrade>
+			<level>3</level>
+			<upgrade_cost>350</upgrade_cost>
+			<desc>All of your creatures gain Armor 5 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 5^cFFFF each turn.</desc_upgrade>
 			<effect>
-				<skill id="imbue" s="armored" x="4" all="1" ally_only="1"/>
+				<skill id="imbue" s="armored" x="5" all="1" ally_only="1"/>
 			</effect>
 		</upgrade>
 		<upgrade>
-			<level>5</level>
-			<upgrade_cost>1500</upgrade_cost>
+			<level>4</level>
+			<upgrade_cost>800</upgrade_cost>
 			<desc>All of your creatures gain Armor 6 each turn.</desc>
 			<desc_upgrade>All of your creatures gain ^c0F0FArmor 6^cFFFF each turn.</desc_upgrade>
 			<effect>
@@ -1667,12 +1658,21 @@
 			</effect>
 		</upgrade>
 		<upgrade>
-			<level>6</level>
-			<upgrade_cost>3000</upgrade_cost>
+			<level>5</level>
+			<upgrade_cost>1500</upgrade_cost>
 			<desc>All of your creatures gain Armor 8 each turn.</desc>
 			<desc_upgrade>All of your creatures gain ^c0F0FArmor 8^cFFFF each turn.</desc_upgrade>
 			<effect>
 				<skill id="imbue" s="armored" x="8" all="1" ally_only="1"/>
+			</effect>
+		</upgrade>
+		<upgrade>
+			<level>6</level>
+			<upgrade_cost>3000</upgrade_cost>
+			<desc>All of your creatures gain Armor 9 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FArmor 9^cFFFF each turn.</desc_upgrade>
+			<effect>
+				<skill id="imbue" s="armored" x="9" all="1" ally_only="1"/>
 			</effect>
 		</upgrade>
 	</map_upgrade>

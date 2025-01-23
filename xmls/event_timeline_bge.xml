@@ -1771,4 +1771,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6125</id>
+		<name>Invisible Embers</name>
+		<desc>All 0-3 Delay Dragons gain 6 Emberhide and all 3-4 Delay Dragons gain Invisibility equal to their Delay.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>189</bg_effect>
+		</effect>
+		<start_time>1738256400</start_time> <!-- Thursday, January 30, 2025 at 17:00:00 -->
+		<end_time>1743094800</end_time> <!-- Thursday, March 27, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
