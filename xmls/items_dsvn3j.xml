@@ -2573,74 +2573,116 @@
 			<item id="19" number="1"/>
 		</item_salvage>
 		<choice id="1">
-			<item id="28191" quantity="1"/> <!-- Aether 1D -->
+			<item id="28191" quantity="1"/> <!-- Aether -->
 		</choice>
 		<choice id="2">
-			<item id="28192" quantity="1"/> <!-- Aether and Wyld 2D, 3D and 4D -->
-		</choice>
-		<choice id="3">
-			<item id="28193" quantity="1"/> <!-- Chaos and Factionless -->
+			<item id="28194" quantity="1"/> <!-- Non-Aether -->
 		</choice>
 	</item>
 
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28191</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Razi, Leyla, Melkira Angel Flask</name>
+		<name>Aether Angel Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Razi, Leyla, Melkira Stones; OR revert</desc>
+		<desc>A flask of flasks containing all previous Aether Angel Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28190" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104002" quantity="1"/> <!-- Razi -->
+			<item id="28192" quantity="1"/> <!-- 1D-2D -->
 		</choice>
 		<choice id="3">
-			<item id="104041" quantity="1"/> <!-- Leyla -->
-		</choice>
-		<choice id="4">
-			<item id="104077" quantity="1"/> <!-- Melkira -->
+			<item id="28193" quantity="1"/> <!-- 3D-4D -->
 		</choice>
 	</item>
+		<item>
+			<id>28192</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Razi, Leyla, Melkira Angel Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Razi, Leyla, Melkira Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28190" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104002" quantity="1"/> <!-- Razi -->
+			</choice>
+			<choice id="3">
+				<item id="104041" quantity="1"/> <!-- Leyla -->
+			</choice>
+			<choice id="4">
+				<item id="104077" quantity="1"/> <!-- Melkira -->
+			</choice>
+		</item>
+		<item>
+			<id>28193</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Kachina, Cyno, Triangelis Angel Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Kachina, Cyno, Triangelis Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28190" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104009" quantity="1"/> <!-- Kachina -->
+			</choice>
+			<choice id="3">
+				<item id="104029" quantity="1"/> <!-- Cyno -->
+			</choice>
+			<choice id="4">
+				<item id="104088" quantity="1"/> <!-- Triangelis -->
+			</choice>
+		</item>
 	<item>
-		<id>28192</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Kachina, Cyno, Freya Angel Flask</name>
+		<id>28194</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Non-Aether Angel Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Kachina, Cyno, Freya Stones; OR revert</desc>
+		<desc>A flask of flasks containing all previous Chaos, Wyld, Factionless Angel Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28190" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104009" quantity="1"/> <!-- Kachina -->
+			<item id="28195" quantity="1"/> <!-- Chaos -->
 		</choice>
 		<choice id="3">
-			<item id="104029" quantity="1"/> <!-- Cyno -->
-		</choice>
-		<choice id="4">
-			<item id="104051" quantity="1"/> <!-- Freya -->
+			<item id="28196" quantity="1"/> <!-- Wyld and Allies -->
 		</choice>
 	</item>
-	<item>
-		<id>28193</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Batara, Alyel, Allies Angel Flask</name>
-		<icon>Lava_Vial</icon>
-		<bundle>17</bundle>
-		<desc>Consume to get your choice of Batara, Alyel, Allies Stones; OR revert</desc>
-		<choice id="1">
-			<item id="28190" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
-		<choice id="2">
-			<item id="104015" quantity="1"/> <!-- Batara -->
-		</choice>
-		<choice id="3">
-			<item id="104058" quantity="1"/> <!-- Alyel -->
-		</choice>
-		<choice id="4">
-			<item id="104067" quantity="1"/> <!-- Allies -->
-		</choice>
-	</item>
+		<item>
+			<id>28195</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Batara, Alyel Angel Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Batara, Alyel Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28190" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104015" quantity="1"/> <!-- Batara -->
+			</choice>
+			<choice id="3">
+				<item id="104058" quantity="1"/> <!-- Alyel -->
+			</choice>
+		</item>
+		<item>
+			<id>28196</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Freya, Allies Angel Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Freya, Allies Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28190" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104051" quantity="1"/> <!-- Freya -->
+			</choice>
+			<choice id="3">
+				<item id="104067" quantity="1"/> <!-- Allies -->
+			</choice>
+		</item>
 
 	<!-- Undead -->
 
@@ -4186,6 +4228,7 @@
 		<desc>A small creature found living in a Skyhaven pond. Combine with Noble Swordfish's Spellstone to summon Noble Swordfish!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1743094800</decay_time> <!-- Thursday, 27 March 2025 -->
 	</item>
 
 	<item>
@@ -4196,6 +4239,7 @@
 		<desc>A Spellstone formed from a tear of Scylla. Combine with Acquatic Soul to summon Noble Swordfish!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1743094800</decay_time> <!-- Thursday, 27 March 2025 -->
 	</item>
 
 	<!-- Event 72 Angel -->
@@ -6030,6 +6074,7 @@
 		<desc>Unlocks the ability to craft the card Noble Swordfish!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1743094800</decay_time> <!-- Thursday, 27 March 2025 -->
 	</item>
 
 	<item>
