@@ -54,7 +54,7 @@
                         <section id="next-bge">
                             <div class="row mt-4">
                                 <div class="col-md-6">
-                                    <h2>Next BGE</h2>
+                                    <h2 id="nextBge">Next BGE</h2>
                                     <h5 class="mt-2" id="startTime">Start Time</h5>
                                     <div class="row">
                                         <div class="col-md-6 col-auto mt-2"><label class="form-label" for="selectTribe">Select Tribe</label></div>
@@ -138,7 +138,15 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 mt-2">
-                                    <h6><i>event_timeline_bge.xml</i></h6>
+                                    <div class="row mt-2">
+                                        <div class="col-auto">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="useEventNumber" checked />
+                                                <label class="form-check-label" for="useEventNumber" style="user-select: none">Include event number in filenames</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h6 class="mt-3"><i>event_timeline_bge.xml</i></h6>
                                     <textarea class="code" id="event_timeline_bge"></textarea>
                                     <button class="btn btn-light mt-1 copy-btn btn-border" onclick="copyText(this)">Copy</button>
                                     <button class="btn btn-light mt-1 icon-btn btn-border" onclick="downloadFile(this)"><i class="bi bi-download"></i></button>
@@ -647,9 +655,9 @@
         <!-- CodeMirror-->
         <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.14/lib/codemirror.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.14/mode/xml/xml.js"></script>
-        <script src="js/scripts.js?v=1740596955158"></script>
-        <script src="js/data.js?v=1740596955158"></script>
-        <script src="js/templates.js?v=1740596955158"></script>
-        <script src="js/generate.js?v=1740596955158"></script>
+        <script src="js/scripts.js?v=1741179613425"></script>
+        <script src="js/data.js?v=1741179613425"></script>
+        <script src="js/templates.js?v=1741179613425"></script>
+        <script src="js/generate.js?v=1741179613425"></script>
     </body>
 </html>

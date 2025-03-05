@@ -99,13 +99,18 @@ function copyText(button) {
 		updateButtonContent(button, 'Failed');
 	});
 }
+function getFilename(editor) {
+	const useEventNumber = document.getElementById('useEventNumber').checked;
+	const suffix = useEventNumber ? `_E${eventNumber}` : '';
+	return `${editor.id}${suffix}.xml`;
+}
 function downloadFile(button) {
 	const editor = getNthPreviousSibling(button, 3);
 	const text = editors[editor.id].getValue();
 	const blob = new Blob([text]);
 	const link = document.createElement('a');
 	link.href = window.URL.createObjectURL(blob);
-	link.download = `${editor.id}_E${eventNumber}.xml`;
+	link.download = getFilename(editor);
 	link.click();
 	window.URL.revokeObjectURL(link.href);
 }
@@ -122,7 +127,7 @@ async function downloadCompleteFile(button) {
 	const blob = new Blob([originalContent.replace('</root>', text + '\n\n</root>')]);
 	const link = document.createElement('a');
 	link.href = window.URL.createObjectURL(blob);
-	link.download = `${editor.id}_E${eventNumber}.xml`;
+	link.download = getFilename(editor);
 	link.click();
 	window.URL.revokeObjectURL(link.href);
 }
@@ -317,6 +322,9 @@ while (nextStartTime < currentUnixTime) {
 	numCycles++;
 }
 
+const eventNumber = 105 + numCycles;
+
+document.getElementById('nextBge').textContent = `Next BGE (E${eventNumber})`;
 document.getElementById('startTime').textContent = convertTimestamp(nextStartTime, false);
 document.getElementById('expeditionStartTime').textContent = convertTimestamp(nextStartTime, false);
 const clashStartTime = nextStartTime + day;
@@ -347,7 +355,7 @@ document.querySelectorAll('textarea.code').forEach(textArea => {
 'wars_clash expeditions brawls bge n3rjc_AC'.split(' ').forEach(e => {
 	editors['event_timeline_' + e].getWrapperElement().style.minHeight = '15rem';
 });
-editors['reward_box'].getWrapperElement().style.minHeight = '31rem';
+editors['reward_box'].getWrapperElement().style.minHeight = '25rem';
 editors['event_timeline_clash'].getWrapperElement().style.minHeight = '34rem';
 editors['event_timeline_dungeons'].getWrapperElement().style.minHeight = '60rem';
 

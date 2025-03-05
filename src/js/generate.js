@@ -266,7 +266,6 @@ function updateEditors() {
 
 const raidCount = 1;
 
-const eventNumber = 105 + numCycles;
 const clashId = 22198 + numCycles * 2;
 const dungeonId = 28067 + numCycles - raidCount;
 const warId = 30087 + numCycles;
