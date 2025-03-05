@@ -200,8 +200,9 @@ function generate() {
 		selectMapCycle.value = findSelectorOption(selectMapCycle, options.map);
 	else
 		selectMapCycle.selectedIndex = Math.floor(Math.random() * (selectMapCycle.options.length));
-	const expeditionItem = ITEMS[EXPEDITION[selectMapCycle.value].point_item];
-	document.getElementById('expeditionName').value = expeditionItem + ' Expedition';
+	// const expeditionItem = ITEMS[EXPEDITION[selectMapCycle.value].point_item];
+	// document.getElementById('expeditionName').value = expeditionItem + ' Expedition';
+	document.getElementById('expeditionName').value = EXPEDITION[selectMapCycle.value].name + ' Expedition';
 	selectMapCycle.dispatchEvent(new Event('change'));
 }
 
@@ -637,7 +638,8 @@ function propagateEventNode() {
 			eventMapX = x;
 			eventMapY = y;
 			if (expeditionName.value) {
-				expeditionName.value = ITEMS[EXPEDITION[selectMapCycle.value].point_item] + ' Expedition';
+				// expeditionName.value = ITEMS[EXPEDITION[selectMapCycle.value].point_item] + ' Expedition';
+				expeditionName.value = EXPEDITION[selectMapCycle.value].name + ' Expedition';
 			}
 			updateEditors();
 		}
