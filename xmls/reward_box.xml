@@ -22,8 +22,548 @@
 
 	<!-- 6001-: Old events removed. See old versions for archive. -->
 
+
+	<!-- Frog -->
+
 	<event_box>
-		<id>6125</id>
+		<id>65440</id>
+		<name>Frog Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Frog card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="544" order="2"/>
+		<item id="544" order="3"/>
+		<item id="544" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65441</id>
+		<name>Frog Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Frog card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="544" order="2"/>
+		<item id="544" order="3"/>
+		<item id="544" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65442</id>
+		<name>Frog Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Frog card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="544" order="2"/>
+		<item id="544" order="3"/>
+		<item id="544" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65443</id>
+		<name>Frog Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Frog card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="544" order="2"/>
+		<item id="544" order="3"/>
+		<item id="544" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65444</id>
+		<name>Frog Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Frog card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="544" order="2"/>
+		<item id="544" order="3"/>
+		<item id="544" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65445</id>
+		<name>Frog Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Frog card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>frog_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="544" order="2"/>
+		<item id="544" order="3"/>
+		<item id="544" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Elemental -->
+
+	<event_box>
+		<id>65450</id>
+		<name>Elemental Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Elemental card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="545" order="2"/>
+		<item id="545" order="3"/>
+		<item id="545" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65451</id>
+		<name>Elemental Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Elemental card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="545" order="2"/>
+		<item id="545" order="3"/>
+		<item id="545" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65452</id>
+		<name>Elemental Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Elemental card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="545" order="2"/>
+		<item id="545" order="3"/>
+		<item id="545" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65453</id>
+		<name>Elemental Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Elemental card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="545" order="2"/>
+		<item id="545" order="3"/>
+		<item id="545" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65454</id>
+		<name>Elemental Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Elemental card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="545" order="2"/>
+		<item id="545" order="3"/>
+		<item id="545" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65455</id>
+		<name>Elemental Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Elemental card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>elemental_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="545" order="2"/>
+		<item id="545" order="3"/>
+		<item id="545" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Angel -->
+
+	<event_box>
+		<id>65460</id>
+		<name>Angel Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Angel card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="546" order="2"/>
+		<item id="546" order="3"/>
+		<item id="546" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65461</id>
+		<name>Angel Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Angel card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="546" order="2"/>
+		<item id="546" order="3"/>
+		<item id="546" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65462</id>
+		<name>Angel Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Angel card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="546" order="2"/>
+		<item id="546" order="3"/>
+		<item id="546" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65463</id>
+		<name>Angel Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Angel card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="546" order="2"/>
+		<item id="546" order="3"/>
+		<item id="546" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65464</id>
+		<name>Angel Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Angel card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="546" order="2"/>
+		<item id="546" order="3"/>
+		<item id="546" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65465</id>
+		<name>Angel Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Angel card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="546" order="2"/>
+		<item id="546" order="3"/>
+		<item id="546" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Undead -->
+
+	<event_box>
+		<id>65470</id>
+		<name>Undead Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Undead card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="547" order="2"/>
+		<item id="547" order="3"/>
+		<item id="547" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65471</id>
+		<name>Undead Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Undead card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="547" order="2"/>
+		<item id="547" order="3"/>
+		<item id="547" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65472</id>
+		<name>Undead Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Undead card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="547" order="2"/>
+		<item id="547" order="3"/>
+		<item id="547" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65473</id>
+		<name>Undead Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Undead card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="547" order="2"/>
+		<item id="547" order="3"/>
+		<item id="547" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65474</id>
+		<name>Undead Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Undead card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="547" order="2"/>
+		<item id="547" order="3"/>
+		<item id="547" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65475</id>
+		<name>Undead Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Undead card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>undead_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="547" order="2"/>
+		<item id="547" order="3"/>
+		<item id="547" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Dragon -->
+
+	<event_box>
+		<id>65490</id>
+		<name>Dragon Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Dragon card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="549" order="2"/>
+		<item id="549" order="3"/>
+		<item id="549" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65491</id>
 		<name>Dragon Reward Box</name>
 		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Dragon card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
 		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
@@ -44,7 +584,136 @@
 	</event_box>
 
 	<event_box>
-		<id>6126</id>
+		<id>65492</id>
+		<name>Dragon Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Dragon card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="549" order="2"/>
+		<item id="549" order="3"/>
+		<item id="549" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65493</id>
+		<name>Dragon Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Dragon card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="549" order="2"/>
+		<item id="549" order="3"/>
+		<item id="549" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65494</id>
+		<name>Dragon Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Dragon card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="549" order="2"/>
+		<item id="549" order="3"/>
+		<item id="549" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65495</id>
+		<name>Dragon Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Dragon card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>dragon_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="549" order="2"/>
+		<item id="549" order="3"/>
+		<item id="549" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Avian -->
+
+	<event_box>
+		<id>65500</id>
+		<name>Avian Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Avian card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="550" order="2"/>
+		<item id="550" order="3"/>
+		<item id="550" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65501</id>
+		<name>Avian Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Avian card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="550" order="2"/>
+		<item id="550" order="3"/>
+		<item id="550" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65502</id>
 		<name>Avian Reward Box</name>
 		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Avian card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
 		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
@@ -62,6 +731,714 @@
 		<item id="550" order="3"/>
 		<item id="550" order="4"/>
 		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65503</id>
+		<name>Avian Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Avian card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="550" order="2"/>
+		<item id="550" order="3"/>
+		<item id="550" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65504</id>
+		<name>Avian Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Avian card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="550" order="2"/>
+		<item id="550" order="3"/>
+		<item id="550" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65505</id>
+		<name>Avian Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Avian card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>avian_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="550" order="2"/>
+		<item id="550" order="3"/>
+		<item id="550" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Goblin -->
+
+	<event_box>
+		<id>65510</id>
+		<name>Goblin Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Goblin card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="551" order="2"/>
+		<item id="551" order="3"/>
+		<item id="551" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65511</id>
+		<name>Goblin Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Goblin card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="551" order="2"/>
+		<item id="551" order="3"/>
+		<item id="551" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65512</id>
+		<name>Goblin Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Goblin card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="551" order="2"/>
+		<item id="551" order="3"/>
+		<item id="551" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65513</id>
+		<name>Goblin Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Goblin card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="551" order="2"/>
+		<item id="551" order="3"/>
+		<item id="551" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65514</id>
+		<name>Goblin Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Goblin card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="551" order="2"/>
+		<item id="551" order="3"/>
+		<item id="551" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65515</id>
+		<name>Goblin Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Goblin card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>goblin_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="551" order="2"/>
+		<item id="551" order="3"/>
+		<item id="551" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Seafolk -->
+
+	<event_box>
+		<id>65520</id>
+		<name>Seafolk Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Seafolk card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="552" order="2"/>
+		<item id="552" order="3"/>
+		<item id="552" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65521</id>
+		<name>Seafolk Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Seafolk card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="552" order="2"/>
+		<item id="552" order="3"/>
+		<item id="552" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65522</id>
+		<name>Seafolk Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Seafolk card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="552" order="2"/>
+		<item id="552" order="3"/>
+		<item id="552" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65523</id>
+		<name>Seafolk Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Seafolk card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="552" order="2"/>
+		<item id="552" order="3"/>
+		<item id="552" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65524</id>
+		<name>Seafolk Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Seafolk card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="552" order="2"/>
+		<item id="552" order="3"/>
+		<item id="552" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65525</id>
+		<name>Seafolk Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Seafolk card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="552" order="2"/>
+		<item id="552" order="3"/>
+		<item id="552" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Insect -->
+
+	<event_box>
+		<id>65530</id>
+		<name>Insect Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Insect card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="553" order="2"/>
+		<item id="553" order="3"/>
+		<item id="553" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65531</id>
+		<name>Insect Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Insect card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="553" order="2"/>
+		<item id="553" order="3"/>
+		<item id="553" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65532</id>
+		<name>Insect Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Insect card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="553" order="2"/>
+		<item id="553" order="3"/>
+		<item id="553" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65533</id>
+		<name>Insect Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Insect card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="553" order="2"/>
+		<item id="553" order="3"/>
+		<item id="553" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65534</id>
+		<name>Insect Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Insect card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="553" order="2"/>
+		<item id="553" order="3"/>
+		<item id="553" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65535</id>
+		<name>Insect Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Insect card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="553" order="2"/>
+		<item id="553" order="3"/>
+		<item id="553" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Beast -->
+
+	<event_box>
+		<id>65540</id>
+		<name>Beast Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Beast card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>event_006_chance_chest_w1</asset_prefab>
+		<background_prefab>event_006_banner_chance_w1</background_prefab>
+		<bundle>39</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="554" order="2"/>
+		<item id="554" order="3"/>
+		<item id="554" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65541</id>
+		<name>Beast Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Beast card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>event_006_chance_chest_w1</asset_prefab>
+		<background_prefab>event_006_banner_chance_w1</background_prefab>
+		<bundle>39</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="554" order="2"/>
+		<item id="554" order="3"/>
+		<item id="554" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65542</id>
+		<name>Beast Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Beast card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>event_006_chance_chest_w1</asset_prefab>
+		<background_prefab>event_006_banner_chance_w1</background_prefab>
+		<bundle>39</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="554" order="2"/>
+		<item id="554" order="3"/>
+		<item id="554" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65543</id>
+		<name>Beast Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Beast card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>event_006_chance_chest_w1</asset_prefab>
+		<background_prefab>event_006_banner_chance_w1</background_prefab>
+		<bundle>39</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="554" order="2"/>
+		<item id="554" order="3"/>
+		<item id="554" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65544</id>
+		<name>Beast Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Beast card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>event_006_chance_chest_w1</asset_prefab>
+		<background_prefab>event_006_banner_chance_w1</background_prefab>
+		<bundle>39</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="554" order="2"/>
+		<item id="554" order="3"/>
+		<item id="554" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65545</id>
+		<name>Beast Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Beast card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>event_006_chance_chest_w1</asset_prefab>
+		<background_prefab>event_006_banner_chance_w1</background_prefab>
+		<bundle>39</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="554" order="2"/>
+		<item id="554" order="3"/>
+		<item id="554" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
+	</event_box>
+
+
+	<!-- Mecha -->
+
+	<event_box>
+		<id>65560</id>
+		<name>Mecha Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Mecha card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="556" order="2"/>
+		<item id="556" order="3"/>
+		<item id="556" order="4"/>
+		<bonus_item id="104500" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65561</id>
+		<name>Mecha Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Mecha card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="556" order="2"/>
+		<item id="556" order="3"/>
+		<item id="556" order="4"/>
+		<bonus_item id="104501" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65562</id>
+		<name>Mecha Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Mecha card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMawu Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="556" order="2"/>
+		<item id="556" order="3"/>
+		<item id="556" order="4"/>
+		<bonus_item id="104502" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65563</id>
+		<name>Mecha Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Mecha card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="556" order="2"/>
+		<item id="556" order="3"/>
+		<item id="556" order="4"/>
+		<bonus_item id="104503" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65564</id>
+		<name>Mecha Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Mecha card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="556" order="2"/>
+		<item id="556" order="3"/>
+		<item id="556" order="4"/>
+		<bonus_item id="104504" min="1" max="4"/>
+	</event_box>
+
+	<event_box>
+		<id>65565</id>
+		<name>Mecha Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Mecha card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
+		<help_desc>Each pull has 75% chance of granting a card, 25% chance of granting an Arena Trophy. Each pull also grants between 1-4 Champion Stones!</help_desc>
+		<category>1</category>
+		<asset_prefab>mecha_arena_box</asset_prefab>
+		<background_prefab>arena_box_banner</background_prefab>
+		<bundle>76</bundle>
+		<priority>-60</priority>
+		<show_desc>1</show_desc>
+		<cost item="5" num="1000"/>
+		<start_index>1</start_index>
+		<chance_pack>1</chance_pack>
+		<item id="20" order="1"/>
+		<item id="556" order="2"/>
+		<item id="556" order="3"/>
+		<item id="556" order="4"/>
+		<bonus_item id="104505" min="1" max="4"/>
 	</event_box>
 
 </root>

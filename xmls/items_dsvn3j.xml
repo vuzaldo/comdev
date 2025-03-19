@@ -2378,24 +2378,53 @@
 		</choice>
 	</item>
 	<item>
-		<id>28174</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Vasile, Caesar, Daffdal Frog Flask</name>
+		<id>28174</id> <!-- Note numbering to keep flasks sorted together -->
+		<name>Chaos Frog Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Vasile, Caesar, Daffdal Stones; OR revert.</desc>
+		<desc>A flask of flasks containing all previous Chaos Frog Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104035" quantity="1"/> <!-- Vasile -->
+			<item id="28175" quantity="1"/> <!-- 1D, 4D -->
 		</choice>
 		<choice id="3">
-			<item id="104062" quantity="1"/> <!-- Caesar -->
-		</choice>
-		<choice id="4">
-			<item id="104078" quantity="1"/> <!-- Daffdal -->
+			<item id="28176" quantity="1"/> <!-- 2D -->
 		</choice>
 	</item>
+		<item>
+			<id>28175</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Caesar, Daffdal Frog Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Caesar, Daffdal Stones; OR revert.</desc>
+			<choice id="1">
+				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104062" quantity="1"/> <!-- Caesar -->
+			</choice>
+			<choice id="3">
+				<item id="104078" quantity="1"/> <!-- Daffdal -->
+			</choice>
+		</item>
+		<item>
+			<id>28176</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Vasile, Sangoma Frog Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Vasile, Sangoma Stones; OR revert.</desc>
+			<choice id="1">
+				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104035" quantity="1"/> <!-- Vasile -->
+			</choice>
+			<choice id="3">
+				<item id="104091" quantity="1"/> <!-- Sangoma -->
+			</choice>
+		</item>
 
 	<!-- Elemental -->
 
@@ -2777,13 +2806,13 @@
 			<item id="19" number="1"/>
 		</item_salvage>
 		<choice id="1">
-			<item id="28221" quantity="1"/> <!-- Aether and Void -->
+			<item id="28221" quantity="1"/> <!-- Aether -->
 		</choice>
 		<choice id="2">
 			<item id="28222" quantity="1"/> <!-- Chaos 1D and 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28223" quantity="1"/> <!-- Chaos 4D -->
+			<item id="28223" quantity="1"/> <!-- Chaos and Void 4D -->
 		</choice>
 		<choice id="4">
 			<item id="28224" quantity="1"/> <!-- Wyld -->
@@ -2793,21 +2822,21 @@
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28221</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Bluefire, Sparky, Spark Dragon Flask</name>
+		<name>Sparky, Spark, Sinnamun Dragon Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Bluefire, Sparky, Spark Stones; OR revert</desc>
+		<desc>Consume to get your choice of Sparky, Spark, Sinnamun Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28220" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104022" quantity="1"/> <!-- Bluefire -->
-		</choice>
-		<choice id="3">
 			<item id="104031" quantity="1"/> <!-- Sparky -->
 		</choice>
-		<choice id="4">
+		<choice id="3">
 			<item id="104068" quantity="1"/> <!-- Spark -->
+		</choice>
+		<choice id="4">
+			<item id="104094" quantity="1"/> <!-- Sinnamun and Frostyne -->
 		</choice>
 	</item>
 	<item>
@@ -2831,10 +2860,10 @@
 	</item>
 	<item>
 		<id>28223</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Lok'thor, Frostfire Dragon Flask</name>
+		<name>Lok'thor, Bluefire, Frostfire Dragon Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Lok'thor, Frostfire Stones; OR revert</desc>
+		<desc>Consume to get your choice of Lok'thor, Bluefire, Frostfire Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28220" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -2842,6 +2871,9 @@
 			<item id="104004" quantity="1"/> <!-- Lok'thor -->
 		</choice>
 		<choice id="3">
+			<item id="104022" quantity="1"/> <!-- Bluefire -->
+		</choice>
+		<choice id="4">
 			<item id="104055" quantity="1"/> <!-- Frostfire -->
 		</choice>
 	</item>
@@ -2880,10 +2912,13 @@
 			<item id="28231" quantity="1"/> <!-- 1D -->
 		</choice>
 		<choice id="2">
-			<item id="28232" quantity="1"/> <!-- Aether and Chaos 2D -->
+			<item id="28232" quantity="1"/> <!-- Chaos 2D -->
 		</choice>
 		<choice id="3">
 			<item id="28233" quantity="1"/> <!-- Wyld -->
+		</choice>
+		<choice id="4">
+			<item id="28234" quantity="1"/> <!-- Aether 2D -->
 		</choice>
 	</item>
 		
@@ -2909,10 +2944,10 @@
 	</item>
 	<item>
 		<id>28232</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Columba, Balt, Clockoo Avian Flask</name>
+		<name>Columba, Balt Avian Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Columba, Balt, Clockoo; OR revert</desc>
+		<desc>Consume to get your choice of Columba, Balt; OR revert</desc>
 		<choice id="1">
 			<item id="28230" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -2921,9 +2956,6 @@
 		</choice>
 		<choice id="3">
 			<item id="104033" quantity="1"/> <!-- Balt -->
-		</choice>
-		<choice id="4">
-			<item id="104048" quantity="1"/> <!-- Clockoo -->
 		</choice>
 	</item>
 	<item>
@@ -2945,6 +2977,22 @@
 			<item id="104070" quantity="1"/> <!-- Gurk -->
 		</choice>
 	</item>
+	<item>
+		<id>28234</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Clockoo, Sinnamun Avian Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Clockoo, Sinnamun; OR revert</desc>
+		<choice id="1">
+			<item id="28230" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="104048" quantity="1"/> <!-- Clockoo -->
+		</choice>
+		<choice id="3">
+			<item id="104094" quantity="1"/> <!-- Sinnamun and Frostyne -->
+		</choice>
+	</item>
 
 	<!-- Goblin -->
 
@@ -2958,7 +3006,7 @@
 			<item id="19" number="1"/>
 		</item_salvage>
 		<choice id="1">
-			<item id="28241" quantity="1"/> <!-- Aether -->
+			<item id="28241" quantity="1"/> <!-- Aether + Oiram -->
 		</choice>
 		<choice id="2">
 			<item id="28242" quantity="1"/> <!-- Chaos -->
@@ -2971,10 +3019,10 @@
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28241</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Daknak, Nuvis Goblin Flask</name>
+		<name>Daknak, Nuvis, Oiram Goblin Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Daknak, Nuvis Stones; OR revert</desc>
+		<desc>Consume to get your choice of Daknak, Nuvis, Oiram Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28240" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -2983,6 +3031,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104037" quantity="1"/> <!-- Nuvis -->
+		</choice>
+		<choice id="4">
+			<item id="104089" quantity="1"/> <!-- Oiram -->
 		</choice>
 	</item>
 	<item>
@@ -3042,7 +3093,10 @@
 			<item id="28252" quantity="1"/> <!-- Aether and Chaos 3D and 4D -->
 		</choice>
 		<choice id="3">
-			<item id="28253" quantity="1"/> <!-- Wyld -->
+			<item id="28253" quantity="1"/> <!-- Wyld 1D and 2D -->
+		</choice>
+		<choice id="4">
+			<item id="28254" quantity="1"/> <!-- Wyld 4D -->
 		</choice>
 	</item>
 		
@@ -3087,10 +3141,26 @@
 	</item>
 	<item>
 		<id>28253</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Proteus, Illu, Moklam Seafolk Flask</name>
+		<name>Illu, Mike Seafolk Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Proteus, Illu, Moklam Stones; OR revert</desc>
+		<desc>Consume to get your choice of Illu, Mike Stones; OR revert</desc>
+		<choice id="1">
+			<item id="28250" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="104050" quantity="1"/> <!-- Illu -->
+		</choice>
+		<choice id="3">
+			<item id="104090" quantity="1"/> <!-- Mike -->
+		</choice>
+	</item>
+	<item>
+		<id>28254</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Proteus, Moklam Seafolk Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Proteus, Moklam Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28250" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3098,9 +3168,6 @@
 			<item id="104017" quantity="1"/> <!-- Proteus -->
 		</choice>
 		<choice id="3">
-			<item id="104050" quantity="1"/> <!-- Illu -->
-		</choice>
-		<choice id="4">
 			<item id="104056" quantity="1"/> <!-- Moklam -->
 		</choice>
 	</item>
@@ -3204,7 +3271,7 @@
 			<item id="28275" quantity="1"/> <!-- Chaos 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28276" quantity="1"/> <!-- Chaos 3D and 4D -->
+			<item id="28276" quantity="1"/> <!-- Chaos other -->
 		</choice>
 		<choice id="4">
 			<item id="28277" quantity="1"/> <!-- Aether and Void -->
@@ -3252,10 +3319,10 @@
 		</item>
 		<item>
 			<id>28273</id> <!-- Note ID numbering convention for flask within flask -->
-			<name>Illu, Moklam Beast Flask</name>
+			<name>Illu, Moklam, Mike Beast Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Illu, Moklam Stones; OR revert</desc>
+			<desc>Consume to get your choice of Illu, Moklam, Mike Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28270" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
@@ -3264,6 +3331,9 @@
 			</choice>
 			<choice id="3">
 				<item id="104056" quantity="1"/> <!-- Moklam -->
+			</choice>
+			<choice id="4">
+				<item id="104090" quantity="1"/> <!-- Mike -->
 			</choice>
 		</item>
 		<item>
@@ -3303,10 +3373,10 @@
 	</item>
 	<item>
 		<id>28276</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Umbu, Naglar Beast Flask</name>
+		<name>Umbu, Naglar, Mathay Beast Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Umbu, Naglar Stones; OR revert</desc>
+		<desc>Consume to get your choice of Umbu, Naglar, Mathay Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3315,6 +3385,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104071" quantity="1"/> <!-- Naglar -->
+		</choice>
+		<choice id="4">
+			<item id="104092" quantity="1"/> <!-- Mathay -->
 		</choice>
 	</item>
 	<item>
@@ -3346,26 +3419,23 @@
 			<item id="19" number="1"/>
 		</item_salvage>
 		<choice id="1">
-			<item id="28291" quantity="1"/> <!-- Aether and Mechau -->
+			<item id="28291" quantity="1"/> <!-- Aether -->
 		</choice>
 		<choice id="2">
-			<item id="28292" quantity="1"/> <!-- Chaos 2D not Mechau -->
+			<item id="28292" quantity="1"/> <!-- Chaos -->
 		</choice>
 		<choice id="3">
-			<item id="28293" quantity="1"/> <!-- Chaos 3D and 4D -->
-		</choice>
-		<choice id="4">
-			<item id="28294" quantity="1"/> <!-- Wyld and Factionless -->
+			<item id="28296" quantity="1"/> <!-- Wyld and Factionless -->
 		</choice>
 	</item>
 		
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28291</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Nuvis, Clockoo, Mechau Mecha Flask</name>
+		<name>Nuvis, Clockoo, Vern Mecha Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Nuvis, Clockoo, Mechau Stones; OR revert</desc>
+		<desc>Consume to get your choice of Nuvis, Clockoo, Vern Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28290" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3376,46 +3446,84 @@
 			<item id="104048" quantity="1"/> <!-- Clockoo -->
 		</choice>
 		<choice id="4">
-			<item id="104072" quantity="1"/> <!-- Mechau -->
+			<item id="104093" quantity="1"/> <!-- Vern -->
 		</choice>
 	</item>
 	<item>
 		<id>28292</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Coalheart, Leroux, Darkassan Mecha Flask</name>
+		<name>Chaos Mecha Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Coalheart, Leroux, Darkassan Stones; OR revert</desc>
+		<desc>A flask of flasks containing all previous Chaos Mecha Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28290" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104024" quantity="1"/> <!-- Coalheart -->
+			<item id="28293" quantity="1"/> <!-- 2D -->
 		</choice>
 		<choice id="3">
-			<item id="104036" quantity="1"/> <!-- Leroux -->
+			<item id="28294" quantity="1"/> <!-- 3D -->
 		</choice>
 		<choice id="4">
-			<item id="104064" quantity="1"/> <!-- Darkassan -->
+			<item id="28295" quantity="1"/> <!-- 1D and 4D -->
 		</choice>
 	</item>
+		<item>
+			<id>28293</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Leroux, Darkassan, Mechau Mecha Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Leroux, Darkassan, Mechau Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28290" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104036" quantity="1"/> <!-- Leroux -->
+			</choice>
+			<choice id="3">
+				<item id="104064" quantity="1"/> <!-- Darkassan -->
+			</choice>
+			<choice id="4">
+				<item id="104072" quantity="1"/> <!-- Mechau -->
+			</choice>
+		</item>
+		<item>
+			<id>28294</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Coalheart, Shadomeka, Oiram Mecha Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Coalheart, Shadomeka, Oiram Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28290" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104024" quantity="1"/> <!-- Coalheart -->
+			</choice>
+			<choice id="3">
+				<item id="104052" quantity="1"/> <!-- Shadomeka -->
+			</choice>
+			<choice id="4">
+				<item id="104089" quantity="1"/> <!-- Oiram -->
+			</choice>
+		</item>
+		<item>
+			<id>28295</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>LOCO-5000, Mathay Mecha Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of LOCO-5000, Mathay Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28290" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104006" quantity="1"/> <!-- LOCO-5000 -->
+			</choice>
+			<choice id="3">
+				<item id="104092" quantity="1"/> <!-- Mathay -->
+			</choice>
+		</item>
 	<item>
-		<id>28293</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>LOCO-5000, Shadomeka Mecha Flask</name>
-		<icon>Lava_Vial</icon>
-		<bundle>17</bundle>
-		<desc>Consume to get your choice of LOCO-5000, Shadomeka Stones; OR revert</desc>
-		<choice id="1">
-			<item id="28290" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
-		<choice id="2">
-			<item id="104006" quantity="1"/> <!-- LOCO-5000 -->
-		</choice>
-		<choice id="3">
-			<item id="104052" quantity="1"/> <!-- Shadomeka -->
-		</choice>
-	</item>
-	<item>
-		<id>28294</id> <!-- Note ID numbering convention for flask within flask -->
+		<id>28296</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Viracocha, Sivun, Scrap Mecha Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3917,6 +4025,7 @@
 		<desc>A flame of burning revolution. Combine with Warrior Karna's Spellstone to summon Warrior Karna!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1767286800</decay_time> <!-- Thursday, 01 January 2026 -->
 	</item>
 
 	<item>
@@ -3927,6 +4036,7 @@
 		<desc>A Spellstone in the shape of a crumpled letter that has seen better days. Combine with Revolution Flame to summon Warrior Karna!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1767286800</decay_time> <!-- Thursday, 01 January 2026 -->
 	</item>
 
 	<!-- Event 52 Frog -->
@@ -3949,6 +4059,7 @@
 		<desc>A small egg with a tadpole inside. Combine with Sproutfrog's Spellstone to summon Sproutfrog Rainwisher!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1764867600</decay_time> <!-- Thursday, 04 December 2025 -->
 	</item>
 
 	<item>
@@ -3959,6 +4070,7 @@
 		<desc>A Spellstone in the shape of a crumpled letter that Decim's dragonling took a bite off of. Combine with Tadpole to summon Sproutfrog Rainwisher!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1764867600</decay_time> <!-- Thursday, 04 December 2025 -->
 	</item>
 
 	<!-- Event 53 Dragon -->
@@ -3980,6 +4092,7 @@
 		<desc>An egg left in a nest home of both a dragon and avian. Combine with Dragon Breath Crystal to create Whitesail Wyvern!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1762448400</decay_time> <!-- Thursday, 06 November 2025 -->
 	</item>
 
 	<item>
@@ -3990,6 +4103,7 @@
 		<desc>A dragon mother's warm breath of fire, enshrined in a crystal. Combine with Whitesail's Spellstone to create Whitesail Wyvern!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1762448400</decay_time> <!-- Thursday, 06 November 2025 -->
 	</item>
 
 	<!-- Event 56 Elemental -->
@@ -4011,6 +4125,7 @@
 		<desc>An express request for the continent's finest Elemental Steeds. Combine with Elemental Residue to summon Avalanche Equine!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1760029200</decay_time> <!-- Thursday, 09 October 2025 -->
 	</item>
 
 	<item>
@@ -4021,6 +4136,7 @@
 		<desc>Remnant stones carried by Elementals, now imbued with their power. Combine with Avalanche Equine Spellstone to summon Avalanche Equine!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1760029200</decay_time> <!-- Thursday, 09 October 2025 -->
 	</item>
 
 	<!-- Event 58 Undead -->
@@ -4042,6 +4158,7 @@
 		<desc>A flower that has bathed in the unholy light from The Void. Combine with Reks' Spellstone to Summon Reks, the Forlorn!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1757610000</decay_time> <!-- Thursday, 11 September 2025 -->
 	</item>
 
 	<item>
@@ -4052,6 +4169,7 @@
 		<desc>A Spellstone containing a former tragic Goblin King's spirit. Combine with Void Flower to summon Reks, the Forlorn!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1757610000</decay_time> <!-- Thursday, 11 September 2025 -->
 	</item>
 
 	<!-- Event 60 Angels -->
@@ -4073,6 +4191,7 @@
 		<desc>A Feather from the Fallen Crest order. Combine with Wrath's Spellstone to Summon Wrath!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1755190800</decay_time> <!-- Thursday, 14 August 2025 -->
 	</item>
 
 	<item>
@@ -4083,6 +4202,7 @@
 		<desc>A Spellstone containing an Angel of the Fallen Crest. Combine with Fallen Crest Feather to summon Wrath!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1755190800</decay_time> <!-- Thursday, 14 August 2025 -->
 	</item>
 
 	<!-- Event 62 Dragons -->
@@ -4104,6 +4224,7 @@
 		<desc>An arcane flower from Dawnglow. Combine with Conjured Dragon's Spellstone to Summon Conjured Dragon!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1752771600</decay_time> <!-- Thursday, 17 July 2025 -->
 	</item>
 
 	<item>
@@ -4114,6 +4235,7 @@
 		<desc>A Spellstone containing a legendary dragon of water. Combine with Dawnglow Flower to summon Conjured Dragon!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1752771600</decay_time> <!-- Thursday, 17 July 2025 -->
 	</item>
 
 	<!-- Event 64 Avians -->
@@ -4135,6 +4257,7 @@
 		<desc>A Feather from the lost marsh of Bloodmist. Combine with Bloodmist Harpy's Spellstone to summon Bloodmist Harpy!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1750352400</decay_time> <!-- Thursday, 19 June 2025 -->
 	</item>
 
 	<item>
@@ -4145,6 +4268,7 @@
 		<desc>A Spellstone containing an artificially made creature. Combine with Bloodmist Feather to summon Bloodmist Harpy!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1750352400</decay_time> <!-- Thursday, 19 June 2025 -->
 	</item>
 
 	<!-- Event 66 Undead -->
@@ -4166,6 +4290,7 @@
 		<desc>An everburning flame from Karthos. Combine with Slagspirit's Spellstone to summon Slagspirit!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1747933200</decay_time> <!-- Thursday, 22 May 2025 -->
 	</item>
 
 	<item>
@@ -4176,6 +4301,7 @@
 		<desc>A Spellstone containing an ancient spirit of Karthos. Combine with Karthos's Flame to summon Slagspirit!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1747933200</decay_time> <!-- Thursday, 22 May 2025 -->
 	</item>
 
 	<!-- Event 68 Goblin -->
@@ -4197,6 +4323,7 @@
 		<desc>A Coconut imbued with magical properties of a tropical island. Combine with Siren's Spellstone to summon Siren!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1745514000</decay_time> <!-- Thursday, 24 April 2025 -->
 	</item>
 
 	<item>
@@ -4207,6 +4334,7 @@
 		<desc>A Spellstone containing the soul of a half goblin, half fish. Combine with Tropical Callstone to summon Siren!</desc>
 		<category>2</category>
 		<usable>0</usable>
+		<decay_time>1745514000</decay_time> <!-- Thursday, 24 April 2025 -->
 	</item>
 
 	<!-- Event 70 Seafolk -->

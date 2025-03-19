@@ -1799,4 +1799,19 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6127</id>
+		<name>Rot and Decay</name>
+		<desc>All Undead gain 10% Siphon. Also, 0-2D Undead gain 20% Poison and 3-4D Undead gain 15% Poisonhide. All values based on Health.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>191</bg_effect>
+		</effect>
+		<start_time>1743094800</start_time> <!-- Thursday, March 27, 2025 at 17:00:00 -->
+		<end_time>1747933200</end_time> <!-- Thursday, May 22, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+
 </root>
