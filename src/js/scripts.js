@@ -140,7 +140,8 @@ function id2Card(id, cardType, rarity, isReward, isChamp) {
 	if (id == '') {
 		return '';
 	}
-	const card = CARDS[id];
+	const quad = CARDS[parseInt(id) + 2e4];
+	const card = quad ? quad : CARDS[id];
 	if (card && ((cardType == card.card_type) || (!isReward && card.set < 4000 && isRarity(card, rarity))
 		|| (isReward && card.set == 2000 && isRarity(card, rarity)) || (isChamp && card.shard_card))) {
 		return card.name;
