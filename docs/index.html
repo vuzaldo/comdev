@@ -141,18 +141,13 @@
                                     <div class="row mt-2">
                                         <div class="col-auto">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="useEventNumber" checked />
+                                                <input class="form-check-input" type="checkbox" id="useEventNumber" />
                                                 <label class="form-check-label" for="useEventNumber" style="user-select: none">Include event number in filenames</label>
                                             </div>
                                         </div>
                                     </div>
                                     <h6 class="mt-3"><i>event_timeline_bge.xml</i></h6>
                                     <textarea class="code" id="event_timeline_bge"></textarea>
-                                    <button class="btn btn-light mt-1 copy-btn btn-border" onclick="copyText(this)">Copy</button>
-                                    <button class="btn btn-light mt-1 icon-btn btn-border" onclick="downloadFile(this)"><i class="bi bi-download"></i></button>
-                                    <button class="btn btn-light mt-1 icon-btn btn-border" onclick="downloadCompleteFile(this)"><i class="bi bi-file-earmark-arrow-down-fill"></i></button>
-                                    <h6 class="mt-4"><i>reward_box.xml</i></h6>
-                                    <textarea class="code" id="reward_box"></textarea>
                                     <button class="btn btn-light mt-1 copy-btn btn-border" onclick="copyText(this)">Copy</button>
                                     <button class="btn btn-light mt-1 icon-btn btn-border" onclick="downloadFile(this)"><i class="bi bi-download"></i></button>
                                     <button class="btn btn-light mt-1 icon-btn btn-border" onclick="downloadCompleteFile(this)"><i class="bi bi-file-earmark-arrow-down-fill"></i></button>
@@ -213,10 +208,10 @@
                                             <select class="form-select" onchange="updateEditors()" id="selectTower">
                                                 <option value="501">Castle Tower</option>
                                                 <option value="502">Cannon Tower</option>
-                                                <option value="506" selected>Tree of Life</option>
+                                                <option value="506">Tree of Life</option>
                                                 <option value="509">Fortified Tower</option>
                                                 <option value="565">Warding Tower</option>
-                                                <option value="521">The Arena</option>
+                                                <option value="521" selected>The Arena</option>
                                                 <option value="566">Tree of Eternity</option>
                                                 <option value="568">Swarming Tower</option>
                                             </select>
@@ -329,7 +324,7 @@
                                     </div>
                                     <div class="row g-3 align-items-center pt-1">
                                         <div class="col-auto pr-y"><label class="col-form-label" for="dungeonCommander8">Final (1)</label></div>
-                                        <div class="col-auto"><input class="form-control lvl" type="number" min="100" max="200" oninput="filterInput(this)" maxlength="3" placeholder="Lvl" id="dungeonCommander8MinLvl" value="126" /></div>
+                                        <div class="col-auto"><input class="form-control lvl" type="number" min="100" max="200" oninput="filterInput(this)" maxlength="3" placeholder="Lvl" id="dungeonCommander8MinLvl" value="125" /></div>
                                         <div class="col-auto"><input class="form-control lvl" disabled value="∞" /></div>
                                         <div class="col-auto"><input class="form-control" type="number" min="1" max="999" oninput="filterInput(this)" maxlength="3" placeholder="ID" id="dungeonCommander8" /></div>
                                         <div class="col-auto"><span class="form-text"></span></div>
@@ -655,9 +650,9 @@
         <!-- CodeMirror-->
         <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.14/lib/codemirror.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.14/mode/xml/xml.js"></script>
-        <script src="js/scripts.js?v=1743016205768"></script>
-        <script src="js/data.js?v=1743016205768"></script>
-        <script src="js/templates.js?v=1743016205768"></script>
-        <script src="js/generate.js?v=1743016205768"></script>
+        <script src="js/scripts.js?v=1744150306742"></script>
+        <script src="js/data.js?v=1744150306742"></script>
+        <script src="js/templates.js?v=1744150306742"></script>
+        <script src="js/generate.js?v=1744150306742"></script>
     </body>
 </html>
