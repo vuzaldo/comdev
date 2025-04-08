@@ -189,6 +189,7 @@ function propagateLegendary(input, card) {
 	if (legendary == 1) {
 		propagateCard('LegendaryClash', input.value, card);
 		propagateCard('LegendaryWar', input.value, card);
+		propagateCard('LegendaryDungeon2', input.value, card);
 	}
 	if (legendary == 2) {
 		propagateCard('LegendaryGuildClash', input.value, card);
@@ -198,7 +199,7 @@ function propagateLegendary(input, card) {
 	if (legendary == 3) {
 		propagateCard('LegendaryDungeon', input.value, card);
 		propagateCard('LegendaryBrawl', input.value, card);
-		!repeatedLegendaries() && propagateCard('LegendaryDungeon2', input.value, card);
+		// !repeatedLegendaries() && propagateCard('LegendaryDungeon2', input.value, card);
 	}
 }
 
