@@ -237,7 +237,7 @@ function escapeXML(text) {
 	});
 }
 function skipEscape(parameter) {
-	return parameter.includes('_COMMENT') || parameter.includes('EVENT_NAME');
+	return parameter.includes('_COMMENT') || parameter.includes('EVENT_NAME') || parameter.includes('MAP_NAME');
 }
 function updateEditor(template) {
 	let generated = TEMPLATES[template];
@@ -273,7 +273,7 @@ const warId = 30087 + numCycles;
 const expeditionId = 7101 + numCycles;
 const brawlId = 8111 + numCycles;
 const eventBgeId = 6105 + numCycles;
-const rewardBoxId = 6090 + numCycles + (eventNumber > 120 ? 15 : 0);
+// const rewardBoxId = 6090 + numCycles + (eventNumber > 120 ? 15 : 0);
 const eventRewardBoxId = 11093 + numCycles + (eventNumber > 120 ? 12 : 0);
 const nextChampionId = 4073 + numCycles + (eventNumber > 117);
 const endgameId = 4500 + (numCycles - 1) % 6;
@@ -322,11 +322,10 @@ parameters[template]['START_TIME'] = nextStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
 parameters[template]['END_TIME'] = nextStartTime + cycleDuration * 2;
 parameters[template]['END_TIME_COMMENT'] = convertTimestamp(parameters[template]['END_TIME']);
-template = 'reward_box';
-parameters[template]['BOX_ID'] = rewardBoxId;
+// template = 'reward_box';
+// parameters[template]['BOX_ID'] = rewardBoxId;
 template = 'event_timeline_n3rjc_AC';
 parameters[template]['EVENT_ID'] = eventRewardBoxId;
-parameters[template]['BOX_ID'] = rewardBoxId;
 parameters[template]['START_TIME'] = nextStartTime;
 parameters[template]['START_TIME_COMMENT'] = convertTimestamp(nextStartTime);
 
@@ -448,21 +447,25 @@ function updateParameters() {
 		parameters[template]['BGE_BANNER'] = BGE_BANNERS[eventBGE].banner_prefab;
 		parameters[template]['BGE_BUNDLE'] = BGE_BANNERS[eventBGE].bundle;
 	}
-	template = 'reward_box';
-	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
+	// template = 'reward_box';
+	// eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
 	// const cardId = document.getElementById('rewardLegendary').value;
 	// parameters[template]['LEGENDARY_CARD'] = cardId;
 	// parameters[template]['LEGENDARY_CARD_COMMENT'] = id2Card(cardId, 0, 4, true);
-	for (let i = 1; i < 4; i++) {
-		const cardId = document.getElementById(`rewardEpic${i}`).value;
-		parameters[template][`EPIC_CARD_${i}`] = cardId;
-		parameters[template][`EPIC_CARD_${i}_COMMENT`] = id2Card('1' + cardId, 0, 3, true);
-	}
-	parameters[template]['ENDGAME_STONES_ID'] = '10' + endgameId;
-	parameters[template]['ENDGAME_ITEM_NAME'] = CARDS[endgameId].item_name;
+	// for (let i = 1; i < 4; i++) {
+	// 	const cardId = document.getElementById(`rewardEpic${i}`).value;
+	// 	parameters[template][`EPIC_CARD_${i}`] = cardId;
+	// 	parameters[template][`EPIC_CARD_${i}_COMMENT`] = id2Card('1' + cardId, 0, 3, true);
+	// }
+	// parameters[template]['ENDGAME_STONES_ID'] = '10' + endgameId;
+	// parameters[template]['ENDGAME_ITEM_NAME'] = CARDS[endgameId].item_name;
 	template = 'event_timeline_n3rjc_AC';
+	eventMap && (parameters[template]['MAP_NAME'] = MAPS[eventMap].name);
 	eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
 	parameters[template]['ENDGAME_ITEM_NAME'] = CARDS[endgameId].item_name;
+	if (eventTribeId) {
+		parameters[template]['BOX_ID'] = '6' + (parseInt(eventTribeId) + 540) + endgameId % 10;
+	}
 }
 
 

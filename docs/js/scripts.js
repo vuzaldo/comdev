@@ -354,10 +354,10 @@ document.querySelectorAll('textarea.code').forEach(textArea => {
 	editors[textArea.id].setValue('Loading template...');
 });
 
-'wars_clash expeditions brawls bge n3rjc_AC'.split(' ').forEach(e => {
+'wars_clash expeditions brawls bge'.split(' ').forEach(e => {
 	editors['event_timeline_' + e].getWrapperElement().style.minHeight = '15rem';
 });
-editors['reward_box'].getWrapperElement().style.minHeight = '25rem';
+// editors['reward_box'].getWrapperElement().style.minHeight = '25rem';
 editors['event_timeline_clash'].getWrapperElement().style.minHeight = '34rem';
 editors['event_timeline_dungeons'].getWrapperElement().style.minHeight = '60rem';
 

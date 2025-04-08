@@ -1,7 +1,8 @@
+	<!-- Event {EVENT_NUMBER}: ComDev {EVENT_BGE} - {MAP_NAME} -->
 	<event>
 		<id>{EVENT_ID}</id>
 		<name>{EVENT_BGE} Reward Box</name>
-		<desc>Use Arena Coins to pull from a set of Dual ^c0DFFEpic ^cFFFFReward cards or the chance of an Arena Trophy! Each pull also grants ^cE7FF{ENDGAME_ITEM_NAME}s^cFFFF!</desc>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF {EVENT_BGE} card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FF{ENDGAME_ITEM_NAME}s^cFFFF!</desc>
 		<asset_prefab>{EVENT_BGE_LOWERCASE}_arena_box</asset_prefab>
 		<asset_bundle>76</asset_bundle>
 		<banner_prefab>generic_chance_Banner</banner_prefab>
@@ -10,8 +11,6 @@
 		<hide_news>1</hide_news>
 		<priority>-40</priority>
 		<event_box>{BOX_ID}</event_box>
-		<!-- First Thursday -->
 		<start_time>{START_TIME}</start_time> <!-- {START_TIME_COMMENT} -->
-		<end_duration>40320</end_duration>  <!-- 40320 | 28 Days -->
-		<mission_req>64</mission_req>
+		<end_duration>40320</end_duration> <!-- 28 days -->
 	</event>
