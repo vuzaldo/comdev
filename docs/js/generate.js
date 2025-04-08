@@ -215,7 +215,7 @@ function overrideTemplate(template, generated) {
 	}
 	if (template == 'event_timeline_clash' && parameters[template]['TOWER_TYPE'] == 'The Arena') {
 		const description = 'All enemies start with a The Arena card in play!';
-		const newDescription = 'Two additional Delay are added to the first card played in a battle.';
+		const newDescription = 'Two additional Delay are added to the first card played in a battle. There is no tower card.';
 		generated = generated.replace(description, newDescription);
 	}
 	if (eventNumber == 117 && generated.includes('104085')) {
