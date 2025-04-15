@@ -104,6 +104,13 @@ function getFilename(editor) {
 	const suffix = useEventNumber ? `_E${eventNumber}` : '';
 	return `${editor.id}${suffix}.xml`;
 }
+function editOriginal(originalContent, text, file) {
+	let section = '</root>';
+	if (file == 'battleground_effects') {
+		section = '\t<!-- ================================= -->\r\n\t<!-- ==== 501-1000: Specialty BGE ==== -->'
+	}
+	return originalContent.replace(section, text + `\n\n${section}`);
+}
 function downloadFile(button) {
 	const editor = getNthPreviousSibling(button, 3);
 	const text = editors[editor.id].getValue();
@@ -124,7 +131,8 @@ async function downloadCompleteFile(button) {
 	}
 	const originalContent = await response.text();
 	const text = editors[editor.id].getValue();
-	const blob = new Blob([originalContent.replace('</root>', text + '\n\n</root>')]);
+	const content = editOriginal(originalContent, text, editor.id);
+	const blob = new Blob([content]);
 	const link = document.createElement('a');
 	link.href = window.URL.createObjectURL(blob);
 	link.download = getFilename(editor);
@@ -360,6 +368,7 @@ document.querySelectorAll('textarea.code').forEach(textArea => {
 // editors['reward_box'].getWrapperElement().style.minHeight = '25rem';
 editors['event_timeline_clash'].getWrapperElement().style.minHeight = '34rem';
 editors['event_timeline_dungeons'].getWrapperElement().style.minHeight = '60rem';
+editors['battleground_effects'].getWrapperElement().style.minHeight = '15rem';
 
 function refreshEditors() {
 	for (const template in editors) {

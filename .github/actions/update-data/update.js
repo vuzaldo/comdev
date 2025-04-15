@@ -248,8 +248,17 @@ async function parse() {
 	})
 	lastEventNodes = 'var LAST_EVENT_NODES = ' + JSON.stringify(lastEventNodes)
 	console.log('\nParsing BGE data...')
-	bges = {}
+	bges = {}, effects = {}
 	xml = fs.readFileSync(path.join(rootDir, 'xmls', 'battleground_effects.xml'))
+	bgeBlocks = [...xml.toString().matchAll(/<battleground>([\s\S]*?)<\/battleground>/g)]
+	bgeBlocks.forEach(block => {
+		bge = block[1]
+		id = bge.match(/<id>([\s\S]*?)<\/id>/)
+		effect = bge.match(/<effect>([\s\S]*?)<\/effect>/)
+		if (id && effect) {
+			effects[id[1].trim()] = effect[1].trim()
+		}
+	})
 	json = await parseXML(xml)
 	icon2tribe = tribes.reduce((result, t) => {
 		result[t.icon.substring(7, 11)] = t.name
@@ -258,8 +267,10 @@ async function parse() {
 	json.root.battleground.forEach(bge => {
 		tribe = icon2tribe[bge.icon?.substring(7, 11)]
 		name = bge.name
-		desc = bge.desc
-		bges[bge.id] = { tribe, name, desc }
+		desc = bge.desc ? bge.desc : ''
+		icon = bge.icon ? bge.icon : ''
+		effect = effects[bge.id]
+		bges[bge.id] = { tribe, name, desc, icon, effect }
 	})
 	console.log('Total:', Object.keys(bges).length, 'BGEs')
 	bges = 'var BGES = ' + JSON.stringify(bges)
@@ -272,13 +283,14 @@ async function templates() {
 	templates = {}
 	n3rjc = 'event_timeline_n3rjc'
 	files = events.concat([n3rjc + '_AC', 'reward_box'])
+	files.push('battleground_effects')
 	for (filename of files) {
 		filePath = path.join(rootDir, 'templates', filename + '_TEMPLATE.xml')
 		if (!fs.existsSync(filePath)) {
 			continue
 		}
 		console.log(filename + '_TEMPLATE.xml')
-		templates[filename] = fs.readFileSync(filePath).toString()
+		templates[filename] = fs.readFileSync(filePath, 'utf8')
 	}
 	templates = 'var TEMPLATES = ' + JSON.stringify(templates)
 	filePath = path.join(rootDir, 'templates', 'expedition_parameters.json')

@@ -236,8 +236,9 @@ function escapeXML(text) {
 		}
 	});
 }
+const skip = 'COMMENT EVENT_NAME MAP_NAME EFFECT'.split(' ');
 function skipEscape(parameter) {
-	return parameter.includes('_COMMENT') || parameter.includes('EVENT_NAME') || parameter.includes('MAP_NAME');
+	return skip.some(substr => parameter.includes(substr));
 }
 function updateEditor(template) {
 	let generated = TEMPLATES[template];
@@ -439,14 +440,27 @@ function updateParameters() {
 			i++;
 		}
 	}
+	let bgeId = document.getElementById('bgeId').value;
+	const bgeName = document.getElementById('bgeName').value;
+	const bgeDescription = document.getElementById('bgeDescription').value;
+	const bgeEffect = BGES[bgeId] ? BGES[bgeId].effect : '';
 	template = 'event_timeline_bge';
-	parameters[template]['BGE_NAME'] = document.getElementById('bgeName').value;
-	parameters[template]['BGE_DESCRIPTION'] = document.getElementById('bgeDescription').value;
-	parameters[template]['BGE_EFFECT_ID'] = document.getElementById('bgeId').value;
+	parameters[template]['BGE_NAME'] = bgeName;
+	parameters[template]['BGE_DESCRIPTION'] = bgeDescription;
+	parameters[template]['BGE_EFFECT_ID'] = bgeId;
 	if (eventBGE) {
 		parameters[template]['BGE_BANNER'] = BGE_BANNERS[eventBGE].banner_prefab;
 		parameters[template]['BGE_BUNDLE'] = BGE_BANNERS[eventBGE].bundle;
 	}
+	template = 'battleground_effects';
+	parameters[template]['BGE_ID'] = bgeId;
+	parameters[template]['BGE_NAME'] = bgeName;
+	parameters[template]['BGE_DESCRIPTION'] = bgeDescription;
+	parameters[template]['BGE_ICON'] = BGES[bgeId] ? BGES[bgeId].icon : '';
+	if (!BGES[bgeId] && eventBGE) {
+		parameters[template]['BGE_ICON'] = TRIBES[eventBGE].icon.replace('_32', '_64');
+	}
+	parameters[template]['BGE_EFFECT'] = bgeEffect;
 	// template = 'reward_box';
 	// eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
 	// const cardId = document.getElementById('rewardLegendary').value;
@@ -471,6 +485,7 @@ function updateParameters() {
 
 const tribes = FACTIONS.filter(f => !f.hidden && f.tribe == 1);
 tribes.sort((a, b) => a.name.localeCompare(b.name));
+const TRIBES = Object.fromEntries(tribes.map(t => [t.name, t]));
 const selectTribe = document.getElementById('selectTribe');
 tribes.forEach(tribe => {
 	const option = document.createElement('option');
