@@ -67,7 +67,7 @@ function convertQuads() {
 	const quads = document.getElementById('convertQuads').checked;
 	let hash = document.getElementById('dungeonDeckHash').value;
 	if (!hash) return;
-	hash = hash.match(new RegExp('.{1,5}', 'g'));
+	hash = hash.match(/.{1,5}/g);
 	hash = [hash[0], ...hash.slice(1).map(function(h) {
 		const id = base64decode(h);
 		const quad = quads ? '2' + id : id;
@@ -288,6 +288,28 @@ while (BGES[newBGE]) newBGE++;
 let newFlask = 28170;
 while (ITEMS[newFlask]) newFlask += 10;
 
+document.getElementById('convertBgeLabel').textContent = `Convert to new BGE (${newBGE})`;
+function convertBGE(bge) {
+	const tribe = BGES[bge]?.tribe;
+	if (tribe && eventBGE) {
+		const tribeId = TRIBES[tribe].id;
+		const bgeName = document.getElementById('bgeName');
+		bgeName.value = BGES[bge].name;
+		if (bgeName.value.includes('Angelic') && !bgeName.value.includes(eventBGE)) {
+			bgeName.value = bgeName.value.replace('Angelic', tribe);
+		}
+		bgeName.value = bgeName.value.replace(tribe, eventBGE);
+		const bgeDescription = document.getElementById('bgeDescription');
+		bgeDescription.value = BGES[bge].desc;
+		bgeDescription.value = bgeDescription.value.split(tribe).join(eventBGE);
+		bgeDescription.value = bgeDescription.value.split(tribe.toLowerCase()).join(eventBGE);
+		let effect = BGES[bge].effect;
+		effect = effect.replace(new RegExp(`((?:y|yy)=)(["'])${tribeId}\\2`, 'g'), `$1$2${eventTribeId}$2`);
+		effect = effect.replace(new RegExp(`(yy=["']\\d+,)${tribeId}(["'])`, 'g'), `$1${eventTribeId}$2`);
+		BGES[bge].converted = effect;
+	}
+}
+
 const parameters = {}, previous = {};
 for (const template in editors) {
 	parameters[template] = {};
@@ -440,10 +462,14 @@ function updateParameters() {
 			i++;
 		}
 	}
+	const convertBge = document.getElementById('convertBge').checked;
 	let bgeId = document.getElementById('bgeId').value;
+	convertBge && convertBGE(bgeId);
 	const bgeName = document.getElementById('bgeName').value;
 	const bgeDescription = document.getElementById('bgeDescription').value;
 	const bgeEffect = BGES[bgeId] ? BGES[bgeId].effect : '';
+	const newEffect = convertBge ? BGES[bgeId]?.converted : '';
+	bgeId = convertBge ? newBGE : bgeId;
 	template = 'event_timeline_bge';
 	parameters[template]['BGE_NAME'] = bgeName;
 	parameters[template]['BGE_DESCRIPTION'] = bgeDescription;
@@ -457,10 +483,10 @@ function updateParameters() {
 	parameters[template]['BGE_NAME'] = bgeName;
 	parameters[template]['BGE_DESCRIPTION'] = bgeDescription;
 	parameters[template]['BGE_ICON'] = BGES[bgeId] ? BGES[bgeId].icon : '';
-	if (!BGES[bgeId] && eventBGE) {
+	if ((convertBge || !BGES[bgeId]) && eventBGE) {
 		parameters[template]['BGE_ICON'] = TRIBES[eventBGE].icon.replace('_32', '_64');
 	}
-	parameters[template]['BGE_EFFECT'] = bgeEffect;
+	parameters[template]['BGE_EFFECT'] = newEffect ? newEffect : bgeEffect;
 	// template = 'reward_box';
 	// eventBGE && (parameters[template]['EVENT_BGE_LOWERCASE'] = eventBGE.toLowerCase());
 	// const cardId = document.getElementById('rewardLegendary').value;

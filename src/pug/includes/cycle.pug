@@ -44,8 +44,12 @@ div#cycle(style='display: none')
 								.col-md-6.col-auto
 									input.form-control(type='text', oninput='updateEditors()', placeholder='Name', id='bgeName')
 							.row.mt-2
-								.col-md-6.col-auto
+								.col-md-4.col-auto
 									label(for='bgeDescription', class='form-label') Description
+								.col-auto
+									.form-check
+										input.form-check-input(type='checkbox', id='convertBge', checked, onclick='filterBge(bgeId)')
+										label.form-check-label(for='convertBge', style='user-select: none', id='convertBgeLabel') Convert to new BGE
 							.row
 								.col-md-10.col-auto
 									textarea.form-control(type='text', oninput='updateEditors()', rows='4', id='bgeDescription')

@@ -69,7 +69,13 @@
                                         <div class="col-md-6 col-auto"><input class="form-control" type="text" oninput="updateEditors()" placeholder="Name" id="bgeName" /></div>
                                     </div>
                                     <div class="row mt-2">
-                                        <div class="col-md-6 col-auto"><label class="form-label" for="bgeDescription">Description</label></div>
+                                        <div class="col-md-4 col-auto"><label class="form-label" for="bgeDescription">Description</label></div>
+                                        <div class="col-auto">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="convertBge" checked onclick="filterBge(bgeId)" />
+                                                <label class="form-check-label" for="convertBge" style="user-select: none" id="convertBgeLabel">Convert to new BGE</label>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-10 col-auto"><textarea class="form-control" type="text" oninput="updateEditors()" rows="4" id="bgeDescription"></textarea></div>
@@ -148,6 +154,11 @@
                                     </div>
                                     <h6 class="mt-3"><i>event_timeline_bge.xml</i></h6>
                                     <textarea class="code" id="event_timeline_bge"></textarea>
+                                    <button class="btn btn-light mt-1 copy-btn btn-border" onclick="copyText(this)">Copy</button>
+                                    <button class="btn btn-light mt-1 icon-btn btn-border" onclick="downloadFile(this)"><i class="bi bi-download"></i></button>
+                                    <button class="btn btn-light mt-1 icon-btn btn-border" onclick="downloadCompleteFile(this)"><i class="bi bi-file-earmark-arrow-down-fill"></i></button>
+                                    <h6 class="mt-4"><i>battleground_effects.xml</i></h6>
+                                    <textarea class="code" id="battleground_effects"></textarea>
                                     <button class="btn btn-light mt-1 copy-btn btn-border" onclick="copyText(this)">Copy</button>
                                     <button class="btn btn-light mt-1 icon-btn btn-border" onclick="downloadFile(this)"><i class="bi bi-download"></i></button>
                                     <button class="btn btn-light mt-1 icon-btn btn-border" onclick="downloadCompleteFile(this)"><i class="bi bi-file-earmark-arrow-down-fill"></i></button>
@@ -650,9 +661,9 @@
         <!-- CodeMirror-->
         <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.14/lib/codemirror.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.14/mode/xml/xml.js"></script>
-        <script src="js/scripts.js?v=1744150306742"></script>
-        <script src="js/data.js?v=1744150306742"></script>
-        <script src="js/templates.js?v=1744150306742"></script>
-        <script src="js/generate.js?v=1744150306742"></script>
+        <script src="js/scripts.js?v=1744749945766"></script>
+        <script src="js/data.js?v=1744749945766"></script>
+        <script src="js/templates.js?v=1744749945766"></script>
+        <script src="js/generate.js?v=1744749945766"></script>
     </body>
 </html>
