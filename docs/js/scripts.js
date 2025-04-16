@@ -263,8 +263,10 @@ function filterScale(input, update = true) {
 	}
 }
 
+let editBge;
 function filterBge(input, update = true) {
 	filter(input);
+	editBge = true;
 	let name = '', description = '';
 	const bge = BGES[input.value];
 	if (bge) {

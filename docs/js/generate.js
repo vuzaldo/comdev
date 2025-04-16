@@ -307,6 +307,7 @@ function convertBGE(bge) {
 		effect = effect.replace(new RegExp(`((?:y|yy)=)(["'])${tribeId}\\2`, 'g'), `$1$2${eventTribeId}$2`);
 		effect = effect.replace(new RegExp(`(yy=["']\\d+,)${tribeId}(["'])`, 'g'), `$1${eventTribeId}$2`);
 		BGES[bge].converted = effect;
+		editBge = false;
 	}
 }
 
@@ -464,7 +465,7 @@ function updateParameters() {
 	}
 	const convertBge = document.getElementById('convertBge').checked;
 	let bgeId = document.getElementById('bgeId').value;
-	convertBge && convertBGE(bgeId);
+	convertBge && editBge && convertBGE(bgeId);
 	const bgeName = document.getElementById('bgeName').value;
 	const bgeDescription = document.getElementById('bgeDescription').value;
 	const bgeEffect = BGES[bgeId] ? BGES[bgeId].effect : '';
@@ -523,6 +524,7 @@ selectTribe.addEventListener('change', function() {
 	const selectedOption = this.options[this.selectedIndex];
 	eventBGE = selectedOption.text;
 	eventTribeId = selectedOption.value;
+	editBge = true;
 	updateEditors();
 	document.getElementById('generateBtn').disabled = false;
 	document.getElementById('generateDungeonBtn').disabled = false;
