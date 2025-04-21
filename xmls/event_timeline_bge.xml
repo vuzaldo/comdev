@@ -1813,5 +1813,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
-
+	<event>
+		<id>6128</id>
+		<name>Elemental Tempest</name>
+		<desc>Aether Elementals gain 20% Mark. Chaos Elementals gain 20% Barrage. Wyld Elementals gain 15% Venom. Void Elementals gain 10% Backlash. All values are based on base Health.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>192</bg_effect>
+		</effect>
+		<start_time>1745514000</start_time> <!-- Thursday, April 24, 2025 at 17:00:00 -->
+		<end_time>1750352400</end_time> <!-- Thursday, June 19, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

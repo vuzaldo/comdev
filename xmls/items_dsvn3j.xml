@@ -1167,18 +1167,8 @@
 		<icon>Flask_Aether</icon> <!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Tanit, Divinity's Focus; Volsung Icewind; TZ-530 the Impassable; or Dina the Iridescent</desc>
-		<choice id="1">
-			<item id="105600" quantity="1"/> <!-- Tanit -->
-		</choice>
-		<choice id="2">
-			<item id="105601" quantity="1"/> <!-- Volsung -->
-		</choice>
-		<choice id="3">
-			<item id="105602" quantity="1"/> <!-- TZ -->
-		</choice>
-		<choice id="4">
-			<item id="105603" quantity="1"/> <!-- Dina -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2579</id>
@@ -1186,18 +1176,8 @@
 		<icon>Flask_Chaos</icon> <!-- Chaos_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Sigix the Charcannon; Elytragor, Beacon's Call; Apex Land Shark; or Kabuto, Samurai Myth</desc>
-		<choice id="1">
-			<item id="106600" quantity="1"/> <!-- Sigix -->
-		</choice>
-		<choice id="2">
-			<item id="106601" quantity="1"/> <!-- Elytragor -->
-		</choice>
-		<choice id="3">
-			<item id="106602" quantity="1"/> <!-- Apex -->
-		</choice>
-		<choice id="4">
-			<item id="106603" quantity="1"/> <!-- Kabuto -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2580</id>
@@ -1205,18 +1185,8 @@
 		<icon>Flask_Wyld</icon> <!-- Wyld_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Glory Seeker Arran; Nemea, the Lost Regent; Leafsinger; or Formyr the Desecrated</desc>
-		<choice id="1">
-			<item id="107600" quantity="1"/> <!-- Arran -->
-		</choice>
-		<choice id="2">
-			<item id="107601" quantity="1"/> <!-- Nemea -->
-		</choice>
-		<choice id="3">
-			<item id="107602" quantity="1"/> <!-- Leafsinger -->
-		</choice>
-		<choice id="4">
-			<item id="107603" quantity="1"/> <!-- Formyr -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Premium Flasks Gen 2 -->
@@ -1226,18 +1196,8 @@
 		<icon>Flask_Aether</icon> <!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Mirrormage Ghessela; Medusozoa, the Immortal; Volvel, Golden Pride; or Tao, Transcended Lich</desc>
-		<choice id="1">
-			<item id="105604" quantity="1"/> <!-- Ghessela -->
-		</choice>
-		<choice id="2">
-			<item id="105605" quantity="1"/> <!-- Medusozoa -->
-		</choice>
-		<choice id="3">
-			<item id="105606" quantity="1"/> <!-- Volvel -->
-		</choice>
-		<choice id="4">
-			<item id="105607" quantity="1"/> <!-- Tao -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2596</id>
@@ -1245,18 +1205,8 @@
 		<icon>Flask_Chaos</icon> <!-- Chaos_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Malik, Hollow Djinn; Styxia, the Headless; Xerkahn, the Rancor; or Lyra, Mayhem Conductor</desc>
-		<choice id="1">
-			<item id="107607" quantity="1"/> <!-- Malik -->
-		</choice>
-		<choice id="2">
-			<item id="106604" quantity="1"/> <!-- Styxia -->
-		</choice>
-		<choice id="3">
-			<item id="106605" quantity="1"/> <!-- Xerkahn -->
-		</choice>
-		<choice id="4">
-			<item id="106606" quantity="1"/> <!-- Lyra -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2597</id>
@@ -1264,18 +1214,8 @@
 		<icon>Flask_Wyld</icon> <!-- Wyld_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Tropicano Rex; Rago, Crimson Vicar; Puzzlemud's Body; or The Triad of Fortunes</desc>
-		<choice id="1">
-			<item id="107604" quantity="1"/> <!-- Tropicano -->
-		</choice>
-		<choice id="2">
-			<item id="107605" quantity="1"/> <!-- Rago -->
-		</choice>
-		<choice id="3">
-			<item id="107606" quantity="1"/> <!-- Puzzlemud -->
-		</choice>
-		<choice id="4">
-			<item id="107608" quantity="1"/> <!-- Triad -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Premium Flasks Gen 3 -->
@@ -1285,18 +1225,8 @@
 		<icon>Flask_Aether</icon> <!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Windsage Gama; Phorus of the Sunsphere; Ystlin, the Market Boss; or Zhu-Lath, the Hermit</desc>
-		<choice id="1">
-			<item id="105608" quantity="1"/> <!-- Windsage -->
-		</choice>
-		<choice id="2">
-			<item id="105609" quantity="1"/> <!-- Phorus -->
-		</choice>
-		<choice id="3">
-			<item id="105610" quantity="1"/> <!-- Ystlin -->
-		</choice>
-		<choice id="4">
-			<item id="105611" quantity="1"/> <!-- Zhu-Lath -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2599</id>
@@ -1304,18 +1234,8 @@
 		<icon>Flask_Chaos</icon> <!-- Chaos_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for The Elder Evil; Bashira, the Half-Blooded; Zyd, the Unhinged; or Hedron, the Critical Threat</desc>
-		<choice id="1">
-			<item id="106607" quantity="1"/> <!-- Elder Evil -->
-		</choice>
-		<choice id="2">
-			<item id="106608" quantity="1"/> <!-- Zyd -->
-		</choice>
-		<choice id="3">
-			<item id="106609" quantity="1"/> <!-- Hedron -->
-		</choice>
-		<choice id="4">
-			<item id="107617" quantity="1"/> <!-- Bashira -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2600</id>
@@ -1323,18 +1243,8 @@
 		<icon>Flask_Wyld</icon> <!-- Wyld_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Wrom, the Entomancer; Trafyr, the Rose Warden; Vsov, Blizzard Djinn; or Tzopilotl, the Beyonder</desc>
-		<choice id="1">
-			<item id="107609" quantity="1"/> <!-- Wrom -->
-		</choice>
-		<choice id="2">
-			<item id="107610" quantity="1"/> <!-- Trafyr -->
-		</choice>
-		<choice id="3">
-			<item id="107611" quantity="1"/> <!-- Vsov -->
-		</choice>
-		<choice id="4">
-			<item id="107612" quantity="1"/> <!-- Tzopilotl -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 
@@ -1344,18 +1254,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Lok'thor, the Reborn; Teroxis, King of Stones; Sparky, the Royal Pet or Kalyt, the Last Word</desc>
-		<choice id="1">
-			<item id="104004" quantity="1"/> <!-- Lok'thor -->
-		</choice>
-		<choice id="2">
-			<item id="104013" quantity="1"/> <!-- Teroxis -->
-		</choice>
-		<choice id="3">
-			<item id="104031" quantity="1"/> <!-- Sparky -->
-		</choice>
-		<choice id="4">
-			<item id="104038" quantity="1"/> <!-- Kalyt -->
-		</choice>
+		<give_item id="28220" quantity="1"/> <!-- Dragon Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2604</id>
@@ -1363,15 +1263,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Rhynio Sun Warrior; Formos Ebonclaw or Mothmo, the Cryptid</desc>
-		<choice id="1">
-			<item id="104008" quantity="1"/> <!-- Rhynio -->
-		</choice>
-		<choice id="2">
-			<item id="104019" quantity="1"/> <!-- Formos -->
-		</choice>
-		<choice id="3">
-			<item id="104030" quantity="1"/> <!-- Mothmo -->
-		</choice>
+		<give_item id="28260" quantity="1"/> <!-- Insect Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2605</id>
@@ -1379,18 +1272,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Boldur, Bridge Builder; Daknak Darkblade; Spikes, the Warmonger, or Nuvis, the Eye Collector</desc>
-		<choice id="1">
-			<item id="104005" quantity="1"/> <!-- Boldur -->
-		</choice>
-		<choice id="2">
-			<item id="104016" quantity="1"/> <!-- Daknak -->
-		</choice>
-		<choice id="3">
-			<item id="104026" quantity="1"/> <!-- Spikes -->
-		</choice>
-		<choice id="4">
-			<item id="104037" quantity="1"/> <!-- Nuvis -->
-		</choice>
+		<give_item id="28240" quantity="1"/> <!-- Goblin Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2606</id>
@@ -1398,18 +1281,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Noctrus Flintclaw; Columba, Firewing Monk; Balt, Raptor's Captain or Iphelia, Voice of Pain</desc>
-		<choice id="1">
-			<item id="104000" quantity="1"/> <!-- Noctrus -->
-		</choice>
-		<choice id="2">
-			<item id="104010" quantity="1"/> <!-- Columba -->
-		</choice>
-		<choice id="3">
-			<item id="104033" quantity="1"/> <!-- Balt -->
-		</choice>
-		<choice id="4">
-			<item id="104040" quantity="1"/> <!-- Iphelia -->
-		</choice>
+		<give_item id="28230" quantity="1"/> <!-- Avian Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -1418,18 +1291,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Foxfire; Cordelia the Twinblade, Sound of Death or Umbu, Life Releaser</desc>
-		<choice id="1">
-			<item id="104001" quantity="1"/> <!-- Foxfire -->
-		</choice>
-		<choice id="2">
-			<item id="104012" quantity="1"/> <!-- Cordelia -->
-		</choice>
-		<choice id="3">
-			<item id="104020" quantity="1"/> <!-- Sound of Death -->
-		</choice>
-		<choice id="4">
-			<item id="104027" quantity="1"/> <!-- Umbu -->
-		</choice>
+		<give_item id="28200" quantity="1"/> <!-- Undead Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2614</id>
@@ -1437,18 +1300,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Typhoeus, Storm Father; King Proteus, Pirate Hunter Eichiro or Royal Fighter Lairel</desc>
-		<choice id="1">
-			<item id="104007" quantity="1"/> <!-- Typhoeus -->
-		</choice>
-		<choice id="2">
-			<item id="104017" quantity="1"/> <!-- Proteus -->
-		</choice>
-		<choice id="3">
-			<item id="104028" quantity="1"/> <!-- Eichiro -->
-		</choice>
-		<choice id="4">
-			<item id="104039" quantity="1"/> <!-- Lairel -->
-		</choice>
+		<give_item id="28250" quantity="1"/> <!-- Seafolk Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Premium Flasks Gen 4 -->
@@ -1458,18 +1311,8 @@
 		<icon>Flask_Aether</icon> <!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Genen, the Icebreaker; Caraca, the Redeemed; Zahira, the Bladedance; or Sword Saint Katto</desc>
-		<choice id="1">
-			<item id="105612" quantity="1"/> <!-- Genen -->
-		</choice>
-		<choice id="2">
-			<item id="105613" quantity="1"/> <!-- Caraca -->
-		</choice>
-		<choice id="3">
-			<item id="105614" quantity="1"/> <!-- Zahira -->
-		</choice>
-		<choice id="4">
-			<item id="105615" quantity="1"/> <!-- Katto -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2616</id>
@@ -1477,18 +1320,8 @@
 		<icon>Flask_Chaos</icon> <!-- Chaos_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Issa, the Wireslayer; Caelius, the Highlord; Zolb, Labyrinth King; or Skylo, Lord of the Wings</desc>
-		<choice id="1">
-			<item id="106610" quantity="1"/> <!-- Issa -->
-		</choice>
-		<choice id="2">
-			<item id="106611" quantity="1"/> <!-- Caelius -->
-		</choice>
-		<choice id="3">
-			<item id="106612" quantity="1"/> <!-- Zolb -->
-		</choice>
-		<choice id="4">
-			<item id="106613" quantity="1"/> <!-- Skylo -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2617</id>
@@ -1496,18 +1329,8 @@
 		<icon>Flask_Wyld</icon> <!-- Wyld_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Tarkar, the Unturned; Tylong, Old Warrior; Kyviat, the Aquamancer; or Lechuza, the Skybinder</desc>
-		<choice id="1">
-			<item id="107613" quantity="1"/> <!-- Tarkar -->
-		</choice>
-		<choice id="2">
-			<item id="107614" quantity="1"/> <!-- Tylong -->
-		</choice>
-		<choice id="3">
-			<item id="107615" quantity="1"/> <!-- Kyviat -->
-		</choice>
-		<choice id="4">
-			<item id="107616" quantity="1"/> <!-- Lechuza -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -1516,18 +1339,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Razi the Fallen Light, Kachina, the Dreamer; Vindicator Batara, or Cyno, Arbiter of Souls</desc>
-		<choice id="1">
-			<item id="104002" quantity="1"/> <!-- Typhoeus -->
-		</choice>
-		<choice id="2">
-			<item id="104009" quantity="1"/> <!-- Proteus -->
-		</choice>
-		<choice id="3">
-			<item id="104015" quantity="1"/> <!-- Eichiro -->
-		</choice>
-		<choice id="4">
-			<item id="104029" quantity="1"/> <!-- Lairel -->
-		</choice>
+		<give_item id="28190" quantity="1"/> <!-- Angel Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2625</id>
@@ -1535,18 +1348,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Ralgan Ironpaw; The Coalheart Widow; Leroux, the Macabre; or Sgt. Clockoo</desc>
-		<choice id="1">
-			<item id="104014" quantity="1"/> <!-- Ralgan -->
-		</choice>
-		<choice id="2">
-			<item id="104024" quantity="1"/> <!-- Widow -->
-		</choice>
-		<choice id="3">
-			<item id="104036" quantity="1"/> <!-- Leroux -->
-		</choice>
-		<choice id="4">
-			<item id="104048" quantity="1"/> <!-- Clockoo -->
-		</choice>
+		<give_item id="28290" quantity="1"/> <!-- Mecha Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2626</id>
@@ -1554,18 +1357,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Plyn Poisontrek; Kachina, the Dreamer; Hidden Omy; or Korg, the Last Touch</desc>
-		<choice id="1">
-			<item id="104021" quantity="1"/> <!-- Plyn -->
-		</choice>
-		<choice id="2">
-			<item id="104009" quantity="1"/> <!-- Kachina -->
-		</choice>
-		<choice id="3">
-			<item id="104042" quantity="1"/> <!-- Omy -->
-		</choice>
-		<choice id="4">
-			<item id="104045" quantity="1"/> <!-- Korg -->
-		</choice>
+		<give_item id="28170" quantity="1"/> <!-- Frog Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -1574,18 +1367,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Nuvis, the Eye Collector; Ark and the Goatapult; Spikes, the Warmonger; or Daknak Darkblade</desc>
-		<choice id="1">
-			<item id="104037" quantity="1"/> <!-- Nuvis -->
-		</choice>
-		<choice id="2">
-			<item id="104047" quantity="1"/> <!-- Ark -->
-		</choice>
-		<choice id="3">
-			<item id="104026" quantity="1"/> <!-- Spikes -->
-		</choice>
-		<choice id="4">
-			<item id="104016" quantity="1"/> <!-- Daknak -->
-		</choice>
+		<give_item id="28240" quantity="1"/> <!-- Goblin Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2634</id>
@@ -1593,18 +1376,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for The Coalheart Widow; Allfather, the Shaper; Emerald Amarok; or Sound of Death</desc>
-		<choice id="1">
-			<item id="104024" quantity="1"/> <!-- Coalheart -->
-		</choice>
-		<choice id="2">
-			<item id="104043" quantity="1"/> <!-- Allfather -->
-		</choice>
-		<choice id="3">
-			<item id="104011" quantity="1"/> <!-- Emerald -->
-		</choice>
-		<choice id="4">
-			<item id="104020" quantity="1"/> <!-- Sound -->
-		</choice>
+		<give_item id="28180" quantity="1"/> <!-- Elemental Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2635</id>
@@ -1612,18 +1385,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Typhoeus, Storm Father; King Proteus; Pirate Hunter Eichiro; or Royal Fighter Lairel</desc>
-		<choice id="1">
-			<item id="104007" quantity="1"/> <!-- Typhoeus -->
-		</choice>
-		<choice id="2">
-			<item id="104017" quantity="1"/> <!-- Proteus -->
-		</choice>
-		<choice id="3">
-			<item id="104028" quantity="1"/> <!-- Eichiro -->
-		</choice>
-		<choice id="4">
-			<item id="104039" quantity="1"/> <!-- Lairel -->
-		</choice>
+		<give_item id="28250" quantity="1"/> <!-- Seafolk Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Premium Flasks Gen 5 -->
@@ -1633,18 +1396,8 @@
 		<icon>Flask_Aether</icon> <!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Satchmo, Pipe Tail; Osyris, Mighty Goddess; Raju, the Unyielding; or Chlorox Omega</desc>
-		<choice id="1">
-			<item id="105616" quantity="1"/> <!-- Satchmo -->
-		</choice>
-		<choice id="2">
-			<item id="105617" quantity="1"/> <!-- Osyris -->
-		</choice>
-		<choice id="3">
-			<item id="105618" quantity="1"/> <!-- Raju -->
-		</choice>
-		<choice id="4">
-			<item id="105619" quantity="1"/> <!-- Chlorox -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2637</id>
@@ -1652,18 +1405,8 @@
 		<icon>Flask_Chaos</icon> <!-- Chaos_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Blaze, The Unvoker; Stern, the Gladthorn; Mephisto, the Pactmaker; or Domhain, the Fomorian</desc>
-		<choice id="1">
-			<item id="106614" quantity="1"/> <!-- Blaze -->
-		</choice>
-		<choice id="2">
-			<item id="106615" quantity="1"/> <!-- Stern -->
-		</choice>
-		<choice id="3">
-			<item id="106616" quantity="1"/> <!-- Mephisto -->
-		</choice>
-		<choice id="4">
-			<item id="106617" quantity="1"/> <!-- Domhain -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2638</id>
@@ -1671,18 +1414,8 @@
 		<icon>Flask_Wyld</icon> <!-- Wyld_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Caccia, the Lunatic; Rima, The Impaler; Klevit, the Speedfall; or Saucy, Lady of the Cauldron</desc>
-		<choice id="1">
-			<item id="107618" quantity="1"/> <!-- Caccia -->
-		</choice>
-		<choice id="2">
-			<item id="107619" quantity="1"/> <!-- Rima -->
-		</choice>
-		<choice id="3">
-			<item id="107620" quantity="1"/> <!-- Klevit -->
-		</choice>
-		<choice id="4">
-			<item id="107621" quantity="1"/> <!-- Saucy -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -1691,18 +1424,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Sparky, the Royal Pet; Korg, the Last Touch ; Kalyt, the Last Word; or Bluefire, Void Incarnate</desc>
-		<choice id="1">
-			<item id="104031" quantity="1"/> <!-- Sparky -->
-		</choice>
-		<choice id="2">
-			<item id="104045" quantity="1"/> <!-- Korg -->
-		</choice>
-		<choice id="3">
-			<item id="104038" quantity="1"/> <!-- Kalyt -->
-		</choice>
-		<choice id="4">
-			<item id="104022" quantity="1"/> <!-- Bluefire -->
-		</choice>
+		<give_item id="28220" quantity="1"/> <!-- Dragon Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2640</id>
@@ -1710,18 +1433,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Vindicator Batara; Cyno, Arbiter of Souls; Leyla, Queen of Skyhaven or Freya, the Landbinder</desc>
-		<choice id="1">
-			<item id="104015" quantity="1"/> <!-- Batara -->
-		</choice>
-		<choice id="2">
-			<item id="104029" quantity="1"/> <!-- Cyno -->
-		</choice>
-		<choice id="3">
-			<item id="104041" quantity="1"/> <!-- Leyla -->
-		</choice>
-		<choice id="4">
-			<item id="104051" quantity="1"/> <!-- Freya -->
-		</choice>
+		<give_item id="28190" quantity="1"/> <!-- Angel Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2641</id>
@@ -1729,18 +1442,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Noctrus Flintclaw; Balt, Raptor's Captain; Columba, Firewing Monk or Paloma, Spear Knight</desc>
-		<choice id="1">
-			<item id="104000" quantity="1"/> <!-- Noctrus -->
-		</choice>
-		<choice id="2">
-			<item id="104033" quantity="1"/> <!-- Balt -->
-		</choice>
-		<choice id="3">
-			<item id="104010" quantity="1"/> <!-- Columba -->
-		</choice>
-		<choice id="4">
-			<item id="104023" quantity="1"/> <!-- Paloma -->
-		</choice>
+		<give_item id="28230" quantity="1"/> <!-- Avian Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2642</id>
@@ -1748,18 +1451,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Rhynio Sun Warrior; Formos Ebonclaw or Mothmo, the Cryptid or Agatha, Myth Warden</desc>
-		<choice id="1">
-			<item id="104008" quantity="1"/> <!-- Rhynio -->
-		</choice>
-		<choice id="2">
-			<item id="104019" quantity="1"/> <!-- Formos -->
-		</choice>
-		<choice id="3">
-			<item id="104030" quantity="1"/> <!-- Mothmo -->
-		</choice>
-		<choice id="4">
-			<item id="104046" quantity="1"/> <!-- Agatha -->
-		</choice>
+		<give_item id="28260" quantity="1"/> <!-- Insect Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -1768,18 +1461,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Foxfire; Umbu, Life Releaser; Vasile, the Night Duke or Cordelia the Twinblade</desc>
-		<choice id="1">
-			<item id="104001" quantity="1"/> <!-- Foxfire -->
-		</choice>
-		<choice id="2">
-			<item id="104027" quantity="1"/> <!-- Umbu, Life Releaser -->
-		</choice>
-		<choice id="3">
-			<item id="104035" quantity="1"/> <!-- Vasile, the Night Duke -->
-		</choice>
-		<choice id="4">
-			<item id="104012" quantity="1"/> <!-- Cordelia the Twinblade -->
-		</choice>
+		<give_item id="28200" quantity="1"/> <!-- Undead Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -1788,18 +1471,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Kachina, the Dreamer; Plyn Poisontrek; Froggit, the Puppeteer or Hidden Omy</desc>
-		<choice id="1">
-			<item id="104009" quantity="1"/> <!-- Kachina, the Dreamer -->
-		</choice>
-		<choice id="2">
-			<item id="104021" quantity="1"/> <!-- Plyn Poisontrek -->
-		</choice>
-		<choice id="3">
-			<item id="104032" quantity="1"/> <!-- Froggit, the Puppeteer -->
-		</choice>
-		<choice id="4">
-			<item id="104042" quantity="1"/> <!-- Hidden Omy -->
-		</choice>
+		<give_item id="28170" quantity="1"/> <!-- Frog Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2663</id>
@@ -1807,18 +1480,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Kensho, the Aeromaster; Foxfire; Sound of Death or Allfather, the Shaper</desc>
-		<choice id="1">
-			<item id="104018" quantity="1"/> <!-- Kensho, the Aeromaster -->
-		</choice>
-		<choice id="2">
-			<item id="104001" quantity="1"/> <!-- Foxfire -->
-		</choice>
-		<choice id="3">
-			<item id="104020" quantity="1"/> <!-- Sound of Death -->
-		</choice>
-		<choice id="4">
-			<item id="104043" quantity="1"/> <!-- Allfather, the Shaper -->
-		</choice>
+		<give_item id="28180" quantity="1"/> <!-- Elemental Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2664</id>
@@ -1826,18 +1489,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Leroux, the Macabre; Ralgan Ironpaw; LOCO-5000 or The Coalheart Widow</desc>
-		<choice id="1">
-			<item id="104036" quantity="1"/> <!-- Leroux, the Macabre -->
-		</choice>
-		<choice id="2">
-			<item id="104014" quantity="1"/> <!-- Ralgan Ironpaw -->
-		</choice>
-		<choice id="3">
-			<item id="104006" quantity="1"/> <!-- LOCO-5000 -->
-		</choice>
-		<choice id="4">
-			<item id="104024" quantity="1"/> <!-- The Coalheart Widow -->
-		</choice>
+		<give_item id="28290" quantity="1"/> <!-- Mecha Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2665</id>
@@ -1845,18 +1498,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Illu, Mirage of the Sea; Pirate Hunter Eichiro; King Proteus; or Morty Ahab, Seaturned</desc>
-		<choice id="1">
-			<item id="104050" quantity="1"/> <!-- Illu, Mirage of the Sea -->
-		</choice>
-		<choice id="2">
-			<item id="104028" quantity="1"/> <!-- Pirate Hunter Eichiro -->
-		</choice>
-		<choice id="3">
-			<item id="104017" quantity="1"/> <!-- King Proteus -->
-		</choice>
-		<choice id="4">
-			<item id="104049" quantity="1"/> <!-- Morty Ahab, Seaturned -->
-		</choice>
+		<give_item id="28250" quantity="1"/> <!-- Seafolk Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -1865,18 +1508,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Boldur, Bridge Builder; Daknak Darkblade; Spikes, the Warmonger; or Ark and the Goatapult</desc>
-		<choice id="1">
-			<item id="104005" quantity="1"/> <!-- Boldur, Bridge Builder -->
-		</choice>
-		<choice id="2">
-			<item id="104016" quantity="1"/> <!-- Daknak Darkblade -->
-		</choice>
-		<choice id="3">
-			<item id="104026" quantity="1"/> <!-- Spikes, the Warmonger -->
-		</choice>
-		<choice id="4">
-			<item id="104047" quantity="1"/> <!-- Ark and the Goatapult -->
-		</choice>
+		<give_item id="28240" quantity="1"/> <!-- Goblin Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2673</id>
@@ -1884,18 +1517,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Kachina, the Dreamer; Cyno, Arbiter of Souls; Razi the Fallen Light or Freya, the Landbinder</desc>
-		<choice id="1">
-			<item id="104009" quantity="1"/> <!-- Kachina, the Dreamer -->
-		</choice>
-		<choice id="2">
-			<item id="104029" quantity="1"/> <!-- Cyno, Arbiter of Souls -->
-		</choice>
-		<choice id="3">
-			<item id="104002" quantity="1"/> <!-- Razi the Fallen Light -->
-		</choice>
-		<choice id="4">
-			<item id="104051" quantity="1"/> <!-- Freya, the Landbinder -->
-		</choice>
+		<give_item id="28190" quantity="1"/> <!-- Angel Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -1904,18 +1527,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Columba, Firewing Monk; Balt, Raptor's Captain; Iphelia, Voice of Pain or Ashanti, the Assassin</desc>
-		<choice id="1">
-			<item id="104010" quantity="1"/> <!-- Columba, Firewing Monk -->
-		</choice>
-		<choice id="2">
-			<item id="104033" quantity="1"/> <!-- 	Balt, Raptor's Captain  -->
-		</choice>
-		<choice id="3">
-			<item id="104040" quantity="1"/> <!-- 	Iphelia, Voice of Pain -->
-		</choice>
-		<choice id="4">
-			<item id="104059" quantity="1"/> <!-- Ashanti, the Assassin -->
-		</choice>
+		<give_item id="28230" quantity="1"/> <!-- Avian Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2681</id>
@@ -1923,18 +1536,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Sound of Death; Foxfire; Cordelia the Twinblade or Veric, the Undying</desc>
-		<choice id="1">
-			<item id="104020" quantity="1"/> <!-- Sound of Death -->
-		</choice>
-		<choice id="2">
-			<item id="104001" quantity="1"/> <!-- 	Foxfire   -->
-		</choice>
-		<choice id="3">
-			<item id="104012" quantity="1"/> <!-- 	Cordelia the Twinblade -->
-		</choice>
-		<choice id="4">
-			<item id="104061" quantity="1"/> <!-- Veric, the Undying -->
-		</choice>
+		<give_item id="28200" quantity="1"/> <!-- Undead Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2682</id>
@@ -1942,18 +1545,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Leroux, the Macabre; Ralgan Ironpaw; LOCO-5000 or The Coalheart Widow</desc>
-		<choice id="1">
-			<item id="104036" quantity="1"/> <!-- Leroux, the Macabre -->
-		</choice>
-		<choice id="2">
-			<item id="104014" quantity="1"/> <!-- Ralgan Ironpaw -->
-		</choice>
-		<choice id="3">
-			<item id="104006" quantity="1"/> <!-- LOCO-5000 -->
-		</choice>
-		<choice id="4">
-			<item id="104024" quantity="1"/> <!-- The Coalheart Widow -->
-		</choice>
+		<give_item id="28290" quantity="1"/> <!-- Mecha Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Start of ComDev Flasks -->
@@ -1964,18 +1557,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Rhynio Sun Warrior; Formos Ebonclaw; Agatha, Myth Warden or Kattoraki, the Sword Savior</desc>
-		<choice id="1">
-			<item id="104008" quantity="1"/> <!-- Rhynio -->
-		</choice>
-		<choice id="2">
-			<item id="104019" quantity="1"/> <!-- Formos -->
-		</choice>
-		<choice id="3">
-			<item id="104046" quantity="1"/> <!-- Agatha -->
-		</choice>
-		<choice id="4">
-			<item id="105640" quantity="1"/> <!-- Kattoraki -->
-		</choice>
+		<give_item id="28260" quantity="1"/> <!-- Insect Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Premium Flasks Gen 6 -->
@@ -1985,18 +1568,8 @@
 		<icon>Flask_Aether</icon> <!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Kira, the Innovator; Aeronwen, the Glider; Duchess Pollutarax; or Shrime, the Frozen</desc>
-		<choice id="1">
-			<item id="105620" quantity="1"/> <!-- Kira -->
-		</choice>
-		<choice id="2">
-			<item id="105625" quantity="1"/> <!-- Aeronwen -->
-		</choice>
-		<choice id="3">
-			<item id="105622" quantity="1"/> <!-- Pollutarax -->
-		</choice>
-		<choice id="4">
-			<item id="105623" quantity="1"/> <!-- Shrime -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2685</id>
@@ -2004,18 +1577,8 @@
 		<icon>Flask_Chaos</icon> <!-- Chaos_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Jormun, the Ravager; Abbadon, the Vicious; Ardeat, the Arsonist; or Nophora, the Hoarder</desc>
-		<choice id="1">
-			<item id="106618" quantity="1"/> <!-- Jormun -->
-		</choice>
-		<choice id="2">
-			<item id="106620" quantity="1"/> <!-- Abbadon -->
-		</choice>
-		<choice id="3">
-			<item id="106621" quantity="1"/> <!-- Ardeat -->
-		</choice>
-		<choice id="4">
-			<item id="106622" quantity="1"/> <!-- Nophora -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2686</id>
@@ -2023,18 +1586,8 @@
 		<icon>Flask_Wyld</icon> <!-- Wyld_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Gravy, the Ravenlyte; Dunstan, the Untamed; Sigblin, the Trollskin; or Quad, the Gatherer</desc>
-		<choice id="1">
-			<item id="107622" quantity="1"/> <!-- Gravy -->
-		</choice>
-		<choice id="2">
-			<item id="107623" quantity="1"/> <!-- Dunstan -->
-		</choice>
-		<choice id="3">
-			<item id="107624" quantity="1"/> <!-- Sigblin -->
-		</choice>
-		<choice id="4">
-			<item id="107625" quantity="1"/> <!-- Quad -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Premium Flasks Gen 7 -->
@@ -2044,18 +1597,8 @@
 		<icon>Flask_Aether</icon> <!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Altos, the Implacable; Nayaara, the Airlight; Gendra, the Blacksmith; or Drarm, the Soulbinder</desc>
-		<choice id="1">
-			<item id="105624" quantity="1"/> <!-- Altos -->
-		</choice>
-		<choice id="2">
-			<item id="105621" quantity="1"/> <!-- Nayaara -->
-		</choice>
-		<choice id="3">
-			<item id="105626" quantity="1"/> <!-- Gendra -->
-		</choice>
-		<choice id="4">
-			<item id="105627" quantity="1"/> <!-- Drarm -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2688</id>
@@ -2063,18 +1606,8 @@
 		<icon>Flask_Chaos</icon> <!-- Chaos_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Remi, the Banished; Darkon, the Deep Horror; Mortas, the Cursed; or Osseus, the Skeleball</desc>
-		<choice id="1">
-			<item id="105635" quantity="1"/> <!-- Remi -->
-		</choice>
-		<choice id="2">
-			<item id="106619" quantity="1"/> <!-- Darkon -->
-		</choice>
-		<choice id="3">
-			<item id="106623" quantity="1"/> <!-- Mortas -->
-		</choice>
-		<choice id="4">
-			<item id="106624" quantity="1"/> <!-- Osseus -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2689</id>
@@ -2082,18 +1615,8 @@
 		<icon>Flask_Wyld</icon> <!-- Wyld_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Fritz, the Fiddler; Crash and Zink, the Riders; Ungoliant, the Poisonous Terror; or Tilly, the Love Keeper</desc>
-		<choice id="1">
-			<item id="107626" quantity="1"/> <!-- Fritz -->
-		</choice>
-		<choice id="2">
-			<item id="107627" quantity="1"/> <!-- Crash -->
-		</choice>
-		<choice id="3">
-			<item id="107628" quantity="1"/> <!-- Ungoliant -->
-		</choice>
-		<choice id="4">
-			<item id="107629" quantity="1"/> <!-- Tilly -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Premium Flasks Gen 8 -->
@@ -2103,18 +1626,8 @@
 		<icon>Flask_Aether</icon> <!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Gorgon, the Imprisoned; Kandrula, the Sly; Asim, the Lorekeeper; or Saint Galahad</desc>
-		<choice id="1">
-			<item id="105628" quantity="1"/> <!-- Gorgon -->
-		</choice>
-		<choice id="2">
-			<item id="105629" quantity="1"/> <!-- Kandrula -->
-		</choice>
-		<choice id="3">
-			<item id="105630" quantity="1"/> <!-- Asim -->
-		</choice>
-		<choice id="4">
-			<item id="105631" quantity="1"/> <!-- Galahad -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2691</id>
@@ -2122,18 +1635,8 @@
 		<icon>Flask_Chaos</icon> <!-- Chaos_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for The Undead Armada; R3-M1, the Channeler; Vig, the Leaper; or Zamriel, the Vengeful</desc>
-		<choice id="1">
-			<item id="106626" quantity="1"/> <!-- Armada -->
-		</choice>
-		<choice id="2">
-			<item id="106625" quantity="1"/> <!-- R3M1 -->
-		</choice>
-		<choice id="3">
-			<item id="106627" quantity="1"/> <!-- Vig -->
-		</choice>
-		<choice id="4">
-			<item id="106628" quantity="1"/> <!-- Zamriel -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2692</id>
@@ -2141,18 +1644,8 @@
 		<icon>Flask_Aether</icon> <!-- Wyld_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for La Llorona; Auron, the Icewall; Eira, the Electrokinetic; or Almet, the Ferromancer</desc>
-		<choice id="1">
-			<item id="105633" quantity="1"/> <!-- Llorona -->
-		</choice>
-		<choice id="2">
-			<item id="105632" quantity="1"/> <!-- Auron -->
-		</choice>
-		<choice id="3">
-			<item id="105634" quantity="1"/> <!-- Eira -->
-		</choice>
-		<choice id="4">
-			<item id="105636" quantity="1"/> <!-- Almet -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2693</id>
@@ -2160,20 +1653,10 @@
 		<icon>Flask_Aether</icon> <!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Moby, the Righteous; The Dragon Family; Zakum, the Destroyer; or Howaito and Kuroilong</desc>
-		<choice id="1">
-			<item id="105637" quantity="1"/> <!-- Moby -->
-		</choice>
-		<choice id="2">
-			<item id="105638" quantity="1"/> <!-- Dragon Family -->
-		</choice>
-		<choice id="3">
-			<item id="105639" quantity="1"/> <!-- Zakum -->
-		</choice>
-		<choice id="4">
-			<item id="105641" quantity="1"/> <!-- Howaito -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
-<!-- END Premium Flasks Gen 8 (continue Reward Flasks from here)-->
+	<!-- END Premium Flasks Gen 8 (continue Reward Flasks from here)-->
 
 	<!-- Event 106: Goblins ComDev -->
 
@@ -2184,18 +1667,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Spikes, the Warmonger; Nuvis, the Eye Collector; Reks, the Dragonslayer or Krampus, the Impostor</desc>
-		<choice id="1">
-			<item id="104026" quantity="1"/> <!-- Spikes -->
-		</choice>
-		<choice id="2">
-			<item id="104037" quantity="1"/> <!-- Nuvis -->
-		</choice>
-		<choice id="3">
-			<item id="104054" quantity="1"/> <!-- Reks -->
-		</choice>
-		<choice id="4">
-			<item id="104066" quantity="1"/> <!-- Krampus -->
-		</choice>
+		<give_item id="28240" quantity="1"/> <!-- Goblin Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	
 	<!-- Second Reward Flask with the other goblin reward champs -->
@@ -2205,18 +1678,8 @@
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Boldur, Bridge Builder; Daknak Darkblade; Ark and the Goatapult or Sivun, the Blind Commander</desc>
-		<choice id="1">
-			<item id="104005" quantity="1"/> <!-- Boldur -->
-		</choice>
-		<choice id="2">
-			<item id="104016" quantity="1"/> <!-- Daknak -->
-		</choice>
-		<choice id="3">
-			<item id="104047" quantity="1"/> <!-- Ark -->
-		</choice>
-		<choice id="4">
-			<item id="104074" quantity="1"/> <!-- Sivun -->
-		</choice>
+		<give_item id="28240" quantity="1"/> <!-- Goblin Super Flask -->
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<!-- Premium Flasks Gen 9 -->
@@ -2226,18 +1689,8 @@
 		<icon>Flask_Chaos</icon><!-- Chaos_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Gaerriel, Flying Nightmare; Worf, Volcano King; Skids, Hellfire Liches; or Nuri &amp; Nera, Twin Assailants</desc>
-		<choice id="1">
-			<item id="106630" quantity="1"/><!-- Gaerriel -->
-		</choice>
-		<choice id="2">
-			<item id="106629" quantity="1"/><!-- Worf -->
-		</choice>
-		<choice id="3">
-			<item id="106631" quantity="1"/><!-- Skids -->
-		</choice>
-		<choice id="4">
-			<item id="106632" quantity="1"/><!-- Assailants -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2818</id>
@@ -2245,18 +1698,8 @@
 		<icon>Flask_Aether</icon><!-- Aether_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for B4RN4B1, Exo Warkid; Austra, the Ice Mage; Katerina, Snowfang; or Frazzil, Glacial Guardian</desc>
-		<choice id="1">
-			<item id="105642" quantity="1"/><!-- B4RN4B1 -->
-		</choice>
-		<choice id="2">
-			<item id="105643" quantity="1"/><!-- Austra -->
-		</choice>
-		<choice id="3">
-			<item id="105644" quantity="1"/><!-- Katerina -->
-		</choice>
-		<choice id="4">
-			<item id="105646" quantity="1"/><!-- Frazzil -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<item>
 		<id>2819</id>
@@ -2264,17 +1707,1112 @@
 		<icon>Flask_Wyld</icon><!-- Wyld_Flask -->
 		<bundle>17</bundle>
 		<desc>Consume to get your choice of Champion Stones for Tiendroantun, the Protector; Coldsteel Hunter; or Nano Swarm</desc>
-		<choice id="1">
-			<item id="107630" quantity="1"/><!-- Tiendroantun -->
-		</choice>
-		<choice id="2">
-			<item id="107631" quantity="1"/><!-- Crash -->
-		</choice>
-		<choice id="3">
-			<item id="105645" quantity="1"/><!-- Nano Swarm -->
-		</choice>
+		<give_item id="2820" quantity="1"/>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 	<!-- END Premium Flasks Gen 9 -->
+
+	<!-- 2820-2878 Premium Super Flasks START -->
+
+	<item>
+		<id>2820</id> <!-- Note numbering to keep flasks sorted together -->
+		<name>Premium Super Flask</name>
+		<icon>essence_of_gold</icon>
+		<bundle>58</bundle>
+		<desc>A flask of flasks containing all Premium Champion Stones</desc>
+		<item_salvage>
+			<item id="19" number="1"/>
+		</item_salvage>
+		<choice id="1">
+			<item id="2821" quantity="1"/> <!-- Aether -->
+		</choice>
+		<choice id="2">
+			<item id="2845" quantity="1"/> <!-- Chaos -->
+		</choice>
+		<choice id="3">
+			<item id="2863" quantity="1"/> <!-- Wyld -->
+		</choice>
+		<choice id="4">
+			<item id="2878" quantity="1"/> <!-- Void -->
+		</choice>
+	</item>
+
+	<!-- Flasks within Super Flask -->
+	<item>
+		<id>2821</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Aether Premium Flask</name>
+		<icon>Flask_Aether</icon>
+		<bundle>17</bundle>
+		<desc>A flask of flasks containing all Aether Premium Champion Stones</desc>
+		<choice id="1">
+			<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="2822" quantity="1"/> <!-- Aether 1D and 0D -->
+		</choice>
+		<choice id="3">
+			<item id="2826" quantity="1"/> <!-- Aether 2D -->
+		</choice>
+		<choice id="4">
+			<item id="2836" quantity="1"/> <!-- Aether 3D and 4D -->
+		</choice>
+	</item>
+		<item>
+			<id>2822</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Aether 1D and 0D Premium Flask</name>
+			<icon>Flask_Aether</icon>
+			<bundle>17</bundle>
+			<desc>A flask of flasks containing all Aether 1D and 0D Premium Champion Stones</desc>
+			<choice id="1">
+				<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="2823" quantity="1"/> <!-- Angel and Avian -->
+			</choice>
+			<choice id="3">
+				<item id="2824" quantity="1"/> <!-- Dragon and Mecha -->
+			</choice>
+			<choice id="4">
+				<item id="2825" quantity="1"/>
+			</choice>
+		</item>
+			<item>
+				<id>2823</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Dina, Volvel, Austra Premium Flask</name>
+				<icon>Flask_Aether</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Dina, Volvel, Austra Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="105603" quantity="1"/> <!-- Dina -->
+				</choice>
+				<choice id="3">
+					<item id="105606" quantity="1"/> <!-- Volvel -->
+				</choice>
+				<choice id="4">
+					<item id="105643" quantity="1"/> <!-- Austra -->
+				</choice>
+			</item>
+			<item>
+				<id>2824</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Katto, Howaito, Nano Premium Flask</name>
+				<icon>Flask_Aether</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Katto, Howaito, Nano Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="105615" quantity="1"/> <!-- Katto -->
+				</choice>
+				<choice id="3">
+					<item id="105641" quantity="1"/> <!-- Howaito -->
+				</choice>
+				<choice id="4">
+					<item id="105645" quantity="1"/> <!-- Nano -->
+				</choice>
+			</item>
+			<item>
+				<id>2825</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Tao, Pollutarax, Kandrula Premium Flask</name>
+				<icon>Flask_Aether</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Tao, Pollutarax, Kandrula Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="105607" quantity="1"/> <!-- Tao -->
+				</choice>
+				<choice id="3">
+					<item id="105622" quantity="1"/> <!-- Pollutarax -->
+				</choice>
+				<choice id="4">
+					<item id="105629" quantity="1"/> <!-- Kandrula -->
+				</choice>
+			</item>
+		<item>
+			<id>2826</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Aether 2D Premium Flask</name>
+			<icon>Flask_Aether</icon>
+			<bundle>17</bundle>
+			<desc>A flask of flasks containing all Aether 2D Premium Champion Stones</desc>
+			<choice id="1">
+				<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="2827" quantity="1"/> <!-- Avian and Galahad -->
+			</choice>
+			<choice id="3">
+				<item id="2828" quantity="1"/> <!-- Seafolk, Dragon and Mecha Aether 2D -->
+			</choice>
+			<choice id="4">
+				<item id="2832" quantity="1"/> <!-- Goblin, Frog and Undead Aether 2D -->
+			</choice>
+		</item>
+			<item>
+				<id>2827</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Osyris, Galahad Premium Flask</name>
+				<icon>Flask_Aether</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Osyris, Galahad Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="105617" quantity="1"/> <!-- Osyris -->
+				</choice>
+				<choice id="3">
+					<item id="105631" quantity="1"/> <!-- Galahad -->
+				</choice>
+			</item>
+			<item>
+				<id>2828</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Seafolk, Dragon and Mecha Aether 2D Premium Flask</name>
+				<icon>Flask_Aether</icon>
+				<bundle>17</bundle>
+				<desc>A flask of flasks containing all Seafolk, Dragon and Mecha Aether 2D Premium Champion Stones</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="2829" quantity="1"/> <!-- Seafolk -->
+				</choice>
+				<choice id="3">
+					<item id="2830" quantity="1"/> <!-- Dragon -->
+				</choice>
+				<choice id="4">
+					<item id="2831" quantity="1"/> <!-- Mecha -->
+				</choice>
+			</item>
+				<item>
+					<id>2829</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Zhu-Lath, Shrime, Family Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Zhu-Lath, Shrime, Family Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105611" quantity="1"/> <!-- Zhu-Lath -->
+					</choice>
+					<choice id="3">
+						<item id="105623" quantity="1"/> <!-- Shrime -->
+					</choice>
+					<choice id="4">
+						<item id="105638" quantity="1"/> <!-- Family -->
+					</choice>
+				</item>
+				<item>
+					<id>2830</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Volsung, Nayaara, Asim Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Volsung, Nayaara, Asim Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105601" quantity="1"/> <!-- Volsung -->
+					</choice>
+					<choice id="3">
+						<item id="105621" quantity="1"/> <!-- Nayaara -->
+					</choice>
+					<choice id="4">
+						<item id="105630" quantity="1"/> <!-- Asim -->
+					</choice>
+				</item>
+				<item>
+					<id>2831</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Chlorox, Kira, Aeronwen Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Chlorox, Kira, Aeronwen Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105619" quantity="1"/> <!-- Chlorox -->
+					</choice>
+					<choice id="3">
+						<item id="105620" quantity="1"/> <!-- Kira -->
+					</choice>
+					<choice id="4">
+						<item id="105625" quantity="1"/> <!-- Aeronwen -->
+					</choice>
+				</item>
+			<item>
+				<id>2832</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Goblin, Frog and Undead Aether 2D Premium Flask</name>
+				<icon>Flask_Aether</icon>
+				<bundle>17</bundle>
+				<desc>A flask of flasks containing all Goblin, Frog and Undead Aether 2D Premium Champion Stones</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="2833" quantity="1"/> <!-- Goblin and Gama -->
+				</choice>
+				<choice id="3">
+					<item id="2834" quantity="1"/> <!-- Frog -->
+				</choice>
+				<choice id="4">
+					<item id="2835" quantity="1"/> <!-- Undead -->
+				</choice>
+			</item>
+				<item>
+					<id>2833</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Gama, Ystlin, Drarm Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Gama, Ystlin, Drarm Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105608" quantity="1"/> <!-- Gama -->
+					</choice>
+					<choice id="3">
+						<item id="105610" quantity="1"/> <!-- Ystlin -->
+					</choice>
+					<choice id="4">
+						<item id="105627" quantity="1"/> <!-- Drarm -->
+					</choice>
+				</item>
+				<item>
+					<id>2834</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Genen, Gendra, Eira Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Genen, Gendra, Eira Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105612" quantity="1"/> <!-- Genen -->
+					</choice>
+					<choice id="3">
+						<item id="105626" quantity="1"/> <!-- Gendra -->
+					</choice>
+					<choice id="4">
+						<item id="105634" quantity="1"/> <!-- Eira -->
+					</choice>
+				</item>
+				<item>
+					<id>2835</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Gorgon, Llorona, Katerina Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Gorgon, Llorona, Katerina Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105628" quantity="1"/> <!-- Gorgon -->
+					</choice>
+					<choice id="3">
+						<item id="105633" quantity="1"/> <!-- Llorona -->
+					</choice>
+					<choice id="4">
+						<item id="105644" quantity="1"/> <!-- Katerina -->
+					</choice>
+				</item>
+		<item>
+			<id>2836</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Aether 3D and 4D Premium Flask</name>
+			<icon>Flask_Aether</icon>
+			<bundle>17</bundle>
+			<desc>A flask of flasks containing all Aether 3D and 4D Premium Champion Stones</desc>
+			<choice id="1">
+				<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="2837" quantity="1"/> <!-- Angel and 4D -->
+			</choice>
+			<choice id="3">
+				<item id="2838" quantity="1"/> <!-- Avian and Dragon Aether 3D -->
+			</choice>
+			<choice id="4">
+				<item id="2841" quantity="1"/> <!-- Frog, Seafolk and Mecha Aether 3D -->
+			</choice>
+		</item>
+			<item>
+				<id>2837</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Altos, Zakum, Frazzil Premium Flask</name>
+				<icon>Flask_Aether</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Altos, Zakum, Frazzil Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="105624" quantity="1"/> <!-- Altos -->
+				</choice>
+				<choice id="3">
+					<item id="105639" quantity="1"/> <!-- Zakum -->
+				</choice>
+				<choice id="4">
+					<item id="105646" quantity="1"/> <!-- Frazzil -->
+				</choice>
+			</item>
+			<item>
+				<id>2838</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Avian and Dragon Aether 3D Premium Flask</name>
+				<icon>Flask_Aether</icon>
+				<bundle>17</bundle>
+				<desc>A flask of flasks containing all Avian and Dragon Aether 3D Premium Champion Stones</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="2839" quantity="1"/> <!-- Avian -->
+				</choice>
+				<choice id="3">
+					<item id="2840" quantity="1"/> <!-- Dragon -->
+				</choice>
+			</item>
+				<item>
+					<id>2839</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Tanit, Caraca, Auron Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Tanit, Caraca, Auron Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105600" quantity="1"/> <!-- Tanit -->
+					</choice>
+					<choice id="3">
+						<item id="105613" quantity="1"/> <!-- Caraca -->
+					</choice>
+					<choice id="4">
+						<item id="105632" quantity="1"/> <!-- Auron -->
+					</choice>
+				</item>
+				<item>
+					<id>2840</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Phorus, Satchmo Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Phorus, Satchmo Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105609" quantity="1"/> <!-- Phorus -->
+					</choice>
+					<choice id="3">
+						<item id="105616" quantity="1"/> <!-- Satchmo -->
+					</choice>
+				</item>
+			<item>
+				<id>2841</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Frog, Seafolk and Mecha Aether 3D Premium Flask</name>
+				<icon>Flask_Aether</icon>
+				<bundle>17</bundle>
+				<desc>A flask of flasks containing all Frog, Seafolk and Mecha Aether 3D Premium Champion Stones</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="2842" quantity="1"/> <!-- Frog -->
+				</choice>
+				<choice id="3">
+					<item id="2843" quantity="1"/> <!-- Seafolk -->
+				</choice>
+				<choice id="4">
+					<item id="2844" quantity="1"/> <!-- Mecha -->
+				</choice>
+			</item>
+				<item>
+					<id>2842</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Raju, B4RN4B1 Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Raju, B4RN4B1 Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105618" quantity="1"/> <!-- Raju -->
+					</choice>
+					<choice id="3">
+						<item id="105642" quantity="1"/> <!-- B4RN4B1 -->
+					</choice>
+				</item>
+				<item>
+					<id>2843</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Ghessela, Medusozoa, Moby Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Ghessela, Medusozoa, Moby Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105604" quantity="1"/> <!-- Ghessela -->
+					</choice>
+					<choice id="3">
+						<item id="105605" quantity="1"/> <!-- Medusozoa -->
+					</choice>
+					<choice id="4">
+						<item id="105637" quantity="1"/> <!-- Moby -->
+					</choice>
+				</item>
+				<item>
+					<id>2844</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>TZ-530, Zahira, Almet Premium Flask</name>
+					<icon>Flask_Aether</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of TZ-530, Zahira, Almet Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="105602" quantity="1"/> <!-- TZ-530 -->
+					</choice>
+					<choice id="3">
+						<item id="105614" quantity="1"/> <!-- Zahira -->
+					</choice>
+					<choice id="4">
+						<item id="105636" quantity="1"/> <!-- Almet -->
+					</choice>
+				</item>
+	<item>
+		<id>2845</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Chaos Premium Flask</name>
+		<icon>Flask_Chaos</icon>
+		<bundle>17</bundle>
+		<desc>A flask of flasks containing all Chaos Premium Champion Stones</desc>
+		<choice id="1">
+			<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="2846" quantity="1"/> <!-- Chaos 1D -->
+		</choice>
+		<choice id="3">
+			<item id="2850" quantity="1"/> <!-- Chaos 2D -->
+		</choice>
+		<choice id="4">
+			<item id="2857" quantity="1"/> <!-- Chaos 3D and 4D -->
+		</choice>
+	</item>
+		<item>
+			<id>2846</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Chaos 1D Premium Flask</name>
+			<icon>Flask_Chaos</icon>
+			<bundle>17</bundle>
+			<desc>A flask of flasks containing all Chaos 1D Premium Champion Stones</desc>
+			<choice id="1">
+				<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="2847" quantity="1"/> <!-- Angel, Avian and Elemental -->
+			</choice>
+			<choice id="3">
+				<item id="2848" quantity="1"/> <!-- Goblin -->
+			</choice>
+			<choice id="4">
+				<item id="2849" quantity="1"/>
+			</choice>
+		</item>
+			<item>
+				<id>2847</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Hedron, Skylo, Abbadon Premium Flask</name>
+				<icon>Flask_Chaos</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Hedron, Skylo, Abbadon Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="106609" quantity="1"/> <!-- Hedron -->
+				</choice>
+				<choice id="3">
+					<item id="106613" quantity="1"/> <!-- Skylo -->
+				</choice>
+				<choice id="4">
+					<item id="106620" quantity="1"/> <!-- Abbadon -->
+				</choice>
+			</item>
+			<item>
+				<id>2848</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Sigix, Xerkahn, Lyra Premium Flask</name>
+				<icon>Flask_Chaos</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Sigix, Xerkahn, Lyra Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="106600" quantity="1"/> <!-- Sigix -->
+				</choice>
+				<choice id="3">
+					<item id="106605" quantity="1"/> <!-- Xerkahn -->
+				</choice>
+				<choice id="4">
+					<item id="106606" quantity="1"/> <!-- Lyra -->
+				</choice>
+			</item>
+			<item>
+				<id>2849</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Apex, Issa, Nuri &amp; Nera Premium Flask</name>
+				<icon>Flask_Chaos</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Apex, Issa, Nuri &amp; Nera Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="106602" quantity="1"/> <!-- Apex -->
+				</choice>
+				<choice id="3">
+					<item id="106610" quantity="1"/> <!-- Issa -->
+				</choice>
+				<choice id="4">
+					<item id="106632" quantity="1"/> <!-- Nuri & Nera -->
+				</choice>
+			</item>
+		<item>
+			<id>2850</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Chaos 2D Premium Flask</name>
+			<icon>Flask_Chaos</icon>
+			<bundle>17</bundle>
+			<desc>A flask of flasks containing all Chaos 2D Premium Champion Stones</desc>
+			<choice id="1">
+				<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="2851" quantity="1"/> <!-- Angel and Undead Chaos 2D -->
+			</choice>
+			<choice id="3">
+				<item id="2855" quantity="1"/> <!-- Dragon -->
+			</choice>
+			<choice id="4">
+				<item id="2856" quantity="1"/>
+			</choice>
+		</item>
+			<item>
+				<id>2851</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Angel and Undead Chaos 2D Premium Flask</name>
+				<icon>Flask_Chaos</icon>
+				<bundle>17</bundle>
+				<desc>A flask of flasks containing all Angel and Undead Chaos 2D Premium Champion Stones</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="2852" quantity="1"/> <!-- Avian, Insect and Seafolk -->
+				</choice>
+				<choice id="3">
+					<item id="2853" quantity="1"/> <!-- Undead -->
+				</choice>
+				<choice id="4">
+					<item id="2854" quantity="1"/> <!-- Angel -->
+				</choice>
+			</item>
+				<item>
+					<id>2852</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Ardeat, Mortas, Armada Premium Flask</name>
+					<icon>Flask_Chaos</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Ardeat, Mortas, Armada Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="106621" quantity="1"/> <!-- Ardeat -->
+					</choice>
+					<choice id="3">
+						<item id="106623" quantity="1"/> <!-- Mortas -->
+					</choice>
+					<choice id="4">
+						<item id="106626" quantity="1"/> <!-- Armada -->
+					</choice>
+				</item>
+				<item>
+					<id>2853</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Mephisto, Osseus, Skids Premium Flask</name>
+					<icon>Flask_Chaos</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Mephisto, Osseus, Skids Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="106616" quantity="1"/> <!-- Mephisto -->
+					</choice>
+					<choice id="3">
+						<item id="106624" quantity="1"/> <!-- Osseus -->
+					</choice>
+					<choice id="4">
+						<item id="106631" quantity="1"/> <!-- Skids -->
+					</choice>
+				</item>
+				<item>
+					<id>2854</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Zamriel, Bashira Premium Flask</name>
+					<icon>Flask_Chaos</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Zamriel, Bashira Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="106628" quantity="1"/> <!-- Zamriel -->
+					</choice>
+					<choice id="3">
+						<item id="107617" quantity="1"/> <!-- Bashira -->
+					</choice>
+				</item>
+			<item>
+				<id>2855</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Caelius, Jormun, Worf Premium Flask</name>
+				<icon>Flask_Chaos</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Caelius, Jormun, Worf Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="106611" quantity="1"/> <!-- Caelius -->
+				</choice>
+				<choice id="3">
+					<item id="106618" quantity="1"/> <!-- Jormun -->
+				</choice>
+				<choice id="4">
+					<item id="106629" quantity="1"/> <!-- Worf -->
+				</choice>
+			</item>
+			<item>
+				<id>2856</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Remi, Zyd, Zolb Premium Flask</name>
+				<icon>Flask_Chaos</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Remi, Zyd, Zolb Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="105635" quantity="1"/> <!-- Remi -->
+				</choice>
+				<choice id="3">
+					<item id="106608" quantity="1"/> <!-- Zyd -->
+				</choice>
+				<choice id="4">
+					<item id="106612" quantity="1"/> <!-- Zolb -->
+				</choice>
+			</item>
+		<item>
+			<id>2857</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Chaos 3D and 4D Premium Flask</name>
+			<icon>Flask_Chaos</icon>
+			<bundle>17</bundle>
+			<desc>A flask of flasks containing all Chaos 3D and 4D Premium Champion Stones</desc>
+			<choice id="1">
+				<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="2858" quantity="1"/> <!-- Avian and Undead Chaos 3D -->
+			</choice>
+			<choice id="3">
+				<item id="2861" quantity="1"/> <!-- Insect -->
+			</choice>
+			<choice id="4">
+				<item id="2862" quantity="1"/> <!-- Seafolk -->
+			</choice>
+		</item>
+			<item>
+				<id>2858</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Avian and Undead Chaos 3D Premium Flask</name>
+				<icon>Flask_Chaos</icon>
+				<bundle>17</bundle>
+				<desc>A flask of flasks containing all Avian and Undead Chaos 3D Premium Champion Stones</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="2859" quantity="1"/> <!-- Avian -->
+				</choice>
+				<choice id="3">
+					<item id="2860" quantity="1"/> <!-- Undead -->
+				</choice>
+			</item>
+				<item>
+					<id>2859</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Gaerriel Premium Flask</name>
+					<icon>Flask_Chaos</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Gaerriel Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="106630" quantity="1"/> <!-- Gaerriel -->
+					</choice>
+				</item>
+				<item>
+					<id>2860</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Styxia, Blaze, Darkon Premium Flask</name>
+					<icon>Flask_Chaos</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Styxia, Blaze, Darkon Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="106604" quantity="1"/> <!-- Styxia -->
+					</choice>
+					<choice id="3">
+						<item id="106614" quantity="1"/> <!-- Blaze -->
+					</choice>
+					<choice id="4">
+						<item id="106619" quantity="1"/> <!-- Darkon -->
+					</choice>
+				</item>
+			<item>
+				<id>2861</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Elytragor, Kabuto, Nophora Premium Flask</name>
+				<icon>Flask_Chaos</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Elytragor, Kabuto, Nophora Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="106601" quantity="1"/> <!-- Elytragor -->
+				</choice>
+				<choice id="3">
+					<item id="106603" quantity="1"/> <!-- Kabuto -->
+				</choice>
+				<choice id="4">
+					<item id="106622" quantity="1"/> <!-- Nophora -->
+				</choice>
+			</item>
+			<item>
+				<id>2862</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Elder, Stern, Domhain Premium Flask</name>
+				<icon>Flask_Chaos</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Elder, Stern, Domhain Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="106607" quantity="1"/> <!-- Elder -->
+				</choice>
+				<choice id="3">
+					<item id="106615" quantity="1"/> <!-- Stern -->
+				</choice>
+				<choice id="4">
+					<item id="106617" quantity="1"/> <!-- Domhain -->
+				</choice>
+			</item>
+	<item>
+		<id>2863</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Wyld Premium Flask</name>
+		<icon>Flask_Wyld</icon>
+		<bundle>17</bundle>
+		<desc>A flask of flasks containing all Wyld Premium Champion Stones</desc>
+		<choice id="1">
+			<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="2864" quantity="1"/> <!-- Wyld 1D and 4D -->
+		</choice>
+		<choice id="3">
+			<item id="2867" quantity="1"/> <!-- Wyld 2D -->
+		</choice>
+		<choice id="4">
+			<item id="2874" quantity="1"/> <!-- Wyld 3D -->
+		</choice>
+	</item>
+		<item>
+			<id>2864</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Wyld 1D and 4D Premium Flask</name>
+			<icon>Flask_Wyld</icon>
+			<bundle>17</bundle>
+			<desc>A flask of flasks containing all Wyld 1D and 4D Premium Champion Stones</desc>
+			<choice id="1">
+				<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="2865" quantity="1"/> <!-- Elemental and Goblin -->
+			</choice>
+			<choice id="3">
+				<item id="2866" quantity="1"/> <!-- Insect and Mecha -->
+			</choice>
+		</item>
+			<item>
+				<id>2865</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Klevit, Quad, Crash &amp; Zink Premium Flask</name>
+				<icon>Flask_Wyld</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Klevit, Quad, Crash &amp; Zink Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="107620" quantity="1"/> <!-- Klevit -->
+				</choice>
+				<choice id="3">
+					<item id="107625" quantity="1"/> <!-- Quad -->
+				</choice>
+				<choice id="4">
+					<item id="107627" quantity="1"/> <!-- Crash & Zink -->
+				</choice>
+			</item>
+			<item>
+				<id>2866</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Puzzlemud, Rima, Tilly Premium Flask</name>
+				<icon>Flask_Wyld</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Puzzlemud, Rima, Tilly Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="107606" quantity="1"/> <!-- Puzzlemud -->
+				</choice>
+				<choice id="3">
+					<item id="107619" quantity="1"/> <!-- Rima -->
+				</choice>
+				<choice id="4">
+					<item id="107629" quantity="1"/> <!-- Tilly -->
+				</choice>
+			</item>
+		<item>
+			<id>2867</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Wyld 2D Premium Flask</name>
+			<icon>Flask_Wyld</icon>
+			<bundle>17</bundle>
+			<desc>A flask of flasks containing all Wyld 2D Premium Champion Stones</desc>
+			<choice id="1">
+				<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="2868" quantity="1"/> <!-- Frog, Goblin and Undead Wyld 2D -->
+			</choice>
+			<choice id="3">
+				<item id="2872" quantity="1"/> <!-- Angel and Seafolk -->
+			</choice>
+			<choice id="4">
+				<item id="2873" quantity="1"/> <!-- Dragon and Mecha -->
+			</choice>
+		</item>
+			<item>
+				<id>2868</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Frog, Goblin and Undead Wyld 2D Premium Flask</name>
+				<icon>Flask_Wyld</icon>
+				<bundle>17</bundle>
+				<desc>A flask of flasks containing all Frog, Goblin and Undead Wyld 2D Premium Champion Stones</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="2869" quantity="1"/> <!-- Frog and Mecha -->
+				</choice>
+				<choice id="3">
+					<item id="2870" quantity="1"/> <!-- Goblin -->
+				</choice>
+				<choice id="4">
+					<item id="2871" quantity="1"/> <!-- Undead -->
+				</choice>
+			</item>
+				<item>
+					<id>2869</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Leafsinger, Fritz, Coldsteel Premium Flask</name>
+					<icon>Flask_Wyld</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Leafsinger, Fritz, Coldsteel Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="107602" quantity="1"/> <!-- Leafsinger -->
+					</choice>
+					<choice id="3">
+						<item id="107626" quantity="1"/> <!-- Fritz -->
+					</choice>
+					<choice id="4">
+						<item id="107631" quantity="1"/> <!-- Coldsteel -->
+					</choice>
+				</item>
+				<item>
+					<id>2870</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Arran, Wrom, Tarkar Premium Flask</name>
+					<icon>Flask_Wyld</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Arran, Wrom, Tarkar Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="107600" quantity="1"/> <!-- Arran -->
+					</choice>
+					<choice id="3">
+						<item id="107609" quantity="1"/> <!-- Wrom -->
+					</choice>
+					<choice id="4">
+						<item id="107613" quantity="1"/> <!-- Tarkar -->
+					</choice>
+				</item>
+				<item>
+					<id>2871</id> <!-- Note ID numbering convention for flask within flask -->
+					<name>Formyr, Tzopilotl, Gravy Premium Flask</name>
+					<icon>Flask_Wyld</icon>
+					<bundle>17</bundle>
+					<desc>Consume to get your choice of Formyr, Tzopilotl, Gravy Stones; OR revert</desc>
+					<choice id="1">
+						<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+					</choice>
+					<choice id="2">
+						<item id="107603" quantity="1"/> <!-- Formyr -->
+					</choice>
+					<choice id="3">
+						<item id="107612" quantity="1"/> <!-- Tzopilotl -->
+					</choice>
+					<choice id="4">
+						<item id="107622" quantity="1"/> <!-- Gravy -->
+					</choice>
+				</item>
+			<item>
+				<id>2872</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Nemea, Triad, Caccia Premium Flask</name>
+				<icon>Flask_Wyld</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Nemea, Triad, Caccia Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="107601" quantity="1"/> <!-- Nemea -->
+				</choice>
+				<choice id="3">
+					<item id="107608" quantity="1"/> <!-- Triad -->
+				</choice>
+				<choice id="4">
+					<item id="107618" quantity="1"/> <!-- Caccia -->
+				</choice>
+			</item>
+			<item>
+				<id>2873</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Tropicano, Tylong, Dunstan Premium Flask</name>
+				<icon>Flask_Wyld</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Tropicano, Tylong, Dunstan Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="107604" quantity="1"/> <!-- Tropicano -->
+				</choice>
+				<choice id="3">
+					<item id="107614" quantity="1"/> <!-- Tylong -->
+				</choice>
+				<choice id="4">
+					<item id="107623" quantity="1"/> <!-- Dunstan -->
+				</choice>
+			</item>
+		<item>
+			<id>2874</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Wyld 3D Premium Flask</name>
+			<icon>Flask_Wyld</icon>
+			<bundle>17</bundle>
+			<desc>A flask of flasks containing all Wyld 3D Premium Champion Stones</desc>
+			<choice id="1">
+				<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="2875" quantity="1"/> <!-- Avian -->
+			</choice>
+			<choice id="3">
+				<item id="2876" quantity="1"/> <!-- Dragon and Elemental -->
+			</choice>
+			<choice id="4">
+				<item id="2877" quantity="1"/>
+			</choice>
+		</item>
+			<item>
+				<id>2875</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Rago, Lechuza, Saucy Premium Flask</name>
+				<icon>Flask_Wyld</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Rago, Lechuza, Saucy Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="107605" quantity="1"/> <!-- Rago -->
+				</choice>
+				<choice id="3">
+					<item id="107616" quantity="1"/> <!-- Lechuza -->
+				</choice>
+				<choice id="4">
+					<item id="107621" quantity="1"/> <!-- Saucy -->
+				</choice>
+			</item>
+			<item>
+				<id>2876</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Trafyr, Vsov, Tiendroantun Premium Flask</name>
+				<icon>Flask_Wyld</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Trafyr, Vsov, Tiendroantun Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="107610" quantity="1"/> <!-- Trafyr -->
+				</choice>
+				<choice id="3">
+					<item id="107611" quantity="1"/> <!-- Vsov -->
+				</choice>
+				<choice id="4">
+					<item id="107630" quantity="1"/> <!-- Tiendroantun -->
+				</choice>
+			</item>
+			<item>
+				<id>2877</id> <!-- Note ID numbering convention for flask within flask -->
+				<name>Kyviat, Sigblin, Ungoliant Premium Flask</name>
+				<icon>Flask_Wyld</icon>
+				<bundle>17</bundle>
+				<desc>Consume to get your choice of Kyviat, Sigblin, Ungoliant Stones; OR revert</desc>
+				<choice id="1">
+					<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+				</choice>
+				<choice id="2">
+					<item id="107615" quantity="1"/> <!-- Kyviat -->
+				</choice>
+				<choice id="3">
+					<item id="107624" quantity="1"/> <!-- Sigblin -->
+				</choice>
+				<choice id="4">
+					<item id="107628" quantity="1"/> <!-- Ungoliant -->
+				</choice>
+			</item>
+	<item>
+		<id>2878</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>R3-M1, Vig, Malik Premium Flask</name>
+		<icon>Flask_Chaos</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of R3-M1, Vig, Malik Stones; OR revert</desc>
+		<choice id="1">
+			<item id="2820" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="106625" quantity="1"/> <!-- R3-M1 -->
+		</choice>
+		<choice id="3">
+			<item id="106627" quantity="1"/> <!-- Vig -->
+		</choice>
+		<choice id="4">
+			<item id="107607" quantity="1"/> <!-- Malik -->
+		</choice>
+	</item>
 
 	<!--  WARNING NOTE: ID 2701 is already taken and 2701-2800 is currently reserved for battleground items. 2801-3000 is currently unused -->
 
@@ -2398,7 +2936,7 @@
 			<name>Caesar, Daffdal Frog Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Caesar, Daffdal Stones; OR revert.</desc>
+			<desc>Consume to get your choice of Caesar, Daffdal Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
@@ -2414,7 +2952,7 @@
 			<name>Vasile, Sangoma Frog Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Vasile, Sangoma Stones; OR revert.</desc>
+			<desc>Consume to get your choice of Vasile, Sangoma Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
@@ -2516,7 +3054,7 @@
 			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28185" quantity="1"/> <!-- Chaos 2D -->
+			<item id="28185" quantity="1"/> <!-- Chaos 2D and Coalheart -->
 		</choice>
 		<choice id="3">
 			<item id="28186" quantity="1"/> <!-- Chaos 3D and 4D -->
@@ -2818,7 +3356,7 @@
 			<item id="28224" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
-		
+
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28221</id> <!-- Note ID numbering convention for flask within flask -->
@@ -2921,7 +3459,7 @@
 			<item id="28234" quantity="1"/> <!-- Aether 2D -->
 		</choice>
 	</item>
-		
+
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28231</id> <!-- Note ID numbering convention for flask within flask -->
@@ -2947,7 +3485,7 @@
 		<name>Columba, Balt Avian Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Columba, Balt; OR revert</desc>
+		<desc>Consume to get your choice of Columba, Balt Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28230" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -2982,7 +3520,7 @@
 		<name>Clockoo, Sinnamun Avian Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Clockoo, Sinnamun; OR revert</desc>
+		<desc>Consume to get your choice of Clockoo, Sinnamun Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28230" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3015,7 +3553,7 @@
 			<item id="28243" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
-		
+
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28241</id> <!-- Note ID numbering convention for flask within flask -->
@@ -3099,19 +3637,19 @@
 			<item id="28254" quantity="1"/> <!-- Wyld 4D -->
 		</choice>
 	</item>
-		
+
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28251</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Typheous, Eichiro, Lerna Seafolk Flask</name>
+		<name>Typhoeus, Eichiro, Lerna Seafolk Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Typheous, Eichiro, Lerna Stones; OR revert</desc>
+		<desc>Consume to get your choice of Typhoeus, Eichiro, Lerna Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28250" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104007" quantity="1"/> <!-- Typheous -->
+			<item id="104007" quantity="1"/> <!-- Typhoeus -->
 		</choice>
 		<choice id="3">
 			<item id="104028" quantity="1"/> <!-- Eichiro -->
@@ -3193,7 +3731,7 @@
 			<item id="28263" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
-		
+
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28261</id> <!-- Note ID numbering convention for flask within flask -->
@@ -3277,7 +3815,7 @@
 			<item id="28277" quantity="1"/> <!-- Aether and Void -->
 		</choice>
 	</item>
-		
+
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28271</id>
@@ -3295,7 +3833,7 @@
 			<item id="28273" quantity="1"/> <!-- Wyld Seafolk -->
 		</choice>
 		<choice id="4">
-			<item id="28274" quantity="1"/> <!-- Wyld ELemental -->
+			<item id="28274" quantity="1"/> <!-- Wyld Elemental -->
 		</choice>
 	</item>
 		<item>
@@ -3428,7 +3966,7 @@
 			<item id="28296" quantity="1"/> <!-- Wyld and Factionless -->
 		</choice>
 	</item>
-		
+
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28291</id> <!-- Note ID numbering convention for flask within flask -->
