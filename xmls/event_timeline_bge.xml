@@ -1827,4 +1827,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6129</id>
+		<name>Frogs&apos; Devitalizing Touch</name>
+		<desc>0-2D Frogs gain 20% Daze and Weaken. 3-4D Frogs get 15% Ward and Regenerate. All values are based on base Health. All cards are inflicted Weaken 1 every turn.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>193</bg_effect>
+		</effect>
+		<start_time>1747933200</start_time> <!-- Thursday, May 22, 2025 at 17:00:00 -->
+		<end_time>1752771600</end_time> <!-- Thursday, July 17, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

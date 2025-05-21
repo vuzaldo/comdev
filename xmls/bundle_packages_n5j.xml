@@ -491,7 +491,7 @@
 		<id>604</id>
 		<name>Frog Super Flask Sale</name>
 		<desc>Power up your old Frog Reward Champions with 200 ^cCC1FFrog Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28170" number="200"/>
@@ -502,7 +502,7 @@
 		<id>605</id>
 		<name>Elemental Super Flask Sale</name>
 		<desc>Power up your old Elemental Reward Champions with 200 ^cCC1FElemental Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28180" number="200"/>
@@ -513,7 +513,7 @@
 		<id>606</id>
 		<name>Angel Super Flask Sale</name>
 		<desc>Power up your old Angel Reward Champions with 200 ^cCC1FAngel Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28190" number="200"/>
@@ -524,7 +524,7 @@
 		<id>607</id>
 		<name>Undead Super Flask Sale</name>
 		<desc>Power up your old Undead Reward Champions with 200 ^cCC1FUndead Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28200" number="200"/>
@@ -535,7 +535,7 @@
 		<id>609</id>
 		<name>Dragon Super Flask Sale</name>
 		<desc>Power up your old Dragon Reward Champions with 200 ^cCC1FDragon Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28220" number="200"/>
@@ -546,7 +546,7 @@
 		<id>610</id>
 		<name>Avian Super Flask Sale</name>
 		<desc>Power up your old Avian Reward Champions with 200 ^cCC1FAvian Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28230" number="200"/>
@@ -557,7 +557,7 @@
 		<id>611</id>
 		<name>Goblin Super Flask Sale</name>
 		<desc>Power up your old Goblin Reward Champions with 200 ^cCC1FGoblin Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28240" number="200"/>
@@ -568,7 +568,7 @@
 		<id>612</id>
 		<name>Seafolk Super Flask Sale</name>
 		<desc>Power up your old Seafolk Reward Champions with 200 ^cCC1FSeafolk Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28250" number="200"/>
@@ -579,7 +579,7 @@
 		<id>613</id>
 		<name>Insect Super Flask Sale</name>
 		<desc>Power up your old Insect Reward Champions with 200 ^cCC1FInsect Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28260" number="200"/>
@@ -590,7 +590,7 @@
 		<id>614</id>
 		<name>Beast Super Flask Sale</name>
 		<desc>Power up your old Beast Reward Champions with 200 ^cCC1FBeast Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28270" number="200"/>
@@ -601,131 +601,12 @@
 		<id>616</id>
 		<name>Mecha Super Flask Sale</name>
 		<desc>Power up your old Mecha Reward Champions with 200 ^cCC1FMecha Super Flasks^cFFFF.</desc>
-		<category>2</category>
+		<priority>180</priority>
 		<show_desc>1</show_desc>
 		<!-- Stuff to give -->
 		<item id="28290" number="200"/>
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t20</price_point_id>
-	</package>
-
-	<!-- Gen 1-3 $30 Premium Flask Deals -->
-	<package>
-		<id>608</id>
-		<name>Divinity Premium Flask Sale</name>
-		<desc>Gives 350 Aether Divinity Flasks. They contain Champion Stones for Tanit, Divinity's Focus; Volsung Icewind; TZ-530 the Impassable; or Dina the Iridescent!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2578" number="350"/>	<!-- Aether Gen 1 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>615</id>
-		<name>Cannon Premium Flask Sale</name>
-		<desc>Gives 350 Chaos Cannon Flasks. They contain Champion Stones for Sigix the Charcannon; Elytragor, Beacon's Call; Apex Land Shark; or Kabuto, Samurai Myth!</desc>
-		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2579" number="350"/>	<!-- Chaos Gen 1 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>617</id>
-		<name>Glory Premium Flask Sale</name>
-		<desc>Gives 350 Wyld Glory Flasks. They contain Champion Stones for Glory Seeker Arran; Nemea, the Lost Regent; Leafsinger; or Formyr the Desecrated!</desc>
-		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2580" number="350"/>	<!-- Wyld Gen 1 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>618</id>
-		<name>Mirror Premium Flask Sale</name>
-		<desc>Gives 350 Aether Mirror Flasks. They contain Champion Stones for Mirrormage Ghessela; Medusozoa, the Immortal; Volvel, Golden Pride; or Tao, Transcended Lich!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2595" number="350"/>	<!-- Aether Gen 2 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>619</id>
-		<name>Djinn Premium Flask Sale</name>
-		<desc>Gives 350 Chaos Djinn Flasks. They contain Champion Stones for Malik, Hollow Djinn; Styxia, the Headless; Xerkahn, the Rancor; or Lyra, Mayhem Conductor!</desc>
-		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2596" number="350"/>	<!-- Chaos Gen 2 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>620</id>
-		<name>Rex Premium Flask Sale</name>
-		<desc>Gives 350 Wyld Rex Flasks. They contain Champion Stones for Tropicano Rex; Rago, Crimson Vicar; Puzzlemud's Body; or The Triad of Fortunes!</desc>
-		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2597" number="350"/>	<!-- Wyld Gen 2 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>621</id>
-		<name>Wind Premium Flask Sale</name>
-		<desc>Gives 350 Aether Wind Flasks. They contain Champion Stones for Windsage Gama; Phorus of the Sunsphere; Ystlin, the Market Boss; or Zhu-Lath, the Hermit!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2598" number="350"/>	<!-- Aether Gen 3 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>622</id>
-		<name>Elder Premium Flask Sale</name>
-		<desc>Gives 350 Chaos Elder Flasks. They contain Champion Stones for The Elder Evil; Bashira, the Half-Blooded; Zyd, the Unhinged; or Hedron, the Critical Threat!</desc>
-		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2599" number="350"/>	<!-- Chaos Gen 3 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>623</id>
-		<name>Entomancy Premium Flask Sale</name>
-		<desc>Gives 350 Wyld Entomancy Flasks. They contain Champion Stones for Wrom, the Entomancer; Trafyr, the Rose Warden; Vsov, Blizzard Djinn; or Tzopilotl, the Beyonder!</desc>
-		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2600" number="350"/>	<!-- Wyld Gen 3 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
 	</package>
 
 	<!-- Dual Tribe Legendary $50 Shard Deals -->
@@ -906,125 +787,6 @@
 		<price_point_id>t50</price_point_id>
 	</package>
 
-	<!-- Gen 4-6 $30 Premium Flask Deals -->
-	<package>
-		<id>628</id>
-		<name>Flow Premium Flask Sale</name>
-		<desc>Gives 350 Aether Flow Flasks. They contain Champion Stones for Genen, the Icebreaker; Caraca, the Redeemed; Zahira, the Bladedance; or Sword Saint Katto!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2615" number="350"/> <!-- Aether Gen 4 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>635</id>
-		<name>Fury Premium Flask Sale</name>
-		<desc>Gives 350 Chaos Fury Flasks. They contain Champion Stones for Issa, the Wireslayer; Caelius, the Highlord; Zolb, Labyrinth King; or Skylo, Lord of the Wings!</desc>
-		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2616" number="350"/>	<!-- Chaos Gen 4 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>637</id>
-		<name>Root Premium Flask Sale</name>
-		<desc>Gives 350 Wyld Root Flasks. They contain Champion Stones for Tarkar, the Unturned; Tylong, Old Warrior; Kyviat, the Aquamancer; or Lechuza, the Skybinder!</desc>
-		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2617" number="350"/>	<!-- Wyld Gen 4 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>638</id>
-		<name>Exaltation Premium Flask Sale</name>
-		<desc>Gives 350 Aether Exaltation Flasks. They contain Champion Stones for Satchmo, Pipe Tail; Osyris, Mighty Goddess; Raju, the Unyielding; or Chlorox Omega!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2636" number="350"/> <!-- Aether Gen 5 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>639</id>
-		<name>Eruption Premium Flask Sale</name>
-		<desc>Gives 350 Chaos Eruption Flasks. They contain Champion Stones for Blaze, The Unvoker; Stern, the Gladthorn; Mephisto, the Pactmaker; or Domhain, the Fomorian!</desc>
-		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2637" number="350"/>	<!-- Chaos Gen 5 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>640</id>
-		<name>Abundancy Premium Flask Sale</name>
-		<desc>Gives 350 Wyld Abundancy Flasks. They contain Champion Stones for Caccia, the Lunatic; Rima, The Impaler; Klevit, the Speedfall; or Saucy, Lady of the Cauldron!</desc>
-		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2638" number="350"/>	<!-- Wyld Gen 5 Flasks -->
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>641</id>
-		<name>Genesis Premium Flask Sale</name>
-		<desc>Gives 350 Aether Genesis Flasks. They contain Champion Stones for Kira, the Innovator; Aeronwen, the Glider; Duchess Pollutarax; or Shrime, the Frozen!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2684" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>642</id>
-		<name>Havoc Premium Flask Sale</name>
-		<desc>Gives 350 Chaos Havoc Flasks. They contain Champion Stones for Jormun, the Ravager; Abbadon, the Vicious; Ardeat, the Arsonist; or Nophora, the Hoarder!</desc>
-		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2685" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>643</id>
-		<name>Shadows Premium Flask Sale</name>
-		<desc>Gives 350 Wyld Shadows Flasks. They contain Champion Stones for Gravy, the Ravenlyte; Dunstan, the Untamed; Sigblin, the Trollskin; or Quad, the Gatherer!</desc>
-		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2686" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-
 	<!-- $10 Tribe Starter Sets -->
 	<package>
 		<id>644</id>
@@ -1034,7 +796,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21643"/> <!-- Lightning Leaper -->
@@ -1053,7 +815,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21642"/> <!-- Icestone -->
@@ -1072,7 +834,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21341"/> <!-- Sanguine Demon -->
@@ -1091,7 +853,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21346"/> <!-- Wandmaster Demilich -->
@@ -1110,7 +872,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21340"/> <!-- Blazerage Dragon -->
@@ -1129,7 +891,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21345"/> <!-- Owltron Belcher -->
@@ -1148,7 +910,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_store_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21344"/> <!-- Boomsting -->
@@ -1167,7 +929,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21644"/> <!-- Blackfin -->
@@ -1186,7 +948,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21344"/> <!-- Boomsting -->
@@ -1205,7 +967,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21343"/> <!-- Blazehorn -->
@@ -1224,7 +986,7 @@
 		<bundle>35</bundle>
 		<background_prefab>3rdAnniversary_banner</background_prefab>
 		<background_bundle>136</background_bundle>
-		<category>2</category>
+		<priority>190</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<card id="21348"/> <!-- Flailpod Invader -->
@@ -1234,138 +996,6 @@
 		<item id="104044" number="50"/> <!-- Stone -->
 		<!-- Purchase Identifier Config -->
 		<price_point_id>t10_monthly</price_point_id>
-	</package>
-
-	<!-- Gen 7-9 $30 Premium Flask Deals -->
-	<package>
-		<id>648</id>
-		<name>Adamancy Premium Flask Sale</name>
-		<desc>Gives 350 Aether Adamancy Flasks. They contain Champion Stones for Altos, the Implacable; Nayaara, the Airlight; Gendra, the Blacksmith; or Drarm, the Soulbinder!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2687" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>655</id>
-		<name>Dichotomy Premium Flask Sale</name>
-		<desc>Gives 350 Chaos Dichotomy Flasks. They contain Champion Stones for Remi, the Banished; Darkon, the Deep Horror; Mortas, the Cursed; or Osseus, the Skeleball!</desc>
-		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2688" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>657</id>
-		<name>Biophony Premium Flask Sale</name>
-		<desc>Gives 350 Wyld Biophony Flasks. They contain Champion Stones for Fritz, the Fiddler; Crash and Zink, the Riders; Ungoliant, the Poisonous Terror; or Tilly, the Love Keeper!</desc>
-		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2689" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>658</id>
-		<name>Liberation Premium Flask Sale</name>
-		<desc>Gives 350 Aether Liberation Flasks. They contain Champion Stones for Gorgon, the Imprisoned; Kandrula, the Sly; Asim, the Lorekeeper; or Saint Galahad!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2690" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>659</id>
-		<name>Chaotic Void Premium Flask Sale</name>
-		<desc>Gives 350 Chaotic Void Flasks. They contain Champion Stones for The Undead Armada; R3-M1, the Channeler; Vig, the Leaper; or Zamriel, the Vengeful!</desc>
-		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2691" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>660</id>
-		<name>Reign Premium Flask Sale</name>
-		<desc>Gives 350 Aether Reign Flasks. They contain Champion Stones for La Llorona; Auron, the Icewall; Eira, the Electrokinetic; or Almet, the Ferromancer!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2692" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>661</id>
-		<name>Justice Premium Flask Sale</name>
-		<desc>Gives 350 Aether Justice Flasks. They contain Champion Stones for Moby, the Righteous; The Dragon Family; Zakum, the Destroyer; or Howaito and Kuroilong!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2693" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>662</id>
-		<name>Dreams Premium Flask Sale</name>
-		<desc>Gives 350 Chaotic Dreams Flasks. They contain Champion Stones for Gaerriel, Flying Nightmare; Worf, Volcano King; Skids, Hellfire Liches; or Nuri &amp; Nera, Twin Assailants!</desc>
-		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Chaos Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2817" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>663</id>
-		<name>Hoarfrost Premium Flask Sale</name>
-		<desc>Gives 350 Aether Hoarfrost Flasks. They contain Champion Stones for B4RN4B1, Exo Warkid; Austra, the Ice Mage; Katerina, Snowfang; or Frazzil, Glacial Guardian!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2818" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
-	</package>
-	<package>
-		<id>668</id>
-		<name>Conclusion Premium Flask Sale</name>
-		<desc>Gives 350 Wyld Conclusion Flasks. They contain Champion Stones for Tiendroantun, the Protector; Coldsteel Hunter; or Nano Swarm!</desc>
-		<asset_prefab>flask_pack_wyld_2</asset_prefab> <!-- Big Wyld Flasks Icon -->
-		<bundle>35</bundle>
-		<priority>1000</priority>
-		<show_list>1</show_list>
-		<!-- Stuff to give -->
-		<item id="2819" number="350"/>
-		<!-- Purchase Identifier Config -->
-		<price_point_id>t30</price_point_id>
 	</package>
 
 	<!-- $3 Weekend Tribe Quad Epic Deals -->
@@ -1529,9 +1159,9 @@
 		<id>680</id>
 		<name>Premium Super Flask Sale</name>
 		<desc>Gives 350 Premium Super Flasks. They contain all Premium Champion Stones!</desc>
-		<asset_prefab>flask_pack_aether_2</asset_prefab> <!-- Big Aether Flasks Icon -->
+		<asset_prefab>flask_pack_chaos_2</asset_prefab> <!-- Big Aether Flasks Icon -->
 		<bundle>35</bundle>
-		<category>2</category>
+		<priority>1000</priority>
 		<show_list>1</show_list>
 		<!-- Stuff to give -->
 		<item id="2820" number="350"/>
