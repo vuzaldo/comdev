@@ -1841,4 +1841,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6130</id>
+		<name>Like Moths to a Flame</name>
+		<desc>All Insects gain 30% bonus Attack and 10% Vengeance. 0-2D Insects gain 30% Pierce and Siphon, and 15% Scorch Self. 3-4D Insects gain 10% Armor. All values scale with base Health. All cards with Dualstrike have it evolved to Confuse (with the same count).</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<effect>
+			<bg_effect>194</bg_effect>
+		</effect>
+		<start_time>1750352400</start_time> <!-- Thursday, June 19, 2025 at 17:00:00 -->
+		<end_time>1755190800</end_time> <!-- Thursday, August 14, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
