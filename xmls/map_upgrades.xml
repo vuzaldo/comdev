@@ -3423,62 +3423,62 @@
 	<!-- Dawnglow Defenses -->
 	<map_upgrade>
 		<id>56</id>
-		<name>Healing Turret</name>
+		<name>Magical Turret</name>
 		<portrait>arcaneturret</portrait>
 		<rarity>4</rarity>
-		<desc>Upgrade the Magical Turret to restore your creatures with Heal each turn.</desc>
+		<desc>Upgrade the Magical Turret to give all of your creatures Invisibility each turn.</desc>
 		<upgrade>
 			<level>1</level>
 			<upgrade_cost>50</upgrade_cost>
-			<desc>All of your creatures are Healed for 2 each turn.</desc>
-			<desc_upgrade>^c0F0FAll of your creatures are Healed for 2 each turn.</desc_upgrade>
+			<desc>All of your creatures gain Invisibility 1 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Invisibility 1 each turn^cFFFF.</desc_upgrade>
 			<effect>
-				<skill id="heal" x="2" all="1" ally_only="1"/>
+				<skill id="imbue" s="evade" x="1" all="1" ally_only="1"/>
 			</effect>
 		</upgrade>
 		<upgrade>
 			<level>2</level>
 			<upgrade_cost>150</upgrade_cost>
-			<desc>All of your creatures are Healed for 3 each turn.</desc>
-			<desc_upgrade>All of your creatures are ^c0F0FHealed for 3^cFFFF each turn.</desc_upgrade>
+			<desc>All of your creatures gain Invisibility 2 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^Invisibility 2^cFFFF each turn.</desc_upgrade>
 			<effect>
-				<skill id="heal" x="3" all="1" ally_only="1"/>
+				<skill id="imbue" s="evade" x="2" all="1" ally_only="1"/>
 			</effect>
 		</upgrade>
 		<upgrade>
 			<level>3</level>
 			<upgrade_cost>350</upgrade_cost>
-			<desc>All of your creatures are Healed for 5 each turn.</desc>
-			<desc_upgrade>All of your creatures are ^c0F0FHealed for 5^cFFFF each turn.</desc_upgrade>
+			<desc>All of your creatures gain Invisibility 3 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FInvisibility 3^cFFFF each turn.</desc_upgrade>
 			<effect>
-				<skill id="heal" x="5" all="1" ally_only="1"/>
+				<skill id="imbue" s="evade" x="3" all="1" ally_only="1"/>
 			</effect>
 		</upgrade>
 		<upgrade>
 			<level>4</level>
 			<upgrade_cost>800</upgrade_cost>
-			<desc>All of your creatures are Healed for 6 each turn.</desc>
-			<desc_upgrade>All of your creatures are ^c0F0FHealed for 6^cFFFF each turn.</desc_upgrade>
+			<desc>All of your creatures gain Invisibility 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FInvisibility 4^cFFFF each turn.</desc_upgrade>
 			<effect>
-				<skill id="heal" x="6" all="1" ally_only="1"/>
+				<skill id="imbue" s="evade" x="4" all="1" ally_only="1"/>
 			</effect>
 		</upgrade>
 		<upgrade>
 			<level>5</level>
 			<upgrade_cost>1500</upgrade_cost>
-			<desc>All of your creatures are Healed for 8 each turn.</desc>
-			<desc_upgrade>All of your creatures are ^c0F0FHealed for 8^cFFFF each turn.</desc_upgrade>
+			<desc>All of your creatures gain Invisibility 5 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FInvisibility 5^cFFFF each turn.</desc_upgrade>
 			<effect>
-				<skill id="heal" x="8" all="1" ally_only="1"/>
+				<skill id="imbue" s="evade" x="5" all="1" ally_only="1"/>
 			</effect>
 		</upgrade>
 		<upgrade>
 			<level>6</level>
 			<upgrade_cost>3000</upgrade_cost>
-			<desc>All of your creatures are Healed for 9 each turn.</desc>
-			<desc_upgrade>All of your creatures are ^c0F0FHealed for 9^cFFFF each turn.</desc_upgrade>
+			<desc>All of your creatures gain Invisibility 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FInvisibility 6^cFFFF each turn.</desc_upgrade>
 			<effect>
-				<skill id="heal" x="9" all="1" ally_only="1"/>
+				<skill id="imbue" s="evade" x="6" all="1" ally_only="1"/>
 			</effect>
 		</upgrade>
 	</map_upgrade>
@@ -3492,8 +3492,8 @@
 		<upgrade>
 			<level>1</level>
 			<upgrade_cost>50</upgrade_cost>
-			<desc>All of your creatures gain Pierce 2.</desc>
-			<desc_upgrade>^c0F0FAll of your creatures Pierce 2.</desc_upgrade>
+			<desc>All of your creatures gain Pierce 2 each turn.</desc>
+			<desc_upgrade>^c0F0FAll of your creatures gain Pierce 2 each turn^cFFFF.</desc_upgrade>
 			<effect>
 				<skill id="imbue" s="pierce" x="2" all="1" ally_only="1"/>
 			</effect>
@@ -3501,8 +3501,8 @@
 		<upgrade>
 			<level>2</level>
 			<upgrade_cost>150</upgrade_cost>
-			<desc>All of your creatures gain Pierce 4.</desc>
-			<desc_upgrade>All of your creatures gain Pierce ^c0F0F4^cFFFF.</desc_upgrade>
+			<desc>All of your creatures gain Pierce 4 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 4^cFFFF each turn.</desc_upgrade>
 			<effect>
 				<skill id="imbue" s="pierce" x="4" all="1" ally_only="1"/>
 			</effect>
@@ -3510,8 +3510,8 @@
 		<upgrade>
 			<level>3</level>
 			<upgrade_cost>350</upgrade_cost>
-			<desc>All of your creatures gain Pierce 6.</desc>
-			<desc_upgrade>All of your creatures gain Pierce ^c0F0F6^cFFFF.</desc_upgrade>
+			<desc>All of your creatures gain Pierce 6 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 6^cFFFF each turn.</desc_upgrade>
 			<effect>
 				<skill id="imbue" s="pierce" x="6" all="1" ally_only="1"/>
 			</effect>
@@ -3519,8 +3519,8 @@
 		<upgrade>
 			<level>4</level>
 			<upgrade_cost>800</upgrade_cost>
-			<desc>All of your creatures gain Pierce 8.</desc>
-			<desc_upgrade>All of your creatures gain Pierce ^c0F0F8^cFFFF.</desc_upgrade>
+			<desc>All of your creatures gain Pierce 8 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 8^cFFFF each turn.</desc_upgrade>
 			<effect>
 				<skill id="imbue" s="pierce" x="8" all="1" ally_only="1"/>
 			</effect>
@@ -3528,8 +3528,8 @@
 		<upgrade>
 			<level>5</level>
 			<upgrade_cost>1500</upgrade_cost>
-			<desc>All of your creatures gain Pierce 10.</desc>
-			<desc_upgrade>All of your creatures gain Pierce ^c0F0F10^cFFFF.</desc_upgrade>
+			<desc>All of your creatures gain Pierce 10 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 10^cFFFF each turn.</desc_upgrade>
 			<effect>
 				<skill id="imbue" s="pierce" x="10" all="1" ally_only="1"/>
 			</effect>
@@ -3537,8 +3537,8 @@
 		<upgrade>
 			<level>6</level>
 			<upgrade_cost>3000</upgrade_cost>
-			<desc>All of your creatures gain Pierce 15.</desc>
-			<desc_upgrade>All of your creatures gain Pierce ^c0F0F15^cFFFF.</desc_upgrade>
+			<desc>All of your creatures gain Pierce 15 each turn.</desc>
+			<desc_upgrade>All of your creatures gain ^c0F0FPierce 15^cFFFF each turn.</desc_upgrade>
 			<effect>
 				<skill id="imbue" s="pierce" x="15" all="1" ally_only="1"/>
 			</effect>
