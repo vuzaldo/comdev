@@ -1855,4 +1855,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6131</id>
+		<name>Heaven&apos;s Unbreakable Ice</name>
+		<desc>All Angels gain Frostbreath equal to 50% of their base Attack, along with 10% Corrosive and 15% Barrier scaling with base Health.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>195</bg_effect>
+		</effect>
+		<start_time>1752771600</start_time> <!-- Thursday, July 17, 2025 at 17:00:00 -->
+		<end_time>1757610000</end_time> <!-- Thursday, September 11, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
