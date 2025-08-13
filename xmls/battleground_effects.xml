@@ -2051,6 +2051,17 @@
 		</effect>
 	</battleground>
 
+	<battleground>
+		<id>196</id>
+		<name>Hidden Beasts</name>
+		<desc>All Beasts gain Invisibility 2 and extra Health equal to 20% of their base Health.</desc>
+		<icon>filter_frostbite_64</icon>
+		<effect>
+			<add_skill id="evade" x="2" y="14"/>
+			<scale_health base="health" mult="0.20" yy="14"/>
+		</effect>
+	</battleground>
+
 	<!-- ================================= -->
 	<!-- ==== 501-1000: Specialty BGE ==== -->
 	<!-- ================================= -->

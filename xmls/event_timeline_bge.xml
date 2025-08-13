@@ -1869,4 +1869,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6132</id>
+		<name>Hidden Beasts</name>
+		<desc>All Beasts gain Invisibility 2 and extra Health equal to 20% of their base Health.</desc>
+		<banner_prefab>Banner_GenericQuest</banner_prefab>
+		<bundle>0</bundle>
+		<effect>
+			<bg_effect>196</bg_effect>
+		</effect>
+		<start_time>1755190800</start_time> <!-- Thursday, August 14, 2025 at 17:00:00 -->
+		<end_time>1760029200</end_time> <!-- Thursday, October 09, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
