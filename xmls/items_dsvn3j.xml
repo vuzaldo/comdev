@@ -2916,7 +2916,7 @@
 		</choice>
 	</item>
 	<item>
-		<id>28174</id> <!-- Note numbering to keep flasks sorted together -->
+		<id>28174</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Chaos Frog Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -2925,7 +2925,7 @@
 			<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28175" quantity="1"/> <!-- 1D, 4D -->
+			<item id="28175" quantity="1"/> <!-- 1D and 4D -->
 		</choice>
 		<choice id="3">
 			<item id="28176" quantity="1"/> <!-- 2D -->
@@ -2967,7 +2967,7 @@
 	<!-- Elemental -->
 
 	<item>
-		<id>28180</id>
+		<id>28180</id> <!-- Note numbering to keep flasks sorted together -->
 		<name>Elemental Super Flask</name>
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
@@ -2991,7 +2991,7 @@
 
 	<!-- Flasks within Super Flask -->
 	<item>
-		<id>28181</id>
+		<id>28181</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Aether Elemental Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3000,10 +3000,10 @@
 			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28182" quantity="1"/> <!-- Aether Maki and 2D -->
+			<item id="28182" quantity="1"/> <!-- Aether 2D and Maki -->
 		</choice>
 		<choice id="3">
-			<item id="28183" quantity="1"/> <!-- Aether Mo-Bling and 4D -->
+			<item id="28183" quantity="1"/> <!-- Aether 4D and Bling -->
 		</choice>
 	</item>
 		<item>
@@ -3045,7 +3045,7 @@
 			</choice>
 		</item>
 	<item>
-		<id>28184</id>
+		<id>28184</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Chaos Elemental Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3143,7 +3143,7 @@
 			<item id="28191" quantity="1"/> <!-- Aether -->
 		</choice>
 		<choice id="2">
-			<item id="28194" quantity="1"/> <!-- Non-Aether -->
+			<item id="28194" quantity="1"/> <!-- Chaos, Wyld and Factionless -->
 		</choice>
 	</item>
 
@@ -3158,10 +3158,10 @@
 			<item id="28190" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28192" quantity="1"/> <!-- 1D-2D -->
+			<item id="28192" quantity="1"/> <!-- 1D and 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28193" quantity="1"/> <!-- 3D-4D -->
+			<item id="28193" quantity="1"/> <!-- 3D and 4D -->
 		</choice>
 	</item>
 		<item>
@@ -3207,7 +3207,7 @@
 		<name>Non-Aether Angel Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>A flask of flasks containing all previous Chaos, Wyld, Factionless Angel Reward Champion Stones</desc>
+		<desc>A flask of flasks containing all previous Chaos, Wyld and Factionless Angel Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28190" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3263,13 +3263,13 @@
 			<item id="19" number="1"/>
 		</item_salvage>
 		<choice id="1">
-			<item id="28201" quantity="1"/> <!-- Aether and Wyld (not Milax) -->
+			<item id="28201" quantity="1"/> <!-- Aether and Wyld 2D -->
 		</choice>
 		<choice id="2">
 			<item id="28202" quantity="1"/> <!-- Chaos 1D and 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28203" quantity="1"/> <!-- Chaos 3D and 4D and Milax -->
+			<item id="28203" quantity="1"/> <!-- Chaos 3D, 4D and Wyld 3D -->
 		</choice>
 	</item>
 
@@ -3347,10 +3347,10 @@
 			<item id="28221" quantity="1"/> <!-- Aether -->
 		</choice>
 		<choice id="2">
-			<item id="28222" quantity="1"/> <!-- Chaos 1D and 2D -->
+			<item id="28222" quantity="1"/> <!-- Chaos 1D and Chaos 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28223" quantity="1"/> <!-- Chaos and Void 4D -->
+			<item id="28223" quantity="1"/> <!-- Chaos 4D and Void -->
 		</choice>
 		<choice id="4">
 			<item id="28224" quantity="1"/> <!-- Wyld -->
@@ -3374,7 +3374,7 @@
 			<item id="104068" quantity="1"/> <!-- Spark -->
 		</choice>
 		<choice id="4">
-			<item id="104094" quantity="1"/> <!-- Sinnamun and Frostyne -->
+			<item id="104094" quantity="1"/> <!-- Sinnamun -->
 		</choice>
 	</item>
 	<item>
@@ -3450,7 +3450,7 @@
 			<item id="28231" quantity="1"/> <!-- 1D -->
 		</choice>
 		<choice id="2">
-			<item id="28232" quantity="1"/> <!-- Chaos 2D -->
+			<item id="28232" quantity="1"/> <!-- Chaos -->
 		</choice>
 		<choice id="3">
 			<item id="28233" quantity="1"/> <!-- Wyld -->
@@ -3482,10 +3482,10 @@
 	</item>
 	<item>
 		<id>28232</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Columba, Balt Avian Flask</name>
+		<name>Columba, Balt, Izbushka Avian Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Columba, Balt Stones; OR revert</desc>
+		<desc>Consume to get your choice of Columba, Balt, Izbushka Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28230" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3494,6 +3494,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104033" quantity="1"/> <!-- Balt -->
+		</choice>
+		<choice id="4">
+			<item id="104095" quantity="1"/> <!-- Izbushka -->
 		</choice>
 	</item>
 	<item>
@@ -3528,14 +3531,14 @@
 			<item id="104048" quantity="1"/> <!-- Clockoo -->
 		</choice>
 		<choice id="3">
-			<item id="104094" quantity="1"/> <!-- Sinnamun and Frostyne -->
+			<item id="104094" quantity="1"/> <!-- Sinnamun -->
 		</choice>
 	</item>
 
 	<!-- Goblin -->
 
 	<item>
-		<id>28240</id>
+		<id>28240</id> <!-- Note numbering to keep flasks sorted together -->
 		<name>Goblin Super Flask</name>
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
@@ -3544,7 +3547,7 @@
 			<item id="19" number="1"/>
 		</item_salvage>
 		<choice id="1">
-			<item id="28241" quantity="1"/> <!-- Aether + Oiram -->
+			<item id="28241" quantity="1"/> <!-- Aether and Oiram -->
 		</choice>
 		<choice id="2">
 			<item id="28242" quantity="1"/> <!-- Chaos -->
@@ -3616,7 +3619,7 @@
 	<!-- Seafolk -->
 
 	<item>
-		<id>28250</id>
+		<id>28250</id> <!-- Note numbering to keep flasks sorted together -->
 		<name>Seafolk Super Flask</name>
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
@@ -3625,10 +3628,10 @@
 			<item id="19" number="1"/>
 		</item_salvage>
 		<choice id="1">
-			<item id="28251" quantity="1"/> <!-- Aether and Void 2D -->
+			<item id="28251" quantity="1"/> <!-- Aether 2D and Void -->
 		</choice>
 		<choice id="2">
-			<item id="28252" quantity="1"/> <!-- Aether and Chaos 3D and 4D -->
+			<item id="28252" quantity="1"/> <!-- Aether 3D, Aether 4D and Chaos -->
 		</choice>
 		<choice id="3">
 			<item id="28253" quantity="1"/> <!-- Wyld 1D and 2D -->
@@ -3713,7 +3716,7 @@
 	<!-- Insect -->
 
 	<item>
-		<id>28260</id>
+		<id>28260</id> <!-- Note numbering to keep flasks sorted together -->
 		<name>Insect Super Flask</name>
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
@@ -3794,7 +3797,7 @@
 	<!-- Beast -->
 
 	<item>
-		<id>28270</id>
+		<id>28270</id> <!-- Note numbering to keep flasks sorted together -->
 		<name>Beast Super Flask</name>
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
@@ -3809,7 +3812,7 @@
 			<item id="28275" quantity="1"/> <!-- Chaos 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28276" quantity="1"/> <!-- Chaos other -->
+			<item id="28276" quantity="1"/> <!-- Chaos -->
 		</choice>
 		<choice id="4">
 			<item id="28277" quantity="1"/> <!-- Aether and Void -->
@@ -3818,7 +3821,7 @@
 
 	<!-- Flasks within Super Flask -->
 	<item>
-		<id>28271</id>
+		<id>28271</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Wyld Beast Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3827,7 +3830,7 @@
 			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28272" quantity="1"/> <!-- Wyld Mecha and Tribeless -->
+			<item id="28272" quantity="1"/> <!-- Wyld Mecha, Ralgan and Karlson -->
 		</choice>
 		<choice id="3">
 			<item id="28273" quantity="1"/> <!-- Wyld Seafolk -->
@@ -3948,7 +3951,7 @@
 	<!-- Mecha -->
 
 	<item>
-		<id>28290</id>
+		<id>28290</id> <!-- Note numbering to keep flasks sorted together -->
 		<name>Mecha Super Flask</name>
 		<icon>essence_of_gold</icon>
 		<bundle>58</bundle>
