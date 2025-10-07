@@ -1886,7 +1886,7 @@
 	<event>
 		<id>6133</id>
 		<name>Chilly Boom Brigade</name>
-		<desc>All Goblins gain Barrage equal to 20% of their base Health. Additionally, all cards gain Shroud 1. Freeze targets allied creatures instead of enemies.</desc>
+		<desc>All Goblins gain Barrage equal to 30% of their base Health. Freeze targets allied creatures instead of enemies.</desc>
 		<banner_prefab>event_017_banner</banner_prefab>
 		<bundle>75</bundle>
 		<effect>
@@ -1894,6 +1894,20 @@
 		</effect>
 		<start_time>1757610000</start_time> <!-- Thursday, September 11, 2025 at 17:00:00 -->
 		<end_time>1762448400</end_time> <!-- Thursday, November 06, 2025 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
+	<event>
+		<id>6134</id>
+		<name>Mecha Meltdown</name>
+		<desc>All Mechas gain Ward equal to their Delay + 5, and Scorch equal to 10% of their base Health.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>198</bg_effect>
+		</effect>
+		<start_time>1760029200</start_time> <!-- Thursday, October 09, 2025 at 17:00:00 -->
+		<end_time>1764867600</end_time> <!-- Thursday, December 04, 2025 at 17:00:00 -->
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>

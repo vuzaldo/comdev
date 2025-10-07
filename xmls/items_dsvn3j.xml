@@ -3263,23 +3263,23 @@
 			<item id="19" number="1"/>
 		</item_salvage>
 		<choice id="1">
-			<item id="28201" quantity="1"/> <!-- Aether and Wyld 2D -->
+			<item id="28201" quantity="1"/> <!-- Aether -->
 		</choice>
 		<choice id="2">
-			<item id="28202" quantity="1"/> <!-- Chaos 1D and 2D -->
+			<item id="28202" quantity="1"/> <!-- Chaos -->
 		</choice>
 		<choice id="3">
-			<item id="28203" quantity="1"/> <!-- Chaos 3D, 4D and Wyld 3D -->
+			<item id="28205" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
 
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28201</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Sound of Death, Morty Ahab, Veric Undead Flask</name>
+		<name>Sound of Death, Morty Ahab Undead Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Sound of Death, Morty Ahab, Veric Stones; OR revert</desc>
+		<desc>Consume to get your choice of Sound of Death, Morty Ahab Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28200" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3289,46 +3289,75 @@
 		<choice id="3">
 			<item id="104049" quantity="1"/> <!-- Morty Ahab -->
 		</choice>
-		<choice id="4">
-			<item id="104061" quantity="1"/> <!-- Veric -->
-		</choice>
 	</item>
 	<item>
 		<id>28202</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Cordelia, Vasile, Darkassan Undead Flask</name>
+		<name>Chaos Undead Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Cordelia, Vasile, Darkassan Stones; OR revert</desc>
+		<desc>A flask of flasks containing all previous Chaos Undead Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28200" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104012" quantity="1"/> <!-- Cordelia -->
+			<item id="28203" quantity="1"/> <!-- Chaos 1D and 2D -->
 		</choice>
 		<choice id="3">
-			<item id="104035" quantity="1"/> <!-- Vasile -->
-		</choice>
-		<choice id="4">
-			<item id="104064" quantity="1"/> <!-- Darkassan -->
+			<item id="28204" quantity="1"/> <!-- Chaos 3D and 4D -->
 		</choice>
 	</item>
+		<item>
+			<id>28203</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Cordelia, Vasile, Darkassan Undead Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Cordelia, Vasile, Darkassan Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28200" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104012" quantity="1"/> <!-- Cordelia -->
+			</choice>
+			<choice id="3">
+				<item id="104035" quantity="1"/> <!-- Vasile -->
+			</choice>
+			<choice id="4">
+				<item id="104064" quantity="1"/> <!-- Darkassan -->
+			</choice>
+		</item>
+		<item>
+			<id>28204</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Umbu, Naglar Undead Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Umbu, Naglar Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28200" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104027" quantity="1"/> <!-- Umbu -->
+			</choice>
+			<choice id="3">
+				<item id="104071" quantity="1"/> <!-- Naglar -->
+			</choice>
+		</item>
 	<item>
-		<id>28203</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Umbu, Naglar, Milax Undead Flask</name>
+		<id>28205</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Veric, Milax, Briareus Undead Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Umbu, Naglar, Milax Stones; OR revert</desc>
+		<desc>Consume to get your choice of Veric, Milax, Briareus Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28200" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104027" quantity="1"/> <!-- Umbu -->
+			<item id="104061" quantity="1"/> <!-- Veric -->
 		</choice>
 		<choice id="3">
-			<item id="104071" quantity="1"/> <!-- Naglar -->
+			<item id="104084" quantity="1"/> <!-- Milax -->
 		</choice>
 		<choice id="4">
-			<item id="104084" quantity="1"/> <!-- Milax -->
+			<item id="104096" quantity="1"/> <!-- Briareus -->
 		</choice>
 	</item>
 
@@ -3809,13 +3838,13 @@
 			<item id="28271" quantity="1"/> <!-- Wyld -->
 		</choice>
 		<choice id="2">
-			<item id="28275" quantity="1"/> <!-- Chaos 2D -->
+			<item id="28275" quantity="1"/> <!-- Chaos 1D, 4D and Ark -->
 		</choice>
 		<choice id="3">
-			<item id="28276" quantity="1"/> <!-- Chaos -->
+			<item id="28276" quantity="1"/> <!-- Chaos 2D -->
 		</choice>
 		<choice id="4">
-			<item id="28277" quantity="1"/> <!-- Aether and Void -->
+			<item id="28277" quantity="1"/> <!-- Aether, Void and Chaos 3D -->
 		</choice>
 	</item>
 
@@ -3895,6 +3924,25 @@
 		</item>
 	<item>
 		<id>28275</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Umbu, Ark, Mathay Beast Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Umbu, Ark, Mathay Stones; OR revert</desc>
+		<choice id="1">
+			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="104027" quantity="1"/> <!-- Umbu -->
+		</choice>
+		<choice id="3">
+			<item id="104047" quantity="1"/> <!-- Ark -->
+		</choice>
+		<choice id="4">
+			<item id="104092" quantity="1"/> <!-- Mathay -->
+		</choice>
+	</item>
+	<item>
+		<id>28276</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Foxfire, Mechau, Arezzo Beast Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3913,30 +3961,11 @@
 		</choice>
 	</item>
 	<item>
-		<id>28276</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Umbu, Naglar, Mathay Beast Flask</name>
-		<icon>Lava_Vial</icon>
-		<bundle>17</bundle>
-		<desc>Consume to get your choice of Umbu, Naglar, Mathay Stones; OR revert</desc>
-		<choice id="1">
-			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
-		<choice id="2">
-			<item id="104027" quantity="1"/> <!-- Umbu -->
-		</choice>
-		<choice id="3">
-			<item id="104071" quantity="1"/> <!-- Naglar -->
-		</choice>
-		<choice id="4">
-			<item id="104092" quantity="1"/> <!-- Mathay -->
-		</choice>
-	</item>
-	<item>
 		<id>28277</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Cyno, Viir Beast Flask</name>
+		<name>Cyno, Viir, Naglar Beast Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Cyno, Viir Stones; OR revert</desc>
+		<desc>Consume to get your choice of Cyno, Viir, Naglar Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3945,6 +3974,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104063" quantity="1"/> <!-- Viir -->
+		</choice>
+		<choice id="4">
+			<item id="104071" quantity="1"/> <!-- Naglar -->
 		</choice>
 	</item>
 
@@ -6622,6 +6654,7 @@
 		<desc>Unlocks the ability to craft the card Warrior Karna!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1767286800</decay_time> <!-- Thursday, 01 January 2026 -->
 	</item>
 
 	<item>
@@ -6644,6 +6677,7 @@
 		<desc>Unlocks the ability to craft the card Sproutfrog Rainwisher!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1764867600</decay_time> <!-- Thursday, 04 December 2025 -->
 	</item>
 
 	<item>
@@ -6655,6 +6689,7 @@
 		<desc>Unlocks the ability to craft the card Whitesail Wyvern!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1762448400</decay_time> <!-- Thursday, 06 November 2025 -->
 	</item>
 
 	<item>
@@ -6666,6 +6701,7 @@
 		<desc>Unlocks the ability to craft the card Avalanche Equine!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1760029200</decay_time> <!-- Thursday, 09 October 2025 -->
 	</item>
 
 	<item>
@@ -6677,6 +6713,7 @@
 		<desc>Unlocks the ability to craft the card Reks, the Forlorn!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1760029200</decay_time> <!-- Thursday, 09 October 2025 -->
 	</item>
 
 	<item>
@@ -6688,6 +6725,7 @@
 		<desc>Unlocks the ability to craft the card Wrath!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1760029200</decay_time> <!-- Thursday, 09 October 2025 -->
 	</item>
 
 	<item>
@@ -6699,6 +6737,7 @@
 		<desc>Unlocks the ability to craft the card Conjured Dragon!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1760029200</decay_time> <!-- Thursday, 09 October 2025 -->
 	</item>
 
 	<item>
@@ -6710,6 +6749,7 @@
 		<desc>Unlocks the ability to craft the card Bloodmist Harpy!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1760029200</decay_time> <!-- Thursday, 09 October 2025 -->
 	</item>
 
 	<item>
@@ -6721,6 +6761,7 @@
 		<desc>Unlocks the ability to craft the card Slagspirit!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1760029200</decay_time> <!-- Thursday, 09 October 2025 -->
 	</item>
 
 	<item>
@@ -6732,6 +6773,7 @@
 		<desc>Unlocks the ability to craft the card Siren!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
+		<decay_time>1760029200</decay_time> <!-- Thursday, 09 October 2025 -->
 	</item>
 
 	<item>
