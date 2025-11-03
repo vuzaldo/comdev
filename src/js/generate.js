@@ -202,7 +202,7 @@ function generate() {
 		selectMapCycle.selectedIndex = Math.floor(Math.random() * (selectMapCycle.options.length));
 	// const expeditionItem = ITEMS[EXPEDITION[selectMapCycle.value].point_item];
 	// document.getElementById('expeditionName').value = expeditionItem + ' Expedition';
-	document.getElementById('expeditionName').value = EXPEDITION[selectMapCycle.value].name + ' Expedition';
+	document.getElementById('expeditionName').value = MAPS[selectMapCycle.value].name + ' Expedition';
 	selectMapCycle.dispatchEvent(new Event('change'));
 }
 
@@ -685,7 +685,7 @@ function propagateEventNode() {
 			eventMapY = y;
 			if (expeditionName.value) {
 				// expeditionName.value = ITEMS[EXPEDITION[selectMapCycle.value].point_item] + ' Expedition';
-				expeditionName.value = EXPEDITION[selectMapCycle.value].name + ' Expedition';
+				expeditionName.value = MAPS[selectMapCycle.value].name + ' Expedition';
 			}
 			updateEditors();
 		}
@@ -752,7 +752,7 @@ const autoSelectEventOptions = {
 	132: { tribe: 'Beast', map: 'World\'s Center' },
 	133: { tribe: 'Goblin', map: 'Stormy Seastone Citadel' },
 	134: { tribe: 'Mecha', map: 'The Abyss' },
-	135: { tribe: 'Seafolk', map: 'Salt Wasteland' },
+	135: { tribe: 'Seafolk', map: 'Salt Wastes' },
 	136: { tribe: 'Dragon', map: 'Distorted Beetleton' },
 	137: { tribe: 'Undead', map: 'Duskwillow Rebuilt' },
 	138: { tribe: 'Frog', map: 'Gladius Arena' },
