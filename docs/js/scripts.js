@@ -107,9 +107,13 @@ function getFilename(editor) {
 function editOriginal(originalContent, text, file) {
 	let section = '</root>';
 	if (file == 'battleground_effects') {
-		section = '\t<!-- ================================= -->\r\n\t<!-- ==== 501-1000: Specialty BGE ==== -->'
+		section = '\t<!-- ================================= -->\r\n\t<!-- ==== 501-1000: Specialty BGE ==== -->';
 	}
-	return originalContent.replace(section, text + `\n\n${section}`);
+	let sep = '\n\n';
+	if (file == 'event_timeline_bge') {
+		sep = '\n';
+	}
+	return originalContent.replace(section, text + `${sep}${section}`);
 }
 function downloadFile(button) {
 	const editor = getNthPreviousSibling(button, 3);
@@ -121,7 +125,7 @@ function downloadFile(button) {
 	link.click();
 	window.URL.revokeObjectURL(link.href);
 }
-const xmlsUrl = 'https://raw.githubusercontent.com/vuzaldo/comdev/main/xmls/'
+const xmlsUrl = 'https://raw.githubusercontent.com/vuzaldo/comdev/main/xmls/';
 async function downloadCompleteFile(button) {
 	const editor = getNthPreviousSibling(button, 4);
 	const response = await fetch(xmlsUrl + editor.id + '.xml');
@@ -155,10 +159,10 @@ function id2Card(id, cardType, rarity, isReward, isChamp) {
 		return card.name;
 	}
 	if (isChamp && id == newChamp) {
-		return '(New champion)'
+		return '(New champion)';
 	}
 	if (rarity == 3 && id == newEpic) {
-		return '(New epic)'
+		return '(New epic)';
 	}
 	if (cardType == 1) {
 		return 'Invalid commander';
