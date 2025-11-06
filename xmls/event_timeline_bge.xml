@@ -1911,4 +1911,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6135</id>
+		<name>Toxic Waves</name>
+		<desc>All Seafolk gain Poisonhide and Regenerate equal to 15% of their base Health. 0-2D Seafolk also gain Siphon equal to 20% of their base Health. All cards with Empower have it changed to Enrage with the same value.</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>199</bg_effect>
+		</effect>
+		<start_time>1762448400</start_time> <!-- Thursday, November 06, 2025 at 17:00:00 -->
+		<end_time>1767286800</end_time> <!-- Thursday, January 01, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

@@ -153,6 +153,14 @@
 		<consume>3</consume>
 		<give_pack>45</give_pack>
 	</item>
+	<item>
+		<id>21</id>
+		<name>Endgame Seal</name>
+		<icon>letter_blue_seal</icon>
+		<bundle>17</bundle>
+		<desc>Any extra endgame stones are converted into Endgame Seals.</desc>
+		<usable>0</usable>
+	</item>
 
 	<!-- 91-100 TEST ITEMS -->
 
@@ -2982,10 +2990,10 @@
 			<item id="28184" quantity="1"/> <!-- Chaos -->
 		</choice>
 		<choice id="3">
-			<item id="28187" quantity="1"/> <!-- Wyld -->
+			<item id="28187" quantity="1"/> <!-- Wyld 3D -->
 		</choice>
 		<choice id="4">
-			<item id="28188" quantity="1"/> <!-- Void -->
+			<item id="28188" quantity="1"/> <!-- Void and Yorick -->
 		</choice>
 	</item>
 
@@ -3113,10 +3121,10 @@
 	</item>
 	<item>
 		<id>28188</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Viir, K'luum Elemental Flask</name>
+		<name>Viir, K'luum, Yorick Elemental Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Viir, K'luum Stones; OR revert</desc>
+		<desc>Consume to get your choice of Viir, K'luum, Yorick Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3125,6 +3133,9 @@
 		</choice>
 		<choice id="3">
 			<item id="104075" quantity="1"/> <!-- K'luum -->
+		</choice>
+		<choice id="4">
+			<item id="104097" quantity="1"/> <!-- Yorick -->
 		</choice>
 	</item>
 
