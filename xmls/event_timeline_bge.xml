@@ -1925,4 +1925,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6136</id>
+		<name>Royal Scales</name>
+		<desc>All Dragons have their Health increased by 15%. They also gain Emberhide equal to 10% of their base Health and Valor equal to 30% of their base Attack.</desc>
+		<banner_prefab>dragonBanner</banner_prefab>
+		<bundle>16</bundle>
+		<effect>
+			<bg_effect>200</bg_effect>
+		</effect>
+		<start_time>1764867600</start_time> <!-- Thursday, December 04, 2025 at 17:00:00 -->
+		<end_time>1769706000</end_time> <!-- Thursday, January 29, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

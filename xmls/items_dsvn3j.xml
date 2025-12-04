@@ -869,7 +869,7 @@
 			<add_hero_id>17</add_hero_id>
 		</upgrade_hero>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
-    	</item>
+	</item>
 	<item>
 		<id>2510</id>
 		<name>Oda the Aegis</name>
@@ -881,7 +881,7 @@
 			<add_hero_id>13</add_hero_id>
 		</upgrade_hero>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
-    	</item>
+	</item>
 	<item>
 		<id>2511</id>
 		<name>Aria the Nightwielder</name>
@@ -893,7 +893,7 @@
 			<add_hero_id>15</add_hero_id>
 		</upgrade_hero>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
-    	</item>
+	</item>
 	<item>
 		<id>2512</id>
 		<name>Decim the Pyrokinetic</name>
@@ -905,7 +905,7 @@
 			<add_hero_id>16</add_hero_id>
 		</upgrade_hero>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
-    	</item>
+	</item>
 	<item>
 		<id>2513</id>
 		<name>Yuriel the Manashifter</name>
@@ -917,7 +917,7 @@
 			<add_hero_id>14</add_hero_id>
 		</upgrade_hero>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
-    	</item>
+	</item>
 	<item>
 		<id>2514</id>
 		<name>General Ursurio</name>
@@ -929,7 +929,7 @@
 			<add_hero_id>18</add_hero_id>
 		</upgrade_hero>
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
-    	</item>
+	</item>
 	<!-- Mythic Upgrade Items -->
 	<item>
 		<id>2515</id>
@@ -953,7 +953,7 @@
 		<consume_card id="2035" level="3" quantity="1"/>
 		<give_card id="2036" level="1"/>
 		<give_item id="2517" quantity="1"/>
-    	</item>
+	</item>
 	<item>
 		<id>2517</id>
 		<name>Epic Embersoul Focus</name>
@@ -965,7 +965,7 @@
 		<consume_card id="2036" level="4" quantity="1"/>
 		<give_card id="2037" level="1"/>
 		<give_item id="2518" quantity="1"/>
-    	</item>
+	</item>
 	<item>
 		<id>2518</id>
 		<name>Legendary Embersoul Focus</name>
@@ -977,7 +977,7 @@
 		<consume_card id="2037" level="5" quantity="1"/>
 		<give_card id="2038" level="1"/>
 		<give_item id="2519" quantity="1"/>
-    	</item>
+	</item>
 	<item>
 		<id>2519</id>
 		<name>Mythic Embersoul Focus</name>
@@ -988,7 +988,7 @@
 		<consume_item id="2515" quantity="1000"/>
 		<consume_card id="2038" level="6" quantity="1"/>
 		<give_card id="2039" level="1"/>
-    	</item>
+	</item>
 	<item>
 		<id>2520</id>
 		<name>Essence of Embers</name>
@@ -1137,7 +1137,7 @@
 			<add_hero_id>19</add_hero_id>
 		</upgrade_hero> -->
 		<auto_use>1</auto_use> <!-- automatically use this on init -->
-    	</item>
+	</item>
 	<item>
 		<id>2531</id>
 		<name>Inventory Expansion +5</name>
@@ -1166,6 +1166,16 @@
 		<desc>Combine with a Mortagan's Spellstone to create the Mythic Mortagan, Grave General.</desc>
 		<category>2</category>
 		<usable>0</usable>
+	</item>
+	<item>
+		<id>2534</id>
+		<name>Bounty Expansion +5</name>
+		<icon>bounty_increase_item</icon>
+		<bundle>58</bundle>
+		<category>2</category>
+		<desc>Increases your maximum Bounties by +5.</desc>
+		<usable>0</usable>
+		<max_bounties>5</max_bounties>
 	</item>
 
 	<!-- Premium Flasks Gen 1 -->
@@ -2933,7 +2943,7 @@
 			<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28175" quantity="1"/> <!-- 1D and 4D -->
+			<item id="28175" quantity="1"/> <!-- 0D, 1D and 4D -->
 		</choice>
 		<choice id="3">
 			<item id="28176" quantity="1"/> <!-- 2D -->
@@ -2941,10 +2951,10 @@
 	</item>
 		<item>
 			<id>28175</id> <!-- Note ID numbering convention for flask within flask -->
-			<name>Caesar, Daffdal Frog Flask</name>
+			<name>Caesar, Daffdal, Bheki Frog Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Caesar, Daffdal Stones; OR revert</desc>
+			<desc>Consume to get your choice of Caesar, Daffdal, Bheki Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
@@ -2953,6 +2963,9 @@
 			</choice>
 			<choice id="3">
 				<item id="104078" quantity="1"/> <!-- Daffdal -->
+			</choice>
+			<choice id="4">
+				<item id="104098" quantity="1"/> <!-- Bheki -->
 			</choice>
 		</item>
 		<item>

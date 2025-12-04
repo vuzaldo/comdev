@@ -9389,4 +9389,431 @@
 	</event>
 	<!-- ======== Event 135 Seafolk Expedition End ======== -->
 
+	<!-- ======== Event 136 Dragon Expedition / Thursday, December 04, 2025 at 17:00:00 ======== -->
+	<event>
+		<id>7132</id>
+		<name>Distorted Beetleton Expedition</name>
+		<desc>Find Dark Honey while adventuring in Distorted Beetleton! Rank up based on total number collected to win exclusive rewards!</desc>
+		<type>6</type>
+		<point_item>3092</point_item>
+		<portrait>honey_jar_200</portrait>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<points_icon>honey_jar_60</points_icon>
+		<points_bundle>58</points_bundle>
+		<start_time>1764867600</start_time> <!-- Thursday, December 04, 2025 at 17:00:00 -->
+		<tracking_duration>40320</tracking_duration> <!-- 40320 | 28 Days -->
+		<claim_delay>10</claim_delay>
+		<end_duration>44640</end_duration> <!-- 44640 | 31 Days -->
+		<mission_req>64</mission_req>
+		<priority>-20</priority>
+		<event_reward>
+			<tier>1</tier>
+			<req>
+				<min_rank>5</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='1000'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='250'/> <!-- Champion Flask -->
+			<unit id='11340' level='6'/> <!-- Legendary Card -->
+			<unit id='12142' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='5'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='1000'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='300'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='150'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='60'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>2</tier>
+			<req>
+				<min_rank>10</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='900'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='225'/> <!-- Champion Flask -->
+			<unit id='11340' level='6'/> <!-- Legendary Card -->
+			<unit id='12142' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='5'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='1000'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='240'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='120'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='55'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>3</tier>
+			<req>
+				<min_rank>15</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='800'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='200'/> <!-- Champion Flask -->
+			<unit id='11340' level='6'/> <!-- Legendary Card -->
+			<unit id='12142' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='4'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='1000'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='200'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='100'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='50'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>4</tier>
+			<req>
+				<min_rank>20</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='700'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='175'/> <!-- Champion Flask -->
+			<unit id='11340' level='6'/> <!-- Legendary Card -->
+			<unit id='12142' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='3'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='1000'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='180'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='90'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='45'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>5</tier>
+			<req>
+				<min_rank>25</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='600'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='150'/> <!-- Champion Flask -->
+			<unit id='11340' level='6'/> <!-- Legendary Card -->
+			<unit id='12142' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='3'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='1000'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='160'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='80'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='40'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>6</tier>
+			<req>
+				<min_rank>50</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='500'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='125'/> <!-- Champion Flask -->
+			<unit id='11340' level='6'/> <!-- Legendary Card -->
+			<unit id='12142' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='2'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='1000'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='140'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='70'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='35'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>7</tier>
+			<req>
+				<min_rank>75</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='400'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='100'/> <!-- Champion Flask -->
+			<unit id='11340' level='5'/> <!-- Legendary Card -->
+			<unit id='12142' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='2'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='1000'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>8</tier>
+			<req>
+				<min_rank>100</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='360'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='90'/> <!-- Champion Flask -->
+			<unit id='11340' level='5'/> <!-- Legendary Card -->
+			<unit id='12142' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='1000'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='2'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='1000'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>9</tier>
+			<req>
+				<min_rank>150</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='320'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='80'/> <!-- Champion Flask -->
+			<unit id='11340' level='5'/> <!-- Legendary Card -->
+			<unit id='12142' level='5'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='800'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='2'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='800'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>10</tier>
+			<req>
+				<min_rank>250</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='280'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='70'/> <!-- Champion Flask -->
+			<unit id='11340' level='4'/> <!-- Legendary Card -->
+			<unit id='12142' level='4'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='700'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='2'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='700'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>11</tier>
+			<req>
+				<min_rank>350</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='240'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='60'/> <!-- Champion Flask -->
+			<unit id='11340' level='4'/> <!-- Legendary Card -->
+			<unit id='12142' level='4'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='600'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='2'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='600'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>12</tier>
+			<req>
+				<min_rank>500</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='200'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='50'/> <!-- Champion Flask -->
+			<unit id='11340' level='3'/> <!-- Legendary Card -->
+			<unit id='12142' level='3'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='500'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='512' level='1'/> <!-- Arcane Deposit -->
+			<item id='1003' quantity='2'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='500'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>13</tier>
+			<req>
+				<min_rank>750</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='160'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='40'/> <!-- Champion Flask -->
+			<unit id='11340' level='3'/> <!-- Legendary Card -->
+			<unit id='12142' level='3'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='400'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1003' quantity='2'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='400'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>14</tier>
+			<req>
+				<min_rank>1000</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='140'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='35'/> <!-- Champion Flask -->
+			<unit id='11340' level='2'/> <!-- Legendary Card -->
+			<unit id='12142' level='2'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='300'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1003' quantity='2'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='300'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>15</tier>
+			<req>
+				<min_rank>2000</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='120'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='30'/> <!-- Champion Flask -->
+			<unit id='11340' level='2'/> <!-- Legendary Card -->
+			<unit id='12142' level='2'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='200'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='1000'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1003' quantity='1'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='200'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>16</tier>
+			<req>
+				<min_rank>3500</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='100'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='25'/> <!-- Champion Flask -->
+			<unit id='11340' level='2'/> <!-- Legendary Card -->
+			<unit id='12142' level='2'/> <!-- Epic Card #2 -->
+			<item id='18' quantity='100'/> <!-- Legendary Pack Fragment -->
+			<item id='17' quantity='800'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1003' quantity='1'/> <!-- Energy Refill +10 -->
+			<item id='2501' quantity='200'/> <!-- Blue Fire Soul -->
+			<item id='2001' quantity='120'/> <!-- Arcane Fragment -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>17</tier>
+			<req>
+				<min_rank>5000</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='80'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='20'/> <!-- Champion Flask -->
+			<unit id='11340' level='1'/> <!-- Legendary Card -->
+			<unit id='12142' level='1'/> <!-- Epic Card #2 -->
+			<item id='17' quantity='600'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1003' quantity='1'/> <!-- Energy Refill +10 -->
+			<item id='4001' quantity='60'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='30'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>18</tier>
+			<req>
+				<min_rank>7500</min_rank>
+			</req>
+			<display_item>0</display_item>
+			<item id='104105' quantity='60'/> <!-- Legendary Stones -->
+			<item id='28220' quantity='15'/> <!-- Champion Flask -->
+			<unit id='11340' level='1'/> <!-- Legendary Card -->
+			<unit id='12142' level='1'/> <!-- Epic Card #2 -->
+			<item id='17' quantity='400'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1003' quantity='1'/> <!-- Energy Refill +10 -->
+			<item id='4001' quantity='50'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='25'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>19</tier>
+			<req>
+				<min_rank>10000</min_rank>
+			</req>
+			<unit id='11340' level='1'/> <!-- Legendary Card -->
+			<unit id='12142' level='1'/> <!-- Epic Card #2 -->
+			<item id='17' quantity='200'/> <!-- Epic Pack Fragment -->
+			<unit id='511' level='1'/> <!-- Arcane Ore -->
+			<item id='1003' quantity='1'/> <!-- Energy Refill +10 -->
+			<item id='4001' quantity='50'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='25'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>20</tier>
+			<req>
+				<min_rank>15000</min_rank>
+			</req>
+			<unit id='1340' level='1'/> <!-- Legendary Card -->
+			<unit id='2142' level='1'/> <!-- Epic Card #2 -->
+			<unit id='510' level='1'/> <!-- Arcane Chunk -->
+			<item id='1003' quantity='1'/> <!-- Energy Refill +10 -->
+			<item id='4001' quantity='40'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='20'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>21</tier>
+			<req>
+				<min_rank>20000</min_rank>
+			</req>
+			<unit id='510' level='1'/> <!-- Arcane Chunk -->
+			<item id='1003' quantity='1'/> <!-- Energy Refill +10 -->
+			<item id='4001' quantity='40'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='20'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>22</tier>
+			<req>
+				<min_rank>30000</min_rank>
+			</req>
+			<unit id='510' level='1'/> <!-- Arcane Chunk -->
+			<item id='1003' quantity='1'/> <!-- Energy Refill +10 -->
+			<item id='4001' quantity='40'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='20'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>23</tier>
+			<req>
+				<min_rank>50000</min_rank>
+			</req>
+			<unit id='510' level='1'/> <!-- Arcane Chunk -->
+			<item id='4001' quantity='30'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='15'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>24</tier>
+			<req>
+				<min_rank>75000</min_rank>
+			</req>
+			<item id='4001' quantity='30'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='15'/> <!-- Gold Bar -->
+		</event_reward>
+		<event_reward>
+			<tier>25</tier>
+			<req>
+				<min_rank>100000</min_rank>
+			</req>
+			<item id='4001' quantity='20'/> <!-- Inscription Powder -->
+			<item id='1012' quantity='10'/> <!-- Gold Bar -->
+		</event_reward>
+	</event>
+	<!-- ======== Event 136 Dragon Expedition End ======== -->
+
 </root>
