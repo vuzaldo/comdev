@@ -1167,16 +1167,6 @@
 		<category>2</category>
 		<usable>0</usable>
 	</item>
-	<item>
-		<id>2534</id>
-		<name>Bounty Expansion +5</name>
-		<icon>bounty_increase_item</icon>
-		<bundle>58</bundle>
-		<category>2</category>
-		<desc>Increases your maximum Bounties by +5.</desc>
-		<usable>0</usable>
-		<max_bounties>5</max_bounties>
-	</item>
 
 	<!-- Premium Flasks Gen 1 -->
 	<item>
@@ -3784,7 +3774,7 @@
 			<item id="28262" quantity="1"/> <!-- Chaos -->
 		</choice>
 		<choice id="3">
-			<item id="28263" quantity="1"/> <!-- Wyld -->
+			<item id="28265" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
 
@@ -3810,25 +3800,54 @@
 	</item>
 	<item>
 		<id>28262</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Formos, Mothmo, Ecyxigua Insect Flask</name>
+		<name>Chaos Insect Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Formos, Mothmo, Ecyxigua Stones; OR revert</desc>
+		<desc>A flask of flasks containing all previous Chaos Insect Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28260" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104019" quantity="1"/> <!-- Formos -->
+			<item id="28263" quantity="1"/> <!-- 1D -->
 		</choice>
 		<choice id="3">
-			<item id="104030" quantity="1"/> <!-- Mothmo -->
-		</choice>
-		<choice id="4">
-			<item id="104085" quantity="1"/> <!-- Ecyxigua -->
+			<item id="28264" quantity="1"/> <!-- 2D and 4D -->
 		</choice>
 	</item>
+		<item>
+			<id>28263</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Formos, Ecyxigua Insect Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Formos, Ecyxigua Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28260" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104019" quantity="1"/> <!-- Formos -->
+			</choice>
+			<choice id="3">
+				<item id="104085" quantity="1"/> <!-- Ecyxigua -->
+			</choice>
+		</item>
+		<item>
+			<id>28264</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Mothmo, Aculeatus Insect Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Mothmo, Aculeatus Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28260" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104030" quantity="1"/> <!-- Mothmo -->
+			</choice>
+			<choice id="3">
+				<item id="104099" quantity="1"/> <!-- Aculeatus -->
+			</choice>
+		</item>
 	<item>
-		<id>28263</id> <!-- Note ID numbering convention for flask within flask -->
+		<id>28265</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Agatha, Helvius, Barfis Insect Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>

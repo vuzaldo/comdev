@@ -1939,4 +1939,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6137</id>
+		<name>Reinforced Undead Vampirism</name>
+		<desc>All Undead gain Vampirism equal to 3 + 5%. 0-2 Delay also gain Armor equal to 10%. All values based on Health.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>155</bg_effect>
+		</effect>
+		<start_time>1767286800</start_time> <!-- Thursday, January 01, 2026 at 17:00:00 -->
+		<end_time>1772125200</end_time> <!-- Thursday, February 26, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
