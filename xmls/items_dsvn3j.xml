@@ -137,7 +137,7 @@
 		<name>Runecrafter's Stone</name>
 		<icon>runestone</icon>
 		<bundle>58</bundle>
-		<desc>Collect 100 Runecrafter's Stones to craft Massive Runecrafter's Chest!</desc>
+		<desc>Collect 100 Runecrafter's Stones to craft a Massive Runecrafter's Chest!</desc>
 		<consume>100</consume>
 		<give_pack>89</give_pack>
 	</item>
@@ -158,8 +158,102 @@
 		<name>Endgame Seal</name>
 		<icon>letter_blue_seal</icon>
 		<bundle>17</bundle>
-		<desc>Any extra endgame stones are converted into Endgame Seals.</desc>
-		<usable>0</usable>
+		<desc>A currency used for Endgame rewards. Collect 100 Endgame Seals to craft an Endgame Chest!</desc>
+		<consume>100</consume>
+		<give_item id="22" quantity="1"/>
+	</item>
+
+	<item>
+		<id>22</id>
+		<name>Endgame Chest</name>
+		<icon>logo_gem_color</icon>
+		<bundle>0</bundle>
+		<desc>Open to get your choice of Resource, Refill, Expansion, or Card Chest.</desc>
+		<choice id="1">
+			<item id="23" quantity="1"/> <!-- Endgame Resource Chest -->
+		</choice>
+		<choice id="2">
+			<item id="24" quantity="1"/> <!-- Endgame Refill Chest -->
+		</choice>
+		<choice id="3">
+			<item id="25" quantity="1"/> <!-- Endgame Expansion Chest -->
+		</choice>
+		<choice id="4">
+			<item id="26" quantity="1"/> <!-- Endgame Card Chest -->
+		</choice>
+	</item>
+	<item>
+		<id>23</id>
+		<name>Endgame Resource Chest</name>
+		<icon>logo_gem_color</icon>
+		<bundle>0</bundle>
+		<desc>Open to get your choice of Gold Bars, Arcane Fragments, Legendary Rune Slivers; OR revert</desc>
+		<choice id="1">
+			<item id="22" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="1012" quantity="250"/> <!-- Gold Bar -->
+		</choice>
+		<choice id="3">
+			<item id="2001" quantity="960"/> <!-- Arcane Fragment -->
+		</choice>
+		<choice id="4">
+			<item id="4013" quantity="6"/> <!-- Legendary Rune Sliver -->
+		</choice>
+	</item>
+	<item>
+		<id>24</id>
+		<name>Endgame Refill Chest</name>
+		<icon>logo_gem_color</icon>
+		<bundle>0</bundle>
+		<desc>Open to get your choice of Energy Potions, Bounty Refills, Dungeon Refills; OR revert</desc>
+		<choice id="1">
+			<item id="22" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="1005" quantity="10"/> <!-- Energy Potion +50 -->
+		</choice>
+		<choice id="3">
+			<item id="1025" quantity="4"/> <!-- Bounty Refill +20 -->
+		</choice>
+		<choice id="4">
+			<item id="1045" quantity="2"/> <!-- Dungeon Refill +20 -->
+		</choice>
+	</item>
+	<item>
+		<id>25</id>
+		<name>Endgame Expansion Chest</name>
+		<icon>logo_gem_color</icon>
+		<bundle>0</bundle>
+		<desc>Open to get your choice of Energy Curio, Inventory Expansion; OR revert</desc>
+		<choice id="1">
+			<item id="22" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="2002" quantity="1"/> <!-- Energy Curio -->
+		</choice>
+		<choice id="3">
+			<item id="2507" quantity="2"/> <!-- Inventory Expansion +25 -->
+		</choice>
+	</item>
+	<item>
+		<id>26</id>
+		<name>Endgame Card Chest</name>
+		<icon>logo_gem_color</icon>
+		<bundle>0</bundle>
+		<desc>Open to get your choice of a random Premium Quad Legendary card, Premium Super Flasks; OR revert</desc>
+		<choice id="1">
+			<item id="22" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="533" quantity="1"/> <!-- Random Premium Quad Legendary -->
+		</choice>
+		<choice id="3">
+			<item id="2820" quantity="50"/> <!-- Premium Super Flask -->
+		</choice>
+		<choice id="4">
+			<item id="21" quantity="100"/> <!-- Revert to Endgame Seals -->
+		</choice>
 	</item>
 
 	<!-- 91-100 TEST ITEMS -->
@@ -3250,10 +3344,10 @@
 		</item>
 		<item>
 			<id>28196</id> <!-- Note ID numbering convention for flask within flask -->
-			<name>Freya, Allies Angel Flask</name>
+			<name>Freya, Allies, Rafael Angel Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Freya, Allies Stones; OR revert</desc>
+			<desc>Consume to get your choice of Freya, Allies, Rafael Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28190" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
@@ -3262,6 +3356,9 @@
 			</choice>
 			<choice id="3">
 				<item id="104067" quantity="1"/> <!-- Allies -->
+			</choice>
+			<choice id="4">
+				<item id="104100" quantity="1"/> <!-- Rafael -->
 			</choice>
 		</item>
 

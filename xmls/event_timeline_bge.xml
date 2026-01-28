@@ -1953,4 +1953,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6138</id>
+		<name>Lily &#38; Vampiric Mace Formation</name>
+		<desc>Frogs deal extra damage on their first attack each turn equal to 25% of their base Health, while also gaining Siphon equal to their base Attack.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>201</bg_effect>
+		</effect>
+		<start_time>1769706000</start_time> <!-- Thursday, January 29, 2026 at 17:00:00 -->
+		<end_time>1774544400</end_time> <!-- Thursday, March 26, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
