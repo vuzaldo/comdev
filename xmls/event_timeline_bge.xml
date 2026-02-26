@@ -1967,4 +1967,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6139</id>
+		<name>Barbed Wings</name>
+		<desc>All Avians gain 15% extra Health and Vengeance equal to 14 minus twice their Delay. 0-2D Avians also gain Berserk and Pierce equal to 20%, while 3-4D gain Shroud equal to 10% base Health.</desc>
+		<banner_prefab>event_021_quest_banner</banner_prefab>
+		<bundle>84</bundle>
+		<effect>
+			<bg_effect>202</bg_effect>
+		</effect>
+		<start_time>1772125200</start_time> <!-- Thursday, February 26, 2026 at 17:00:00 -->
+		<end_time>1776963600</end_time> <!-- Thursday, April 23, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
