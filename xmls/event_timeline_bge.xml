@@ -1981,4 +1981,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6140</id>
+		<name>Unbreakable Ice</name>
+		<desc>All Elementals gain passive Barrier equal to 3 + 15% of their base Health, along with Frostbreath equal to 30% of their base Attack.</desc>
+		<banner_prefab>elementalsBanner</banner_prefab>
+		<bundle>21</bundle>
+		<effect>
+			<bg_effect>203</bg_effect>
+		</effect>
+		<start_time>1774544400</start_time> <!-- Thursday, March 26, 2026 at 17:00:00 -->
+		<end_time>1779382800</end_time> <!-- Thursday, May 21, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

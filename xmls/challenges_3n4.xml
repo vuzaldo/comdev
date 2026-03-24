@@ -760,8 +760,8 @@
 
 	<challenge>
 		<id>2015</id>
-		<name>Immunity Clash Challenge</name>
-		<desc>All creatures gain Ward 99. Two additional Delay are added to the first card played in a battle. Attacks recharge daily!</desc>
+		<name>Immunity (Arena) Clash Challenge</name>
+		<desc>All creatures gain Ward 99. Two additional Delay are added to the first card played in a battle. There is no tower card. Attacks recharge daily!</desc>
 		<type>2</type>
 		<portrait>grandexcavator</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
@@ -877,7 +877,7 @@
 	<challenge>
 		<id>2019</id>
 		<name>Airborne Clash Challenge</name>
-		<desc>All Dragons regenerate 25% of their base Health, all Avians gain Mark equal to 15% of their Health, and all Angels gain Legion equal to 50% of their Attack. Enemy starts with a Castle Tower card! Attacks recharge daily!</desc>
+		<desc>All Dragons regenerate 25% of their base Health, all Avians gain Mark equal to 15% of their Health, and all Angels gain Legion equal to 50% of their Attack. Enemy starts with a Castle Tower! Attacks recharge daily!</desc>
 		<type>2</type>
 		<portrait>samaelWithFiresword</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
@@ -908,7 +908,7 @@
 	<challenge>
 		<id>2020</id>
 		<name>Graves &amp; Gears Clash Challenge</name>
-		<desc>All Mecha gain Ward equal to 3 plus 10% of their base Health and when an Undead dies it creates an Unearthed Skeleton token creature. Enemy starts with a Castle Tower card! Attacks recharge daily!</desc>
+		<desc>All Mecha gain Ward equal to 3 plus 10% of their base Health and when an Undead dies it creates an Unearthed Skeleton token creature. Enemy starts with a Castle Tower! Attacks recharge daily!</desc>
 		<type>2</type>
 		<portrait>giantMechaBoss</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
@@ -968,7 +968,7 @@
 	<challenge>
 		<id>2022</id>
 		<name>Conflux Clash Challenge</name>
-		<desc>Aether have their Attack increased by 50% of the base, Chaos gain Vengeance equal to 50% of base Attack, and Wyld gain an additional 25% base Health. Enemy starts with a Castle Tower card! Attacks recharge daily!</desc>
+		<desc>Aether have their Attack increased by 50% of the base, Chaos gain Vengeance equal to 50% of base Attack, and Wyld gain an additional 25% base Health. Enemy starts with a Castle Tower! Attacks recharge daily!</desc>
 		<type>2</type>
 		<portrait>mythicConglomerate</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
@@ -1847,19 +1847,18 @@
 
 	<challenge>
 		<id>2047</id>
-		<name>Beast's Bounty Clash Challenge</name>
-		<desc>All Aether gain Armor. All Chaos gain Enrage. All Wyld gain Berserk. Beasts gain all three skills! Values are equal to 10% of base Health. Enemy starts with a Castle Tower! Attacks recharge daily!</desc>
+		<name>Beasts 2.0 Clash Challenge</name>
+		<desc>All Beasts gain 20% extra Health, and bonus Berserk and Armor equal to 20% minus twice their Delay. All % values based on Health. Enemy starts with a Castle Tower! Attacks recharge daily!</desc>
 		<type>2</type>
 		<portrait>event_061_butterflyelephant</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
 		<bundle>30</bundle>
-		<list_image name="challenge_banner_clash_conflux" bundle="116"/>
+		<list_image name="challenge_banner_clash_fury" bundle="116"/>
 		<points_icon>single_star</points_icon>
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
 		<battleground_id>501</battleground_id>
-		<battleground_id>574</battleground_id>
-		<battleground_id>174</battleground_id>
+		<battleground_id>187</battleground_id>
 		<star_req_1>15</star_req_1>
 		<star_req_2>40</star_req_2>
 		<star_req_3>100</star_req_3>
@@ -1906,8 +1905,8 @@
 
 	<challenge>
 		<id>2049</id>
-		<name>Chaos Redux Clash Challenge</name>
-		<desc>Chaos have their Attack increased by 25% of the base. Enemy starts with a Castle Tower! Attacks recharge daily!</desc>
+		<name>Chaos 3.0 Clash Challenge</name>
+		<desc>Non-Chaos cards are killed by barrage and bolt. Enemy starts with a Castle Tower! Attacks recharge daily!</desc>
 		<type>2</type>
 		<portrait>chaosguardian</portrait>
 		<banner_prefab>challenge_banner</banner_prefab>
@@ -1917,7 +1916,7 @@
 		<points_bundle>31</points_bundle>
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
 		<battleground_id>501</battleground_id>
-		<battleground_id>579</battleground_id>
+		<battleground_id>586</battleground_id>
 		<star_req_1>15</star_req_1>
 		<star_req_2>40</star_req_2>
 		<star_req_3>100</star_req_3>
@@ -2095,6 +2094,64 @@
 		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
 		<battleground_id>501</battleground_id>
 		<battleground_id>569</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2056</id>
+		<name>Equilibrium (Arena) Clash Challenge</name>
+		<desc>Two additional Delay are added to the first card played in a battle. There is no tower card. Attacks recharge daily!</desc>
+		<type>2</type>
+		<portrait>ranger</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name="challenge_banner_clash_equilibrium" bundle="116"/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>521</battleground_id>
+		<star_req_1>15</star_req_1>
+		<star_req_2>40</star_req_2>
+		<star_req_3>100</star_req_3>
+		<energy>
+			<display_name>Challenge Energy</display_name>
+			<start_value>15</start_value>	<!-- Starting energy -->
+			<recharge_amount>15</recharge_amount>	<!-- Amount to recharge per recharge -->
+			<max_value>45</max_value>				<!-- Maximum Energy -->
+			<recharge_start_time>1517940000</recharge_start_time>	<!-- Tuesday, February 6, 2018 6:00:00 PM -->
+			<recharge_time>86400</recharge_time>	<!-- 86400 | 1 Day | How often to recharge -->
+			<!-- <hc_cost>250</hc_cost> 				Clashes won't have Recharge -->
+			<!-- <hc_cost_scalar>250</hc_cost_scalar> 	Clashes won't have Recharge -->
+		</energy>
+	</challenge>
+
+	<challenge>
+		<id>2057</id>
+		<name>Mecha Undead ComDev Challenge</name>
+		<desc>All Mecha gain 10% Ward. Aether also gain Barrier, Chaos Empower, and Wyld Heal 15%. Viracocha receives all 3. All Undead gain 10% Vampirism, 0-2D also gain 20% Siphon, 3-4D 10% Emberhide. Enemy starts with a Castle Tower! Attacks recharge daily!</desc>
+		<type>2</type>
+		<portrait>giantMechaBoss</portrait>
+		<banner_prefab>challenge_banner</banner_prefab>
+		<bundle>30</bundle>
+		<list_image name="challenge_banner_clash_gravesgears" bundle="116"/>
+		<points_icon>single_star</points_icon>
+		<points_bundle>31</points_bundle>
+		<exclude_global_bge>1</exclude_global_bge>	<!-- Boolean to ignore BGE outside of this event or not -->
+		<battleground_id>501</battleground_id>
+		<battleground_id>179</battleground_id>
+		<battleground_id>180</battleground_id>
 		<star_req_1>15</star_req_1>
 		<star_req_2>40</star_req_2>
 		<star_req_3>100</star_req_3>
