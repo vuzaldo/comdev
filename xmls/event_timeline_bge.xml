@@ -1995,4 +1995,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6141</id>
+		<name>Beast Supremacy</name>
+		<desc>All Beasts have their Attack and Health increased by 20%! Beasts also have Skills increased by 40%: Armor, Barrier, Berserk, Bolt, Corrosive, Daze, Emberhide, Enrage, Frostbreath, Heal, Hex, Legion, Pierce, Poison, Regenerate, Scorch, Shroud, Siphon, Vengeance, Ward, and Weaken.</desc>
+		<banner_prefab>Banner_GenericQuest</banner_prefab>
+		<bundle>0</bundle>
+		<effect>
+			<bg_effect>204</bg_effect>
+		</effect>
+		<start_time>1776963600</start_time> <!-- Thursday, April 23, 2026 at 17:00:00 -->
+		<end_time>1781802000</end_time> <!-- Thursday, June 18, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

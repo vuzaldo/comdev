@@ -425,12 +425,11 @@
 		<mission_req>244</mission_req>
 		<desc>Contains various Runecrafting components, including a chance at Runeshells and even ^cE7FFLegendary Rune Slivers^cFFFF.</desc>
 		<show_desc>1</show_desc>
-		<priority>52</priority>
-		<!-- <sc_cost>500</sc_cost> -->
-		<cost_type>3</cost_type> <!-- Items -->
-		<cost item="21" num="5"/> <!-- Endgame Seals -->
+		<priority>36</priority>
+		<item_type>2</item_type> <!-- Render as Box -->
+		<cost item="21" num="1"/> <!-- Endgame Seals -->
 		<!-- Remove from store if player has this card -->
-		<hidden_card_req>19</hidden_card_req>
+		<!-- <hidden_card_req>19</hidden_card_req> --> <!-- Scyer -->
 		<asset_prefab>rune_bag</asset_prefab>
 		<bundle>15</bundle>
 		<item id="514" quantity="1"/> <!-- filler reward (pouch) -->
@@ -937,6 +936,7 @@
 			<item id="104100" quantity="500" weight="1"/>
 			<item id="104101" quantity="500" weight="1"/>
 			<item id="104102" quantity="500" weight="1"/>
+			<item id="104103" quantity="500" weight="1"/>
 		</item_pack>
 	</store_item>
 
@@ -1714,6 +1714,7 @@
 			<item id="104100"/>
 			<item id="104101"/>
 			<item id="104102"/>
+			<item id="104103"/>
 		</costed_items>
 	</store_item>
 	<store_item>
@@ -1918,6 +1919,7 @@
 			<item id="104100" number="50" purchase1="25" scalar="5"/>
 			<item id="104101" number="50" purchase1="25" scalar="5"/>
 			<item id="104102" number="50" purchase1="25" scalar="5"/>
+			<item id="104103" number="50" purchase1="25" scalar="5"/>
 		</costed_items>
 	</store_item>
 	<store_item>
