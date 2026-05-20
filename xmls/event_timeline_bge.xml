@@ -2009,4 +2009,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6142</id>
+		<name>Adaptive Swarm</name>
+		<desc>All Insects gain Swarm and Regenerate equal to 15% of their base Health. After dealing Attack damage, Swarm permanently increases the Attack of the weakest ally.</desc>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<effect>
+			<bg_effect>205</bg_effect>
+		</effect>
+		<start_time>1779382800</start_time> <!-- Thursday, May 21, 2026 at 17:00:00 -->
+		<end_time>1784221200</end_time> <!-- Thursday, July 16, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

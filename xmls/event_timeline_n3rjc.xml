@@ -131,7 +131,7 @@
 		<bundle>30</bundle>
 		<display_card id="6303" level="1"/>
 		<store_item>49</store_item>
-		<start_time>1774544400</start_time> <!-- Thursday, 26 March 2026 -->
+		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
 		<end_duration>161280</end_duration> <!-- 112 Days -->
 		<hide_news>1</hide_news>
 		<priority>-45</priority>
@@ -143,117 +143,6 @@
 
 	<!-- 2001-: Old events removed. See old versions for archive. -->
 
-	<!-- Event 140: ComDev Elemental - Desolate Red Valley -->
-	<event>
-		<id>3958</id>
-		<name>Colossal Bundle</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>160</type>
-		<bundle_package>603</bundle_package>
-		<num_available>4</num_available>
-		<priority>30</priority>
-		<start_time>1774544400</start_time> <!-- Thursday, 26 March 2026 -->
-		<end_duration>20160</end_duration> <!-- 14 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3959</id>
-		<name>Super Flask Sale</name>
-		<banner_prefab>elementalsBanner</banner_prefab>
-		<bundle>21</bundle>
-		<portrait>essence_of_gold</portrait>
-		<type>120</type>
-		<bundle_package>605</bundle_package>
-		<num_available>240</num_available>
-		<priority>-35</priority>
-		<start_time>1774544400</start_time> <!-- Thursday, 26 March 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3960</id>
-		<name>Dual Shard Bundle</name>
-		<banner_prefab>elementalsBanner</banner_prefab>
-		<bundle>21</bundle>
-		<type>150</type>
-		<bundle_package>625</bundle_package>
-		<num_available>4</num_available>
-		<priority>20</priority>
-		<start_time>1775754000</start_time> <!-- Thursday, 09 April 2026 -->
-		<end_duration>20160</end_duration> <!-- 14 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3961</id>
-		<name>Starter Set</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<bundle_package>645</bundle_package>
-		<num_available>1</num_available>
-		<priority>-34</priority>
-		<start_time>1774544400</start_time> <!-- Thursday, 26 March 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3962</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>elementalsBanner</banner_prefab>
-		<bundle>21</bundle>
-		<type>103</type>
-		<bundle_package>665</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1774717200</start_time> <!-- Saturday, 28 March 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3963</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>elementalsBanner</banner_prefab>
-		<bundle>21</bundle>
-		<type>103</type>
-		<bundle_package>665</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1775322000</start_time> <!-- Saturday, 04 April 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3964</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>elementalsBanner</banner_prefab>
-		<bundle>21</bundle>
-		<type>103</type>
-		<bundle_package>665</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1775926800</start_time> <!-- Saturday, 11 April 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3965</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>elementalsBanner</banner_prefab>
-		<bundle>21</bundle>
-		<type>103</type>
-		<bundle_package>665</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1776531600</start_time> <!-- Saturday, 18 April 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3966</id>
-		<name>Premium Flask Sale</name> <!-- Super Flask -->
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>130</type>
-		<bundle_package>680</bundle_package>
-		<num_available>32</num_available>
-		<priority>45</priority>
-		<start_time>1774544400</start_time> <!-- Thursday, 26 March 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
 	<event>
 		<id>3967</id>
 		<name>Special Event Mystery Package</name>
@@ -360,6 +249,118 @@
 		<num_available>32</num_available>
 		<priority>45</priority>
 		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+
+	<!-- Event 142: ComDev Insect - Forgotten Island -->
+	<event>
+		<id>3977</id>
+		<name>Colossal Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>160</type>
+		<bundle_package>603</bundle_package>
+		<num_available>4</num_available>
+		<priority>30</priority>
+		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
+		<end_duration>20160</end_duration> <!-- 14 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3978</id>
+		<name>Super Flask Sale</name>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<portrait>essence_of_gold</portrait>
+		<type>120</type>
+		<bundle_package>613</bundle_package>
+		<num_available>240</num_available>
+		<priority>-35</priority>
+		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3979</id>
+		<name>Dual Shard Bundle</name>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<type>150</type>
+		<bundle_package>633</bundle_package>
+		<num_available>4</num_available>
+		<priority>20</priority>
+		<start_time>1780592400</start_time> <!-- Thursday, 04 June 2026 -->
+		<end_duration>20160</end_duration> <!-- 14 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3980</id>
+		<name>Starter Set</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>653</bundle_package>
+		<num_available>1</num_available>
+		<priority>-34</priority>
+		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3981</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<type>103</type>
+		<bundle_package>673</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1779555600</start_time> <!-- Saturday, 23 May 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3982</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<type>103</type>
+		<bundle_package>673</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1780160400</start_time> <!-- Saturday, 30 May 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3983</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<type>103</type>
+		<bundle_package>673</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1780765200</start_time> <!-- Saturday, 06 June 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3984</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_013_banner</banner_prefab>
+		<bundle>64</bundle>
+		<type>103</type>
+		<bundle_package>673</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1781370000</start_time> <!-- Saturday, 13 June 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3985</id>
+		<name>Premium Flask Sale</name> <!-- Super Flask -->
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<bundle_package>680</bundle_package>
+		<num_available>32</num_available>
+		<priority>45</priority>
+		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 		<hide_news>1</hide_news>
 	</event>
@@ -559,47 +560,52 @@
 		<mission_req>64</mission_req>
 	</event>
 
-	<!-- Event 140: ComDev Elemental - Desolate Red Valley -->
+	<!-- Event 142: ComDev Insect - Forgotten Island -->
 	<event>
 		<id>9104</id>
-		<name>Desolate Red Valley Consolidation</name>
-		<desc>Countdown to the consolidation all the old Classic campaign nodes in Desolate Red Valley. Get your Mastery Stars before they disappear!</desc>
+		<name>Forgotten Island Consolidation</name>
+		<desc>Countdown to the consolidation all the old Classic campaign nodes in Forgotten Island. Get your Mastery Stars before they disappear!</desc>
 		<portrait>voidminions</portrait>
 		<banner_prefab>maintenance_Banner</banner_prefab>
 		<bundle>15</bundle>
 		<type>1</type>
-		<campaign>1183</campaign>
-		<campaign>1184</campaign>
-		<campaign>1185</campaign>
-		<campaign>1186</campaign>
-		<campaign>1187</campaign>
-		<campaign>1294</campaign>
-		<campaign>1295</campaign>
-		<achievement_id>3401</achievement_id>
-		<achievement_id>3402</achievement_id>
-		<achievement_id>3403</achievement_id>
-		<achievement_id>3404</achievement_id>
-		<achievement_id>3405</achievement_id>
-		<achievement_id>3406</achievement_id>
-		<achievement_id>3407</achievement_id>
-		<achievement_id>3408</achievement_id>
-		<achievement_id>3409</achievement_id>
-		<achievement_id>3410</achievement_id>
-		<achievement_id>3411</achievement_id>
-		<achievement_id>3412</achievement_id>
-		<achievement_id>3413</achievement_id>
-		<achievement_id>3414</achievement_id>
-		<achievement_id>3415</achievement_id>
-		<achievement_id>3708</achievement_id>
-		<achievement_id>3709</achievement_id>
-		<achievement_id>3710</achievement_id>
-		<achievement_id>3711</achievement_id>
-		<achievement_id>3712</achievement_id>
-		<achievement_id>3713</achievement_id>
-		<achievement_id>3714</achievement_id>
-		<achievement_id>4012</achievement_id>
-		<achievement_id>4034</achievement_id>
-		<start_time>1774544400</start_time> <!-- Thursday, 26 March 2026 -->
+		<campaign>1171</campaign>
+		<campaign>1172</campaign>
+		<campaign>1173</campaign>
+		<campaign>1174</campaign>
+		<campaign>1175</campaign>
+		<campaign>1176</campaign>
+		<campaign>1320</campaign>
+		<campaign>1321</campaign>
+		<achievement_id>3363</achievement_id>
+		<achievement_id>3364</achievement_id>
+		<achievement_id>3365</achievement_id>
+		<achievement_id>3366</achievement_id>
+		<achievement_id>3367</achievement_id>
+		<achievement_id>3368</achievement_id>
+		<achievement_id>3369</achievement_id>
+		<achievement_id>3370</achievement_id>
+		<achievement_id>3371</achievement_id>
+		<achievement_id>3372</achievement_id>
+		<achievement_id>3373</achievement_id>
+		<achievement_id>3374</achievement_id>
+		<achievement_id>3375</achievement_id>
+		<achievement_id>3376</achievement_id>
+		<achievement_id>3377</achievement_id>
+		<achievement_id>3378</achievement_id>
+		<achievement_id>3379</achievement_id>
+		<achievement_id>3380</achievement_id>
+		<achievement_id>3381</achievement_id>
+		<achievement_id>3795</achievement_id>
+		<achievement_id>3796</achievement_id>
+		<achievement_id>3797</achievement_id>
+		<achievement_id>3798</achievement_id>
+		<achievement_id>3799</achievement_id>
+		<achievement_id>3800</achievement_id>
+		<achievement_id>3801</achievement_id>
+		<achievement_id>4010</achievement_id>
+		<achievement_id>4045</achievement_id>
+		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 		<priority>-41</priority>
 		<hide_upcoming>1</hide_upcoming>
@@ -673,24 +679,6 @@
 	<!-- Global Timeline Post Consolidation Lightning Nodes ID 9124-9500 -->
 	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
-	<!-- Event 140: ComDev Elemental - Desolate Red Valley -->
-	<event>
-		<id>9140</id>
-		<name>Alyel Back in Time</name>
-		<desc>A time-limited campaign in Desolate Red Valley! Go with Alyel back in time.</desc>
-		<portrait>Portrait_RighteousBerserker</portrait>
-		<banner_prefab>event_024_banner</banner_prefab>
-		<bundle>92</bundle>
-		<type>1</type>
-		<campaign>10140</campaign>
-		<achievement_id>10140</achievement_id>
-		<hide_upcoming>1</hide_upcoming>
-		<hide_news>1</hide_news>
-		<priority>-42</priority>
-		<start_time>1774544400</start_time> <!-- Thursday, 26 March 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-	</event>
-
 	<!-- Event 141: ComDev Beast - Golden Crown Village -->
 	<event>
 		<id>9141</id>
@@ -706,6 +694,24 @@
 		<hide_news>1</hide_news>
 		<priority>-42</priority>
 		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+	</event>
+
+	<!-- Event 142: ComDev Insect - Forgotten Island -->
+	<event>
+		<id>9142</id>
+		<name>Alyel Back in Time</name>
+		<desc>A time-limited campaign in Forgotten Island! Go with Alyel back in time.</desc>
+		<portrait>Portrait_RighteousBerserker</portrait>
+		<banner_prefab>event_024_banner</banner_prefab>
+		<bundle>92</bundle>
+		<type>1</type>
+		<campaign>10142</campaign>
+		<achievement_id>10142</achievement_id>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-42</priority>
+		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 	</event>
 
@@ -743,7 +749,7 @@
 		<hide_upcoming>1</hide_upcoming>
 	</event>
 
-	<!-- Event 140: ComDev Elemental - Desolate Red Valley -->
+	<!-- Event 142: ComDev Insect - Forgotten Island -->
 	<event>
 		<id>9503</id>
 		<name>Double Bounties Gold!</name>
@@ -754,7 +760,7 @@
 		<!-- <mission_gold_multiplier>2</mission_gold_multiplier> -->
 		<pvp_gold_multiplier>2</pvp_gold_multiplier>
 		<priority>600</priority>
-		<start_time>1775062800</start_time> <!-- Wednesday, 01 April 2026 -->
+		<start_time>1779901200</start_time> <!-- Wednesday, 27 May 2026 -->
 		<end_duration>1440</end_duration> <!-- 1 Day -->
 		<hide_upcoming>1</hide_upcoming>
 	</event>
@@ -768,7 +774,7 @@
 		<mission_gold_multiplier>2</mission_gold_multiplier>
 		<!-- <pvp_gold_multiplier>2</pvp_gold_multiplier> -->
 		<priority>600</priority>
-		<start_time>1776877200</start_time> <!-- Wednesday, 22 April 2026 -->
+		<start_time>1781715600</start_time> <!-- Wednesday, 17 June 2026 -->
 		<end_duration>1440</end_duration> <!-- 1 Day -->
 		<hide_upcoming>1</hide_upcoming>
 	</event>
@@ -815,23 +821,6 @@
 
 	<!-- 11001-: Old events removed. See old versions for archive. -->
 
-	<!-- Event 140: ComDev Elemental - Desolate Red Valley -->
-	<event>
-		<id>11140</id>
-		<name>Elemental Reward Box</name>
-		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Elemental card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFMaglheqet Stones^cFFFF!</desc>
-		<asset_prefab>elemental_arena_box</asset_prefab>
-		<asset_bundle>76</asset_bundle>
-		<banner_prefab>generic_chance_Banner</banner_prefab>
-		<bundle>15</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<hide_news>1</hide_news>
-		<priority>-40</priority>
-		<event_box>65454</event_box>
-		<start_time>1774544400</start_time> <!-- Thursday, 26 March 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-	</event>
-
 	<!-- Event 141: ComDev Beast - Golden Crown Village -->
 	<event>
 		<id>11141</id>
@@ -846,6 +835,23 @@
 		<priority>-40</priority>
 		<event_box>65545</event_box>
 		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+	</event>
+
+	<!-- Event 142: ComDev Insect - Forgotten Island -->
+	<event>
+		<id>11142</id>
+		<name>Insect Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Insect card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFSneggle Stones^cFFFF!</desc>
+		<asset_prefab>insect_arena_box</asset_prefab>
+		<asset_bundle>76</asset_bundle>
+		<banner_prefab>generic_chance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-40</priority>
+		<event_box>65530</event_box>
+		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 	</event>
 

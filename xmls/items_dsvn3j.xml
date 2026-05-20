@@ -49,9 +49,10 @@
 	</item>
 	<item>
 		<id>2</id>
-		<name>Shard</name>
+		<name>Shard (Use Test)</name>
 		<icon>icon_shard_lg</icon>
 		<desc>Magical crystals that can be spent in the Store.</desc>
+		<hc>1</hc>
 	</item>
 
 	<item>
@@ -3798,13 +3799,13 @@
 			<item id="28251" quantity="1"/> <!-- Aether 2D and Void -->
 		</choice>
 		<choice id="2">
-			<item id="28252" quantity="1"/> <!-- Aether 3D, Aether 4D, Chaos -->
+			<item id="28252" quantity="1"/> <!-- Wyld 1D and 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28253" quantity="1"/> <!-- Wyld 1D and 2D -->
+			<item id="28253" quantity="1"/> <!-- 3D -->
 		</choice>
 		<choice id="4">
-			<item id="28254" quantity="1"/> <!-- Wyld 4D -->
+			<item id="28254" quantity="1"/> <!-- 4D -->
 		</choice>
 	</item>
 
@@ -3830,25 +3831,6 @@
 	</item>
 	<item>
 		<id>28252</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Lairel, Morty Ahab, Tethys Seafolk Flask</name>
-		<icon>Lava_Vial</icon>
-		<bundle>17</bundle>
-		<desc>Consume to get your choice of Lairel, Morty Ahab, Tethys Stones; OR revert</desc>
-		<choice id="1">
-			<item id="28250" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
-		<choice id="2">
-			<item id="104039" quantity="1"/> <!-- Lairel -->
-		</choice>
-		<choice id="3">
-			<item id="104049" quantity="1"/> <!-- Morty Ahab -->
-		</choice>
-		<choice id="4">
-			<item id="104076" quantity="1"/> <!-- Tethys -->
-		</choice>
-	</item>
-	<item>
-		<id>28253</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Illu, Mike Seafolk Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3864,11 +3846,30 @@
 		</choice>
 	</item>
 	<item>
-		<id>28254</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Proteus, Moklam Seafolk Flask</name>
+		<id>28253</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Morty Ahab, Tethys, Zorvak Seafolk Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Proteus, Moklam Stones; OR revert</desc>
+		<desc>Consume to get your choice of Morty Ahab, Tethys, Zorvak Stones; OR revert</desc>
+		<choice id="1">
+			<item id="28250" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="104049" quantity="1"/> <!-- Morty Ahab -->
+		</choice>
+		<choice id="3">
+			<item id="104076" quantity="1"/> <!-- Tethys -->
+		</choice>
+		<choice id="4">
+			<item id="104104" quantity="1"/> <!-- Zorvak -->
+		</choice>
+	</item>
+	<item>
+		<id>28254</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Proteus, Lairel, Moklam Seafolk Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Proteus, Lairel, Moklam Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28250" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3876,6 +3877,9 @@
 			<item id="104017" quantity="1"/> <!-- Proteus -->
 		</choice>
 		<choice id="3">
+			<item id="104039" quantity="1"/> <!-- Lairel -->
+		</choice>
+		<choice id="4">
 			<item id="104056" quantity="1"/> <!-- Moklam -->
 		</choice>
 	</item>
