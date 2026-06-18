@@ -131,7 +131,7 @@
 		<bundle>30</bundle>
 		<display_card id="6303" level="1"/>
 		<store_item>49</store_item>
-		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
+		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
 		<end_duration>161280</end_duration> <!-- 112 Days -->
 		<hide_news>1</hide_news>
 		<priority>-45</priority>
@@ -149,108 +149,8 @@
 		<store_item>3101</store_item>
 		<num_available>1</num_available>
 		<priority>48</priority>
-		<start_time>1775062800</start_time> <!-- Wednesday, 01 April 2026 -->
+		<start_time>1775062800</start_time> <!-- Wednesday, 01 April 2026 -->"
 		<end_duration>20160</end_duration> <!-- 14 days -->
-	</event>
-
-	<!-- Event 141: ComDev Beast - Golden Crown Village -->
-	<event>
-		<id>3968</id>
-		<name>Colossal Bundle</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>160</type>
-		<bundle_package>603</bundle_package>
-		<num_available>4</num_available>
-		<priority>30</priority>
-		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
-		<end_duration>20160</end_duration> <!-- 14 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3969</id>
-		<name>Super Flask Sale</name>
-		<portrait>essence_of_gold</portrait>
-		<type>120</type>
-		<bundle_package>614</bundle_package>
-		<num_available>240</num_available>
-		<priority>-35</priority>
-		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3970</id>
-		<name>Dual Shard Bundle</name>
-		<type>150</type>
-		<bundle_package>634</bundle_package>
-		<num_available>4</num_available>
-		<priority>20</priority>
-		<start_time>1778173200</start_time> <!-- Thursday, 07 May 2026 -->
-		<end_duration>20160</end_duration> <!-- 14 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3971</id>
-		<name>Starter Set</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<bundle_package>654</bundle_package>
-		<num_available>1</num_available>
-		<priority>-34</priority>
-		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3972</id>
-		<name>Quad Premium Epic Deal!</name>
-		<type>103</type>
-		<bundle_package>674</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1777136400</start_time> <!-- Saturday, 25 April 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3973</id>
-		<name>Quad Premium Epic Deal!</name>
-		<type>103</type>
-		<bundle_package>674</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1777741200</start_time> <!-- Saturday, 02 May 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3974</id>
-		<name>Quad Premium Epic Deal!</name>
-		<type>103</type>
-		<bundle_package>674</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1778346000</start_time> <!-- Saturday, 09 May 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3975</id>
-		<name>Quad Premium Epic Deal!</name>
-		<type>103</type>
-		<bundle_package>674</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1778950800</start_time> <!-- Saturday, 16 May 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3976</id>
-		<name>Premium Flask Sale</name> <!-- Super Flask -->
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>130</type>
-		<bundle_package>680</bundle_package>
-		<num_available>32</num_available>
-		<priority>45</priority>
-		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
 	</event>
 
 	<!-- Event 142: ComDev Insect - Forgotten Island -->
@@ -361,6 +261,118 @@
 		<num_available>32</num_available>
 		<priority>45</priority>
 		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+
+	<!-- Event 143: ComDev Seafolk - Goblin Rise Stronghold -->
+	<event>
+		<id>3986</id>
+		<name>Colossal Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>160</type>
+		<bundle_package>603</bundle_package>
+		<num_available>4</num_available>
+		<priority>30</priority>
+		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
+		<end_duration>20160</end_duration> <!-- 14 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3987</id>
+		<name>Super Flask Sale</name>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<portrait>essence_of_gold</portrait>
+		<type>120</type>
+		<bundle_package>612</bundle_package>
+		<num_available>240</num_available>
+		<priority>-35</priority>
+		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3988</id>
+		<name>Dual Shard Bundle</name>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<type>150</type>
+		<bundle_package>632</bundle_package>
+		<num_available>4</num_available>
+		<priority>20</priority>
+		<start_time>1783011600</start_time> <!-- Thursday, 02 July 2026 -->
+		<end_duration>20160</end_duration> <!-- 14 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3989</id>
+		<name>Starter Set</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>652</bundle_package>
+		<num_available>1</num_available>
+		<priority>-34</priority>
+		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>3990</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<type>103</type>
+		<bundle_package>672</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1781974800</start_time> <!-- Saturday, 20 June 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3991</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<type>103</type>
+		<bundle_package>672</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1782579600</start_time> <!-- Saturday, 27 June 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3992</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<type>103</type>
+		<bundle_package>672</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1783184400</start_time> <!-- Saturday, 04 July 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3993</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<type>103</type>
+		<bundle_package>672</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1783789200</start_time> <!-- Saturday, 11 July 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>3994</id>
+		<name>Premium Flask Sale</name> <!-- Super Flask -->
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<bundle_package>680</bundle_package>
+		<num_available>32</num_available>
+		<priority>45</priority>
+		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 		<hide_news>1</hide_news>
 	</event>
@@ -612,63 +624,52 @@
 		<hide_news>1</hide_news>
 	</event>
 
-	<!-- Event 141: ComDev Beast - Golden Crown Village -->
+	<!-- Event 143: ComDev Seafolk - Goblin Rise Stronghold -->
 	<event>
 		<id>9105</id>
-		<name>Golden Crown Village Consolidation</name>
-		<desc>Countdown to the consolidation all the old Classic campaign nodes in Golden Crown Village. Get your Mastery Stars before they disappear!</desc>
+		<name>Goblin Rise Stronghold Consolidation</name>
+		<desc>Countdown to the consolidation all the old Classic campaign nodes in Goblin Rise Stronghold. Get your Mastery Stars before they disappear!</desc>
 		<portrait>voidminions</portrait>
 		<banner_prefab>maintenance_Banner</banner_prefab>
 		<bundle>15</bundle>
 		<type>1</type>
-		<campaign>1177</campaign>
-		<campaign>1178</campaign>
-		<campaign>1179</campaign>
-		<campaign>1180</campaign>
-		<campaign>1181</campaign>
-		<campaign>1182</campaign>
-		<campaign>1334</campaign>
-		<campaign>1335</campaign>
-		<campaign>1361</campaign>
-		<campaign>1362</campaign>
-		<achievement_id>3382</achievement_id>
-		<achievement_id>3383</achievement_id>
-		<achievement_id>3384</achievement_id>
-		<achievement_id>3385</achievement_id>
-		<achievement_id>3386</achievement_id>
-		<achievement_id>3387</achievement_id>
-		<achievement_id>3388</achievement_id>
-		<achievement_id>3389</achievement_id>
-		<achievement_id>3390</achievement_id>
-		<achievement_id>3391</achievement_id>
-		<achievement_id>3392</achievement_id>
-		<achievement_id>3393</achievement_id>
-		<achievement_id>3394</achievement_id>
-		<achievement_id>3395</achievement_id>
-		<achievement_id>3396</achievement_id>
-		<achievement_id>3397</achievement_id>
-		<achievement_id>3398</achievement_id>
-		<achievement_id>3399</achievement_id>
-		<achievement_id>3400</achievement_id>
-		<achievement_id>3837</achievement_id>
-		<achievement_id>3838</achievement_id>
-		<achievement_id>3839</achievement_id>
-		<achievement_id>3840</achievement_id>
-		<achievement_id>3841</achievement_id>
-		<achievement_id>3842</achievement_id>
-		<achievement_id>3843</achievement_id>
-		<achievement_id>3951</achievement_id>
-		<achievement_id>3952</achievement_id>
-		<achievement_id>3953</achievement_id>
-		<achievement_id>3954</achievement_id>
-		<achievement_id>3955</achievement_id>
-		<achievement_id>3956</achievement_id>
-		<achievement_id>3957</achievement_id>
-		<achievement_id>3958</achievement_id>
-		<achievement_id>4011</achievement_id>
-		<achievement_id>4051</achievement_id>
-		<achievement_id>4064</achievement_id>
-		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
+		<campaign>1162</campaign>
+		<campaign>1163</campaign>
+		<campaign>1164</campaign>
+		<campaign>1168</campaign>
+		<campaign>1169</campaign>
+		<campaign>1170</campaign>
+		<campaign>1290</campaign>
+		<campaign>1291</campaign>
+		<achievement_id>3344</achievement_id>
+		<achievement_id>3345</achievement_id>
+		<achievement_id>3346</achievement_id>
+		<achievement_id>3347</achievement_id>
+		<achievement_id>3348</achievement_id>
+		<achievement_id>3349</achievement_id>
+		<achievement_id>3350</achievement_id>
+		<achievement_id>3351</achievement_id>
+		<achievement_id>3352</achievement_id>
+		<achievement_id>3353</achievement_id>
+		<achievement_id>3354</achievement_id>
+		<achievement_id>3355</achievement_id>
+		<achievement_id>3356</achievement_id>
+		<achievement_id>3357</achievement_id>
+		<achievement_id>3358</achievement_id>
+		<achievement_id>3359</achievement_id>
+		<achievement_id>3360</achievement_id>
+		<achievement_id>3361</achievement_id>
+		<achievement_id>3362</achievement_id>
+		<achievement_id>3694</achievement_id>
+		<achievement_id>3695</achievement_id>
+		<achievement_id>3696</achievement_id>
+		<achievement_id>3697</achievement_id>
+		<achievement_id>3698</achievement_id>
+		<achievement_id>3699</achievement_id>
+		<achievement_id>3700</achievement_id>
+		<achievement_id>4009</achievement_id>
+		<achievement_id>4032</achievement_id>
+		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 		<priority>-41</priority>
 		<hide_upcoming>1</hide_upcoming>
@@ -678,24 +679,6 @@
 	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Global Timeline Post Consolidation Lightning Nodes ID 9124-9500 -->
 	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
-
-	<!-- Event 141: ComDev Beast - Golden Crown Village -->
-	<event>
-		<id>9141</id>
-		<name>Alyel Back in Time</name>
-		<desc>A time-limited campaign in Golden Crown Village! Go with Alyel back in time.</desc>
-		<portrait>Portrait_RighteousBerserker</portrait>
-		<banner_prefab>event_024_banner</banner_prefab>
-		<bundle>92</bundle>
-		<type>1</type>
-		<campaign>10141</campaign>
-		<achievement_id>10141</achievement_id>
-		<hide_upcoming>1</hide_upcoming>
-		<hide_news>1</hide_news>
-		<priority>-42</priority>
-		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-	</event>
 
 	<!-- Event 142: ComDev Insect - Forgotten Island -->
 	<event>
@@ -715,11 +698,29 @@
 		<end_duration>40320</end_duration> <!-- 28 days -->
 	</event>
 
+	<!-- Event 143: ComDev Seafolk - Goblin Rise Stronghold -->
+	<event>
+		<id>9143</id>
+		<name>Alyel Back in Time</name>
+		<desc>A time-limited campaign in Goblin Rise Stronghold! Go with Alyel back in time.</desc>
+		<portrait>Portrait_RighteousBerserker</portrait>
+		<banner_prefab>event_024_banner</banner_prefab>
+		<bundle>92</bundle>
+		<type>1</type>
+		<campaign>10143</campaign>
+		<achievement_id>10143</achievement_id>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-42</priority>
+		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+	</event>
+
 	<!-- |||||||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Global Timeline 2x Gold Events ID 9501-10000 -->
 	<!-- |||||||||||||||||||||||||||||||||||||||||||| -->
 
-	<!-- Event 141: ComDev Beast - Golden Crown Village -->
+	<!-- Event 143: ComDev Seafolk - Goblin Rise Stronghold -->
 	<event>
 		<id>9501</id>
 		<name>Double Bounties Gold!</name>
@@ -730,7 +731,7 @@
 		<!-- <mission_gold_multiplier>2</mission_gold_multiplier> -->
 		<pvp_gold_multiplier>2</pvp_gold_multiplier>
 		<priority>600</priority>
-		<start_time>1777482000</start_time> <!-- Wednesday, 29 April 2026 -->
+		<start_time>1782320400</start_time> <!-- Wednesday, 24 June 2026 -->
 		<end_duration>1440</end_duration> <!-- 1 Day -->
 		<hide_upcoming>1</hide_upcoming>
 	</event>
@@ -744,7 +745,7 @@
 		<mission_gold_multiplier>2</mission_gold_multiplier>
 		<!-- <pvp_gold_multiplier>2</pvp_gold_multiplier> -->
 		<priority>600</priority>
-		<start_time>1779296400</start_time> <!-- Wednesday, 20 May 2026 -->
+		<start_time>1784134800</start_time> <!-- Wednesday, 15 July 2026 -->
 		<end_duration>1440</end_duration> <!-- 1 Day -->
 		<hide_upcoming>1</hide_upcoming>
 	</event>
@@ -821,23 +822,6 @@
 
 	<!-- 11001-: Old events removed. See old versions for archive. -->
 
-	<!-- Event 141: ComDev Beast - Golden Crown Village -->
-	<event>
-		<id>11141</id>
-		<name>Beast Reward Box</name>
-		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Beast card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFDodo Stones^cFFFF!</desc>
-		<asset_prefab>event_006_chance_chest_w3</asset_prefab>
-		<asset_bundle>39</asset_bundle>
-		<banner_prefab>generic_chance_Banner</banner_prefab>
-		<bundle>15</bundle>
-		<hide_upcoming>1</hide_upcoming>
-		<hide_news>1</hide_news>
-		<priority>-40</priority>
-		<event_box>65545</event_box>
-		<start_time>1776963600</start_time> <!-- Thursday, 23 April 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-	</event>
-
 	<!-- Event 142: ComDev Insect - Forgotten Island -->
 	<event>
 		<id>11142</id>
@@ -852,6 +836,23 @@
 		<priority>-40</priority>
 		<event_box>65530</event_box>
 		<start_time>1779382800</start_time> <!-- Thursday, 21 May 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+	</event>
+
+	<!-- Event 143: ComDev Seafolk - Goblin Rise Stronghold -->
+	<event>
+		<id>11143</id>
+		<name>Seafolk Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Seafolk card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFRasako Stones^cFFFF!</desc>
+		<asset_prefab>seafolk_arena_box</asset_prefab>
+		<asset_bundle>76</asset_bundle>
+		<banner_prefab>generic_chance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-40</priority>
+		<event_box>65521</event_box>
+		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 	</event>
 

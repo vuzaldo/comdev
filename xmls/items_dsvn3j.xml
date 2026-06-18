@@ -53,6 +53,7 @@
 		<icon>icon_shard_lg</icon>
 		<desc>Magical crystals that can be spent in the Store.</desc>
 		<hc>1</hc>
+		<auto_use>1</auto_use> <!-- automatically use this on init -->
 	</item>
 
 	<item>
@@ -3486,38 +3487,67 @@
 			<item id="28221" quantity="1"/> <!-- Aether -->
 		</choice>
 		<choice id="2">
-			<item id="28222" quantity="1"/> <!-- Chaos 1D and Chaos 2D -->
+			<item id="28224" quantity="1"/> <!-- Chaos 1D and Chaos 2D -->
 		</choice>
 		<choice id="3">
-			<item id="28223" quantity="1"/> <!-- Chaos 4D and Void -->
+			<item id="28225" quantity="1"/> <!-- Chaos 4D and Void -->
 		</choice>
 		<choice id="4">
-			<item id="28224" quantity="1"/> <!-- Wyld -->
+			<item id="28226" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
 
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28221</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Sparky, Spark, Sinnamun Dragon Flask</name>
+		<name>Aether Dragon Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Sparky, Spark, Sinnamun Stones; OR revert</desc>
+		<desc>A flask of flasks containing all previous Aether Dragon Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28220" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104031" quantity="1"/> <!-- Sparky -->
+			<item id="28222" quantity="1"/> <!-- Aether 2D -->
 		</choice>
 		<choice id="3">
-			<item id="104068" quantity="1"/> <!-- Spark -->
-		</choice>
-		<choice id="4">
-			<item id="104094" quantity="1"/> <!-- Sinnamun -->
+			<item id="28223" quantity="1"/> <!-- Aether 3D and 4D -->
 		</choice>
 	</item>
+		<item>
+			<id>28222</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Sparky, Sinnamun Dragon Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Sparky, Sinnamun Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28220" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104031" quantity="1"/> <!-- Sparky -->
+			</choice>
+			<choice id="3">
+				<item id="104094" quantity="1"/> <!-- Sinnamun -->
+			</choice>
+		</item>
+		<item>
+			<id>28223</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Spark, Frostbite Dragon Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Spark, Frostbite Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28220" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104068" quantity="1"/> <!-- Spark -->
+			</choice>
+			<choice id="3">
+				<item id="104105" quantity="1"/> <!-- Frostbite -->
+			</choice>
+		</item>
 	<item>
-		<id>28222</id> <!-- Note ID numbering convention for flask within flask -->
+		<id>28224</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Kalyt, Yanlong, Arezzo Dragon Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3536,7 +3566,7 @@
 		</choice>
 	</item>
 	<item>
-		<id>28223</id> <!-- Note ID numbering convention for flask within flask -->
+		<id>28225</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Lok'thor, Bluefire, Frostfire Dragon Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3555,7 +3585,7 @@
 		</choice>
 	</item>
 	<item>
-		<id>28224</id> <!-- Note ID numbering convention for flask within flask -->
+		<id>28226</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Teroxis, Korg, Predonyx Dragon Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -4009,13 +4039,10 @@
 			<item id="28271" quantity="1"/> <!-- Wyld -->
 		</choice>
 		<choice id="2">
-			<item id="28277" quantity="1"/> <!-- Chaos 1D, 4D, Ark -->
+			<item id="28277" quantity="1"/> <!-- Chaos -->
 		</choice>
 		<choice id="3">
-			<item id="28278" quantity="1"/> <!-- Chaos 2D -->
-		</choice>
-		<choice id="4">
-			<item id="28279" quantity="1"/> <!-- Aether, Void, Chaos 3D -->
+			<item id="28281" quantity="1"/> <!-- Aether and Void -->
 		</choice>
 	</item>
 
@@ -4087,10 +4114,10 @@
 				<item id="28270" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
 			<choice id="2">
-				<item id="28275" quantity="1"/> <!-- Elemental -->
+				<item id="28275" quantity="1"/> <!-- Wyld Elemental -->
 			</choice>
 			<choice id="3">
-				<item id="28276" quantity="1"/> <!-- Angel and Goblin -->
+				<item id="28276" quantity="1"/> <!-- Wyld Angel and Goblin -->
 			</choice>
 		</item>
 			<item>
@@ -4127,48 +4154,80 @@
 			</item>
 	<item>
 		<id>28277</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Umbu, Ark, Mathay Beast Flask</name>
+		<name>Chaos Beast Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Umbu, Ark, Mathay Stones; OR revert</desc>
+		<desc>A flask of flasks containing all previous Chaos Beast Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104027" quantity="1"/> <!-- Umbu -->
+			<item id="28278" quantity="1"/> <!-- Chaos 3D and 4D -->
 		</choice>
 		<choice id="3">
-			<item id="104047" quantity="1"/> <!-- Ark -->
+			<item id="28279" quantity="1"/> <!-- Chaos Mecha -->
 		</choice>
 		<choice id="4">
-			<item id="104092" quantity="1"/> <!-- Mathay -->
+			<item id="28280" quantity="1"/> <!-- Chaos -->
 		</choice>
 	</item>
+		<item>
+			<id>28278</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Umbu, Naglar Beast Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Umbu, Naglar Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28270" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104027" quantity="1"/> <!-- Umbu -->
+			</choice>
+			<choice id="3">
+				<item id="104071" quantity="1"/> <!-- Naglar -->
+			</choice>
+		</item>
+		<item>
+			<id>28279</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Mechau, Mathay Beast Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Mechau, Mathay Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28270" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104072" quantity="1"/> <!-- Mechau -->
+			</choice>
+			<choice id="3">
+				<item id="104092" quantity="1"/> <!-- Mathay -->
+			</choice>
+		</item>
+		<item>
+			<id>28280</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Foxfire, Ark, Arezzo Beast Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Foxfire, Ark, Arezzo Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28270" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104001" quantity="1"/> <!-- Foxfire -->
+			</choice>
+			<choice id="3">
+				<item id="104047" quantity="1"/> <!-- Ark -->
+			</choice>
+			<choice id="4">
+				<item id="104080" quantity="1"/> <!-- Arezzo -->
+			</choice>
+		</item>
 	<item>
-		<id>28278</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Foxfire, Mechau, Arezzo Beast Flask</name>
+		<id>28281</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Cyno, Viir, Frostbite Beast Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Foxfire, Mechau, Arezzo Stones; OR revert</desc>
-		<choice id="1">
-			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
-		<choice id="2">
-			<item id="104001" quantity="1"/> <!-- Foxfire -->
-		</choice>
-		<choice id="3">
-			<item id="104072" quantity="1"/> <!-- Mechau -->
-		</choice>
-		<choice id="4">
-			<item id="104080" quantity="1"/> <!-- Arezzo -->
-		</choice>
-	</item>
-	<item>
-		<id>28279</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Cyno, Viir, Naglar Beast Flask</name>
-		<icon>Lava_Vial</icon>
-		<bundle>17</bundle>
-		<desc>Consume to get your choice of Cyno, Viir, Naglar Stones; OR revert</desc>
+		<desc>Consume to get your choice of Cyno, Viir, Frostbite Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28270" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -4179,7 +4238,7 @@
 			<item id="104063" quantity="1"/> <!-- Viir -->
 		</choice>
 		<choice id="4">
-			<item id="104071" quantity="1"/> <!-- Naglar -->
+			<item id="104105" quantity="1"/> <!-- Frostbite -->
 		</choice>
 	</item>
 

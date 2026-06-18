@@ -2023,4 +2023,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6143</id>
+		<name>Deep Water Shelter</name>
+		<desc>All Seafolk dive beneath the waves, gaining Barrier each turn equal to 30% of their base Health while on Delay. 0-2D Seafolk also deal extra damage in their first attack equal to 20% of their base Health.</desc>
+		<banner_prefab>event_020_seafolk_quest</banner_prefab>
+		<bundle>82</bundle>
+		<effect>
+			<bg_effect>206</bg_effect>
+		</effect>
+		<start_time>1781802000</start_time> <!-- Thursday, June 18, 2026 at 17:00:00 -->
+		<end_time>1786640400</end_time> <!-- Thursday, August 13, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
