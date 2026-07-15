@@ -2037,4 +2037,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6144</id>
+		<name>Crematory Comfort</name>
+		<desc>All Undead gain Ward equal to their Delay + 5, and Scorch equal to 10% of their base Health.</desc>
+		<banner_prefab>event_007_banner</banner_prefab>
+		<bundle>42</bundle>
+		<effect>
+			<bg_effect>207</bg_effect>
+		</effect>
+		<start_time>1784221200</start_time> <!-- Thursday, July 16, 2026 at 17:00:00 -->
+		<end_time>1789059600</end_time> <!-- Thursday, September 10, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

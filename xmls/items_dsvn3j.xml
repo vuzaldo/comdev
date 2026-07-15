@@ -3454,23 +3454,52 @@
 		</item>
 	<item>
 		<id>28205</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Veric, Milax, Briareus Undead Flask</name>
+		<name>Wyld Undead Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Veric, Milax, Briareus Stones; OR revert</desc>
+		<desc>A flask of flasks containing all previous Wyld Undead Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28200" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104061" quantity="1"/> <!-- Veric -->
+			<item id="28206" quantity="1"/> <!-- Veric and Briareus -->
 		</choice>
 		<choice id="3">
-			<item id="104084" quantity="1"/> <!-- Milax -->
-		</choice>
-		<choice id="4">
-			<item id="104096" quantity="1"/> <!-- Briareus -->
+			<item id="28207" quantity="1"/> <!-- Milax and Valzombi -->
 		</choice>
 	</item>
+		<item>
+			<id>28206</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Veric, Briareus Undead Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Veric, Briareus Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28200" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104061" quantity="1"/> <!-- Veric -->
+			</choice>
+			<choice id="3">
+				<item id="104096" quantity="1"/> <!-- Briareus -->
+			</choice>
+		</item>
+		<item>
+			<id>28207</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Milax, Valzombi Undead Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Milax, Valzombi Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28200" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104084" quantity="1"/> <!-- Milax -->
+			</choice>
+			<choice id="3">
+				<item id="104106" quantity="1"/> <!-- Valzombi -->
+			</choice>
+		</item>
 
 	<!-- Dragon -->
 
@@ -3966,10 +3995,10 @@
 			<item id="28260" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28263" quantity="1"/> <!-- 1D -->
+			<item id="28263" quantity="1"/> <!-- Chaos 1D -->
 		</choice>
 		<choice id="3">
-			<item id="28264" quantity="1"/> <!-- 2D and 4D -->
+			<item id="28264" quantity="1"/> <!-- Chaos 2D and 4D -->
 		</choice>
 	</item>
 		<item>
@@ -4006,23 +4035,52 @@
 		</item>
 	<item>
 		<id>28265</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Agatha, Helvius, Barfis Insect Flask</name>
+		<name>Wyld Insect Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Agatha, Helvius, Barfis Stones; OR revert</desc>
+		<desc>A flask of flasks containing all previous Wyld Insect Reward Champion Stones</desc>
 		<choice id="1">
 			<item id="28260" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104046" quantity="1"/> <!-- Agatha -->
+			<item id="28266" quantity="1"/> <!-- Agatha and Helvius -->
 		</choice>
 		<choice id="3">
-			<item id="104073" quantity="1"/> <!-- Helvius -->
-		</choice>
-		<choice id="4">
-			<item id="104086" quantity="1"/> <!-- Barfis -->
+			<item id="28267" quantity="1"/> <!-- Barfis and Valzombi -->
 		</choice>
 	</item>
+		<item>
+			<id>28266</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Agatha, Helvius Insect Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Agatha, Helvius Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28260" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104046" quantity="1"/> <!-- Agatha -->
+			</choice>
+			<choice id="3">
+				<item id="104073" quantity="1"/> <!-- Helvius -->
+			</choice>
+		</item>
+		<item>
+			<id>28267</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Barfis, Valzombi Insect Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Barfis, Valzombi Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28260" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104086" quantity="1"/> <!-- Barfis -->
+			</choice>
+			<choice id="3">
+				<item id="104106" quantity="1"/> <!-- Valzombi -->
+			</choice>
+		</item>
 
 	<!-- Beast -->
 
