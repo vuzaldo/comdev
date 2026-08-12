@@ -1,7 +1,6 @@
 <root>
 
-	<!-- 
-		<order> Lower numbers show up at the front of tome -->
+	<!-- <order> Lower numbers show up at the front of tome -->
 
 	<hero>
 		<card_id>1</card_id>
@@ -33,7 +32,7 @@
 	
 	<hero>
 		<card_id>4</card_id>
-		<upgraded_card_id>15</upgraded_card_id> 
+		<upgraded_card_id>15</upgraded_card_id>
 		<order>111</order>
 		<rank_req>3</rank_req>
 		<gold_cost>100</gold_cost>
@@ -57,14 +56,14 @@
 		<rank_req>10</rank_req>
 		<gold_cost>1000</gold_cost>
 		<achievement_req>230</achievement_req>
-	</hero> 
+	</hero>
 	<hero>
 		<card_id>19</card_id>
 		<order>313</order>
 		<rank_req>10</rank_req>
 		<gold_cost>1000</gold_cost>
 		<achievement_req>612</achievement_req>
-	</hero> 
+	</hero>
 	
 	<hero>
 		<card_id>7</card_id>
@@ -92,6 +91,21 @@
 		<rank_req>10</rank_req>
 		<gold_cost>1000</gold_cost>
 		<achievement_req>230</achievement_req>
+	</hero>
+
+	<hero>
+		<card_id>20</card_id>
+		<order>330</order>
+		<rank_req>18</rank_req>
+		<gold_cost>400000</gold_cost>
+		<achievement_req>104</achievement_req>
+	</hero>
+	<hero>
+		<card_id>21</card_id>
+		<order>331</order>
+		<rank_req>18</rank_req>
+		<gold_cost>400000</gold_cost>
+		<achievement_req>105</achievement_req>
 	</hero>
 
 </root>

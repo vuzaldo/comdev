@@ -131,7 +131,7 @@
 		<bundle>30</bundle>
 		<display_card id="6303" level="1"/>
 		<store_item>49</store_item>
-		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
+		<start_time>1784221200</start_time> <!-- Thursday, 16 July 2026 -->
 		<end_duration>161280</end_duration> <!-- 112 Days -->
 		<hide_news>1</hide_news>
 		<priority>-45</priority>
@@ -145,125 +145,13 @@
 	<!-- 40001-: Old events removed. See old versions for archive. -->
 
 	<event>
-		<id>3995</id>
+		<id>3996</id>
 		<name>Special Event Mystery Package</name>
 		<store_item>3101</store_item>
 		<num_available>1</num_available>
 		<priority>48</priority>
-		<start_time>1784221200</start_time> <!-- Thursday, 16 July 2026 -->
+		<start_time>1786640400</start_time> <!-- Thursday, 13 August 2026 -->
 		<end_duration>20160</end_duration> <!-- 14 days -->
-	</event>
-
-	<!-- Event 143: ComDev Seafolk - Goblin Rise Stronghold -->
-	<event>
-		<id>3986</id>
-		<name>Colossal Bundle</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>160</type>
-		<bundle_package>603</bundle_package>
-		<num_available>4</num_available>
-		<priority>30</priority>
-		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
-		<end_duration>20160</end_duration> <!-- 14 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3987</id>
-		<name>Super Flask Sale</name>
-		<banner_prefab>event_020_seafolk_quest</banner_prefab>
-		<bundle>82</bundle>
-		<portrait>essence_of_gold</portrait>
-		<type>120</type>
-		<bundle_package>612</bundle_package>
-		<num_available>240</num_available>
-		<priority>-35</priority>
-		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3988</id>
-		<name>Dual Shard Bundle</name>
-		<banner_prefab>event_020_seafolk_quest</banner_prefab>
-		<bundle>82</bundle>
-		<type>150</type>
-		<bundle_package>632</bundle_package>
-		<num_available>4</num_available>
-		<priority>20</priority>
-		<start_time>1783011600</start_time> <!-- Thursday, 02 July 2026 -->
-		<end_duration>20160</end_duration> <!-- 14 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3989</id>
-		<name>Starter Set</name>
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<bundle_package>652</bundle_package>
-		<num_available>1</num_available>
-		<priority>-34</priority>
-		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
-	</event>
-	<event>
-		<id>3990</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>event_020_seafolk_quest</banner_prefab>
-		<bundle>82</bundle>
-		<type>103</type>
-		<bundle_package>672</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1781974800</start_time> <!-- Saturday, 20 June 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3991</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>event_020_seafolk_quest</banner_prefab>
-		<bundle>82</bundle>
-		<type>103</type>
-		<bundle_package>672</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1782579600</start_time> <!-- Saturday, 27 June 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3992</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>event_020_seafolk_quest</banner_prefab>
-		<bundle>82</bundle>
-		<type>103</type>
-		<bundle_package>672</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1783184400</start_time> <!-- Saturday, 04 July 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3993</id>
-		<name>Quad Premium Epic Deal!</name>
-		<banner_prefab>event_020_seafolk_quest</banner_prefab>
-		<bundle>82</bundle>
-		<type>103</type>
-		<bundle_package>672</bundle_package>
-		<num_available>1</num_available>
-		<priority>35</priority>
-		<start_time>1783789200</start_time> <!-- Saturday, 11 July 2026 -->
-		<end_duration>2880</end_duration> <!-- 2 days -->
-	</event>
-	<event>
-		<id>3994</id>
-		<name>Premium Flask Sale</name> <!-- Super Flask -->
-		<banner_prefab>Banner_GenericStore</banner_prefab>
-		<type>130</type>
-		<bundle_package>680</bundle_package>
-		<num_available>32</num_available>
-		<priority>45</priority>
-		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-		<hide_news>1</hide_news>
 	</event>
 
 	<!-- Event 144: ComDev Undead - Skyhaven -->
@@ -374,6 +262,118 @@
 		<num_available>32</num_available>
 		<priority>45</priority>
 		<start_time>1784221200</start_time> <!-- Thursday, 16 July 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+
+	<!-- Event 145: ComDev Angel - The Celestial Vault -->
+	<event>
+		<id>40009</id>
+		<name>Colossal Bundle</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>160</type>
+		<bundle_package>603</bundle_package>
+		<num_available>4</num_available>
+		<priority>30</priority>
+		<start_time>1786640400</start_time> <!-- Thursday, 13 August 2026 -->
+		<end_duration>20160</end_duration> <!-- 14 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>40010</id>
+		<name>Super Flask Sale</name>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<portrait>essence_of_gold</portrait>
+		<type>120</type>
+		<bundle_package>606</bundle_package>
+		<num_available>240</num_available>
+		<priority>-35</priority>
+		<start_time>1786640400</start_time> <!-- Thursday, 13 August 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>40011</id>
+		<name>Dual Shard Bundle</name>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<type>150</type>
+		<bundle_package>626</bundle_package>
+		<num_available>4</num_available>
+		<priority>20</priority>
+		<start_time>1787850000</start_time> <!-- Thursday, 27 August 2026 -->
+		<end_duration>20160</end_duration> <!-- 14 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>40012</id>
+		<name>Starter Set</name>
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<bundle_package>646</bundle_package>
+		<num_available>1</num_available>
+		<priority>-34</priority>
+		<start_time>1786640400</start_time> <!-- Thursday, 13 August 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+		<hide_news>1</hide_news>
+	</event>
+	<event>
+		<id>40013</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<type>103</type>
+		<bundle_package>666</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1786813200</start_time> <!-- Saturday, 15 August 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>40014</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<type>103</type>
+		<bundle_package>666</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1787418000</start_time> <!-- Saturday, 22 August 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>40015</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<type>103</type>
+		<bundle_package>666</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1788022800</start_time> <!-- Saturday, 29 August 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>40016</id>
+		<name>Quad Premium Epic Deal!</name>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<type>103</type>
+		<bundle_package>666</bundle_package>
+		<num_available>1</num_available>
+		<priority>35</priority>
+		<start_time>1788627600</start_time> <!-- Saturday, 05 September 2026 -->
+		<end_duration>2880</end_duration> <!-- 2 days -->
+	</event>
+	<event>
+		<id>40017</id>
+		<name>Premium Flask Sale</name> <!-- Super Flask -->
+		<banner_prefab>Banner_GenericStore</banner_prefab>
+		<type>130</type>
+		<bundle_package>680</bundle_package>
+		<num_available>32</num_available>
+		<priority>45</priority>
+		<start_time>1786640400</start_time> <!-- Thursday, 13 August 2026 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 		<hide_news>1</hide_news>
 	</event>
@@ -625,52 +625,52 @@
 		<hide_news>1</hide_news>
 	</event>
 
-	<!-- Event 143: ComDev Seafolk - Goblin Rise Stronghold -->
+	<!-- Event 145: ComDev Angel - The Celestial Vault -->
 	<event>
 		<id>9105</id>
-		<name>Goblin Rise Stronghold Consolidation</name>
-		<desc>Countdown to the consolidation all the old Classic campaign nodes in Goblin Rise Stronghold. Get your Mastery Stars before they disappear!</desc>
+		<name>The Celestial Vault Consolidation</name>
+		<desc>Countdown to the consolidation all the old Classic campaign nodes in The Celestial Vault. Get your Mastery Stars before they disappear!</desc>
 		<portrait>voidminions</portrait>
 		<banner_prefab>maintenance_Banner</banner_prefab>
 		<bundle>15</bundle>
 		<type>1</type>
-		<campaign>1162</campaign>
-		<campaign>1163</campaign>
-		<campaign>1164</campaign>
-		<campaign>1168</campaign>
-		<campaign>1169</campaign>
-		<campaign>1170</campaign>
-		<campaign>1290</campaign>
-		<campaign>1291</campaign>
-		<achievement_id>3344</achievement_id>
-		<achievement_id>3345</achievement_id>
-		<achievement_id>3346</achievement_id>
-		<achievement_id>3347</achievement_id>
-		<achievement_id>3348</achievement_id>
-		<achievement_id>3349</achievement_id>
-		<achievement_id>3350</achievement_id>
-		<achievement_id>3351</achievement_id>
-		<achievement_id>3352</achievement_id>
-		<achievement_id>3353</achievement_id>
-		<achievement_id>3354</achievement_id>
-		<achievement_id>3355</achievement_id>
-		<achievement_id>3356</achievement_id>
-		<achievement_id>3357</achievement_id>
-		<achievement_id>3358</achievement_id>
-		<achievement_id>3359</achievement_id>
-		<achievement_id>3360</achievement_id>
-		<achievement_id>3361</achievement_id>
-		<achievement_id>3362</achievement_id>
-		<achievement_id>3694</achievement_id>
-		<achievement_id>3695</achievement_id>
-		<achievement_id>3696</achievement_id>
-		<achievement_id>3697</achievement_id>
-		<achievement_id>3698</achievement_id>
-		<achievement_id>3699</achievement_id>
-		<achievement_id>3700</achievement_id>
-		<achievement_id>4009</achievement_id>
-		<achievement_id>4032</achievement_id>
-		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
+		<campaign>1149</campaign>
+		<campaign>1150</campaign>
+		<campaign>1151</campaign>
+		<campaign>1153</campaign>
+		<campaign>1154</campaign>
+		<campaign>1155</campaign>
+		<campaign>1292</campaign>
+		<campaign>1293</campaign>
+		<achievement_id>3304</achievement_id>
+		<achievement_id>3305</achievement_id>
+		<achievement_id>3306</achievement_id>
+		<achievement_id>3307</achievement_id>
+		<achievement_id>3308</achievement_id>
+		<achievement_id>3309</achievement_id>
+		<achievement_id>3310</achievement_id>
+		<achievement_id>3311</achievement_id>
+		<achievement_id>3312</achievement_id>
+		<achievement_id>3313</achievement_id>
+		<achievement_id>3316</achievement_id>
+		<achievement_id>3317</achievement_id>
+		<achievement_id>3318</achievement_id>
+		<achievement_id>3319</achievement_id>
+		<achievement_id>3320</achievement_id>
+		<achievement_id>3321</achievement_id>
+		<achievement_id>3322</achievement_id>
+		<achievement_id>3323</achievement_id>
+		<achievement_id>3324</achievement_id>
+		<achievement_id>3701</achievement_id>
+		<achievement_id>3702</achievement_id>
+		<achievement_id>3703</achievement_id>
+		<achievement_id>3704</achievement_id>
+		<achievement_id>3705</achievement_id>
+		<achievement_id>3706</achievement_id>
+		<achievement_id>3707</achievement_id>
+		<achievement_id>4007</achievement_id>
+		<achievement_id>4033</achievement_id>
+		<start_time>1786640400</start_time> <!-- Thursday, 13 August 2026 -->
 		<end_duration>40320</end_duration> <!-- 28 days -->
 		<priority>-41</priority>
 		<hide_upcoming>1</hide_upcoming>
@@ -680,24 +680,6 @@
 	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Global Timeline Post Consolidation Lightning Nodes ID 9124-9500 -->
 	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
-
-	<!-- Event 143: ComDev Seafolk - Goblin Rise Stronghold -->
-	<event>
-		<id>9143</id>
-		<name>Alyel Back in Time</name>
-		<desc>A time-limited campaign in Goblin Rise Stronghold! Go with Alyel back in time.</desc>
-		<portrait>Portrait_RighteousBerserker</portrait>
-		<banner_prefab>event_024_banner</banner_prefab>
-		<bundle>92</bundle>
-		<type>1</type>
-		<campaign>10143</campaign>
-		<achievement_id>10143</achievement_id>
-		<hide_upcoming>1</hide_upcoming>
-		<hide_news>1</hide_news>
-		<priority>-42</priority>
-		<start_time>1781802000</start_time> <!-- Thursday, 18 June 2026 -->
-		<end_duration>40320</end_duration> <!-- 28 days -->
-	</event>
 
 	<!-- Event 144: ComDev Undead - Skyhaven -->
 	<event>
@@ -717,11 +699,29 @@
 		<end_duration>40320</end_duration> <!-- 28 days -->
 	</event>
 
+	<!-- Event 145: ComDev Angel - The Celestial Vault -->
+	<event>
+		<id>9145</id>
+		<name>Alyel Back in Time</name>
+		<desc>A time-limited campaign in The Celestial Vault! Go with Alyel back in time.</desc>
+		<portrait>Portrait_RighteousBerserker</portrait>
+		<banner_prefab>event_024_banner</banner_prefab>
+		<bundle>92</bundle>
+		<type>1</type>
+		<campaign>10145</campaign>
+		<achievement_id>10145</achievement_id>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-42</priority>
+		<start_time>1786640400</start_time> <!-- Thursday, 13 August 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+	</event>
+
 	<!-- |||||||||||||||||||||||||||||||||||||||||||| -->
 	<!-- Global Timeline 2x Gold Events ID 9501-10000 -->
 	<!-- |||||||||||||||||||||||||||||||||||||||||||| -->
 
-	<!-- Event 143: ComDev Seafolk - Goblin Rise Stronghold -->
+	<!-- Event 145: ComDev Angel - The Celestial Vault -->
 	<event>
 		<id>9501</id>
 		<name>Double Bounties Gold!</name>
@@ -732,7 +732,7 @@
 		<!-- <mission_gold_multiplier>2</mission_gold_multiplier> -->
 		<pvp_gold_multiplier>2</pvp_gold_multiplier>
 		<priority>600</priority>
-		<start_time>1782320400</start_time> <!-- Wednesday, 24 June 2026 -->
+		<start_time>1787158800</start_time> <!-- Wednesday, 19 August 2026 -->
 		<end_duration>1440</end_duration> <!-- 1 Day -->
 		<hide_upcoming>1</hide_upcoming>
 	</event>
@@ -746,7 +746,7 @@
 		<mission_gold_multiplier>2</mission_gold_multiplier>
 		<!-- <pvp_gold_multiplier>2</pvp_gold_multiplier> -->
 		<priority>600</priority>
-		<start_time>1784134800</start_time> <!-- Wednesday, 15 July 2026 -->
+		<start_time>1788973200</start_time> <!-- Wednesday, 09 September 2026 -->
 		<end_duration>1440</end_duration> <!-- 1 Day -->
 		<hide_upcoming>1</hide_upcoming>
 	</event>
@@ -857,4 +857,20 @@
 		<end_duration>40320</end_duration> <!-- 28 days -->
 	</event>
 
+	<!-- Event 145: ComDev Angel - The Celestial Vault -->
+	<event>
+		<id>11145</id>
+		<name>Angel Reward Box</name>
+		<desc>Use Arena Coins to pull a random ^c0DFFDual Epic^cFFFF Angel card from Reward Set or an Arena Trophy! Each pull also grants ^cE7FFAcheron Stones^cFFFF!</desc>
+		<asset_prefab>angel_arena_box</asset_prefab>
+		<asset_bundle>76</asset_bundle>
+		<banner_prefab>generic_chance_Banner</banner_prefab>
+		<bundle>15</bundle>
+		<hide_upcoming>1</hide_upcoming>
+		<hide_news>1</hide_news>
+		<priority>-40</priority>
+		<event_box>65463</event_box>
+		<start_time>1786640400</start_time> <!-- Thursday, 13 August 2026 -->
+		<end_duration>40320</end_duration> <!-- 28 days -->
+	</event>
 </root>

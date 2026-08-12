@@ -233,12 +233,15 @@
 		<choice id="3">
 			<item id="2507" quantity="2"/> <!-- Inventory Expansion +25 -->
 		</choice>
+		<choice id="4">
+			<item id="21" quantity="100"/> <!-- Revert to Endgame Seals -->
+		</choice>
 	</item>
 	<item>
 		<id>26</id>
 		<name>Endgame Card Chest</name>
 		<icon>logo_gem</icon>
-		<desc>Open to get your choice of a random Premium Quad Legendary card, Premium Super Flasks; OR revert</desc>
+		<desc>Open to get your choice of a random Premium Quad Legendary card, Premium Super Flask, Primordial Flask; OR revert</desc>
 		<choice id="1">
 			<item id="22" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -249,7 +252,24 @@
 			<item id="2820" quantity="50"/> <!-- Premium Super Flask -->
 		</choice>
 		<choice id="4">
-			<item id="21" quantity="100"/> <!-- Revert to Endgame Seals -->
+			<item id="30" quantity="100"/> <!-- Primordial Flask -->
+		</choice>
+	</item>
+
+	<item>
+		<id>30</id>
+		<name>Primordial Flask</name>
+		<icon>essence_of_embersoul</icon>
+		<bundle>58</bundle>
+		<desc>Consume to get your choice of Samael, Yuriel, or Tarian Stones</desc>
+		<choice id="1">
+			<item id="104506" quantity="1"/> <!-- Samael -->
+		</choice>
+		<choice id="2">
+			<item id="104507" quantity="1"/> <!-- Yuriel -->
+		</choice>
+		<choice id="3">
+			<item id="104508" quantity="1"/> <!-- Tarian -->
 		</choice>
 	</item>
 
@@ -3024,18 +3044,18 @@
 			<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28175" quantity="1"/> <!-- 0D, 1D, 4D -->
+			<item id="28175" quantity="1"/> <!-- 0D and 1D -->
 		</choice>
 		<choice id="3">
-			<item id="28176" quantity="1"/> <!-- 2D -->
+			<item id="28176" quantity="1"/> <!-- 2D and 4D -->
 		</choice>
 	</item>
 		<item>
 			<id>28175</id> <!-- Note ID numbering convention for flask within flask -->
-			<name>Caesar, Daffdal, Bheki Frog Flask</name>
+			<name>Caesar, Bheki, Ivan Frog Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Caesar, Daffdal, Bheki Stones; OR revert</desc>
+			<desc>Consume to get your choice of Caesar, Bheki, Ivan Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
@@ -3043,18 +3063,18 @@
 				<item id="104062" quantity="1"/> <!-- Caesar -->
 			</choice>
 			<choice id="3">
-				<item id="104078" quantity="1"/> <!-- Daffdal -->
+				<item id="104098" quantity="1"/> <!-- Bheki -->
 			</choice>
 			<choice id="4">
-				<item id="104098" quantity="1"/> <!-- Bheki -->
+				<item id="104107" quantity="1"/> <!-- Ivan -->
 			</choice>
 		</item>
 		<item>
 			<id>28176</id> <!-- Note ID numbering convention for flask within flask -->
-			<name>Vasile, Sangoma Frog Flask</name>
+			<name>Vasile, Daffdal, Sangoma Frog Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Vasile, Sangoma Stones; OR revert</desc>
+			<desc>Consume to get your choice of Vasile, Daffdal, Sangoma Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28170" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
@@ -3062,6 +3082,9 @@
 				<item id="104035" quantity="1"/> <!-- Vasile -->
 			</choice>
 			<choice id="3">
+				<item id="104078" quantity="1"/> <!-- Daffdal -->
+			</choice>
+			<choice id="4">
 				<item id="104091" quantity="1"/> <!-- Sangoma -->
 			</choice>
 		</item>
@@ -7154,6 +7177,27 @@
 		<icon>book_home</icon>
 		<category>2</category>
 		<desc>Unlocks the ability to craft rewards from Expedition items!</desc>
+		<usable>0</usable>
+		<hidden>1</hidden>
+	</item>
+
+	<item>
+		<id>8031</id> <!-- This is a "receipt" item tied to market 74 and achievement 104 -->
+		<name>Midas Ultima</name>
+		<icon>crafting_recipe100</icon>
+		<bundle>58</bundle>
+		<category>2</category>
+		<desc>Unlocks Midas Ultima in the Tome of Heroes!</desc>
+		<usable>0</usable>
+		<hidden>1</hidden>
+	</item>
+	<item>
+		<id>8032</id> <!-- This is a "receipt" item tied to market 75 and achievement 105 -->
+		<name>Tome of Darkness</name>
+		<icon>crafting_recipe100</icon>
+		<bundle>58</bundle>
+		<category>2</category>
+		<desc>Unlocks Tome of Darkness in the Tome of Heroes!</desc>
 		<usable>0</usable>
 		<hidden>1</hidden>
 	</item>

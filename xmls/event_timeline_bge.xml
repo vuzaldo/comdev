@@ -2051,4 +2051,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6145</id>
+		<name>Exalted Warfare</name>
+		<desc>Angels are ready for war, gaining Legion and unrestricted Fervor equal to 10% of their base Health.</desc>
+		<banner_prefab>event_008_banner</banner_prefab>
+		<bundle>46</bundle>
+		<effect>
+			<bg_effect>150</bg_effect>
+		</effect>
+		<start_time>1786640400</start_time> <!-- Thursday, August 13, 2026 at 17:00:00 -->
+		<end_time>1791478800</end_time> <!-- Thursday, October 08, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>
