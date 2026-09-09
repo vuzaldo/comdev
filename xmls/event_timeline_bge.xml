@@ -2065,4 +2065,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6146</id>
+		<name>Extended Warranty</name>
+		<desc>All Mechas gain extra Health, Armor, and Corrosive equal to 10% of their base Health. In addition, all cards with Vengeance have it evolved to Regenerate with the same value.</desc>
+		<banner_prefab>event_030_banner</banner_prefab>
+		<bundle>107</bundle>
+		<effect>
+			<bg_effect>208</bg_effect>
+		</effect>
+		<start_time>1789059600</start_time> <!-- Thursday, September 10, 2026 at 17:00:00 -->
+		<end_time>1793898000</end_time> <!-- Thursday, November 05, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

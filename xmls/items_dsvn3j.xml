@@ -3668,26 +3668,45 @@
 			<item id="19" number="1"/>
 		</item_salvage>
 		<choice id="1">
-			<item id="28231" quantity="1"/> <!-- 1D -->
+			<item id="28231" quantity="1"/> <!-- Aether -->
 		</choice>
 		<choice id="2">
-			<item id="28232" quantity="1"/> <!-- Chaos -->
+			<item id="28232" quantity="1"/> <!-- Chaos 1D -->
 		</choice>
 		<choice id="3">
-			<item id="28233" quantity="1"/> <!-- Wyld -->
+			<item id="28233" quantity="1"/> <!-- Chaos -->
 		</choice>
 		<choice id="4">
-			<item id="28234" quantity="1"/> <!-- Aether 2D -->
+			<item id="28234" quantity="1"/> <!-- Wyld -->
 		</choice>
 	</item>
 
 	<!-- Flasks within Super Flask -->
 	<item>
 		<id>28231</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Iphelia, Ashanti, Kawosha Avian Flask</name>
+		<name>Clockoo, Kawosha, Sinnamun Avian Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Iphelia, Ashanti, Kawosha Stones; OR revert</desc>
+		<desc>Consume to get your choice of Clockoo, Kawosha, Sinnamun Stones; OR revert</desc>
+		<choice id="1">
+			<item id="28230" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="104048" quantity="1"/> <!-- Clockoo -->
+		</choice>
+		<choice id="3">
+			<item id="104082" quantity="1"/> <!-- Kawosha -->
+		</choice>
+		<choice id="4">
+			<item id="104094" quantity="1"/> <!-- Sinnamun -->
+		</choice>
+	</item>
+	<item>
+		<id>28232</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Iphelia, Ashanti, Rolo Avian Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>Consume to get your choice of Iphelia, Ashanti, Rolo Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28230" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
@@ -3698,11 +3717,11 @@
 			<item id="104059" quantity="1"/> <!-- Ashanti -->
 		</choice>
 		<choice id="4">
-			<item id="104082" quantity="1"/> <!-- Kawosha -->
+			<item id="104108" quantity="1"/> <!-- Rolo -->
 		</choice>
 	</item>
 	<item>
-		<id>28232</id> <!-- Note ID numbering convention for flask within flask -->
+		<id>28233</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Columba, Balt, Izbushka Avian Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3721,7 +3740,7 @@
 		</choice>
 	</item>
 	<item>
-		<id>28233</id> <!-- Note ID numbering convention for flask within flask -->
+		<id>28234</id> <!-- Note ID numbering convention for flask within flask -->
 		<name>Noctrus, Paloma, Gurk Avian Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
@@ -3737,22 +3756,6 @@
 		</choice>
 		<choice id="4">
 			<item id="104070" quantity="1"/> <!-- Gurk -->
-		</choice>
-	</item>
-	<item>
-		<id>28234</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Clockoo, Sinnamun Avian Flask</name>
-		<icon>Lava_Vial</icon>
-		<bundle>17</bundle>
-		<desc>Consume to get your choice of Clockoo, Sinnamun Stones; OR revert</desc>
-		<choice id="1">
-			<item id="28230" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
-		<choice id="2">
-			<item id="104048" quantity="1"/> <!-- Clockoo -->
-		</choice>
-		<choice id="3">
-			<item id="104094" quantity="1"/> <!-- Sinnamun -->
 		</choice>
 	</item>
 
