@@ -3104,13 +3104,13 @@
 			<item id="28181" quantity="1"/> <!-- Aether -->
 		</choice>
 		<choice id="2">
-			<item id="28184" quantity="1"/> <!-- Chaos -->
+			<item id="28184" quantity="1"/> <!-- Chaos 2D and Chaos 3D -->
 		</choice>
 		<choice id="3">
-			<item id="28187" quantity="1"/> <!-- Wyld 3D -->
+			<item id="28185" quantity="1"/> <!-- Wyld -->
 		</choice>
 		<choice id="4">
-			<item id="28188" quantity="1"/> <!-- Void and Yorick -->
+			<item id="28188" quantity="1"/> <!-- Void and Chaos 4D -->
 		</choice>
 	</item>
 
@@ -3171,88 +3171,91 @@
 		</item>
 	<item>
 		<id>28184</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Chaos Elemental Flask</name>
+		<name>Foxfire, Coalheart, Tethys Elemental Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>A flask of flasks containing all previous Chaos Elemental Reward Champion Stones</desc>
+		<desc>Consume to get your choice of Foxfire, Coalheart, Tethys Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="28185" quantity="1"/> <!-- Chaos 2D and Coalheart -->
+			<item id="104001" quantity="1"/> <!-- Foxfire -->
 		</choice>
 		<choice id="3">
-			<item id="28186" quantity="1"/> <!-- Chaos 3D and 4D -->
+			<item id="104024" quantity="1"/> <!-- Coalheart -->
+		</choice>
+		<choice id="4">
+			<item id="104076" quantity="1"/> <!-- Tethys -->
 		</choice>
 	</item>
-		<item>
-			<id>28185</id> <!-- Note ID numbering convention for flask within flask -->
-			<name>Foxfire, Coalheart Elemental Flask</name>
-			<icon>Lava_Vial</icon>
-			<bundle>17</bundle>
-			<desc>Consume to get your choice of Foxfire, Coalheart Stones; OR revert</desc>
-			<choice id="1">
-				<item id="28180" quantity="1"/> <!-- Go back and choose again -->
-			</choice>
-			<choice id="2">
-				<item id="104001" quantity="1"/> <!-- Foxfire -->
-			</choice>
-			<choice id="3">
-				<item id="104024" quantity="1"/> <!-- Coalheart -->
-			</choice>
-		</item>
+	<item>
+		<id>28185</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Wyld Elemental Flask</name>
+		<icon>Lava_Vial</icon>
+		<bundle>17</bundle>
+		<desc>A flask of flasks containing all previous Wyld Elemental Reward Champion Stones</desc>
+		<choice id="1">
+			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
+		</choice>
+		<choice id="2">
+			<item id="28186" quantity="1"/> <!-- Wyld 3D -->
+		</choice>
+		<choice id="3">
+			<item id="28187" quantity="1"/> <!-- Wyld 0D and 2D -->
+		</choice>
+	</item>
 		<item>
 			<id>28186</id> <!-- Note ID numbering convention for flask within flask -->
-			<name>Frostfire, Tethys Elemental Flask</name>
+			<name>Amarok, Quageye, Milax Elemental Flask</name>
 			<icon>Lava_Vial</icon>
 			<bundle>17</bundle>
-			<desc>Consume to get your choice of Frostfire, Tethys Stones; OR revert</desc>
+			<desc>Consume to get your choice of Amarok, Quageye, Milax Stones; OR revert</desc>
 			<choice id="1">
 				<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 			</choice>
 			<choice id="2">
-				<item id="104055" quantity="1"/> <!-- Frostfire -->
+				<item id="104011" quantity="1"/> <!-- Amarok -->
 			</choice>
 			<choice id="3">
-				<item id="104076" quantity="1"/> <!-- Tethys -->
+				<item id="104025" quantity="1"/> <!-- Quageye -->
+			</choice>
+			<choice id="4">
+				<item id="104084" quantity="1"/> <!-- Milax -->
+			</choice>
+		</item>
+		<item>
+			<id>28187</id> <!-- Note ID numbering convention for flask within flask -->
+			<name>Yorick, Lumis Elemental Flask</name>
+			<icon>Lava_Vial</icon>
+			<bundle>17</bundle>
+			<desc>Consume to get your choice of Yorick, Lumis Stones; OR revert</desc>
+			<choice id="1">
+				<item id="28180" quantity="1"/> <!-- Go back and choose again -->
+			</choice>
+			<choice id="2">
+				<item id="104097" quantity="1"/> <!-- Yorick -->
+			</choice>
+			<choice id="3">
+				<item id="104109" quantity="1"/> <!-- Lumis -->
 			</choice>
 		</item>
 	<item>
-		<id>28187</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Amarok, Quageye, Milax Elemental Flask</name>
+		<id>28188</id> <!-- Note ID numbering convention for flask within flask -->
+		<name>Frostfire, Viir, K'luum Elemental Flask</name>
 		<icon>Lava_Vial</icon>
 		<bundle>17</bundle>
-		<desc>Consume to get your choice of Amarok, Quageye, Milax Stones; OR revert</desc>
+		<desc>Consume to get your choice of Frostfire, Viir, K'luum Stones; OR revert</desc>
 		<choice id="1">
 			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
 		</choice>
 		<choice id="2">
-			<item id="104011" quantity="1"/> <!-- Amarok -->
+			<item id="104055" quantity="1"/> <!-- Frostfire -->
 		</choice>
 		<choice id="3">
-			<item id="104025" quantity="1"/> <!-- Quageye -->
-		</choice>
-		<choice id="4">
-			<item id="104084" quantity="1"/> <!-- Milax -->
-		</choice>
-	</item>
-	<item>
-		<id>28188</id> <!-- Note ID numbering convention for flask within flask -->
-		<name>Viir, K'luum, Yorick Elemental Flask</name>
-		<icon>Lava_Vial</icon>
-		<bundle>17</bundle>
-		<desc>Consume to get your choice of Viir, K'luum, Yorick Stones; OR revert</desc>
-		<choice id="1">
-			<item id="28180" quantity="1"/> <!-- Go back and choose again -->
-		</choice>
-		<choice id="2">
 			<item id="104063" quantity="1"/> <!-- Viir -->
 		</choice>
-		<choice id="3">
-			<item id="104075" quantity="1"/> <!-- K'luum -->
-		</choice>
 		<choice id="4">
-			<item id="104097" quantity="1"/> <!-- Yorick -->
+			<item id="104075" quantity="1"/> <!-- K'luum -->
 		</choice>
 	</item>
 

@@ -2079,4 +2079,18 @@
 		<priority>-50</priority>
 		<mission_req>64</mission_req>
 	</event>
+	<event>
+		<id>6147</id>
+		<name>Lily &#38; Actual Vampiric Spear</name>
+		<desc>All Frogs gain Vampirism and Heartseeker equal to 10% of their base Health.</desc>
+		<banner_prefab>frogsBanner</banner_prefab>
+		<bundle>25</bundle>
+		<effect>
+			<bg_effect>209</bg_effect>
+		</effect>
+		<start_time>1791478800</start_time> <!-- Thursday, October 08, 2026 at 17:00:00 -->
+		<end_time>1796317200</end_time> <!-- Thursday, December 03, 2026 at 17:00:00 -->
+		<priority>-50</priority>
+		<mission_req>64</mission_req>
+	</event>
 </root>

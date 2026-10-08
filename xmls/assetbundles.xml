@@ -2591,6 +2591,16 @@
 		<web>cardpack_event_145_unity6000_0_58_webgl.unity3d</web>
 		<standalone>test_standalone/cardpack_event_145_unity6000_0_58_standalonewindows.unity3d</standalone>
 	</asset_bundle>
+
+	<asset_bundle>
+		<id>284</id>
+		<version>13</version>
+		<ios>cardpack_event_147_unity6000_0_58_ios.unity3d</ios>
+		<android>cardpack_event_147_unity6000_0_58_android.unity3d</android>
+		<web>cardpack_event_147_unity6000_0_58_webgl.unity3d</web>
+		<standalone>test_standalone/cardpack_event_147_unity6000_0_58_standalonewindows.unity3d</standalone>
+	</asset_bundle>
+
 	<!-- Disabled since this was never finished and the bundle is empty. -->
 	<!-- New portrait packs -->
 	<!-- <asset_bundle>
@@ -2897,12 +2907,17 @@
 		<asset name="essence_of_gold" bundle="58"/>
 
 		<!-- Map Assets -->
+		<asset name="CombatBGElaria" bundle="0"/>
+		<asset name="CombatBGLuminis" bundle="0"/>
 		<asset name="CombatBGVoid" bundle="4"/>
-		<asset name="CombatBGKarthos" bundle="4"/> <!-- BG Karthos -->
-		<asset name="CombatBGEvent008" bundle="44"/> <!-- Luminis CBG -->
+		<asset name="CombatBGKarthos" bundle="4"/>
+		<asset name="CombatBGEvent002" bundle="14"/> <!-- Tarragon Peak CBG -->
+		<asset name="CombatBGEvent003" bundle="14"/> <!-- Celestial Vault CBG -->
 		<asset name="CombatBGEvent004" bundle="29"/> <!-- Dawnglow CBG -->
+		<asset name="CombatBGEvent006" bundle="29"/> <!-- Frigore CBG -->
+		<asset name="CombatBGEvent008" bundle="44"/> <!-- Luminis CBG (same as CombatBGLuminis, but worse quality) -->
 		<asset name="CombatBGRedFeatherValley" bundle="54"/>
-		<asset name="CombatBGEvent003" bundle="14"/>
+
 		<asset name="pumpkin" bundle="75"/>
 
 		<!-- Event 106: ComDev Goblin - Return to Karthos -->
